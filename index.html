@@ -117,6 +117,78 @@
       .grid { gap: 12px; }
       .card .number { font-size: 40px; }
     }
+
+    /* 2026-11-09: 고해상도/브라우저 축소 보기에서도 화면 전체를 고르게 쓰는 메인 레이아웃 */
+    @media (min-width: 901px) {
+      body {
+        min-height: 100vh;
+        min-height: 100svh;
+        display: grid;
+        grid-template-rows: auto clamp(300px,43svh,800px) minmax(min-content,1fr) auto;
+      }
+      .site-topbar { align-self: start; }
+      .hero { height: 100%; min-height: 0; }
+      .hero-inner { width: min(92vw,2160px); max-width: none; height: 100%; padding: 15px 28px; align-items: center; }
+      .hero-copy { width: min(690px,49%); }
+      main {
+        max-width: none; width: min(92vw,2160px); min-height: 0;
+        margin-inline: auto; padding: clamp(14px,2svh,40px) 28px;
+        display:flex; flex-direction:column; justify-content:center;
+        gap:clamp(12px,1.6svh,28px);
+      }
+      main > .section-head { margin: 0; }
+      .grid { gap:clamp(14px,1.2vw,28px); }
+      .card { padding: clamp(18px,1.45vw,30px); min-height: clamp(188px,16svh,250px); }
+      .card .number { font-size: clamp(39px,2.65vw,65px); }
+      .card h3 { font-size:clamp(18px,1.17vw,27px); margin-top: 12px; }
+      .card p { font-size: clamp(13px,.83vw,18px); }
+      .coming { font-size:clamp(12px,.73vw,16px); }
+      .panel {
+        margin: 0; padding-top:clamp(12px,1.4svh,24px); gap:clamp(14px,2vw,35px);
+        grid-template-columns:minmax(240px,.85fr) minmax(0,1.6fr);
+      }
+      .panel .section-head { margin: 0; }
+      .footer { align-self: stretch; }
+    }
+    /* 넓은 모니터나 브라우저 축소 보기: 글자와 카드를 물리적으로 작게 보이지 않게 확대 */
+    @media (min-width: 1600px) and (min-height: 850px) {
+      .site-topbar .nav { max-width:none; width:min(92vw,2160px); min-height:clamp(66px,5.2svh,90px); padding:14px 28px; }
+      .brand { font-size:clamp(21px,1.05vw,29px); }
+      .site-topbar .navlinks { font-size:clamp(15px,.78vw,20px); gap:clamp(14px,1vw,26px); }
+      .hero-copy { width: min(820px,49%); }
+      .eyebrow { font-size:clamp(13px,.7vw,18px); }
+      h1 { font-size:clamp(64px,4vw,113px); margin:clamp(12px,1.2svh,22px) 0; }
+      .desc { font-size:clamp(17px,.92vw,24px); line-height:1.58; }
+      .buttons { margin-top:clamp(17px,2vh,32px); gap:16px; }
+      .button { font-size:clamp(14px,.78vw,20px); padding:11px 21px; }
+      .section-head small { font-size:clamp(12px,.65vw,17px); }
+      h2 { font-size:clamp(30px,1.75vw,47px); }
+      .section-head p,.note { font-size:clamp(15px,.78vw,20px); line-height:1.6; }
+      .card { min-height:clamp(200px,16svh,275px); }
+      .panel h2 { font-size:clamp(27px,1.45vw,37px); }
+      .panel p { font-size:clamp(15px,.82vw,20px); line-height:1.6; }
+      .footer { font-size:clamp(12px,.66vw,16px); padding:12px 18px; }
+    }
+    /* 중간 높이의 PC에서도 페이지 하단까지 한 화면에 표시 */
+    @media (min-width: 901px) and (max-width: 1599px) and (min-height: 821px) {
+      body { grid-template-rows: auto 40svh minmax(min-content,1fr) auto; }
+    }
+    @media (min-width: 1600px) and (max-width: 1919px) and (min-height: 821px) and (max-height: 1100px) {
+      body { grid-template-rows: auto 39svh minmax(min-content,1fr) auto; }
+    }
+    /* 화면 높이가 낮은 PC: 전체 내용을 우선 표시하도록 사진만 조금 줄임 */
+    @media (min-width: 901px) and (max-height: 820px) {
+      body { grid-template-rows: auto clamp(230px,35svh,310px) minmax(min-content,1fr) auto; }
+      .hero-inner { padding-block:10px; }
+      .card { min-height:155px; padding:14px 20px; }
+      .card .number { font-size:34px; }
+      .card h3 { font-size:17px; margin:7px 0 5px; }
+      .card p {font-size:12px}
+      .coming { margin-top:8px; font-size:11px; padding:3px 8px; }
+      main {padding-block:10px; gap:11px;}
+      h2 {font-size:25px}
+      .panel {padding-top:9px}
+    }
   </style>
 </head>
 <body>
