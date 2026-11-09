@@ -70,6 +70,16 @@
       "src": "photos/mountain-001-a66b8fbf-85a.jpg",
       "path": "photos/mountain-001-a66b8fbf-85a.jpg",
       "createdAt": "2026-11-09T09:35:30.413Z"
+    },
+    {
+      "id": "102f96ee-6342-4d95-afec-cea603dcdfe2",
+      "group": "mountain",
+      "albumId": "m-1",
+      "title": "20230205 가리산 홍천 (52)",
+      "date": "2023-02-05",
+      "src": "photos/mountain-001-102f96ee-634.jpg",
+      "path": "photos/mountain-001-102f96ee-634.jpg",
+      "createdAt": "2026-11-09T09:35:35.192Z"
     }
   ],
   "hiddenSeedIds": []
