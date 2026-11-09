@@ -37,6 +37,8 @@
     .desc { color: #e5ecf3; max-width: 570px; font-size: clamp(15px, 2vw, 18px); }
     .buttons { display: flex; gap: 12px; flex-wrap: wrap; margin-top: 34px; }
     .button { border: 1px solid #ffffff7a; border-radius: 40px; padding: 11px 20px; font-size: 14px; font-weight: 700; background: #07101a66; }
+    .hero .buttons { gap: 9px; margin-top: 19px; }
+    .hero .buttons .button { font-size: 12px; padding: 10px 12px; white-space: nowrap; }
     .button.primary { background: #f2e5cd; color: #152233; border-color: #f2e5cd; }
     .button:hover { transform: translateY(-2px); }
     a:focus-visible { outline: 3px solid var(--accent); outline-offset: 4px; }
@@ -253,6 +255,7 @@
         <p class="desc">BAC 100대 명산과 섬&산 100을 걸으며 마주한 풍경, 산행의 길과 사진을 한곳에 모읍니다.</p>
         <div class="buttons">
           <a class="button primary" href="mountains.html">100대 명산 기록 보기</a>
+          <a class="button" href="islands.html">섬&amp;산 기록 보기</a>
           <a class="button" href="gallery.html">사진 갤러리</a>
         </div>
       </div>
@@ -262,19 +265,19 @@
     <section id="mountains" class="section-head">
       <small>HIKING ARCHIVE</small>
       <h2>산과 섬의 기록</h2>
-      <p>BAC 100대 명산의 실제 산행 기록을 연결했습니다. 산행 날짜와 지역별 목록을 확인할 수 있습니다.</p>
+      <p>BAC 100대 명산의 실제 산행 기록을 연결했습니다. BAC 인증일과 지역별 목록을 확인할 수 있습니다.</p>
     </section>
     <div class="grid">
       <a class="card card-link" href="mountains.html" aria-label="BAC 100대 명산 산행 기록 페이지로 이동">
         <span class="number">100</span>
         <h3>BAC 100대 명산</h3>
-        <p>완등한 100개 산의 지역, 높이, 산행 날짜와 산행 기록을 살펴보세요.</p>
+        <p>완등한 100개 산의 지역, 높이, BAC 인증일과 산행 기록을 살펴보세요.</p>
         <span class="coming">100대 명산 기록 열기 →</span>
       </a>
       <a class="card card-link" id="islands" href="islands.html" aria-label="섬&산 100 산행 기록 페이지로 이동">
         <span class="number">100</span>
         <h3>섬&산 100</h3>
-        <p>직접 기록한 100개 섬의 방문일, 지역과 BAC 인증지를 살펴보세요.</p>
+        <p>직접 기록한 100개 섬의 인증일, 지역과 BAC 인증지를 살펴보세요.</p>
         <span class="coming">섬&산 산행 기록 열기 →</span>
       </a>
       <a class="card card-link" id="photos" href="gallery.html" aria-label="산행 사진 갤러리 열기">

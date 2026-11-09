@@ -1,806 +1,806 @@
 {
   "version": 1,
-  "note": "산=첫 기록 산행일, 섬=기록 방문일. BAC 공식 승인 날짜와 다를 수 있음",
+  "note": "기존 산행·섬 기록의 날짜는 사용자가 확인한 BAC 인증일입니다.",
   "albums": {
     "m-1": {
       "date": "2023-02-05",
-      "kind": "first_hike"
+      "kind": "bac_certification"
     },
     "m-2": {
       "date": "2022-09-19",
-      "kind": "first_hike"
+      "kind": "bac_certification"
     },
     "m-3": {
       "date": "2021-12-04",
-      "kind": "first_hike"
+      "kind": "bac_certification"
     },
     "m-4": {
       "date": "2021-12-26",
-      "kind": "first_hike"
+      "kind": "bac_certification"
     },
     "m-5": {
       "date": "2021-02-27",
-      "kind": "first_hike"
+      "kind": "bac_certification"
     },
     "m-6": {
       "date": "2023-05-29",
-      "kind": "first_hike"
+      "kind": "bac_certification"
     },
     "m-7": {
       "date": "2023-03-26",
-      "kind": "first_hike"
+      "kind": "bac_certification"
     },
     "m-8": {
       "date": "2022-09-12",
-      "kind": "first_hike"
+      "kind": "bac_certification"
     },
     "m-9": {
       "date": "2021-10-11",
-      "kind": "first_hike"
+      "kind": "bac_certification"
     },
     "m-10": {
       "date": "2022-11-19",
-      "kind": "first_hike"
+      "kind": "bac_certification"
     },
     "m-11": {
       "date": "2021-12-25",
-      "kind": "first_hike"
+      "kind": "bac_certification"
     },
     "m-12": {
       "date": "2022-09-11",
-      "kind": "first_hike"
+      "kind": "bac_certification"
     },
     "m-13": {
       "date": "2022-04-10",
-      "kind": "first_hike"
+      "kind": "bac_certification"
     },
     "m-14": {
       "date": "2023-02-18",
-      "kind": "first_hike"
+      "kind": "bac_certification"
     },
     "m-15": {
       "date": "2021-10-17",
-      "kind": "first_hike"
+      "kind": "bac_certification"
     },
     "m-16": {
       "date": "2021-06-05",
-      "kind": "first_hike"
+      "kind": "bac_certification"
     },
     "m-17": {
       "date": "2021-06-27",
-      "kind": "first_hike"
+      "kind": "bac_certification"
     },
     "m-18": {
       "date": "2022-03-01",
-      "kind": "first_hike"
+      "kind": "bac_certification"
     },
     "m-19": {
       "date": "2021-10-23",
-      "kind": "first_hike"
+      "kind": "bac_certification"
     },
     "m-20": {
       "date": "2021-11-05",
-      "kind": "first_hike"
+      "kind": "bac_certification"
     },
     "m-21": {
       "date": "2021-10-10",
-      "kind": "first_hike"
+      "kind": "bac_certification"
     },
     "m-22": {
       "date": "2021-03-23",
-      "kind": "first_hike"
+      "kind": "bac_certification"
     },
     "m-23": {
       "date": "2021-11-07",
-      "kind": "first_hike"
+      "kind": "bac_certification"
     },
     "m-24": {
       "date": "2022-11-06",
-      "kind": "first_hike"
+      "kind": "bac_certification"
     },
     "m-25": {
       "date": "2022-01-09",
-      "kind": "first_hike"
+      "kind": "bac_certification"
     },
     "m-26": {
       "date": "2021-12-05",
-      "kind": "first_hike"
+      "kind": "bac_certification"
     },
     "m-27": {
       "date": "2022-04-01",
-      "kind": "first_hike"
+      "kind": "bac_certification"
     },
     "m-28": {
       "date": "2022-12-03",
-      "kind": "first_hike"
+      "kind": "bac_certification"
     },
     "m-29": {
       "date": "2022-10-16",
-      "kind": "first_hike"
+      "kind": "bac_certification"
     },
     "m-30": {
       "date": "2022-05-29",
-      "kind": "first_hike"
+      "kind": "bac_certification"
     },
     "m-31": {
       "date": "2022-01-09",
-      "kind": "first_hike"
+      "kind": "bac_certification"
     },
     "m-32": {
       "date": "2022-04-01",
-      "kind": "first_hike"
+      "kind": "bac_certification"
     },
     "m-33": {
       "date": "2022-06-04",
-      "kind": "first_hike"
+      "kind": "bac_certification"
     },
     "m-34": {
       "date": "2022-04-09",
-      "kind": "first_hike"
+      "kind": "bac_certification"
     },
     "m-35": {
       "date": "2023-03-26",
-      "kind": "first_hike"
+      "kind": "bac_certification"
     },
     "m-36": {
       "date": "2023-05-27",
-      "kind": "first_hike"
+      "kind": "bac_certification"
     },
     "m-37": {
       "date": "2022-06-18",
-      "kind": "first_hike"
+      "kind": "bac_certification"
     },
     "m-38": {
       "date": "2022-01-15",
-      "kind": "first_hike"
+      "kind": "bac_certification"
     },
     "m-39": {
       "date": "2021-11-28",
-      "kind": "first_hike"
+      "kind": "bac_certification"
     },
     "m-40": {
       "date": "2022-05-15",
-      "kind": "first_hike"
+      "kind": "bac_certification"
     },
     "m-41": {
       "date": "2022-06-19",
-      "kind": "first_hike"
+      "kind": "bac_certification"
     },
     "m-42": {
       "date": "2022-02-28",
-      "kind": "first_hike"
+      "kind": "bac_certification"
     },
     "m-43": {
       "date": "2023-05-28",
-      "kind": "first_hike"
+      "kind": "bac_certification"
     },
     "m-44": {
       "date": "2022-09-17",
-      "kind": "first_hike"
+      "kind": "bac_certification"
     },
     "m-45": {
       "date": "2021-11-06",
-      "kind": "first_hike"
+      "kind": "bac_certification"
     },
     "m-46": {
       "date": "2022-03-12",
-      "kind": "first_hike"
+      "kind": "bac_certification"
     },
     "m-47": {
       "date": "2022-04-02",
-      "kind": "first_hike"
+      "kind": "bac_certification"
     },
     "m-48": {
       "date": "2022-06-06",
-      "kind": "first_hike"
+      "kind": "bac_certification"
     },
     "m-49": {
       "date": "2022-02-27",
-      "kind": "first_hike"
+      "kind": "bac_certification"
     },
     "m-50": {
       "date": "2021-04-25",
-      "kind": "first_hike"
+      "kind": "bac_certification"
     },
     "m-51": {
       "date": "2023-03-04",
-      "kind": "first_hike"
+      "kind": "bac_certification"
     },
     "m-52": {
       "date": "2022-02-28",
-      "kind": "first_hike"
+      "kind": "bac_certification"
     },
     "m-53": {
       "date": "2023-07-02",
-      "kind": "first_hike"
+      "kind": "bac_certification"
     },
     "m-54": {
       "date": "2022-04-03",
-      "kind": "first_hike"
+      "kind": "bac_certification"
     },
     "m-55": {
       "date": "2023-03-25",
-      "kind": "first_hike"
+      "kind": "bac_certification"
     },
     "m-56": {
       "date": "2022-10-30",
-      "kind": "first_hike"
+      "kind": "bac_certification"
     },
     "m-57": {
       "date": "2022-10-15",
-      "kind": "first_hike"
+      "kind": "bac_certification"
     },
     "m-58": {
       "date": "2021-02-06",
-      "kind": "first_hike"
+      "kind": "bac_certification"
     },
     "m-59": {
       "date": "2023-03-24",
-      "kind": "first_hike"
+      "kind": "bac_certification"
     },
     "m-60": {
       "date": "2021-10-09",
-      "kind": "first_hike"
+      "kind": "bac_certification"
     },
     "m-61": {
       "date": "2023-03-23",
-      "kind": "first_hike"
+      "kind": "bac_certification"
     },
     "m-62": {
       "date": "2021-12-26",
-      "kind": "first_hike"
+      "kind": "bac_certification"
     },
     "m-63": {
       "date": "2023-03-12",
-      "kind": "first_hike"
+      "kind": "bac_certification"
     },
     "m-64": {
       "date": "2021-12-26",
-      "kind": "first_hike"
+      "kind": "bac_certification"
     },
     "m-65": {
       "date": "2023-03-23",
-      "kind": "first_hike"
+      "kind": "bac_certification"
     },
     "m-66": {
       "date": "2023-03-25",
-      "kind": "first_hike"
+      "kind": "bac_certification"
     },
     "m-67": {
       "date": "2022-08-28",
-      "kind": "first_hike"
+      "kind": "bac_certification"
     },
     "m-68": {
       "date": "2023-02-19",
-      "kind": "first_hike"
+      "kind": "bac_certification"
     },
     "m-69": {
       "date": "2021-04-11",
-      "kind": "first_hike"
+      "kind": "bac_certification"
     },
     "m-70": {
       "date": "2023-03-11",
-      "kind": "first_hike"
+      "kind": "bac_certification"
     },
     "m-71": {
       "date": "2022-12-04",
-      "kind": "first_hike"
+      "kind": "bac_certification"
     },
     "m-72": {
       "date": "2022-04-09",
-      "kind": "first_hike"
+      "kind": "bac_certification"
     },
     "m-73": {
       "date": "2021-02-07",
-      "kind": "first_hike"
+      "kind": "bac_certification"
     },
     "m-74": {
       "date": "2022-01-16",
-      "kind": "first_hike"
+      "kind": "bac_certification"
     },
     "m-75": {
       "date": "2023-02-11",
-      "kind": "first_hike"
+      "kind": "bac_certification"
     },
     "m-76": {
       "date": "2021-07-10",
-      "kind": "first_hike"
+      "kind": "bac_certification"
     },
     "m-77": {
       "date": "2023-02-12",
-      "kind": "first_hike"
+      "kind": "bac_certification"
     },
     "m-78": {
       "date": "2022-07-03",
-      "kind": "first_hike"
+      "kind": "bac_certification"
     },
     "m-79": {
       "date": "2021-04-11",
-      "kind": "first_hike"
+      "kind": "bac_certification"
     },
     "m-80": {
       "date": "2021-04-03",
-      "kind": "first_hike"
+      "kind": "bac_certification"
     },
     "m-81": {
       "date": "2022-08-27",
-      "kind": "first_hike"
+      "kind": "bac_certification"
     },
     "m-82": {
       "date": "2022-11-19",
-      "kind": "first_hike"
+      "kind": "bac_certification"
     },
     "m-83": {
       "date": "2022-03-06",
-      "kind": "first_hike"
+      "kind": "bac_certification"
     },
     "m-84": {
       "date": "2022-10-29",
-      "kind": "first_hike"
+      "kind": "bac_certification"
     },
     "m-85": {
       "date": "2022-02-27",
-      "kind": "first_hike"
+      "kind": "bac_certification"
     },
     "m-86": {
       "date": "2023-03-05",
-      "kind": "first_hike"
+      "kind": "bac_certification"
     },
     "m-87": {
       "date": "2021-12-25",
-      "kind": "first_hike"
+      "kind": "bac_certification"
     },
     "m-88": {
       "date": "2022-11-05",
-      "kind": "first_hike"
+      "kind": "bac_certification"
     },
     "m-89": {
       "date": "2021-04-04",
-      "kind": "first_hike"
+      "kind": "bac_certification"
     },
     "m-90": {
       "date": "2022-04-02",
-      "kind": "first_hike"
+      "kind": "bac_certification"
     },
     "m-91": {
       "date": "2021-09-25",
-      "kind": "first_hike"
+      "kind": "bac_certification"
     },
     "m-92": {
       "date": "2023-03-11",
-      "kind": "first_hike"
+      "kind": "bac_certification"
     },
     "m-93": {
       "date": "2022-03-13",
-      "kind": "first_hike"
+      "kind": "bac_certification"
     },
     "m-94": {
       "date": "2023-06-05",
-      "kind": "first_hike"
+      "kind": "bac_certification"
     },
     "m-95": {
       "date": "2021-01-26",
-      "kind": "first_hike"
+      "kind": "bac_certification"
     },
     "m-96": {
       "date": "2023-03-23",
-      "kind": "first_hike"
+      "kind": "bac_certification"
     },
     "m-97": {
       "date": "2021-09-16",
-      "kind": "first_hike"
+      "kind": "bac_certification"
     },
     "m-98": {
       "date": "2021-05-11",
-      "kind": "first_hike"
+      "kind": "bac_certification"
     },
     "m-99": {
       "date": "2022-07-02",
-      "kind": "first_hike"
+      "kind": "bac_certification"
     },
     "m-100": {
       "date": "2021-11-28",
-      "kind": "first_hike"
+      "kind": "bac_certification"
     },
     "i-1": {
       "date": "2023-10-08",
-      "kind": "island_visit"
+      "kind": "bac_certification"
     },
     "i-2": {
       "date": "2023-10-08",
-      "kind": "island_visit"
+      "kind": "bac_certification"
     },
     "i-3": {
       "date": "2026-08-13",
-      "kind": "island_visit"
+      "kind": "bac_certification"
     },
     "i-4": {
       "date": "2026-08-03",
-      "kind": "island_visit"
+      "kind": "bac_certification"
     },
     "i-5": {
       "date": "2025-12-29",
-      "kind": "island_visit"
+      "kind": "bac_certification"
     },
     "i-6": {
       "date": "2026-08-04",
-      "kind": "island_visit"
+      "kind": "bac_certification"
     },
     "i-7": {
       "date": "2025-12-28",
-      "kind": "island_visit"
+      "kind": "bac_certification"
     },
     "i-8": {
       "date": "2026-08-12",
-      "kind": "island_visit"
+      "kind": "bac_certification"
     },
     "i-9": {
       "date": "2023-10-09",
-      "kind": "island_visit"
+      "kind": "bac_certification"
     },
     "i-10": {
       "date": "2023-10-09",
-      "kind": "island_visit"
+      "kind": "bac_certification"
     },
     "i-11": {
       "date": "2026-05-03",
-      "kind": "island_visit"
+      "kind": "bac_certification"
     },
     "i-12": {
       "date": "2023-10-10",
-      "kind": "island_visit"
+      "kind": "bac_certification"
     },
     "i-13": {
       "date": "2025-08-17",
-      "kind": "island_visit"
+      "kind": "bac_certification"
     },
     "i-14": {
       "date": "2025-08-15",
-      "kind": "island_visit"
+      "kind": "bac_certification"
     },
     "i-15": {
       "date": "2024-08-16",
-      "kind": "island_visit"
+      "kind": "bac_certification"
     },
     "i-16": {
       "date": "2023-10-09",
-      "kind": "island_visit"
+      "kind": "bac_certification"
     },
     "i-17": {
       "date": "2023-10-10",
-      "kind": "island_visit"
+      "kind": "bac_certification"
     },
     "i-18": {
       "date": "2025-08-14",
-      "kind": "island_visit"
+      "kind": "bac_certification"
     },
     "i-19": {
       "date": "2023-10-01",
-      "kind": "island_visit"
+      "kind": "bac_certification"
     },
     "i-20": {
       "date": "2023-10-01",
-      "kind": "island_visit"
+      "kind": "bac_certification"
     },
     "i-21": {
       "date": "2023-10-03",
-      "kind": "island_visit"
+      "kind": "bac_certification"
     },
     "i-22": {
       "date": "2023-09-30",
-      "kind": "island_visit"
+      "kind": "bac_certification"
     },
     "i-23": {
       "date": "2023-10-02",
-      "kind": "island_visit"
+      "kind": "bac_certification"
     },
     "i-24": {
       "date": "2025-08-09",
-      "kind": "island_visit"
+      "kind": "bac_certification"
     },
     "i-25": {
       "date": "2025-08-09",
-      "kind": "island_visit"
+      "kind": "bac_certification"
     },
     "i-26": {
       "date": "2023-10-04",
-      "kind": "island_visit"
+      "kind": "bac_certification"
     },
     "i-27": {
       "date": "2023-10-04",
-      "kind": "island_visit"
+      "kind": "bac_certification"
     },
     "i-28": {
       "date": "2026-05-24",
-      "kind": "island_visit"
+      "kind": "bac_certification"
     },
     "i-29": {
       "date": "2025-08-05",
-      "kind": "island_visit"
+      "kind": "bac_certification"
     },
     "i-30": {
       "date": "2024-08-07",
-      "kind": "island_visit"
+      "kind": "bac_certification"
     },
     "i-31": {
       "date": "2024-08-08",
-      "kind": "island_visit"
+      "kind": "bac_certification"
     },
     "i-32": {
       "date": "2024-08-09",
-      "kind": "island_visit"
+      "kind": "bac_certification"
     },
     "i-33": {
       "date": "2024-08-10",
-      "kind": "island_visit"
+      "kind": "bac_certification"
     },
     "i-34": {
       "date": "2024-08-10",
-      "kind": "island_visit"
+      "kind": "bac_certification"
     },
     "i-35": {
       "date": "2025-05-05",
-      "kind": "island_visit"
+      "kind": "bac_certification"
     },
     "i-36": {
       "date": "2025-05-04",
-      "kind": "island_visit"
+      "kind": "bac_certification"
     },
     "i-37": {
       "date": "2025-01-27",
-      "kind": "island_visit"
+      "kind": "bac_certification"
     },
     "i-38": {
       "date": "2024-09-19",
-      "kind": "island_visit"
+      "kind": "bac_certification"
     },
     "i-39": {
       "date": "2025-01-27",
-      "kind": "island_visit"
+      "kind": "bac_certification"
     },
     "i-40": {
       "date": "2026-09-22",
-      "kind": "island_visit"
+      "kind": "bac_certification"
     },
     "i-41": {
       "date": "2026-09-23",
-      "kind": "island_visit"
+      "kind": "bac_certification"
     },
     "i-42": {
       "date": "2025-08-07",
-      "kind": "island_visit"
+      "kind": "bac_certification"
     },
     "i-43": {
       "date": "2025-08-06",
-      "kind": "island_visit"
+      "kind": "bac_certification"
     },
     "i-44": {
       "date": "2024-06-09",
-      "kind": "island_visit"
+      "kind": "bac_certification"
     },
     "i-45": {
       "date": "2024-06-08",
-      "kind": "island_visit"
+      "kind": "bac_certification"
     },
     "i-46": {
       "date": "2024-10-01",
-      "kind": "island_visit"
+      "kind": "bac_certification"
     },
     "i-47": {
       "date": "2024-10-05",
-      "kind": "island_visit"
+      "kind": "bac_certification"
     },
     "i-48": {
       "date": "2024-10-04",
-      "kind": "island_visit"
+      "kind": "bac_certification"
     },
     "i-49": {
       "date": "2024-09-18",
-      "kind": "island_visit"
+      "kind": "bac_certification"
     },
     "i-50": {
       "date": "2024-08-10",
-      "kind": "island_visit"
+      "kind": "bac_certification"
     },
     "i-51": {
       "date": "2024-08-11",
-      "kind": "island_visit"
+      "kind": "bac_certification"
     },
     "i-52": {
       "date": "2024-08-11",
-      "kind": "island_visit"
+      "kind": "bac_certification"
     },
     "i-53": {
       "date": "2024-09-18",
-      "kind": "island_visit"
+      "kind": "bac_certification"
     },
     "i-54": {
       "date": "2026-05-05",
-      "kind": "island_visit"
+      "kind": "bac_certification"
     },
     "i-55": {
       "date": "2025-11-15",
-      "kind": "island_visit"
+      "kind": "bac_certification"
     },
     "i-56": {
       "date": "2025-11-16",
-      "kind": "island_visit"
+      "kind": "bac_certification"
     },
     "i-57": {
       "date": "2024-08-09",
-      "kind": "island_visit"
+      "kind": "bac_certification"
     },
     "i-58": {
       "date": "2024-10-03",
-      "kind": "island_visit"
+      "kind": "bac_certification"
     },
     "i-59": {
       "date": "2024-08-07",
-      "kind": "island_visit"
+      "kind": "bac_certification"
     },
     "i-60": {
       "date": "2024-08-08",
-      "kind": "island_visit"
+      "kind": "bac_certification"
     },
     "i-61": {
       "date": "2024-10-03",
-      "kind": "island_visit"
+      "kind": "bac_certification"
     },
     "i-62": {
       "date": "2024-08-07",
-      "kind": "island_visit"
+      "kind": "bac_certification"
     },
     "i-63": {
       "date": "2021-03-22",
-      "kind": "island_visit"
+      "kind": "bac_certification"
     },
     "i-64": {
       "date": "2024-10-02",
-      "kind": "island_visit"
+      "kind": "bac_certification"
     },
     "i-65": {
       "date": "2026-06-29",
-      "kind": "island_visit"
+      "kind": "bac_certification"
     },
     "i-66": {
       "date": "2023-06-07",
-      "kind": "island_visit"
+      "kind": "bac_certification"
     },
     "i-67": {
       "date": "2025-01-26",
-      "kind": "island_visit"
+      "kind": "bac_certification"
     },
     "i-68": {
       "date": "2025-01-26",
-      "kind": "island_visit"
+      "kind": "bac_certification"
     },
     "i-69": {
       "date": "2025-01-26",
-      "kind": "island_visit"
+      "kind": "bac_certification"
     },
     "i-70": {
       "date": "2025-01-26",
-      "kind": "island_visit"
+      "kind": "bac_certification"
     },
     "i-71": {
       "date": "2023-09-10",
-      "kind": "island_visit"
+      "kind": "bac_certification"
     },
     "i-72": {
       "date": "2023-09-10",
-      "kind": "island_visit"
+      "kind": "bac_certification"
     },
     "i-73": {
       "date": "2023-05-03",
-      "kind": "island_visit"
+      "kind": "bac_certification"
     },
     "i-74": {
       "date": "2023-05-04",
-      "kind": "island_visit"
+      "kind": "bac_certification"
     },
     "i-75": {
       "date": "2023-09-10",
-      "kind": "island_visit"
+      "kind": "bac_certification"
     },
     "i-76": {
       "date": "2023-12-03",
-      "kind": "island_visit"
+      "kind": "bac_certification"
     },
     "i-77": {
       "date": "2023-09-10",
-      "kind": "island_visit"
+      "kind": "bac_certification"
     },
     "i-78": {
       "date": "2023-12-09",
-      "kind": "island_visit"
+      "kind": "bac_certification"
     },
     "i-79": {
       "date": "2023-12-09",
-      "kind": "island_visit"
+      "kind": "bac_certification"
     },
     "i-80": {
       "date": "2023-12-30",
-      "kind": "island_visit"
+      "kind": "bac_certification"
     },
     "i-81": {
       "date": "2023-12-30",
-      "kind": "island_visit"
+      "kind": "bac_certification"
     },
     "i-82": {
       "date": "2024-05-05",
-      "kind": "island_visit"
+      "kind": "bac_certification"
     },
     "i-83": {
       "date": "2023-12-03",
-      "kind": "island_visit"
+      "kind": "bac_certification"
     },
     "i-84": {
       "date": "2023-12-03",
-      "kind": "island_visit"
+      "kind": "bac_certification"
     },
     "i-85": {
       "date": "2024-09-16",
-      "kind": "island_visit"
+      "kind": "bac_certification"
     },
     "i-86": {
       "date": "2023-06-11",
-      "kind": "island_visit"
+      "kind": "bac_certification"
     },
     "i-87": {
       "date": "2023-06-10",
-      "kind": "island_visit"
+      "kind": "bac_certification"
     },
     "i-88": {
       "date": "2024-03-16",
-      "kind": "island_visit"
+      "kind": "bac_certification"
     },
     "i-89": {
       "date": "2024-06-07",
-      "kind": "island_visit"
+      "kind": "bac_certification"
     },
     "i-90": {
       "date": "2024-05-06",
-      "kind": "island_visit"
+      "kind": "bac_certification"
     },
     "i-91": {
       "date": "2024-06-06",
-      "kind": "island_visit"
+      "kind": "bac_certification"
     },
     "i-92": {
       "date": "2024-03-03",
-      "kind": "island_visit"
+      "kind": "bac_certification"
     },
     "i-93": {
       "date": "2024-03-02",
-      "kind": "island_visit"
+      "kind": "bac_certification"
     },
     "i-94": {
       "date": "2024-03-02",
-      "kind": "island_visit"
+      "kind": "bac_certification"
     },
     "i-95": {
       "date": "2023-12-10",
-      "kind": "island_visit"
+      "kind": "bac_certification"
     },
     "i-96": {
       "date": "2024-03-17",
-      "kind": "island_visit"
+      "kind": "bac_certification"
     },
     "i-97": {
       "date": "2024-03-03",
-      "kind": "island_visit"
+      "kind": "bac_certification"
     },
     "i-98": {
       "date": "2023-06-04",
-      "kind": "island_visit"
+      "kind": "bac_certification"
     },
     "i-99": {
       "date": "2023-06-02",
-      "kind": "island_visit"
+      "kind": "bac_certification"
     },
     "i-100": {
       "date": "2025-01-25",
-      "kind": "island_visit"
+      "kind": "bac_certification"
     }
   }
 }

@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="description" content="BAC 명산100 완등 기록. 100개 산, 산행일과 코스를 한눈에 모은 개인 산행 아카이브.">
+<meta name="description" content="BAC 명산100 완등 기록. 100개 산, 인증일과 코스를 한눈에 모은 개인 산행 아카이브.">
 <title>BAC 명산100 | 100개의 산과 섬</title>
 <style>
 :root{color-scheme:dark;--bg:#071421;--panel:#102235;--panel2:#142b41;--text:#ecf3f7;--muted:#acc0ce;--line:#30445a;--gold:#eccd8a;--blue:#92c6dc;}
@@ -37,7 +37,8 @@ input::placeholder{color:#a5b9c6}
 .card:hover{transform:translateY(-2px);border-color:var(--gold)}
 .card:focus-visible,button:focus-visible,input:focus-visible,select:focus-visible,a:focus-visible{outline:3px solid var(--gold);outline-offset:3px}
 .card .id{font:normal 25px Georgia,serif;color:var(--gold);margin-bottom:13px}
-.card h2{font-size:22px;line-height:1.3;letter-spacing:-.04em;margin:0 0 7px}
+.card h2{display:flex;flex-wrap:wrap;align-items:baseline;column-gap:12px;row-gap:2px;font-size:22px;line-height:1.3;letter-spacing:-.04em;margin:0 0 7px}
+.cert-inline{color:#ebca84;font-size:12px;white-space:nowrap;font-weight:650;letter-spacing:0}
 .card p{color:#b8cbd7;font-size:13px;margin:0 0 16px}
 .card .small{margin-top:auto;display:flex;flex-wrap:wrap;gap:6px}
 .pill{font-size:11px;padding:4px 9px;border:1px solid #56758c;border-radius:99px;color:#dce9ef}
@@ -159,12 +160,12 @@ function render(){
  result.forEach(m=>{
    const card=asEl('button',null,'card');card.type='button';card.setAttribute('aria-label',m.name+' 산행 기록 '+m.visits.length+'회 자세히 보기');
    card.append(asEl('span',String(m.no).padStart(3,'0'),'id'));
-   card.append(asEl('h2',m.name));
+   const heading=asEl('h2',m.name);const certifiedOn=m.visits.map(v=>v.date).filter(Boolean).sort()[0];if(certifiedOn)heading.append(asEl('span','인증일 '+showDate(certifiedOn),'cert-inline'));card.append(heading);
    card.append(asEl('p',m.region+' · '+formatHeight(m.height)));
    const small=asEl('div',null,'small');
    small.append(asEl('span','인증완료','pill good'));
    small.append(asEl('span','산행 '+m.visits.length+'회','pill'));
-   small.append(asEl('span','최근 '+showDate(m.visits[0]?.date),'pill'));
+   small.append(asEl('span','BAC 인증완료','pill'));
    card.append(small);card.addEventListener('click',()=>showDetails(m));cards.append(card);
  });
  count.textContent='검색 결과 '+result.length+'개 산';
