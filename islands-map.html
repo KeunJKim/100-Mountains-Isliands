@@ -34,4 +34,5 @@ function selectItem(i){const d=data[i];rows.forEach((row,j)=>row.setAttribute('a
 const q=encodeURIComponent(d.query);document.getElementById('naver').href='https://map.naver.com/p/search/'+q;document.getElementById('google').href='https://www.google.com/maps/search/?api=1&query='+q;
 const area=d.region.includes('·')?null:regions[d.region];if(area){document.querySelector('.mapbox iframe').src='https://www.openstreetmap.org/export/embed.html?bbox='+area.join('%2C')+'&layer=mapnik';document.getElementById('mapcaption').textContent=d.region+' 지역 지도 · 선택된 인증지의 정확한 위치를 표시한 지도는 아닙니다.'}else{document.querySelector('.mapbox iframe').src='https://www.openstreetmap.org/export/embed.html?bbox=124.0%2C32.8%2C132.6%2C39.3&layer=mapnik';document.getElementById('mapcaption').textContent='전국 지도 · 복합 지역은 정확한 위치를 네이버 지도로 확인하세요'}}
 rows.forEach((row,i)=>row.addEventListener('click',()=>selectItem(i)));
-</script></body></html>
+</script><script src="site-extras.js"></script>
+</body></html>

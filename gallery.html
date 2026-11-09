@@ -77,4 +77,5 @@ $('upload').addEventListener('click',async()=>{if(!ownerToken){status('upload-st
 async function deletePhoto(photo){if(!ownerToken){status('auth-status','먼저 관리자 인증을 해 주세요.');toggleManager(true);return}const label=photo.title||'사진';const warn=photo.builtIn?' (기본 사진은 목록에서만 숨겨지며 HTML 파일 안의 원본은 그대로 남습니다.)':'';if(!window.confirm('‘'+label+'’ 사진을 공개 갤러리에서 삭제하시겠습니까?'+warn))return;try{if(photo.builtIn){await saveManifest(v=>({...v,hiddenSeedIds:[...new Set([...v.hiddenSeedIds,photo.id])]}),'Hide original hiking photo');status('auth-status','기본 사진을 공개 갤러리에서 숨겼습니다.')}else{await saveManifest(v=>({...v,photos:v.photos.filter(x=>x.id!==photo.id)}),'Remove hiking photo metadata');if(photo.path){try{const f=await apiFetch(photo.path);await apiFetch(photo.path,'DELETE',{message:'Delete hiking photo: '+label,branch:BRANCH,sha:f.sha});status('auth-status','사진과 원본 파일을 삭제했습니다.')}catch(e){status('auth-status','사진 목록에서는 삭제됐지만 원본 파일 정리에 실패했습니다: '+e.message)}}}}catch(e){status('auth-status','삭제 실패: '+e.message)}}
 if(new URLSearchParams(location.search).has('manage'))toggleManager(true);
 init();
-</script></body></html>
+</script><script src="site-extras.js"></script>
+</body></html>
