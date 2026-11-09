@@ -56,27 +56,42 @@
       .hero-copy { width: 100%; padding: 20px 18px; border-radius: 18px; background: rgba(3,12,22,.53); }
       h1 { font-size: clamp(47px, 10vw, 70px); }
     }
+
+    /* 상단 메뉴: 산행 페이지를 스크롤해도 항상 위에 표시 */
+    .site-topbar { position: sticky; top: 0; z-index: 1000; background: rgba(7,16,26,.97); border-bottom: 1px solid rgba(255,255,255,.18); box-shadow: 0 8px 28px rgba(0,0,0,.16); backdrop-filter: blur(14px); }
+    .site-topbar .nav { padding: 15px 26px; min-height: 65px; }
+    .site-topbar .navlinks { gap: 11px 18px; font-size: 13px; align-items: center; }
+    .site-topbar .navlinks a { white-space: nowrap; }
+    .site-topbar .navlinks a:hover { color: #d9bf87; }
+    #blog,#mountains { scroll-margin-top: 90px; }
+    @media (max-width: 900px) { .site-topbar .nav { align-items: flex-start; flex-direction: column; gap: 10px; padding: 12px 17px; } .site-topbar .navlinks { gap: 8px 14px; line-height: 1.7; } }
+    @media (max-width: 560px) { .site-topbar .navlinks { display: flex; flex-wrap: nowrap; overflow-x: auto; scrollbar-width: thin; max-width: calc(100vw - 34px); width: 100%; padding-bottom: 4px; } .site-topbar .navlinks a { flex: 0 0 auto; } .hero { min-height: 76vh; } }
   </style>
 </head>
 <body>
-  <header class="hero" id="top">
-    <nav class="nav" aria-label="메뉴">
-      <a class="brand" href="#top">100개의 <span>산과 섬</span></a>
+
+  <div class="site-topbar">
+    <nav class="nav" aria-label="상단 메뉴">
+      <a class="brand" href="./">100개의 <span>산과 섬</span></a>
       <div class="navlinks">
         <a href="mountains.html">100대 명산</a>
+        <a href="mountains-map.html">100대 명산 지도</a>
         <a href="islands.html">섬&산 100</a>
-        <a href="#photos">사진 기록</a>
+        <a href="islands-map.html">섬&산 100 지도</a>
+        <a href="gallery.html">사진 기록</a>
         <a href="#blog">블로그 연결</a>
       </div>
     </nav>
-    <div class="hero-inner">
+  </div>
+  <header class="hero" id="top">
+<div class="hero-inner">
       <div class="hero-copy">
         <div class="eyebrow">Mountain · Island · Photography</div>
         <h1>산과 섬,<br>그 길의 기록</h1>
         <p class="desc">BAC 100대 명산과 섬&산 100을 걸으며 마주한 풍경, 산행의 길과 사진을 한곳에 모읍니다.</p>
         <div class="buttons">
           <a class="button primary" href="mountains.html">100대 명산 기록 보기</a>
-          <a class="button" href="#photos">사진 갤러리</a>
+          <a class="button" href="gallery.html">사진 갤러리</a>
         </div>
       </div>
     </div>
@@ -100,12 +115,12 @@
         <p>직접 기록한 100개 섬의 방문일, 지역과 BAC 인증지를 살펴보세요.</p>
         <span class="coming">섬&산 산행 기록 열기 →</span>
       </a>
-      <article class="card" id="photos">
+      <a class="card card-link" id="photos" href="gallery.html" aria-label="산행 사진 갤러리 열기">
         <span class="number">PHOTO</span>
         <h3>산행 사진 갤러리</h3>
-        <p>직접 촬영한 사진을 전경 중심으로 감상하는 공간입니다.</p>
-        <span class="coming">사진 업로드 준비 중</span>
-      </article>
+        <p>직접 촬영한 산악 사진을 큰 화면으로 감상해 보세요.</p>
+        <span class="coming">산행 사진 보기 →</span>
+      </a>
     </div>
     <section class="panel" id="blog">
       <div class="section-head"><small>CONNECT</small><h2>네이버 블로그와 연결</h2></div>
