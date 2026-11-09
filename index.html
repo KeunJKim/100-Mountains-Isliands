@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="BAC 100대 명산과 섬&산 100, 산행과 사진의 기록을 모으는 개인 아카이브입니다.">
+  <title>100개의 산과 섬 | 산행 사진 기록</title>
+  <style>
+    :root { color-scheme: dark; --bg: #07101a; --text: #f5f7f9; --muted: #c6d2dc; --accent: #d9bf87; }
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body { margin: 0; font-family: "Malgun Gothic", "Apple SD Gothic Neo", "Noto Sans KR", sans-serif; background: var(--bg); color: var(--text); line-height: 1.7; }
+    a { color: inherit; text-decoration: none; }
+    .hero { min-height: 92vh; isolation: isolate; position: relative; overflow: hidden; background: linear-gradient(180deg, #416891 0%, #7494ab 37%, #394d63 70%, #07101a 100%); }
+    .hero::before { content: ""; position: absolute; z-index: -1; inset: 0; background: linear-gradient(180deg, rgba(8,15,27,.08) 15%, rgba(4,10,17,.28) 52%, #07101a 100%), url('images/hero.jpg') center center / cover no-repeat; }
+    /* images/hero.jpg를 올리면 실제 촬영 사진으로 배경이 교체됩니다. */
+    .mountain { position: absolute; z-index: -1; left: 0; right: 0; bottom: 0; height: 46%; background: #172536; clip-path: polygon(0 67%,11% 45%,20% 59%,34% 27%,44% 53%,55% 20%,65% 43%,77% 14%,89% 40%,100% 23%,100% 100%,0 100%); opacity: .62; }
+    .mountain::after { content: ""; position: absolute; inset: 0; background: linear-gradient(0deg, #07101a, transparent); }
+    .nav { max-width: 1200px; margin: auto; padding: 25px 26px; display: flex; align-items: center; justify-content: space-between; gap: 20px; }
+    .brand { letter-spacing: .04em; font-weight: 800; font-size: 19px; white-space: nowrap; }
+    .brand span { color: var(--accent); }
+    .navlinks { display: flex; flex-wrap: wrap; gap: 20px; font-size: 14px; color: #ebf0f6; }
+    .navlinks a:hover { color: var(--accent); }
+    .hero-inner { max-width: 1200px; padding: 18vh 26px 140px; margin: auto; }
+    .eyebrow { color: #f6daa3; letter-spacing: .25em; text-transform: uppercase; font-size: 13px; font-weight: 700; }
+    h1 { font-size: clamp(52px, 10vw, 120px); line-height: 1.1; letter-spacing: -.055em; margin: 18px 0 24px; font-weight: 750; }
+    .desc { color: #e5ecf3; max-width: 570px; font-size: clamp(15px, 2vw, 18px); }
+    .buttons { display: flex; gap: 12px; flex-wrap: wrap; margin-top: 34px; }
+    .button { border: 1px solid #ffffff7a; border-radius: 40px; padding: 11px 20px; font-size: 14px; font-weight: 700; background: #07101a66; }
+    .button.primary { background: #f2e5cd; color: #152233; border-color: #f2e5cd; }
+    .button:hover { transform: translateY(-2px); }
+    main { max-width: 1200px; margin: auto; padding: 80px 26px 100px; }
+    .section-head { margin-bottom: 28px; }
+    .section-head small { color: var(--accent); letter-spacing: .2em; }
+    h2 { font-size: clamp(28px, 4vw, 42px); margin: 5px 0 8px; letter-spacing: -.04em; }
+    .section-head p, .note { color: #acbdca; }
+    .grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 18px; }
+    .card { padding: 34px 26px; min-height: 240px; border: 1px solid #ffffff24; background: linear-gradient(145deg, #192939 0%, #0a1623 100%); border-radius: 14px; }
+    .card .number { display: block; color: var(--accent); font-family: Georgia, serif; font-size: 52px; line-height: 1.1; }
+    .card h3 { font-size: 22px; margin: 16px 0 6px; }
+    .card p { color: #aebfcb; font-size: 14px; margin: 0; }
+    .coming { color: #d6c5a9; font-size: 12px; margin-top: 22px; display: inline-block; border: 1px solid #d6c5a95c; border-radius: 30px; padding: 5px 10px; }
+    .panel { margin-top: 68px; border-top: 1px solid #ffffff2b; padding-top: 42px; }
+    .panel p { color: #b6c4cf; max-width: 780px; }
+    .footer { border-top: 1px solid #ffffff21; text-align: center; padding: 27px; color: #8295a4; font-size: 12px; }
+    @media (max-width: 720px) { .grid { grid-template-columns: 1fr; } .nav { flex-direction: column; align-items: flex-start; } .navlinks { gap: 12px; } .hero-inner { padding-top: 13vh; } }
+  </style>
+</head>
+<body>
+  <header class="hero" id="top">
+    <div class="mountain" aria-hidden="true"></div>
+    <nav class="nav" aria-label="메뉴">
+      <a class="brand" href="#top">100개의 <span>산과 섬</span></a>
+      <div class="navlinks">
+        <a href="#mountains">100대 명산</a>
+        <a href="#islands">섬&산 100</a>
+        <a href="#photos">사진 기록</a>
+        <a href="#blog">블로그 연결</a>
+      </div>
+    </nav>
+    <div class="hero-inner">
+      <div class="eyebrow">Mountain · Island · Photography</div>
+      <h1>산과 섬,<br>그 길의 기록</h1>
+      <p class="desc">BAC 100대 명산과 섬&산 100을 걸으며 마주한 풍경, 산행의 길과 사진을 한곳에 모읍니다.</p>
+      <div class="buttons">
+        <a class="button primary" href="#mountains">산행 기록 살펴보기</a>
+        <a class="button" href="#photos">사진 갤러리</a>
+      </div>
+    </div>
+  </header>
+  <main>
+    <section id="mountains" class="section-head">
+      <small>HIKING ARCHIVE</small>
+      <h2>산과 섬의 기록</h2>
+      <p>먼저 홈페이지 틀을 만들었습니다. 엑셀 산행 목록과 직접 촬영한 사진을 연결하면 상세 페이지가 채워집니다.</p>
+    </section>
+    <div class="grid">
+      <article class="card">
+        <span class="number">100</span>
+        <h3>BAC 100대 명산</h3>
+        <p>산행일, 코스, 정상 고도, 거리와 현장 사진을 정리합니다.</p>
+        <span class="coming">목록 연결 준비 중</span>
+      </article>
+      <article class="card" id="islands">
+        <span class="number">100</span>
+        <h3>섬&산 100</h3>
+        <p>섬으로 향하는 여정과 해안 능선, 산행 기록을 모읍니다.</p>
+        <span class="coming">목록 연결 준비 중</span>
+      </article>
+      <article class="card" id="photos">
+        <span class="number">PHOTO</span>
+        <h3>산행 사진 갤러리</h3>
+        <p>직접 촬영한 사진을 전경 중심으로 감상하는 공간입니다.</p>
+        <span class="coming">사진 업로드 준비 중</span>
+      </article>
+    </div>
+    <section class="panel" id="blog">
+      <div class="section-head"><small>CONNECT</small><h2>네이버 블로그와 연결</h2></div>
+      <p>각 산의 상세 페이지에서 해당 네이버 블로그 산행기로 이동하는 링크를 추가할 예정입니다. 블로그 글 주소가 준비되면 이 영역과 산행별 상세페이지에 연결할 수 있습니다.</p>
+    </section>
+  </main>
+  <footer class="footer">© 2026 100개의 산과 섬 · 개인 산행 아카이브</footer>
+</body>
+</html>
