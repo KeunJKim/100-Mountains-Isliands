@@ -130,6 +130,16 @@
       "src": "photos/mountain-005-53cc4f52-e01.jpg",
       "path": "photos/mountain-005-53cc4f52-e01.jpg",
       "createdAt": "2026-11-09T10:08:40.886Z"
+    },
+    {
+      "id": "6933e4d3-297b-42fd-910e-3b12f1fa2068",
+      "group": "mountain",
+      "albumId": "m-5",
+      "title": "20210227(가지산) (25)",
+      "date": "2021-02-27",
+      "src": "photos/mountain-005-6933e4d3-297.jpg",
+      "path": "photos/mountain-005-6933e4d3-297.jpg",
+      "createdAt": "2026-11-09T10:08:45.134Z"
     }
   ],
   "hiddenSeedIds": []
