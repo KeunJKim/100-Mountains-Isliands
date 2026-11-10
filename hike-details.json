@@ -15,6 +15,21 @@
       "notes": "",
       "blogUrl": "",
       "updatedAt": "2026-11-10T13:20:04.278Z"
+    },
+    "5": {
+      "hikeDate": "2026-07-12",
+      "route": "석남터널-중봉-정상-중봉-원점복귀",
+      "distanceKm": 5,
+      "duration": "3시간30분",
+      "summitElevationM": 1240,
+      "elevationGainM": "",
+      "start": "석남 터널",
+      "parking": "석남 터널 밀양방향",
+      "difficulty": "보통",
+      "weather": "여름 약간 더움",
+      "notes": "",
+      "blogUrl": "",
+      "updatedAt": "2026-11-10T13:26:31.911Z"
     }
   },
   "islands": {}
