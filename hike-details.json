@@ -1,5 +1,21 @@
 {
   "version": 1,
-  "mountains": {},
+  "mountains": {
+    "1": {
+      "hikeDate": "2023-02-05",
+      "route": "제2주차장-가삼고개-정상-무쇠말재-제2주차장",
+      "distanceKm": 6.8,
+      "duration": "3시간30분",
+      "summitElevationM": 1051,
+      "elevationGainM": "",
+      "start": "제2주차장",
+      "parking": "가리산자연휴양림제2주차장",
+      "difficulty": "",
+      "weather": "",
+      "notes": "",
+      "blogUrl": "",
+      "updatedAt": "2026-11-10T13:20:04.278Z"
+    }
+  },
   "islands": {}
 }
