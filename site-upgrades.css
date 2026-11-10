@@ -1,0 +1,51 @@
+/* 통합 이동 메뉴 · 페이지 공통 */
+#ux-navigation, #ux-navigation *{box-sizing:border-box}
+#ux-navigation{z-index:160;position:sticky;top:0;background:#18374c;color:#f4f8fc;font-family:'Malgun Gothic','Apple SD Gothic Neo',system-ui,sans-serif;border-bottom:1px solid #6a8aa3}
+#ux-navigation a{color:inherit;text-decoration:none}
+#ux-navigation nav{display:block!important;max-width:none!important;width:100%!important;padding:0!important;margin:0!important;background:transparent!important}
+#ux-navigation .ux-bar{max-width:1320px;padding:12px 20px;margin:0 auto;display:flex;justify-content:space-between;gap:18px;align-items:center;flex-wrap:wrap}
+#ux-navigation .ux-brand{white-space:nowrap;font-size:clamp(17px,1.4vw,20px);font-weight:800;letter-spacing:-.03em}
+#ux-navigation .ux-brand b{color:#ffe0a4}
+#ux-navigation .ux-menu{display:flex;justify-content:flex-end;gap:8px;align-items:center;flex-wrap:wrap}
+#ux-navigation .ux-menu>a,#ux-navigation .ux-group>summary{display:inline-flex;align-items:center;gap:5px;justify-content:center;min-height:36px;border-radius:22px;padding:6px 13px;border:1px solid #80a2b5;background:#264b62;color:#eff8ff;font-size:13px;font-weight:700;line-height:1.45;cursor:pointer;white-space:nowrap;transition:background .18s,border-color .18s}
+#ux-navigation .ux-group{position:relative;margin:0;padding:0}
+#ux-navigation .ux-group>summary{list-style:none}
+#ux-navigation .ux-group>summary::-webkit-details-marker{display:none}
+#ux-navigation .ux-menu>a:hover,#ux-navigation .ux-group>summary:hover,#ux-navigation .ux-group[open]>summary{background:#396985;border-color:#ffe0a4}
+#ux-navigation .ux-menu a:focus-visible,#ux-navigation .ux-group summary:focus-visible{outline:3px solid #ffe0a4;outline-offset:3px}
+#ux-navigation .ux-group .ux-chevron{font-size:11px;opacity:.86}
+#ux-navigation .ux-drop{position:absolute;right:0;top:calc(100% + 6px);min-width:220px;display:grid;gap:4px;padding:10px;border:1px solid #83a6ba;border-radius:14px;background:#163247;box-shadow:0 15px 35px #0007;z-index:200}
+#ux-navigation .ux-drop a{font-size:14px;padding:10px 12px;border-radius:8px;color:#eaf4f9;white-space:nowrap}
+#ux-navigation .ux-drop a:hover,#ux-navigation .ux-drop a[aria-current=page]{background:#355c73;color:#fff1ce}
+#ux-navigation .ux-breadcrumb{max-width:1320px;margin:0 auto;padding:7px 20px 11px;display:flex;gap:9px;align-items:center;flex-wrap:wrap;color:#cfe2ef;font-size:12px;border-top:1px solid #ffffff16}
+#ux-navigation .ux-breadcrumb a{text-decoration:underline;text-decoration-color:#89acbe;text-underline-offset:3px}
+#ux-navigation .ux-breadcrumb strong{color:#ffe0a4}
+.ux-context-links{max-width:1320px;margin:0 auto;padding:15px 20px 10px;display:flex;gap:9px;flex-wrap:wrap;align-items:center;font-family:'Malgun Gothic',system-ui,sans-serif}
+.ux-context-links a{color:#f3f9ff;text-decoration:none;border:1px solid #718fa3;border-radius:24px;padding:8px 13px;font-size:13px;background:#23485f;line-height:1.5}
+.ux-context-links a:hover,.ux-context-links a[aria-current=page]{background:#38647c;border-color:#ffe0a4}
+.ux-context-links a:focus-visible{outline:3px solid #ffe0a4;outline-offset:2px}
+@media(max-width:900px){#ux-navigation .ux-bar{align-items:flex-start;gap:10px}#ux-navigation .ux-menu{justify-content:flex-start}#ux-navigation .ux-menu>a,#ux-navigation .ux-group>summary{font-size:12px;padding:7px 10px;min-height:34px}#ux-navigation .ux-drop{left:0;right:auto}}
+@media(max-width:500px){#ux-navigation .ux-bar{padding:11px 13px}#ux-navigation .ux-breadcrumb{padding:7px 13px 10px}#ux-navigation .ux-drop{max-width:calc(100vw - 25px);min-width:180px}.ux-context-links{padding:11px 13px}}
+/* 섬&산: 명산과 통일된 카드 목록 */
+.ux-island-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px}
+.ux-island-card{display:flex;flex-direction:column;gap:9px;text-align:left;min-height:190px;padding:23px 20px;border:1px solid #48647b;border-radius:13px;background:linear-gradient(155deg,#19374c,#10283a);color:#f5f9fc;cursor:pointer;font:inherit;line-height:1.55;transition:transform .17s,border-color .17s}
+.ux-island-card:hover{transform:translateY(-2px);border-color:#ffe0a4}.ux-island-card:focus-visible{outline:3px solid #ffe0a4;outline-offset:3px}
+.ux-island-card .ux-id{font:normal 25px Georgia,serif;color:#ffe0a4}.ux-island-card strong{font-size:22px;letter-spacing:-.03em}.ux-island-card small{color:#d5e4ef;font-size:13px}.ux-island-card .ux-marks{margin-top:auto;display:flex;gap:6px;flex-wrap:wrap}.ux-island-card .ux-marks span{border:1px solid #6c8c9d;border-radius:15px;padding:3px 9px;font-size:11px;color:#d5e5f0}.ux-island-card .ux-marks .ux-certified{border-color:#82a79f;color:#c8f6de}
+.ux-card-hint{color:#bfd1df;font-size:13px;margin:15px 0 0}
+@media(max-width:900px){.ux-island-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}@media(max-width:600px){.ux-island-grid{grid-template-columns:1fr}.ux-island-card{min-height:165px}}
+/* 항목별 기록 추가 · 수정 */
+.ux-record-panel{border-top:1px solid #637c91;margin-top:23px;padding-top:17px;color:#f5f8fd;font-family:'Malgun Gothic',system-ui,sans-serif}
+.ux-record-panel h3{font-size:19px;color:#ffe0a4;margin:0 0 7px}.ux-record-panel p{font-size:13px;color:#cadae7;line-height:1.6}
+.ux-record-panel .ux-info{display:grid;grid-template-columns:120px 1fr;gap:9px 14px;margin:15px 0}.ux-record-panel .ux-info dt{font-size:13px;color:#b6d1df}.ux-record-panel .ux-info dd{font-size:14px;color:#fff;margin:0;overflow-wrap:anywhere;white-space:pre-wrap}
+.ux-record-panel .ux-empty{color:#c4d5e0;font-size:13px;padding:12px 0}
+.ux-record-panel .ux-edit-btn,.ux-record-panel .ux-save-btn,.ux-record-panel .ux-cancel-btn{border-radius:25px;border:1px solid #9bc0d0;background:#295570;color:#f8fcff;padding:9px 15px;cursor:pointer;font-weight:700;font-size:13px;line-height:1.45}
+.ux-record-panel .ux-save-btn{color:#122437;background:#ffe0a4;border-color:#ffe0a4}
+.ux-record-panel .ux-actions{display:flex;gap:9px;flex-wrap:wrap;margin:13px 0}
+.ux-record-panel .ux-form{border:1px solid #52778d;border-radius:14px;background:#132f42;padding:16px;display:block}
+.ux-record-panel .ux-form-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}
+.ux-record-panel label{display:block;font-weight:700;font-size:12px;color:#dcecf4}
+.ux-record-panel input,.ux-record-panel textarea,.ux-record-panel select{display:block;margin-top:5px;width:100%;min-width:0;max-width:100%;min-height:39px;padding:8px 9px;border:1px solid #7998aa;border-radius:8px;background:#092234;color:white;font:normal 14px/1.5 'Malgun Gothic',sans-serif;box-sizing:border-box}
+.ux-record-panel textarea{min-height:94px;resize:vertical}
+.ux-record-panel .ux-full{grid-column:1/-1}.ux-record-panel .ux-help{font-size:12px;color:#bcd3e2;line-height:1.55}
+.ux-record-panel .ux-status{padding:10px 0;white-space:pre-wrap;font-size:12px;min-height:24px;color:#ffe0a4}
+@media(max-width:600px){.ux-record-panel .ux-form-grid{grid-template-columns:1fr}.ux-record-panel .ux-full{grid-column:auto}.ux-record-panel .ux-info{grid-template-columns:96px minmax(0,1fr)}}

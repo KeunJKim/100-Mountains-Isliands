@@ -38,9 +38,12 @@ button.button:focus-visible,.row .button:focus-visible{outline:3px solid #ffe0a4
 @media(max-width:700px){header nav.wrap{padding:12px 0}nav .links{gap:7px}}
 
 </style>
+<link rel="stylesheet" href="site-upgrades.css">
 </head>
 <body>
-<header><nav class="wrap"><a class="brand" href="https://keunjkim.github.io/">100개의 산과 100개의 섬</a><div class="links"><a href="https://keunjkim.github.io/">대표 홈</a><a href="./">산행 홈</a><a href="mountains.html">100대 명산</a><a href="islands.html">섬&산 100</a><a href="gallery.html">사진 갤러리</a><a href="other-hikes.html">명산 외 추가 산행</a><a href="https://blog.naver.com/kunjkim" target="_blank" rel="noopener noreferrer">네이버 블로그</a></div></nav></header>
+<div id="ux-navigation"><nav aria-label="통합 홈페이지 이동 메뉴"><div class="ux-bar"><a class="ux-brand" href="./">100개의 산과 <b>100개의 섬</b></a><div class="ux-menu"><a href="https://keunjkim.github.io/">대표 홈</a><a href="./">산행 홈</a><details class="ux-group"><summary>100대 명산 <span class="ux-chevron">⌄</span></summary><div class="ux-drop"><a href="mountains.html">100대 명산 목록</a><a href="mountains-map.html">100대 명산 지도</a><a href="gallery.html">명산 사진 갤러리</a></div></details><details class="ux-group"><summary>섬&산 100 <span class="ux-chevron">⌄</span></summary><div class="ux-drop"><a href="islands.html">섬&산 100 목록</a><a href="islands-map.html">섬&산 100 지도</a><a href="gallery.html">섬 사진 갤러리</a></div></details><a href="gallery.html">사진 갤러리</a><details class="ux-group"><summary>산행 기록 <span class="ux-chevron">⌄</span></summary><div class="ux-drop"><a href="blog.html" aria-current="page">산행 블로그</a><a href="other-hikes.html">명산 외 추가 산행</a></div></details></div></div><div class="ux-breadcrumb" aria-label="현재 위치"><a href="https://keunjkim.github.io/">대표 홈</a> <span aria-hidden="true">›</span> <a href="./">산행 홈</a> <span aria-hidden="true">›</span> <strong aria-current="page">산행 블로그</strong></div></nav></div>
+<div class="ux-context-links" aria-label="관련 페이지 바로가기"><a href="mountains.html">명산 목록</a><a href="islands.html">섬 목록</a><a href="other-hikes.html">명산 외 추가 산행</a></div>
+
 <div class="hero"><div class="wrap"><span class="eyebrow">HIKING JOURNAL · 산행 블로그</span><h1>100개의 산과 100개의 섬</h1><p class="muted">BAC 100대 명산과 섬&산 100 · 인증일과 산행 이야기 · 직접 촬영한 사진</p></div></div>
 <main class="wrap">
 <section id="list-view"><div class="tools"><div class="row"><button class="button selected" data-filter="all">전체 글</button><button class="button" data-filter="mountain">100대 명산</button><button class="button" data-filter="island">섬&산 100</button><button class="button" data-filter="other">명산 외 추가 산행</button></div><button class="button" id="open-admin">관리자 글쓰기</button></div><div class="cards" id="cards"></div><div class="empty hidden" id="empty">아직 등록된 산행기가 없습니다.<br>첫 번째 산행기를 올려보세요.</div></section>
@@ -102,4 +105,5 @@ if(location.hash.startsWith('#post-'))openPost(decodeURIComponent(location.hash.
 load();
 })();
 </script>
+<script src="site-nav.js"></script>
 </body></html>
