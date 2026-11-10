@@ -18,6 +18,25 @@ nav .links{gap:10px 15px}.photos{margin:12px 0 22px}
 .card .body{padding:17px}
 #article-photos img{max-height:530px}
 @media(max-width:700px){.hero{padding:38px 0 30px}.photos{grid-template-columns:1fr}}
+
+/* 블로그 상단 네비게이션: 동일한 테두리 메뉴 디자인 */
+header nav.wrap{gap:13px;padding:14px 0}
+nav .links{gap:7px 9px}
+header nav .links a{
+  display:inline-flex;align-items:center;justify-content:center;
+  font-size:13px;line-height:1.45;min-height:33px;padding:6px 10px;
+  border:1px solid rgba(197,225,239,.57);border-radius:999px;
+  background:rgba(39,80,104,.48);color:#e5f2fa;
+  transition:background .18s,border-color .18s,transform .18s;
+}
+header nav .links a:hover{background:#346981;border-color:#ffe0a4;transform:translateY(-1px);color:white}
+header nav .links a:focus-visible{outline:3px solid #ffe0a4;outline-offset:3px}
+/* 목록·관리 버튼도 일관된 대비와 키보드 포커스 */
+button.button:focus-visible,.row .button:focus-visible{outline:3px solid #ffe0a4;outline-offset:3px}
+.cards .card{transition:border-color .18s,transform .18s,box-shadow .18s}
+.cards .card:hover{transform:translateY(-2px);box-shadow:0 12px 24px #06152350}
+@media(max-width:700px){header nav.wrap{padding:12px 0}nav .links{gap:7px}}
+
 </style>
 </head>
 <body>
