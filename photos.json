@@ -160,6 +160,16 @@
       "src": "photos/mountain-089-bfe7177e-d6d.jpg",
       "path": "photos/mountain-089-bfe7177e-d6d.jpg",
       "createdAt": "2026-11-10T00:12:01.887Z"
+    },
+    {
+      "id": "700ac327-3a6a-4368-845c-71c2c0ff55bb",
+      "group": "mountain",
+      "albumId": "m-89",
+      "title": "1 20210221 태백 태백산 정상 (3)",
+      "date": "2021-02-21",
+      "src": "photos/mountain-089-700ac327-3a6.jpg",
+      "path": "photos/mountain-089-700ac327-3a6.jpg",
+      "createdAt": "2026-11-10T00:12:05.984Z"
     }
   ],
   "hiddenSeedIds": []
