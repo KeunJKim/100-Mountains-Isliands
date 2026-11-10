@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>100개의 산과 100개의 섬</title>
+<meta name="description" content="100대 명산과 섬&산 100 인증 외에 기록한 다양한 산행의 사진과 글 목록">
+<link rel="canonical" href="https://keunjkim.github.io/100-Mountains-Isliands/other-hikes.html">
+<style>
+:root{color-scheme:dark;--bg:#122b3e;--panel:#20435a;--ink:#f5f9fe;--muted:#d0e1eb;--accent:#ffe0a4;--line:#547990}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:radial-gradient(ellipse at 70% 0%,#355e79,#122b3e 76%);color:var(--ink);font:16px/1.75 'Malgun Gothic','Apple SD Gothic Neo',sans-serif}
+a{color:inherit;text-decoration:none}a:focus-visible{outline:3px solid var(--accent);outline-offset:4px}
+nav{background:#17384f;border-bottom:1px solid var(--line);position:sticky;top:0;z-index:4}.wrap{width:min(1110px,92vw);margin:auto}
+nav .wrap{padding:17px 0;display:flex;gap:18px;align-items:center;justify-content:space-between;flex-wrap:wrap}.brand{font-weight:800;font-size:19px}.links{display:flex;align-items:center;flex-wrap:wrap;gap:10px 18px;font-size:13px;color:var(--muted)}.links a:hover{color:var(--accent)}
+.hero{background:linear-gradient(115deg,#366780,#1b3f59);padding:48px 0 40px}.eyebrow{font-size:12px;letter-spacing:2px;color:var(--accent);font-weight:700}h1{font-size:clamp(32px,5vw,53px);line-height:1.2;margin:10px 0 14px}.hero p{margin:0;color:var(--muted)}main{padding:34px 0 75px}
+.toolbar{display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:12px;margin-bottom:23px}.toolbar h2{font-size:24px;margin:0}
+.btn{display:inline-flex;justify-content:center;align-items:center;border-radius:25px;border:1px solid #bed7e6;background:#27556e;padding:9px 15px;font-size:13px;font-weight:700}.btn:hover{background:#346d89}
+.grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:17px}
+.card{border-radius:13px;overflow:hidden;background:var(--panel);border:1px solid var(--line);display:block;transition:transform .16s,border-color .16s}.card:hover{border-color:var(--accent);transform:translateY(-2px)}
+.card img{width:100%;height:194px;object-fit:cover;display:block}.card-body{padding:18px}.card-body small{color:var(--accent)}.card h3{font-size:19px;margin:3px 0 7px}.card p{margin:0;color:var(--muted);font-size:14px;line-height:1.6}
+.empty{border-radius:13px;background:var(--panel);border:1px solid var(--line);padding:36px 25px;color:var(--muted)}.empty strong{display:block;font-size:20px;color:var(--ink);margin-bottom:8px}
+.guide{border-top:1px solid var(--line);padding-top:20px;margin-top:32px;color:var(--muted);font-size:14px}footer{border-top:1px solid var(--line);text-align:center;color:var(--muted);font-size:12px;padding:22px}
+@media(max-width:920px){.grid{grid-template-columns:repeat(2,minmax(0,1fr))}}@media(max-width:600px){.grid{grid-template-columns:1fr}.hero{padding:34px 0}}
+</style></head><body>
+<nav><div class="wrap"><a class="brand" href="./">100개의 산과 100개의 섬</a><div class="links"><a href="https://keunjkim.github.io/">대표 홈</a><a href="./">산행 홈</a><a href="mountains.html">100대 명산</a><a href="islands.html">섬&amp;산 100</a><a href="gallery.html">사진 갤러리</a><a href="blog.html">산행 블로그</a></div></div></nav>
+<header class="hero"><div class="wrap"><span class="eyebrow">HIKING ARCHIVE · 기타 산행</span><h1>100개의 산과 100개의 섬</h1><p>명산 외 추가 산행 — 분류에 구애받지 않고 걸었던 길을 기록합니다.</p></div></header>
+<main class="wrap"><div class="toolbar"><h2>명산 외 추가 산행 목록</h2><a class="btn" href="blog.html?compose=other">+ 추가 산행 글쓰기 · 수정 관리</a></div>
+<div id="list" class="grid" aria-live="polite"></div><div id="notice" class="empty" role="status">산행 목록을 불러오는 중입니다.</div>
+<div class="guide">산행을 추가하거나 수정하려면 위 <strong>글쓰기 · 수정 관리</strong>를 누른 후 블로그의 관리자 글쓰기에서 <strong>분류: 명산 외 추가 산행</strong>을 선택하세요. 기존 글은 블로그에서 열어 수정할 수 있습니다.</div>
+</main><footer>© 2026 100개의 산과 100개의 섬</footer>
+<script>
+(async function(){
+'use strict';
+const list=document.getElementById('list'),notice=document.getElementById('notice');
+function el(t,c,x){const n=document.createElement(t);if(c)n.className=c;if(x!==undefined)n.textContent=x;return n}
+try{
+ const res=await fetch('blog-posts.json',{cache:'no-store'});
+ if(!res.ok)throw Error('데이터 파일을 찾지 못했습니다.');
+ const all=await res.json();
+ const posts=(Array.isArray(all)?all:[]).filter(p=>p.category==='other').sort((a,b)=>(b.createdAt||'').localeCompare(a.createdAt||''));
+ if(!posts.length){notice.replaceChildren(el('strong','', '아직 등록된 추가 산행이 없습니다.'),document.createTextNode('블로그에서 ‘명산 외 추가 산행’ 분류로 글을 게시하면 이곳에 자동으로 나타납니다.'));return;}
+ notice.hidden=true;
+ for(const p of posts){
+  const card=el('a','card');card.href='blog.html#post-'+encodeURIComponent(p.id);
+  if(Array.isArray(p.photos)&&p.photos.length){const img=el('img');img.src=p.photos[0];img.alt=p.title||'산행 사진';img.loading='lazy';card.append(img)}
+  const body=el('div','card-body'),meta=el('small','',[(p.place||'추가 산행'),p.hikeDate||''].filter(Boolean).join(' · '));
+  body.append(meta,el('h3','',p.title||'산행 기록'),el('p','',p.summary||(p.body||'').slice(0,115)));
+  card.append(body);list.append(card);
+ }
+}catch(e){notice.replaceChildren(el('strong','', '목록을 불러오지 못했습니다.'),document.createTextNode('기존 홈페이지에 blog-posts.json 파일이 있는지 확인해 주세요.'))}
+})();
+</script></body></html>
