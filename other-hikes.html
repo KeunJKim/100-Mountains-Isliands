@@ -10,7 +10,7 @@ a{color:inherit;text-decoration:none}a:focus-visible{outline:3px solid var(--acc
 nav{background:#17384f;border-bottom:1px solid var(--line);position:sticky;top:0;z-index:4}.wrap{width:min(1110px,92vw);margin:auto}
 nav .wrap{padding:17px 0;display:flex;gap:18px;align-items:center;justify-content:space-between;flex-wrap:wrap}.brand{font-weight:800;font-size:19px}.links{display:flex;align-items:center;flex-wrap:wrap;gap:10px 18px;font-size:13px;color:var(--muted)}.links a:hover{color:var(--accent)}
 .hero{background:linear-gradient(115deg,#366780,#1b3f59);padding:48px 0 40px}.eyebrow{font-size:12px;letter-spacing:2px;color:var(--accent);font-weight:700}h1{font-size:clamp(32px,5vw,53px);line-height:1.2;margin:10px 0 14px}.hero p{margin:0;color:var(--muted)}main{padding:34px 0 75px}
-.toolbar{display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:12px;margin-bottom:23px}.toolbar h2{font-size:24px;margin:0}
+.toolbar{display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:12px;margin-bottom:23px}.toolbar h2{font-size:24px;margin:0}.toolbar-actions{display:flex;flex-wrap:wrap;gap:9px}
 .btn{display:inline-flex;justify-content:center;align-items:center;border-radius:25px;border:1px solid #bed7e6;background:#27556e;padding:9px 15px;font-size:13px;font-weight:700}.btn:hover{background:#346d89}
 .grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:17px}
 .card{border-radius:13px;overflow:hidden;background:var(--panel);border:1px solid var(--line);display:block;transition:transform .16s,border-color .16s}.card:hover{border-color:var(--accent);transform:translateY(-2px)}
@@ -45,9 +45,9 @@ nav .links a:focus-visible,.toolbar .btn:focus-visible{outline:3px solid #ffe0a4
 <div class="ux-context-links" aria-label="관련 페이지 바로가기"><a href="blog.html">산행 블로그</a><a href="mountains.html">100대 명산</a><a href="islands.html">섬&산 100</a></div>
 
 <header class="hero"><div class="wrap"><span class="eyebrow">HIKING ARCHIVE · 기타 산행</span><h1>100개의 산과 100개의 섬</h1><p>명산 외 추가 산행 — 분류에 구애받지 않고 걸었던 길을 기록합니다.</p></div></header>
-<main class="wrap"><div class="toolbar"><h2>명산 외 추가 산행 목록</h2><a class="btn" href="blog.html?compose=other">+ 추가 산행 글쓰기 · 수정 관리</a></div>
+<main class="wrap"><div class="toolbar"><h2>명산 외 추가 산행 목록</h2><div class="toolbar-actions"><a class="btn" href="gpx-import.html">+ GPX 산행기 자동 작성</a> <a class="btn" href="blog.html?compose=other">+ 추가 산행 글쓰기 · 수정 관리</a></div></div>
 <div id="list" class="grid" aria-live="polite"></div><div id="notice" class="empty" role="status">산행 목록을 불러오는 중입니다.</div>
-<div class="guide">산행을 추가하거나 수정하려면 위 <strong>글쓰기 · 수정 관리</strong>를 누른 후 블로그의 관리자 글쓰기에서 <strong>분류: 명산 외 추가 산행</strong>을 선택하세요. 기존 글은 블로그에서 열어 수정할 수 있습니다.</div>
+<div class="guide">산행을 추가하거나 수정하려면 GPX 파일이 있다면 <strong>GPX 산행기 자동 작성</strong>을 선택하세요. 사진과 글만 올릴 때는 <strong>글쓰기 · 수정 관리</strong>에서 분류를 <strong>명산 외 추가 산행</strong>으로 선택하세요. 기존 글은 블로그에서 열어 수정할 수 있습니다.</div>
 </main><footer>© 2026 100개의 산과 100개의 섬</footer>
 <script>
 (async function(){
@@ -61,6 +61,23 @@ gpsCover.append(el('span','','GPS ROUTE'),el('strong','','영축산 · 8.54 km')
 gpsCard.append(gpsCover);
 const gpsBody=el('div','card-body');gpsBody.append(el('small','','영축산 · 2026-06-03'),el('h3','','영축산 GPS 산행 기록'),el('p','','램블러 GPS 경로 · 이동거리 8.54km · 고도 변화 그래프와 원본 기록 보기'));
 gpsCard.append(gpsBody);list.append(gpsCard);
+// GPX 도우미에서 만든 산행기는 별도 목록 파일에 안전하게 추가합니다.
+try{
+ const gpsRes=await fetch('gpx-hikes.json',{cache:'no-store'});
+ if(gpsRes.ok){
+  const gpsTrips=await gpsRes.json();
+  if(Array.isArray(gpsTrips)){
+   for(const t of gpsTrips.filter(x=>x && typeof x.filename==='string' && /^gpx-[a-zA-Z0-9_-]+\.html$/.test(x.filename))){
+    const card=el('a','card');card.href=t.filename;
+    const cover=el('div','gps-cover');cover.setAttribute('aria-hidden','true');
+    cover.append(el('span','','GPS ROUTE'),el('strong','',String(t.place||'산행 기록').slice(0,45)));
+    const body=el('div','card-body');body.append(el('small','',[(t.place||'GPS 산행'),(t.date||'')].filter(Boolean).join(' · ')),el('h3','',t.title||'GPS 산행 기록'),el('p','',[(Number.isFinite(t.distanceKm)?t.distanceKm+' km':''),(t.course||'GPS 기록 보기')].filter(Boolean).join(' · ').slice(0,135)));
+    card.append(cover,body);list.append(card);
+   }
+  }
+ }
+}catch(e){console.warn('GPS 기록 목록을 불러오지 못했습니다.',e)}
+
 
 try{
  const res=await fetch('blog-posts.json',{cache:'no-store'});
