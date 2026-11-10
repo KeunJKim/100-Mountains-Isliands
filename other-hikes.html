@@ -34,6 +34,11 @@ nav .links a:focus-visible,.toolbar .btn:focus-visible{outline:3px solid #ffe0a4
 .card{box-shadow:0 8px 16px rgba(2,13,23,.14)}
 @media(max-width:600px){nav .wrap{padding:12px 0}nav .links{gap:7px}}
 
+
+/* 램블러 영축산 GPS 산행기 카드: 기존 산행 자료와 분리 */
+.gps-cover{height:194px;display:flex;flex-direction:column;align-items:flex-start;justify-content:center;gap:10px;padding:22px;background:linear-gradient(120deg,#326e85 0%,#124661 55%,#17324a 100%);border-bottom:1px solid var(--line)}
+.gps-cover span{font-size:12px;font-weight:800;letter-spacing:2px;color:var(--accent)}
+.gps-cover strong{font-size:25px;color:#fff}
 </style><link rel="stylesheet" href="site-upgrades.css">
 </head><body>
 <div id="ux-navigation"><nav aria-label="통합 홈페이지 이동 메뉴"><div class="ux-bar"><a class="ux-brand" href="./">100개의 산과 <b>100개의 섬</b></a><div class="ux-menu"><a href="https://keunjkim.github.io/">대표 홈</a><a href="./">산행 홈</a><details class="ux-group"><summary>100대 명산 <span class="ux-chevron">⌄</span></summary><div class="ux-drop"><a href="mountains.html">100대 명산 목록</a><a href="mountains-map.html">100대 명산 지도</a><a href="gallery.html">명산 사진 갤러리</a></div></details><details class="ux-group"><summary>섬&산 100 <span class="ux-chevron">⌄</span></summary><div class="ux-drop"><a href="islands.html">섬&산 100 목록</a><a href="islands-map.html">섬&산 100 지도</a><a href="gallery.html">섬 사진 갤러리</a></div></details><a href="gallery.html">사진 갤러리</a><details class="ux-group"><summary>산행 기록 <span class="ux-chevron">⌄</span></summary><div class="ux-drop"><a href="blog.html">산행 블로그</a><a href="other-hikes.html" aria-current="page">명산 외 추가 산행</a></div></details></div></div><div class="ux-breadcrumb" aria-label="현재 위치"><a href="https://keunjkim.github.io/">대표 홈</a> <span aria-hidden="true">›</span> <a href="./">산행 홈</a> <span aria-hidden="true">›</span> <a href="blog.html">산행 기록</a> <span aria-hidden="true">›</span> <strong aria-current="page">명산 외 추가 산행</strong></div></nav></div>
@@ -49,12 +54,20 @@ nav .links a:focus-visible,.toolbar .btn:focus-visible{outline:3px solid #ffe0a4
 'use strict';
 const list=document.getElementById('list'),notice=document.getElementById('notice');
 function el(t,c,x){const n=document.createElement(t);if(c)n.className=c;if(x!==undefined)n.textContent=x;return n}
+// GPS 파일로 편집한 영축산 기록은 기존 블로그 데이터와 별도로 유지합니다.
+const gpsCard=el('a','card');gpsCard.href='yeongchuksan-20260603.html';
+const gpsCover=el('div','gps-cover');gpsCover.setAttribute('aria-hidden','true');
+gpsCover.append(el('span','','GPS ROUTE'),el('strong','','영축산 · 8.54 km'));
+gpsCard.append(gpsCover);
+const gpsBody=el('div','card-body');gpsBody.append(el('small','','영축산 · 2026-06-03'),el('h3','','영축산 GPS 산행 기록'),el('p','','램블러 GPS 경로 · 이동거리 8.54km · 고도 변화 그래프와 원본 기록 보기'));
+gpsCard.append(gpsBody);list.append(gpsCard);
+
 try{
  const res=await fetch('blog-posts.json',{cache:'no-store'});
  if(!res.ok)throw Error('데이터 파일을 찾지 못했습니다.');
  const all=await res.json();
  const posts=(Array.isArray(all)?all:[]).filter(p=>p.category==='other').sort((a,b)=>(b.createdAt||'').localeCompare(a.createdAt||''));
- if(!posts.length){notice.replaceChildren(el('strong','', '아직 등록된 추가 산행이 없습니다.'),document.createTextNode('블로그에서 ‘명산 외 추가 산행’ 분류로 글을 게시하면 이곳에 자동으로 나타납니다.'));return;}
+ if(!posts.length){notice.hidden=true;return;}
  notice.hidden=true;
  for(const p of posts){
   const card=el('a','card');card.href='blog.html#post-'+encodeURIComponent(p.id);
