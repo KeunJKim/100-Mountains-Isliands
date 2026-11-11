@@ -71,3 +71,17 @@ footer,.footer,.foot{background:#ebe4d6!important;color:#756b5c!important;border
 .hero-copy .buttons{display:grid!important;grid-template-columns:repeat(4,minmax(0,1fr))!important;gap:8px!important;align-items:stretch;margin-top:18px!important}
 .hero-copy .buttons .button{display:flex!important;align-items:center;justify-content:center;min-width:0;min-height:44px;box-sizing:border-box;padding:9px 5px!important;font-size:clamp(11px,.9vw,13px)!important;line-height:1.4;white-space:normal!important;word-break:keep-all;overflow-wrap:anywhere;text-align:center}
 @media(max-width:600px){.hero-copy .buttons{gap:5px!important}.hero-copy .buttons .button{min-height:52px;padding:7px 3px!important}}
+
+/* 읽기 쉬운 제목 크기와 한 줄 방문 현황 */
+h1{zoom:.8}
+.jk-list-title{zoom:.6!important;white-space:nowrap!important}
+@media(max-width:600px){.jk-list-title{font-size:clamp(25px,7vw,42px)!important;letter-spacing:-.05em!important}}
+.visit-counter{min-width:0;box-sizing:border-box}
+.visit-counter-inner{display:flex!important;flex-wrap:nowrap!important;align-items:center!important;gap:14px!important;max-width:100%;box-sizing:border-box;overflow-x:auto;white-space:nowrap;padding:10px 15px!important}
+.visit-counter-inner>*{flex:none}.visit-counter strong{font-size:13px!important}
+.visit-counter .counter-periods{padding:0 12px!important;border-top:0!important;border-bottom:0!important;border-left:1px solid #c8b998;border-right:1px solid #c8b998}
+button,.btn,.button,.action,.back,.close,.nav a,.jk-return-links a,#ux-navigation .ux-menu>a,#ux-navigation .ux-group>summary,.ux-context-links a{color:#263e29!important;background:#f3e6cc!important;border-color:#9b8159!important;font-weight:700;text-shadow:none!important}
+button:hover,.btn:hover,.button:hover,.action:hover,.back:hover,.close:hover,.jk-return-links a:hover,#ux-navigation .ux-menu>a:hover,#ux-navigation .ux-group>summary:hover{color:#1d3320!important;background:#dfebd6!important;border-color:#738967!important}
+button:focus-visible,a:focus-visible,summary:focus-visible{outline:3px solid #4c7051!important;outline-offset:3px}
+.primary,.button.selected,.ux-save-btn{background:#465f3e!important;color:#fffdf8!important}
+.card,.entry,.island-card{background:#fffdf8!important;color:#403a32!important}
