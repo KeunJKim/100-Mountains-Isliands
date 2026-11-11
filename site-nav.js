@@ -33,6 +33,8 @@ style.textContent=`
 .visit-counter strong{color:#ffe0a4;font-size:14px}
 .visit-counter a{color:#d4e5ef;text-decoration:underline;text-underline-offset:3px}
 .visit-counter img{display:block;max-width:100%;height:auto;min-height:20px}
+.visit-counter .counter-badge{height:34px;width:auto;min-height:34px}
+.counter-detail{display:block;width:min(560px,calc(100vw - 96px));height:440px;border:1px solid #718fa3;border-radius:6px;background:#fff}
 .visit-counter small{font-size:11px;color:#bdd1de}
 @media(max-width:500px){.visit-counter{padding:8px 13px 12px}}
 `;
@@ -54,16 +56,26 @@ const hint=document.createElement('small');
 hint.textContent='오늘 / 누적 조회수 · Hits 집계';
 if(location.protocol==='https:'&&location.hostname==='keunjkim.github.io'){
  const badge=document.createElement('img');
+ badge.className='counter-badge';
  badge.alt='오늘·누적 방문 조회수 불러오는 중';
  badge.referrerPolicy='no-referrer';
  badge.src=endpoint+'.svg?view=today-total&label='+encodeURIComponent('오늘 / 누적')+'&color=ffe0a4&labelColor=234d64';
- badge.addEventListener('load',()=>{badge.alt='오늘·누적 방문 조회수'});
+ badge.addEventListener('load',()=>{
+   badge.alt='오늘·누적 방문 조회수';
+
+ });
  badge.addEventListener('error',()=>{
    const notice=document.createElement('span');
    notice.textContent='조회수를 불러오지 못했습니다. 통계 링크에서 확인해 주세요.';
    badge.replaceWith(notice);
  });
- box.append(heading,badge,link,hint);
+ const statistics=document.createElement('iframe');
+ statistics.src=endpoint+'/';
+ statistics.title=page.name+' 방문 통계';
+ statistics.loading='lazy';
+ statistics.referrerPolicy='no-referrer';
+ statistics.className='counter-detail';
+ box.append(heading,badge,statistics,link,hint);
 }else{
  const notice=document.createElement('span');
  notice.textContent='게시된 홈페이지에서 집계가 시작됩니다.';
@@ -72,4 +84,3 @@ if(location.protocol==='https:'&&location.hostname==='keunjkim.github.io'){
 section.append(box);
 navigation.append(section);
 })();
-
