@@ -1,0 +1,61 @@
+/* 따뜻한 아이보리 · 베이지 · 올리브 */
+:root{color-scheme:light!important;--bg:#f5f0e7!important;--pane:#fffdf8!important;--panel:#fffdf8!important;--panel2:#f0e8da!important;--card:#fffdf8!important;--surface:#fffdf8!important;--surface2:#f0e8da!important;--text:#403a32!important;--ink:#403a32!important;--muted:#746b5d!important;--sub:#746b5d!important;--line:#d9cdbb!important;--border:#d9cdbb!important;--gold:#8b6038!important;--accent:#8b6038!important;--blue:#567967!important}
+html,body{color-scheme:light!important;background:#f5f0e7!important;color:#403a32!important}
+body{background:linear-gradient(135deg,#f8f3e9 0%,#f3f1e8 60%,#eef1e8 100%)!important}
+h1,h2,h3,h4,h5{color:#45523e!important;text-shadow:none!important}
+a{color:#765331}
+header,.top,.topbar,.site-topbar,#ux-navigation{background:#eee6d8!important;color:#403a32!important;border-color:#d8cbb7!important;box-shadow:0 4px 20px #7760400a}
+#ux-navigation a,#ux-navigation summary{color:#4a493b!important}
+#ux-navigation .ux-brand b,.brand b,.brand span,.jk-brand-tag,.jk-hero-subtitle{color:#8b6038!important}
+#ux-navigation .ux-menu>a,#ux-navigation .ux-group>summary,.ux-context-links a{background:#fffaf0!important;border-color:#cdbb9f!important;color:#514a3d!important}
+#ux-navigation .ux-menu>a:hover,#ux-navigation .ux-group>summary:hover,.ux-context-links a:hover{background:#e6dfce!important;border-color:#a58b64!important}
+#ux-navigation .ux-drop{background:#fffdf8!important;border-color:#d4c4ac!important;box-shadow:0 12px 28px #6b573326}
+#ux-navigation .ux-drop a:hover,#ux-navigation .ux-drop a[aria-current=page]{background:#e9eddf!important;color:#3e573f!important}
+#ux-navigation .ux-breadcrumb{color:#746b5d!important;border-color:#d9cdbb!important}
+#ux-navigation .ux-breadcrumb strong{color:#735331!important}
+.hero,.banner,.head{background:linear-gradient(120deg,#eee3d1,#f8f4e9 62%,#e9eee1)!important;border-color:#d9cdbb!important}
+body:has(.hero-copy) .hero{background:transparent!important}
+body:has(.hero-copy)::before{filter:brightness(1.05) saturate(.9)!important}
+.hero-copy{background:#fffaf0df!important;border:1px solid #e4d6be;border-radius:20px;padding:24px!important;box-shadow:0 12px 36px #64523b14;text-shadow:none!important}
+.hero-copy h1,.hero-copy .desc,.hero-copy p{color:#3f4939!important;text-shadow:none!important}
+.hero-copy .kicker,.hero-copy .eyebrow{color:#805b36!important}
+.card,.cards .card,.grid .card,#cards>.card,#island-cards>.ux-island-card,.panel,.stat,.detail,dialog,.reader,.manager,.sidebar,.tablebox,.panelhead,.mapinfo,.entries,.entry,.list,.album{background:#fffdf8!important;color:#403a32!important;border-color:#d9cdbb!important;box-shadow:0 3px 14px #76604408;backdrop-filter:none!important}
+.card:hover,#cards>.card:hover,#island-cards>.ux-island-card:hover{background:#f1f1e5!important;border-color:#9aab89!important;box-shadow:0 5px 18px #76604414}
+.card p,.card small,#cards>.card p,#island-cards>.ux-island-card small,.muted,.hint,.note,.lead,.desc,.overview p,.mapinfo p,.panelhead p,.ux-card-hint{color:#746b5d!important}
+#cards>.card .id,#island-cards>.ux-island-card .ux-id,.cert-inline,.eyebrow,.kicker,.id,.tag{color:#8b6038!important}
+.pill,.small span,.ux-marks span,.badge{background:#eeeadd!important;color:#5c654c!important;border-color:#c5c9b3!important}
+.pill.good,.ux-certified{background:#e9eee1!important;color:#4b6447!important;border-color:#bac9ac!important}
+input,select,textarea,.ux-record-panel input,.ux-record-panel select,.ux-record-panel textarea{background:#fffdf8!important;color:#403a32!important;border-color:#cbbca3!important}
+input::placeholder,textarea::placeholder{color:#8b8172!important}
+.btn,.button,.action,.back,.close,.ux-record-panel button,.nav a{background:#eee5d5!important;color:#4d513e!important;border-color:#c8b693!important}
+.btn:hover,.button:hover,.action:hover,.back:hover,.close:hover{background:#e1e7d5!important;border-color:#8e9d7e!important}
+.primary,.button.selected,.ux-save-btn{background:#687b5c!important;color:#fffdf8!important;border-color:#687b5c!important}
+.hike-course,.course-strip,.ux-record-panel .ux-form{background:#f2eadc!important;color:#514736!important;border-color:#d2c0a3!important}
+.course-label,.course-steps{color:#594e39!important}
+.hike-stats,.island-gps .hike-stats{background:#d6c9b3!important;border-color:#d6c9b3!important}
+.hike-stats>div,.island-gps .hike-stats>div,#stats>div{background:#f6f0e5!important;color:#403a32!important;border-color:#d6c9b3!important}
+.hike-stats span,.island-gps .hike-stats span,#stats small{color:#776b58!important}
+.hike-stats strong,.island-gps .hike-stats strong,#stats strong,.stat strong,.stat b{color:#465e43!important}
+.hike-chart,#profile{background:#faf6ed!important;border-color:#d6c9b3!important}
+.hike-chart text{fill:#726755!important}.hike-chart line{stroke:#d8cfbf!important}.hike-chart polyline,#curve{stroke:#528784!important}
+#area{fill:#dce8dc!important}
+.hike-links a,.island-gps a,.ux-record-panel a{color:#7d5934!important}
+#detail-list{background:#d5c8b2!important;border-color:#d5c8b2!important}
+#detail-list>.island-detail-cell{background:#f5eee2!important}
+.detail dt,#detail-list dt{color:#886039!important}.detail dd,#detail-list dd{color:#403a32!important}
+.ux-record-panel{color:#403a32!important;border-color:#d6c9b3!important}
+.ux-record-panel p,.ux-record-panel .ux-help,.ux-record-panel .ux-info dt{color:#746b5d!important}
+.ux-record-panel .ux-info dd,.ux-record-panel label{color:#403a32!important}
+th{background:#e9e2d3!important;color:#5c513d!important}td{border-color:#ddd2c1!important}tr:hover td{background:#f4efe5!important}
+.visit,.island-gps{border-color:#d9cdbb!important}
+footer,.footer,.foot{background:#ebe4d6!important;color:#756b5c!important;border-color:#d6c9b3!important}
+.leaflet-container{color:#354833}.leaflet-control a{color:#354833!important;background:#fffdf8!important}
+.lightbox{background:#342f29eb!important;color:#fffaf0!important}.lightbox button,.lb-btn{background:#686650!important;color:#fffaf0!important}
+.jk-return-links{display:flex;gap:9px;flex-wrap:wrap;margin:14px 0 18px}
+.jk-return-links a{display:inline-flex;align-items:center;min-height:40px;padding:8px 16px;border:1px solid #b8ac91;border-radius:24px;background:#fffaf0;color:#4b5c40;text-decoration:none;font-size:14px;font-weight:700;box-shadow:0 3px 10px #7660440a}
+.jk-return-links a:hover{background:#e5eadb;border-color:#95a181}
+.jk-return-links{position:static!important;background:transparent!important;border:0!important;box-shadow:none!important;padding:0!important}
+.visit-counter,.visit-counter a,.visit-counter small{color:#746b5d!important}.visit-counter-inner{background:#f7f0e3!important;border-color:#cdbb9f!important}.visit-counter strong,.visit-counter .counter-periods b{color:#78552f!important}.visit-counter .counter-periods{border-color:#d6c9b3!important}
+.entry[aria-pressed=true]{background:#e7eddf!important;border-color:#9eae8e!important}
+.side,.content,.photo-card,.preview,.dropzone,.drop-zone{background:#fffdf8!important;color:#403a32!important;border-color:#d9cdbb!important}.frame{background:#e8e1d4!important}.alb-btn{color:#514b40!important;border-color:#ddd2c1!important}.alb-btn:hover,.alb-btn[aria-current=true]{background:#e7eddf!important;color:#3e583c!important}.alb-count{background:#e8e1d4!important;color:#6c6253!important}
+@media(max-width:650px){.hero-copy{padding:18px!important}.jk-return-links a{font-size:13px;padding:8px 13px}}
