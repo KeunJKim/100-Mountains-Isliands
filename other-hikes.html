@@ -67,7 +67,7 @@ try{
  if(gpsRes.ok){
   const gpsTrips=await gpsRes.json();
   if(Array.isArray(gpsTrips)){
-   for(const t of gpsTrips.filter(x=>x && typeof x.filename==='string' && /^gpx-[a-zA-Z0-9_-]+\.html$/.test(x.filename))){
+   for(const t of gpsTrips.filter(x=>x && typeof x.filename==='string' && /^(?:gpx-[a-zA-Z0-9_-]+|yeongchuksan-[0-9]{8})\.html$/.test(x.filename))){
     const card=el('a','card');card.href=t.filename;
     const cover=el('div','gps-cover');cover.setAttribute('aria-hidden','true');
     cover.append(el('span','','GPS ROUTE'),el('strong','',String(t.place||'산행 기록').slice(0,45)));
