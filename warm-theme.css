@@ -15,6 +15,8 @@ header,.top,.topbar,.site-topbar,#ux-navigation{background:#eee6d8!important;col
 #ux-navigation .ux-breadcrumb strong{color:#735331!important}
 .hero,.banner,.head{background:linear-gradient(120deg,#eee3d1,#f8f4e9 62%,#e9eee1)!important;border-color:#d9cdbb!important}
 body:has(.hero-copy) .hero{background:transparent!important}
+body:has(.hero-copy) .hero{height:auto!important;min-height:360px!important}
+body:has(.hero-copy) .hero-inner{height:auto!important;min-height:360px;padding:36px 26px!important}
 body:has(.hero-copy)::before{filter:brightness(1.05) saturate(.9)!important}
 .hero-copy{background:#fffaf0df!important;border:1px solid #e4d6be;border-radius:20px;padding:24px!important;box-shadow:0 12px 36px #64523b14;text-shadow:none!important}
 .hero-copy h1,.hero-copy .desc,.hero-copy p{color:#3f4939!important;text-shadow:none!important}
@@ -22,6 +24,7 @@ body:has(.hero-copy)::before{filter:brightness(1.05) saturate(.9)!important}
 .card,.cards .card,.grid .card,#cards>.card,#island-cards>.ux-island-card,.panel,.stat,.detail,dialog,.reader,.manager,.sidebar,.tablebox,.panelhead,.mapinfo,.entries,.entry,.list,.album{background:#fffdf8!important;color:#403a32!important;border-color:#d9cdbb!important;box-shadow:0 3px 14px #76604408;backdrop-filter:none!important}
 .card:hover,#cards>.card:hover,#island-cards>.ux-island-card:hover{background:#f1f1e5!important;border-color:#9aab89!important;box-shadow:0 5px 18px #76604414}
 .card p,.card small,#cards>.card p,#island-cards>.ux-island-card small,.muted,.hint,.note,.lead,.desc,.overview p,.mapinfo p,.panelhead p,.ux-card-hint{color:#746b5d!important}
+.section-head p,.blog-connect p{color:#746b5d!important}.coming{color:#7c5937!important}
 #cards>.card .id,#island-cards>.ux-island-card .ux-id,.cert-inline,.eyebrow,.kicker,.id,.tag{color:#8b6038!important}
 .pill,.small span,.ux-marks span,.badge{background:#eeeadd!important;color:#5c654c!important;border-color:#c5c9b3!important}
 .pill.good,.ux-certified{background:#e9eee1!important;color:#4b6447!important;border-color:#bac9ac!important}
