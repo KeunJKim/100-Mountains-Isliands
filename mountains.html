@@ -69,10 +69,10 @@ dd{margin:0;min-width:0;word-break:break-word;font-size:13px}
 .hike-chart{width:100%;display:block}
 .hike-links a,.visit>a{color:var(--gold)}
 dialog.hwangmaesan-detail{max-width:980px;width:calc(100% - 16px);padding:clamp(12px,3vw,26px)}
-.visit .hike-stats{display:block;margin:0;overflow-x:auto}
-.hike-stats>div{display:flex;gap:clamp(8px,1.5vw,14px);padding:8px 0;width:max-content;min-width:100%}
-.hike-stats>div+div{border-top:1px solid #41576b}
-.hike-stats>div>div{white-space:nowrap}
+.visit .hike-stats{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:1px;margin:0;border:1px solid #41576b;border-radius:8px;overflow:hidden;background:#41576b}
+.hike-stats>div{min-width:0;padding:clamp(6px,1.5vw,14px);background:#102336;overflow-wrap:anywhere}
+.hike-stats span,.hike-stats strong{display:block}
+.hike-stats span{color:#acc0ce;font-size:.82rem}
 </style>
 <link rel="stylesheet" href="site-upgrades.css">
 </head>
@@ -178,16 +178,15 @@ function renderHwangmaesanVisit(section) {
  section.append(links);
  const stats = document.createElement('div');
  stats.className = 'hike-stats';
- const groups = [
-   [['GPX 거리','5.01 km'],['기록 지점','453개'],['기록 시각 간격','5시간 9분'],['최고 GPS 고도','1,136 m']],
-   [['램블러 거리','4.9 km'],['전체','5시간 10분 5초'],['이동','3시간 34초'],['휴식','2시간 9분 31초'],['누적 상승','365 m']]
+ const metrics = [
+   ['GPX 거리','5.01 km'],['GPX 기록 지점','453개'],['GPX 기록 시각 간격','5시간 9분'],
+   ['최고 GPS 고도','1,136 m'],['램블러 거리','4.9 km'],['램블러 전체 시간','5시간 10분 5초'],
+   ['램블러 이동 시간','3시간 34초'],['램블러 휴식 시간','2시간 9분 31초'],['램블러 누적 상승','365 m']
  ];
- groups.forEach(group => {
-   const row = asEl('div');
-   group.forEach(([label,value]) => {
-     row.append(asEl('div',label+' '+value));
-   });
-   stats.append(row);
+ metrics.forEach(([label,value]) => {
+   const cell = asEl('div');
+   cell.append(asEl('span',label),asEl('strong',value));
+   stats.append(cell);
  });
  section.append(asEl('h4','산행 통계'),stats,asEl('h4','GPS 고도 변화'));
  const chart = svg('svg',{viewBox:'0 0 600 205',role:'img','aria-label':'누적 GPS 거리별 고도 변화, 최고 1,136미터',class:'hike-chart'});
