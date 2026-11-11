@@ -85,3 +85,4 @@ button:hover,.btn:hover,.button:hover,.action:hover,.back:hover,.close:hover,.jk
 button:focus-visible,a:focus-visible,summary:focus-visible{outline:3px solid #4c7051!important;outline-offset:3px}
 .primary,.button.selected,.ux-save-btn{background:#465f3e!important;color:#fffdf8!important}
 .card,.entry,.island-card{background:#fffdf8!important;color:#403a32!important}
+.stat span,.stat small,.stats .stat span{color:#665c4c!important}
