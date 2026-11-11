@@ -2,6 +2,8 @@
 :root{color-scheme:light!important;--bg:#f5f0e7!important;--pane:#fffdf8!important;--panel:#fffdf8!important;--panel2:#f0e8da!important;--card:#fffdf8!important;--surface:#fffdf8!important;--surface2:#f0e8da!important;--text:#403a32!important;--ink:#403a32!important;--muted:#746b5d!important;--sub:#746b5d!important;--line:#d9cdbb!important;--border:#d9cdbb!important;--gold:#8b6038!important;--accent:#8b6038!important;--blue:#567967!important}
 html,body{color-scheme:light!important;background:#f5f0e7!important;color:#403a32!important}
 body{background:linear-gradient(135deg,#f8f3e9 0%,#f3f1e8 60%,#eef1e8 100%)!important}
+body:has(.hero-copy){display:block!important;height:auto!important;min-height:100vh!important}
+body:has(.hero-copy) main{margin-inline:auto!important}
 h1,h2,h3,h4,h5{color:#45523e!important;text-shadow:none!important}
 a{color:#765331}
 header,.top,.topbar,.site-topbar,#ux-navigation{background:#eee6d8!important;color:#403a32!important;border-color:#d8cbb7!important;box-shadow:0 4px 20px #7760400a}
