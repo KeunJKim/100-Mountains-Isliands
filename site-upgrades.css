@@ -49,3 +49,25 @@
 .ux-record-panel .ux-full{grid-column:1/-1}.ux-record-panel .ux-help{font-size:12px;color:#bcd3e2;line-height:1.55}
 .ux-record-panel .ux-status{padding:10px 0;white-space:pre-wrap;font-size:12px;min-height:24px;color:#ffe0a4}
 @media(max-width:600px){.ux-record-panel .ux-form-grid{grid-template-columns:1fr}.ux-record-panel .ux-full{grid-column:auto}.ux-record-panel .ux-info{grid-template-columns:96px minmax(0,1fr)}}
+
+/* JK 의 산하정복 · 5열의 간결한 산/섬 목록 */
+#ux-navigation .ux-brand{white-space:normal;line-height:1.4;max-width:100%}
+.jk-brand-tag{display:inline-block;white-space:nowrap;font-size:.8em;letter-spacing:-.03em;color:#ffe0a4}
+.jk-hero-subtitle{display:block;font-size:clamp(20px,2.1vw,30px);line-height:1.45;margin-top:12px;color:#ffe0a4;letter-spacing:-.03em}
+#cards.grid,#island-cards.ux-island-grid{grid-template-columns:repeat(5,minmax(0,1fr));gap:8px;align-items:stretch}
+#cards>.card,#island-cards>.ux-island-card{position:relative;min-width:0;min-height:92px;height:auto;padding:9px 10px;border-radius:8px;gap:3px;line-height:1.35}
+#cards>.card .id,#island-cards>.ux-island-card .ux-id{position:absolute;top:9px;right:8px;font:normal 10px/1.3 Georgia,serif;margin:0;color:#e9ca89}
+#cards>.card h2{display:flex;align-items:baseline;gap:1px 5px;font-size:16px;line-height:1.35;margin:0 23px 2px 0;overflow-wrap:anywhere}
+#cards>.card .cert-inline{display:block;flex-basis:100%;font-size:10px;line-height:1.35;margin:0;white-space:normal}
+#cards>.card p{font-size:11px;line-height:1.4;margin:0 0 4px}
+#cards>.card .small{gap:4px;margin-top:auto}
+#cards>.card .pill{font-size:9px;line-height:1.35;padding:2px 5px}
+#cards>.card .small .pill:last-child{display:none}
+#island-cards>.ux-island-card strong{font-size:16px;line-height:1.35;letter-spacing:-.03em;padding-right:22px;overflow-wrap:anywhere}
+#island-cards>.ux-island-card small{font-size:11px;line-height:1.4;overflow-wrap:anywhere}
+#island-cards>.ux-island-card .ux-marks{gap:3px;margin-top:auto}
+#island-cards>.ux-island-card .ux-marks span{font-size:9px;line-height:1.4;padding:2px 5px}
+@media(max-width:1099px){#cards.grid,#island-cards.ux-island-grid{grid-template-columns:repeat(4,minmax(0,1fr))}}
+@media(max-width:849px){#cards.grid,#island-cards.ux-island-grid{grid-template-columns:repeat(3,minmax(0,1fr))}}
+@media(max-width:599px){#cards.grid,#island-cards.ux-island-grid{grid-template-columns:repeat(2,minmax(0,1fr))}#cards>.card,#island-cards>.ux-island-card{min-height:104px;padding:10px}#cards>.card h2,#island-cards>.ux-island-card strong{font-size:15px}}
+@media(max-width:339px){#cards.grid,#island-cards.ux-island-grid{grid-template-columns:1fr}}

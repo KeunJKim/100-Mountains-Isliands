@@ -101,3 +101,6 @@ if(location.protocol==='https:'&&location.hostname==='keunjkim.github.io'){
 section.append(box);
 navigation.append(section);
 })();
+
+/* 공통 홈페이지 이름 */
+(()=>{const base="100개의 산과 100개의 섬",suffix="(JK 의 산하정복)";for(const brand of document.querySelectorAll(".ux-brand,.brand")){if(brand.textContent.replace(/\s+/g," ").trim()===base){const tag=document.createElement("span");tag.className="jk-brand-tag";tag.textContent=suffix;brand.append(tag);}}if(document.title.includes(base)&&!document.title.includes(suffix))document.title=document.title.replace(base,base+suffix);})();
