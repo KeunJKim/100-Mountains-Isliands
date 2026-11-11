@@ -33,7 +33,9 @@ style.textContent=`
 .visit-counter strong{color:#ffe0a4;font-size:14px}
 .visit-counter a{color:#d4e5ef;text-decoration:underline;text-underline-offset:3px}
 .visit-counter img{display:block;max-width:100%;height:auto;min-height:20px}
-.visit-counter .counter-badge{height:34px;width:auto;min-height:34px}
+.visit-counter .counter-badge{height:22px;width:auto;min-height:22px}
+.visit-counter .counter-periods{font-size:13px;padding:6px 0;border-top:1px solid #45677b;border-bottom:1px solid #45677b}
+.visit-counter .counter-periods b{color:#ffe0a4;font-weight:700}
 .visit-counter small{font-size:11px;color:#bdd1de}
 @media(max-width:500px){.visit-counter{padding:8px 13px 12px}}
 `;
@@ -52,7 +54,7 @@ link.target='_blank';
 link.rel='noopener noreferrer';
 link.textContent='방문 통계 확인 ↗';
 const hint=document.createElement('small');
-hint.textContent='오늘 / 누적 조회수 · Hits 집계';
+hint.textContent='조회수 기준 · Hits 집계';
 if(location.protocol==='https:'&&location.hostname==='keunjkim.github.io'){
  const badge=document.createElement('img');
  badge.className='counter-badge';
@@ -67,7 +69,30 @@ if(location.protocol==='https:'&&location.hostname==='keunjkim.github.io'){
    notice.textContent='조회수를 불러오지 못했습니다. 통계 링크에서 확인해 주세요.';
    badge.replaceWith(notice);
  });
- box.append(heading,badge,link,hint);
+ const periods=document.createElement('div');
+ periods.className='counter-periods';
+ periods.textContent='주간 / 월간 조회수 불러오는 중';
+ box.append(heading,badge,periods,link,hint);
+ fetch('visit-stats.json?v='+Date.now(),{cache:'no-store'})
+   .then(response=>{
+     if(!response.ok)throw Error('통계 파일 연결 실패');
+     return response.json();
+   })
+   .then(data=>{
+     const values=data.pages?.[page.key];
+     if(!values||![values.weekly,values.monthly].every(value=>Number.isSafeInteger(value)&&value>=0))throw Error('통계 값 확인 필요');
+     periods.replaceChildren();
+     [['최근 7일',values.weekly],['최근 1개월',values.monthly]].forEach(([label,value],index)=>{
+       if(index)periods.append(document.createTextNode(' / '));
+       periods.append(document.createTextNode(label+' '));
+       const number=document.createElement('b');
+       number.textContent=value.toLocaleString('ko-KR');
+       periods.append(number);
+     });
+     const date=new Date(data.updatedAt);
+     if(Number.isFinite(date.getTime()))hint.textContent='주·월 '+date.toLocaleString('ko-KR',{timeZone:'Asia/Seoul'})+' 갱신';
+   })
+   .catch(()=>{periods.textContent='주간 — / 월간 —';hint.textContent='주·월 통계 갱신 대기 · Hits 집계'});
 }else{
  const notice=document.createElement('span');
  notice.textContent='게시된 홈페이지에서 집계가 시작됩니다.';
