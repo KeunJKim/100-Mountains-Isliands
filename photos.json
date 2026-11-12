@@ -11,7 +11,30 @@
     }
   ],
   "hiddenAlbumIds": [],
-  "trashPhotos": [],
+  "trashPhotos": [
+    {
+      "id": "tranggle-20261107-busan-udong",
+      "group": "other",
+      "category": "other",
+      "albumId": "o-tranggle-20261107-udong",
+      "title": "부산 해운대구 우동 · 트랭글 공유 지도",
+      "date": "2026-11-07",
+      "dateSource": "shared-image-label",
+      "src": "photos/tranggle-20261107-busan-udong.jpg",
+      "path": "photos/tranggle-20261107-busan-udong.jpg",
+      "source": "Tranggle",
+      "sourceType": "shared-map-image",
+      "gpsAvailable": false,
+      "desc": "트랭글 표시값: 거리 1.5km · 시간 1시간 49분 47초 · 누적고도 175m. 공유 지도 이미지이며 GPX 원본이 아닙니다.",
+      "sourceStats": {
+        "distanceKm": 1.5,
+        "durationSeconds": 6587,
+        "cumulativeAltitudeM": 175
+      },
+      "builtIn": false,
+      "deletedAt": "2026-11-12T23:46:49.054Z"
+    }
+  ],
   "photos": [
     {
       "id": "74a7dc38-963b-44f8-b612-7137817efbb6",
@@ -11224,26 +11247,6 @@
       "folderDate": "2023-02-05",
       "width": 1600,
       "height": 1220
-    },
-    {
-      "id": "tranggle-20261107-busan-udong",
-      "group": "other",
-      "category": "other",
-      "albumId": "o-tranggle-20261107-udong",
-      "title": "부산 해운대구 우동 · 트랭글 공유 지도",
-      "date": "2026-11-07",
-      "dateSource": "shared-image-label",
-      "src": "photos/tranggle-20261107-busan-udong.jpg",
-      "path": "photos/tranggle-20261107-busan-udong.jpg",
-      "source": "Tranggle",
-      "sourceType": "shared-map-image",
-      "gpsAvailable": false,
-      "desc": "트랭글 표시값: 거리 1.5km · 시간 1시간 49분 47초 · 누적고도 175m. 공유 지도 이미지이며 GPX 원본이 아닙니다.",
-      "sourceStats": {
-        "distanceKm": 1.5,
-        "durationSeconds": 6587,
-        "cumulativeAltitudeM": 175
-      }
     },
     {
       "id": "local-25dfbfd226c68e95ce5b",
