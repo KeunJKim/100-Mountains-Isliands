@@ -99,3 +99,5 @@ body:has(#photo-cards) .cardinfo i{font-size:16px!important}
 @media(max-width:760px){body:has(#photo-cards) .cards{grid-template-columns:repeat(3,minmax(0,1fr))!important}}
 @media(max-width:500px){body:has(#photo-cards) .cards{grid-template-columns:repeat(2,minmax(0,1fr))!important}.hero-copy .buttons{grid-template-columns:repeat(3,minmax(0,1fr))!important}}
 body:has(.hero-copy) main>.grid{grid-template-columns:repeat(5,minmax(0,1fr))!important}@media(max-width:1050px){body:has(.hero-copy) main>.grid{grid-template-columns:repeat(3,minmax(0,1fr))!important}}@media(max-width:600px){body:has(.hero-copy) main>.grid{grid-template-columns:repeat(2,minmax(0,1fr))!important}}
+
+body:has(#photo-cards) [data-group][aria-pressed=true]{background:#465f3e!important;color:#fffdf8!important;border-color:#465f3e!important;box-shadow:0 0 0 2px #aebc9d!important}
