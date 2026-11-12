@@ -11,7 +11,30 @@
     }
   ],
   "hiddenAlbumIds": [],
-  "trashPhotos": [],
+  "trashPhotos": [
+    {
+      "id": "local-1fe91509f0507d888ef6",
+      "group": "mountain",
+      "albumId": "m-3",
+      "src": "photos/local-1fe91509f0507d888ef6.jpg",
+      "path": "photos/local-1fe91509f0507d888ef6.jpg",
+      "createdAt": "2026-11-12T05:04:19.016Z",
+      "title": "가야산 · 2021-12-04 · 2",
+      "date": "2021-12-04",
+      "category": "mountain",
+      "sourceCollection": "local-20261112",
+      "sourceFileName": "20211204_211828.jpg",
+      "sourceFolder": "2021 1204 가야산",
+      "sourceHash": "1fe91509f0507d888ef63d7a716166951c8abf8becc590e8013accd99dfbd3d3",
+      "dateSource": "EXIF",
+      "capturedAtLocal": "2021-12-04T13:04:23",
+      "folderDate": "2021-12-04",
+      "width": 1172,
+      "height": 1600,
+      "builtIn": false,
+      "deletedAt": "2026-11-12T11:48:41.748Z"
+    }
+  ],
   "photos": [
     {
       "id": "74a7dc38-963b-44f8-b612-7137817efbb6",
@@ -9943,26 +9966,6 @@
       "capturedAtLocal": "2021-12-04T12:31:15",
       "folderDate": "2021-12-04",
       "width": 1200,
-      "height": 1600
-    },
-    {
-      "id": "local-1fe91509f0507d888ef6",
-      "group": "mountain",
-      "albumId": "m-3",
-      "src": "photos/local-1fe91509f0507d888ef6.jpg",
-      "path": "photos/local-1fe91509f0507d888ef6.jpg",
-      "createdAt": "2026-11-12T05:04:19.016Z",
-      "title": "가야산 · 2021-12-04 · 2",
-      "date": "2021-12-04",
-      "category": "mountain",
-      "sourceCollection": "local-20261112",
-      "sourceFileName": "20211204_211828.jpg",
-      "sourceFolder": "2021 1204 가야산",
-      "sourceHash": "1fe91509f0507d888ef63d7a716166951c8abf8becc590e8013accd99dfbd3d3",
-      "dateSource": "EXIF",
-      "capturedAtLocal": "2021-12-04T13:04:23",
-      "folderDate": "2021-12-04",
-      "width": 1172,
       "height": 1600
     },
     {
