@@ -43,3 +43,16 @@ html body .head:has(.jk-list-title) p{margin:0!important;line-height:1.6!importa
 /* Override the legacy navigation text palette for the dark all-menu button. */
 html body #ux-navigation .jk-compact-menu .jk-all-menu>summary{color:#ffffff!important}
 html body #ux-navigation .jk-compact-menu .jk-all-menu[open]>summary{color:#263f27!important}
+/* 일반 방문자는 감상 기능만 표시. 실제 변경은 GitHub 소유자 인증을 유지합니다. */
+html body:not(.jk-owner-mode) :is(.delete-photo,.album-delete,.album-list-actions,.other-delete,.other-admin,#manage-open,#empty-add,#manager,#open-admin,#admin-view,.ux-form,button.ux-edit-btn,.ux-save-btn,.jk-owner-actions){display:none!important}
+html body:not(.jk-owner-mode) .jk-profile-caption{display:none!important}
+html body:not(.jk-owner-mode) .jk-profile-trigger{opacity:1!important;cursor:default!important}
+html body:not(.jk-owner-mode) .jk-profile-dialog:not(.jk-owner-dialog){display:none!important}
+html body:not(.jk-owner-mode) .photo-wrap{padding-bottom:0!important}
+html body:not(.jk-owner-mode) .alb-row{padding-bottom:0!important}
+html body:not(.jk-owner-mode) .toolbar-actions,html body:not(.jk-owner-mode):has(#list) .guide{display:none!important}
+html body:not(.jk-owner-mode) #article-view :is(#edit,#delete),html body:not(.jk-owner-mode) .jk-compact-menu a[href*="gpx-import.html"]{display:none!important}
+.jk-owner-actions{text-align:right;padding:12px 24px;background:#eee6d8}.jk-owner-actions button{border:1px solid #a48d66;border-radius:8px;background:#fff5dd;color:#31472c;font-size:12px;padding:8px 12px;cursor:pointer}
+/* 전체 메뉴는 밝은 배경과 진한 글씨로 통일 */
+html body .jk-compact-menu .jk-all-menu>summary,html body #ux-navigation .jk-compact-menu .jk-all-menu>summary{background:#f4dfa6!important;color:#243c27!important;border:2px solid #a08247!important;box-shadow:0 2px 5px #77633b1a!important}
+html body .jk-compact-menu .jk-all-menu[open]>summary,html body #ux-navigation .jk-compact-menu .jk-all-menu[open]>summary{background:#dce9cf!important;color:#203a22!important;border-color:#70885c!important}
