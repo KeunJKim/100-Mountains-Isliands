@@ -1,5 +1,40 @@
 {
   "schemaVersion": 1,
+  "customAlbums": [
+    {
+      "id": "o-tranggle-20261107-udong",
+      "group": "other",
+      "no": 12,
+      "name": "부산 해운대구 우동",
+      "region": "부산",
+      "note": "2026-11-07 · 트랭글 공유 지도 이미지. 표시 거리 1.5km · 시간 1시간 49분 47초 · 누적고도 175m. GPX 원본이 없어 GPS 경로 분석값은 제공하지 않습니다."
+    }
+  ],
+  "hiddenAlbumIds": [],
+  "trashPhotos": [
+    {
+      "id": "local-25dfbfd226c68e95ce5b",
+      "group": "mountain",
+      "albumId": "m-3",
+      "src": "photos/local-25dfbfd226c68e95ce5b.jpg",
+      "path": "photos/local-25dfbfd226c68e95ce5b.jpg",
+      "createdAt": "2026-11-12T05:04:19.016Z",
+      "title": "가야산 · 2021-12-04 · 14",
+      "date": "2021-12-04",
+      "category": "mountain",
+      "sourceCollection": "local-20261112",
+      "sourceFileName": "20211204_222346.jpg",
+      "sourceFolder": "2021 1204 가야산",
+      "sourceHash": "25dfbfd226c68e95ce5bfa0593438991a1bb2e8459f460fca3a9d75aecaeb977",
+      "dateSource": "EXIF",
+      "capturedAtLocal": "2021-12-04T14:36:14",
+      "folderDate": "2021-12-04",
+      "width": 1200,
+      "height": 1600,
+      "builtIn": false,
+      "deletedAt": "2026-11-12T11:48:09.723Z"
+    }
+  ],
   "photos": [
     {
       "id": "74a7dc38-963b-44f8-b612-7137817efbb6",
@@ -10174,26 +10209,6 @@
       "height": 1600
     },
     {
-      "id": "local-25dfbfd226c68e95ce5b",
-      "group": "mountain",
-      "albumId": "m-3",
-      "src": "photos/local-25dfbfd226c68e95ce5b.jpg",
-      "path": "photos/local-25dfbfd226c68e95ce5b.jpg",
-      "createdAt": "2026-11-12T05:04:19.016Z",
-      "title": "가야산 · 2021-12-04 · 14",
-      "date": "2021-12-04",
-      "category": "mountain",
-      "sourceCollection": "local-20261112",
-      "sourceFileName": "20211204_222346.jpg",
-      "sourceFolder": "2021 1204 가야산",
-      "sourceHash": "25dfbfd226c68e95ce5bfa0593438991a1bb2e8459f460fca3a9d75aecaeb977",
-      "dateSource": "EXIF",
-      "capturedAtLocal": "2021-12-04T14:36:14",
-      "folderDate": "2021-12-04",
-      "width": 1200,
-      "height": 1600
-    },
-    {
       "id": "local-f7c0b5a0e38f2139967f",
       "group": "mountain",
       "albumId": "m-3",
@@ -11274,17 +11289,5 @@
       }
     }
   ],
-  "hiddenSeedIds": [],
-  "customAlbums": [
-    {
-      "id": "o-tranggle-20261107-udong",
-      "group": "other",
-      "no": 12,
-      "name": "부산 해운대구 우동",
-      "region": "부산",
-      "note": "2026-11-07 · 트랭글 공유 지도 이미지. 표시 거리 1.5km · 시간 1시간 49분 47초 · 누적고도 175m. GPX 원본이 없어 GPS 경로 분석값은 제공하지 않습니다."
-    }
-  ],
-  "hiddenAlbumIds": [],
-  "trashPhotos": []
+  "hiddenSeedIds": []
 }
