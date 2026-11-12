@@ -4,3 +4,38 @@
 html body a.ux-edit-btn[href*="gallery.html"],html body .jk-gallery-action{display:inline-flex;align-items:center;justify-content:center;background:#28566a!important;color:#ffffff!important;border:1px solid #173e50!important;border-radius:22px;padding:10px 16px;font-size:13px!important;font-weight:800!important;text-decoration:none!important;text-shadow:none!important;line-height:1.5;box-shadow:0 2px 5px #28463620}html body a.ux-edit-btn[href*="gallery.html"]:hover,html body .jk-gallery-action:hover{background:#173e50!important;color:#ffffff!important}html body a.ux-edit-btn[href*="gallery.html"]:focus-visible{outline:3px solid #567b42!important;outline-offset:3px}
 @media(max-width:600px){.jk-brand-group{gap:8px}.jk-profile-avatar{width:40px!important;height:40px!important}.jk-profile-dialog{padding:18px!important}.jk-profile-trigger{min-width:48px}}
 .jk-profile-preview[hidden]{display:none!important}
+/* 프로필은 제목·현재 위치 두 줄에 걸쳐 배치하고 메뉴 간격을 압축 */
+html body .jk-header-grid{display:grid!important;grid-template-columns:94px minmax(210px,1fr) auto!important;grid-template-rows:auto auto!important;column-gap:12px!important;row-gap:5px!important;align-items:center!important;position:relative;overflow:visible!important;box-sizing:border-box}
+html body .jk-header-grid>.jk-brand-group{display:contents!important}
+html body .jk-header-grid .jk-profile-trigger{grid-column:1!important;grid-row:1 / 3!important;align-self:center;justify-self:center;padding:0!important}
+html body .jk-header-grid .jk-profile-avatar{width:82px!important;height:82px!important;border-radius:16px!important;border-width:2px!important}
+html body .jk-header-grid .jk-header-title{grid-column:2!important;grid-row:1!important;display:block!important;white-space:normal!important;line-height:1.8!important;margin:0!important;transform:scaleY(1.2);transform-origin:left center}
+html body .jk-header-grid .jk-compact-menu{grid-column:3!important;grid-row:1!important;display:flex!important;align-items:center!important;justify-content:flex-end!important;flex-wrap:wrap!important;gap:4px!important;position:relative;overflow:visible!important;padding:0!important}
+html body .jk-header-grid .jk-header-breadcrumb{grid-column:2 / 4!important;grid-row:2!important;max-width:none!important;width:auto!important;margin:0!important;padding:3px 0!important;border:0!important;font-size:12px!important;align-self:start}
+html body .jk-compact-menu>a,html body .jk-compact-menu>details>summary{display:flex!important;align-items:center;justify-content:center;min-height:34px!important;padding:5px 9px!important;border:1px solid #b49a72!important;border-radius:19px!important;background:#f6ecd7!important;color:#2e442b!important;font:700 12px/1.4 'Malgun Gothic',sans-serif!important;white-space:nowrap;cursor:pointer;box-sizing:border-box;text-decoration:none!important;list-style:none}
+html body .jk-compact-menu summary::-webkit-details-marker{display:none}
+html body .jk-compact-menu>details{position:relative;margin:0!important;padding:0!important;border:0!important;background:transparent!important}
+html body .jk-compact-menu .jk-all-menu{position:static!important}
+html body .jk-compact-menu .jk-all-menu>summary{background:#3e5e3a!important;color:white!important;border-color:#3e5e3a!important}
+html body .jk-compact-menu>details[open]>summary,html body .jk-compact-menu>a:hover{background:#deead6!important;color:#263f27!important;border-color:#6f8c60!important}
+html body .jk-compact-menu .jk-nav-drop,html body .jk-compact-menu .jk-all-panel{position:absolute;top:calc(100% + 5px);right:0;z-index:1000;padding:12px;border:1px solid #bca786;border-radius:12px;background:#fffdf7;color:#30442b;box-shadow:0 12px 28px #473c302b;box-sizing:border-box}
+html body .jk-compact-menu .jk-nav-drop{min-width:176px;display:grid;gap:4px}
+html body .jk-compact-menu .jk-nav-drop::before,html body .jk-compact-menu .jk-all-panel::before{content:'';position:absolute;left:0;right:0;top:-8px;height:9px}
+html body .jk-compact-menu .jk-all-panel{width:min(1050px,calc(100vw - 40px));display:grid;grid-template-columns:repeat(6,minmax(0,1fr));gap:12px;padding:18px;max-height:70dvh;overflow:auto}
+html body .jk-all-panel section{min-width:0;display:flex;flex-direction:column;gap:5px;border-right:1px solid #e2d8c7;padding-right:10px}
+html body .jk-all-panel section:last-child{border:0;padding-right:0}
+html body .jk-all-panel strong{font-size:13px!important;line-height:1.5;color:#395732!important;padding:0 5px 7px;border-bottom:1px solid #d5c7af;margin-bottom:3px}
+html body .jk-compact-menu .jk-nav-drop a,html body .jk-compact-menu .jk-all-panel a{display:block;min-height:32px;padding:6px 7px!important;border:0!important;border-radius:6px!important;color:#3e4635!important;background:transparent!important;font-size:12px!important;line-height:1.5!important;font-weight:600!important;box-shadow:none!important;text-decoration:none!important;white-space:normal}
+html body .jk-compact-menu .jk-nav-drop a:hover,html body .jk-compact-menu .jk-all-panel a:hover,html body .jk-compact-menu a[aria-current=page]{background:#e6eddc!important;color:#213e25!important}
+html body #ux-navigation:has(.jk-header-grid){overflow:visible!important}
+html body h1 .jk-section-prefix{font-size:.8em!important;line-height:inherit}
+@media(max-width:1150px){html body .jk-header-grid{grid-template-columns:90px minmax(180px,1fr)!important}html body .jk-header-grid .jk-header-title{grid-column:2!important}html body .jk-header-grid .jk-compact-menu{grid-column:2!important;grid-row:3!important;justify-content:flex-start!important}html body .jk-header-grid .jk-header-breadcrumb{grid-column:2!important}html body .jk-header-grid .jk-profile-trigger{grid-row:1 / 4!important}html body .jk-compact-menu .jk-all-panel{grid-template-columns:repeat(3,minmax(0,1fr));width:min(740px,calc(100vw - 40px));right:auto;left:0}}
+@media(max-width:650px){html body .jk-header-grid{grid-template-columns:72px minmax(0,1fr)!important;column-gap:9px!important}html body .jk-header-grid .jk-profile-avatar{width:64px!important;height:64px!important;border-radius:12px!important}html body .jk-header-grid .jk-profile-trigger{grid-row:1 / 3!important}html body .jk-header-grid .jk-header-title{font-size:16px!important;line-height:1.7!important;transform:scaleY(1.15)}html body .jk-header-grid .jk-compact-menu{grid-column:1 / 3!important;grid-row:3!important;gap:4px!important;margin-top:5px!important}html body .jk-compact-menu>a,html body .jk-compact-menu>details>summary{font-size:11px!important;padding:5px 8px!important;min-height:32px!important}html body .jk-compact-menu .jk-all-panel{grid-template-columns:repeat(2,minmax(0,1fr));width:calc(100vw - 36px);max-height:65dvh;gap:14px}html body .jk-all-panel section{border:0;padding:0}html body .jk-compact-menu .jk-nav-drop{right:auto;left:0;min-width:155px;max-width:calc(100vw - 40px)}}
+@media(min-width:651px) and (max-width:1150px){html body .jk-compact-menu .jk-all-panel{width:min(740px,calc(100vw - 150px))}}
+@media(max-width:650px){html body .jk-compact-menu .jk-nav-group{position:static!important}}
+/* 섬&산 소개 영역의 과도한 위아래 여백 축소 */
+html body .head:has(.jk-list-title){padding:24px 0 28px!important;min-height:0!important}
+html body .head:has(.jk-list-title) .eyebrow{display:block;margin:0 0 7px!important;line-height:1.4!important}
+html body .head:has(.jk-list-title) h1{margin:7px 0 10px!important;line-height:1.2!important}
+html body .head:has(.jk-list-title) p{margin:0!important;line-height:1.6!important}
+@media(max-width:650px){html body .head:has(.jk-list-title){padding:20px 0 22px!important}}
