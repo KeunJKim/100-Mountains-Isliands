@@ -4,7 +4,7 @@ const clean=data=>({schemaVersion:1,hidden:Array.isArray(data?.hidden)?data.hidd
 const change=(data,item,restore)=>{const next=clean(data);next.hidden=next.hidden.filter(x=>x.key!==item.key);if(!restore)next.hidden.push(item);return next;};
 if(typeof module!=='undefined'&&module.exports){module.exports={clean,change};return;}
 const list=document.getElementById('list');if(!list)return;
-const root=document.createElement('details');root.className='other-admin';const summary=document.createElement('summary');summary.textContent='목록 삭제·복원 관리';root.append(summary);
+const root=document.createElement('details');root.className='other-admin';root.setAttribute('data-nosnippet','');const summary=document.createElement('summary');summary.textContent='목록 삭제·복원 관리';root.append(summary);
 const intro=document.createElement('p');intro.textContent='각 항목의 ‘목록에서 삭제’를 누르세요. 관리자 인증 후 삭제할 수 있으며, 원본 산행기·사진·BAC 인증 기록은 보관합니다.';
 const label=document.createElement('label');label.textContent='GitHub 관리 토큰 (이 페이지를 닫으면 지워집니다)';
 const input=document.createElement('input');input.type='password';input.autocomplete='off';input.id='other-admin-token';label.htmlFor=input.id;
