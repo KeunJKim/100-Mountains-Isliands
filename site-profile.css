@@ -39,3 +39,7 @@ html body .head:has(.jk-list-title) .eyebrow{display:block;margin:0 0 7px!import
 html body .head:has(.jk-list-title) h1{margin:7px 0 10px!important;line-height:1.2!important}
 html body .head:has(.jk-list-title) p{margin:0!important;line-height:1.6!important}
 @media(max-width:650px){html body .head:has(.jk-list-title){padding:20px 0 22px!important}}
+
+/* Override the legacy navigation text palette for the dark all-menu button. */
+html body #ux-navigation .jk-compact-menu .jk-all-menu>summary{color:#ffffff!important}
+html body #ux-navigation .jk-compact-menu .jk-all-menu[open]>summary{color:#263f27!important}
