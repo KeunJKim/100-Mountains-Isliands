@@ -1,0 +1,19 @@
+{
+  "source": "https://hits.sh",
+  "pages": {
+    "blog.html": {
+      "updatedAt": "2026-11-12T04:11:20.4308190Z",
+      "weekly": 22,
+      "monthly": 22,
+      "total": 22
+    },
+    "index.html": {
+      "updatedAt": "2026-11-12T04:11:19.9344836Z",
+      "weekly": 85,
+      "monthly": 85,
+      "total": 85
+    }
+  },
+  "updatedAt": "2026-11-12T04:11:20.4310554Z",
+  "periodBasis": "Hits 집계 기준 최근 7일 / 최근 1개월"
+}

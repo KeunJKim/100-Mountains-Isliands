@@ -89,8 +89,8 @@ if(location.protocol==='https:'&&location.hostname==='keunjkim.github.io'){
        number.textContent=value.toLocaleString('ko-KR');
        periods.append(number);
      });
-     const date=new Date(data.updatedAt);
-     if(Number.isFinite(date.getTime()))hint.textContent='주·월 '+date.toLocaleString('ko-KR',{timeZone:'Asia/Seoul'})+' 갱신';
+     const date=new Date(values.updatedAt||data.updatedAt);
+     if(Number.isFinite(date.getTime())){const stale=Date.now()-date.getTime()>3*60*60*1000;hint.textContent=(stale?'최근 저장값 · ':'')+'주·월 '+date.toLocaleString('ko-KR',{timeZone:'Asia/Seoul'})+' 갱신';hint.title='조회수 기준 · 최근 7일 / 최근 1개월 · 약 1시간마다 갱신';}
    })
    .catch(()=>{periods.textContent='주간 — / 월간 —';hint.textContent='주·월 통계 갱신 대기 · Hits 집계'});
 }else{
