@@ -56,3 +56,12 @@ html body:not(.jk-owner-mode) #article-view :is(#edit,#delete),html body:not(.jk
 /* 전체 메뉴는 밝은 배경과 진한 글씨로 통일 */
 html body .jk-compact-menu .jk-all-menu>summary,html body #ux-navigation .jk-compact-menu .jk-all-menu>summary{background:#f4dfa6!important;color:#243c27!important;border:2px solid #a08247!important;box-shadow:0 2px 5px #77633b1a!important}
 html body .jk-compact-menu .jk-all-menu[open]>summary,html body #ux-navigation .jk-compact-menu .jk-all-menu[open]>summary{background:#dce9cf!important;color:#203a22!important;border-color:#70885c!important}
+/* 갤러리·명산 소개 제목 영역의 불필요한 빈 공간 축소 */
+html body .banner:has(h1){padding:22px 0 24px!important;min-height:0!important}
+html body .banner:has(h1) h1{margin:7px 0 9px!important;line-height:1.2!important}
+html body .banner:has(h1) p{margin:0!important;line-height:1.6!important}
+html body header:has(>.wrap>.jk-list-title){padding:24px 0 28px!important;min-height:0!important}
+html body header:has(>.wrap>.jk-list-title) .kicker{margin-top:0!important;line-height:1.4!important}
+html body header:has(>.wrap>.jk-list-title) h1{margin:8px 0 10px!important;line-height:1.2!important}
+html body header:has(>.wrap>.jk-list-title) .lead{margin:0 0 18px!important;line-height:1.6!important}
+html body:not(.jk-owner-mode) #photo-delete-status{display:none!important}
