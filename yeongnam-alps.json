@@ -597,5 +597,113 @@
     ],
     "source": "https://www.ramblr.com/web/mymap/trip/761717/3692198",
     "region": "대한민국 울산광역시"
+  },
+  {
+    "id": "photo-o-10353862-20211211",
+    "title": "능동산 사진 기록",
+    "date": "2021-12-11",
+    "mountain": null,
+    "url": "gallery.html?group=alps&album=o-10353862",
+    "summits": [],
+    "source": null,
+    "region": "촬영일 기준 · 사진 3장",
+    "kind": "photo",
+    "photoCount": 3
+  },
+  {
+    "id": "photo-a-baenaebong-20211211",
+    "title": "배내봉 사진 기록",
+    "date": "2021-12-11",
+    "mountain": null,
+    "url": "gallery.html?group=alps&album=a-baenaebong",
+    "summits": [],
+    "source": null,
+    "region": "촬영일 기준 · 사진 2장",
+    "kind": "photo",
+    "photoCount": 2
+  },
+  {
+    "id": "photo-o-11112113-20210904",
+    "title": "영축산 사진 기록",
+    "date": "2021-09-04",
+    "mountain": null,
+    "url": "gallery.html?group=alps&album=o-11112113",
+    "summits": [
+      "영축산"
+    ],
+    "source": null,
+    "region": "촬영일 기준 · 사진 10장",
+    "kind": "photo",
+    "photoCount": 10
+  },
+  {
+    "id": "photo-m-5-20210523",
+    "title": "가지산 사진 기록",
+    "date": "2021-05-23",
+    "mountain": 5,
+    "url": "mountains.html?mountain=5&date=2021-05-23",
+    "summits": [
+      "가지산"
+    ],
+    "source": null,
+    "region": "촬영일 기준 · 사진 9장",
+    "kind": "photo",
+    "photoCount": 9
+  },
+  {
+    "id": "photo-a-munboksan-20210523",
+    "title": "문복산 사진 기록",
+    "date": "2021-05-23",
+    "mountain": null,
+    "url": "gallery.html?group=alps&album=a-munboksan",
+    "summits": [
+      "문복산"
+    ],
+    "source": null,
+    "region": "촬영일 기준 · 사진 9장",
+    "kind": "photo",
+    "photoCount": 9
+  },
+  {
+    "id": "photo-o-10302971-20210307",
+    "title": "운문산 사진 기록",
+    "date": "2021-03-07",
+    "mountain": null,
+    "url": "gallery.html?group=alps&album=o-10302971",
+    "summits": [
+      "운문산"
+    ],
+    "source": null,
+    "region": "촬영일 기준 · 사진 17장",
+    "kind": "photo",
+    "photoCount": 17
+  },
+  {
+    "id": "photo-m-5-20210227",
+    "title": "가지산 사진 기록",
+    "date": "2021-02-27",
+    "mountain": 5,
+    "url": "mountains.html?mountain=5&date=2021-02-27",
+    "summits": [
+      "가지산"
+    ],
+    "source": null,
+    "region": "촬영일 기준 · 사진 6장",
+    "kind": "photo",
+    "photoCount": 6
+  },
+  {
+    "id": "photo-a-goheonsan-20210227",
+    "title": "고헌산 사진 기록",
+    "date": "2021-02-27",
+    "mountain": null,
+    "url": "gallery.html?group=alps&album=a-goheonsan",
+    "summits": [
+      "고헌산"
+    ],
+    "source": null,
+    "region": "촬영일 기준 · 사진 6장",
+    "kind": "photo",
+    "photoCount": 6
   }
 ]

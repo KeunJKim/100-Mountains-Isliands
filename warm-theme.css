@@ -102,3 +102,18 @@ body:has(.hero-copy) main>.grid{grid-template-columns:repeat(5,minmax(0,1fr))!im
 
 body:has(#photo-cards) [data-group][aria-pressed=true]{background:#465f3e!important;color:#fffdf8!important;border-color:#465f3e!important;box-shadow:0 0 0 2px #aebc9d!important}
 body:has(#photo-cards) .alb-date{color:#6d5431!important;font-weight:600!important}
+
+/* 본문·날짜 가독성 및 명산외산행 5칸 */
+:root{--muted:#514a3d!important;--sub:#514a3d!important;--text:#332f27!important;--ink:#332f27!important}
+body{color:#332f27!important;font-weight:500}
+p,li,dd,label,.muted,.lead,.summary,.hint,.note,.explain,.fineprint,.card p,.cardinfo small,.record small,.alb-date{color:#4e4638!important}
+h1,h2,h3,h4,h5,.cardinfo strong{color:#2e442b!important;font-weight:750!important}
+input,select,textarea{color:#332f27!important;font-weight:500}input::placeholder,textarea::placeholder{color:#6b6253!important}
+.stat span,.stat small,.stats .stat span,.hike-stats span,.island-gps .hike-stats span,#stats small{color:#554a38!important}
+button,.button,.btn,summary{font-weight:700!important}
+body:has(#list) #list.grid{grid-template-columns:repeat(5,minmax(0,1fr))!important;gap:12px!important}
+body:has(#list) #list .card-body{padding:11px!important}body:has(#list) #list h3{font-size:15px!important;line-height:1.5!important}
+body:has(#list) #list .card p{font-size:12px!important}body:has(#list) #list .card img{height:110px!important}
+body:has(#list) #list .gps-cover{height:110px!important;min-height:110px!important;padding:12px!important}body:has(#list) #list .gps-cover strong{font-size:18px!important}
+@media(max-width:1000px){body:has(#list) #list.grid{grid-template-columns:repeat(4,minmax(0,1fr))!important}}@media(max-width:760px){body:has(#list) #list.grid{grid-template-columns:repeat(3,minmax(0,1fr))!important}}@media(max-width:500px){body:has(#list) #list.grid{grid-template-columns:repeat(2,minmax(0,1fr))!important}}
+.lightbox,.lightbox p,.lightbox span,.lightbox small{color:#fffdf8!important}
