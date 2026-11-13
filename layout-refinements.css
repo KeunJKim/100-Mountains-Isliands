@@ -1,0 +1,10 @@
+/* 제목 주변 공간만 조정: 목록·사진·산행 데이터 유지 */
+html body header.intro,html body header.hero,html body div.hero:has(> .wrap > h1),html body header:has(> .wrap > h1){padding:14px 0 16px!important;min-height:0!important;height:auto!important}
+html body header.intro h1,html body header.hero h1,html body div.hero>.wrap>h1,html body header>.wrap>h1{margin:4px 0 7px!important;line-height:1.25!important;font-size:clamp(24px,2.4vw,36px)!important}
+html body header.intro p,html body header.hero p,html body div.hero>.wrap>p,html body header>.wrap>p{margin:4px 0!important;line-height:1.55!important}
+html body header>.wrap>.actions{margin:9px 0 0!important}
+html body .main{padding-top:14px!important}
+html body header+main{padding-top:14px!important}
+html body .notice{margin-bottom:12px!important;padding:10px 14px!important}
+html body header.intro .home-shortcut{padding:6px 12px!important}
+@media(max-width:600px){html body header.intro,html body header.hero,html body div.hero:has(>.wrap>h1),html body header:has(>.wrap>h1){padding:12px 0!important}html body .home-shortcut{float:none!important;margin-bottom:6px!important}}

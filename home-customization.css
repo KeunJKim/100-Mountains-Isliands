@@ -97,3 +97,23 @@ html body.jk-hiking-home .hero-copy .buttons .button{min-height:26px!important;p
  html body.jk-hiking-home .hero-copy .desc,html body.jk-representative-home .hero-copy>p:not(.eyebrow){font-size:clamp(11px,.65vw,15px)!important}
  html body.jk-hiking-home .hero-copy .buttons .button{font-size:clamp(10px,.5vw,12px)!important}
 }
+
+/* 세부 조정: 가로 넘침 방지, 전체 사진, 아래 분류 카드60% */
+html body.jk-representative-home,html body.jk-hiking-home{max-width:100%;overflow-x:clip}
+html body.jk-representative-home main,html body.jk-hiking-home main,html body .jk-header-grid,html body .jk-header-grid>*{min-width:0!important}
+html body.jk-representative-home>.hero{background-size:contain!important;background-position:center center!important;background-color:#e5e3d8!important}
+html body.jk-representative-home .jk-header-grid,html body.jk-hiking-home #ux-navigation .jk-header-grid{grid-template-columns:clamp(64px,4.5vw,94px) minmax(0,1fr) minmax(0,auto)!important}
+@media(min-width:1051px){
+ html body .jk-home-card-stage{width:60%!important;min-width:0!important;margin:0 auto 6px!important}
+ html body .jk-home-card-stage .card{display:flex!important;flex-direction:column!important;justify-content:center!important;align-items:flex-start!important;gap:2px!important;padding:7px 9px!important;min-width:0!important;border-radius:9px!important}
+ html body .jk-home-card-stage .card .number{font-size:clamp(17px,1vw,24px)!important;line-height:1!important}
+ html body .jk-home-card-stage .card h3{font-size:clamp(12px,.7vw,16px)!important;line-height:1.3!important;overflow-wrap:anywhere}
+ html body .jk-home-card-stage .card :is(.coming,.more){font-size:clamp(10px,.55vw,12px)!important;line-height:1.3!important;overflow-wrap:anywhere}
+}
+@media(min-width:1051px) and (max-width:1700px){
+ html body.jk-representative-home .jk-header-grid,html body.jk-hiking-home #ux-navigation .jk-header-grid{grid-template-columns:64px minmax(0,1fr)!important;grid-template-rows:auto auto auto!important}
+ html body .jk-header-grid .jk-compact-menu{grid-column:2!important;grid-row:3!important;justify-content:flex-start!important;max-width:100%!important;flex-wrap:wrap!important}
+ html body .jk-header-grid .jk-header-breadcrumb{grid-column:2!important;grid-row:2!important}
+ html body .jk-header-grid .jk-profile-trigger{grid-row:1 / 4!important}
+}
+@media(max-width:1050px){html body .jk-home-card-stage{width:100%!important}html body .jk-home-card-stage .card{padding:8px!important}html body .jk-home-card-stage .card h3{font-size:14px!important}}
