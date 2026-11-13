@@ -96,6 +96,17 @@ dialog.hwangmaesan-detail{max-width:980px;width:calc(100% - 16px);padding:clamp(
 <meta name="author" content="김종근 (종근 · JK · KJK)">
 <link rel="stylesheet" href="https://keunjkim.github.io/100-Mountains-Isliands/site-profile.css?v=20261113-spacing-final3">
 <script defer src="https://keunjkim.github.io/100-Mountains-Isliands/site-profile.js?v=20261113-owner-title2"></script>
+
+<script>
+/* 날짜별 원본 기록과 게시된 산행기를 연결합니다. */
+document.addEventListener('DOMContentLoaded',()=>{
+ fetch('blog-posts.json?v='+Date.now(),{cache:'no-store'}).then(r=>{if(!r.ok)throw Error();return r.json();}).then(posts=>{
+ const links=new Map();for(const p of posts){if(!p.id)continue;for(const token of String(p.body||'').split('\n')){try{const u=new URL(token.trim());if(u.hostname==='www.ramblr.com'&&u.pathname.startsWith('/web/mymap/trip/761717/'))links.set(u.pathname.split('/').pop(),p);}catch{}}}
+ let queued=false;const scan=()=>{queued=false;for(const a of document.querySelectorAll('a[href*="ramblr.com/web/mymap/trip/761717/"]')){const id=new URL(a.href).pathname.split('/').pop(),p=links.get(id),host=a.closest('.visit');if(!p||!host||host.querySelector('[data-blog-record-link]'))continue;const box=document.createElement('p'),link=document.createElement('a');box.dataset.blogRecordLink=id;link.textContent='산행 블로그 글 보기 →';link.href='blog.html#post-'+encodeURIComponent(p.id);link.className='button';link.style.cssText='display:inline-flex;padding:8px 13px;border:1px solid #a78d64;border-radius:20px;background:#f3e6cc;color:#2e442b;font-weight:700;text-decoration:none';box.append(link);host.querySelector('h3')?.after(box);}};
+ scan();new MutationObserver(()=>{if(!queued){queued=true;requestAnimationFrame(scan);}}).observe(document.body,{childList:true,subtree:true});
+ }).catch(()=>{});
+});
+</script>
 </head>
 <body>
 <div id="ux-navigation"><nav aria-label="통합 홈페이지 이동 메뉴"><div class="ux-bar"><a class="ux-brand" href="./">BAC 100대명산 과 <b>섬&amp;산100</b><span class="jk-brand-tag">(JK 의 산하정복)</span></a><div class="ux-menu"><a href="https://keunjkim.github.io/">대표 홈</a><a href="./">산행 홈</a><details class="ux-group"><summary>BAC 100대명산 <span class="ux-chevron">⌄</span></summary><div class="ux-drop"><a href="mountains.html" aria-current="page">BAC 100대명산 목록</a><a href="mountains-map.html">BAC 100대명산 지도</a><a href="gallery.html">명산 사진 갤러리</a></div></details><details class="ux-group"><summary>BAC 섬&산100 <span class="ux-chevron">⌄</span></summary><div class="ux-drop"><a href="islands.html">BAC 섬&산100 목록</a><a href="islands-map.html">BAC 섬&산100 지도</a><a href="gallery.html">섬 사진 갤러리</a></div></details><a href="yeongnam-alps.html">영남알프스</a><a href="gallery.html">사진 갤러리</a><details class="ux-group"><summary>산행 기록 <span class="ux-chevron">⌄</span></summary><div class="ux-drop"><a href="blog.html">산행 블로그</a><a href="other-hikes.html">명산외산행</a></div></details></div></div><div class="ux-breadcrumb" aria-label="현재 위치"><a href="https://keunjkim.github.io/">대표 홈</a> <span aria-hidden="true">›</span> <a href="./">산행 홈</a> <span aria-hidden="true">›</span> <strong aria-current="page">BAC 100대명산 목록</strong></div></nav></div>
