@@ -1,6 +1,6 @@
 /* 기존 앨범·산행 목록을 같은 날짜의 복구 GPX 상세와 연결합니다. */
 (() => {'use strict';
- fetch('tranggle-supplements.json?v=20261114-gps6').then(r=>{if(!r.ok)throw Error();return r.json();}).then(data=>{
+ fetch('tranggle-supplements.json?v=20261114-gps7').then(r=>{if(!r.ok)throw Error();return r.json();}).then(data=>{
  const records=data.records.filter(r=>r.gps),album=r=>r.albumId||'m-'+r.mountainNo;
  const detail=r=>'tranggle-records.html?album='+encodeURIComponent(album(r))+'&date='+encodeURIComponent(r.date);
  let signature='';

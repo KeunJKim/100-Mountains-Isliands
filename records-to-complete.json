@@ -1774,10 +1774,11 @@
     "place": "장봉도",
     "albumId": "i-10",
     "date": "2023-10-09",
-    "hasGps": false,
+    "hasGps": true,
     "hasCourse": false,
     "photoCount": 0,
-    "url": "islands.html?island=10"
+    "url": "islands.html?island=10",
+    "sourceNote": "휴대폰 보관 트랭글 GPX 복원·날짜/경로 대조. 코스 지명 미확인."
   },
   {
     "category": "BAC 섬&산100",
@@ -2144,10 +2145,11 @@
     "place": "손죽도",
     "albumId": "i-47",
     "date": "2024-10-05",
-    "hasGps": false,
+    "hasGps": true,
     "hasCourse": false,
     "photoCount": 0,
-    "url": "islands.html?island=47"
+    "url": "islands.html?island=47",
+    "sourceNote": "휴대폰 보관 트랭글 GPX 복원·날짜/경로 대조. 코스 지명 미확인."
   },
   {
     "category": "BAC 섬&산100",
@@ -2624,30 +2626,33 @@
     "place": "장사도",
     "albumId": "i-95",
     "date": "2023-12-10",
-    "hasGps": false,
+    "hasGps": true,
     "hasCourse": false,
     "photoCount": 0,
-    "url": "islands.html?island=95"
+    "url": "islands.html?island=95",
+    "sourceNote": "휴대폰 보관 트랭글 GPX 복원·날짜/경로 대조. 코스 지명 미확인."
   },
   {
     "category": "BAC 섬&산100",
     "place": "비진도",
     "albumId": "i-96",
     "date": "2024-03-17",
-    "hasGps": false,
+    "hasGps": true,
     "hasCourse": false,
     "photoCount": 0,
-    "url": "islands.html?island=96"
+    "url": "islands.html?island=96",
+    "sourceNote": "휴대폰 보관 트랭글 GPX 복원·날짜/경로 대조. 코스 지명 미확인."
   },
   {
     "category": "BAC 섬&산100",
     "place": "용초도",
     "albumId": "i-97",
     "date": "2024-03-03",
-    "hasGps": false,
+    "hasGps": true,
     "hasCourse": false,
     "photoCount": 0,
-    "url": "islands.html?island=97"
+    "url": "islands.html?island=97",
+    "sourceNote": "휴대폰 보관 트랭글 GPX 복원·날짜/경로 대조. 코스 지명 미확인."
   },
   {
     "category": "BAC 섬&산100",
@@ -2664,10 +2669,11 @@
     "place": "우도",
     "albumId": "i-99",
     "date": "2023-06-02",
-    "hasGps": false,
+    "hasGps": true,
     "hasCourse": false,
     "photoCount": 0,
-    "url": "islands.html?island=99"
+    "url": "islands.html?island=99",
+    "sourceNote": "휴대폰 보관 트랭글 GPX 복원·날짜/경로 대조. 코스 지명 미확인."
   },
   {
     "category": "BAC 섬&산100",

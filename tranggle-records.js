@@ -1,7 +1,7 @@
 /* 본인 기록과 대조한 트랭글 GPX/JPG 보충. 기존 BAC 인증·램블러 데이터는 보존합니다. */
 (() => {
  'use strict';
- const dialog=document.getElementById('details');if(!dialog)return;
+ const islandDialog=document.getElementById('detail'),dialog=document.getElementById('details')||islandDialog;if(!dialog)return;
  const el=(tag,text)=>{const n=document.createElement(tag);if(text!=null)n.textContent=text;return n;};
  const svg=(tag,attrs)=>{const n=document.createElementNS('http://www.w3.org/2000/svg',tag);for(const [k,v]of Object.entries(attrs))n.setAttribute(k,String(v));return n;};
  const style=el('style');style.textContent=`.tranggle-reference{border-top:1px solid #cbb99a;padding-top:14px;margin-top:16px}.tranggle-reference img{display:block;max-width:100%;width:620px;height:auto;border-radius:10px;margin:12px auto}.tranggle-reference dl{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:0;border:1px solid #cbb99a;border-radius:9px;overflow:hidden;padding:0}.tranggle-reference dl>div{min-width:0;padding:11px;border-right:1px solid #d8cab3;border-bottom:1px solid #d8cab3}.tranggle-reference dt{font-size:12px;color:#695439}.tranggle-reference dd{margin:4px 0 0;font-weight:700;color:#30482e}.tranggle-reference p{font-size:13px;line-height:1.6}.tranggle-reference a{color:#30482e;text-decoration:underline}.tranggle-gps-map{height:330px;border:1px solid #cbb99a;border-radius:10px;overflow:hidden;background:#f1eee4}.tranggle-gps-chart{display:block;width:100%;height:auto;border:1px solid #cbb99a;border-radius:10px;background:#fffdf8}.tranggle-reference h4{margin:14px 0 9px}@media(max-width:560px){.tranggle-reference dl{grid-template-columns:repeat(2,minmax(0,1fr))}.tranggle-gps-map{height:280px}}`;document.head.append(style);
@@ -30,13 +30,17 @@
   for(let i=0;i<=4;i++){const h=low+(high-low)*i/4,gy=y(h);chart.append(svg('line',{x1:55,y1:gy,x2:575,y2:gy,stroke:'#d5c8b1'}));label(Math.round(h)+' m',49,gy+4,'end');label((end*i/4/1000).toFixed(1)+' km',x(end*i/4),188,'middle');}
   for(const line of lines)chart.append(svg('polyline',{points:line.map(([d,h])=>x(d)+','+y(h)).join(' '),fill:'none',stroke:'#176f9b','stroke-width':2}));section.append(chart);
  }
- fetch('tranggle-supplements.json?v=20261114-gps6').then(r=>{if(!r.ok)throw Error();return r.json();}).then(data=>{
+ fetch('tranggle-supplements.json?v=20261114-gps7').then(r=>{if(!r.ok)throw Error();return r.json();}).then(data=>{
   const records=Array.isArray(data.records)?data.records:[];
   const standalone=document.querySelector('[data-tranggle-record-host]');
   if(standalone){const params=new URLSearchParams(location.search),record=records.find(r=>(r.albumId||'m-'+r.mountainNo)===params.get('album')&&r.date===params.get('date'));if(!record){document.getElementById('dialogTitle').textContent='산행 기록을 찾지 못했습니다.';return;}document.getElementById('dialogTitle').textContent=record.place;document.title=record.place+' '+record.date+' 트랭글 산행 기록 | JK 의 산하정복';document.getElementById('tranggle-album-back').href='gallery.html?album='+encodeURIComponent(record.albumId||'m-'+record.mountainNo);}
-  const scan=()=>{const name=document.getElementById('dialogTitle')?.textContent.trim();for(const record of records){const hasImage=typeof record.image==='string'&&/^photos\/[A-Za-z0-9_-]+\.jpg$/.test(record.image);if(name!==record.place||(!record.gps&&!hasImage))continue;
+  let lastIslandName='';
+  const scan=()=>{const name=islandDialog?document.getElementById('detail-title')?.textContent.replace(/\s*·\s*산행 상세$/,'').trim():document.getElementById('dialogTitle')?.textContent.trim();
+   if(islandDialog&&name!==lastIslandName){lastIslandName=name;document.getElementById('tranggle-island-visits')?.remove();}
+   for(const record of records){const hasImage=typeof record.image==='string'&&/^photos\/[A-Za-z0-9_-]+\.jpg$/.test(record.image);if(name!==record.place||(!record.gps&&!hasImage))continue;
    if(standalone&&record.date!==new URLSearchParams(location.search).get('date'))continue;
-   const dateTitle=record.date.replaceAll('-','.')+' 산행',visits=dialog.querySelectorAll('.visit'),host=document.getElementById('visits');
+   let host=document.getElementById('visits');if(islandDialog){host=document.getElementById('tranggle-island-visits');if(!host){host=el('div');host.id='tranggle-island-visits';islandDialog.append(host);}}
+   const dateTitle=record.date.replaceAll('-','.')+' 산행',visits=dialog.querySelectorAll('.visit');
    if(host&&![...visits].some(v=>v.querySelector('h3')?.textContent.startsWith(record.date.replaceAll('-','.')))){const visit=el('section');visit.className='visit';visit.append(el('h3',dateTitle));if(!standalone)visit.append(el('p','트랭글 원본에서 확인한 실제 산행 날짜입니다. 기존 BAC 인증일은 그대로 보존합니다.'));host.append(visit);}
    for(const visit of dialog.querySelectorAll('.visit')){
    const heading=visit.querySelector('h3');if(!heading?.textContent.startsWith(record.date.replaceAll('-','.'))||visit.querySelector('.tranggle-reference'))continue;
