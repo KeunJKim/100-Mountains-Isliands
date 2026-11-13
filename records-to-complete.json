@@ -216,10 +216,11 @@
     "place": "가지산",
     "albumId": "m-5",
     "date": "2021-05-23",
-    "hasGps": false,
+    "hasGps": true,
     "hasCourse": false,
     "photoCount": 9,
-    "url": "mountains.html?mountain=5&date=2021-05-23"
+    "url": "mountains.html?mountain=5&date=2021-05-23",
+    "sourceNote": "휴대폰 보관 트랭글 GPX 복원·날짜/경로 대조. 코스 지명 미확인."
   },
   {
     "category": "BAC 100대명산",
@@ -347,10 +348,11 @@
     "place": "금정산",
     "albumId": "m-16",
     "date": "2021-06-05",
-    "hasGps": false,
+    "hasGps": true,
     "hasCourse": false,
     "photoCount": 7,
-    "url": "mountains.html?mountain=16&date=2021-06-05"
+    "url": "mountains.html?mountain=16&date=2021-06-05",
+    "sourceNote": "휴대폰 보관 트랭글 GPX 복원·날짜/경로 대조. 코스 지명 미확인."
   },
   {
     "category": "BAC 100대명산",
@@ -377,10 +379,11 @@
     "place": "남산(경주)",
     "albumId": "m-17",
     "date": "2021-06-27",
-    "hasGps": false,
+    "hasGps": true,
     "hasCourse": false,
     "photoCount": 5,
-    "url": "mountains.html?mountain=17&date=2021-06-27"
+    "url": "mountains.html?mountain=17&date=2021-06-27",
+    "sourceNote": "휴대폰 보관 트랭글 GPX 복원·날짜/경로 대조. 코스 지명 미확인."
   },
   {
     "category": "BAC 100대명산",
@@ -728,10 +731,11 @@
     "place": "백암산",
     "albumId": "m-45",
     "date": "2021-11-06",
-    "hasGps": false,
+    "hasGps": true,
     "hasCourse": false,
     "photoCount": 22,
-    "url": "mountains.html?mountain=45&date=2021-11-06"
+    "url": "mountains.html?mountain=45&date=2021-11-06",
+    "sourceNote": "휴대폰 보관 트랭글 GPX 복원·날짜/경로 대조. 코스 지명 미확인."
   },
   {
     "category": "BAC 100대명산",
@@ -802,10 +806,11 @@
     "place": "비슬산",
     "albumId": "m-50",
     "date": "2021-04-25",
-    "hasGps": false,
+    "hasGps": true,
     "hasCourse": false,
     "photoCount": 14,
-    "url": "mountains.html?mountain=50&date=2021-04-25"
+    "url": "mountains.html?mountain=50&date=2021-04-25",
+    "sourceNote": "휴대폰 보관 트랭글 GPX 복원·날짜/경로 대조. 코스 지명 미확인."
   },
   {
     "category": "BAC 100대명산",
@@ -1287,10 +1292,11 @@
     "place": "주왕산",
     "albumId": "m-76",
     "date": "2021-07-10",
-    "hasGps": false,
+    "hasGps": true,
     "hasCourse": false,
     "photoCount": 12,
-    "url": "mountains.html?mountain=76&date=2021-07-10"
+    "url": "mountains.html?mountain=76&date=2021-07-10",
+    "sourceNote": "휴대폰 보관 트랭글 GPX 복원·날짜/경로 대조. 코스 지명 미확인."
   },
   {
     "category": "BAC 100대명산",
@@ -1318,20 +1324,22 @@
     "place": "천관산",
     "albumId": "m-79",
     "date": "2021-04-11",
-    "hasGps": false,
+    "hasGps": true,
     "hasCourse": false,
     "photoCount": 0,
-    "url": "mountains.html?mountain=79&date=2021-04-11"
+    "url": "mountains.html?mountain=79&date=2021-04-11",
+    "sourceNote": "휴대폰 보관 트랭글 GPX 복원·날짜/경로 대조. 코스 지명 미확인."
   },
   {
     "category": "BAC 100대명산",
     "place": "천성산",
     "albumId": "m-80",
     "date": "2021-04-03",
-    "hasGps": false,
+    "hasGps": true,
     "hasCourse": false,
     "photoCount": 13,
-    "url": "mountains.html?mountain=80&date=2021-04-03"
+    "url": "mountains.html?mountain=80&date=2021-04-03",
+    "sourceNote": "휴대폰 보관 트랭글 GPX 복원·날짜/경로 대조. 코스 지명 미확인."
   },
   {
     "category": "BAC 100대명산",
@@ -1472,10 +1480,11 @@
     "place": "태백산",
     "albumId": "m-89",
     "date": "2021-04-04",
-    "hasGps": false,
+    "hasGps": true,
     "hasCourse": false,
     "photoCount": 9,
-    "url": "mountains.html?mountain=89&date=2021-04-04"
+    "url": "mountains.html?mountain=89&date=2021-04-04",
+    "sourceNote": "휴대폰 보관 트랭글 GPX 복원·날짜/경로 대조. 코스 지명 미확인."
   },
   {
     "category": "BAC 100대명산",
@@ -2675,20 +2684,22 @@
     "place": "능동산.입석대",
     "albumId": "o-10353862",
     "date": "2021-12-11",
-    "hasGps": false,
+    "hasGps": true,
     "hasCourse": false,
     "photoCount": 3,
-    "url": "gallery.html?group=alps&album=o-10353862"
+    "url": "tranggle-records.html?album=o-10353862&date=2021-12-11",
+    "sourceNote": "휴대폰 보관 트랭글 GPX 복원·날짜/경로 대조. 코스 지명 미확인."
   },
   {
     "category": "영남알프스 사진 기록",
     "place": "배내봉",
     "albumId": "a-baenaebong",
     "date": "2021-12-11",
-    "hasGps": false,
+    "hasGps": true,
     "hasCourse": false,
     "photoCount": 2,
-    "url": "gallery.html?group=alps&album=a-baenaebong"
+    "url": "tranggle-records.html?album=a-baenaebong&date=2021-12-11",
+    "sourceNote": "휴대폰 보관 트랭글 GPX 복원·날짜/경로 대조. 코스 지명 미확인."
   },
   {
     "category": "명산외산행 사진 기록",
@@ -2705,40 +2716,44 @@
     "place": "영축산",
     "albumId": "o-11112113",
     "date": "2021-09-04",
-    "hasGps": false,
+    "hasGps": true,
     "hasCourse": false,
     "photoCount": 10,
-    "url": "gallery.html?group=alps&album=o-11112113"
+    "url": "tranggle-records.html?album=o-11112113&date=2021-09-04",
+    "sourceNote": "휴대폰 보관 트랭글 GPX 복원·날짜/경로 대조. 코스 지명 미확인."
   },
   {
     "category": "명산외산행 사진 기록",
     "place": "청옥산",
     "albumId": "o-local-cheongoksan",
     "date": "2021-06-20",
-    "hasGps": false,
+    "hasGps": true,
     "hasCourse": false,
     "photoCount": 13,
-    "url": "gallery.html?group=other&album=o-local-cheongoksan"
+    "url": "tranggle-records.html?album=o-local-cheongoksan&date=2021-06-20",
+    "sourceNote": "휴대폰 보관 트랭글 GPX 복원·날짜/경로 대조. 코스 지명 미확인."
   },
   {
     "category": "영남알프스 사진 기록",
     "place": "문복산",
     "albumId": "a-munboksan",
     "date": "2021-05-23",
-    "hasGps": false,
+    "hasGps": true,
     "hasCourse": false,
     "photoCount": 9,
-    "url": "gallery.html?group=alps&album=a-munboksan"
+    "url": "tranggle-records.html?album=a-munboksan&date=2021-05-23",
+    "sourceNote": "휴대폰 보관 트랭글 GPX 복원·날짜/경로 대조. 코스 지명 미확인."
   },
   {
     "category": "BAC 100대명산 사진 기록",
     "place": "황매산(산청)",
     "albumId": "m-98",
     "date": "2021-05-01",
-    "hasGps": false,
+    "hasGps": true,
     "hasCourse": false,
     "photoCount": 11,
-    "url": "gallery.html?group=mountain&album=m-98"
+    "url": "gallery.html?group=mountain&album=m-98",
+    "sourceNote": "휴대폰 보관 트랭글 GPX 복원·날짜/경로 대조. 코스 지명 미확인."
   },
   {
     "category": "BAC 100대명산 사진 기록",
@@ -2755,10 +2770,11 @@
     "place": "운문산",
     "albumId": "o-10302971",
     "date": "2021-03-07",
-    "hasGps": false,
+    "hasGps": true,
     "hasCourse": false,
     "photoCount": 17,
-    "url": "gallery.html?group=alps&album=o-10302971"
+    "url": "tranggle-records.html?album=o-10302971&date=2021-03-07",
+    "sourceNote": "휴대폰 보관 트랭글 GPX 복원·날짜/경로 대조. 코스 지명 미확인."
   },
   {
     "category": "영남알프스 사진 기록",
