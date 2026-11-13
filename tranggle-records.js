@@ -6,7 +6,22 @@
  const svg=(tag,attrs)=>{const n=document.createElementNS('http://www.w3.org/2000/svg',tag);for(const [k,v]of Object.entries(attrs))n.setAttribute(k,String(v));return n;};
  const style=el('style');style.textContent=`.tranggle-reference{border-top:1px solid #cbb99a;padding-top:14px;margin-top:16px}.tranggle-reference img{display:block;max-width:100%;width:620px;height:auto;border-radius:10px;margin:12px auto}.tranggle-reference dl{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:0;border:1px solid #cbb99a;border-radius:9px;overflow:hidden;padding:0}.tranggle-reference dl>div{min-width:0;padding:11px;border-right:1px solid #d8cab3;border-bottom:1px solid #d8cab3}.tranggle-reference dt{font-size:12px;color:#695439}.tranggle-reference dd{margin:4px 0 0;font-weight:700;color:#30482e}.tranggle-reference p{font-size:13px;line-height:1.6}.tranggle-reference a{color:#30482e;text-decoration:underline}.tranggle-gps-map{height:330px;border:1px solid #cbb99a;border-radius:10px;overflow:hidden;background:#f1eee4}.tranggle-gps-chart{display:block;width:100%;height:auto;border:1px solid #cbb99a;border-radius:10px;background:#fffdf8}.tranggle-reference h4{margin:14px 0 9px}@media(max-width:560px){.tranggle-reference dl{grid-template-columns:repeat(2,minmax(0,1fr))}.tranggle-gps-map{height:280px}}`;document.head.append(style);
  function stats(section,title,pairs){const shown=pairs.filter(([,v])=>v!=null);if(!shown.length)return;section.append(el('h4',title));const dl=el('dl');for(const [label,value]of shown){const cell=el('div');cell.append(el('dt',label),el('dd',value));dl.append(cell);}section.append(dl);}
- function routeMap(section,record){const g=record.gps,points=g.routes.flat();if(!points.length)return;section.append(el('h4','GPS 이동 경로 · 트랭글 GPX'));const map=el('div');map.className='tranggle-gps-map';map.setAttribute('aria-label',record.place+' '+record.date+' 트랭글 GPS 경로');map.textContent='GPS 경로 지도를 불러오고 있습니다.';section.append(map);if(typeof window.loadHwangmaesanMap==='function')window.loadHwangmaesanMap(map,g.routes,points);}
+ let leafletReady;
+ function leaflet(){
+  if(window.L)return Promise.resolve(window.L);
+  if(!leafletReady){
+   if(!document.querySelector('link[href*="leaflet.css"]')){const css=el('link');css.rel='stylesheet';css.href='https://unpkg.com/leaflet@1.9.4/dist/leaflet.css';document.head.append(css);}
+   leafletReady=new Promise((resolve,reject)=>{let script=document.querySelector('script[src*="leaflet.js"]');const fresh=!script;if(fresh){script=el('script');script.src='https://unpkg.com/leaflet@1.9.4/dist/leaflet.js';}script.addEventListener('load',()=>resolve(window.L),{once:true});script.addEventListener('error',reject,{once:true});if(fresh)document.head.append(script);});
+  }
+  return leafletReady;
+ }
+ function routeMap(section,record){
+  const g=record.gps,points=g.routes.flat();if(!points.length)return;section.append(el('h4','GPS 이동 경로 · 트랭글 GPX'));const map=el('div');map.className='tranggle-gps-map';map.setAttribute('aria-label',record.place+' '+record.date+' 트랭글 GPS 경로');section.append(map);
+  const lat=points.map(p=>p[0]),lon=points.map(p=>p[1]),north=Math.max(...lat),south=Math.min(...lat),east=Math.max(...lon),west=Math.min(...lon),cos=Math.cos(north*Math.PI/180),scale=Math.min(540/Math.max(1e-6,(east-west)*cos),250/Math.max(1e-6,north-south));
+  const project=p=>[300+(p[1]-(west+east)/2)*cos*scale,150+((north+south)/2-p[0])*scale],preview=svg('svg',{viewBox:'0 0 600 300',role:'img','aria-label':'GPX 경로 개요, 위쪽이 북쪽',style:'width:100%;height:100%'});
+  for(const route of g.routes)preview.append(svg('polyline',{points:route.map(project).map(p=>p.join(',')).join(' '),fill:'none',stroke:'#176fc7','stroke-width':3}));map.append(preview);
+  leaflet().then(L=>{if(!map.isConnected||!map.offsetWidth||!L)return;map.replaceChildren();const view=L.map(map,{scrollWheelZoom:false});L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',{maxZoom:19,attribution:'&copy; OpenStreetMap contributors'}).addTo(view);for(const route of g.routes)L.polyline(route,{color:'#176fc7',weight:4}).addTo(view);L.circleMarker(points[0],{color:'#126641',fillColor:'#65e1a3',fillOpacity:1}).addTo(view).bindPopup('출발');L.circleMarker(points.at(-1),{color:'#a44913',fillColor:'#ffbf76',fillOpacity:1}).addTo(view).bindPopup('종료');view.fitBounds(points,{padding:[22,22],maxZoom:16});}).catch(()=>{});
+ }
  function profile(section,record){
   const lines=record.gps.profile.filter(p=>p.length),pts=lines.flat();if(pts.length<2)return;section.append(el('h4','GPS 고도 변화 · 트랭글 GPX'));
   const low=Math.floor(Math.min(...pts.map(p=>p[1]))/100)*100,high=Math.ceil(Math.max(...pts.map(p=>p[1]))/100)*100,end=Math.max(1,...pts.map(p=>p[0]));
