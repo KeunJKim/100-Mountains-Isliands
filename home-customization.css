@@ -68,3 +68,32 @@ html body.jk-hiking-home .hero-copy .buttons .button{min-height:26px!important;p
  html body.jk-hiking-home footer,html body.jk-representative-home footer{font-size:9px!important;line-height:1.4!important;padding:4px 12px!important}
 }
 @media(max-width:1050px){html body.jk-representative-home .hero,html body.jk-hiking-home .hero{height:clamp(252px,39svh,372px)!important;min-height:0!important}.jk-management-choices{grid-template-columns:1fr}}
+/* 큰 모니터의 빈 하단을 없애는 가용 화면 높이 기준 배치 */
+@media(min-width:1051px) and (min-height:650px){
+ html body.jk-hiking-home,html body.jk-representative-home{display:flex!important;flex-direction:column!important;height:100dvh!important;min-height:650px!important;margin:0!important;box-sizing:border-box}
+ html body.jk-hiking-home>#ux-navigation,html body.jk-representative-home>header{flex:0 0 auto!important}
+ html body.jk-hiking-home>.hero,html body.jk-representative-home>.hero{flex:1 1 0!important;height:auto!important;min-height:180px!important;max-height:none!important}
+ html body.jk-hiking-home main,html body.jk-representative-home main{flex:0 0 auto!important;width:calc(100% - 64px)!important;max-width:2200px!important;margin:0 auto!important;padding:8px 0!important;box-sizing:border-box}
+ html body.jk-hiking-home .hero-inner,html body.jk-representative-home .hero>.wrap{width:calc(100% - 64px)!important;max-width:2200px!important;margin:0 auto!important;padding:16px 0!important}
+ html body.jk-hiking-home #ux-navigation .jk-header-grid,html body.jk-representative-home .jk-header-grid{width:calc(100% - 64px)!important;max-width:2200px!important;margin:0 auto!important;grid-template-columns:clamp(64px,4.5vw,94px) minmax(200px,1fr) auto!important}
+ html body.jk-hiking-home #ux-navigation .jk-header-title,html body.jk-representative-home .jk-header-title{font-size:clamp(16px,.9vw,22px)!important}
+ html body.jk-hiking-home #ux-navigation .jk-profile-avatar,html body.jk-representative-home .jk-profile-avatar{width:clamp(56px,4vw,82px)!important;height:clamp(56px,4vw,82px)!important}
+ html body.jk-hiking-home .jk-compact-menu>a,html body.jk-hiking-home .jk-compact-menu>details>summary,html body.jk-representative-home .jk-compact-menu>a,html body.jk-representative-home .jk-compact-menu>details>summary{font-size:clamp(11px,.58vw,14px)!important}
+ html body.jk-hiking-home .visit-counter{width:calc(100% - 64px)!important;max-width:2200px!important;margin:0 auto!important;padding:3px 0 5px!important}
+ html body.jk-hiking-home #mountains,html body.jk-representative-home main>h2,html body.jk-representative-home main>.intro{width:100%!important;margin-left:0!important;margin-right:0!important}
+ html body.jk-hiking-home #mountains h2,html body.jk-representative-home main>h2{font-size:clamp(18px,1vw,24px)!important}
+ html body .jk-home-card-stage{width:100%!important;margin:0 0 6px!important}
+ html body .jk-home-card-stage>.grid{width:100%!important;transform:none!important;grid-template-columns:repeat(5,minmax(0,1fr))!important}
+ html body .jk-home-card-stage .card{display:grid!important;grid-template-columns:clamp(70px,5.5vw,140px) minmax(0,1fr)!important;grid-template-rows:auto auto!important;align-items:center!important;gap:4px 10px!important;padding:12px 14px!important;min-height:0!important}
+ html body .jk-home-card-stage .card .number{grid-column:1!important;grid-row:1 / 3!important;font-size:clamp(22px,1.2vw,32px)!important;margin:0!important;overflow-wrap:anywhere}
+ html body .jk-home-card-stage .card h3{grid-column:2!important;grid-row:1!important;font-size:clamp(16px,1vw,20px)!important;margin:0!important}
+ html body .jk-home-card-stage .card :is(.coming,.more){grid-column:2!important;grid-row:2!important;font-size:clamp(11px,.7vw,14px)!important;margin:0!important}
+ html body.jk-hiking-home #blog,html body.jk-representative-home .connect,html body.jk-representative-home .tags{width:100%!important}
+ html body.jk-hiking-home .seo-topics{flex:0 0 auto!important;width:calc(100% - 64px)!important;max-width:2200px!important;margin:4px auto!important;box-sizing:border-box}
+ html body.jk-hiking-home .jk-profile-byline,html body.jk-representative-home .jk-profile-byline,html body.jk-hiking-home footer,html body.jk-representative-home footer{flex:0 0 auto!important}
+ html body.jk-hiking-home .jk-owner-actions,html body.jk-representative-home .jk-owner-actions{display:none!important}
+ html body.jk-hiking-home .hero-copy,html body.jk-representative-home .hero-copy{width:clamp(300px,18vw,400px)!important}
+ html body.jk-hiking-home .hero-copy h1,html body.jk-representative-home .hero-copy h1{font-size:clamp(20px,1.1vw,28px)!important}
+ html body.jk-hiking-home .hero-copy .desc,html body.jk-representative-home .hero-copy>p:not(.eyebrow){font-size:clamp(11px,.65vw,15px)!important}
+ html body.jk-hiking-home .hero-copy .buttons .button{font-size:clamp(10px,.5vw,12px)!important}
+}
