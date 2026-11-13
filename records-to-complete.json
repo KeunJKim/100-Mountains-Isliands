@@ -194,11 +194,11 @@
     "place": "가지산",
     "albumId": "m-5",
     "date": "2022-05-05",
-    "hasGps": false,
+    "hasGps": true,
     "hasCourse": false,
     "photoCount": 1,
     "url": "mountains.html?mountain=5&date=2022-05-05",
-    "sourceNote": "트랭글 기록 이미지·표시 통계 보충. 실제 GPX와 코스 미확인."
+    "sourceNote": "휴대폰 보관 트랭글 GPX 복원·날짜/경로 대조 및 JPG 통계 보충. 코스 지명 미확인."
   },
   {
     "category": "BAC 100대명산",
@@ -545,10 +545,11 @@
     "place": "동악산(곡성)",
     "albumId": "m-30",
     "date": "2022-05-29",
-    "hasGps": false,
+    "hasGps": true,
     "hasCourse": false,
-    "photoCount": 0,
-    "url": "mountains.html?mountain=30&date=2022-05-29"
+    "photoCount": 1,
+    "url": "mountains.html?mountain=30&date=2022-05-29",
+    "sourceNote": "휴대폰 보관 트랭글 GPX 복원·날짜/경로 대조 및 JPG 통계 보충. 코스 지명 미확인."
   },
   {
     "category": "BAC 100대명산",
@@ -595,10 +596,11 @@
     "place": "마니산(강화도)",
     "albumId": "m-33",
     "date": "2022-06-04",
-    "hasGps": false,
+    "hasGps": true,
     "hasCourse": false,
     "photoCount": 0,
-    "url": "mountains.html?mountain=33&date=2022-06-04"
+    "url": "mountains.html?mountain=33&date=2022-06-04",
+    "sourceNote": "휴대폰 보관 트랭글 GPX 복원·날짜/경로 대조. 코스 지명 미확인."
   },
   {
     "category": "BAC 100대명산",
@@ -635,10 +637,11 @@
     "place": "모악산",
     "albumId": "m-37",
     "date": "2022-06-18",
-    "hasGps": false,
+    "hasGps": true,
     "hasCourse": false,
     "photoCount": 0,
-    "url": "mountains.html?mountain=37&date=2022-06-18"
+    "url": "mountains.html?mountain=37&date=2022-06-18",
+    "sourceNote": "휴대폰 보관 트랭글 GPX 복원·날짜/경로 대조. 코스 지명 미확인."
   },
   {
     "category": "BAC 100대명산",
@@ -1005,10 +1008,11 @@
     "place": "신불산",
     "albumId": "m-58",
     "date": "2022-01-29",
-    "hasGps": false,
+    "hasGps": true,
     "hasCourse": false,
     "photoCount": 0,
-    "url": "mountains.html?mountain=58&date=2022-01-29"
+    "url": "mountains.html?mountain=58&date=2022-01-29",
+    "sourceNote": "휴대폰 보관 트랭글 GPX 복원·날짜/경로 대조. 코스 지명 미확인."
   },
   {
     "category": "BAC 100대명산",

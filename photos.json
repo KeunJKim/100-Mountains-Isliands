@@ -11301,6 +11301,18 @@
       "path": "photos/tranggle-gajisan-20220505-summary.jpg",
       "source": "Tranggle 공유 이미지",
       "createdAt": "2026-11-13T05:00:00Z"
+    },
+    {
+      "id": "tranggle-dongaksan-20220529-summary",
+      "group": "mountain",
+      "category": "mountain",
+      "albumId": "m-30",
+      "title": "동악산(곡성) · 2022-05-29 · 트랭글 기록 이미지",
+      "date": "2022-05-29",
+      "src": "photos/tranggle-dongaksan-20220529-summary.jpg",
+      "path": "photos/tranggle-dongaksan-20220529-summary.jpg",
+      "source": "트랭글 공유 JPG",
+      "createdAt": "2026-11-13T10:29:22.628Z"
     }
   ],
   "hiddenSeedIds": []
