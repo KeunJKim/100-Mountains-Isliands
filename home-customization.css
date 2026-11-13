@@ -117,3 +117,4 @@ html body.jk-representative-home .jk-header-grid,html body.jk-hiking-home #ux-na
  html body .jk-header-grid .jk-profile-trigger{grid-row:1 / 4!important}
 }
 @media(max-width:1050px){html body .jk-home-card-stage{width:100%!important}html body .jk-home-card-stage .card{padding:8px!important}html body .jk-home-card-stage .card h3{font-size:14px!important}}
+html body.jk-representative-home .jk-home-card-stage>.grid,html body.jk-hiking-home .jk-home-card-stage>.grid{width:100%!important;transform:none!important;left:0!important;gap:8px!important}
