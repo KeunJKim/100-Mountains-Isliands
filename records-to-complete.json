@@ -196,8 +196,9 @@
     "date": "2022-05-05",
     "hasGps": false,
     "hasCourse": false,
-    "photoCount": 0,
-    "url": "mountains.html?mountain=5&date=2022-05-05"
+    "photoCount": 1,
+    "url": "mountains.html?mountain=5&date=2022-05-05",
+    "sourceNote": "트랭글 기록 이미지·표시 통계 보충. 실제 GPX와 코스 미확인."
   },
   {
     "category": "BAC 100대명산",

@@ -11289,6 +11289,18 @@
       "width": 1172,
       "height": 1600,
       "builtIn": false
+    },
+    {
+      "id": "tranggle-gajisan-20220505-summary",
+      "group": "mountain",
+      "category": "mountain",
+      "albumId": "m-5",
+      "title": "가지산 · 2022-05-05 · 트랭글 기록 화면",
+      "date": "2022-05-05",
+      "src": "photos/tranggle-gajisan-20220505-summary.jpg",
+      "path": "photos/tranggle-gajisan-20220505-summary.jpg",
+      "source": "Tranggle 공유 이미지",
+      "createdAt": "2026-11-13T05:00:00Z"
     }
   ],
   "hiddenSeedIds": []
