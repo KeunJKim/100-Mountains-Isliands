@@ -30,7 +30,7 @@
   for(let i=0;i<=4;i++){const h=low+(high-low)*i/4,gy=y(h);chart.append(svg('line',{x1:55,y1:gy,x2:575,y2:gy,stroke:'#d5c8b1'}));label(Math.round(h)+' m',49,gy+4,'end');label((end*i/4/1000).toFixed(1)+' km',x(end*i/4),188,'middle');}
   for(const line of lines)chart.append(svg('polyline',{points:line.map(([d,h])=>x(d)+','+y(h)).join(' '),fill:'none',stroke:'#176f9b','stroke-width':2}));section.append(chart);
  }
- fetch('tranggle-supplements.json?v=20261113-gps3').then(r=>{if(!r.ok)throw Error();return r.json();}).then(data=>{
+ fetch('tranggle-supplements.json?v=20261113-gps5').then(r=>{if(!r.ok)throw Error();return r.json();}).then(data=>{
   const records=Array.isArray(data.records)?data.records:[];
   const scan=()=>{const name=document.getElementById('dialogTitle')?.textContent.trim();for(const record of records){const hasImage=typeof record.image==='string'&&/^photos\/[A-Za-z0-9_-]+\.jpg$/.test(record.image);if(name!==record.place||(!record.gps&&!hasImage))continue;for(const visit of dialog.querySelectorAll('.visit')){
    const heading=visit.querySelector('h3');if(!heading?.textContent.startsWith(record.date.replaceAll('-','.'))||visit.querySelector('.tranggle-reference'))continue;

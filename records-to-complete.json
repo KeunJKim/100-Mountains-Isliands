@@ -205,10 +205,11 @@
     "place": "가지산",
     "albumId": "m-5",
     "date": "2022-02-12",
-    "hasGps": false,
+    "hasGps": true,
     "hasCourse": false,
     "photoCount": 0,
-    "url": "mountains.html?mountain=5&date=2022-02-12"
+    "url": "mountains.html?mountain=5&date=2022-02-12",
+    "sourceNote": "휴대폰 보관 트랭글 GPX 복원·날짜/경로 대조. 코스 지명 미확인."
   },
   {
     "category": "BAC 100대명산",
@@ -315,10 +316,11 @@
     "place": "구봉산(진안)",
     "albumId": "m-13",
     "date": "2022-04-10",
-    "hasGps": false,
+    "hasGps": true,
     "hasCourse": false,
     "photoCount": 0,
-    "url": "mountains.html?mountain=13&date=2022-04-10"
+    "url": "mountains.html?mountain=13&date=2022-04-10",
+    "sourceNote": "휴대폰 보관 트랭글 GPX 복원·날짜/경로 대조. 코스 지명 미확인."
   },
   {
     "category": "BAC 100대명산",
@@ -385,10 +387,11 @@
     "place": "내변산(변산)",
     "albumId": "m-18",
     "date": "2022-03-01",
-    "hasGps": false,
+    "hasGps": true,
     "hasCourse": false,
     "photoCount": 0,
-    "url": "mountains.html?mountain=18&date=2022-03-01"
+    "url": "mountains.html?mountain=18&date=2022-03-01",
+    "sourceNote": "휴대폰 보관 트랭글 GPX 복원·날짜/경로 대조. 코스 지명 미확인."
   },
   {
     "category": "BAC 100대명산",
@@ -475,10 +478,11 @@
     "place": "덕룡산",
     "albumId": "m-25",
     "date": "2022-01-09",
-    "hasGps": false,
+    "hasGps": true,
     "hasCourse": false,
     "photoCount": 0,
-    "url": "mountains.html?mountain=25&date=2022-01-09"
+    "url": "mountains.html?mountain=25&date=2022-01-09",
+    "sourceNote": "휴대폰 보관 트랭글 GPX 복원·날짜/경로 대조. 코스 지명 미확인."
   },
   {
     "category": "BAC 100대명산",
@@ -515,10 +519,11 @@
     "place": "덕항산",
     "albumId": "m-27",
     "date": "2022-04-01",
-    "hasGps": false,
+    "hasGps": true,
     "hasCourse": false,
     "photoCount": 0,
-    "url": "mountains.html?mountain=27&date=2022-04-01"
+    "url": "mountains.html?mountain=27&date=2022-04-01",
+    "sourceNote": "휴대폰 보관 트랭글 GPX 복원·날짜/경로 대조. 코스 지명 미확인."
   },
   {
     "category": "BAC 100대명산",
@@ -586,10 +591,11 @@
     "place": "두타산",
     "albumId": "m-32",
     "date": "2022-04-01",
-    "hasGps": false,
+    "hasGps": true,
     "hasCourse": false,
     "photoCount": 0,
-    "url": "mountains.html?mountain=32&date=2022-04-01"
+    "url": "mountains.html?mountain=32&date=2022-04-01",
+    "sourceNote": "휴대폰 보관 트랭글 GPX 복원·날짜/경로 대조. 코스 지명 미확인."
   },
   {
     "category": "BAC 100대명산",
@@ -607,10 +613,11 @@
     "place": "마이산(진안)",
     "albumId": "m-34",
     "date": "2022-04-09",
-    "hasGps": false,
+    "hasGps": true,
     "hasCourse": false,
     "photoCount": 0,
-    "url": "mountains.html?mountain=34&date=2022-04-09"
+    "url": "mountains.html?mountain=34&date=2022-04-09",
+    "sourceNote": "휴대폰 보관 트랭글 GPX 복원·날짜/경로 대조. 코스 지명 미확인."
   },
   {
     "category": "BAC 100대명산",
@@ -668,30 +675,33 @@
     "place": "바래봉(지리산)",
     "albumId": "m-40",
     "date": "2022-05-15",
-    "hasGps": false,
+    "hasGps": true,
     "hasCourse": false,
     "photoCount": 0,
-    "url": "mountains.html?mountain=40&date=2022-05-15"
+    "url": "mountains.html?mountain=40&date=2022-05-15",
+    "sourceNote": "휴대폰 보관 트랭글 GPX 복원·날짜/경로 대조. 코스 지명 미확인."
   },
   {
     "category": "BAC 100대명산",
     "place": "반야봉(지리산)",
     "albumId": "m-41",
     "date": "2022-06-19",
-    "hasGps": false,
+    "hasGps": true,
     "hasCourse": false,
     "photoCount": 0,
-    "url": "mountains.html?mountain=41&date=2022-06-19"
+    "url": "mountains.html?mountain=41&date=2022-06-19",
+    "sourceNote": "휴대폰 보관 트랭글 GPX 복원·날짜/경로 대조. 코스 지명 미확인."
   },
   {
     "category": "BAC 100대명산",
     "place": "방장산",
     "albumId": "m-42",
     "date": "2022-02-28",
-    "hasGps": false,
+    "hasGps": true,
     "hasCourse": false,
     "photoCount": 0,
-    "url": "mountains.html?mountain=42&date=2022-02-28"
+    "url": "mountains.html?mountain=42&date=2022-02-28",
+    "sourceNote": "휴대폰 보관 트랭글 GPX 복원·날짜/경로 대조. 코스 지명 미확인."
   },
   {
     "category": "BAC 100대명산",
@@ -728,10 +738,11 @@
     "place": "백운산(광양)",
     "albumId": "m-46",
     "date": "2022-03-12",
-    "hasGps": false,
+    "hasGps": true,
     "hasCourse": false,
     "photoCount": 0,
-    "url": "mountains.html?mountain=46&date=2022-03-12"
+    "url": "mountains.html?mountain=46&date=2022-03-12",
+    "sourceNote": "휴대폰 보관 트랭글 GPX 복원·날짜/경로 대조. 코스 지명 미확인."
   },
   {
     "category": "BAC 100대명산",
@@ -748,30 +759,33 @@
     "place": "백운산(동강)",
     "albumId": "m-47",
     "date": "2022-04-02",
-    "hasGps": false,
+    "hasGps": true,
     "hasCourse": false,
     "photoCount": 0,
-    "url": "mountains.html?mountain=47&date=2022-04-02"
+    "url": "mountains.html?mountain=47&date=2022-04-02",
+    "sourceNote": "휴대폰 보관 트랭글 GPX 복원·날짜/경로 대조. 코스 지명 미확인."
   },
   {
     "category": "BAC 100대명산",
     "place": "북한산",
     "albumId": "m-48",
     "date": "2022-06-06",
-    "hasGps": false,
+    "hasGps": true,
     "hasCourse": false,
     "photoCount": 0,
-    "url": "mountains.html?mountain=48&date=2022-06-06"
+    "url": "mountains.html?mountain=48&date=2022-06-06",
+    "sourceNote": "휴대폰 보관 트랭글 GPX 복원·날짜/경로 대조. 코스 지명 미확인."
   },
   {
     "category": "BAC 100대명산",
     "place": "불갑산(영광)",
     "albumId": "m-49",
     "date": "2022-02-27",
-    "hasGps": false,
+    "hasGps": true,
     "hasCourse": false,
     "photoCount": 0,
-    "url": "mountains.html?mountain=49&date=2022-02-27"
+    "url": "mountains.html?mountain=49&date=2022-02-27",
+    "sourceNote": "휴대폰 보관 트랭글 GPX 복원·날짜/경로 대조. 코스 지명 미확인."
   },
   {
     "category": "BAC 100대명산",
@@ -808,10 +822,11 @@
     "place": "선운산",
     "albumId": "m-52",
     "date": "2022-02-28",
-    "hasGps": false,
+    "hasGps": true,
     "hasCourse": false,
     "photoCount": 0,
-    "url": "mountains.html?mountain=52&date=2022-02-28"
+    "url": "mountains.html?mountain=52&date=2022-02-28",
+    "sourceNote": "휴대폰 보관 트랭글 GPX 복원·날짜/경로 대조. 코스 지명 미확인."
   },
   {
     "category": "BAC 100대명산",
@@ -878,10 +893,11 @@
     "place": "소백산",
     "albumId": "m-54",
     "date": "2022-04-03",
-    "hasGps": false,
+    "hasGps": true,
     "hasCourse": false,
     "photoCount": 0,
-    "url": "mountains.html?mountain=54&date=2022-04-03"
+    "url": "mountains.html?mountain=54&date=2022-04-03",
+    "sourceNote": "휴대폰 보관 트랭글 GPX 복원·날짜/경로 대조. 코스 지명 미확인."
   },
   {
     "category": "BAC 100대명산",
@@ -1129,10 +1145,11 @@
     "place": "운장산",
     "albumId": "m-67",
     "date": "2022-08-28",
-    "hasGps": false,
+    "hasGps": true,
     "hasCourse": false,
     "photoCount": 0,
-    "url": "mountains.html?mountain=67&date=2022-08-28"
+    "url": "mountains.html?mountain=67&date=2022-08-28",
+    "sourceNote": "휴대폰 보관 트랭글 GPX 복원·날짜/경로 대조. 코스 지명 미확인."
   },
   {
     "category": "BAC 100대명산",
@@ -1189,10 +1206,11 @@
     "place": "장안산",
     "albumId": "m-72",
     "date": "2022-04-09",
-    "hasGps": false,
+    "hasGps": true,
     "hasCourse": false,
     "photoCount": 0,
-    "url": "mountains.html?mountain=72&date=2022-04-09"
+    "url": "mountains.html?mountain=72&date=2022-04-09",
+    "sourceNote": "휴대폰 보관 트랭글 GPX 복원·날짜/경로 대조. 코스 지명 미확인."
   },
   {
     "category": "BAC 100대명산",
@@ -1289,10 +1307,11 @@
     "place": "지리산 천왕봉",
     "albumId": "m-78",
     "date": "2022-07-03",
-    "hasGps": false,
+    "hasGps": true,
     "hasCourse": false,
     "photoCount": 0,
-    "url": "mountains.html?mountain=78&date=2022-07-03"
+    "url": "mountains.html?mountain=78&date=2022-07-03",
+    "sourceNote": "휴대폰 보관 트랭글 GPX 복원·날짜/경로 대조. 코스 지명 미확인."
   },
   {
     "category": "BAC 100대명산",
@@ -1319,10 +1338,11 @@
     "place": "천태산",
     "albumId": "m-81",
     "date": "2022-08-27",
-    "hasGps": false,
+    "hasGps": true,
     "hasCourse": false,
     "photoCount": 0,
-    "url": "mountains.html?mountain=81&date=2022-08-27"
+    "url": "mountains.html?mountain=81&date=2022-08-27",
+    "sourceNote": "휴대폰 보관 트랭글 GPX 복원·날짜/경로 대조. 코스 지명 미확인."
   },
   {
     "category": "BAC 100대명산",
@@ -1339,10 +1359,11 @@
     "place": "청량산",
     "albumId": "m-83",
     "date": "2022-03-06",
-    "hasGps": false,
+    "hasGps": true,
     "hasCourse": false,
     "photoCount": 0,
-    "url": "mountains.html?mountain=83&date=2022-03-06"
+    "url": "mountains.html?mountain=83&date=2022-03-06",
+    "sourceNote": "휴대폰 보관 트랭글 GPX 복원·날짜/경로 대조. 코스 지명 미확인."
   },
   {
     "category": "BAC 100대명산",
@@ -1359,10 +1380,11 @@
     "place": "축령산(장성)",
     "albumId": "m-85",
     "date": "2022-02-27",
-    "hasGps": false,
+    "hasGps": true,
     "hasCourse": false,
     "photoCount": 0,
-    "url": "mountains.html?mountain=85&date=2022-02-27"
+    "url": "mountains.html?mountain=85&date=2022-02-27",
+    "sourceNote": "휴대폰 보관 트랭글 GPX 복원·날짜/경로 대조. 코스 지명 미확인."
   },
   {
     "category": "BAC 100대명산",
@@ -1439,10 +1461,11 @@
     "place": "태백산",
     "albumId": "m-89",
     "date": "2022-03-20",
-    "hasGps": false,
+    "hasGps": true,
     "hasCourse": false,
     "photoCount": 3,
-    "url": "mountains.html?mountain=89&date=2022-03-20"
+    "url": "mountains.html?mountain=89&date=2022-03-20",
+    "sourceNote": "휴대폰 보관 트랭글 GPX 복원·날짜/경로 대조. 코스 지명 미확인."
   },
   {
     "category": "BAC 100대명산",
@@ -1459,10 +1482,11 @@
     "place": "태화산",
     "albumId": "m-90",
     "date": "2022-04-02",
-    "hasGps": false,
+    "hasGps": true,
     "hasCourse": false,
     "photoCount": 0,
-    "url": "mountains.html?mountain=90&date=2022-04-02"
+    "url": "mountains.html?mountain=90&date=2022-04-02",
+    "sourceNote": "휴대폰 보관 트랭글 GPX 복원·날짜/경로 대조. 코스 지명 미확인."
   },
   {
     "category": "BAC 100대명산",
@@ -1539,10 +1563,11 @@
     "place": "함백산",
     "albumId": "m-95",
     "date": "2022-03-20",
-    "hasGps": false,
+    "hasGps": true,
     "hasCourse": false,
     "photoCount": 0,
-    "url": "mountains.html?mountain=95&date=2022-03-20"
+    "url": "mountains.html?mountain=95&date=2022-03-20",
+    "sourceNote": "휴대폰 보관 트랭글 GPX 복원·날짜/경로 대조. 코스 지명 미확인."
   },
   {
     "category": "BAC 100대명산",
@@ -1629,10 +1654,11 @@
     "place": "황석산(함양)",
     "albumId": "m-99",
     "date": "2022-07-02",
-    "hasGps": false,
+    "hasGps": true,
     "hasCourse": false,
     "photoCount": 0,
-    "url": "mountains.html?mountain=99&date=2022-07-02"
+    "url": "mountains.html?mountain=99&date=2022-07-02",
+    "sourceNote": "휴대폰 보관 트랭글 GPX 복원·날짜/경로 대조. 코스 지명 미확인."
   },
   {
     "category": "BAC 100대명산",
