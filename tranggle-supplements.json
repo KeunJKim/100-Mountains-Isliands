@@ -5,14 +5,20 @@
       "mountainNo": 5,
       "place": "가지산",
       "date": "2022-05-05",
-      "sourceType": "Tranggle 공유 이미지",
+      "sourceType": "트랭글 JPG 및 앱 운동 기록",
       "sourceFile": "가지산_20220505_110507.gpx",
       "distanceKm": 10.1,
       "duration": "4시간 6분 2초",
+      "totalDuration": "5시간 3분 7초",
+      "exerciseDuration": "4시간 6분 2초",
+      "restDuration": "56분 47초",
+      "maxAltitudeM": 1266,
+      "minAltitudeM": 665,
       "cumulativeElevationM": 826,
       "image": "photos/tranggle-gajisan-20220505-summary.jpg",
       "hasOriginalGpx": false,
-      "notes": "시간은 이동·휴식 구분이 없는 이미지 표시값입니다. 누적고도는 최고 GPS 고도와 다릅니다. 출발지·정확한 경유 순서는 원본 GPX 확인 전까지 미확인입니다."
+      "verifiedAt": "2026-11-13",
+      "notes": "거리·시간·고도는 트랭글 앱의 운동 기록 표시값입니다. JPG의 4시간 6분 2초는 운동시간이며 전체시간과 다릅니다. 최고고도와 누적고도를 구분했습니다. 출발지·정확한 경유 순서는 미확인입니다."
     }
   ]
 }
