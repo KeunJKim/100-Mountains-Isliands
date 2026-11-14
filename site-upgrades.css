@@ -71,3 +71,8 @@
 @media(max-width:849px){#cards.grid,#island-cards.ux-island-grid{grid-template-columns:repeat(3,minmax(0,1fr))}}
 @media(max-width:599px){#cards.grid,#island-cards.ux-island-grid{grid-template-columns:repeat(2,minmax(0,1fr))}#cards>.card,#island-cards>.ux-island-card{min-height:104px;padding:10px}#cards>.card h2,#island-cards>.ux-island-card strong{font-size:15px}}
 @media(max-width:339px){#cards.grid,#island-cards.ux-island-grid{grid-template-columns:1fr}}
+/* 목록 순서 번호: 이름보다 2px 작게 표시하고 번호 자리를 확보 */
+#cards>.card .id,#island-cards>.ux-island-card .ux-id{font-family:inherit;font-size:14px;font-weight:700;line-height:1.35;font-variant-numeric:tabular-nums;letter-spacing:0;white-space:nowrap}
+#cards>.card h2{margin-right:36px}
+#island-cards>.ux-island-card strong{padding-right:36px}
+@media(max-width:599px){#cards>.card .id,#island-cards>.ux-island-card .ux-id{font-size:13px}}
