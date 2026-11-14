@@ -50,6 +50,7 @@ if(stored&&Number.isFinite(Number(stored.lat))&&Number.isFinite(Number(stored.lo
 }else{const q=encodeURIComponent(d.query||d.name+' '+d.region);iframe.src='https://maps.google.com/maps?output=embed&hl=ko&q='+q;caption.textContent='선택 장소 검색: '+d.name+' · '+(d.locationLabel||d.region);notice.textContent='현재 장소명 검색 결과입니다. 정확한 BAC 인증지 GPS 좌표는 공식 BAC 지도에서 확인해 주세요. 지도 검색이 제한되면 아래 네이버 지도 또는 Google 지도 버튼을 이용하세요.';}
 }
 rows.forEach((row,i)=>row.addEventListener('click',()=>selectOnMap(i)));
+const initialSelection=rows.findIndex(row=>row.getAttribute('aria-pressed')==='true');if(initialSelection>=0)selectOnMap(initialSelection);
 }
 enhanceHome();enhanceGallery();enhanceMap();
 })();

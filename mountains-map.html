@@ -39,7 +39,7 @@ button:focus-visible,a:focus-visible,input:focus-visible,select:focus-visible{ou
 <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"WebPage","@id":"https://keunjkim.github.io/100-Mountains-Isliands/mountains-map.html#webpage","url":"https://keunjkim.github.io/100-Mountains-Isliands/mountains-map.html","name":"BAC 100대명산 지도 · 100개 산의 지역별 위치 | JK 의 산하정복","description":"BAC 100대명산 100개 산의 지역별 목록과 위치 안내를 지도에서 확인하고 산행 기록으로 이동하세요.","inLanguage":"ko-KR","isPartOf":{"@id":"https://keunjkim.github.io/#website"}},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"JK 의 산하정복 대표 홈","item":"https://keunjkim.github.io/"},{"@type":"ListItem","position":2,"name":"산행 홈","item":"https://keunjkim.github.io/100-Mountains-Isliands/"},{"@type":"ListItem","position":3,"name":"BAC 100대명산 지도 · 100개 산의 지역별 위치","item":"https://keunjkim.github.io/100-Mountains-Isliands/mountains-map.html"}]}]}</script>
 <meta name="author" content="김종근 (종근 · JK · KJK)">
 <link rel="stylesheet" href="https://keunjkim.github.io/100-Mountains-Isliands/site-profile.css?v=20261113-owner-title2">
-<script defer src="https://keunjkim.github.io/100-Mountains-Isliands/site-profile.js?v=20261113-owner-title2"></script>
+<script defer src="https://keunjkim.github.io/100-Mountains-Isliands/site-profile.js?v=20261114-all-admin1"></script>
 <link rel="stylesheet" href="layout-refinements.css?v=20261113-detail1">
 <style id="selected-place-emphasis">
 /* 선택한 장소를 지도 바로 위에서 선명하게 표시 */
@@ -77,6 +77,6 @@ function selectItem(i){const d=data[i];rows.forEach((row,j)=>row.setAttribute('a
 const q=encodeURIComponent(d.query);document.getElementById('naver').href='https://map.naver.com/p/search/'+q;document.getElementById('google').href='https://www.google.com/maps/search/?api=1&query='+q;
 const area=d.region.includes('·')?null:regions[d.region];if(area){document.querySelector('.mapbox iframe').src='https://www.openstreetmap.org/export/embed.html?bbox='+area.join('%2C')+'&layer=mapnik';document.getElementById('mapcaption').textContent=d.region+' 지역 지도 · 선택된 인증지의 정확한 위치를 표시한 지도는 아닙니다.'}else{document.querySelector('.mapbox iframe').src='https://www.openstreetmap.org/export/embed.html?bbox=124.0%2C32.8%2C132.6%2C39.3&layer=mapnik';document.getElementById('mapcaption').textContent='전국 지도 · 복합 지역은 정확한 위치를 네이버 지도로 확인하세요'}}
 rows.forEach((row,i)=>row.addEventListener('click',()=>selectItem(i)));
-</script><script src="site-extras.js?v=20261114-locality1"></script>
+</script><script src="site-extras.js?v=20261114-locality2"></script>
 <script src="site-nav.js?v=20261114-bottom-close1"></script>
 </body></html>

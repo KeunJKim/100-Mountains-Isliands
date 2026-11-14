@@ -49,3 +49,21 @@ const groups=[...menu.querySelectorAll('details')];const close=except=>{for(cons
 for(const g of groups){let timer;const summary=g.querySelector('summary');const show=()=>{clearTimeout(timer);close(g);g.open=true;summary.setAttribute('aria-expanded','true');};g.addEventListener('pointerenter',e=>{if(e.pointerType!=='touch')show();});g.addEventListener('pointerleave',e=>{if(e.pointerType!=='touch'){clearTimeout(timer);timer=setTimeout(()=>{g.open=false;summary.setAttribute('aria-expanded','false');},150);}});g.addEventListener('focusin',e=>{if(e.target!==summary||summary.matches(':focus-visible'))show();});g.addEventListener('focusout',e=>{if(!g.contains(e.relatedTarget))g.open=false;});g.addEventListener('toggle',()=>{summary.setAttribute('aria-expanded',String(g.open));if(g.open)close(g);});}
 document.addEventListener('click',e=>{if(!menu.contains(e.target))close();});document.addEventListener('keydown',e=>{if(e.key==='Escape'){const active=groups.find(g=>g.open);close();if(active)active.querySelector('summary').focus();close();}});
 })();
+ /* 공통 메뉴의 관리자 진입: 기존 홈 관리 메뉴와 중복하지 않음 */
+(() => {
+ 'use strict';
+ if(document.body.matches('.jk-representative-home,.jk-hiking-home'))return;
+ const menu=document.querySelector('.jk-compact-menu');if(!menu)return;
+ const make=(tag,text,cls)=>{const e=document.createElement(tag);if(text)e.textContent=text;if(cls)e.className=cls;return e;};
+ const entry=make('a','관리자','jk-site-admin-entry'),target=new URL(location.href);target.searchParams.set('manage','1');entry.href=target.href;entry.setAttribute('aria-label','관리자 연결 및 관리 기능 표시');
+ const all=menu.querySelector('.jk-all-menu');if(all)all.before(entry);else menu.append(entry);
+ const dialog=make('dialog',null,'jk-profile-dialog jk-site-management-dialog');dialog.setAttribute('aria-label','관리 메뉴');dialog.setAttribute('data-nosnippet','');dialog.append(make('h2','관리 메뉴'));
+ const actions=make('div',null,'jk-profile-actions');
+ const base='https://keunjkim.github.io/100-Mountains-Isliands/';
+ for(const [name,path]of [['사진 추가·삭제','gallery.html?manager=1'],['명산 산행 정보 수정','mountains.html'],['섬&산 산행 정보 수정','islands.html'],['영남알프스 관리','yeongnam-alps.html'],['명산외산행 관리','other-hikes.html'],['블로그 글 관리','blog.html']]){const a=make('a',name);a.href=base+path;actions.append(a);}
+ const profile=make('button','프로필 사진 교체');profile.type='button';profile.onclick=()=>{dialog.close();document.querySelector('.jk-profile-trigger')?.click();};actions.append(profile);dialog.append(actions);
+ const footer=make('div',null,'jk-profile-actions'),close=make('button','닫기'),off=make('button','관리자 표시 끄기');close.type=off.type='button';close.onclick=()=>dialog.close();off.onclick=()=>{dialog.close();document.querySelector('.jk-owner-actions button')?.click();};footer.append(off,close);dialog.append(footer);document.body.append(dialog);
+ entry.addEventListener('click',event=>{if(!document.body.classList.contains('jk-owner-mode'))return;event.preventDefault();dialog.showModal();});
+ const sync=()=>{entry.textContent=document.body.classList.contains('jk-owner-mode')?'관리 메뉴':'관리자';};
+ new MutationObserver(sync).observe(document.body,{attributes:true,attributeFilter:['class']});sync();
+})();
