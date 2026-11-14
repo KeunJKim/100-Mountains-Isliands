@@ -352,7 +352,7 @@ const selectedParams=new URLSearchParams(location.search);const selectedNo=Numbe
 if(selectedMountain){showDetails(selectedMountain);const recordId=selectedParams.get('record');if(/^\d+$/.test(recordId||''))requestAnimationFrame(()=>{const link=[...visitsEl.querySelectorAll('a[href]')].find(a=>a.href.endsWith('/'+recordId));link?.closest('.visit')?.scrollIntoView({block:'start'});});}
 })();
 </script>
-<script src="hike-records.js?v=20261114-admin-session1"></script>
+<script src="hike-records.js?v=20261114-visit-delete1"></script>
 <script src="site-nav.js?v=20261114-bottom-close1"></script>
 <script src="ramblr-media.js?v=20261112"></script><script src="local-photo-links.js?v=20261112"></script><script defer src="samsung-health-records.js?v=20261114-health1"></script></body>
 </html>
