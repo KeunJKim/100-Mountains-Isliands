@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "records": [
+    {
+      "albumId":"m-69",
+      "place":"월출산",
+      "date":"2021-04-10",
+      "source":"Samsung Health 앱 직접 대조 및 공식 공유 이미지",
+      "image":"photos/samsung-health-wolchulsan-20210410.png",
+      "hasOriginalGpx":false,
+      "distanceKm":13.10,
+      "duration":"3시간 49분 51초",
+      "startTime":"오전 9:26",
+      "averageSpeedKmh":3.4,
+      "totalAscentM":1021,
+      "maxAltitudeM":812,
+      "verifiedAt":"2026-11-14",
+      "notes":"삼성헬스 지도에서 월출산·월출산국립공원·영암읍 일대 경로를 확인했습니다. 앱 표시 운동 유형은 걷기입니다. 표시 거리와 시간에는 지도에 보이는 산행 및 영암읍 일대 이동이 함께 포함되므로 정상 왕복만의 통계로 해석하지 않습니다. GPX 원본 미확보로 GPX 분석 거리·기록 지점·고도 그래프를 생성하지 않았습니다. BAC 인증일 2021-04-11은 변경하지 않았습니다."
+    }
+  ]
+}

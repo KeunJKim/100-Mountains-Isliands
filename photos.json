@@ -11313,6 +11313,21 @@
       "path": "photos/tranggle-dongaksan-20220529-summary.jpg",
       "source": "트랭글 공유 JPG",
       "createdAt": "2026-11-13T10:29:22.628Z"
+    },
+    {
+      "id": "samsung-health-wolchulsan-20210410",
+      "group": "mountain",
+      "category": "mountain",
+      "albumId": "m-69",
+      "title": "월출산 · 2021-04-10 · 삼성헬스 공유 지도",
+      "date": "2021-04-10",
+      "dateSource": "Samsung Health 운동 기록 시각",
+      "src": "photos/samsung-health-wolchulsan-20210410.png",
+      "path": "photos/samsung-health-wolchulsan-20210410.png",
+      "source": "Samsung Health 공식 공유 지도 이미지 · GPX 원본 미확보",
+      "width": 1080,
+      "height": 1080,
+      "createdAt": "2026-11-14T06:23:52.711Z"
     }
   ],
   "hiddenSeedIds": []
