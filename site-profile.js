@@ -57,7 +57,7 @@ document.addEventListener('click',e=>{if(!menu.contains(e.target))close();});doc
  if(document.body.matches('.jk-representative-home,.jk-hiking-home'))return;
  const menu=document.querySelector('.jk-compact-menu');if(!menu)return;
  const make=(tag,text,cls)=>{const e=document.createElement(tag);if(text)e.textContent=text;if(cls)e.className=cls;return e;};
- const entry=make('a','관리자','jk-site-admin-entry'),target=new URL(location.href);target.searchParams.set('manage','1');entry.href=target.href;entry.setAttribute('aria-label','관리자 연결 및 관리 기능 표시');
+ const entry=make('a','관리자','jk-site-admin-entry'),target=new URL(location.href);target.searchParams.set('manage','1');entry.href=target.href;entry.setAttribute('aria-label','관리자 연결 및 관리 기능 표시');entry.style.setProperty('display','flex','important');
  const all=menu.querySelector('.jk-all-menu');if(all)all.before(entry);else menu.append(entry);
  const dialog=make('dialog',null,'jk-profile-dialog jk-site-management-dialog');dialog.setAttribute('aria-label','관리 메뉴');dialog.setAttribute('data-nosnippet','');dialog.append(make('h2','관리 메뉴'));
  const actions=make('div',null,'jk-profile-actions');
