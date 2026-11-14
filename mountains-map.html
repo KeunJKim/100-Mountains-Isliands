@@ -41,6 +41,16 @@ button:focus-visible,a:focus-visible,input:focus-visible,select:focus-visible{ou
 <link rel="stylesheet" href="https://keunjkim.github.io/100-Mountains-Isliands/site-profile.css?v=20261113-owner-title2">
 <script defer src="https://keunjkim.github.io/100-Mountains-Isliands/site-profile.js?v=20261113-owner-title2"></script>
 <link rel="stylesheet" href="layout-refinements.css?v=20261113-detail1">
+<style id="selected-place-emphasis">
+/* 선택한 장소를 지도 바로 위에서 선명하게 표시 */
+/* 버튼 외곽은 기존 약 74px 높이 유지, 이름과 인증일만 확대 */
+html body .entries .entry{height:74px;padding-top:8px;padding-bottom:8px;gap:10px}
+html body .entries .entry>span{min-width:0;flex:1}
+html body .entries .entry strong{display:block;font-size:16px;line-height:20px;white-space:nowrap}
+html body .entries .entry .cert-on{display:block;font-size:12.5px;line-height:17px;font-weight:700;color:#865125!important;margin:0;white-space:nowrap}
+html body .entries .entry small{line-height:17px;margin-top:2px}
+html body .layout:has(.entry[aria-pressed="true"]) #mapcaption{font-size:clamp(18px,1.7vw,23px)!important;font-weight:800!important;line-height:1.5!important;color:#29462a!important;background:#fff2cf;border:1px solid #c39b57;border-left:5px solid #95602e;border-radius:9px;padding:10px 14px;margin:9px 0 0!important;overflow-wrap:anywhere}
+</style>
 </head><body>
 <div id="ux-navigation"><nav aria-label="통합 홈페이지 이동 메뉴"><div class="ux-bar"><a class="ux-brand" href="./">BAC 100대명산 과 <b>섬&amp;산100</b> </a><div class="ux-menu"><a href="https://keunjkim.github.io/">대표 홈</a><a href="./">산행 홈</a><details class="ux-group"><summary>BAC 100대명산 <span class="ux-chevron">⌄</span></summary><div class="ux-drop"><a href="mountains.html">BAC 100대명산 목록</a><a href="mountains-map.html" aria-current="page">BAC 100대명산 지도</a><a href="gallery.html">명산 사진 갤러리</a></div></details><details class="ux-group"><summary>BAC 섬&산100 <span class="ux-chevron">⌄</span></summary><div class="ux-drop"><a href="islands.html">BAC 섬&산100 목록</a><a href="islands-map.html">BAC 섬&산100 지도</a><a href="gallery.html">섬 사진 갤러리</a></div></details><a href="yeongnam-alps.html">영남알프스</a><a href="gallery.html">사진 갤러리</a><details class="ux-group"><summary>산행 기록 <span class="ux-chevron">⌄</span></summary><div class="ux-drop"><a href="blog.html">산행 블로그</a><a href="other-hikes.html">명산외산행</a></div></details></div></div><div class="ux-breadcrumb" aria-label="현재 위치"><a href="https://keunjkim.github.io/">대표 홈</a> <span aria-hidden="true">›</span> <a href="./">산행 홈</a> <span aria-hidden="true">›</span> <a href="mountains.html">BAC 100대명산</a> <span aria-hidden="true">›</span> <strong aria-current="page">BAC 100대명산 지도</strong></div></nav></div>
 <div class="ux-context-links" aria-label="관련 페이지 바로가기"><a href="records-to-complete.html">기록 보충 목록</a><a href="mountains.html">명산 목록으로</a><a href="islands-map.html">섬&산 지도</a><a href="gallery.html">사진 갤러리</a></div>
