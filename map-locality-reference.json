@@ -1,0 +1,1406 @@
+{
+  "reviewedOn": "2026-11-14",
+  "notes": "소재지 참고 표시. 기존 인증 기록 및 GPS 고도와 별도. 섬 인증지 높이는 미등록 상태를 유지함.",
+  "records": [
+    {
+      "group": "mountains",
+      "no": 1,
+      "name": "가리산(홍천)",
+      "location": "강원 춘천시·홍천군",
+      "source": "https://seonyeon.tistory.com/416"
+    },
+    {
+      "group": "mountains",
+      "no": 2,
+      "name": "가리왕산",
+      "location": "강원 평창군·정선군",
+      "source": "https://seonyeon.tistory.com/416"
+    },
+    {
+      "group": "mountains",
+      "no": 3,
+      "name": "가야산(합천)",
+      "location": "경남 합천군 / 경북 성주군",
+      "source": "https://seonyeon.tistory.com/416"
+    },
+    {
+      "group": "mountains",
+      "no": 4,
+      "name": "가야산(충남)",
+      "location": "충남 서산시·예산군",
+      "source": "https://seonyeon.tistory.com/416"
+    },
+    {
+      "group": "mountains",
+      "no": 5,
+      "name": "가지산",
+      "location": "울산 울주군",
+      "source": "https://seonyeon.tistory.com/416"
+    },
+    {
+      "group": "mountains",
+      "no": 6,
+      "name": "감악산(원주)",
+      "location": "강원 원주시 / 충북 제천시",
+      "source": "https://seonyeon.tistory.com/416"
+    },
+    {
+      "group": "mountains",
+      "no": 7,
+      "name": "감악산(파주)",
+      "location": "경기 파주시",
+      "source": "https://seonyeon.tistory.com/416"
+    },
+    {
+      "group": "mountains",
+      "no": 8,
+      "name": "계룡산",
+      "location": "충남 공주시·계룡시 / 대전 유성구",
+      "source": "https://seonyeon.tistory.com/416"
+    },
+    {
+      "group": "mountains",
+      "no": 9,
+      "name": "계방산",
+      "location": "강원 홍천군·평창군",
+      "source": "https://seonyeon.tistory.com/416"
+    },
+    {
+      "group": "mountains",
+      "no": 10,
+      "name": "관악산",
+      "location": "서울 관악구 / 경기 과천시",
+      "source": "https://seonyeon.tistory.com/416"
+    },
+    {
+      "group": "mountains",
+      "no": 11,
+      "name": "광덕산",
+      "location": "충남 아산시·천안시",
+      "source": "https://seonyeon.tistory.com/416"
+    },
+    {
+      "group": "mountains",
+      "no": 12,
+      "name": "구병산(보은)",
+      "location": "충북 보은군 / 경북 상주시",
+      "source": "https://seonyeon.tistory.com/416"
+    },
+    {
+      "group": "mountains",
+      "no": 13,
+      "name": "구봉산(진안)",
+      "location": "전북 진안군",
+      "source": "https://seonyeon.tistory.com/416"
+    },
+    {
+      "group": "mountains",
+      "no": 14,
+      "name": "금수산",
+      "location": "충북 제천시·단양군",
+      "source": "https://seonyeon.tistory.com/416"
+    },
+    {
+      "group": "mountains",
+      "no": 15,
+      "name": "금오산",
+      "location": "경북 구미시",
+      "source": "https://seonyeon.tistory.com/416"
+    },
+    {
+      "group": "mountains",
+      "no": 16,
+      "name": "금정산",
+      "location": "부산 금정구 / 경남 양산시",
+      "source": "https://seonyeon.tistory.com/416"
+    },
+    {
+      "group": "mountains",
+      "no": 17,
+      "name": "남산(경주)",
+      "location": "경북 경주시",
+      "source": "https://seonyeon.tistory.com/416"
+    },
+    {
+      "group": "mountains",
+      "no": 18,
+      "name": "내변산(변산)",
+      "location": "전북 부안군",
+      "source": "https://seonyeon.tistory.com/416"
+    },
+    {
+      "group": "mountains",
+      "no": 19,
+      "name": "내연산",
+      "location": "경북 포항시·영덕군",
+      "source": "https://seonyeon.tistory.com/416"
+    },
+    {
+      "group": "mountains",
+      "no": 20,
+      "name": "내장산",
+      "location": "전북 정읍시·순창군",
+      "source": "https://seonyeon.tistory.com/416"
+    },
+    {
+      "group": "mountains",
+      "no": 21,
+      "name": "노인봉(오대산)",
+      "location": "강원 강릉시",
+      "source": "https://seonyeon.tistory.com/416"
+    },
+    {
+      "group": "mountains",
+      "no": 22,
+      "name": "달마산",
+      "location": "전남 해남군",
+      "source": "https://seonyeon.tistory.com/416"
+    },
+    {
+      "group": "mountains",
+      "no": 23,
+      "name": "대둔산",
+      "location": "충남 논산시 / 전북 완주군",
+      "source": "https://seonyeon.tistory.com/416"
+    },
+    {
+      "group": "mountains",
+      "no": 24,
+      "name": "대야산",
+      "location": "충북 괴산군 / 경북 문경시",
+      "source": "https://seonyeon.tistory.com/416"
+    },
+    {
+      "group": "mountains",
+      "no": 25,
+      "name": "덕룡산",
+      "location": "전남 강진군",
+      "source": "https://seonyeon.tistory.com/416"
+    },
+    {
+      "group": "mountains",
+      "no": 26,
+      "name": "덕유산",
+      "location": "전북 무주군",
+      "source": "https://seonyeon.tistory.com/416"
+    },
+    {
+      "group": "mountains",
+      "no": 27,
+      "name": "덕항산",
+      "location": "강원 태백시·삼척시",
+      "source": "https://seonyeon.tistory.com/416"
+    },
+    {
+      "group": "mountains",
+      "no": 28,
+      "name": "도락산",
+      "location": "충북 단양군",
+      "source": "https://seonyeon.tistory.com/416"
+    },
+    {
+      "group": "mountains",
+      "no": 29,
+      "name": "도봉산",
+      "location": "서울 도봉구",
+      "source": "https://seonyeon.tistory.com/416"
+    },
+    {
+      "group": "mountains",
+      "no": 30,
+      "name": "동악산(곡성)",
+      "location": "전남 곡성군",
+      "source": "https://seonyeon.tistory.com/416"
+    },
+    {
+      "group": "mountains",
+      "no": 31,
+      "name": "두륜산",
+      "location": "전남 해남군",
+      "source": "https://seonyeon.tistory.com/416"
+    },
+    {
+      "group": "mountains",
+      "no": 32,
+      "name": "두타산",
+      "location": "강원 동해시·삼척시",
+      "source": "https://seonyeon.tistory.com/416"
+    },
+    {
+      "group": "mountains",
+      "no": 33,
+      "name": "마니산(강화도)",
+      "location": "인천 강화군",
+      "source": "https://seonyeon.tistory.com/416"
+    },
+    {
+      "group": "mountains",
+      "no": 34,
+      "name": "마이산(진안)",
+      "location": "전북 진안군",
+      "source": "https://seonyeon.tistory.com/416"
+    },
+    {
+      "group": "mountains",
+      "no": 35,
+      "name": "천마산",
+      "location": "경기 남양주시",
+      "source": "https://seonyeon.tistory.com/416"
+    },
+    {
+      "group": "mountains",
+      "no": 36,
+      "name": "명지산",
+      "location": "경기 가평군",
+      "source": "https://seonyeon.tistory.com/416"
+    },
+    {
+      "group": "mountains",
+      "no": 37,
+      "name": "모악산",
+      "location": "전북 전주시·완주군",
+      "source": "https://seonyeon.tistory.com/416"
+    },
+    {
+      "group": "mountains",
+      "no": 38,
+      "name": "무등산",
+      "location": "광주 동구·북구",
+      "source": "https://seonyeon.tistory.com/416"
+    },
+    {
+      "group": "mountains",
+      "no": 39,
+      "name": "민주지산",
+      "location": "충북 영동군 / 전북 무주군",
+      "source": "https://seonyeon.tistory.com/416"
+    },
+    {
+      "group": "mountains",
+      "no": 40,
+      "name": "바래봉(지리산)",
+      "location": "전북 남원시",
+      "source": "https://seonyeon.tistory.com/416"
+    },
+    {
+      "group": "mountains",
+      "no": 41,
+      "name": "반야봉(지리산)",
+      "location": "전남 구례군 / 전북 남원시",
+      "source": "https://seonyeon.tistory.com/416"
+    },
+    {
+      "group": "mountains",
+      "no": 42,
+      "name": "방장산",
+      "location": "전북 고창군 / 전남 장성군",
+      "source": "https://seonyeon.tistory.com/416"
+    },
+    {
+      "group": "mountains",
+      "no": 43,
+      "name": "방태산",
+      "location": "강원 인제군",
+      "source": "https://seonyeon.tistory.com/416"
+    },
+    {
+      "group": "mountains",
+      "no": 44,
+      "name": "백덕산",
+      "location": "강원 영월군·평창군",
+      "source": "https://seonyeon.tistory.com/416"
+    },
+    {
+      "group": "mountains",
+      "no": 45,
+      "name": "백암산",
+      "location": "전북 정읍시 / 전남 장성군",
+      "source": "https://seonyeon.tistory.com/416"
+    },
+    {
+      "group": "mountains",
+      "no": 46,
+      "name": "백운산(광양)",
+      "location": "전남 광양시",
+      "source": "https://seonyeon.tistory.com/416"
+    },
+    {
+      "group": "mountains",
+      "no": 47,
+      "name": "백운산(동강)",
+      "location": "강원 평창군·정선군",
+      "source": "https://seonyeon.tistory.com/416"
+    },
+    {
+      "group": "mountains",
+      "no": 48,
+      "name": "북한산",
+      "location": "경기 고양시 / 서울 강북구",
+      "source": "https://seonyeon.tistory.com/416"
+    },
+    {
+      "group": "mountains",
+      "no": 49,
+      "name": "불갑산(영광)",
+      "location": "전남 영광군·함평군",
+      "source": "https://seonyeon.tistory.com/416"
+    },
+    {
+      "group": "mountains",
+      "no": 50,
+      "name": "비슬산",
+      "location": "대구 달성군",
+      "source": "https://seonyeon.tistory.com/416"
+    },
+    {
+      "group": "mountains",
+      "no": 51,
+      "name": "삼악산",
+      "location": "강원 춘천시",
+      "source": "https://seonyeon.tistory.com/416"
+    },
+    {
+      "group": "mountains",
+      "no": 52,
+      "name": "선운산",
+      "location": "전북 고창군",
+      "source": "https://seonyeon.tistory.com/416"
+    },
+    {
+      "group": "mountains",
+      "no": 53,
+      "name": "설악산",
+      "location": "강원 속초시·양양군",
+      "source": "https://seonyeon.tistory.com/416"
+    },
+    {
+      "group": "mountains",
+      "no": 54,
+      "name": "소백산",
+      "location": "충북 단양군 / 경북 영주시",
+      "source": "https://seonyeon.tistory.com/416"
+    },
+    {
+      "group": "mountains",
+      "no": 55,
+      "name": "소요산",
+      "location": "경기 동두천시",
+      "source": "https://seonyeon.tistory.com/416"
+    },
+    {
+      "group": "mountains",
+      "no": 56,
+      "name": "속리산",
+      "location": "충북 보은군 / 경북 상주시",
+      "source": "https://seonyeon.tistory.com/416"
+    },
+    {
+      "group": "mountains",
+      "no": 57,
+      "name": "수락산",
+      "location": "경기 남양주시 / 서울 노원구",
+      "source": "https://seonyeon.tistory.com/416"
+    },
+    {
+      "group": "mountains",
+      "no": 58,
+      "name": "신불산",
+      "location": "울산 울주군",
+      "source": "https://seonyeon.tistory.com/416"
+    },
+    {
+      "group": "mountains",
+      "no": 59,
+      "name": "연인산",
+      "location": "경기 가평군",
+      "source": "https://seonyeon.tistory.com/416"
+    },
+    {
+      "group": "mountains",
+      "no": 60,
+      "name": "오대산 비로봉",
+      "location": "강원 홍천군·평창군",
+      "source": "https://seonyeon.tistory.com/416"
+    },
+    {
+      "group": "mountains",
+      "no": 61,
+      "name": "오봉산(춘천)",
+      "location": "강원 춘천시",
+      "source": "https://seonyeon.tistory.com/416"
+    },
+    {
+      "group": "mountains",
+      "no": 62,
+      "name": "오서산(보령)",
+      "location": "충남 보령시",
+      "source": "https://seonyeon.tistory.com/416"
+    },
+    {
+      "group": "mountains",
+      "no": 63,
+      "name": "용문산",
+      "location": "경기 양평군",
+      "source": "https://seonyeon.tistory.com/416"
+    },
+    {
+      "group": "mountains",
+      "no": 64,
+      "name": "용봉산(홍성)",
+      "location": "충남 홍성군",
+      "source": "https://seonyeon.tistory.com/416"
+    },
+    {
+      "group": "mountains",
+      "no": 65,
+      "name": "용화산",
+      "location": "강원 화천군·춘천시",
+      "source": "https://seonyeon.tistory.com/416"
+    },
+    {
+      "group": "mountains",
+      "no": 66,
+      "name": "운악산",
+      "location": "경기 포천시·가평군",
+      "source": "https://seonyeon.tistory.com/416"
+    },
+    {
+      "group": "mountains",
+      "no": 67,
+      "name": "운장산",
+      "location": "전북 진안군",
+      "source": "https://seonyeon.tistory.com/416"
+    },
+    {
+      "group": "mountains",
+      "no": 68,
+      "name": "월악산",
+      "location": "충북 제천시",
+      "source": "https://seonyeon.tistory.com/416"
+    },
+    {
+      "group": "mountains",
+      "no": 69,
+      "name": "월출산",
+      "location": "전남 영암군·강진군",
+      "source": "https://seonyeon.tistory.com/416"
+    },
+    {
+      "group": "mountains",
+      "no": 70,
+      "name": "유명산",
+      "location": "경기 가평군·양평군",
+      "source": "https://seonyeon.tistory.com/416"
+    },
+    {
+      "group": "mountains",
+      "no": 71,
+      "name": "응봉산",
+      "location": "강원 삼척시 / 경북 울진군",
+      "source": "https://seonyeon.tistory.com/416"
+    },
+    {
+      "group": "mountains",
+      "no": 72,
+      "name": "장안산",
+      "location": "전북 장수군",
+      "source": "https://seonyeon.tistory.com/416"
+    },
+    {
+      "group": "mountains",
+      "no": 73,
+      "name": "재약산",
+      "location": "경남 밀양시 / 울산 울주군",
+      "source": "https://seonyeon.tistory.com/416"
+    },
+    {
+      "group": "mountains",
+      "no": 74,
+      "name": "조계산",
+      "location": "전남 순천시",
+      "source": "https://seonyeon.tistory.com/416"
+    },
+    {
+      "group": "mountains",
+      "no": 75,
+      "name": "조령산",
+      "location": "충북 괴산군 / 경북 문경시",
+      "source": "https://seonyeon.tistory.com/416"
+    },
+    {
+      "group": "mountains",
+      "no": 76,
+      "name": "주왕산",
+      "location": "경북 청송군",
+      "source": "https://seonyeon.tistory.com/416"
+    },
+    {
+      "group": "mountains",
+      "no": 77,
+      "name": "주흘산",
+      "location": "경북 문경시",
+      "source": "https://seonyeon.tistory.com/416"
+    },
+    {
+      "group": "mountains",
+      "no": 78,
+      "name": "지리산 천왕봉",
+      "location": "경남 함양군·산청군",
+      "source": "https://seonyeon.tistory.com/416"
+    },
+    {
+      "group": "mountains",
+      "no": 79,
+      "name": "천관산",
+      "location": "전남 장흥군",
+      "source": "https://seonyeon.tistory.com/416"
+    },
+    {
+      "group": "mountains",
+      "no": 80,
+      "name": "천성산",
+      "location": "경남 양산시",
+      "source": "https://seonyeon.tistory.com/416"
+    },
+    {
+      "group": "mountains",
+      "no": 81,
+      "name": "천태산",
+      "location": "충남 금산군 / 충북 영동군",
+      "source": "https://seonyeon.tistory.com/416"
+    },
+    {
+      "group": "mountains",
+      "no": 82,
+      "name": "청계산",
+      "location": "경기 과천시·성남시",
+      "source": "https://seonyeon.tistory.com/416"
+    },
+    {
+      "group": "mountains",
+      "no": 83,
+      "name": "청량산",
+      "location": "경북 봉화군",
+      "source": "https://seonyeon.tistory.com/416"
+    },
+    {
+      "group": "mountains",
+      "no": 84,
+      "name": "청화산",
+      "location": "충북 괴산군 / 경북 상주시",
+      "source": "https://seonyeon.tistory.com/416"
+    },
+    {
+      "group": "mountains",
+      "no": 85,
+      "name": "축령산(장성)",
+      "location": "전북 고창군 / 전남 장성군",
+      "source": "https://seonyeon.tistory.com/416"
+    },
+    {
+      "group": "mountains",
+      "no": 86,
+      "name": "치악산",
+      "location": "강원 원주시·횡성군",
+      "source": "https://seonyeon.tistory.com/416"
+    },
+    {
+      "group": "mountains",
+      "no": 87,
+      "name": "칠갑산",
+      "location": "충남 청양군",
+      "source": "https://seonyeon.tistory.com/416"
+    },
+    {
+      "group": "mountains",
+      "no": 88,
+      "name": "칠보산",
+      "location": "충북 괴산군",
+      "source": "https://seonyeon.tistory.com/416"
+    },
+    {
+      "group": "mountains",
+      "no": 89,
+      "name": "태백산",
+      "location": "강원 태백시",
+      "source": "https://seonyeon.tistory.com/416"
+    },
+    {
+      "group": "mountains",
+      "no": 90,
+      "name": "태화산",
+      "location": "강원 영월군 / 충북 단양군",
+      "source": "https://seonyeon.tistory.com/416"
+    },
+    {
+      "group": "mountains",
+      "no": 91,
+      "name": "팔공산",
+      "location": "대구 동구·군위군 / 경북 영천시",
+      "source": "https://seonyeon.tistory.com/416"
+    },
+    {
+      "group": "mountains",
+      "no": 92,
+      "name": "팔봉산(홍천)",
+      "location": "강원 홍천군",
+      "source": "https://seonyeon.tistory.com/416"
+    },
+    {
+      "group": "mountains",
+      "no": 93,
+      "name": "팔영산",
+      "location": "전남 고흥군",
+      "source": "https://seonyeon.tistory.com/416"
+    },
+    {
+      "group": "mountains",
+      "no": 94,
+      "name": "한라산",
+      "location": "제주 제주시·서귀포시",
+      "source": "https://seonyeon.tistory.com/416"
+    },
+    {
+      "group": "mountains",
+      "no": 95,
+      "name": "함백산",
+      "location": "강원 정선군·태백시",
+      "source": "https://seonyeon.tistory.com/416"
+    },
+    {
+      "group": "mountains",
+      "no": 96,
+      "name": "화악산(가평)",
+      "location": "경기 가평군",
+      "source": "https://seonyeon.tistory.com/416"
+    },
+    {
+      "group": "mountains",
+      "no": 97,
+      "name": "화왕산(창녕)",
+      "location": "경남 창녕군",
+      "source": "https://seonyeon.tistory.com/416"
+    },
+    {
+      "group": "mountains",
+      "no": 98,
+      "name": "황매산(산청)",
+      "location": "경남 합천군·산청군",
+      "source": "https://seonyeon.tistory.com/416"
+    },
+    {
+      "group": "mountains",
+      "no": 99,
+      "name": "황석산(함양)",
+      "location": "경남 함양군",
+      "source": "https://seonyeon.tistory.com/416"
+    },
+    {
+      "group": "mountains",
+      "no": 100,
+      "name": "황악산(김천)",
+      "location": "경북 김천시 / 충북 영동군",
+      "source": "https://seonyeon.tistory.com/416"
+    },
+    {
+      "group": "islands",
+      "no": 1,
+      "name": "교동도",
+      "location": "인천 강화군",
+      "source": "https://seonyeon.tistory.com/438"
+    },
+    {
+      "group": "islands",
+      "no": 2,
+      "name": "석모도",
+      "location": "인천 강화군",
+      "source": "https://seonyeon.tistory.com/438"
+    },
+    {
+      "group": "islands",
+      "no": 3,
+      "name": "대청도",
+      "location": "인천 옹진군",
+      "source": "https://seonyeon.tistory.com/438"
+    },
+    {
+      "group": "islands",
+      "no": 4,
+      "name": "굴업도",
+      "location": "인천 옹진군",
+      "source": "https://seonyeon.tistory.com/438"
+    },
+    {
+      "group": "islands",
+      "no": 5,
+      "name": "문갑도",
+      "location": "인천 옹진군",
+      "source": "https://seonyeon.tistory.com/438"
+    },
+    {
+      "group": "islands",
+      "no": 6,
+      "name": "백아도",
+      "location": "인천 옹진군",
+      "source": "https://seonyeon.tistory.com/438"
+    },
+    {
+      "group": "islands",
+      "no": 7,
+      "name": "덕적도",
+      "location": "인천 옹진군",
+      "source": "https://seonyeon.tistory.com/438"
+    },
+    {
+      "group": "islands",
+      "no": 8,
+      "name": "백령도",
+      "location": "인천 옹진군",
+      "source": "https://seonyeon.tistory.com/438"
+    },
+    {
+      "group": "islands",
+      "no": 9,
+      "name": "신도",
+      "location": "인천 옹진군",
+      "source": "https://seonyeon.tistory.com/438"
+    },
+    {
+      "group": "islands",
+      "no": 10,
+      "name": "장봉도",
+      "location": "인천 옹진군",
+      "source": "https://seonyeon.tistory.com/438"
+    },
+    {
+      "group": "islands",
+      "no": 11,
+      "name": "연평도",
+      "location": "인천 옹진군",
+      "source": "https://seonyeon.tistory.com/438"
+    },
+    {
+      "group": "islands",
+      "no": 12,
+      "name": "영흥도",
+      "location": "인천 옹진군",
+      "source": "https://seonyeon.tistory.com/438"
+    },
+    {
+      "group": "islands",
+      "no": 13,
+      "name": "승봉도",
+      "location": "인천 옹진군",
+      "source": "https://seonyeon.tistory.com/438"
+    },
+    {
+      "group": "islands",
+      "no": 14,
+      "name": "대이작도",
+      "location": "인천 옹진군",
+      "source": "https://seonyeon.tistory.com/438"
+    },
+    {
+      "group": "islands",
+      "no": 15,
+      "name": "자월도",
+      "location": "인천 옹진군",
+      "source": "https://seonyeon.tistory.com/438"
+    },
+    {
+      "group": "islands",
+      "no": 16,
+      "name": "무의도",
+      "location": "인천 중구",
+      "source": "https://seonyeon.tistory.com/438"
+    },
+    {
+      "group": "islands",
+      "no": 17,
+      "name": "제부도",
+      "location": "경기 화성시",
+      "source": "https://seonyeon.tistory.com/438"
+    },
+    {
+      "group": "islands",
+      "no": 18,
+      "name": "난지도",
+      "location": "충남 당진시",
+      "source": "https://seonyeon.tistory.com/438"
+    },
+    {
+      "group": "islands",
+      "no": 19,
+      "name": "고대도",
+      "location": "충남 보령시",
+      "source": "https://seonyeon.tistory.com/438"
+    },
+    {
+      "group": "islands",
+      "no": 20,
+      "name": "삽시도",
+      "location": "충남 보령시",
+      "source": "https://seonyeon.tistory.com/438"
+    },
+    {
+      "group": "islands",
+      "no": 21,
+      "name": "외연도",
+      "location": "충남 보령시",
+      "source": "https://seonyeon.tistory.com/438"
+    },
+    {
+      "group": "islands",
+      "no": 22,
+      "name": "원산도",
+      "location": "충남 보령시",
+      "source": "https://seonyeon.tistory.com/438"
+    },
+    {
+      "group": "islands",
+      "no": 23,
+      "name": "죽도",
+      "location": "충남 홍성군",
+      "source": "https://seonyeon.tistory.com/438"
+    },
+    {
+      "group": "islands",
+      "no": 24,
+      "name": "관리도",
+      "location": "전북 군산시",
+      "source": "https://seonyeon.tistory.com/438"
+    },
+    {
+      "group": "islands",
+      "no": 25,
+      "name": "방축도",
+      "location": "전북 군산시",
+      "source": "https://seonyeon.tistory.com/438"
+    },
+    {
+      "group": "islands",
+      "no": 26,
+      "name": "선유도",
+      "location": "전북 군산시",
+      "source": "https://seonyeon.tistory.com/438"
+    },
+    {
+      "group": "islands",
+      "no": 27,
+      "name": "신시도",
+      "location": "전북 군산시",
+      "source": "https://seonyeon.tistory.com/438"
+    },
+    {
+      "group": "islands",
+      "no": 28,
+      "name": "어청도",
+      "location": "전북 군산시",
+      "source": "https://seonyeon.tistory.com/438"
+    },
+    {
+      "group": "islands",
+      "no": 29,
+      "name": "위도",
+      "location": "전북 부안군",
+      "source": "https://seonyeon.tistory.com/438"
+    },
+    {
+      "group": "islands",
+      "no": 30,
+      "name": "가우도",
+      "location": "전남 강진군",
+      "source": "https://seonyeon.tistory.com/438"
+    },
+    {
+      "group": "islands",
+      "no": 31,
+      "name": "거금도",
+      "location": "전남 고흥군",
+      "source": "https://seonyeon.tistory.com/438"
+    },
+    {
+      "group": "islands",
+      "no": 32,
+      "name": "연홍도",
+      "location": "전남 고흥군",
+      "source": "https://seonyeon.tistory.com/438"
+    },
+    {
+      "group": "islands",
+      "no": 33,
+      "name": "애도(쑥섬)",
+      "location": "전남 고흥군",
+      "source": "https://seonyeon.tistory.com/438"
+    },
+    {
+      "group": "islands",
+      "no": 34,
+      "name": "외나로도",
+      "location": "전남 고흥군",
+      "source": "https://seonyeon.tistory.com/438"
+    },
+    {
+      "group": "islands",
+      "no": 35,
+      "name": "우이도",
+      "location": "전남 신안군",
+      "source": "https://seonyeon.tistory.com/438"
+    },
+    {
+      "group": "islands",
+      "no": 36,
+      "name": "비금도",
+      "location": "전남 신안군",
+      "source": "https://seonyeon.tistory.com/438"
+    },
+    {
+      "group": "islands",
+      "no": 37,
+      "name": "암태도",
+      "location": "전남 신안군",
+      "source": "https://seonyeon.tistory.com/438"
+    },
+    {
+      "group": "islands",
+      "no": 38,
+      "name": "임자도",
+      "location": "전남 신안군",
+      "source": "https://seonyeon.tistory.com/438"
+    },
+    {
+      "group": "islands",
+      "no": 39,
+      "name": "자은도",
+      "location": "전남 신안군",
+      "source": "https://seonyeon.tistory.com/438"
+    },
+    {
+      "group": "islands",
+      "no": 40,
+      "name": "가거도",
+      "location": "전남 신안군",
+      "source": "https://seonyeon.tistory.com/438"
+    },
+    {
+      "group": "islands",
+      "no": 41,
+      "name": "만재도",
+      "location": "전남 신안군",
+      "source": "https://seonyeon.tistory.com/438"
+    },
+    {
+      "group": "islands",
+      "no": 42,
+      "name": "흑산도",
+      "location": "전남 신안군",
+      "source": "https://seonyeon.tistory.com/438"
+    },
+    {
+      "group": "islands",
+      "no": 43,
+      "name": "홍도",
+      "location": "전남 신안군",
+      "source": "https://seonyeon.tistory.com/438"
+    },
+    {
+      "group": "islands",
+      "no": 44,
+      "name": "금오도",
+      "location": "전남 여수시",
+      "source": "https://seonyeon.tistory.com/438"
+    },
+    {
+      "group": "islands",
+      "no": 45,
+      "name": "돌산도",
+      "location": "전남 여수시",
+      "source": "https://seonyeon.tistory.com/438"
+    },
+    {
+      "group": "islands",
+      "no": 46,
+      "name": "거문도",
+      "location": "전남 여수시",
+      "source": "https://seonyeon.tistory.com/438"
+    },
+    {
+      "group": "islands",
+      "no": 47,
+      "name": "손죽도",
+      "location": "전남 여수시",
+      "source": "https://seonyeon.tistory.com/438"
+    },
+    {
+      "group": "islands",
+      "no": 48,
+      "name": "초도",
+      "location": "전남 여수시",
+      "source": "https://seonyeon.tistory.com/438"
+    },
+    {
+      "group": "islands",
+      "no": 49,
+      "name": "개도",
+      "location": "전남 여수시",
+      "source": "https://seonyeon.tistory.com/438"
+    },
+    {
+      "group": "islands",
+      "no": 50,
+      "name": "낭도",
+      "location": "전남 여수시",
+      "source": "https://seonyeon.tistory.com/438"
+    },
+    {
+      "group": "islands",
+      "no": 51,
+      "name": "사도",
+      "location": "전남 여수시",
+      "source": "https://seonyeon.tistory.com/438"
+    },
+    {
+      "group": "islands",
+      "no": 52,
+      "name": "백야도",
+      "location": "전남 여수시",
+      "source": "https://seonyeon.tistory.com/438"
+    },
+    {
+      "group": "islands",
+      "no": 53,
+      "name": "하화도",
+      "location": "전남 여수시",
+      "source": "https://seonyeon.tistory.com/438"
+    },
+    {
+      "group": "islands",
+      "no": 54,
+      "name": "안마도",
+      "location": "전남 영광군",
+      "source": "https://seonyeon.tistory.com/438"
+    },
+    {
+      "group": "islands",
+      "no": 55,
+      "name": "송이도",
+      "location": "전남 영광군",
+      "source": "https://seonyeon.tistory.com/438"
+    },
+    {
+      "group": "islands",
+      "no": 56,
+      "name": "하낙월도",
+      "location": "전남 영광군",
+      "source": "https://seonyeon.tistory.com/438"
+    },
+    {
+      "group": "islands",
+      "no": 57,
+      "name": "금당도",
+      "location": "전남 완도군",
+      "source": "https://seonyeon.tistory.com/438"
+    },
+    {
+      "group": "islands",
+      "no": 58,
+      "name": "보길도",
+      "location": "전남 완도군",
+      "source": "https://seonyeon.tistory.com/438"
+    },
+    {
+      "group": "islands",
+      "no": 59,
+      "name": "신지도",
+      "location": "전남 완도군",
+      "source": "https://seonyeon.tistory.com/438"
+    },
+    {
+      "group": "islands",
+      "no": 60,
+      "name": "생일도",
+      "location": "전남 완도군",
+      "source": "https://seonyeon.tistory.com/438"
+    },
+    {
+      "group": "islands",
+      "no": 61,
+      "name": "소안도",
+      "location": "전남 완도군",
+      "source": "https://seonyeon.tistory.com/438"
+    },
+    {
+      "group": "islands",
+      "no": 62,
+      "name": "조약도(약산도)",
+      "location": "전남 완도군",
+      "source": "https://seonyeon.tistory.com/438"
+    },
+    {
+      "group": "islands",
+      "no": 63,
+      "name": "완도",
+      "location": "전남 완도군",
+      "source": "https://seonyeon.tistory.com/438"
+    },
+    {
+      "group": "islands",
+      "no": 64,
+      "name": "청산도",
+      "location": "전남 완도군",
+      "source": "https://seonyeon.tistory.com/438"
+    },
+    {
+      "group": "islands",
+      "no": 65,
+      "name": "여서도",
+      "location": "전남 완도군",
+      "source": "https://seonyeon.tistory.com/438"
+    },
+    {
+      "group": "islands",
+      "no": 66,
+      "name": "진도",
+      "location": "전남 진도군",
+      "source": "https://seonyeon.tistory.com/438"
+    },
+    {
+      "group": "islands",
+      "no": 67,
+      "name": "상조도",
+      "location": "전남 진도군",
+      "source": "https://seonyeon.tistory.com/438"
+    },
+    {
+      "group": "islands",
+      "no": 68,
+      "name": "하조도",
+      "location": "전남 진도군",
+      "source": "https://seonyeon.tistory.com/438"
+    },
+    {
+      "group": "islands",
+      "no": 69,
+      "name": "관매도",
+      "location": "전남 진도군",
+      "source": "https://seonyeon.tistory.com/438"
+    },
+    {
+      "group": "islands",
+      "no": 70,
+      "name": "대마도(진도)",
+      "location": "전남 진도군",
+      "source": "https://seonyeon.tistory.com/438"
+    },
+    {
+      "group": "islands",
+      "no": 71,
+      "name": "가덕도",
+      "location": "부산 강서구",
+      "source": "https://seonyeon.tistory.com/438"
+    },
+    {
+      "group": "islands",
+      "no": 72,
+      "name": "영도",
+      "location": "부산 영도구",
+      "source": "https://seonyeon.tistory.com/438"
+    },
+    {
+      "group": "islands",
+      "no": 73,
+      "name": "울릉도",
+      "location": "경북 울릉군",
+      "source": "https://seonyeon.tistory.com/438"
+    },
+    {
+      "group": "islands",
+      "no": 74,
+      "name": "독도",
+      "location": "경북 울릉군",
+      "source": "https://seonyeon.tistory.com/438"
+    },
+    {
+      "group": "islands",
+      "no": 75,
+      "name": "산달도",
+      "location": "경남 거제시",
+      "source": "https://seonyeon.tistory.com/438"
+    },
+    {
+      "group": "islands",
+      "no": 76,
+      "name": "거제도",
+      "location": "경남 거제시",
+      "source": "https://seonyeon.tistory.com/438"
+    },
+    {
+      "group": "islands",
+      "no": 77,
+      "name": "가조도",
+      "location": "경남 거제시",
+      "source": "https://seonyeon.tistory.com/438"
+    },
+    {
+      "group": "islands",
+      "no": 78,
+      "name": "지심도",
+      "location": "경남 거제시",
+      "source": "https://seonyeon.tistory.com/438"
+    },
+    {
+      "group": "islands",
+      "no": 79,
+      "name": "외도",
+      "location": "경남 거제시",
+      "source": "https://seonyeon.tistory.com/438"
+    },
+    {
+      "group": "islands",
+      "no": 80,
+      "name": "남해금산",
+      "location": "경남 남해군",
+      "source": "https://seonyeon.tistory.com/438"
+    },
+    {
+      "group": "islands",
+      "no": 81,
+      "name": "창선도",
+      "location": "경남 남해군",
+      "source": "https://seonyeon.tistory.com/438"
+    },
+    {
+      "group": "islands",
+      "no": 82,
+      "name": "신수도",
+      "location": "경남 사천시",
+      "source": "https://seonyeon.tistory.com/438"
+    },
+    {
+      "group": "islands",
+      "no": 83,
+      "name": "저도",
+      "location": "경남 창원시",
+      "source": "https://seonyeon.tistory.com/438"
+    },
+    {
+      "group": "islands",
+      "no": 84,
+      "name": "미륵도",
+      "location": "경남 통영시",
+      "source": "https://seonyeon.tistory.com/438"
+    },
+    {
+      "group": "islands",
+      "no": 85,
+      "name": "수우도",
+      "location": "경남 통영시",
+      "source": "https://seonyeon.tistory.com/438"
+    },
+    {
+      "group": "islands",
+      "no": 86,
+      "name": "사량도(상)",
+      "location": "경남 통영시",
+      "source": "https://seonyeon.tistory.com/438"
+    },
+    {
+      "group": "islands",
+      "no": 87,
+      "name": "사량도(하)",
+      "location": "경남 통영시",
+      "source": "https://seonyeon.tistory.com/438"
+    },
+    {
+      "group": "islands",
+      "no": 88,
+      "name": "연대도",
+      "location": "경남 통영시",
+      "source": "https://seonyeon.tistory.com/438"
+    },
+    {
+      "group": "islands",
+      "no": 89,
+      "name": "두미도",
+      "location": "경남 통영시",
+      "source": "https://seonyeon.tistory.com/438"
+    },
+    {
+      "group": "islands",
+      "no": 90,
+      "name": "욕지도",
+      "location": "경남 통영시",
+      "source": "https://seonyeon.tistory.com/438"
+    },
+    {
+      "group": "islands",
+      "no": 91,
+      "name": "연화도",
+      "location": "경남 통영시",
+      "source": "https://seonyeon.tistory.com/438"
+    },
+    {
+      "group": "islands",
+      "no": 92,
+      "name": "한산도",
+      "location": "경남 통영시",
+      "source": "https://seonyeon.tistory.com/438"
+    },
+    {
+      "group": "islands",
+      "no": 93,
+      "name": "소매물도",
+      "location": "경남 통영시",
+      "source": "https://seonyeon.tistory.com/438"
+    },
+    {
+      "group": "islands",
+      "no": 94,
+      "name": "매물도",
+      "location": "경남 통영시",
+      "source": "https://seonyeon.tistory.com/438"
+    },
+    {
+      "group": "islands",
+      "no": 95,
+      "name": "장사도",
+      "location": "경남 통영시",
+      "source": "https://seonyeon.tistory.com/438"
+    },
+    {
+      "group": "islands",
+      "no": 96,
+      "name": "비진도",
+      "location": "경남 통영시",
+      "source": "https://seonyeon.tistory.com/438"
+    },
+    {
+      "group": "islands",
+      "no": 97,
+      "name": "용초도",
+      "location": "경남 통영시",
+      "source": "https://seonyeon.tistory.com/438"
+    },
+    {
+      "group": "islands",
+      "no": 98,
+      "name": "마라도",
+      "location": "제주 서귀포시",
+      "source": "https://seonyeon.tistory.com/438"
+    },
+    {
+      "group": "islands",
+      "no": 99,
+      "name": "우도",
+      "location": "제주 제주시",
+      "source": "https://seonyeon.tistory.com/438"
+    },
+    {
+      "group": "islands",
+      "no": 100,
+      "name": "추자도",
+      "location": "제주 제주시",
+      "source": "https://seonyeon.tistory.com/438"
+    }
+  ]
+}
