@@ -104,3 +104,28 @@ navigation.append(section);
 
 /* 공통 홈페이지 이름 */
 (()=>{const old="100개의 산과 100개의 섬",name="BAC 100대명산 과 BAC 섬&산100",suffix="(JK 의 산하정복)";for(const brand of document.querySelectorAll(".ux-brand,.brand")){if(brand.textContent.includes(old)){brand.replaceChildren(document.createTextNode(name));const tag=document.createElement('span');tag.className='jk-brand-tag';tag.textContent=suffix;brand.append(tag);}}if(document.title.includes(old))document.title=document.title.replace(old,name);if(document.title.includes(name)&&!document.title.includes(suffix))document.title+=suffix;})();
+ /* 지도·산행 상세를 끝까지 본 뒤에도 목록으로 복귀 */
+(() => {
+ 'use strict';
+ const style=document.createElement('style');
+ style.textContent='.jk-bottom-close{display:flex;justify-content:flex-end;gap:8px;margin-top:18px;padding-top:14px;border-top:1px solid #d9cdbb}.jk-bottom-close button,.jk-bottom-close a{display:inline-flex;align-items:center;justify-content:center;min-height:42px;padding:9px 18px;border:1px solid #405b37;border-radius:22px;background:#405b37!important;color:#fffdf8!important;font-family:inherit;font-size:14px;font-weight:700;line-height:1.4;text-decoration:none;cursor:pointer}.jk-bottom-close button:focus-visible,.jk-bottom-close a:focus-visible{outline:3px solid #9c682d;outline-offset:3px}';
+ document.head.append(style);
+ for(const panel of document.querySelectorAll('dialog#details,#detail.detail')){
+  const close=panel.querySelector('#close');if(!close)continue;
+  let opener=null;
+  document.addEventListener('click',event=>{const card=event.target.closest('#cards>.card,#island-cards>.ux-island-card');if(card)opener=card;});
+  const footer=document.createElement('div');footer.className='jk-bottom-close';
+  const button=document.createElement('button');button.type='button';button.textContent='닫기 · 목록으로';button.setAttribute('aria-label','산행 상세 닫고 목록으로 돌아가기');
+  button.addEventListener('click',()=>{close.click();if(opener?.isConnected){opener.focus({preventScroll:true});opener.scrollIntoView({block:'nearest'});}});
+  footer.append(button);panel.append(footer);
+  new MutationObserver(()=>{if(panel.lastElementChild!==footer)panel.append(footer);}).observe(panel,{childList:true});
+ }
+ const page=location.pathname.split('/').pop();
+ const back={'mountains-map.html':'mountains.html','islands-map.html':'islands.html'}[page];
+ const main=document.querySelector('main');
+ if(back&&main){
+  const footer=document.createElement('div');footer.className='jk-bottom-close';
+  const link=document.createElement('a');link.href=back;link.textContent='닫기 · 목록으로';link.setAttribute('aria-label','지도 닫고 목록으로 돌아가기');
+  footer.append(link);main.append(footer);
+ }
+})();
