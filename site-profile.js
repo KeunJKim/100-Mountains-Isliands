@@ -1,3 +1,5 @@
+/* 간단한 상단 메뉴를 공통 메뉴 구조로 연결 */
+(() => {'use strict';if(document.getElementById('ux-navigation'))return;const brand=document.querySelector('body>nav>.wrap>a.brand');if(!brand)return;const bar=brand.parentElement,nav=bar.parentElement,wrapper=document.createElement('div');wrapper.id='ux-navigation';nav.before(wrapper);wrapper.append(nav);bar.classList.add('ux-bar');brand.classList.add('ux-brand');const menu=document.createElement('div');menu.className='ux-menu';for(const child of [...bar.children])if(child!==brand)menu.append(child);bar.append(menu);if(!document.querySelector('link[href*="site-upgrades.css"]')){const css=document.createElement('link');css.rel='stylesheet';css.href=new URL('site-upgrades.css?v=20261114-list-number2',document.currentScript.src).href;document.head.append(css);}})();
 /* 공통 프로필. 공개 사진만 profile.json에 저장하며 관리 토큰은 저장하지 않습니다. */
 (() => {'use strict';
 const source=new URL(document.currentScript.src),base=new URL('./',source),profileURL=new URL('profile.json',base),endpoint='https://api.github.com/repos/KeunJKim/100-Mountains-Isliands/contents/profile.json';
