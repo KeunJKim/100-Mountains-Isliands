@@ -104,6 +104,7 @@ async function saveToGitHub(kind,rec,changes,token){
  publicData=content;
 }
 function renderForm(box,kind,rec){
+ sessionToken=window.JKOwnerSession?.getToken()||sessionToken;
  const values=infoOf(kind,rec),form=el('form',null,'ux-form');form.autocomplete='off';
  form.append(el('h3',`${kind==='mountains'?rec.name:rec.island} — 산행 기록 수정`));
  form.append(el('p','산행거리, 소요시간, 코스, 고도 등을 입력합니다. 비워둔 항목은 기존 정보가 유지됩니다.'));
@@ -111,7 +112,7 @@ function renderForm(box,kind,rec){
  const label=el('label','GitHub 개인 액세스 토큰 (관리자 전용)','ux-full');
  const tokenInput=el('input');tokenInput.type='password';tokenInput.name='token';tokenInput.autocomplete='new-password';tokenInput.placeholder=sessionToken?'현재 탭에서 연결된 토큰이 있습니다':'Fine-grained token — Contents 읽기/쓰기 권한';
  label.append(tokenInput);grid.append(label);
- form.append(grid,el('p','토큰은 현재 화면의 메모리에만 사용하며 자동 저장하지 않습니다. 다른 사람에게 공유하지 마세요. 사진은 ‘사진 갤러리’에서 따로 관리합니다.','ux-help'));
+ form.append(grid,el('p','관리자 메뉴에서 연결한 토큰은 현재 탭에서 작업 종료까지 사용합니다. 다른 사람에게 공유하지 마세요. 사진은 ‘사진 갤러리’에서 따로 관리합니다.','ux-help'));
  const actions=el('div',null,'ux-actions'),save=el('button','GitHub에 저장','ux-save-btn'),cancel=el('button','취소','ux-cancel-btn');
  save.type='submit';cancel.type='button';cancel.onclick=()=>renderSummary(box,kind,rec);actions.append(save,cancel);
  const notice=el('div','','ux-status');notice.setAttribute('role','status');form.append(actions,notice);
