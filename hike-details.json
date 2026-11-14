@@ -48,7 +48,10 @@
       "weather": "",
       "notes": "",
       "blogUrl": "",
-      "updatedAt": "2026-11-14T10:39:06.645Z"
+      "updatedAt": "2026-11-14T10:48:26.846Z",
+      "hiddenVisitDates": [
+        "2025-12-15"
+      ]
     }
   },
   "islands": {}
