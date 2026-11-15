@@ -1824,8 +1824,8 @@
     "category": "BAC 섬&산100",
     "place": "자월도",
     "albumId": "i-15",
-    "date": "2024-08-16",
-    "hasGps": false,
+    "date": "2025-08-16",
+    "hasGps": true,
     "hasCourse": false,
     "photoCount": 0,
     "url": "islands.html?island=15"
