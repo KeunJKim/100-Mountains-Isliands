@@ -13,7 +13,7 @@
  html body .hero-copy .buttons .button{white-space:normal!important;min-width:0!important;line-height:1.35!important}
  html body .jk-home-card-stage>.grid{grid-template-columns:repeat(6,minmax(0,1fr))!important;gap:7px!important}
  html body .jk-home-card-stage .card{min-width:0!important;overflow-wrap:anywhere}
- html body .jk-home-card-stage .card .number{font-size:18px!important;line-height:1.1!important}
+ html body .jk-home-card-stage .card .number{font-size:16px!important;line-height:1.1!important}
  html body .jk-home-card-stage .card h3{font-size:12px!important;line-height:1.35!important}
  html body .jk-home-card-stage .card :is(.coming,.more){font-size:11px!important;line-height:1.35!important}
  @media(max-width:1050px){html body .jk-home-card-stage>.grid{grid-template-columns:repeat(3,minmax(0,1fr))!important}}
@@ -28,6 +28,7 @@
   const c=getComputedStyle(node);if(c.display==='none')return;
   // Photograph thumbnails retain their image size; only their separate action buttons shrink.
   if(node.querySelector('img')&&!node.matches('.jk-home-card-stage .card'))return;
+  if(node.matches('.jk-hiking-home .hero-copy .buttons .button')){for(const [key,value]of Object.entries({'font-size':'10px','line-height':'12px','padding':'1px 0','min-height':'28px'}))node.style.setProperty(key,value,'important');done.add(node);return;}
   const font=px(c.fontSize),line=px(c.lineHeight),min=px(c.minHeight);
   for(const side of ['Top','Right','Bottom','Left'])node.style.setProperty('padding-'+side.toLowerCase(),(px(c['padding'+side])*.8).toFixed(2)+'px','important');
   node.style.setProperty('min-height',Math.max(24,min*.8).toFixed(2)+'px','important');
@@ -37,6 +38,8 @@
   done.add(node);
  }
  function scan(){
+  for(const link of document.querySelectorAll('.jk-hiking-home .hero-copy .buttons .button')){const text=link.textContent,short=text.startsWith('BAC ')?text.slice(4):text;if(short!==text){link.setAttribute('aria-label',text);link.textContent=short;}}
+  for(const text of document.querySelectorAll('.jk-home-card-stage :is(.coming,.more)')){const label=text.closest('a')?.getAttribute('href')?.includes('gallery.html')?'사진 보기 →':'기록 보기 →';if(text.textContent!==label)text.textContent=label;}
   for(const menu of document.querySelectorAll('.ux-context-links')){if(!menu.querySelector('a[href*="overseas-trekking.html"]')){const a=document.createElement('a');a.href='https://keunjkim.github.io/100-Mountains-Isliands/overseas-trekking.html';a.textContent='해외트래킹';menu.append(a);}}
 
   document.querySelectorAll('h1,h2,h3,h4,p').forEach(node=>{
