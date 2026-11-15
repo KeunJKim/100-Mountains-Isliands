@@ -33,6 +33,29 @@
       },
       "builtIn": false,
       "deletedAt": "2026-11-12T23:46:49.054Z"
+    },
+    {
+      "id": "525a603b-f29e-470a-80cb-0f576e27c9e1",
+      "group": "mountain",
+      "albumId": "m-1",
+      "title": "가리산 · 2023-02-05 · 6",
+      "date": "2023-02-05",
+      "src": "photos/mountain-001-525a603b-f29.jpg",
+      "path": "photos/mountain-001-525a603b-f29.jpg",
+      "createdAt": "2026-11-09T09:35:21.537Z",
+      "originalTitle": "20230205 가리산 홍천 (39)",
+      "category": "mountain",
+      "sourceCollection": "local-20261112",
+      "sourceFileName": "20230205 가리산 홍천 (39).jpg",
+      "sourceFolder": "2023 0205 가리산",
+      "sourceHash": "fd41e245d3d0255ee225943f8c1215f1f9d285adeaad7033c01178146dd0ce9a",
+      "dateSource": "EXIF",
+      "capturedAtLocal": "2023-02-05T09:20:12",
+      "folderDate": "2023-02-05",
+      "width": 1200,
+      "height": 1600,
+      "builtIn": false,
+      "deletedAt": "2026-11-15T05:40:58.682Z"
     }
   ],
   "photos": [
@@ -118,27 +141,6 @@
       "capturedAtLocal": "2023-02-05T11:39:01",
       "folderDate": "2023-02-05",
       "width": 1165,
-      "height": 1600
-    },
-    {
-      "id": "525a603b-f29e-470a-80cb-0f576e27c9e1",
-      "group": "mountain",
-      "albumId": "m-1",
-      "title": "가리산 · 2023-02-05 · 6",
-      "date": "2023-02-05",
-      "src": "photos/mountain-001-525a603b-f29.jpg",
-      "path": "photos/mountain-001-525a603b-f29.jpg",
-      "createdAt": "2026-11-09T09:35:21.537Z",
-      "originalTitle": "20230205 가리산 홍천 (39)",
-      "category": "mountain",
-      "sourceCollection": "local-20261112",
-      "sourceFileName": "20230205 가리산 홍천 (39).jpg",
-      "sourceFolder": "2023 0205 가리산",
-      "sourceHash": "fd41e245d3d0255ee225943f8c1215f1f9d285adeaad7033c01178146dd0ce9a",
-      "dateSource": "EXIF",
-      "capturedAtLocal": "2023-02-05T09:20:12",
-      "folderDate": "2023-02-05",
-      "width": 1200,
       "height": 1600
     },
     {
