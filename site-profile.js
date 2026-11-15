@@ -81,3 +81,6 @@ document.addEventListener('click',e=>{if(!menu.contains(e.target))close();});doc
 
 /* 모든 산행 목록·GPX 산행기의 지도 연결 기능 */
 (()=>{const s=document.createElement("script");s.src="https://keunjkim.github.io/100-Mountains-Isliands/gps-map-actions.js?v=20261115-links1";document.head.append(s);})();
+
+/* 모든 화면의 표시·버튼 크기 통일 */
+(()=>{const s=document.createElement("script");s.src="https://keunjkim.github.io/100-Mountains-Isliands/compact-ui.js?v=20261115-size1";document.head.append(s);})();
