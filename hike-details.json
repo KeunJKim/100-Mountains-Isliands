@@ -54,5 +54,21 @@
       ]
     }
   },
-  "islands": {}
+  "islands": {
+    "15": {
+      "hikeDate": "2025-08-15",
+      "route": "",
+      "distanceKm": "",
+      "duration": "",
+      "summitElevationM": "",
+      "elevationGainM": "",
+      "start": "",
+      "parking": "",
+      "difficulty": "",
+      "weather": "",
+      "notes": "",
+      "blogUrl": "",
+      "updatedAt": "2026-11-15T06:21:22.650Z"
+    }
+  }
 }
