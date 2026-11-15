@@ -16,7 +16,7 @@
   return leafletReady;
  }
  function routeMap(section,record){
-  const g=record.gps,points=g.routes.flat();if(!points.length)return;section.append(el('h4','GPS 이동 경로 · 트랭글 GPX'));const map=el('div');map.className='tranggle-gps-map';map.setAttribute('aria-label',record.place+' '+record.date+' 트랭글 GPS 경로');section.append(map);
+  const g=record.gps,points=g.routes.flat();if(!points.length)return;section.append(el('h4','GPS 이동 경로 · 트랭글 GPX'));const map=el('div');map.className='tranggle-gps-map';map.dataset.gpsStartLat=String(points[0][0]);map.dataset.gpsStartLon=String(points[0][1]);map.setAttribute('aria-label',record.place+' '+record.date+' 트랭글 GPS 경로');section.append(map);
   const lat=points.map(p=>p[0]),lon=points.map(p=>p[1]),north=Math.max(...lat),south=Math.min(...lat),east=Math.max(...lon),west=Math.min(...lon),cos=Math.cos(north*Math.PI/180),scale=Math.min(540/Math.max(1e-6,(east-west)*cos),250/Math.max(1e-6,north-south));
   const project=p=>[300+(p[1]-(west+east)/2)*cos*scale,150+((north+south)/2-p[0])*scale],preview=svg('svg',{viewBox:'0 0 600 300',role:'img','aria-label':'GPX 경로 개요, 위쪽이 북쪽',style:'width:100%;height:100%'});
   for(const route of g.routes)preview.append(svg('polyline',{points:route.map(project).map(p=>p.join(',')).join(' '),fill:'none',stroke:'#176fc7','stroke-width':3}));map.append(preview);

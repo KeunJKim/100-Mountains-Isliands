@@ -78,3 +78,6 @@ document.addEventListener('click',e=>{if(!menu.contains(e.target))close();});doc
 })();
 /* 모든 페이지에서 동일한 관리자 연결 창 사용 */
 (() => {'use strict';const menu=document.querySelector('.jk-compact-menu');if(!menu)return;const entry=document.createElement('a');entry.className='jk-site-admin-entry';entry.textContent='관리자 메뉴';entry.href='?manage=1';entry.setAttribute('aria-label','관리자 메뉴');entry.style.setProperty('display','inline-flex','important');const all=menu.querySelector('.jk-all-menu');if(all)all.before(entry);else menu.append(entry);entry.onclick=e=>{e.preventDefault();window.JKOwnerSession.open();};})();
+
+/* 모든 산행 목록·GPX 산행기의 지도 연결 기능 */
+(()=>{const s=document.createElement("script");s.src="https://keunjkim.github.io/100-Mountains-Isliands/gps-map-actions.js?v=20261115-links1";document.head.append(s);})();
