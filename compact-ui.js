@@ -37,7 +37,58 @@
   if(c.height!=='auto'&&node.matches('.leaflet-control a,button#close,button.close'))node.style.setProperty('height',Math.max(24,px(c.height)*.8)+'px','important');
   done.add(node);
  }
+
+ // Restore the unscaled values before each DOM update. New children must not inherit
+ // an already scaled size and receive another 70% reduction.
+ const fontStates=new Map(),spacingDone=new WeakSet();
+ function restoreFontScale(){
+  for(const [node,state]of fontStates){
+   if(!node.isConnected){fontStates.delete(node);continue;}
+   for(const prop of ['font-size','line-height']){
+    const current=node.style.getPropertyValue(prop);
+    if(current!==state.applied[prop])state.original[prop]=[current,node.style.getPropertyPriority(prop)];
+    const [value,priority]=state.original[prop];
+    if(value)node.style.setProperty(prop,value,priority);else node.style.removeProperty(prop);
+   }
+  }
+ }
+ function scaleTypography(){
+  const measurements=[];
+  for(const node of document.querySelectorAll('body *:not(script):not(style):not(noscript)')){
+   const ownText=[...node.childNodes].some(n=>n.nodeType===3&&n.textContent.trim());
+   if(!ownText&&!node.matches('input,textarea,select,button'))continue;
+   const c=getComputedStyle(node),size=px(c.fontSize),line=px(c.lineHeight);
+   if(!size)continue;
+   measurements.push([node,size,line]);
+  }
+  // Measure the entire text tree before changing parents, so nested text scales once.
+  for(const [node,size,line]of measurements){
+   const original={};for(const prop of ['font-size','line-height'])original[prop]=[node.style.getPropertyValue(prop),node.style.getPropertyPriority(prop)];
+   const applied={'font-size':(size*.7).toFixed(3)+'px','line-height':line?(line*.7).toFixed(3)+'px':node.style.getPropertyValue('line-height')};
+   node.style.setProperty('font-size',applied['font-size'],'important');
+   if(line)node.style.setProperty('line-height',applied['line-height'],'important');
+   fontStates.set(node,{original,applied});
+  }
+  for(const node of document.querySelectorAll(controls+',h1,h2,h3,h4,p')){
+   if(spacingDone.has(node)||!node.getClientRects().length)continue;
+   const c=getComputedStyle(node);
+   if(node.matches(controls)&&!node.querySelector('img')){
+    const pads=['top','right','bottom','left'].map(side=>[side,px(c.getPropertyValue('padding-'+side))]);
+    const min=px(c.minHeight);
+    for(const [side,pad]of pads)node.style.setProperty('padding-'+side,(pad*.7).toFixed(3)+'px','important');
+    if(min)node.style.setProperty('min-height',(min*.7).toFixed(3)+'px','important');
+   }
+   if(node.matches('h1,h2,h3,h4,p')){
+    const top=px(c.marginTop),bottom=px(c.marginBottom);
+    node.style.setProperty('margin-top',(top*.7).toFixed(3)+'px','important');
+    node.style.setProperty('margin-bottom',(bottom*.7).toFixed(3)+'px','important');
+   }
+   spacingDone.add(node);
+  }
+ }
+
  function scan(){
+  restoreFontScale();
   for(const link of document.querySelectorAll('.jk-hiking-home .hero-copy .buttons .button')){const text=link.textContent,short=text.startsWith('BAC ')?text.slice(4):text;if(short!==text){link.setAttribute('aria-label',text);link.textContent=short;}}
   for(const text of document.querySelectorAll('.jk-home-card-stage :is(.coming,.more)')){const label=text.closest('a')?.getAttribute('href')?.includes('gallery.html')?'사진 보기 →':'기록 보기 →';if(text.textContent!==label)text.textContent=label;}
   for(const menu of document.querySelectorAll('.ux-context-links')){if(!menu.querySelector('a[href*="overseas-trekking.html"]')){const a=document.createElement('a');a.href='https://keunjkim.github.io/100-Mountains-Isliands/overseas-trekking.html';a.textContent='해외트래킹';menu.append(a);}}
@@ -48,6 +99,7 @@
    if(size>cap)node.style.setProperty('font-size',cap+'px','important');texts.add(node);
   });
   document.querySelectorAll(controls).forEach(compact);
+  scaleTypography();
  }
  let queued=false;const schedule=()=>{if(queued)return;queued=true;requestAnimationFrame(()=>{queued=false;scan();});};
  new MutationObserver(schedule).observe(document.body,{childList:true,subtree:true});
