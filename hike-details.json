@@ -68,7 +68,10 @@
       "weather": "",
       "notes": "",
       "blogUrl": "",
-      "updatedAt": "2026-11-15T06:21:22.650Z"
+      "updatedAt": "2026-11-15T06:21:40.596Z",
+      "hiddenVisitDates": [
+        "2024-08-16"
+      ]
     }
   }
 }
