@@ -20,7 +20,7 @@
  @media(max-width:600px){html body .hero-copy .buttons{grid-template-columns:repeat(3,minmax(0,1fr))!important}html body .jk-home-card-stage>.grid{grid-template-columns:repeat(2,minmax(0,1fr))!important}html body .jk-header-grid .jk-header-title{font-size:15px!important}}
  `;
  document.head.append(style);
- const controls='button,input[type="button"],input[type="submit"],a.button,a.btn,a.ux-edit-btn,a.jk-gallery-action,.jk-compact-menu> a,.jk-compact-menu>details>summary,.jk-nav-drop>a,.jk-all-panel a,.jk-management-grid>a,.jk-gps-map-actions>a,.jk-management-choices>a,.jk-home-card-stage .card,a[role="button"],a.jk-token-create,.quick-nav>a,.ux-context-links>a,.toolbar>a,.links>a';
+ const controls='button,input[type="button"],input[type="submit"],a.button,a.btn,a.action,a.ux-edit-btn,a.jk-gallery-action,.jk-compact-menu> a,.jk-compact-menu>details>summary,.jk-nav-drop>a,.jk-all-panel a,.jk-management-grid>a,.jk-gps-map-actions>a,.jk-management-choices>a,.jk-home-card-stage .card,a[role="button"],a.jk-token-create,.quick-nav>a,.ux-context-links>a,.toolbar>a,.links>a';
  const done=new WeakSet(),texts=new WeakSet();
  const px=s=>Number.parseFloat(s)||0;
  function compact(node){
