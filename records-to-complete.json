@@ -1037,16 +1037,6 @@
   },
   {
     "category": "BAC 100대명산",
-    "place": "신불산",
-    "albumId": "m-58",
-    "date": "2021-02-06",
-    "hasGps": false,
-    "hasCourse": false,
-    "photoCount": 0,
-    "url": "mountains.html?mountain=58&date=2021-02-06"
-  },
-  {
-    "category": "BAC 100대명산",
     "place": "연인산",
     "albumId": "m-59",
     "date": "2023-03-24",
@@ -1249,16 +1239,6 @@
   },
   {
     "category": "BAC 100대명산",
-    "place": "재약산",
-    "albumId": "m-73",
-    "date": "2021-02-07",
-    "hasGps": false,
-    "hasCourse": false,
-    "photoCount": 0,
-    "url": "mountains.html?mountain=73&date=2021-02-07"
-  },
-  {
-    "category": "BAC 100대명산",
     "place": "조계산",
     "albumId": "m-74",
     "date": "2022-01-16",
@@ -1428,16 +1408,6 @@
     "category": "BAC 100대명산",
     "place": "태백산",
     "albumId": "m-89",
-    "date": "2025-12-15",
-    "hasGps": false,
-    "hasCourse": false,
-    "photoCount": 0,
-    "url": "mountains.html?mountain=89&date=2025-12-15"
-  },
-  {
-    "category": "BAC 100대명산",
-    "place": "태백산",
-    "albumId": "m-89",
     "date": "2025-12-14",
     "hasGps": true,
     "hasCourse": false,
@@ -1580,16 +1550,6 @@
   },
   {
     "category": "BAC 100대명산",
-    "place": "함백산",
-    "albumId": "m-95",
-    "date": "2021-01-26",
-    "hasGps": false,
-    "hasCourse": false,
-    "photoCount": 0,
-    "url": "mountains.html?mountain=95&date=2021-01-26"
-  },
-  {
-    "category": "BAC 100대명산",
     "place": "화악산(가평)",
     "albumId": "m-96",
     "date": "2023-03-23",
@@ -1647,16 +1607,6 @@
     "hasCourse": false,
     "photoCount": 0,
     "url": "mountains.html?mountain=98&date=2023-04-29"
-  },
-  {
-    "category": "BAC 100대명산",
-    "place": "황매산(산청)",
-    "albumId": "m-98",
-    "date": "2021-05-11",
-    "hasGps": false,
-    "hasCourse": false,
-    "photoCount": 0,
-    "url": "mountains.html?mountain=98&date=2021-05-11"
   },
   {
     "category": "BAC 100대명산",
