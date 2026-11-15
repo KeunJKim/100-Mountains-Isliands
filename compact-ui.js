@@ -114,7 +114,7 @@
    if(layoutDone.has(avatar))continue;const r=avatar.getBoundingClientRect();if(!r.width)continue;
    avatar.style.setProperty('width',(r.width*.7).toFixed(3)+'px','important');avatar.style.setProperty('height',(r.height*.7).toFixed(3)+'px','important');layoutDone.add(avatar);
   }
-  for(const small of document.querySelectorAll('.section-head>small'))small.style.setProperty('display','block','important');
+  for(const small of document.querySelectorAll('.section-head>small'))if(getComputedStyle(small).display!=='none')small.style.setProperty('display','block','important');
   if(innerWidth>1050){
    for(const node of document.querySelectorAll('.jk-hiking-home #mountains,.jk-hiking-home #blog,.jk-representative-home main>h2,.jk-representative-home main>.intro,.jk-representative-home main>.tags,.jk-representative-home main>.connect')){
     node.style.setProperty('width','60%','important');node.style.setProperty('margin-left','auto','important');node.style.setProperty('margin-right','auto','important');
