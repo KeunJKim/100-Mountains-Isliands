@@ -72,8 +72,8 @@ function renderSummary(box,kind,rec){
  const rows=[['hikeDate','산행일'],['route','산행 코스'],['distanceKm','산행거리'],['duration','산행시간'],['summitElevationM','정상 고도'],['elevationGainM','누적 상승 고도'],['start','들머리'],['parking','주차·교통'],['difficulty','난이도'],['weather','날씨·계절'],['notes','산행 메모'],['blogUrl','연결한 산행기']];
  rows.forEach(([k,n])=>addRow(dl,n,readable(values[k],k)));
  const heading=el('h3','나의 상세 산행 정보');
- const note=el('p','기존 BAC 인증일과 인증지 정보는 그대로 보존합니다. 아래 정보만 따로 추가·수정합니다.');
- const b=el('button','이 산행 정보 추가·수정','ux-edit-btn');b.type='button';b.onclick=()=>renderForm(box,kind,rec);
+ const note=el('p','기존 BAC 인증일과 인증지 정보는 그대로 보존합니다. 아래 정보에서 추가·수정하거나 날짜별 산행 기록을 삭제·복원할 수 있습니다.');
+ const b=el('button','이 산행 정보 추가·수정·삭제','ux-edit-btn');b.type='button';b.onclick=()=>renderForm(box,kind,rec);
  const photos=el('a','사진 갤러리에서 사진 보기·관리 →','ux-edit-btn');photos.href='gallery.html';photos.style.textDecoration='none';
  const actions=el('div',null,'ux-actions');actions.append(b,photos);
  box.replaceChildren(heading,note,dl.childElementCount?dl:el('p','입력된 상세 산행 정보가 없습니다. 정보를 추가해 주세요.','ux-empty'),actions);renderTrash(box,kind,rec);
