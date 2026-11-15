@@ -428,16 +428,6 @@
   },
   {
     "category": "BAC 100대명산",
-    "place": "달마산",
-    "albumId": "m-22",
-    "date": "2021-03-23",
-    "hasGps": false,
-    "hasCourse": false,
-    "photoCount": 0,
-    "url": "mountains.html?mountain=22&date=2021-03-23"
-  },
-  {
-    "category": "BAC 100대명산",
     "place": "대둔산",
     "albumId": "m-23",
     "date": "2023-10-29",
@@ -558,16 +548,6 @@
     "photoCount": 1,
     "url": "mountains.html?mountain=30&date=2022-05-29",
     "sourceNote": "휴대폰 보관 트랭글 GPX 복원·날짜/경로 대조 및 JPG 통계 보충. 코스 지명 미확인."
-  },
-  {
-    "category": "BAC 100대명산",
-    "place": "두륜산",
-    "albumId": "m-31",
-    "date": "2022-01-09",
-    "hasGps": false,
-    "hasCourse": false,
-    "photoCount": 0,
-    "url": "mountains.html?mountain=31&date=2022-01-09"
   },
   {
     "category": "BAC 100대명산",
@@ -1239,16 +1219,6 @@
   },
   {
     "category": "BAC 100대명산",
-    "place": "조계산",
-    "albumId": "m-74",
-    "date": "2022-01-16",
-    "hasGps": false,
-    "hasCourse": false,
-    "photoCount": 0,
-    "url": "mountains.html?mountain=74&date=2022-01-16"
-  },
-  {
-    "category": "BAC 100대명산",
     "place": "조령산",
     "albumId": "m-75",
     "date": "2023-02-11",
@@ -1499,16 +1469,6 @@
   },
   {
     "category": "BAC 100대명산",
-    "place": "팔영산",
-    "albumId": "m-93",
-    "date": "2022-03-13",
-    "hasGps": false,
-    "hasCourse": false,
-    "photoCount": 0,
-    "url": "mountains.html?mountain=93&date=2022-03-13"
-  },
-  {
-    "category": "BAC 100대명산",
     "place": "한라산",
     "albumId": "m-94",
     "date": "2023-06-06",
@@ -1698,16 +1658,6 @@
     "hasCourse": false,
     "photoCount": 0,
     "url": "islands.html?island=7"
-  },
-  {
-    "category": "BAC 섬&산100",
-    "place": "백령도",
-    "albumId": "i-8",
-    "date": "2026-08-12",
-    "hasGps": false,
-    "hasCourse": false,
-    "photoCount": 0,
-    "url": "islands.html?island=8"
   },
   {
     "category": "BAC 섬&산100",
@@ -2163,16 +2113,6 @@
   },
   {
     "category": "BAC 섬&산100",
-    "place": "안마도",
-    "albumId": "i-54",
-    "date": "2026-05-05",
-    "hasGps": false,
-    "hasCourse": false,
-    "photoCount": 0,
-    "url": "islands.html?island=54"
-  },
-  {
-    "category": "BAC 섬&산100",
     "place": "송이도",
     "albumId": "i-55",
     "date": "2025-11-15",
@@ -2253,16 +2193,6 @@
   },
   {
     "category": "BAC 섬&산100",
-    "place": "완도",
-    "albumId": "i-63",
-    "date": "2021-03-22",
-    "hasGps": false,
-    "hasCourse": false,
-    "photoCount": 0,
-    "url": "islands.html?island=63"
-  },
-  {
-    "category": "BAC 섬&산100",
     "place": "청산도",
     "albumId": "i-64",
     "date": "2024-10-02",
@@ -2293,16 +2223,6 @@
   },
   {
     "category": "BAC 섬&산100",
-    "place": "상조도",
-    "albumId": "i-67",
-    "date": "2025-01-26",
-    "hasGps": false,
-    "hasCourse": false,
-    "photoCount": 0,
-    "url": "islands.html?island=67"
-  },
-  {
-    "category": "BAC 섬&산100",
     "place": "하조도",
     "albumId": "i-68",
     "date": "2025-01-26",
@@ -2320,16 +2240,6 @@
     "hasCourse": false,
     "photoCount": 0,
     "url": "islands.html?island=69"
-  },
-  {
-    "category": "BAC 섬&산100",
-    "place": "대마도(진도)",
-    "albumId": "i-70",
-    "date": "2025-01-26",
-    "hasGps": false,
-    "hasCourse": false,
-    "photoCount": 0,
-    "url": "islands.html?island=70"
   },
   {
     "category": "BAC 섬&산100",
@@ -2360,16 +2270,6 @@
     "hasCourse": false,
     "photoCount": 0,
     "url": "islands.html?island=73"
-  },
-  {
-    "category": "BAC 섬&산100",
-    "place": "독도",
-    "albumId": "i-74",
-    "date": "2023-05-04",
-    "hasGps": false,
-    "hasCourse": false,
-    "photoCount": 0,
-    "url": "islands.html?island=74"
   },
   {
     "category": "BAC 섬&산100",

@@ -20,6 +20,7 @@ const fields=[
  ['notes','산행 메모·후기','textarea','현장에서 느낀 점, 주의사항'],
  ['blogUrl','연결할 산행기 주소','url','https://로 시작하는 산행 글 주소']
 ];
+function fieldsFor(values){return [...fields,...(values.supplementExempt?[['supplementExemptReason','보충 목록 제외 사유·인증 방식','textarea','인증 장소와 GPS 미보유 사유']]:[]),...(Object.hasOwn(values,'referenceRoute')?[['referenceRoute','참고 코스 (실제 GPS 기록 아님)','textarea','일반적인 산행 코스'],['referenceRouteSource','참고 코스 출처 주소','url','https://로 시작하는 참고 자료 주소']]:[])];}
 const validNumber=(n)=>Number.isFinite(n)&&n>=0&&n<=15000;
 const el=(tag,txt,cls)=>{const d=document.createElement(tag);if(txt!==undefined&&txt!==null)d.textContent=String(txt);if(cls)d.className=cls;return d};
 const groupOf=kind=>kind==='mountains'?'mountains':'islands';
@@ -76,7 +77,16 @@ function renderSummary(box,kind,rec){
  const b=el('button','이 산행 정보 추가·수정·삭제','ux-edit-btn');b.type='button';b.onclick=()=>renderForm(box,kind,rec);
  const photos=el('a','사진 갤러리에서 사진 보기·관리 →','ux-edit-btn');photos.href='gallery.html';photos.style.textDecoration='none';
  const actions=el('div',null,'ux-actions');actions.append(b,photos);
- box.replaceChildren(heading,note,dl.childElementCount?dl:el('p','입력된 상세 산행 정보가 없습니다. 정보를 추가해 주세요.','ux-empty'),actions);renderTrash(box,kind,rec);
+ box.replaceChildren(heading,note,dl.childElementCount?dl:el('p','입력된 상세 산행 정보가 없습니다. 정보를 추가해 주세요.','ux-empty'),actions);renderReference(box,values);renderTrash(box,kind,rec);
+}
+function renderReference(box,values){
+ if(!values.supplementExempt&&!values.referenceRoute)return;
+ const section=el('section',null,'ux-reference-info');
+ section.append(el('h4',values.referenceRoute?'참고 코스 · 실제 GPS 미확보':'인증 안내 · 보충 목록 제외'));
+ if(values.supplementExemptReason)section.append(el('p',values.supplementExemptReason));
+ if(values.referenceRoute){section.append(el('p',values.referenceRoute,'ux-reference-route'),el('p','아래 코스는 공개 안내를 바탕으로 정리한 참고용입니다. 본인이 걸은 실제 경로·거리·시간 또는 GPX 기록으로 간주하지 않습니다. 상세 내용은 산행 정보 수정에서 개별 변경할 수 있습니다.','ux-help'));
+ if(/^https:\/\/[^\s]+$/i.test(values.referenceRouteSource||'')){const a=el('a','참고 코스 출처 ↗');a.href=values.referenceRouteSource;a.target='_blank';a.rel='noopener noreferrer';section.append(a);}}
+ box.querySelector('.ux-actions').before(section);
 }
 function fieldNode(field,value){
  const [key,label,type,hint]=field,container=el('label',label,(type==='textarea'||key==='route')?'ux-full':'');
@@ -116,7 +126,7 @@ function renderForm(box,kind,rec){
  const values=infoOf(kind,rec),form=el('form',null,'ux-form');form.autocomplete='off';
  form.append(el('h3',`${kind==='mountains'?rec.name:rec.island} — 산행 기록 수정`));
  form.append(el('p','산행 정보를 수정하거나 아래에서 날짜별 기록을 삭제할 수 있습니다. BAC 인증 정보와 사진 원본은 보존됩니다.'));
- const grid=el('div',null,'ux-form-grid');fields.forEach(f=>grid.append(fieldNode(f,values[f[0]])));
+ const grid=el('div',null,'ux-form-grid');fieldsFor(values).forEach(f=>grid.append(fieldNode(f,values[f[0]])));
  const label=el('label','GitHub 개인 액세스 토큰 (관리자 전용)','ux-full');
  const tokenInput=el('input');tokenInput.type='password';tokenInput.name='token';tokenInput.autocomplete='new-password';tokenInput.placeholder=sessionToken?'현재 탭에서 연결된 토큰이 있습니다':'Fine-grained token — Contents 읽기/쓰기 권한';
  label.append(tokenInput);grid.append(label);
@@ -132,7 +142,7 @@ function renderForm(box,kind,rec){
  form.addEventListener('submit',async e=>{
   e.preventDefault();if(save.disabled)return;
   const formdata=new FormData(form),changes={};
-  for(const [field,,type] of fields){let v=String(formdata.get(field)||'').trim();
+  for(const [field,,type] of fieldsFor(values)){let v=String(formdata.get(field)||'').trim();
    if(type==='number'&&v!==''){
     const n=Number(v);if(!validNumber(n)){status(notice,'숫자 항목은 0 이상, 15000 이하로 입력해 주세요.',true);return}v=n;
    }
@@ -155,7 +165,7 @@ function refreshVisibility(){refreshCards();for(const [parent,{kind,rec}]of acti
 function renderTrash(box,kind,rec){const dates=hiddenDates(kind,rec);if(!dates.length)return;const trash=el('details',null,'ux-delete-tools');trash.append(el('summary','삭제한 산행 기록 · '+dates.length+'건'));for(const date of dates){const row=el('div',null,'ux-restore-row'),restore=el('button','복원');restore.type='button';restore.onclick=async()=>{const token=window.JKOwnerSession?.getToken()||sessionToken;if(!token){alert('관리자 메뉴에서 먼저 연결 인증을 해주세요.');return;}restore.disabled=true;try{await saveToGitHub(kind,rec,{},token,{date,hide:false});renderSummary(box.closest('.ux-record-panel')||box,kind,rec);}catch(e){alert('복원하지 못했습니다: '+e.message);restore.disabled=false;}};row.append(el('span',date+' 산행'),restore);trash.append(row);}box.append(trash);}
 function refreshCards(){const source=document.getElementById('mountain-data'),cards=document.getElementById('cards');if(!source||!cards)return;let data;try{data=JSON.parse(source.textContent);}catch{return;}for(const card of cards.querySelectorAll('.card')){const id=Number(card.querySelector('.id')?.textContent),rec=data.find(m=>m.no===id);if(!rec)continue;const count=(rec.visits||[]).filter(v=>!hiddenDates('mountains',rec).includes(v.date)).length;for(const badge of card.querySelectorAll('.pill'))if(/^산행 \d+회$/.test(badge.textContent)&&badge.textContent!=='산행 '+count+'회')badge.textContent='산행 '+count+'회';card.setAttribute('aria-label',rec.name+' 산행 기록 '+count+'회 자세히 보기');}}
 const cards=document.getElementById('cards');if(cards)new MutationObserver(refreshCards).observe(cards,{childList:true,subtree:true});ready.then(refreshCards);
-const css=el('style');css.textContent='.ux-deleted-visit{display:none!important}body:not(.jk-owner-mode) .ux-delete-tools{display:none!important}.ux-delete-tools{margin-top:18px;padding:15px;border:1px solid #be947b;border-radius:10px;background:#fff8ef}.ux-delete-tools h4{margin:0 0 8px}.ux-delete-tools p{font-size:13px}.ux-delete-tools label{display:block;font-weight:700}.ux-delete-tools select{display:block;width:100%;margin:8px 0;padding:10px;border:1px solid #b7a383;border-radius:7px;background:#fffdf8;color:#303a2c}.ux-delete-tools button{border:1px solid #aa7460;border-radius:20px;padding:9px 18px;background:#fff0e5;color:#823c28;font-weight:700;cursor:pointer}.ux-delete-tools .ux-delete-btn{display:block;margin-left:auto;background:#873e2b;color:#fff}.ux-restore-row{display:flex;justify-content:space-between;align-items:center;gap:12px;margin-top:10px}';document.head.append(css);
+const css=el('style');css.textContent='.ux-reference-info{margin:12px 0;padding:14px 16px;border:1px solid #bca57c;border-radius:10px;background:#f7f0e2;color:#303e2c}.ux-reference-info h4{margin:0 0 8px}.ux-reference-info p{margin:8px 0;line-height:1.7}.ux-reference-info a{color:#28556a;text-decoration:underline}.ux-reference-route{font-weight:700}.ux-deleted-visit{display:none!important}body:not(.jk-owner-mode) .ux-delete-tools{display:none!important}.ux-delete-tools{margin-top:18px;padding:15px;border:1px solid #be947b;border-radius:10px;background:#fff8ef}.ux-delete-tools h4{margin:0 0 8px}.ux-delete-tools p{font-size:13px}.ux-delete-tools label{display:block;font-weight:700}.ux-delete-tools select{display:block;width:100%;margin:8px 0;padding:10px;border:1px solid #b7a383;border-radius:7px;background:#fffdf8;color:#303a2c}.ux-delete-tools button{border:1px solid #aa7460;border-radius:20px;padding:9px 18px;background:#fff0e5;color:#823c28;font-weight:700;cursor:pointer}.ux-delete-tools .ux-delete-btn{display:block;margin-left:auto;background:#873e2b;color:#fff}.ux-restore-row{display:flex;justify-content:space-between;align-items:center;gap:12px;margin-top:10px}';document.head.append(css);
 function show(kind,rec,parent){
  if(!rec||!parent)return;
  const previous=activePanels.get(parent);previous?.observer.disconnect();const observer=new MutationObserver(()=>applyVisibility(parent,kind,rec));observer.observe(parent,{childList:true,subtree:true});activePanels.set(parent,{kind,rec,observer});
