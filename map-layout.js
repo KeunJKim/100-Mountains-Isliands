@@ -34,7 +34,8 @@
  function wrapHelp(){
   const notice=main.querySelector(':scope>.notice');
   if(notice){const help=document.createElement('details');help.className='jk-map-help';const summary=document.createElement('summary');summary.textContent='지도 이용 안내';help.append(summary);notice.before(help);help.append(notice);help.addEventListener('toggle',schedule);}
-  const bottom=main.querySelector('.bottom'),close=main.querySelector('.jk-bottom-close');
+  const bottom=main.querySelector('.bottom');let close=main.querySelector('.jk-bottom-close');
+  if(!close&&location.pathname.endsWith('yeongnam-alps-map.html')){close=document.createElement('div');close.className='jk-bottom-close';const link=document.createElement('a');link.href='yeongnam-alps.html';link.textContent='닫기 · 목록으로';link.setAttribute('aria-label','지도 닫고 목록으로 돌아가기');close.append(link);main.append(close);}
   if(bottom||close){let row=main.querySelector('.jk-map-bottom-row');if(!row){row=document.createElement('div');row.className='jk-map-bottom-row';(bottom||close).before(row);}if(bottom&&bottom.parentElement!==row)row.append(bottom);if(close&&close.parentElement!==row)row.append(close);}
  }
  function outerHeight(node){const c=getComputedStyle(node);if(c.display==='none')return 0;return node.getBoundingClientRect().height+(Number.parseFloat(c.marginTop)||0)+(Number.parseFloat(c.marginBottom)||0);}
@@ -42,8 +43,9 @@
   if(!layout.isConnected)return;wrapHelp();
   put(main,{padding:'4px 0',margin:'0 auto','min-height':'0'});
   each('.intro',{padding:'4px 0',margin:'0',height:'auto','min-height':'0'});
+  each('.intro>.wrap',{padding:'0'});
   each('.intro h1',{margin:'2px 0'});each('.intro .lead',{margin:'0'});each('.intro .eyebrow',{display:'block',margin:'0'});
-  each('.jk-header-grid',{padding:'4px 0','min-height':'0','row-gap':'1px','column-gap':'6px'});
+  each('.jk-header-grid',{width:'calc(100% - 24px)','max-width':'none',margin:'0 auto',padding:'4px 0','min-height':'0','row-gap':'1px','column-gap':'6px'});
   each('.jk-header-grid .jk-profile-avatar',{width:'40px',height:'40px'});
   for(const header of document.querySelectorAll('.jk-header-grid')){const tracks=getComputedStyle(header).gridTemplateColumns.split(' ');put(header,{'grid-template-columns':'48px minmax(0,1fr)'+(tracks.length>2?' auto':'')});}
   each('.ux-context-links',{display:'flex','flex-wrap':'wrap',gap:'4px',padding:'3px 12px',margin:'0','min-height':'0',height:'auto'});
@@ -77,6 +79,7 @@
    const available=Math.max(300,Math.floor(innerHeight-(layout.getBoundingClientRect().top+scrollY)-after-3));
    put(layout,{height:available+'px'});panels.forEach(p=>put(p,{height:'100%','max-height':'100%'}));
    put(entries,{flex:'1 1 0',height:'auto','max-height':'none'});put(map,{height:'auto','min-height':'160px',flex:'1 1 0'});
+   if(panels[0]&&entries){let content=2;for(const child of panels[0].children)if(child!==entries)content+=outerHeight(child);for(const row of entries.children)if(!row.hidden)content+=outerHeight(row);put(panels[0],{height:Math.min(available,Math.ceil(content))+'px','align-self':'start'});}
   }else{
    put(layout,{height:'auto'});panels.forEach(p=>put(p,{height:'auto','max-height':'none'}));
    put(entries,{flex:'0 1 auto',height:'auto','max-height':innerWidth<1000?'min(35dvh,300px)':'min(60dvh,600px)'});
