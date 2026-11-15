@@ -75,7 +75,7 @@ function renderSummary(box,kind,rec){
  const heading=el('h3','나의 상세 산행 정보');
  const note=el('p','기존 BAC 인증일과 인증지 정보는 그대로 보존합니다. 아래 정보에서 추가·수정하거나 날짜별 산행 기록을 삭제·복원할 수 있습니다.');
  const b=el('button','이 산행 정보 추가·수정·삭제','ux-edit-btn');b.type='button';b.onclick=()=>renderForm(box,kind,rec);
- const photos=el('a','사진 갤러리에서 사진 보기·관리 →','ux-edit-btn');photos.href='gallery.html';photos.style.textDecoration='none';
+ const photos=el('a','사진 갤러리에서 사진 보기·관리 →','ux-edit-btn');photos.href='gallery.html?album='+encodeURIComponent((kind==='mountains'?'m-':'i-')+rec.no);photos.style.textDecoration='none';
  const actions=el('div',null,'ux-actions');actions.append(b,photos);
  box.replaceChildren(heading,note,dl.childElementCount?dl:el('p','입력된 상세 산행 정보가 없습니다. 정보를 추가해 주세요.','ux-empty'),actions);renderReference(box,values);renderTrash(box,kind,rec);
 }
@@ -168,6 +168,7 @@ const cards=document.getElementById('cards');if(cards)new MutationObserver(refre
 const css=el('style');css.textContent='.ux-reference-info{margin:12px 0;padding:14px 16px;border:1px solid #bca57c;border-radius:10px;background:#f7f0e2;color:#303e2c}.ux-reference-info h4{margin:0 0 8px}.ux-reference-info p{margin:8px 0;line-height:1.7}.ux-reference-info a{color:#28556a;text-decoration:underline}.ux-reference-route{font-weight:700}.ux-deleted-visit{display:none!important}body:not(.jk-owner-mode) .ux-delete-tools{display:none!important}.ux-delete-tools{margin-top:18px;padding:15px;border:1px solid #be947b;border-radius:10px;background:#fff8ef}.ux-delete-tools h4{margin:0 0 8px}.ux-delete-tools p{font-size:13px}.ux-delete-tools label{display:block;font-weight:700}.ux-delete-tools select{display:block;width:100%;margin:8px 0;padding:10px;border:1px solid #b7a383;border-radius:7px;background:#fffdf8;color:#303a2c}.ux-delete-tools button{border:1px solid #aa7460;border-radius:20px;padding:9px 18px;background:#fff0e5;color:#823c28;font-weight:700;cursor:pointer}.ux-delete-tools .ux-delete-btn{display:block;margin-left:auto;background:#873e2b;color:#fff}.ux-restore-row{display:flex;justify-content:space-between;align-items:center;gap:12px;margin-top:10px}';document.head.append(css);
 function show(kind,rec,parent){
  if(!rec||!parent)return;
+ parent.dataset.galleryAlbum=(kind==='mountains'?'m-':'i-')+rec.no;
  const previous=activePanels.get(parent);previous?.observer.disconnect();const observer=new MutationObserver(()=>applyVisibility(parent,kind,rec));observer.observe(parent,{childList:true,subtree:true});activePanels.set(parent,{kind,rec,observer});
  for(const n of parent.querySelectorAll('.ux-record-panel'))n.remove();
  const box=el('section','산행 정보를 불러오는 중입니다.','ux-record-panel');
