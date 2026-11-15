@@ -7,7 +7,7 @@
  const style=document.createElement('style');style.id='jk-map-layout-style';
  style.textContent=`
  html body.jk-map-compact .wrap{width:calc(100% - 24px)!important;max-width:none!important}
- html body.jk-map-compact .layout{display:grid!important;grid-template-columns:clamp(250px,25vw,340px) minmax(0,1fr)!important;align-items:stretch!important}
+ html body.jk-map-compact .layout{display:grid!important;grid-template-columns:clamp(175px,17.5vw,238px) minmax(0,1fr)!important;align-items:stretch!important}
  html body.jk-map-compact .layout>.panel{display:flex!important;flex-direction:column!important;min-width:0!important;min-height:0!important;border-radius:10px!important}
  html body.jk-map-compact .panelhead{display:flex!important;align-items:center!important;gap:6px!important;min-width:0!important;flex:0 0 auto!important}
  html body.jk-map-compact .panelhead>strong{flex:none!important}
@@ -41,14 +41,15 @@
  function outerHeight(node){const c=getComputedStyle(node);if(c.display==='none')return 0;return node.getBoundingClientRect().height+(Number.parseFloat(c.marginTop)||0)+(Number.parseFloat(c.marginBottom)||0);}
  function apply(){
   if(!layout.isConnected)return;wrapHelp();
-  put(main,{padding:'4px 0',margin:'0 auto','min-height':'0'});
+  const contentWidth=innerWidth>=1000?'calc(70% - 16.8px)':'calc(100% - 24px)';
+  put(main,{width:contentWidth,'max-width':'none',padding:'4px 0',margin:'0 auto','min-height':'0'});
   each('.intro',{padding:'4px 0',margin:'0',height:'auto','min-height':'0'});
-  each('.intro>.wrap',{padding:'0'});
+  each('.intro>.wrap',{width:contentWidth,'max-width':'none',margin:'0 auto',padding:'0'});
   each('.intro h1',{margin:'2px 0'});each('.intro .lead',{margin:'0'});each('.intro .eyebrow',{display:'block',margin:'0'});
-  each('.jk-header-grid',{width:'calc(100% - 24px)','max-width':'none',margin:'0 auto',padding:'4px 0','min-height':'0','row-gap':'1px','column-gap':'6px'});
+  each('.jk-header-grid',{width:contentWidth,'max-width':'none',margin:'0 auto',padding:'4px 0','min-height':'0','row-gap':'1px','column-gap':'6px'});
   each('.jk-header-grid .jk-profile-avatar',{width:'40px',height:'40px'});
   for(const header of document.querySelectorAll('.jk-header-grid')){const tracks=getComputedStyle(header).gridTemplateColumns.split(' ');put(header,{'grid-template-columns':'48px minmax(0,1fr)'+(tracks.length>2?' auto':'')});}
-  each('.ux-context-links',{display:'flex','flex-wrap':'wrap',gap:'4px',padding:'3px 12px',margin:'0','min-height':'0',height:'auto'});
+  each('.ux-context-links',{display:'flex','flex-wrap':'wrap',gap:'4px',width:contentWidth,'box-sizing':'border-box',padding:'3px 0',margin:'0 auto','min-height':'0',height:'auto'});
   each('.ux-context-links>a',{padding:'2px 5px',margin:'0','min-height':'18px',height:'auto'});
   each('.panelhead',{padding:'5px 8px',margin:'0',height:'auto','min-height':'0'});
   each('.panelhead p',{margin:'0'});
@@ -65,10 +66,10 @@
   each('.mapinfo .action',{padding:'3px 8px','min-height':'22px',height:'auto'});
   each('.bottom,.jk-bottom-close',{margin:'0',padding:'0','min-height':'0',height:'auto'});
   each('.jk-bottom-close a,.jk-bottom-close button',{padding:'3px 8px','min-height':'20px',height:'auto'});
-  each('.seo-topics',{margin:'2px 12px',padding:'0',gap:'3px','min-height':'0',height:'auto'});
+  each('.seo-topics',{width:contentWidth,margin:'2px auto',padding:'0',gap:'3px','min-height':'0',height:'auto'});
   each('.seo-topics a',{padding:'1px 4px',margin:'0','min-height':'0',height:'auto'});
   each('footer',{padding:'3px 12px',margin:'0','min-height':'0',height:'auto'});
-  put(layout,{gap:'8px',padding:'0',margin:'0','min-height':'0'});
+  put(layout,{gap:innerWidth>=1000?'5.6px':'8px',padding:'0',margin:'0','min-height':'0'});
   const panels=[...layout.children].filter(n=>n.classList.contains('panel')),entries=document.getElementById('entries'),map=document.querySelector('.mapbox');
   const editing=!!document.querySelector('#map-hike-editor:not([hidden])'),helpOpen=!!main.querySelector('.jk-map-help[open]');
   const fit=innerWidth>=1000&&innerHeight>=620&&!editing&&!helpOpen;
