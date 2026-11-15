@@ -53,8 +53,8 @@
  function scaleTypography(){
   const measurements=[];
   for(const node of document.querySelectorAll('body *:not(script):not(style):not(noscript)')){
-   const ownText=[...node.childNodes].some(n=>n.nodeType===3&&n.textContent.trim());
-   if(!ownText&&!node.matches('input,textarea,select,button'))continue;
+   // Inline children also need their parent's line-box metrics reduced.
+   if(node.matches('img,svg,canvas,iframe,br,hr,source,video,audio,path,polyline,polygon,circle,rect'))continue;
    const c=getComputedStyle(node),size=px(c.fontSize),line=px(c.lineHeight);
    if(!size)continue;
    measurements.push([node,size,line]);
@@ -85,6 +85,47 @@
   }
  }
 
+
+ const layoutDone=new WeakSet();
+ const layouts='header:not(.hero),main,article,aside,section:not(.hero),.container,.wrap,.head,.intro,.banner,.section-head,.hero-copy,.panel,.panelhead,.card,.grid,.layout,.mapinfo,.filters,.actions,.toolbar,.stats,.stat,.hike-stats,.ux-record-panel,.ux-form,.ux-form-grid,.ux-info,dl,dd,.jk-header-grid,.jk-profile-byline,.jk-management-group,.jk-management-grid,.jk-profile-dialog,.jk-profile-actions,.jk-home-card-stage,.connect,.tags,.seo-topics,.visit,.guide,.notice,input,select,textarea,dialog,td,th,footer';
+ function compactLayout(){
+  const measurements=[];
+  for(const node of document.querySelectorAll(layouts)){
+   if(layoutDone.has(node)||!node.getClientRects().length||node.closest('.leaflet-container,.jk-gps-large-dialog,.lightbox'))continue;
+   const c=getComputedStyle(node),values={};
+   // Auto margins center the page; shrink only the vertical whitespace around it.
+   for(const prop of ['margin-top','margin-bottom','row-gap','column-gap']){
+    const value=c.getPropertyValue(prop);if(value.endsWith('px'))values[prop]=px(value)*.7;
+   }
+   if(!node.matches(controls))for(const side of ['top','right','bottom','left'])values['padding-'+side]=px(c.getPropertyValue('padding-'+side))*.7;
+   let columns=null,avatar=null,copy=null;
+   if(node.matches('.jk-header-grid')){const tracks=c.gridTemplateColumns.split(' ');if(tracks[0]?.endsWith('px'))columns=(px(tracks[0])*.7)+'px minmax(0,1fr)'+(tracks.length>2?' auto':'');}
+   if(node.matches('.hero-copy'))copy=px(c.width)*.7;
+   measurements.push({node,values,columns,copy});
+  }
+  for(const {node,values,columns,copy}of measurements){
+   for(const [prop,value]of Object.entries(values))node.style.setProperty(prop,value.toFixed(3)+'px','important');
+   if(node.matches('main,.section-head,.intro,.banner,.head,.panelhead,.mapinfo,input,select,textarea,#cards>.card,#island-cards>.ux-island-card'))node.style.setProperty('min-height','0','important');
+   if(columns)node.style.setProperty('grid-template-columns',columns,'important');
+   if(copy)node.style.setProperty('width',copy.toFixed(3)+'px','important');
+   layoutDone.add(node);
+  }
+  for(const avatar of document.querySelectorAll('.jk-header-grid .jk-profile-avatar')){
+   if(layoutDone.has(avatar))continue;const r=avatar.getBoundingClientRect();if(!r.width)continue;
+   avatar.style.setProperty('width',(r.width*.7).toFixed(3)+'px','important');avatar.style.setProperty('height',(r.height*.7).toFixed(3)+'px','important');layoutDone.add(avatar);
+  }
+  for(const small of document.querySelectorAll('.section-head>small'))small.style.setProperty('display','block','important');
+  if(innerWidth>1050){
+   for(const node of document.querySelectorAll('.jk-hiking-home #mountains,.jk-hiking-home #blog,.jk-representative-home main>h2,.jk-representative-home main>.intro,.jk-representative-home main>.tags,.jk-representative-home main>.connect')){
+    node.style.setProperty('width','60%','important');node.style.setProperty('margin-left','auto','important');node.style.setProperty('margin-right','auto','important');
+   }
+  }else{
+   for(const node of document.querySelectorAll('.jk-hiking-home #mountains,.jk-hiking-home #blog,.jk-representative-home main>h2,.jk-representative-home main>.intro,.jk-representative-home main>.tags,.jk-representative-home main>.connect')){
+    node.style.setProperty('width','100%','important');node.style.setProperty('margin-left','0','important');node.style.setProperty('margin-right','0','important');
+   }
+  }
+ }
+
  function scan(){
   restoreFontScale();
   for(const link of document.querySelectorAll('.jk-hiking-home .hero-copy .buttons .button')){const text=link.textContent,short=text.startsWith('BAC ')?text.slice(4):text;if(short!==text){link.setAttribute('aria-label',text);link.textContent=short;}}
@@ -98,6 +139,7 @@
   });
   document.querySelectorAll(controls).forEach(compact);
   scaleTypography();
+  compactLayout();
  }
  let queued=false;const schedule=()=>{if(queued)return;queued=true;requestAnimationFrame(()=>{queued=false;scan();});};
  new MutationObserver(schedule).observe(document.body,{childList:true,subtree:true});
