@@ -45,8 +45,6 @@
   for(const [node,state]of fontStates){
    if(!node.isConnected){fontStates.delete(node);continue;}
    for(const prop of ['font-size','line-height']){
-    const current=node.style.getPropertyValue(prop);
-    if(current!==state.applied[prop])state.original[prop]=[current,node.style.getPropertyPriority(prop)];
     const [value,priority]=state.original[prop];
     if(value)node.style.setProperty(prop,value,priority);else node.style.removeProperty(prop);
    }
