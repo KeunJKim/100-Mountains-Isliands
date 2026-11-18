@@ -1,0 +1,94 @@
+/* 영남알프스 페이지 전용 — 실제 yeongnam-alps.html / yeongnam-alps.js 선택자 확인 후 수정 */
+/* PC: 3열, 중간 화면: 2열, 휴대전화: 1열 */
+html body #alps-records.records {
+  display: grid !important;
+  grid-template-columns: repeat(3, minmax(0, 1fr)) !important;
+  gap: 18px !important;
+  align-items: stretch;
+}
+html body #alps-records > .record {
+  min-width: 0;
+  min-height: 185px;
+  padding: 21px 20px !important;
+  border-radius: 15px !important;
+  box-sizing: border-box;
+}
+html body #alps-records > .record h3 {
+  font-size: 21px !important;
+  line-height: 1.45;
+  margin: 9px 0;
+  overflow-wrap: anywhere;
+}
+html body #alps-records > .record small,
+html body #alps-records > .record p {
+  font-size: 14px !important;
+  line-height: 1.55;
+}
+html body #alps-records > .record .btn {
+  display: inline-flex !important;
+  align-items: center;
+  justify-content: center;
+  min-height: 38px;
+  margin: 8px 5px 0 0;
+  padding: 8px 13px !important;
+  font-size: 13px !important;
+  border-radius: 22px;
+}
+/* 상단 통합 메뉴(스크립트가 추가하는 메뉴도 포함) */
+html body nav[aria-label="전체 산행 메뉴"] .btn,
+html body #ux-navigation .ux-menu > a,
+html body #ux-navigation .ux-menu > details > summary,
+html body .jk-top-nav a {
+  min-height: 42px !important;
+  padding: 9px 16px !important;
+  font-size: 15px !important;
+  line-height: 1.35 !important;
+  box-sizing: border-box;
+}
+/* 영남알프스 지도/사진/기록 보충 바로가기 */
+html body header .actions > .btn {
+  display: inline-flex;
+  align-items: center;
+  min-height: 42px !important;
+  padding: 9px 17px !important;
+  font-size: 15px !important;
+}
+/* 가지산·운문산 등 산별 필터 */
+html body #summit-filters.filters > button {
+  min-height: 39px !important;
+  padding: 8px 14px !important;
+  font-size: 14px !important;
+  line-height: 1.4;
+}
+/* 검색/정렬 도구 */
+html body .toolbar input,
+html body .toolbar select {
+  min-height: 45px;
+  font-size: 15px !important;
+  padding: 10px 13px !important;
+}
+@media (max-width: 1100px) {
+  html body #alps-records.records {
+    grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+  }
+}
+@media (max-width: 650px) {
+  html body #alps-records.records {
+    grid-template-columns: minmax(0, 1fr) !important;
+    gap: 12px !important;
+  }
+  html body #alps-records > .record {
+    min-height: 0;
+    padding: 17px 15px !important;
+  }
+  html body #alps-records > .record h3 {
+    font-size: 19px !important;
+  }
+  html body nav[aria-label="전체 산행 메뉴"] .btn,
+  html body #ux-navigation .ux-menu > a,
+  html body #ux-navigation .ux-menu > details > summary {
+    min-height: 38px !important;
+    padding: 8px 12px !important;
+    font-size: 13px !important;
+  }
+}

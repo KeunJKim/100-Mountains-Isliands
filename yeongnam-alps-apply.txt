@@ -1,0 +1,16 @@
+실제 GitHub 파일 확인 결과:
+저장소: KeunJKim/100-Mountains-Isliands
+HTML 파일: yeongnam-alps.html
+목록 컨테이너: <div id="alps-records" class="records"></div>
+목록 카드: <article class="record">
+
+적용 순서:
+1) yeongnam-alps-layout-fixed.css 파일을 저장소 최상위 폴더(yeongnam-alps.html과 같은 폴더)에 올립니다.
+2) yeongnam-alps.html 파일을 편집합니다.
+3) </head> 바로 앞에 다음 줄을 추가합니다.
+<link rel="stylesheet" href="yeongnam-alps-layout-fixed.css?v=20261118-2">
+4) Commit changes로 저장합니다.
+5) 배포된 페이지에서 Ctrl+Shift+R을 눌러 강력 새로고침합니다.
+
+중요: 기존 HTML/CSS/JS/산행 기록을 삭제하지 마세요.
+GitHub에서 파일 업로드가 실패하면 Codex에서 두 파일을 같은 저장소에 반영하도록 요청하세요.
