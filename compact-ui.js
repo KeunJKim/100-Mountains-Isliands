@@ -26,6 +26,7 @@
  @media(max-width:1050px){html body .jk-home-card-stage>.grid{grid-template-columns:repeat(3,minmax(0,1fr))!important}}
  @media(max-width:600px){html body .hero-copy .buttons{grid-template-columns:repeat(3,minmax(0,1fr))!important}html body .jk-home-card-stage>.grid{grid-template-columns:repeat(2,minmax(0,1fr))!important}html body .jk-header-grid .jk-header-title{font-size:15px!important}}
  `;
+ style.textContent+=`html body :is(dialog#details,#detail.detail) :is(.ux-info,.island-detail-cell,.hike-stats>div){height:auto!important;min-height:0!important}html body :is(dialog#details,#detail.detail) :is(.ux-actions,.jk-gps-map-actions){flex-wrap:wrap!important;gap:8px!important}html body :is(dialog#details,#detail.detail) :is(.ux-info dd,.island-detail-cell dd){min-width:0;overflow-wrap:anywhere}html body :is(dialog#details,#detail.detail) .jk-guide-detail{padding:9px 0!important;margin:8px 0!important}html body :is(dialog#details,#detail.detail) :is(.ux-record-panel,.visit){padding-top:10px!important;padding-bottom:10px!important}`;
  document.head.append(style);
  const controls='button,input[type="button"],input[type="submit"],a.button,a.btn,a.action,a.ux-edit-btn,a.jk-gallery-action,.jk-compact-menu> a,.jk-compact-menu>details>summary,.jk-nav-drop>a,.jk-all-panel a,.jk-management-grid>a,.jk-gps-map-actions>a,.jk-management-choices>a,.jk-home-card-stage .card,a[role="button"],a.jk-token-create,.quick-nav>a,.ux-context-links>a,.toolbar>a,.links>a';
  const done=new WeakSet(),texts=new WeakSet();
@@ -87,9 +88,13 @@
    const photoClose=node.closest('#lb-close,#close-lightbox,.jk-protected-viewer>button,.lightbox .close');
    const detailAction=node.closest('dialog#details #close,#detail.detail #close,dialog#details .ux-actions>a.ux-edit-btn,#detail.detail .ux-actions>a.ux-edit-btn,dialog#details a.jk-gallery-action,#detail.detail a.jk-gallery-action');
    const ratio=(detailAction?baseRatio*1.3:baseRatio)*(tenPercent?1.1:1)*(recordList?1.2:1)*(closeReturn?1.2:1)*(photoClose?1.3:1);
-   const applied={'font-size':(size*ratio).toFixed(3)+'px','line-height':line?(line*ratio).toFixed(3)+'px':node.style.getPropertyValue('line-height')};
+   // Detailed records need a readable baseline independent of the compact navigation scale.
+   const detailText=node.closest('dialog#details,#detail.detail,#map-hike-editor')&&!node.closest('.leaflet-container,.hike-map,.tranggle-gps-map,svg');
+   const detailSize=node.matches('#dialogTitle,#detail-title,h1,h2')?20:node.matches('h3')?17:node.matches('h4')?15:node.matches('small,.ux-help')?13:14;
+   const textSize=detailText?detailSize:size*ratio,textLine=detailText?detailSize*1.6:line*ratio;
+   const applied={'font-size':textSize.toFixed(3)+'px','line-height':textLine?textLine.toFixed(3)+'px':node.style.getPropertyValue('line-height')};
    node.style.setProperty('font-size',applied['font-size'],'important');
-   if(line)node.style.setProperty('line-height',applied['line-height'],'important');
+   if(line||detailText)node.style.setProperty('line-height',applied['line-height'],'important');
    fontStates.set(node,{original,applied});
   }
   for(const node of document.querySelectorAll(controls+',h1,h2,h3,h4,p')){
