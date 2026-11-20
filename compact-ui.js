@@ -13,7 +13,7 @@
  html body .hero-copy .buttons .button{white-space:normal!important;min-width:0!important;line-height:1.35!important}
  html body .jk-compact-menu .jk-nav-drop{min-width:min(264px,calc(100vw - 24px))!important;max-width:calc(100vw - 24px)!important;padding:18px!important;gap:6px!important;max-height:70dvh;overflow:auto}
  html body .jk-compact-menu .jk-all-panel{gap:16px!important;padding:22px!important}
- html body .side .alb-btn{gap:12px;min-width:0;box-sizing:border-box}
+ html body .side .alb-btn{gap:13.2px;min-width:0;box-sizing:border-box}
  html body .side .alb-name{min-width:0;white-space:normal!important;overflow:visible!important;text-overflow:clip!important}
  html body .side .alb-title{white-space:normal!important;overflow-wrap:anywhere}
  html body .jk-home-card-stage>.grid{grid-template-columns:repeat(6,minmax(0,1fr))!important;gap:7px!important}
@@ -36,7 +36,8 @@
   if(node.matches('.jk-hiking-home .hero-copy .buttons .button')){for(const [key,value]of Object.entries({'font-size':'10px','line-height':'12px','padding':'1px 0','min-height':'28px'}))node.style.setProperty(key,value,'important');done.add(node);return;}
   const font=px(c.fontSize),line=px(c.lineHeight),min=px(c.minHeight);
   const topMenu=node.matches('.jk-compact-menu>a,.jk-compact-menu>details>summary'),subMenu=node.matches('.jk-nav-drop>a,.jk-all-panel a'),album=node.matches('.side .alb-btn');
-  const growth=topMenu?1.69:subMenu?1.95:album?1.3:1;
+  const related=node.matches('.ux-context-links>a,.quick-nav>a,.record-return-links>.btn'),galleryChoice=node.matches('.actions>.btn,.go-home-bottom>.btn');
+  const growth=topMenu?1.69:subMenu?1.95:album?1.43:related||galleryChoice?1.1:1;
   for(const side of ['Top','Right','Bottom','Left'])node.style.setProperty('padding-'+side.toLowerCase(),(px(c['padding'+side])*.8*growth).toFixed(2)+'px','important');
   node.style.setProperty('min-height',(Math.max(24,min*.8)*growth).toFixed(2)+'px','important');
   node.style.setProperty('font-size',Math.max(11,font*.9).toFixed(2)+'px','important');
@@ -72,7 +73,10 @@
    const original={};for(const prop of ['font-size','line-height'])original[prop]=[node.style.getPropertyValue(prop),node.style.getPropertyPriority(prop)];
    const topMenu=node.closest('.jk-compact-menu>a,.jk-compact-menu>details>summary'),subMenu=node.closest('.jk-nav-drop>a,.jk-all-panel a'),gallerySidebar=location.pathname.endsWith('/gallery.html')&&node.closest('.side');
    const enlargedList=node.closest('.entries .entry');
-   const ratio=node.closest('.jk-season-tools,.jk-season-note')?1:node.closest('.jk-all-panel strong')?1.05:subMenu?1.365:topMenu?1.183:gallerySidebar||enlargedList||(listPage&&node.closest('#cards>.card,#island-cards>.ux-island-card,#alps-records>.record,#list>.card,#overseas-list>.trek-card,.filters button,.toolbar .btn,.ux-context-links a')?.closest('main,.ux-context-links')?.nodeType)? .91:.7;
+   const baseRatio=node.closest('.jk-season-tools,.jk-season-note')?1:node.closest('.jk-all-panel strong')?1.05:subMenu?1.365:topMenu?1.183:gallerySidebar||enlargedList||(listPage&&node.closest('#cards>.card,#island-cards>.ux-island-card,#alps-records>.record,#list>.card,#overseas-list>.trek-card,.filters button,.toolbar .btn,.ux-context-links a')?.closest('main,.ux-context-links')?.nodeType)? .91:.7;
+   const tenPercent=gallerySidebar||node.closest('.ux-context-links>a,.quick-nav>a,.record-return-links>.btn,.actions>.btn,.go-home-bottom>.btn');
+   const recordList=location.pathname.endsWith('/records-to-complete.html')&&node.closest('.table-wrap table');
+   const ratio=baseRatio*(tenPercent?1.1:1)*(recordList?1.2:1);
    const applied={'font-size':(size*ratio).toFixed(3)+'px','line-height':line?(line*ratio).toFixed(3)+'px':node.style.getPropertyValue('line-height')};
    node.style.setProperty('font-size',applied['font-size'],'important');
    if(line)node.style.setProperty('line-height',applied['line-height'],'important');
@@ -108,7 +112,8 @@
    for(const prop of ['margin-top','margin-bottom','row-gap','column-gap']){
     const value=c.getPropertyValue(prop);if(value.endsWith('px'))values[prop]=px(value)*.7;
    }
-   if(!node.matches(controls))for(const side of ['top','right','bottom','left'])values['padding-'+side]=px(c.getPropertyValue('padding-'+side))*.7;
+   const recordCell=location.pathname.endsWith('/records-to-complete.html')&&node.matches('td,th')&&node.closest('.table-wrap table');
+   if(!node.matches(controls))for(const side of ['top','right','bottom','left'])values['padding-'+side]=px(c.getPropertyValue('padding-'+side))*(recordCell?.84:.7);
    let columns=null,avatar=null,copy=null;
    if(node.matches('.jk-header-grid')){const tracks=c.gridTemplateColumns.split(' ');if(tracks[0]?.endsWith('px'))columns=(px(tracks[0])*.7)+'px minmax(0,1fr)'+(tracks.length>2?' auto':'');}
    if(node.matches('.hero-copy'))copy=px(c.width)*.7;

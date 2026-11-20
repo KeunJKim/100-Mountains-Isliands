@@ -83,7 +83,7 @@ document.addEventListener('click',e=>{if(!menu.contains(e.target))close();});doc
 (()=>{const s=document.createElement("script");s.src="https://keunjkim.github.io/100-Mountains-Isliands/gps-map-actions.js?v=20261115-color2";document.head.append(s);})();
 
 /* 모든 화면의 표시·버튼 크기 통일 */
-(()=>{const s=document.createElement("script");s.src="https://keunjkim.github.io/100-Mountains-Isliands/compact-ui.js?v=20261120-readable1";document.head.append(s);})();
+(()=>{const s=document.createElement("script");s.src="https://keunjkim.github.io/100-Mountains-Isliands/compact-ui.js?v=20261120-ten1";document.head.append(s);})();
 
 /* 선택한 산행에서 해당 사진 앨범으로 연결 */
 (()=>{const s=document.createElement("script");s.src="https://keunjkim.github.io/100-Mountains-Isliands/gallery-context.js?v=20261115-place2";document.head.append(s);})();

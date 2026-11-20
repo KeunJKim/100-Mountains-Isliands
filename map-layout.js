@@ -49,8 +49,8 @@
   each('.jk-header-grid',{width:contentWidth,'max-width':'none',margin:'0 auto',padding:'4px 0','min-height':'0','row-gap':'1px','column-gap':'6px'});
   each('.jk-header-grid .jk-profile-avatar',{width:'40px',height:'40px'});
   for(const header of document.querySelectorAll('.jk-header-grid')){const tracks=getComputedStyle(header).gridTemplateColumns.split(' ');put(header,{'grid-template-columns':'48px minmax(0,1fr)'+(tracks.length>2?' auto':'')});}
-  each('.ux-context-links',{display:'flex','flex-wrap':'wrap',gap:'4px',width:contentWidth,'box-sizing':'border-box',padding:'3px 0',margin:'0 auto','min-height':'0',height:'auto'});
-  each('.ux-context-links>a',{padding:'2px 5px',margin:'0','min-height':'18px',height:'auto'});
+  each('.ux-context-links',{display:'flex','flex-wrap':'wrap',gap:'4.4px',width:contentWidth,'box-sizing':'border-box',padding:'3.3px 0',margin:'0 auto','min-height':'0',height:'auto'});
+  each('.ux-context-links>a',{padding:'2.2px 5.5px',margin:'0','min-height':'19.8px',height:'auto'});
   each('.panelhead',{padding:'5px 8px',margin:'0',height:'auto','min-height':'0'});
   each('.panelhead p',{margin:'0'});
   for(const p of document.querySelectorAll('.panelhead p'))p.title=p.textContent;
