@@ -32,6 +32,7 @@
  const done=new WeakSet(),texts=new WeakSet();
  const px=s=>Number.parseFloat(s)||0;
  function compact(node){
+  if(node.matches('.jk-alps-source-action')){for(const [key,value]of Object.entries({'font-size':'12px','line-height':'18px',padding:'4px 9px','min-height':'28px',height:'auto',margin:'0'}))node.style.setProperty(key,value,'important');return;}
   if(done.has(node)||node.matches('.jk-profile-trigger,.jk-alps-photo-action')||!node.getClientRects().length)return;
   const c=getComputedStyle(node);if(c.display==='none')return;
   // Photograph thumbnails retain their image size; only their separate action buttons shrink.
@@ -93,7 +94,7 @@
    const detailSize=node.matches('#dialogTitle,#detail-title,h1,h2')?20:node.matches('h3')?17:node.matches('h4')?15:node.matches('small,.ux-help')?13:14;
    const mapReading=node.closest('body.jk-map-compact .panelhead,body.jk-map-compact .mapinfo,body.jk-map-compact .bac-map-link,body.jk-map-compact .map-location-warning,body.jk-map-compact .jk-map-bottom-row .jk-bottom-close');
    const mapSize=node.matches('h2,#selected')?18:node.matches('.panelhead strong')?15:node.closest('.map-location-warning')?12:node.closest('.bac-map-link,.panelhead p')?13:14;
-   const listCourse=node.matches('.jk-list-course-action');
+   const listCourse=node.matches('.jk-list-course-action,.jk-alps-source-action');
    const alpsPhoto=node.matches('.jk-alps-photo-action');
    const textSize=listCourse?12:alpsPhoto?14:detailText?detailSize:mapReading?mapSize:size*ratio,textLine=listCourse?18:alpsPhoto?21:detailText?detailSize*1.6:mapReading?mapSize*1.5:line*ratio;
    const applied={'font-size':textSize.toFixed(3)+'px','line-height':textLine?textLine.toFixed(3)+'px':node.style.getPropertyValue('line-height')};

@@ -19,6 +19,13 @@
  html body #overseas-list .jk-overseas-heading{display:flex;align-items:baseline;flex-wrap:wrap;gap:3px 8px;margin:0 0 5px;min-width:0}
  html body #overseas-list .jk-overseas-heading :is(h2,small){display:inline;margin:0!important;line-height:1.5!important}
  html body .jk-alps-photo-action{font-size:14px!important;line-height:21px!important;padding:7px 12px!important;min-height:36px!important}
+ html body #alps-records>.record{padding:10px!important;display:flex;flex-direction:column;gap:0}
+ html body #alps-records .jk-alps-heading{margin-bottom:3px!important;gap:2px 7px}
+ html body #alps-records .jk-alps-intro{margin:4px 0 5px!important;line-height:1.5!important}
+ html body #alps-records .jk-list-extra{margin:3px 0!important}
+ html body #alps-records .jk-alps-duplicate-record{display:none!important}
+ html body #alps-records .jk-list-course-row{gap:4px 6px;margin-top:5px!important}
+ html body #alps-records .jk-alps-source-action{font-size:12px!important;line-height:18px!important;padding:4px 9px!important;min-height:28px!important;margin:0!important;border-radius:8px}
  `;document.head.append(style);
  function destination(card){
   let url;
@@ -37,6 +44,12 @@
   if(action.textContent!==text)action.textContent=text;
   action.dataset.courseHref=href||'';action.setAttribute('aria-disabled',String(!href));
   action.title=href?'이 산행의 코스와 GPS 경로 보기':'연결된 실제 코스 자료가 아직 없습니다.';
+  if(page==='yeongnam-alps.html'){
+   // Keep the canonical link for asynchronous GPS recovery; expose only the course action.
+   const detail=card.querySelector(':scope>a.btn');if(detail)detail.classList.toggle('jk-alps-duplicate-record',!!href);
+   const source=[...card.querySelectorAll('a.btn[href]')].find(a=>{const u=new URL(a.href,location.href);return u.origin!==location.origin&&u.hostname==='www.ramblr.com';});
+   if(source){source.classList.add('jk-alps-source-action');if(source.parentElement!==row||action.nextElementSibling!==source)action.after(source);}
+  }
   const tags=card.querySelector('.jk-season-tags');if(tags&&tags.parentElement!==row)row.append(tags);
   if(card.lastElementChild!==row)card.append(row);
  }}
