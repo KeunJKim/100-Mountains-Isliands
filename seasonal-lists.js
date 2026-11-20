@@ -70,18 +70,20 @@
  if(map)anchor.after(tools,note);else anchor.before(tools,note);
  const noResults=make('p','계절·특징 조건에 맞는 항목이 없습니다. 전체 계절로 바꾸거나 검색어를 지워주세요.','jk-season-no-results');noResults.hidden=true;
  (table?root.closest('.table-wrap'):root).after(noResults);
- const memo=new WeakMap();
+ let memo=new WeakMap();
  function describe(card){
   const old=card.querySelector('.jk-season-tags');
   // Exclude our display tags when deriving the original record text.
-  const source=card.cloneNode(true);source.querySelectorAll('.jk-season-tags').forEach(n=>n.remove());const content=source.textContent||'';
-  if(memo.get(card)?.content===content)return memo.get(card);
+  const source=card.cloneNode(true);source.querySelectorAll('.jk-season-tags,.jk-guide-body').forEach(n=>n.remove());const content=source.textContent||'';
+  const guide=window.JKDestinationGuides?.items[card.dataset.guideId];if(memo.get(card)?.content===content&&memo.get(card)?.guide===guide)return memo.get(card);
   const title=table?source.children[2]?.textContent:source.querySelector('.map-row-name,h2,h3,strong')?.textContent||content;
   const dates=[...content.matchAll(/(?<!\d)(20\d{2})[-.](\d{2})[-.](\d{2})(?!\d)/g)];
-  const seasons=[...new Set(dates.filter(m=>+m[2]>=1&&+m[2]<=12&&+m[3]>=1&&+m[3]<=31).map(m=>{const month=+m[2];return month>=3&&month<=5?'봄':month>=6&&month<=8?'여름':month>=9&&month<=11?'가을':'겨울';}))];
+  let seasons=[...new Set(dates.filter(m=>+m[2]>=1&&+m[2]<=12&&+m[3]>=1&&+m[3]<=31).map(m=>{const month=+m[2];return month>=3&&month<=5?'봄':month>=6&&month<=8?'여름':month>=9&&month<=11?'가을':'겨울';}))];
+  if(card.dataset.visitSeasons)seasons=card.dataset.visitSeasons.split('·').filter(Boolean);
   const tags=[{text:seasons.length?'방문 '+seasons.join('·'):'방문 계절 미등록',kind:'visit'}];
-  const matched=highlights.filter(([re])=>re.test(title));
-  for(const [,season,feature,url]of matched)tags.push({text:season+' · '+feature,kind:'highlight',url});
+  const matched=guide?.highlights.length?guide.highlights.map(h=>[null,h.season,h.feature,window.JKDestinationGuides.sources[h.source]?.url]):highlights.filter(([re])=>re.test(title));
+  if(guide?.photoThemes.length)tags.push({text:'풍경 · '+guide.photoThemes.join('·'),kind:'category'});
+  for(const [,season,feature,url]of matched)tags.push({text:(season?season+' · ':'')+feature,kind:'highlight',url});
   if(config[2]==='island')for(const [re,feature]of [[/대마도/,'선착장 표지석'],[/안마도/,'선착장 표지석'],[/상조도/,'도리산 전망대'],[/백령도/,'최북단 백령도비'],[/독도/,'해상 인증 기록']])if(re.test(title))tags.push({text:'인증지 · '+feature,kind:'record'});
   // Features in the user's own record are tagged as recorded content, not as a forecast.
   for(const [re,feature]of [[/철쭉/,'철쭉'],[/진달래|참꽃/,'진달래'],[/단풍/,'단풍'],[/눈꽃|설경|설산|상고대/,'눈꽃·설경'],[/억새/,'억새'],[/음악회|오디세이/,'산중음악회']]){
@@ -92,7 +94,7 @@
   for(const tag of tags){const chip=make('span',tag.text,'jk-season-tag');chip.dataset.kind=tag.kind;if(tag.url)chip.title='볼거리 참고: '+tag.url;box.append(chip);}
   const destination=table?card.children[2]:card.querySelector('.map-row-copy')||(map?card.querySelector(':scope>span'):null)||card.querySelector(':scope>.card')||card;destination?.append(box);
   // Read stable text again because the destination may be nested inside the card.
-  const info={content,title,seasons,highlights:matched.map(x=>x[1]),text:[title,...tags.map(t=>t.text),content].join(' ').toLocaleLowerCase('ko')};memo.set(card,info);return info;
+  const info={content,title,seasons,guide,highlights:matched.map(x=>x[1]),text:[title,guide?.summary||'',...tags.map(t=>t.text),content].join(' ').toLocaleLowerCase('ko')};memo.set(card,info);return info;
  }
  let queued=false;
  function apply(){
@@ -106,5 +108,5 @@
  const schedule=()=>{if(queued)return;queued=true;requestAnimationFrame(()=>{queued=false;apply();});};
  new MutationObserver(schedule).observe(root,{subtree:true,childList:true});
  // Existing name/region/category searches continue to own their own visibility state.
- document.addEventListener('input',schedule);document.addEventListener('change',schedule);document.addEventListener('click',schedule);apply();
+ window.addEventListener('jk-destination-guides-ready',()=>{memo=new WeakMap();schedule();});document.addEventListener('input',schedule);document.addEventListener('change',schedule);document.addEventListener('click',schedule);apply();
 })();

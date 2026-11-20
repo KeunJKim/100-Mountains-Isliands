@@ -1,0 +1,4626 @@
+{
+  "version": 1,
+  "updated": "2026-11-20",
+  "note": "사진 소개는 업로드 앨범의 대표 장면 기준이며 방문 기록을 대체하지 않습니다. 계절 볼거리·개화·적설·행사 시기는 해마다 달라집니다.",
+  "sources": {
+    "flowers": {
+      "title": "국립공원 진달래·철쭉 안내",
+      "url": "https://mcee.go.kr/home/web/board/read.do?boardId=177194&boardMasterId=939"
+    },
+    "sobaek": {
+      "title": "단양군 소백산 꽃 관람 안내",
+      "url": "https://danyang.go.kr/ondal/642"
+    },
+    "maple": {
+      "title": "국립공원공단 내장산 가을 단풍",
+      "url": "https://www.knps.or.kr/front/portal/visit/visitVnewsDtl.do?vnewsId=VNEWSM001176"
+    },
+    "reeds": {
+      "title": "정책주간지 K-공감 신불산·간월재 억새",
+      "url": "https://gonggam.korea.kr/newsContentView.es?code_cd=0108000000&content=NC002&mid=a12604000000&news_id=0e2cb376-756f-4da0-aa78-91bd81f433d5&section_id=NCCD_CULTURE"
+    },
+    "jangsu": {
+      "title": "장수군 장안산 억새꽃",
+      "url": "https://www.jangsu.go.kr/tour/index.jangsu?menuCd=DOM_000000401001003005"
+    },
+    "oseo": {
+      "title": "충남관광 오서산·명대계곡",
+      "url": "https://tour.chungnam.go.kr/prog/trsrcn/kor/sub02_01_01/view.do?trsrcnNo=61"
+    },
+    "silver": {
+      "title": "산림청 가을 억새 산행 안내",
+      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156651789"
+    },
+    "spider": {
+      "title": "한국관광공사 꽃무릇 명소",
+      "url": "https://korean.visitkorea.or.kr/detail/rem_detail.do?cotid=be101250-1d6f-469c-aef1-44baef13e197"
+    },
+    "imja": {
+      "title": "한국관광공사 임자도 튤립·대광해변",
+      "url": "https://access.visitkorea.or.kr/cos/detail.do?cotId=e840f512-f7a9-4d65-a8cb-ad7f3d8cdda1"
+    },
+    "jisim": {
+      "title": "한국관광공사 지심도 동백숲",
+      "url": "https://korean.visitkorea.or.kr/detail/rem_detail.do?cotid=6a88a389-0ed5-4bb8-a90d-c3a835f7c073"
+    },
+    "geomun": {
+      "title": "여수시 거문도·백도",
+      "url": "https://www.yeosu.go.kr/tour/travel/island/geomundo_baekdo"
+    },
+    "ssuk": {
+      "title": "고흥군 쑥섬 정원·동백길",
+      "url": "https://tour.goheung.go.kr/front/M0000079/region/view.do?tourId=TO000032"
+    },
+    "ssukflower": {
+      "title": "쑥섬 공식 꽃·숲 안내",
+      "url": "https://www.ssookseom.com/user/sub3020"
+    },
+    "bijin": {
+      "title": "한국관광공사 비진도 산호길",
+      "url": "https://korean.visitkorea.or.kr/detail/ms_detail.do?cotid=9123ed1f-7011-4578-b891-bfcb88c610f6"
+    },
+    "jangsa": {
+      "title": "정책브리핑 거제 동백숲 안내",
+      "url": "https://www.korea.kr/briefing/policyBriefingView.do?newsId=148848445"
+    },
+    "gureop": {
+      "title": "한국관광공사 굴업도 초지·해변",
+      "url": "https://korean.visitkorea.or.kr/detail/rem_detail.do?cotid=13170af7-e8b8-47be-885c-2d478926ac01"
+    },
+    "dalma": {
+      "title": "한국관광공사 달마산",
+      "url": "https://korean.visitkorea.or.kr/detail/ms_detail.do?cotid=db34599c-7e43-4bab-9ebe-5438bc3f08e9"
+    },
+    "samak": {
+      "title": "한국관광공사 삼악산·의암호",
+      "url": "https://korean.visitkorea.or.kr/detail/ms_detail.do?cotid=8abcb54d-20cc-4712-99c0-2ccbc5370c51"
+    },
+    "hwangmae": {
+      "title": "산청군 황매산 철쭉·억새 안내",
+      "url": "https://www.sancheong.go.kr/tour/selectTourView.do?ctgryNo=29&key=5265&tourNo=892"
+    },
+    "barae": {
+      "title": "한국관광공사 바래봉 철쭉 안내",
+      "url": "https://korean.visitkorea.or.kr/detail/rem_detail.do?cotid=62ea4048-a42e-4537-bb6b-d3582908cc93"
+    },
+    "biseul": {
+      "title": "달성군 비슬산 참꽃 안내",
+      "url": "https://dalseong.daegu.kr/culture/index.do?menu_id=00001971&servletPath=%2Fculture"
+    },
+    "snow": {
+      "title": "정책주간지 K-공감 겨울 눈꽃 산행",
+      "url": "https://gonggam.korea.kr/newsContentView.es?code_cd=&content=&mid=a12602000000&news_id=EBC6D4010D2D4203E0540021F662AC5F&section_id=NCCD_JH"
+    },
+    "sobaekpark": {
+      "title": "국립공원공단 소백산 사계절",
+      "url": "https://www.knps.or.kr/front/portal/visit/visitCourseMain.do?menuNo=7020094&parkId=121600"
+    },
+    "hwawang": {
+      "title": "산림청 화왕산 진달래·억새",
+      "url": "https://www.forest.go.kr/kfsweb/kfi/kfs/foreston/main/contents/ClbngManage/selectMntnInfoDetail.do?mntnId=20000681"
+    }
+  },
+  "items": {
+    "m-1": {
+      "name": "가리산(홍천)",
+      "summary": "눈 덮인 정상석과 바위 봉우리에서 겨울 산의 시원한 풍경을 만납니다.",
+      "photoThemes": [
+        "눈",
+        "바위 조망"
+      ],
+      "highlights": [],
+      "photoCount": 11,
+      "cover": {
+        "src": "photos/mountain-001-a66b8fbf-85a.jpg",
+        "date": "2023-02-05",
+        "alt": "가리산(홍천) 산행 대표 사진",
+        "photoId": "a66b8fbf-85a0-43c8-bf3f-95d9505cae86"
+      },
+      "reviewedPhotoIds": [
+        "74a7dc38-963b-44f8-b612-7137817efbb6",
+        "a66b8fbf-85a0-43c8-bf3f-95d9505cae86"
+      ],
+      "basis": "uploaded-photo-review",
+      "sources": []
+    },
+    "m-2": {
+      "name": "가리왕산",
+      "summary": "짙은 숲과 바위 사이를 걷는 길, 초록으로 채워진 산행의 여유를 담았습니다.",
+      "photoThemes": [
+        "숲길",
+        "신록"
+      ],
+      "highlights": [],
+      "photoCount": 10,
+      "cover": {
+        "src": "photos/update-20261120-8df5a611f54945ba9031e4f4.webp",
+        "date": "2022-09-19",
+        "alt": "가리왕산 산행 대표 사진",
+        "photoId": "update-8df5a611f54945ba9031e4f4"
+      },
+      "reviewedPhotoIds": [
+        "update-68c6f2b35ae16106beb7856f",
+        "update-8df5a611f54945ba9031e4f4"
+      ],
+      "basis": "uploaded-photo-review",
+      "sources": []
+    },
+    "m-3": {
+      "name": "가야산(합천)",
+      "summary": "출렁이는 다리와 눈 얹힌 정상 풍경이 서로 다른 계절의 매력을 전합니다.",
+      "photoThemes": [
+        "다리",
+        "설경"
+      ],
+      "highlights": [],
+      "photoCount": 18,
+      "cover": {
+        "src": "photos/local-d6ede57b49c21a56011e.jpg",
+        "date": "2021-12-04",
+        "alt": "가야산(합천) 산행 대표 사진",
+        "photoId": "local-d6ede57b49c21a56011e"
+      },
+      "reviewedPhotoIds": [
+        "local-d6ede57b49c21a56011e",
+        "local-cd8ea4c92dcf2342a8c3"
+      ],
+      "basis": "uploaded-photo-review",
+      "sources": []
+    },
+    "m-4": {
+      "name": "가야산(충남)",
+      "summary": "눈 쌓인 숲길과 바위 정상으로 이어지는 겨울 산행을 담았습니다.",
+      "photoThemes": [
+        "눈길",
+        "정상 조망"
+      ],
+      "highlights": [],
+      "photoCount": 4,
+      "cover": {
+        "src": "photos/local-d2325283aeb330214944.jpg",
+        "date": "2021-12-26",
+        "alt": "가야산(충남) 산행 대표 사진",
+        "photoId": "local-d2325283aeb330214944"
+      },
+      "reviewedPhotoIds": [
+        "local-d2325283aeb330214944",
+        "local-4773d32b1ba998a7796f"
+      ],
+      "basis": "uploaded-photo-review",
+      "sources": []
+    },
+    "m-5": {
+      "name": "가지산",
+      "summary": "하얀 눈길을 지나 영남알프스의 높은 능선을 만나는 산입니다.",
+      "photoThemes": [
+        "눈",
+        "능선"
+      ],
+      "highlights": [],
+      "photoCount": 209,
+      "cover": {
+        "src": "photos/mountain-005-a615a8d3-042.jpg",
+        "date": "2021-02-27",
+        "alt": "가지산 산행 대표 사진",
+        "photoId": "a615a8d3-042a-4b57-9c97-9160a694ff70"
+      },
+      "reviewedPhotoIds": [
+        "a615a8d3-042a-4b57-9c97-9160a694ff70",
+        "update-8dade939ec9870abff5ba388"
+      ],
+      "basis": "uploaded-photo-review",
+      "sources": []
+    },
+    "m-6": {
+      "name": "감악산(원주)",
+      "summary": "산사의 고요함과 초록 숲이 어우러지는 길을 걸어봅니다.",
+      "photoThemes": [
+        "산사",
+        "숲길"
+      ],
+      "highlights": [],
+      "photoCount": 14,
+      "cover": {
+        "src": "photos/update-20261120-0126ee05714ac695d27bc0da.webp",
+        "date": "2023-05-29",
+        "alt": "감악산(원주) 산행 대표 사진",
+        "photoId": "update-0126ee05714ac695d27bc0da"
+      },
+      "reviewedPhotoIds": [
+        "update-895e113b182743a81e3b4d26",
+        "update-0126ee05714ac695d27bc0da"
+      ],
+      "basis": "uploaded-photo-review",
+      "sources": []
+    },
+    "m-7": {
+      "name": "감악산(파주)",
+      "summary": "푸른 하늘 아래 정상석과 붉은 출렁다리가 산행의 장면을 남깁니다.",
+      "photoThemes": [
+        "출렁다리",
+        "정상"
+      ],
+      "highlights": [],
+      "photoCount": 21,
+      "cover": {
+        "src": "photos/update-20261120-ec95c1445b2333a6642b9ab1.webp",
+        "date": "2023-03-26",
+        "alt": "감악산(파주) 산행 대표 사진",
+        "photoId": "update-ec95c1445b2333a6642b9ab1"
+      },
+      "reviewedPhotoIds": [
+        "update-224d3c107791b1ca3c859370",
+        "update-ec95c1445b2333a6642b9ab1"
+      ],
+      "basis": "uploaded-photo-review",
+      "sources": []
+    },
+    "m-8": {
+      "name": "계룡산",
+      "summary": "산문에서 시작해 나무 그늘로 이어지는 차분한 숲 산행입니다.",
+      "photoThemes": [
+        "산사",
+        "숲길"
+      ],
+      "highlights": [],
+      "photoCount": 11,
+      "cover": {
+        "src": "photos/update-20261120-0cff6527f7326257951f8d3b.webp",
+        "date": "2022-09-12",
+        "alt": "계룡산 산행 대표 사진",
+        "photoId": "update-0cff6527f7326257951f8d3b"
+      },
+      "reviewedPhotoIds": [
+        "update-0cff6527f7326257951f8d3b",
+        "update-284a1e47682821af4dc0ad30"
+      ],
+      "basis": "uploaded-photo-review",
+      "sources": []
+    },
+    "m-9": {
+      "name": "계방산",
+      "summary": "안개 낀 이정표와 맑은 날의 바위 조망, 날씨에 따라 표정이 바뀝니다.",
+      "photoThemes": [
+        "운무",
+        "바위"
+      ],
+      "highlights": [],
+      "photoCount": 19,
+      "cover": {
+        "src": "photos/update-20261120-c88cba023bfd297683bc33df.webp",
+        "date": "2023-08-16",
+        "alt": "계방산 산행 대표 사진",
+        "photoId": "update-c88cba023bfd297683bc33df"
+      },
+      "reviewedPhotoIds": [
+        "local-6f93cd030896c4d89c48",
+        "update-c88cba023bfd297683bc33df"
+      ],
+      "basis": "uploaded-photo-review",
+      "sources": []
+    },
+    "m-10": {
+      "name": "관악산",
+      "summary": "도시 가까이에서 바위 능선과 탁 트인 하늘을 만납니다.",
+      "photoThemes": [
+        "암릉",
+        "정상 조망"
+      ],
+      "highlights": [],
+      "photoCount": 8,
+      "cover": {
+        "src": "photos/update-20261120-0034f00703c954af3b777ef1.webp",
+        "date": "2022-11-19",
+        "alt": "관악산 산행 대표 사진",
+        "photoId": "update-0034f00703c954af3b777ef1"
+      },
+      "reviewedPhotoIds": [
+        "update-0034f00703c954af3b777ef1",
+        "update-df248c6b1eeb1198a4fd5820"
+      ],
+      "basis": "uploaded-photo-review",
+      "sources": []
+    },
+    "m-11": {
+      "name": "광덕산",
+      "summary": "숲 사이로 난 하얀 길을 따라 걷는 조용한 겨울 산행입니다.",
+      "photoThemes": [
+        "눈",
+        "숲길"
+      ],
+      "highlights": [],
+      "photoCount": 7,
+      "cover": {
+        "src": "photos/local-61677f8f2018bbf7243f.jpg",
+        "date": "2021-12-25",
+        "alt": "광덕산 산행 대표 사진",
+        "photoId": "local-61677f8f2018bbf7243f"
+      },
+      "reviewedPhotoIds": [
+        "local-61677f8f2018bbf7243f",
+        "local-a30afedcc699384b9f82"
+      ],
+      "basis": "uploaded-photo-review",
+      "sources": []
+    },
+    "m-12": {
+      "name": "구병산(보은)",
+      "summary": "초록 산길과 바위 구간을 따라 이어지는 능선 산행을 담았습니다.",
+      "photoThemes": [
+        "신록",
+        "바위"
+      ],
+      "highlights": [],
+      "photoCount": 14,
+      "cover": {
+        "src": "photos/ramblr-4545113-001.jpg",
+        "date": "2022-09-11",
+        "alt": "구병산(보은) 산행 대표 사진",
+        "photoId": "ramblr-4545113-1"
+      },
+      "reviewedPhotoIds": [
+        "ramblr-4545113-1",
+        "update-2f3f105d2c43996bade95e1b"
+      ],
+      "basis": "uploaded-photo-review",
+      "sources": []
+    },
+    "m-13": {
+      "name": "구봉산(진안)",
+      "summary": "숲길의 이정표와 봉우리 사이 쉼터가 산행의 리듬을 만듭니다.",
+      "photoThemes": [
+        "숲길",
+        "봉우리"
+      ],
+      "highlights": [],
+      "photoCount": 17,
+      "cover": {
+        "src": "photos/update-20261120-4b0b218666f5c8e68823001c.webp",
+        "date": "2022-04-10",
+        "alt": "구봉산(진안) 산행 대표 사진",
+        "photoId": "update-4b0b218666f5c8e68823001c"
+      },
+      "reviewedPhotoIds": [
+        "update-4b0b218666f5c8e68823001c",
+        "update-9bbf706dad267f8090638317"
+      ],
+      "basis": "uploaded-photo-review",
+      "sources": []
+    },
+    "m-14": {
+      "name": "금수산",
+      "summary": "계단과 바위가 이어지는 길에서 산을 오르는 재미를 느낍니다.",
+      "photoThemes": [
+        "계단",
+        "암릉"
+      ],
+      "highlights": [],
+      "photoCount": 8,
+      "cover": {
+        "src": "photos/update-20261120-8b2b5b478df4b7cd39abec72.webp",
+        "date": "2023-02-18",
+        "alt": "금수산 산행 대표 사진",
+        "photoId": "update-8b2b5b478df4b7cd39abec72"
+      },
+      "reviewedPhotoIds": [
+        "update-8b2b5b478df4b7cd39abec72",
+        "update-9056151d8ab80f40c578dc62"
+      ],
+      "basis": "uploaded-photo-review",
+      "sources": []
+    },
+    "m-15": {
+      "name": "금오산",
+      "summary": "폭포와 전망 정자가 산행 중 눈길을 붙잡는 산입니다.",
+      "photoThemes": [
+        "폭포",
+        "전망"
+      ],
+      "highlights": [],
+      "photoCount": 12,
+      "cover": {
+        "src": "photos/local-3a093620d14cab7269c3.jpg",
+        "date": "2021-10-17",
+        "alt": "금오산 산행 대표 사진",
+        "photoId": "local-3a093620d14cab7269c3"
+      },
+      "reviewedPhotoIds": [
+        "local-53b51a39ac1d9fe066fd",
+        "local-3a093620d14cab7269c3"
+      ],
+      "basis": "uploaded-photo-review",
+      "sources": []
+    },
+    "m-16": {
+      "name": "금정산",
+      "summary": "푸른 산자락 너머 바위 정상에 서는 즐거움을 담았습니다.",
+      "photoThemes": [
+        "신록",
+        "바위 조망"
+      ],
+      "highlights": [],
+      "photoCount": 7,
+      "cover": {
+        "src": "photos/local-15c1bbb5e285fa150375.jpg",
+        "date": "2021-06-05",
+        "alt": "금정산 산행 대표 사진",
+        "photoId": "local-15c1bbb5e285fa150375"
+      },
+      "reviewedPhotoIds": [
+        "local-b6624a52df3a6c4be82b",
+        "local-15c1bbb5e285fa150375"
+      ],
+      "basis": "uploaded-photo-review",
+      "sources": []
+    },
+    "m-17": {
+      "name": "남산(경주)",
+      "summary": "숲길에서 만나는 석탑과 바위가 경주의 산행에 이야기를 더합니다.",
+      "photoThemes": [
+        "석탑",
+        "역사 산행"
+      ],
+      "highlights": [],
+      "photoCount": 55,
+      "cover": {
+        "src": "photos/local-4fa0cdb4d249d02d11a1.jpg",
+        "date": "2021-06-27",
+        "alt": "남산(경주) 산행 대표 사진",
+        "photoId": "local-4fa0cdb4d249d02d11a1"
+      },
+      "reviewedPhotoIds": [
+        "local-4fa0cdb4d249d02d11a1",
+        "update-cea3101d80af3d93a5bdc894"
+      ],
+      "basis": "uploaded-photo-review",
+      "sources": []
+    },
+    "m-18": {
+      "name": "내변산(변산)",
+      "summary": "바위 절벽과 안개 어린 숲길이 어우러지는 풍경을 담았습니다.",
+      "photoThemes": [
+        "기암",
+        "숲길"
+      ],
+      "highlights": [],
+      "photoCount": 19,
+      "cover": {
+        "src": "photos/update-20261120-e42ba103273adca12b9f1251.webp",
+        "date": "2022-03-01",
+        "alt": "내변산(변산) 산행 대표 사진",
+        "photoId": "update-e42ba103273adca12b9f1251"
+      },
+      "reviewedPhotoIds": [
+        "update-b713337e353baa804668d7d3",
+        "update-e42ba103273adca12b9f1251"
+      ],
+      "basis": "uploaded-photo-review",
+      "sources": []
+    },
+    "m-19": {
+      "name": "내연산",
+      "summary": "길게 뻗은 나무와 맑은 계곡 물빛이 기억에 남는 산입니다.",
+      "photoThemes": [
+        "계곡",
+        "숲길"
+      ],
+      "highlights": [],
+      "photoCount": 17,
+      "cover": {
+        "src": "photos/local-6a8defc304befd39e7e8.jpg",
+        "date": "2021-10-23",
+        "alt": "내연산 산행 대표 사진",
+        "photoId": "local-6a8defc304befd39e7e8"
+      },
+      "reviewedPhotoIds": [
+        "local-e4f58cf25b57f5d64191",
+        "local-6a8defc304befd39e7e8"
+      ],
+      "basis": "uploaded-photo-review",
+      "sources": []
+    },
+    "m-20": {
+      "name": "내장산",
+      "summary": "노랗고 붉게 물든 나무 아래에서 가을 산책의 여유를 만납니다.",
+      "photoThemes": [
+        "단풍",
+        "산책"
+      ],
+      "highlights": [
+        {
+          "season": "가을",
+          "feature": "단풍철",
+          "source": "maple"
+        }
+      ],
+      "photoCount": 17,
+      "cover": {
+        "src": "photos/local-7318c0fb9ead4e8433ba.jpg",
+        "date": "2021-11-05",
+        "alt": "내장산 산행 대표 사진",
+        "photoId": "local-7318c0fb9ead4e8433ba"
+      },
+      "reviewedPhotoIds": [
+        "local-7318c0fb9ead4e8433ba",
+        "local-46925d43a709b6212f1f"
+      ],
+      "basis": "uploaded-photo-review",
+      "sources": []
+    },
+    "m-21": {
+      "name": "노인봉(오대산)",
+      "summary": "폭포의 물줄기와 붉은 낙엽길이 한 앨범에 담긴 산입니다.",
+      "photoThemes": [
+        "폭포",
+        "단풍"
+      ],
+      "highlights": [],
+      "photoCount": 12,
+      "cover": {
+        "src": "photos/local-05d4633ff9a071736912.jpg",
+        "date": "2021-10-10",
+        "alt": "노인봉(오대산) 산행 대표 사진",
+        "photoId": "local-05d4633ff9a071736912"
+      },
+      "reviewedPhotoIds": [
+        "local-e04441119a5792cb964f",
+        "local-05d4633ff9a071736912"
+      ],
+      "basis": "uploaded-photo-review",
+      "sources": []
+    },
+    "m-22": {
+      "name": "달마산",
+      "summary": "바위 능선 너머 다도해가 펼쳐지는 해남의 산입니다.",
+      "photoThemes": [],
+      "highlights": [],
+      "photoCount": 0,
+      "cover": null,
+      "reviewedPhotoIds": [],
+      "basis": "official-tourism",
+      "sources": [
+        "dalma"
+      ]
+    },
+    "m-23": {
+      "name": "대둔산",
+      "summary": "붉은 다리와 가을빛 능선이 어우러지는 바위 산행입니다.",
+      "photoThemes": [
+        "단풍",
+        "다리"
+      ],
+      "highlights": [],
+      "photoCount": 37,
+      "cover": {
+        "src": "photos/update-20261120-0e9f03222dbfea7a2d04dd04.webp",
+        "date": "2023-10-29",
+        "alt": "대둔산 산행 대표 사진",
+        "photoId": "update-0e9f03222dbfea7a2d04dd04"
+      },
+      "reviewedPhotoIds": [
+        "local-8c7e4bde12633bbf0273",
+        "update-0e9f03222dbfea7a2d04dd04"
+      ],
+      "basis": "uploaded-photo-review",
+      "sources": []
+    },
+    "m-24": {
+      "name": "대야산",
+      "summary": "커다란 바위 틈과 숲속 계단이 이어지는 길을 담았습니다.",
+      "photoThemes": [
+        "바위",
+        "숲길"
+      ],
+      "highlights": [],
+      "photoCount": 14,
+      "cover": {
+        "src": "photos/update-20261120-0069d170cd74fa1de9840855.webp",
+        "date": "2022-11-06",
+        "alt": "대야산 산행 대표 사진",
+        "photoId": "update-0069d170cd74fa1de9840855"
+      },
+      "reviewedPhotoIds": [
+        "update-0069d170cd74fa1de9840855",
+        "update-dc19e474b8c3964c9309a5f4"
+      ],
+      "basis": "uploaded-photo-review",
+      "sources": []
+    },
+    "m-25": {
+      "name": "덕룡산",
+      "summary": "거친 바위 봉우리와 열린 능선에서 남도의 산세를 만납니다.",
+      "photoThemes": [
+        "암릉",
+        "능선"
+      ],
+      "highlights": [],
+      "photoCount": 36,
+      "cover": {
+        "src": "photos/update-20261120-f37bdaad1cc6fe1cee5d096e.webp",
+        "date": "2022-01-09",
+        "alt": "덕룡산 산행 대표 사진",
+        "photoId": "update-f37bdaad1cc6fe1cee5d096e"
+      },
+      "reviewedPhotoIds": [
+        "update-f37bdaad1cc6fe1cee5d096e",
+        "update-9bc19e9076feafbdd2d527ca"
+      ],
+      "basis": "uploaded-photo-review",
+      "sources": []
+    },
+    "m-26": {
+      "name": "덕유산",
+      "summary": "눈 덮인 넓은 산길과 향적봉의 하얀 풍경이 겨울을 채웁니다.",
+      "photoThemes": [
+        "눈",
+        "설경"
+      ],
+      "highlights": [
+        {
+          "season": "겨울",
+          "feature": "눈꽃·설경",
+          "source": "snow"
+        }
+      ],
+      "photoCount": 47,
+      "cover": {
+        "src": "photos/update-20261120-2a90e1a2b46ae1cff094d482.webp",
+        "date": "2024-01-28",
+        "alt": "덕유산 산행 대표 사진",
+        "photoId": "update-2a90e1a2b46ae1cff094d482"
+      },
+      "reviewedPhotoIds": [
+        "local-42832687fa63a07eb315",
+        "update-2a90e1a2b46ae1cff094d482"
+      ],
+      "basis": "uploaded-photo-review",
+      "sources": []
+    },
+    "m-27": {
+      "name": "덕항산",
+      "summary": "나무 사이 낙엽길을 따라 바위산의 능선으로 향합니다.",
+      "photoThemes": [
+        "숲길",
+        "낙엽"
+      ],
+      "highlights": [],
+      "photoCount": 7,
+      "cover": {
+        "src": "photos/update-20261120-a707e8803e33962b4f974587.webp",
+        "date": "2022-04-01",
+        "alt": "덕항산 산행 대표 사진",
+        "photoId": "update-a707e8803e33962b4f974587"
+      },
+      "reviewedPhotoIds": [
+        "update-a707e8803e33962b4f974587",
+        "update-45cf020b6f262c5753c784f8"
+      ],
+      "basis": "uploaded-photo-review",
+      "sources": []
+    },
+    "m-28": {
+      "name": "도락산",
+      "summary": "바위에 뿌리내린 소나무와 능선의 입체적인 풍경을 담았습니다.",
+      "photoThemes": [
+        "소나무",
+        "암릉"
+      ],
+      "highlights": [],
+      "photoCount": 13,
+      "cover": {
+        "src": "photos/update-20261120-c7ac426465798feaf9382aee.webp",
+        "date": "2022-12-03",
+        "alt": "도락산 산행 대표 사진",
+        "photoId": "update-c7ac426465798feaf9382aee"
+      },
+      "reviewedPhotoIds": [
+        "update-c7ac426465798feaf9382aee",
+        "update-6eee4ee4edf07fa74e68797a"
+      ],
+      "basis": "uploaded-photo-review",
+      "sources": []
+    },
+    "m-29": {
+      "name": "도봉산",
+      "summary": "붉은 단풍 아래 나무계단을 따라 걷는 가을 산행입니다.",
+      "photoThemes": [
+        "단풍",
+        "계단길"
+      ],
+      "highlights": [],
+      "photoCount": 17,
+      "cover": {
+        "src": "photos/update-20261120-5c660d1f313ffaef4e64212d.webp",
+        "date": "2022-10-16",
+        "alt": "도봉산 산행 대표 사진",
+        "photoId": "update-5c660d1f313ffaef4e64212d"
+      },
+      "reviewedPhotoIds": [
+        "update-1ba08d2c841ea9407e2d57c9",
+        "update-5c660d1f313ffaef4e64212d"
+      ],
+      "basis": "uploaded-photo-review",
+      "sources": []
+    },
+    "m-30": {
+      "name": "동악산(곡성)",
+      "summary": "탁 트인 바위 정상에 서서 곡성의 산줄기를 바라봅니다.",
+      "photoThemes": [
+        "정상 조망",
+        "바위"
+      ],
+      "highlights": [],
+      "photoCount": 10,
+      "cover": {
+        "src": "photos/tranggle-dongaksan-20220529-summary.jpg",
+        "date": "2022-05-29",
+        "alt": "동악산(곡성) 산행 대표 사진",
+        "photoId": "tranggle-dongaksan-20220529-summary"
+      },
+      "reviewedPhotoIds": [
+        "tranggle-dongaksan-20220529-summary",
+        "update-04e9281eeb6155e801e9157a"
+      ],
+      "basis": "uploaded-photo-review",
+      "sources": []
+    },
+    "m-31": {
+      "name": "두륜산",
+      "summary": "기암이 이어진 산세와 열린 정상의 풍경을 함께 담았습니다.",
+      "photoThemes": [
+        "기암",
+        "능선"
+      ],
+      "highlights": [],
+      "photoCount": 9,
+      "cover": {
+        "src": "photos/update-20261120-dca68959d8d301f8a5164e59.webp",
+        "date": "2022-01-09",
+        "alt": "두륜산 산행 대표 사진",
+        "photoId": "update-dca68959d8d301f8a5164e59"
+      },
+      "reviewedPhotoIds": [
+        "update-7076414efec639e23c7083c3",
+        "update-dca68959d8d301f8a5164e59"
+      ],
+      "basis": "uploaded-photo-review",
+      "sources": []
+    },
+    "m-32": {
+      "name": "두타산",
+      "summary": "눈 얹힌 정상과 바위 전망대, 다른 계절의 산세를 비교해 보세요.",
+      "photoThemes": [
+        "바위",
+        "눈"
+      ],
+      "highlights": [],
+      "photoCount": 44,
+      "cover": {
+        "src": "photos/update-20261120-03e0a0f37e1e6afe492af5d1.webp",
+        "date": "2023-07-01",
+        "alt": "두타산 산행 대표 사진",
+        "photoId": "update-03e0a0f37e1e6afe492af5d1"
+      },
+      "reviewedPhotoIds": [
+        "update-ae32d1daddc90ee02a35aef2",
+        "update-03e0a0f37e1e6afe492af5d1"
+      ],
+      "basis": "uploaded-photo-review",
+      "sources": []
+    },
+    "m-33": {
+      "name": "마니산(강화도)",
+      "summary": "정상 인증의 순간과 노을빛 풍경이 산행의 기억을 더합니다.",
+      "photoThemes": [
+        "정상",
+        "노을"
+      ],
+      "highlights": [],
+      "photoCount": 8,
+      "cover": {
+        "src": "photos/update-20261120-d2d553075cbf961484ec3117.webp",
+        "date": "2022-06-04",
+        "alt": "마니산(강화도) 산행 대표 사진",
+        "photoId": "update-d2d553075cbf961484ec3117"
+      },
+      "reviewedPhotoIds": [
+        "update-fca8d4e71c5f19dfab843f0d",
+        "update-d2d553075cbf961484ec3117"
+      ],
+      "basis": "uploaded-photo-review",
+      "sources": []
+    },
+    "m-34": {
+      "name": "마이산(진안)",
+      "summary": "독특한 두 봉우리와 봄빛 산책길이 눈길을 끕니다.",
+      "photoThemes": [
+        "봉우리",
+        "봄 풍경"
+      ],
+      "highlights": [],
+      "photoCount": 11,
+      "cover": {
+        "src": "photos/update-20261120-3dae9db7e478661ab35bb8e5.webp",
+        "date": "2022-04-10",
+        "alt": "마이산(진안) 산행 대표 사진",
+        "photoId": "update-3dae9db7e478661ab35bb8e5"
+      },
+      "reviewedPhotoIds": [
+        "update-3dae9db7e478661ab35bb8e5",
+        "update-aeaae5c92f471a58cc82a161"
+      ],
+      "basis": "uploaded-photo-review",
+      "sources": []
+    },
+    "m-35": {
+      "name": "천마산",
+      "summary": "바위 정상에 올라 하늘과 멀리 이어지는 산줄기를 만납니다.",
+      "photoThemes": [
+        "바위",
+        "정상 조망"
+      ],
+      "highlights": [],
+      "photoCount": 5,
+      "cover": {
+        "src": "photos/update-20261120-80e0170ac88703fad2a77870.webp",
+        "date": "2023-03-26",
+        "alt": "천마산 산행 대표 사진",
+        "photoId": "update-80e0170ac88703fad2a77870"
+      },
+      "reviewedPhotoIds": [
+        "update-80e0170ac88703fad2a77870",
+        "update-a62a97bebf0f331a2e4c9969"
+      ],
+      "basis": "uploaded-photo-review",
+      "sources": []
+    },
+    "m-36": {
+      "name": "명지산",
+      "summary": "비와 안개 속 정상, 초록 산길이 차분한 분위기를 전합니다.",
+      "photoThemes": [
+        "신록",
+        "운무"
+      ],
+      "highlights": [],
+      "photoCount": 8,
+      "cover": {
+        "src": "photos/update-20261120-a360e41bbc8d1506391612c8.webp",
+        "date": "2023-05-28",
+        "alt": "명지산 산행 대표 사진",
+        "photoId": "update-a360e41bbc8d1506391612c8"
+      },
+      "reviewedPhotoIds": [
+        "update-19961aa80117643572babc67",
+        "update-a360e41bbc8d1506391612c8"
+      ],
+      "basis": "uploaded-photo-review",
+      "sources": []
+    },
+    "m-37": {
+      "name": "모악산",
+      "summary": "정상에서 펼쳐지는 전망과 산행 후 쉬어가는 시간을 담았습니다.",
+      "photoThemes": [
+        "정상 조망",
+        "쉼"
+      ],
+      "highlights": [],
+      "photoCount": 5,
+      "cover": {
+        "src": "photos/update-20261120-9361a7b68bde6850becaab43.webp",
+        "date": "2022-06-18",
+        "alt": "모악산 산행 대표 사진",
+        "photoId": "update-9361a7b68bde6850becaab43"
+      },
+      "reviewedPhotoIds": [
+        "update-9361a7b68bde6850becaab43",
+        "update-7e7d99f4af322f3f974baebe"
+      ],
+      "basis": "uploaded-photo-review",
+      "sources": []
+    },
+    "m-38": {
+      "name": "무등산",
+      "summary": "널찍한 정상부와 바위 풍경을 따라 산 위의 시야가 열립니다.",
+      "photoThemes": [
+        "바위",
+        "정상 조망"
+      ],
+      "highlights": [],
+      "photoCount": 18,
+      "cover": {
+        "src": "photos/update-20261120-10a9ddd1021e4a94e7254354.webp",
+        "date": "2022-01-15",
+        "alt": "무등산 산행 대표 사진",
+        "photoId": "update-10a9ddd1021e4a94e7254354"
+      },
+      "reviewedPhotoIds": [
+        "update-10a9ddd1021e4a94e7254354",
+        "update-9ae9cab22e83ec357658fc38"
+      ],
+      "basis": "uploaded-photo-review",
+      "sources": []
+    },
+    "m-39": {
+      "name": "민주지산",
+      "summary": "눈이 남은 숲길과 정상의 겨울빛이 차분하게 이어집니다.",
+      "photoThemes": [
+        "눈",
+        "숲길"
+      ],
+      "highlights": [],
+      "photoCount": 10,
+      "cover": {
+        "src": "photos/local-bbc793c3b61e0df86835.jpg",
+        "date": "2021-11-28",
+        "alt": "민주지산 산행 대표 사진",
+        "photoId": "local-bbc793c3b61e0df86835"
+      },
+      "reviewedPhotoIds": [
+        "local-bbc793c3b61e0df86835",
+        "local-af67e699408be3aa5218"
+      ],
+      "basis": "uploaded-photo-review",
+      "sources": []
+    },
+    "m-40": {
+      "name": "바래봉(지리산)",
+      "summary": "분홍 철쭉 사이로 난 길을 따라 봄 산의 색을 만납니다.",
+      "photoThemes": [
+        "철쭉",
+        "꽃길"
+      ],
+      "highlights": [
+        {
+          "season": "봄",
+          "feature": "철쭉철",
+          "source": "barae"
+        }
+      ],
+      "photoCount": 14,
+      "cover": {
+        "src": "photos/update-20261120-b3d79a2f9e6de303458a9fe2.webp",
+        "date": "2022-05-15",
+        "alt": "바래봉(지리산) 산행 대표 사진",
+        "photoId": "update-b3d79a2f9e6de303458a9fe2"
+      },
+      "reviewedPhotoIds": [
+        "update-97a1c16a6e8475f186e7bcc7",
+        "update-b3d79a2f9e6de303458a9fe2"
+      ],
+      "basis": "uploaded-photo-review",
+      "sources": []
+    },
+    "m-41": {
+      "name": "반야봉(지리산)",
+      "summary": "이른 빛을 받는 산길과 넓은 하늘이 높은 산의 여운을 남깁니다.",
+      "photoThemes": [
+        "여명",
+        "정상 조망"
+      ],
+      "highlights": [],
+      "photoCount": 10,
+      "cover": {
+        "src": "photos/update-20261120-99239536ab5b52138af7fdae.webp",
+        "date": "2022-06-18",
+        "alt": "반야봉(지리산) 산행 대표 사진",
+        "photoId": "update-99239536ab5b52138af7fdae"
+      },
+      "reviewedPhotoIds": [
+        "update-99239536ab5b52138af7fdae",
+        "update-9801ceceeb9045a32db7dc73"
+      ],
+      "basis": "uploaded-photo-review",
+      "sources": []
+    },
+    "m-42": {
+      "name": "방장산",
+      "summary": "열린 능선과 산줄기의 겹침이 시원한 전망을 만듭니다.",
+      "photoThemes": [
+        "능선",
+        "조망"
+      ],
+      "highlights": [],
+      "photoCount": 9,
+      "cover": {
+        "src": "photos/update-20261120-7fde7cfd6029c040379d158c.webp",
+        "date": "2022-02-28",
+        "alt": "방장산 산행 대표 사진",
+        "photoId": "update-7fde7cfd6029c040379d158c"
+      },
+      "reviewedPhotoIds": [
+        "update-7fde7cfd6029c040379d158c",
+        "update-8375fd5027b079f6e3427bfd"
+      ],
+      "basis": "uploaded-photo-review",
+      "sources": []
+    },
+    "m-43": {
+      "name": "방태산",
+      "summary": "초록 숲과 안개가 더해진 정상에서 깊은 산의 고요함을 느낍니다.",
+      "photoThemes": [
+        "신록",
+        "숲길"
+      ],
+      "highlights": [],
+      "photoCount": 10,
+      "cover": {
+        "src": "photos/update-20261120-2dc2a0887a82d8312eed1526.webp",
+        "date": "2023-05-28",
+        "alt": "방태산 산행 대표 사진",
+        "photoId": "update-2dc2a0887a82d8312eed1526"
+      },
+      "reviewedPhotoIds": [
+        "update-2dc2a0887a82d8312eed1526",
+        "update-7ee6e38d50eca59ce1854ce9"
+      ],
+      "basis": "uploaded-photo-review",
+      "sources": []
+    },
+    "m-44": {
+      "name": "백덕산",
+      "summary": "바위 정상의 넓은 시야와 푸른 산세를 담은 산행입니다.",
+      "photoThemes": [
+        "정상",
+        "바위 조망"
+      ],
+      "highlights": [],
+      "photoCount": 7,
+      "cover": {
+        "src": "photos/update-20261120-a18dbc966dc63ac2ec411b27.webp",
+        "date": "2022-09-17",
+        "alt": "백덕산 산행 대표 사진",
+        "photoId": "update-a18dbc966dc63ac2ec411b27"
+      },
+      "reviewedPhotoIds": [
+        "update-7939987920de287ef31f0e0a",
+        "update-a18dbc966dc63ac2ec411b27"
+      ],
+      "basis": "uploaded-photo-review",
+      "sources": []
+    },
+    "m-45": {
+      "name": "백암산",
+      "summary": "물가에 비친 가을빛과 정상의 풍경을 함께 만납니다.",
+      "photoThemes": [
+        "단풍",
+        "물빛"
+      ],
+      "highlights": [],
+      "photoCount": 22,
+      "cover": {
+        "src": "photos/local-5760bd4a4a31e3dd5edc.jpg",
+        "date": "2021-11-06",
+        "alt": "백암산 산행 대표 사진",
+        "photoId": "local-5760bd4a4a31e3dd5edc"
+      },
+      "reviewedPhotoIds": [
+        "local-415db9e42bee7eea558c",
+        "local-5760bd4a4a31e3dd5edc"
+      ],
+      "basis": "uploaded-photo-review",
+      "sources": []
+    },
+    "m-46": {
+      "name": "백운산(광양)",
+      "summary": "낙엽 깔린 산길과 옅은 안개 속 이정표가 가을 분위기를 더합니다.",
+      "photoThemes": [
+        "낙엽",
+        "숲길"
+      ],
+      "highlights": [],
+      "photoCount": 21,
+      "cover": {
+        "src": "photos/update-20261120-9df50fb170ab63e052e64485.webp",
+        "date": "2022-03-12",
+        "alt": "백운산(광양) 산행 대표 사진",
+        "photoId": "update-9df50fb170ab63e052e64485"
+      },
+      "reviewedPhotoIds": [
+        "update-9df50fb170ab63e052e64485",
+        "update-abf0797b155875bd5e7a56ac"
+      ],
+      "basis": "uploaded-photo-review",
+      "sources": []
+    },
+    "m-47": {
+      "name": "백운산(동강)",
+      "summary": "낙엽길 사이로 드러나는 바위 능선이 인상적인 산입니다.",
+      "photoThemes": [
+        "바위",
+        "낙엽"
+      ],
+      "highlights": [],
+      "photoCount": 11,
+      "cover": {
+        "src": "photos/update-20261120-d489816204606441ba285034.webp",
+        "date": "2022-04-02",
+        "alt": "백운산(동강) 산행 대표 사진",
+        "photoId": "update-d489816204606441ba285034"
+      },
+      "reviewedPhotoIds": [
+        "update-d489816204606441ba285034",
+        "update-50350f88d6f39c4049b15765"
+      ],
+      "basis": "uploaded-photo-review",
+      "sources": []
+    },
+    "m-48": {
+      "name": "북한산",
+      "summary": "큰 바위 봉우리와 안개 사이 능선에서 도심 밖 풍경을 만납니다.",
+      "photoThemes": [
+        "암릉",
+        "운무"
+      ],
+      "highlights": [],
+      "photoCount": 15,
+      "cover": {
+        "src": "photos/update-20261120-f9b310a42fa06c1933896a8b.webp",
+        "date": "2022-06-06",
+        "alt": "북한산 산행 대표 사진",
+        "photoId": "update-f9b310a42fa06c1933896a8b"
+      },
+      "reviewedPhotoIds": [
+        "update-0e00fe89eb4be195cf648ad3",
+        "update-f9b310a42fa06c1933896a8b"
+      ],
+      "basis": "uploaded-photo-review",
+      "sources": []
+    },
+    "m-49": {
+      "name": "불갑산(영광)",
+      "summary": "나무계단을 올라 정상에서 펼쳐지는 풍경을 담았습니다.",
+      "photoThemes": [
+        "정상",
+        "숲길"
+      ],
+      "highlights": [
+        {
+          "season": "가을",
+          "feature": "꽃무릇철",
+          "source": "spider"
+        }
+      ],
+      "photoCount": 5,
+      "cover": {
+        "src": "photos/update-20261120-72c007fa38efc2d0d206e88f.webp",
+        "date": "2022-02-27",
+        "alt": "불갑산(영광) 산행 대표 사진",
+        "photoId": "update-72c007fa38efc2d0d206e88f"
+      },
+      "reviewedPhotoIds": [
+        "update-72c007fa38efc2d0d206e88f",
+        "update-2e935873029ed2abba4e0e7b"
+      ],
+      "basis": "uploaded-photo-review",
+      "sources": []
+    },
+    "m-50": {
+      "name": "비슬산",
+      "summary": "참꽃으로 물든 넓은 산자락이 봄 산행의 즐거움을 전합니다.",
+      "photoThemes": [
+        "진달래",
+        "참꽃"
+      ],
+      "highlights": [
+        {
+          "season": "봄",
+          "feature": "진달래·참꽃철",
+          "source": "biseul"
+        }
+      ],
+      "photoCount": 39,
+      "cover": {
+        "src": "photos/update-20261120-82f6111117c29162cc911953.webp",
+        "date": "2025-04-27",
+        "alt": "비슬산 산행 대표 사진",
+        "photoId": "update-82f6111117c29162cc911953"
+      },
+      "reviewedPhotoIds": [
+        "local-2df97f87000e0bbbab16",
+        "update-82f6111117c29162cc911953"
+      ],
+      "basis": "uploaded-photo-review",
+      "sources": []
+    },
+    "m-51": {
+      "name": "삼악산",
+      "summary": "의암호와 산세가 어우러지는 춘천의 풍경을 만나는 산입니다.",
+      "photoThemes": [],
+      "highlights": [],
+      "photoCount": 0,
+      "cover": null,
+      "reviewedPhotoIds": [],
+      "basis": "official-tourism",
+      "sources": [
+        "samak"
+      ]
+    },
+    "m-52": {
+      "name": "선운산",
+      "summary": "바위 정상과 초록 산길에서 봄날의 산행을 담았습니다.",
+      "photoThemes": [
+        "바위",
+        "신록"
+      ],
+      "highlights": [
+        {
+          "season": "가을",
+          "feature": "꽃무릇철",
+          "source": "spider"
+        }
+      ],
+      "photoCount": 10,
+      "cover": {
+        "src": "photos/update-20261120-c84d8564cb5aae12d2647c3d.webp",
+        "date": "2022-02-28",
+        "alt": "선운산 산행 대표 사진",
+        "photoId": "update-c84d8564cb5aae12d2647c3d"
+      },
+      "reviewedPhotoIds": [
+        "update-c84d8564cb5aae12d2647c3d",
+        "update-f6046e12cf7eadb64a0641f8"
+      ],
+      "basis": "uploaded-photo-review",
+      "sources": []
+    },
+    "m-53": {
+      "name": "설악산",
+      "summary": "웅장한 바위산과 숲길의 대비가 산행의 기억을 선명하게 만듭니다.",
+      "photoThemes": [
+        "기암",
+        "숲길"
+      ],
+      "highlights": [],
+      "photoCount": 72,
+      "cover": {
+        "src": "photos/update-20261120-c1692838b3c8aa6b39a8d40d.webp",
+        "date": "2023-08-07",
+        "alt": "설악산 산행 대표 사진",
+        "photoId": "update-c1692838b3c8aa6b39a8d40d"
+      },
+      "reviewedPhotoIds": [
+        "update-c1692838b3c8aa6b39a8d40d",
+        "update-6dddb9ebeb17217af572229e"
+      ],
+      "basis": "uploaded-photo-review",
+      "sources": []
+    },
+    "m-54": {
+      "name": "소백산",
+      "summary": "눈 덮인 산길과 높은 능선에서 고산의 겨울 풍경을 만납니다.",
+      "photoThemes": [
+        "눈",
+        "능선"
+      ],
+      "highlights": [
+        {
+          "season": "겨울",
+          "feature": "눈꽃·설경",
+          "source": "sobaekpark"
+        },
+        {
+          "season": "봄",
+          "feature": "철쭉철 · 늦봄~초여름",
+          "source": "sobaek"
+        }
+      ],
+      "photoCount": 66,
+      "cover": {
+        "src": "photos/update-20261120-98c195e46ceb45a07eea9463.webp",
+        "date": "2022-04-03",
+        "alt": "소백산 산행 대표 사진",
+        "photoId": "update-98c195e46ceb45a07eea9463"
+      },
+      "reviewedPhotoIds": [
+        "update-98c195e46ceb45a07eea9463",
+        "update-a45887a58fb31a27698942ac"
+      ],
+      "basis": "uploaded-photo-review",
+      "sources": []
+    },
+    "m-55": {
+      "name": "소요산",
+      "summary": "밝은 신록과 정상의 시원한 전망을 담은 가까운 산행입니다.",
+      "photoThemes": [
+        "신록",
+        "정상"
+      ],
+      "highlights": [],
+      "photoCount": 14,
+      "cover": {
+        "src": "photos/update-20261120-f4bbfc91c0aa1f3ae047efc6.webp",
+        "date": "2023-03-25",
+        "alt": "소요산 산행 대표 사진",
+        "photoId": "update-f4bbfc91c0aa1f3ae047efc6"
+      },
+      "reviewedPhotoIds": [
+        "update-bcd6fb962acc1270c703dfb5",
+        "update-f4bbfc91c0aa1f3ae047efc6"
+      ],
+      "basis": "uploaded-photo-review",
+      "sources": []
+    },
+    "m-56": {
+      "name": "속리산",
+      "summary": "나무 그늘과 붉은 단풍이 이어지는 숲길을 걸어봅니다.",
+      "photoThemes": [
+        "단풍",
+        "숲길"
+      ],
+      "highlights": [],
+      "photoCount": 21,
+      "cover": {
+        "src": "photos/update-20261120-ff529ce40fcefd6a064543f9.webp",
+        "date": "2022-10-30",
+        "alt": "속리산 산행 대표 사진",
+        "photoId": "update-ff529ce40fcefd6a064543f9"
+      },
+      "reviewedPhotoIds": [
+        "update-f855cc38f93cc7437e64d6ca",
+        "update-ff529ce40fcefd6a064543f9"
+      ],
+      "basis": "uploaded-photo-review",
+      "sources": []
+    },
+    "m-57": {
+      "name": "수락산",
+      "summary": "큼직한 바위와 열린 정상에서 능선 산행의 재미를 느낍니다.",
+      "photoThemes": [
+        "바위",
+        "능선"
+      ],
+      "highlights": [],
+      "photoCount": 10,
+      "cover": {
+        "src": "photos/update-20261120-9657fcf673e1a72efbd23620.webp",
+        "date": "2022-10-15",
+        "alt": "수락산 산행 대표 사진",
+        "photoId": "update-9657fcf673e1a72efbd23620"
+      },
+      "reviewedPhotoIds": [
+        "update-93c36913526b310184f32b1c",
+        "update-9657fcf673e1a72efbd23620"
+      ],
+      "basis": "uploaded-photo-review",
+      "sources": []
+    },
+    "m-58": {
+      "name": "신불산",
+      "summary": "푸른 하늘 아래 정상 풍경과 겨울 설경이 계절의 차이를 보여줍니다.",
+      "photoThemes": [
+        "능선",
+        "눈"
+      ],
+      "highlights": [
+        {
+          "season": "가을",
+          "feature": "억새철 · 간월재",
+          "source": "reeds"
+        }
+      ],
+      "photoCount": 104,
+      "cover": {
+        "src": "photos/ramblr-5042866-001.jpg",
+        "date": "2023-01-21",
+        "alt": "신불산 산행 대표 사진",
+        "photoId": "ramblr-5042866-1"
+      },
+      "reviewedPhotoIds": [
+        "ramblr-5042866-1",
+        "update-2f3194234f0032a15ed7cb4b"
+      ],
+      "basis": "uploaded-photo-review",
+      "sources": []
+    },
+    "m-59": {
+      "name": "연인산",
+      "summary": "낙엽 사이 작은 봄꽃과 정상 풍경을 함께 담았습니다.",
+      "photoThemes": [
+        "봄꽃",
+        "숲길"
+      ],
+      "highlights": [],
+      "photoCount": 5,
+      "cover": {
+        "src": "photos/update-20261120-5e0b47d6b1511f3826a2d6a4.webp",
+        "date": "2023-03-24",
+        "alt": "연인산 산행 대표 사진",
+        "photoId": "update-5e0b47d6b1511f3826a2d6a4"
+      },
+      "reviewedPhotoIds": [
+        "update-52f323dcc91552fb908f05ed",
+        "update-5e0b47d6b1511f3826a2d6a4"
+      ],
+      "basis": "uploaded-photo-review",
+      "sources": []
+    },
+    "m-60": {
+      "name": "오대산 비로봉",
+      "summary": "산사의 고요함에서 붉은 단풍 숲으로 이어지는 산행입니다.",
+      "photoThemes": [
+        "산사",
+        "단풍"
+      ],
+      "highlights": [],
+      "photoCount": 24,
+      "cover": {
+        "src": "photos/local-54b5222c51e5603c18a2.jpg",
+        "date": "2021-10-09",
+        "alt": "오대산 비로봉 산행 대표 사진",
+        "photoId": "local-54b5222c51e5603c18a2"
+      },
+      "reviewedPhotoIds": [
+        "ramblr-11314787-1",
+        "local-54b5222c51e5603c18a2"
+      ],
+      "basis": "uploaded-photo-review",
+      "sources": []
+    },
+    "m-61": {
+      "name": "오봉산(춘천)",
+      "summary": "바위와 소나무가 어우러지는 능선에서 쉬어가는 풍경을 만납니다.",
+      "photoThemes": [
+        "소나무",
+        "능선"
+      ],
+      "highlights": [],
+      "photoCount": 8,
+      "cover": {
+        "src": "photos/update-20261120-517cbc59f474bf04e927b7ce.webp",
+        "date": "2023-03-23",
+        "alt": "오봉산(춘천) 산행 대표 사진",
+        "photoId": "update-517cbc59f474bf04e927b7ce"
+      },
+      "reviewedPhotoIds": [
+        "update-517cbc59f474bf04e927b7ce",
+        "update-d93162a4568b636f56ec153a"
+      ],
+      "basis": "uploaded-photo-review",
+      "sources": []
+    },
+    "m-62": {
+      "name": "오서산(보령)",
+      "summary": "눈 덮인 숲길과 가지 사이로 비치는 겨울빛을 담았습니다.",
+      "photoThemes": [
+        "눈",
+        "숲길"
+      ],
+      "highlights": [
+        {
+          "season": "가을",
+          "feature": "억새·서해 낙조",
+          "source": "oseo"
+        }
+      ],
+      "photoCount": 7,
+      "cover": {
+        "src": "photos/local-50d11568b412e25cc3c4.jpg",
+        "date": "2021-12-26",
+        "alt": "오서산(보령) 산행 대표 사진",
+        "photoId": "local-50d11568b412e25cc3c4"
+      },
+      "reviewedPhotoIds": [
+        "local-50d11568b412e25cc3c4",
+        "local-9cc59b52e06616817b20"
+      ],
+      "basis": "uploaded-photo-review",
+      "sources": []
+    },
+    "m-63": {
+      "name": "용문산",
+      "summary": "산사의 색감과 낙엽 산길이 함께 남아 있는 산행입니다.",
+      "photoThemes": [
+        "산사",
+        "낙엽"
+      ],
+      "highlights": [],
+      "photoCount": 13,
+      "cover": {
+        "src": "photos/update-20261120-3441feb138f091b63c4ee8d8.webp",
+        "date": "2023-03-12",
+        "alt": "용문산 산행 대표 사진",
+        "photoId": "update-3441feb138f091b63c4ee8d8"
+      },
+      "reviewedPhotoIds": [
+        "update-3441feb138f091b63c4ee8d8",
+        "update-a3ba41aeb35ff9d9e79635e9"
+      ],
+      "basis": "uploaded-photo-review",
+      "sources": []
+    },
+    "m-64": {
+      "name": "용봉산(홍성)",
+      "summary": "짙푸른 하늘 아래 기암을 따라 오르는 재미가 있는 산입니다.",
+      "photoThemes": [
+        "기암",
+        "조망"
+      ],
+      "highlights": [],
+      "photoCount": 7,
+      "cover": {
+        "src": "photos/local-385016bfcdc8e6354321.jpg",
+        "date": "2021-12-26",
+        "alt": "용봉산(홍성) 산행 대표 사진",
+        "photoId": "local-385016bfcdc8e6354321"
+      },
+      "reviewedPhotoIds": [
+        "local-385016bfcdc8e6354321",
+        "local-2e5978476ad58c52530b"
+      ],
+      "basis": "uploaded-photo-review",
+      "sources": []
+    },
+    "m-65": {
+      "name": "용화산",
+      "summary": "큰 바위와 멀리 펼쳐진 산세가 정상에서 걸음을 멈추게 합니다.",
+      "photoThemes": [
+        "바위",
+        "능선 조망"
+      ],
+      "highlights": [],
+      "photoCount": 21,
+      "cover": {
+        "src": "photos/update-20261120-ff598b4ea93eb929418bd832.webp",
+        "date": "2023-03-23",
+        "alt": "용화산 산행 대표 사진",
+        "photoId": "update-ff598b4ea93eb929418bd832"
+      },
+      "reviewedPhotoIds": [
+        "update-95e859896b88a6693659daf4",
+        "update-ff598b4ea93eb929418bd832"
+      ],
+      "basis": "uploaded-photo-review",
+      "sources": []
+    },
+    "m-66": {
+      "name": "운악산",
+      "summary": "숲길 곳곳의 바위와 독특한 암석 풍경이 인상적입니다.",
+      "photoThemes": [
+        "기암",
+        "숲길"
+      ],
+      "highlights": [],
+      "photoCount": 7,
+      "cover": {
+        "src": "photos/update-20261120-5ec3d7b597be4538ebc18c4b.webp",
+        "date": "2023-03-25",
+        "alt": "운악산 산행 대표 사진",
+        "photoId": "update-5ec3d7b597be4538ebc18c4b"
+      },
+      "reviewedPhotoIds": [
+        "update-5ec3d7b597be4538ebc18c4b",
+        "update-2b2b303edfa7fd085837dc15"
+      ],
+      "basis": "uploaded-photo-review",
+      "sources": []
+    },
+    "m-67": {
+      "name": "운장산",
+      "summary": "바위 정상에서 하늘과 겹겹의 능선을 마주합니다.",
+      "photoThemes": [
+        "암릉",
+        "하늘"
+      ],
+      "highlights": [],
+      "photoCount": 10,
+      "cover": {
+        "src": "photos/update-20261120-f6c7b356d3c31b67c829f86a.webp",
+        "date": "2022-08-28",
+        "alt": "운장산 산행 대표 사진",
+        "photoId": "update-f6c7b356d3c31b67c829f86a"
+      },
+      "reviewedPhotoIds": [
+        "update-f6c7b356d3c31b67c829f86a",
+        "update-bf138d2c9ce852536fa12fd3"
+      ],
+      "basis": "uploaded-photo-review",
+      "sources": []
+    },
+    "m-68": {
+      "name": "월악산",
+      "summary": "눈길과 안개 어린 계단이 겨울 산행의 분위기를 전합니다.",
+      "photoThemes": [
+        "눈",
+        "운무"
+      ],
+      "highlights": [],
+      "photoCount": 15,
+      "cover": {
+        "src": "photos/update-20261120-ef939cd8ae2d20db2c5cf26c.webp",
+        "date": "2023-02-19",
+        "alt": "월악산 산행 대표 사진",
+        "photoId": "update-ef939cd8ae2d20db2c5cf26c"
+      },
+      "reviewedPhotoIds": [
+        "update-ef939cd8ae2d20db2c5cf26c",
+        "update-e831890a248546f11a6c80c4"
+      ],
+      "basis": "uploaded-photo-review",
+      "sources": []
+    },
+    "m-69": {
+      "name": "월출산",
+      "summary": "거대한 바위와 탁 트인 정상에서 남도의 산세를 만납니다.",
+      "photoThemes": [
+        "기암",
+        "정상"
+      ],
+      "highlights": [],
+      "photoCount": 17,
+      "cover": {
+        "src": "photos/local-d3e711aec9a9d8858320.jpg",
+        "date": "2021-04-11",
+        "alt": "월출산 산행 대표 사진",
+        "photoId": "local-d3e711aec9a9d8858320"
+      },
+      "reviewedPhotoIds": [
+        "local-456dea979ee33699a702",
+        "local-d3e711aec9a9d8858320"
+      ],
+      "basis": "uploaded-photo-review",
+      "sources": []
+    },
+    "m-70": {
+      "name": "유명산",
+      "summary": "안개와 옅은 햇빛 속 정상에서 조용한 산의 표정을 담았습니다.",
+      "photoThemes": [
+        "운무",
+        "정상"
+      ],
+      "highlights": [],
+      "photoCount": 3,
+      "cover": {
+        "src": "photos/update-20261120-4c8b3308a9de24be27915a44.webp",
+        "date": "2023-03-11",
+        "alt": "유명산 산행 대표 사진",
+        "photoId": "update-4c8b3308a9de24be27915a44"
+      },
+      "reviewedPhotoIds": [
+        "update-4c8b3308a9de24be27915a44",
+        "update-f7f6caf42c14b36fde1c9b56"
+      ],
+      "basis": "uploaded-photo-review",
+      "sources": []
+    },
+    "m-71": {
+      "name": "응봉산",
+      "summary": "정상석과 낙엽 숲길을 따라 깊은 산의 분위기를 느낍니다.",
+      "photoThemes": [
+        "낙엽",
+        "숲길"
+      ],
+      "highlights": [],
+      "photoCount": 7,
+      "cover": {
+        "src": "photos/update-20261120-fbd457055c82d19d865922cb.webp",
+        "date": "2022-12-04",
+        "alt": "응봉산 산행 대표 사진",
+        "photoId": "update-fbd457055c82d19d865922cb"
+      },
+      "reviewedPhotoIds": [
+        "update-fbd457055c82d19d865922cb",
+        "update-c843219aa722f2ea50874aa3"
+      ],
+      "basis": "uploaded-photo-review",
+      "sources": []
+    },
+    "m-72": {
+      "name": "장안산",
+      "summary": "숲을 지나 열린 정상으로 향하는 길의 변화를 담았습니다.",
+      "photoThemes": [
+        "숲길",
+        "정상"
+      ],
+      "highlights": [
+        {
+          "season": "가을",
+          "feature": "억새철",
+          "source": "jangsu"
+        }
+      ],
+      "photoCount": 9,
+      "cover": {
+        "src": "photos/update-20261120-e7ba469b531453428cd1c9b4.webp",
+        "date": "2022-04-09",
+        "alt": "장안산 산행 대표 사진",
+        "photoId": "update-e7ba469b531453428cd1c9b4"
+      },
+      "reviewedPhotoIds": [
+        "update-e7ba469b531453428cd1c9b4",
+        "update-5d9af4a879d9bea14f1b39ca"
+      ],
+      "basis": "uploaded-photo-review",
+      "sources": []
+    },
+    "m-73": {
+      "name": "재약산",
+      "summary": "하얀 산길과 봄꽃이 전하는 영남알프스의 계절을 만납니다.",
+      "photoThemes": [
+        "눈",
+        "봄꽃"
+      ],
+      "highlights": [],
+      "photoCount": 32,
+      "cover": {
+        "src": "photos/update-20261120-8aafdcfbfca06b00b64c0a83.webp",
+        "date": "2023-04-16",
+        "alt": "재약산 산행 대표 사진",
+        "photoId": "update-8aafdcfbfca06b00b64c0a83"
+      },
+      "reviewedPhotoIds": [
+        "ramblr-5006991-1",
+        "update-8aafdcfbfca06b00b64c0a83"
+      ],
+      "basis": "uploaded-photo-review",
+      "sources": []
+    },
+    "m-74": {
+      "name": "조계산",
+      "summary": "돌다리와 산사, 눈 얹힌 산길이 차분한 여운을 남깁니다.",
+      "photoThemes": [
+        "산사",
+        "돌다리"
+      ],
+      "highlights": [],
+      "photoCount": 12,
+      "cover": {
+        "src": "photos/update-20261120-5db3321168a2d73339856d7f.webp",
+        "date": "2022-01-16",
+        "alt": "조계산 산행 대표 사진",
+        "photoId": "update-5db3321168a2d73339856d7f"
+      },
+      "reviewedPhotoIds": [
+        "update-9b84301dcd05d3616bfdbbbf",
+        "update-5db3321168a2d73339856d7f"
+      ],
+      "basis": "uploaded-photo-review",
+      "sources": []
+    },
+    "m-75": {
+      "name": "조령산",
+      "summary": "산문을 지나 눈 쌓인 숲으로 들어가는 겨울 산행입니다.",
+      "photoThemes": [
+        "눈",
+        "숲길"
+      ],
+      "highlights": [],
+      "photoCount": 10,
+      "cover": {
+        "src": "photos/update-20261120-2412e4303462425172780ee0.webp",
+        "date": "2023-02-11",
+        "alt": "조령산 산행 대표 사진",
+        "photoId": "update-2412e4303462425172780ee0"
+      },
+      "reviewedPhotoIds": [
+        "update-2412e4303462425172780ee0",
+        "update-20f57c33a7ad6bf364b30f8b"
+      ],
+      "basis": "uploaded-photo-review",
+      "sources": []
+    },
+    "m-76": {
+      "name": "주왕산",
+      "summary": "가을 숲 사이 폭포와 기암이 나타나는 길을 담았습니다.",
+      "photoThemes": [
+        "폭포",
+        "단풍"
+      ],
+      "highlights": [],
+      "photoCount": 29,
+      "cover": {
+        "src": "photos/update-20261120-a29de96f5e055ba8fcc05af0.webp",
+        "date": "2025-11-09",
+        "alt": "주왕산 산행 대표 사진",
+        "photoId": "update-a29de96f5e055ba8fcc05af0"
+      },
+      "reviewedPhotoIds": [
+        "local-ab2f55117e4fda914ecc",
+        "update-a29de96f5e055ba8fcc05af0"
+      ],
+      "basis": "uploaded-photo-review",
+      "sources": []
+    },
+    "m-77": {
+      "name": "주흘산",
+      "summary": "큰 바위벽 아래를 걷는 길과 정상의 풍경이 기억에 남습니다.",
+      "photoThemes": [
+        "바위벽",
+        "산길"
+      ],
+      "highlights": [],
+      "photoCount": 14,
+      "cover": {
+        "src": "photos/update-20261120-5260ca0239824d1a02a8a4f3.webp",
+        "date": "2023-02-11",
+        "alt": "주흘산 산행 대표 사진",
+        "photoId": "update-5260ca0239824d1a02a8a4f3"
+      },
+      "reviewedPhotoIds": [
+        "update-5260ca0239824d1a02a8a4f3",
+        "update-c6e24c0b02c9830cacb9604e"
+      ],
+      "basis": "uploaded-photo-review",
+      "sources": []
+    },
+    "m-78": {
+      "name": "지리산 천왕봉",
+      "summary": "산문에서 시작해 높은 정상에 서는 산행의 순간을 담았습니다.",
+      "photoThemes": [
+        "정상",
+        "능선"
+      ],
+      "highlights": [],
+      "photoCount": 12,
+      "cover": {
+        "src": "photos/update-20261120-9c587f2712a342f6124bd5b5.webp",
+        "date": "2022-07-03",
+        "alt": "지리산 천왕봉 산행 대표 사진",
+        "photoId": "update-9c587f2712a342f6124bd5b5"
+      },
+      "reviewedPhotoIds": [
+        "update-9c587f2712a342f6124bd5b5",
+        "update-b962c7a126bf6264950779e4"
+      ],
+      "basis": "uploaded-photo-review",
+      "sources": []
+    },
+    "m-79": {
+      "name": "천관산",
+      "summary": "기암 능선과 가을 억새가 어우러지는 장흥의 산입니다.",
+      "photoThemes": [],
+      "highlights": [
+        {
+          "season": "가을",
+          "feature": "억새·기암 능선",
+          "source": "silver"
+        }
+      ],
+      "photoCount": 0,
+      "cover": null,
+      "reviewedPhotoIds": [],
+      "basis": "official-tourism",
+      "sources": [
+        "silver"
+      ]
+    },
+    "m-80": {
+      "name": "천성산",
+      "summary": "뾰족한 바위 능선과 숲길이 영남 산행의 풍경을 전합니다.",
+      "photoThemes": [
+        "암릉",
+        "숲길"
+      ],
+      "highlights": [],
+      "photoCount": 13,
+      "cover": {
+        "src": "photos/local-4ce9033c27824791dab7.jpg",
+        "date": "2021-04-03",
+        "alt": "천성산 산행 대표 사진",
+        "photoId": "local-4ce9033c27824791dab7"
+      },
+      "reviewedPhotoIds": [
+        "local-4ce9033c27824791dab7",
+        "local-5409e023e3ea371dee37"
+      ],
+      "basis": "uploaded-photo-review",
+      "sources": []
+    },
+    "m-81": {
+      "name": "천태산",
+      "summary": "하늘을 향해 솟은 바위와 산사 마당의 푸름을 만납니다.",
+      "photoThemes": [
+        "바위",
+        "산사"
+      ],
+      "highlights": [],
+      "photoCount": 13,
+      "cover": {
+        "src": "photos/update-20261120-6c753f294abd59aa88a203b0.webp",
+        "date": "2022-08-27",
+        "alt": "천태산 산행 대표 사진",
+        "photoId": "update-6c753f294abd59aa88a203b0"
+      },
+      "reviewedPhotoIds": [
+        "update-6c753f294abd59aa88a203b0",
+        "update-9df6a0c1c10d88639d697905"
+      ],
+      "basis": "uploaded-photo-review",
+      "sources": []
+    },
+    "m-82": {
+      "name": "청계산",
+      "summary": "정상석과 초록 숲길에서 일상 가까운 산행을 즐깁니다.",
+      "photoThemes": [
+        "신록",
+        "정상"
+      ],
+      "highlights": [],
+      "photoCount": 3,
+      "cover": {
+        "src": "photos/update-20261120-489278632cf09320c7fca718.webp",
+        "date": "2022-11-19",
+        "alt": "청계산 산행 대표 사진",
+        "photoId": "update-489278632cf09320c7fca718"
+      },
+      "reviewedPhotoIds": [
+        "update-489278632cf09320c7fca718",
+        "update-4bc4b571a6a0ebebaffd8c04"
+      ],
+      "basis": "uploaded-photo-review",
+      "sources": []
+    },
+    "m-83": {
+      "name": "청량산",
+      "summary": "산사의 탑과 바위 봉우리가 함께 남는 산행입니다.",
+      "photoThemes": [
+        "산사",
+        "바위"
+      ],
+      "highlights": [],
+      "photoCount": 8,
+      "cover": {
+        "src": "photos/update-20261120-e7ee6d9cf96b9a7e0e2d7193.webp",
+        "date": "2022-03-06",
+        "alt": "청량산 산행 대표 사진",
+        "photoId": "update-e7ee6d9cf96b9a7e0e2d7193"
+      },
+      "reviewedPhotoIds": [
+        "update-e7ee6d9cf96b9a7e0e2d7193",
+        "update-44a45e0b898d2c1ade7a5282"
+      ],
+      "basis": "uploaded-photo-review",
+      "sources": []
+    },
+    "m-84": {
+      "name": "청화산",
+      "summary": "정상석 너머 멀리 이어지는 산줄기를 바라봅니다.",
+      "photoThemes": [
+        "정상",
+        "능선"
+      ],
+      "highlights": [],
+      "photoCount": 4,
+      "cover": {
+        "src": "photos/update-20261120-94cbbefd76c23472850ab7dd.webp",
+        "date": "2022-10-29",
+        "alt": "청화산 산행 대표 사진",
+        "photoId": "update-94cbbefd76c23472850ab7dd"
+      },
+      "reviewedPhotoIds": [
+        "update-94cbbefd76c23472850ab7dd",
+        "update-08f286cd3dc34f489568bc52"
+      ],
+      "basis": "uploaded-photo-review",
+      "sources": []
+    },
+    "m-85": {
+      "name": "축령산(장성)",
+      "summary": "나무 그늘과 산길을 따라 숲에서 쉬어가는 시간을 담았습니다.",
+      "photoThemes": [
+        "숲길",
+        "쉼"
+      ],
+      "highlights": [],
+      "photoCount": 6,
+      "cover": {
+        "src": "photos/update-20261120-84591bbfba930af425ac4fdd.webp",
+        "date": "2022-02-27",
+        "alt": "축령산(장성) 산행 대표 사진",
+        "photoId": "update-84591bbfba930af425ac4fdd"
+      },
+      "reviewedPhotoIds": [
+        "update-27344fb8566e79f354f10e87",
+        "update-84591bbfba930af425ac4fdd"
+      ],
+      "basis": "uploaded-photo-review",
+      "sources": []
+    },
+    "m-86": {
+      "name": "치악산",
+      "summary": "맑은 하늘 아래 능선과 산자락의 쉼터를 만납니다.",
+      "photoThemes": [
+        "정상",
+        "능선"
+      ],
+      "highlights": [],
+      "photoCount": 14,
+      "cover": {
+        "src": "photos/update-20261120-1190de2666b8af1cf99e4585.webp",
+        "date": "2023-03-05",
+        "alt": "치악산 산행 대표 사진",
+        "photoId": "update-1190de2666b8af1cf99e4585"
+      },
+      "reviewedPhotoIds": [
+        "update-1190de2666b8af1cf99e4585",
+        "update-3341f837c203a3c188aa370b"
+      ],
+      "basis": "uploaded-photo-review",
+      "sources": []
+    },
+    "m-87": {
+      "name": "칠갑산",
+      "summary": "잎 진 숲길과 눈이 남은 길에서 늦가을·겨울의 표정을 봅니다.",
+      "photoThemes": [
+        "숲길",
+        "눈"
+      ],
+      "highlights": [],
+      "photoCount": 5,
+      "cover": {
+        "src": "photos/local-35ddb8beff15d6044367.jpg",
+        "date": "2021-12-25",
+        "alt": "칠갑산 산행 대표 사진",
+        "photoId": "local-35ddb8beff15d6044367"
+      },
+      "reviewedPhotoIds": [
+        "local-35ddb8beff15d6044367",
+        "local-8a02d07e8514999110b2"
+      ],
+      "basis": "uploaded-photo-review",
+      "sources": []
+    },
+    "m-88": {
+      "name": "칠보산",
+      "summary": "낙엽과 붉은 단풍이 바위 산길에 가을빛을 더합니다.",
+      "photoThemes": [
+        "단풍",
+        "바위"
+      ],
+      "highlights": [],
+      "photoCount": 8,
+      "cover": {
+        "src": "photos/update-20261120-cc19be025838b2dc3e89f056.webp",
+        "date": "2022-11-05",
+        "alt": "칠보산 산행 대표 사진",
+        "photoId": "update-cc19be025838b2dc3e89f056"
+      },
+      "reviewedPhotoIds": [
+        "update-e6869daaa1217ea8c6db2ba1",
+        "update-cc19be025838b2dc3e89f056"
+      ],
+      "basis": "uploaded-photo-review",
+      "sources": []
+    },
+    "m-89": {
+      "name": "태백산",
+      "summary": "정상석과 숲길을 덮은 하얀 눈이 겨울 산행의 기억을 남깁니다.",
+      "photoThemes": [
+        "눈",
+        "설경"
+      ],
+      "highlights": [
+        {
+          "season": "겨울",
+          "feature": "눈꽃·설경",
+          "source": "snow"
+        }
+      ],
+      "photoCount": 73,
+      "cover": {
+        "src": "photos/update-20261120-9f4eac17858b962b41cc1a0d.webp",
+        "date": "2024-02-17",
+        "alt": "태백산 산행 대표 사진",
+        "photoId": "update-9f4eac17858b962b41cc1a0d"
+      },
+      "reviewedPhotoIds": [
+        "278456cc-9e93-4bd7-a572-44f9c21c8e3e",
+        "update-9f4eac17858b962b41cc1a0d"
+      ],
+      "basis": "uploaded-photo-review",
+      "sources": []
+    },
+    "m-90": {
+      "name": "태화산",
+      "summary": "부드러운 저녁빛과 정상의 숲이 조용한 여운을 전합니다.",
+      "photoThemes": [
+        "노을",
+        "숲길"
+      ],
+      "highlights": [],
+      "photoCount": 2,
+      "cover": {
+        "src": "photos/update-20261120-ceb8d6058c6d88ac4e942cbf.webp",
+        "date": "2022-04-02",
+        "alt": "태화산 산행 대표 사진",
+        "photoId": "update-ceb8d6058c6d88ac4e942cbf"
+      },
+      "reviewedPhotoIds": [
+        "update-ceb8d6058c6d88ac4e942cbf",
+        "update-f145a850856527b92ae64852"
+      ],
+      "basis": "uploaded-photo-review",
+      "sources": []
+    },
+    "m-91": {
+      "name": "팔공산",
+      "summary": "안개 어린 정상과 산사의 색감이 함께 담긴 산행입니다.",
+      "photoThemes": [
+        "산사",
+        "운무"
+      ],
+      "highlights": [],
+      "photoCount": 21,
+      "cover": {
+        "src": "photos/local-9062f9882834be610295.jpg",
+        "date": "2021-09-25",
+        "alt": "팔공산 산행 대표 사진",
+        "photoId": "local-9062f9882834be610295"
+      },
+      "reviewedPhotoIds": [
+        "local-9062f9882834be610295",
+        "update-754e04f97ddb42b01b3d6add"
+      ],
+      "basis": "uploaded-photo-review",
+      "sources": []
+    },
+    "m-92": {
+      "name": "팔봉산(홍천)",
+      "summary": "강변의 바위 봉우리를 오르며 암릉 산행의 재미를 느낍니다.",
+      "photoThemes": [
+        "바위",
+        "능선"
+      ],
+      "highlights": [],
+      "photoCount": 15,
+      "cover": {
+        "src": "photos/update-20261120-59666988b605c7faafd9caac.webp",
+        "date": "2023-03-11",
+        "alt": "팔봉산(홍천) 산행 대표 사진",
+        "photoId": "update-59666988b605c7faafd9caac"
+      },
+      "reviewedPhotoIds": [
+        "update-59666988b605c7faafd9caac",
+        "update-c63e2b0bee3d6e31a05bc46f"
+      ],
+      "basis": "uploaded-photo-review",
+      "sources": []
+    },
+    "m-93": {
+      "name": "팔영산",
+      "summary": "겹겹의 바위 봉우리가 다도해 산행의 기대를 높입니다.",
+      "photoThemes": [
+        "암릉",
+        "봉우리"
+      ],
+      "highlights": [],
+      "photoCount": 16,
+      "cover": {
+        "src": "photos/update-20261120-ae8bf9e3549ac22f474d4fb5.webp",
+        "date": "2022-03-13",
+        "alt": "팔영산 산행 대표 사진",
+        "photoId": "update-ae8bf9e3549ac22f474d4fb5"
+      },
+      "reviewedPhotoIds": [
+        "update-ae8bf9e3549ac22f474d4fb5",
+        "update-88588ce5e45633dd3783fa03"
+      ],
+      "basis": "uploaded-photo-review",
+      "sources": []
+    },
+    "m-94": {
+      "name": "한라산",
+      "summary": "넓게 열린 고지대와 안개 속 나무길에서 제주 산의 표정을 봅니다.",
+      "photoThemes": [
+        "고지대",
+        "운무"
+      ],
+      "highlights": [
+        {
+          "season": "겨울",
+          "feature": "눈꽃·설경",
+          "source": "snow"
+        }
+      ],
+      "photoCount": 48,
+      "cover": {
+        "src": "photos/update-20261120-5819c29011f99bdc631301e0.webp",
+        "date": "2023-06-03",
+        "alt": "한라산 산행 대표 사진",
+        "photoId": "update-5819c29011f99bdc631301e0"
+      },
+      "reviewedPhotoIds": [
+        "update-5819c29011f99bdc631301e0",
+        "update-4e9784e0b416e87a18065e9a"
+      ],
+      "basis": "uploaded-photo-review",
+      "sources": []
+    },
+    "m-95": {
+      "name": "함백산",
+      "summary": "하얀 눈과 얼어붙은 나뭇가지가 만드는 겨울 풍경을 담았습니다.",
+      "photoThemes": [
+        "눈",
+        "설경"
+      ],
+      "highlights": [],
+      "photoCount": 21,
+      "cover": {
+        "src": "photos/update-20261120-3eaaab9e3eaa2a70653e937d.webp",
+        "date": "2022-03-20",
+        "alt": "함백산 산행 대표 사진",
+        "photoId": "update-3eaaab9e3eaa2a70653e937d"
+      },
+      "reviewedPhotoIds": [
+        "update-e51ee22340491c1529cdc158",
+        "update-3eaaab9e3eaa2a70653e937d"
+      ],
+      "basis": "uploaded-photo-review",
+      "sources": []
+    },
+    "m-96": {
+      "name": "화악산(가평)",
+      "summary": "넓은 정상부와 낮은 구름 사이에서 높은 산의 시야를 느낍니다.",
+      "photoThemes": [
+        "정상",
+        "운무"
+      ],
+      "highlights": [],
+      "photoCount": 4,
+      "cover": {
+        "src": "photos/update-20261120-67f6a72b99885b32708be703.webp",
+        "date": "2023-03-23",
+        "alt": "화악산(가평) 산행 대표 사진",
+        "photoId": "update-67f6a72b99885b32708be703"
+      },
+      "reviewedPhotoIds": [
+        "update-67f6a72b99885b32708be703",
+        "update-3576ff18534ad5e137aa4a0e"
+      ],
+      "basis": "uploaded-photo-review",
+      "sources": []
+    },
+    "m-97": {
+      "name": "화왕산(창녕)",
+      "summary": "봄꽃 길과 산성 위 전망이 서로 다른 계절의 매력을 전합니다.",
+      "photoThemes": [
+        "진달래",
+        "산성"
+      ],
+      "highlights": [
+        {
+          "season": "봄",
+          "feature": "진달래철",
+          "source": "hwawang"
+        },
+        {
+          "season": "가을",
+          "feature": "억새철",
+          "source": "hwawang"
+        }
+      ],
+      "photoCount": 26,
+      "cover": {
+        "src": "photos/update-20261120-f4ec0e18059b8ebd308765fe.webp",
+        "date": "2025-04-20",
+        "alt": "화왕산(창녕) 산행 대표 사진",
+        "photoId": "update-f4ec0e18059b8ebd308765fe"
+      },
+      "reviewedPhotoIds": [
+        "local-13b9c196e4b14738fea7",
+        "update-f4ec0e18059b8ebd308765fe"
+      ],
+      "basis": "uploaded-photo-review",
+      "sources": []
+    },
+    "m-98": {
+      "name": "황매산(산청)",
+      "summary": "널찍한 산자락을 채운 분홍 철쭉이 봄 산행의 주인공입니다.",
+      "photoThemes": [
+        "철쭉",
+        "꽃길"
+      ],
+      "highlights": [
+        {
+          "season": "봄",
+          "feature": "철쭉철",
+          "source": "hwangmae"
+        },
+        {
+          "season": "가을",
+          "feature": "억새철",
+          "source": "hwangmae"
+        }
+      ],
+      "photoCount": 49,
+      "cover": {
+        "src": "photos/update-20261120-bae7a4f74ca25506ef674ce9.webp",
+        "date": "2025-05-11",
+        "alt": "황매산(산청) 산행 대표 사진",
+        "photoId": "update-bae7a4f74ca25506ef674ce9"
+      },
+      "reviewedPhotoIds": [
+        "ramblr-11210345-1",
+        "update-bae7a4f74ca25506ef674ce9"
+      ],
+      "basis": "uploaded-photo-review",
+      "sources": []
+    },
+    "m-99": {
+      "name": "황석산(함양)",
+      "summary": "날카로운 봉우리와 돌이 쌓인 정상에서 능선 풍경을 만납니다.",
+      "photoThemes": [
+        "암릉",
+        "정상"
+      ],
+      "highlights": [],
+      "photoCount": 8,
+      "cover": {
+        "src": "photos/update-20261120-38b5110d1c8a6c98b404da79.webp",
+        "date": "2022-07-02",
+        "alt": "황석산(함양) 산행 대표 사진",
+        "photoId": "update-38b5110d1c8a6c98b404da79"
+      },
+      "reviewedPhotoIds": [
+        "update-38b5110d1c8a6c98b404da79",
+        "update-77ce073eaaab5cde47f4aedc"
+      ],
+      "basis": "uploaded-photo-review",
+      "sources": []
+    },
+    "m-100": {
+      "name": "황악산(김천)",
+      "summary": "맑은 날의 정상과 숲속 이정표가 산행의 방향을 잡아줍니다.",
+      "photoThemes": [
+        "숲길",
+        "정상"
+      ],
+      "highlights": [],
+      "photoCount": 11,
+      "cover": {
+        "src": "photos/local-49667daee98562777011.jpg",
+        "date": "2021-11-28",
+        "alt": "황악산(김천) 산행 대표 사진",
+        "photoId": "local-49667daee98562777011"
+      },
+      "reviewedPhotoIds": [
+        "local-49667daee98562777011",
+        "local-cc24397cac459cbad5e5"
+      ],
+      "basis": "uploaded-photo-review",
+      "sources": []
+    },
+    "i-1": {
+      "name": "교동도",
+      "summary": "화개산 정상에서 교동도의 들판과 섬 풍경을 바라봅니다.",
+      "photoThemes": [
+        "바다",
+        "정상"
+      ],
+      "highlights": [],
+      "photoCount": 2,
+      "cover": {
+        "src": "photos/update-islands-20261120-4949005e4f45588aa691820a.webp",
+        "date": "2023-10-08",
+        "alt": "교동도 산행 대표 사진",
+        "photoId": "island-update-4949005e4f45588aa691820a"
+      },
+      "reviewedPhotoIds": [
+        "island-update-9800a1f5481437a7c9fd7436",
+        "island-update-4949005e4f45588aa691820a"
+      ],
+      "basis": "uploaded-photo-review",
+      "sources": []
+    },
+    "i-2": {
+      "name": "석모도",
+      "summary": "숲길을 지나 해명산 바위 능선에서 서해의 섬들을 만납니다.",
+      "photoThemes": [
+        "바다",
+        "바위 능선"
+      ],
+      "highlights": [],
+      "photoCount": 13,
+      "cover": {
+        "src": "photos/update-islands-20261120-3970599bfe6cf5c9aebb283f.webp",
+        "date": "2023-10-08",
+        "alt": "석모도 산행 대표 사진",
+        "photoId": "island-update-3970599bfe6cf5c9aebb283f"
+      },
+      "reviewedPhotoIds": [
+        "island-update-615264f5240ec878948b94f9",
+        "island-update-3970599bfe6cf5c9aebb283f"
+      ],
+      "basis": "uploaded-photo-review",
+      "sources": []
+    },
+    "i-3": {
+      "name": "대청도",
+      "summary": "삼각산에서 내려다보는 푸른 바다와 이어진 섬 능선이 인상적입니다.",
+      "photoThemes": [
+        "바다",
+        "능선"
+      ],
+      "highlights": [],
+      "photoCount": 61,
+      "cover": {
+        "src": "photos/ramblr-10915180-001.jpg",
+        "date": "2026-08-13",
+        "alt": "대청도 산행 대표 사진",
+        "photoId": "ramblr-10915180-1"
+      },
+      "reviewedPhotoIds": [
+        "ramblr-10915180-1",
+        "ramblr-10915180-31"
+      ],
+      "basis": "uploaded-photo-review",
+      "sources": []
+    },
+    "i-4": {
+      "name": "굴업도",
+      "summary": "해안과 초지가 어우러진 길에서 서해의 노을을 기다려봅니다.",
+      "photoThemes": [
+        "바다",
+        "노을"
+      ],
+      "highlights": [],
+      "photoCount": 31,
+      "cover": {
+        "src": "photos/update-islands-20261120-897694b707587ec4fa489d92.webp",
+        "date": "2026-08-03",
+        "alt": "굴업도 산행 대표 사진",
+        "photoId": "island-update-897694b707587ec4fa489d92"
+      },
+      "reviewedPhotoIds": [
+        "ramblr-10881568-1",
+        "island-update-897694b707587ec4fa489d92"
+      ],
+      "basis": "uploaded-photo-review",
+      "sources": [
+        "gureop"
+      ]
+    },
+    "i-5": {
+      "name": "문갑도",
+      "summary": "작은 섬의 숲길과 깃대봉 이정표가 고요한 여정을 남깁니다.",
+      "photoThemes": [
+        "바다",
+        "숲길"
+      ],
+      "highlights": [],
+      "photoCount": 15,
+      "cover": {
+        "src": "photos/update-islands-20261120-c8391c8606192e33d3aa36e8.webp",
+        "date": "2025-12-29",
+        "alt": "문갑도 산행 대표 사진",
+        "photoId": "island-update-c8391c8606192e33d3aa36e8"
+      },
+      "reviewedPhotoIds": [
+        "island-update-cc09910238c40e30dc277141",
+        "island-update-c8391c8606192e33d3aa36e8"
+      ],
+      "basis": "uploaded-photo-review",
+      "sources": []
+    },
+    "i-6": {
+      "name": "백아도",
+      "summary": "소박한 섬마을과 남봉으로 이어지는 초록 길을 담았습니다.",
+      "photoThemes": [
+        "바다",
+        "섬마을"
+      ],
+      "highlights": [],
+      "photoCount": 26,
+      "cover": {
+        "src": "photos/update-islands-20261120-ef7df7841889534666a8f383.webp",
+        "date": "2026-08-05",
+        "alt": "백아도 산행 대표 사진",
+        "photoId": "island-update-ef7df7841889534666a8f383"
+      },
+      "reviewedPhotoIds": [
+        "ramblr-10883086-1",
+        "island-update-ef7df7841889534666a8f383"
+      ],
+      "basis": "uploaded-photo-review",
+      "sources": []
+    },
+    "i-7": {
+      "name": "덕적도",
+      "summary": "바다로 향하는 길과 건너편 섬의 산세를 함께 만납니다.",
+      "photoThemes": [
+        "바다",
+        "섬 조망"
+      ],
+      "highlights": [],
+      "photoCount": 18,
+      "cover": {
+        "src": "photos/update-islands-20261120-cf8aa0ca9c4b7ea53a63c5ce.webp",
+        "date": "2025-12-28",
+        "alt": "덕적도 산행 대표 사진",
+        "photoId": "island-update-cf8aa0ca9c4b7ea53a63c5ce"
+      },
+      "reviewedPhotoIds": [
+        "island-update-cf8aa0ca9c4b7ea53a63c5ce",
+        "island-update-88a772b808df955a3f2b1f98"
+      ],
+      "basis": "uploaded-photo-review",
+      "sources": []
+    },
+    "i-8": {
+      "name": "백령도",
+      "summary": "최북단 인증비와 해변 풍경에서 백령도의 기억을 남깁니다.",
+      "photoThemes": [
+        "바다",
+        "인증비"
+      ],
+      "highlights": [],
+      "photoCount": 5,
+      "cover": {
+        "src": "photos/update-islands-20261120-c3808481baae08cc5b7f43f9.webp",
+        "date": "2026-08-12",
+        "alt": "백령도 산행 대표 사진",
+        "photoId": "island-update-c3808481baae08cc5b7f43f9"
+      },
+      "reviewedPhotoIds": [
+        "island-update-695cda6ec1cf4a382d86e665",
+        "island-update-c3808481baae08cc5b7f43f9"
+      ],
+      "basis": "uploaded-photo-review",
+      "sources": []
+    },
+    "i-9": {
+      "name": "신도",
+      "summary": "정자가 있는 숲길에서 구봉산으로 이어지는 섬 산행입니다.",
+      "photoThemes": [
+        "숲길",
+        "정상"
+      ],
+      "highlights": [],
+      "photoCount": 8,
+      "cover": {
+        "src": "photos/update-islands-20261120-fc8b40d9b15e31d34b33f5cf.webp",
+        "date": "2023-10-09",
+        "alt": "신도 산행 대표 사진",
+        "photoId": "island-update-fc8b40d9b15e31d34b33f5cf"
+      },
+      "reviewedPhotoIds": [
+        "island-update-7ba98d1909d0d80e880e45b6",
+        "island-update-fc8b40d9b15e31d34b33f5cf"
+      ],
+      "basis": "uploaded-photo-review",
+      "sources": []
+    },
+    "i-10": {
+      "name": "장봉도",
+      "summary": "배를 타고 만나는 섬과 흐린 하늘 사이 바다 풍경을 담았습니다.",
+      "photoThemes": [
+        "바다",
+        "뱃길"
+      ],
+      "highlights": [],
+      "photoCount": 10,
+      "cover": {
+        "src": "photos/update-islands-20261120-88c52f75400f8c4b0e8c6a82.webp",
+        "date": "2023-10-09",
+        "alt": "장봉도 산행 대표 사진",
+        "photoId": "island-update-88c52f75400f8c4b0e8c6a82"
+      },
+      "reviewedPhotoIds": [
+        "island-update-88c52f75400f8c4b0e8c6a82",
+        "island-update-08d0964b5bd7dd03d8e91f1b"
+      ],
+      "basis": "uploaded-photo-review",
+      "sources": []
+    },
+    "i-11": {
+      "name": "연평도",
+      "summary": "선착장부터 안보교육장까지 섬의 일상과 역사를 만납니다.",
+      "photoThemes": [
+        "바다",
+        "안보"
+      ],
+      "highlights": [],
+      "photoCount": 15,
+      "cover": {
+        "src": "photos/update-islands-20261120-feab9e5b7c811ea6bd7d123f.webp",
+        "date": "2026-05-03",
+        "alt": "연평도 산행 대표 사진",
+        "photoId": "island-update-feab9e5b7c811ea6bd7d123f"
+      },
+      "reviewedPhotoIds": [
+        "island-update-feab9e5b7c811ea6bd7d123f",
+        "island-update-17186c0d3ffc5df0d1f23cda"
+      ],
+      "basis": "uploaded-photo-review",
+      "sources": []
+    },
+    "i-12": {
+      "name": "영흥도",
+      "summary": "국사봉으로 이어지는 초록 산길에서 섬 위의 산행을 즐깁니다.",
+      "photoThemes": [
+        "숲길",
+        "정상"
+      ],
+      "highlights": [],
+      "photoCount": 8,
+      "cover": {
+        "src": "photos/update-islands-20261120-783c73ac37ecdc6ff2adc7d1.webp",
+        "date": "2023-10-10",
+        "alt": "영흥도 산행 대표 사진",
+        "photoId": "island-update-783c73ac37ecdc6ff2adc7d1"
+      },
+      "reviewedPhotoIds": [
+        "island-update-783c73ac37ecdc6ff2adc7d1",
+        "island-update-d3f8ba5eb4d76982386e33be"
+      ],
+      "basis": "uploaded-photo-review",
+      "sources": []
+    },
+    "i-13": {
+      "name": "승봉도",
+      "summary": "배 위의 바다와 섬 안의 숲길에서 느긋한 시간을 만납니다.",
+      "photoThemes": [
+        "바다",
+        "숲길"
+      ],
+      "highlights": [],
+      "photoCount": 17,
+      "cover": {
+        "src": "photos/update-islands-20261120-ed26906f1a0373097a99c1f9.webp",
+        "date": "2025-08-17",
+        "alt": "승봉도 산행 대표 사진",
+        "photoId": "island-update-ed26906f1a0373097a99c1f9"
+      },
+      "reviewedPhotoIds": [
+        "island-update-ed26906f1a0373097a99c1f9",
+        "island-update-7cc3df56acfa9d2076895763"
+      ],
+      "basis": "uploaded-photo-review",
+      "sources": []
+    },
+    "i-14": {
+      "name": "대이작도",
+      "summary": "부아산 산행과 물가의 저녁빛이 함께 남는 섬입니다.",
+      "photoThemes": [
+        "바다",
+        "노을"
+      ],
+      "highlights": [],
+      "photoCount": 27,
+      "cover": {
+        "src": "photos/update-islands-20261120-214b001dc2e0c825262db79d.webp",
+        "date": "2025-08-15",
+        "alt": "대이작도 산행 대표 사진",
+        "photoId": "island-update-214b001dc2e0c825262db79d"
+      },
+      "reviewedPhotoIds": [
+        "island-update-f23f402553ffa9fcae75185b",
+        "island-update-214b001dc2e0c825262db79d"
+      ],
+      "basis": "uploaded-photo-review",
+      "sources": []
+    },
+    "i-15": {
+      "name": "자월도",
+      "summary": "국사봉 이정표와 선착장을 오가는 뱃길에 섬 여행의 여유가 있습니다.",
+      "photoThemes": [
+        "바다",
+        "국사봉"
+      ],
+      "highlights": [],
+      "photoCount": 18,
+      "cover": {
+        "src": "photos/update-islands-20261120-4aba0b5800e98a6a6191f3da.webp",
+        "date": "2025-08-16",
+        "alt": "자월도 산행 대표 사진",
+        "photoId": "island-update-4aba0b5800e98a6a6191f3da"
+      },
+      "reviewedPhotoIds": [
+        "island-update-2ceaae28a0c850f6d3683948",
+        "island-update-4aba0b5800e98a6a6191f3da"
+      ],
+      "basis": "uploaded-photo-review",
+      "sources": []
+    },
+    "i-16": {
+      "name": "무의도",
+      "summary": "바다를 가로지르는 다리와 호룡곡산 산행을 함께 담았습니다.",
+      "photoThemes": [
+        "바다",
+        "섬 산행"
+      ],
+      "highlights": [],
+      "photoCount": 8,
+      "cover": {
+        "src": "photos/update-islands-20261120-2927ae667026200745cc0a82.webp",
+        "date": "2023-10-09",
+        "alt": "무의도 산행 대표 사진",
+        "photoId": "island-update-2927ae667026200745cc0a82"
+      },
+      "reviewedPhotoIds": [
+        "island-update-2927ae667026200745cc0a82",
+        "island-update-cc0b3d83ae720831627100b4"
+      ],
+      "basis": "uploaded-photo-review",
+      "sources": []
+    },
+    "i-17": {
+      "name": "제부도",
+      "summary": "해안의 붉은 조형물과 바다 풍경이 사진에 색을 더합니다.",
+      "photoThemes": [
+        "바다",
+        "해안 산책"
+      ],
+      "highlights": [],
+      "photoCount": 15,
+      "cover": {
+        "src": "photos/update-islands-20261120-f289bf7453203493100e4eab.webp",
+        "date": "2023-10-10",
+        "alt": "제부도 산행 대표 사진",
+        "photoId": "island-update-f289bf7453203493100e4eab"
+      },
+      "reviewedPhotoIds": [
+        "island-update-f289bf7453203493100e4eab",
+        "island-update-ec0329669b58a862f7475caa"
+      ],
+      "basis": "uploaded-photo-review",
+      "sources": []
+    },
+    "i-18": {
+      "name": "난지도",
+      "summary": "망치봉 나무길과 선착장에서 바라보는 섬의 푸름을 만납니다.",
+      "photoThemes": [
+        "바다",
+        "나무길"
+      ],
+      "highlights": [],
+      "photoCount": 15,
+      "cover": {
+        "src": "photos/update-islands-20261120-1aa271963ebe1d74131a0433.webp",
+        "date": "2025-08-14",
+        "alt": "난지도 산행 대표 사진",
+        "photoId": "island-update-1aa271963ebe1d74131a0433"
+      },
+      "reviewedPhotoIds": [
+        "island-update-1aa271963ebe1d74131a0433",
+        "island-update-834f2651ad2be32d3609fabc"
+      ],
+      "basis": "uploaded-photo-review",
+      "sources": []
+    },
+    "i-19": {
+      "name": "고대도",
+      "summary": "붉은 등대와 선착장 풍경에서 작은 섬의 분위기를 느낍니다.",
+      "photoThemes": [
+        "바다",
+        "등대"
+      ],
+      "highlights": [],
+      "photoCount": 11,
+      "cover": {
+        "src": "photos/update-islands-20261120-67560d5ba637cac58cbe4577.webp",
+        "date": "2023-10-01",
+        "alt": "고대도 산행 대표 사진",
+        "photoId": "island-update-67560d5ba637cac58cbe4577"
+      },
+      "reviewedPhotoIds": [
+        "island-update-67560d5ba637cac58cbe4577",
+        "island-update-68d961080ee846b53c8cc9f2"
+      ],
+      "basis": "uploaded-photo-review",
+      "sources": []
+    },
+    "i-20": {
+      "name": "삽시도",
+      "summary": "해송 그늘을 지나 모래해변을 걷는 섬 여행을 담았습니다.",
+      "photoThemes": [
+        "바다",
+        "해변"
+      ],
+      "highlights": [],
+      "photoCount": 11,
+      "cover": {
+        "src": "photos/update-islands-20261120-8fb43e02ef62152937cdfd1e.webp",
+        "date": "2023-10-01",
+        "alt": "삽시도 산행 대표 사진",
+        "photoId": "island-update-8fb43e02ef62152937cdfd1e"
+      },
+      "reviewedPhotoIds": [
+        "island-update-26376b4d2f44df0f741c37ce",
+        "island-update-8fb43e02ef62152937cdfd1e"
+      ],
+      "basis": "uploaded-photo-review",
+      "sources": []
+    },
+    "i-21": {
+      "name": "외연도",
+      "summary": "초록 산길과 섬에서 쉬어가는 시간이 잔잔한 여운을 남깁니다.",
+      "photoThemes": [
+        "섬마을",
+        "숲길"
+      ],
+      "highlights": [],
+      "photoCount": 16,
+      "cover": {
+        "src": "photos/update-islands-20261120-311e9d0c92531dc5564c302c.webp",
+        "date": "2023-10-03",
+        "alt": "외연도 산행 대표 사진",
+        "photoId": "island-update-311e9d0c92531dc5564c302c"
+      },
+      "reviewedPhotoIds": [
+        "island-update-311e9d0c92531dc5564c302c",
+        "island-update-9e1ab1aebc66f6bd1ba3b977"
+      ],
+      "basis": "uploaded-photo-review",
+      "sources": []
+    },
+    "i-22": {
+      "name": "원산도",
+      "summary": "오로봉 정상목 너머 해 질 무렵의 하늘이 펼쳐집니다.",
+      "photoThemes": [
+        "바다",
+        "노을"
+      ],
+      "highlights": [],
+      "photoCount": 3,
+      "cover": {
+        "src": "photos/update-islands-20261120-eee8b72e5e07253e0a23fbe4.webp",
+        "date": "2023-09-30",
+        "alt": "원산도 산행 대표 사진",
+        "photoId": "island-update-eee8b72e5e07253e0a23fbe4"
+      },
+      "reviewedPhotoIds": [
+        "island-update-9b2994d1d28b6a17129e948d",
+        "island-update-eee8b72e5e07253e0a23fbe4"
+      ],
+      "basis": "uploaded-photo-review",
+      "sources": []
+    },
+    "i-23": {
+      "name": "죽도",
+      "summary": "전망대와 섬 산책길에서 바다를 곁에 두고 걸어봅니다.",
+      "photoThemes": [
+        "바다",
+        "전망대"
+      ],
+      "highlights": [],
+      "photoCount": 14,
+      "cover": {
+        "src": "photos/update-islands-20261120-f1363539cda2a734a3a652de.webp",
+        "date": "2023-10-02",
+        "alt": "죽도 산행 대표 사진",
+        "photoId": "island-update-f1363539cda2a734a3a652de"
+      },
+      "reviewedPhotoIds": [
+        "island-update-f1363539cda2a734a3a652de",
+        "island-update-dd1cd49bb769d10a61ebf69c"
+      ],
+      "basis": "uploaded-photo-review",
+      "sources": []
+    },
+    "i-24": {
+      "name": "관리도",
+      "summary": "배에서 내려 깃대봉 숲길로 들어서는 여정을 담았습니다.",
+      "photoThemes": [
+        "바다",
+        "숲길"
+      ],
+      "highlights": [],
+      "photoCount": 10,
+      "cover": {
+        "src": "photos/update-islands-20261120-f8e9c5bb92e115163632de0d.webp",
+        "date": "2025-08-09",
+        "alt": "관리도 산행 대표 사진",
+        "photoId": "island-update-f8e9c5bb92e115163632de0d"
+      },
+      "reviewedPhotoIds": [
+        "island-update-f8e9c5bb92e115163632de0d",
+        "island-update-1b059d428a847ecb24b79b0f"
+      ],
+      "basis": "uploaded-photo-review",
+      "sources": []
+    },
+    "i-25": {
+      "name": "방축도",
+      "summary": "섬을 잇는 길과 독특한 해안 바위가 기대되는 섬입니다.",
+      "photoThemes": [
+        "바다",
+        "해안 바위"
+      ],
+      "highlights": [],
+      "photoCount": 14,
+      "cover": {
+        "src": "photos/update-islands-20261120-61f7608eb5b0ce59fad41b38.webp",
+        "date": "2025-08-09",
+        "alt": "방축도 산행 대표 사진",
+        "photoId": "island-update-61f7608eb5b0ce59fad41b38"
+      },
+      "reviewedPhotoIds": [
+        "island-update-61f7608eb5b0ce59fad41b38",
+        "island-update-bd1d7d9c59d786559ecc3a64"
+      ],
+      "basis": "uploaded-photo-review",
+      "sources": []
+    },
+    "i-26": {
+      "name": "선유도",
+      "summary": "바위 봉우리 사이로 펼쳐지는 고군산의 물빛이 눈길을 끕니다.",
+      "photoThemes": [
+        "바다",
+        "섬 조망"
+      ],
+      "highlights": [],
+      "photoCount": 12,
+      "cover": {
+        "src": "photos/update-islands-20261120-b430e1beb9f4c6e673740530.webp",
+        "date": "2023-10-04",
+        "alt": "선유도 산행 대표 사진",
+        "photoId": "island-update-b430e1beb9f4c6e673740530"
+      },
+      "reviewedPhotoIds": [
+        "island-update-3816cc779859632a61a60f4a",
+        "island-update-b430e1beb9f4c6e673740530"
+      ],
+      "basis": "uploaded-photo-review",
+      "sources": []
+    },
+    "i-27": {
+      "name": "신시도",
+      "summary": "월영봉의 바위와 바다가 이어지는 시원한 전망을 만납니다.",
+      "photoThemes": [
+        "바다",
+        "암릉"
+      ],
+      "highlights": [],
+      "photoCount": 15,
+      "cover": {
+        "src": "photos/update-islands-20261120-9be917233706225cb05cdc63.webp",
+        "date": "2023-10-04",
+        "alt": "신시도 산행 대표 사진",
+        "photoId": "island-update-9be917233706225cb05cdc63"
+      },
+      "reviewedPhotoIds": [
+        "island-update-eb2de45f48ad877e9543f6f3",
+        "island-update-9be917233706225cb05cdc63"
+      ],
+      "basis": "uploaded-photo-review",
+      "sources": []
+    },
+    "i-28": {
+      "name": "어청도",
+      "summary": "낮은 초지 너머 바다가 열리는 등대 섬의 풍경입니다.",
+      "photoThemes": [
+        "바다",
+        "등대"
+      ],
+      "highlights": [],
+      "photoCount": 14,
+      "cover": {
+        "src": "photos/update-islands-20261120-8191c5c9982666de39079b12.webp",
+        "date": "2026-05-24",
+        "alt": "어청도 산행 대표 사진",
+        "photoId": "island-update-8191c5c9982666de39079b12"
+      },
+      "reviewedPhotoIds": [
+        "island-update-8191c5c9982666de39079b12",
+        "island-update-d570d171578428fca1579382"
+      ],
+      "basis": "uploaded-photo-review",
+      "sources": []
+    },
+    "i-29": {
+      "name": "위도",
+      "summary": "배를 타고 들어가 망월봉 숲길에서 섬 산행을 이어갑니다.",
+      "photoThemes": [
+        "바다",
+        "숲길"
+      ],
+      "highlights": [],
+      "photoCount": 5,
+      "cover": {
+        "src": "photos/update-islands-20261120-422b50a2520c845cb7c43a6c.webp",
+        "date": "2025-08-05",
+        "alt": "위도 산행 대표 사진",
+        "photoId": "island-update-422b50a2520c845cb7c43a6c"
+      },
+      "reviewedPhotoIds": [
+        "island-update-422b50a2520c845cb7c43a6c",
+        "island-update-32240f109066586924961f2c"
+      ],
+      "basis": "uploaded-photo-review",
+      "sources": []
+    },
+    "i-30": {
+      "name": "가우도",
+      "summary": "바다 위 다리와 섬의 산책길이 어우러진 풍경을 담았습니다.",
+      "photoThemes": [
+        "바다",
+        "다리"
+      ],
+      "highlights": [],
+      "photoCount": 20,
+      "cover": {
+        "src": "photos/update-islands-20261120-3c4901acbeb1002afe529b9f.webp",
+        "date": "2024-08-07",
+        "alt": "가우도 산행 대표 사진",
+        "photoId": "island-update-3c4901acbeb1002afe529b9f"
+      },
+      "reviewedPhotoIds": [
+        "island-update-3c4901acbeb1002afe529b9f",
+        "island-update-6a233d1529bb5bbbc2ca161e"
+      ],
+      "basis": "uploaded-photo-review",
+      "sources": []
+    },
+    "i-31": {
+      "name": "거금도",
+      "summary": "적대봉 정상에서 넓은 하늘과 초록 능선을 만납니다.",
+      "photoThemes": [
+        "능선",
+        "정상"
+      ],
+      "highlights": [],
+      "photoCount": 7,
+      "cover": {
+        "src": "photos/update-islands-20261120-845e0fa1baba8c2f5c268f6f.webp",
+        "date": "2024-08-08",
+        "alt": "거금도 산행 대표 사진",
+        "photoId": "island-update-845e0fa1baba8c2f5c268f6f"
+      },
+      "reviewedPhotoIds": [
+        "island-update-845e0fa1baba8c2f5c268f6f",
+        "island-update-eb1e989d7c05d5abe891f59f"
+      ],
+      "basis": "uploaded-photo-review",
+      "sources": []
+    },
+    "i-32": {
+      "name": "연홍도",
+      "summary": "선착장과 바닷가 돌담에 작은 섬마을의 정취가 남아 있습니다.",
+      "photoThemes": [
+        "바다",
+        "섬마을"
+      ],
+      "highlights": [],
+      "photoCount": 17,
+      "cover": {
+        "src": "photos/update-islands-20261120-25e474ca439a8194836a8c12.webp",
+        "date": "2024-08-09",
+        "alt": "연홍도 산행 대표 사진",
+        "photoId": "island-update-25e474ca439a8194836a8c12"
+      },
+      "reviewedPhotoIds": [
+        "island-update-25e474ca439a8194836a8c12",
+        "island-update-b84daba9b182e46c04bc1774"
+      ],
+      "basis": "uploaded-photo-review",
+      "sources": []
+    },
+    "i-33": {
+      "name": "애도(쑥섬)",
+      "summary": "꽃이 가득한 정원과 돌담길에서 바다 위 작은 쉼을 만납니다.",
+      "photoThemes": [
+        "꽃정원",
+        "바다"
+      ],
+      "highlights": [
+        {
+          "season": "봄",
+          "feature": "동백꽃길 · 늦겨울~초봄",
+          "source": "ssukflower"
+        },
+        {
+          "season": "",
+          "feature": "꽃정원·바다 산책",
+          "source": "ssuk"
+        }
+      ],
+      "photoCount": 18,
+      "cover": {
+        "src": "photos/update-islands-20261120-62a9ce7203bf5b396ffd01bf.webp",
+        "date": "2024-08-10",
+        "alt": "애도(쑥섬) 산행 대표 사진",
+        "photoId": "island-update-62a9ce7203bf5b396ffd01bf"
+      },
+      "reviewedPhotoIds": [
+        "island-update-62a9ce7203bf5b396ffd01bf",
+        "island-update-e6c518d9e721cb1a4e6e7daf"
+      ],
+      "basis": "uploaded-photo-review",
+      "sources": []
+    },
+    "i-34": {
+      "name": "외나로도",
+      "summary": "봉래산 정상과 바닷가 산책길을 함께 담은 섬 산행입니다.",
+      "photoThemes": [
+        "바다",
+        "숲길"
+      ],
+      "highlights": [],
+      "photoCount": 7,
+      "cover": {
+        "src": "photos/update-islands-20261120-8e06e0e97ae2829c46917b11.webp",
+        "date": "2024-08-10",
+        "alt": "외나로도 산행 대표 사진",
+        "photoId": "island-update-8e06e0e97ae2829c46917b11"
+      },
+      "reviewedPhotoIds": [
+        "island-update-8e06e0e97ae2829c46917b11",
+        "island-update-de86692c8f94be47f8b5ca19"
+      ],
+      "basis": "uploaded-photo-review",
+      "sources": []
+    },
+    "i-35": {
+      "name": "우이도",
+      "summary": "모래언덕과 해변이 어우러진 풍경에서 섬의 넓이를 느낍니다.",
+      "photoThemes": [
+        "바다",
+        "모래언덕"
+      ],
+      "highlights": [],
+      "photoCount": 28,
+      "cover": {
+        "src": "photos/update-islands-20261120-352e8cb73d1080fd622de18c.webp",
+        "date": "2025-05-05",
+        "alt": "우이도 산행 대표 사진",
+        "photoId": "island-update-352e8cb73d1080fd622de18c"
+      },
+      "reviewedPhotoIds": [
+        "island-update-9f3f1ee191195e333f14cf82",
+        "island-update-352e8cb73d1080fd622de18c"
+      ],
+      "basis": "uploaded-photo-review",
+      "sources": []
+    },
+    "i-36": {
+      "name": "비금도",
+      "summary": "선왕산의 바위 능선에서 푸른 섬과 바다를 내려다봅니다.",
+      "photoThemes": [
+        "바다",
+        "암릉"
+      ],
+      "highlights": [],
+      "photoCount": 12,
+      "cover": {
+        "src": "photos/update-islands-20261120-36746de772d596f7e19cb29f.webp",
+        "date": "2025-05-04",
+        "alt": "비금도 산행 대표 사진",
+        "photoId": "island-update-36746de772d596f7e19cb29f"
+      },
+      "reviewedPhotoIds": [
+        "island-update-185c10e92061263cf2312c02",
+        "island-update-36746de772d596f7e19cb29f"
+      ],
+      "basis": "uploaded-photo-review",
+      "sources": []
+    },
+    "i-37": {
+      "name": "암태도",
+      "summary": "승봉산으로 향하는 숲길과 겹겹의 섬 전망을 만납니다.",
+      "photoThemes": [
+        "바다",
+        "섬 조망"
+      ],
+      "highlights": [],
+      "photoCount": 8,
+      "cover": {
+        "src": "photos/update-islands-20261120-4ebdac9a8d9871135735ac65.webp",
+        "date": "2025-01-27",
+        "alt": "암태도 산행 대표 사진",
+        "photoId": "island-update-4ebdac9a8d9871135735ac65"
+      },
+      "reviewedPhotoIds": [
+        "island-update-cd3f6ba420d108e3f84308b9",
+        "island-update-4ebdac9a8d9871135735ac65"
+      ],
+      "basis": "uploaded-photo-review",
+      "sources": []
+    },
+    "i-38": {
+      "name": "임자도",
+      "summary": "대둔산 정상에서 맑은 하늘과 섬의 풍경을 담았습니다.",
+      "photoThemes": [
+        "바다",
+        "정상"
+      ],
+      "highlights": [
+        {
+          "season": "봄",
+          "feature": "튤립철 · 4월 무렵",
+          "source": "imja"
+        }
+      ],
+      "photoCount": 7,
+      "cover": {
+        "src": "photos/update-islands-20261120-1e7f87dc93834c0fae59d30b.webp",
+        "date": "2024-09-19",
+        "alt": "임자도 산행 대표 사진",
+        "photoId": "island-update-1e7f87dc93834c0fae59d30b"
+      },
+      "reviewedPhotoIds": [
+        "island-update-1e7f87dc93834c0fae59d30b",
+        "island-update-899c3d157cf5a6271176effe"
+      ],
+      "basis": "uploaded-photo-review",
+      "sources": []
+    },
+    "i-39": {
+      "name": "자은도",
+      "summary": "두봉산 나무계단과 초록 쉼터가 섬 산행에 리듬을 더합니다.",
+      "photoThemes": [
+        "숲길",
+        "계단"
+      ],
+      "highlights": [],
+      "photoCount": 15,
+      "cover": {
+        "src": "photos/update-islands-20261120-7aec7b9f22436b5d1a515b2b.webp",
+        "date": "2025-01-27",
+        "alt": "자은도 산행 대표 사진",
+        "photoId": "island-update-7aec7b9f22436b5d1a515b2b"
+      },
+      "reviewedPhotoIds": [
+        "island-update-7aec7b9f22436b5d1a515b2b",
+        "island-update-dbb20058acdde0c5ab6ed93e"
+      ],
+      "basis": "uploaded-photo-review",
+      "sources": []
+    },
+    "i-40": {
+      "name": "가거도",
+      "summary": "선착장을 지나 독실산으로 이어지는 깊은 숲길을 만납니다.",
+      "photoThemes": [
+        "바다",
+        "숲길"
+      ],
+      "highlights": [],
+      "photoCount": 30,
+      "cover": {
+        "src": "photos/update-islands-20261120-f6bc09fde252075b91e9c445.webp",
+        "date": "2026-09-22",
+        "alt": "가거도 산행 대표 사진",
+        "photoId": "island-update-f6bc09fde252075b91e9c445"
+      },
+      "reviewedPhotoIds": [
+        "ramblr-11099642-1",
+        "island-update-f6bc09fde252075b91e9c445"
+      ],
+      "basis": "uploaded-photo-review",
+      "sources": []
+    },
+    "i-41": {
+      "name": "만재도",
+      "summary": "항구와 언덕 사이로 작은 섬마을의 표정을 담았습니다.",
+      "photoThemes": [
+        "바다",
+        "섬마을"
+      ],
+      "highlights": [],
+      "photoCount": 20,
+      "cover": {
+        "src": "photos/ramblr-11101512-001.jpg",
+        "date": "2026-09-23",
+        "alt": "만재도 산행 대표 사진",
+        "photoId": "ramblr-11101512-1"
+      },
+      "reviewedPhotoIds": [
+        "ramblr-11101512-1",
+        "island-update-218f05d8534fdaaf78bde346"
+      ],
+      "basis": "uploaded-photo-review",
+      "sources": []
+    },
+    "i-42": {
+      "name": "흑산도",
+      "summary": "항구의 뱃길과 산 위의 풍경을 함께 만나는 섬입니다.",
+      "photoThemes": [
+        "바다",
+        "섬 산행"
+      ],
+      "highlights": [],
+      "photoCount": 17,
+      "cover": {
+        "src": "photos/update-islands-20261120-26635304e3bbe9bb9096805c.webp",
+        "date": "2025-08-07",
+        "alt": "흑산도 산행 대표 사진",
+        "photoId": "island-update-26635304e3bbe9bb9096805c"
+      },
+      "reviewedPhotoIds": [
+        "island-update-e49aef64cf57806d31054612",
+        "island-update-26635304e3bbe9bb9096805c"
+      ],
+      "basis": "uploaded-photo-review",
+      "sources": []
+    },
+    "i-43": {
+      "name": "홍도",
+      "summary": "깃대봉 산행과 홍도의 해안 풍경이 여행의 기억을 채웁니다.",
+      "photoThemes": [
+        "바다",
+        "해안 풍경"
+      ],
+      "highlights": [],
+      "photoCount": 18,
+      "cover": {
+        "src": "photos/update-islands-20261120-6b3912ffa8a31c940505d97c.webp",
+        "date": "2025-08-06",
+        "alt": "홍도 산행 대표 사진",
+        "photoId": "island-update-6b3912ffa8a31c940505d97c"
+      },
+      "reviewedPhotoIds": [
+        "island-update-8aa8cf2dd706a6e611448fbd",
+        "island-update-6b3912ffa8a31c940505d97c"
+      ],
+      "basis": "uploaded-photo-review",
+      "sources": []
+    },
+    "i-44": {
+      "name": "금오도",
+      "summary": "대부산에서 굽어보는 섬과 바다의 겹침이 아름답습니다.",
+      "photoThemes": [
+        "바다",
+        "섬 조망"
+      ],
+      "highlights": [],
+      "photoCount": 16,
+      "cover": {
+        "src": "photos/update-islands-20261120-d98fadae10bcaf2392db01cc.webp",
+        "date": "2024-06-09",
+        "alt": "금오도 산행 대표 사진",
+        "photoId": "island-update-d98fadae10bcaf2392db01cc"
+      },
+      "reviewedPhotoIds": [
+        "island-update-dd8eb538ba9774411097487c",
+        "island-update-d98fadae10bcaf2392db01cc"
+      ],
+      "basis": "uploaded-photo-review",
+      "sources": []
+    },
+    "i-45": {
+      "name": "돌산도",
+      "summary": "봉황산 정상의 바위와 숲길에서 바다 가까운 산행을 만납니다.",
+      "photoThemes": [
+        "바위",
+        "숲길"
+      ],
+      "highlights": [],
+      "photoCount": 9,
+      "cover": {
+        "src": "photos/update-islands-20261120-e6bf69de954d0c70069b509d.webp",
+        "date": "2024-06-08",
+        "alt": "돌산도 산행 대표 사진",
+        "photoId": "island-update-e6bf69de954d0c70069b509d"
+      },
+      "reviewedPhotoIds": [
+        "island-update-e6bf69de954d0c70069b509d",
+        "island-update-8d28f3d78048db1454e60ba7"
+      ],
+      "basis": "uploaded-photo-review",
+      "sources": []
+    },
+    "i-46": {
+      "name": "거문도",
+      "summary": "불탄봉으로 오르는 초록 산길에서 섬의 숲을 느낍니다.",
+      "photoThemes": [
+        "바다",
+        "숲길"
+      ],
+      "highlights": [
+        {
+          "season": "봄",
+          "feature": "동백꽃철",
+          "source": "geomun"
+        }
+      ],
+      "photoCount": 12,
+      "cover": {
+        "src": "photos/update-islands-20261120-2908589a19eed64b57a2ce0a.webp",
+        "date": "2024-10-01",
+        "alt": "거문도 산행 대표 사진",
+        "photoId": "island-update-2908589a19eed64b57a2ce0a"
+      },
+      "reviewedPhotoIds": [
+        "island-update-2908589a19eed64b57a2ce0a",
+        "island-update-d1b968cc8b7bdcb65a1de3be"
+      ],
+      "basis": "uploaded-photo-review",
+      "sources": []
+    },
+    "i-47": {
+      "name": "손죽도",
+      "summary": "깃대봉의 초록 길과 섬마을 쉼터에 소박한 정취가 있습니다.",
+      "photoThemes": [
+        "숲길",
+        "섬마을"
+      ],
+      "highlights": [],
+      "photoCount": 15,
+      "cover": {
+        "src": "photos/update-islands-20261120-4b8f04c3ffcccdd4c24e8577.webp",
+        "date": "2024-10-05",
+        "alt": "손죽도 산행 대표 사진",
+        "photoId": "island-update-4b8f04c3ffcccdd4c24e8577"
+      },
+      "reviewedPhotoIds": [
+        "island-update-4b8f04c3ffcccdd4c24e8577",
+        "island-update-e7d48b0b8f2f167198e61736"
+      ],
+      "basis": "uploaded-photo-review",
+      "sources": []
+    },
+    "i-48": {
+      "name": "초도",
+      "summary": "선착장 뒤로 펼쳐지는 숲과 언덕이 섬의 여정을 반깁니다.",
+      "photoThemes": [
+        "바다",
+        "숲길"
+      ],
+      "highlights": [],
+      "photoCount": 15,
+      "cover": {
+        "src": "photos/update-islands-20261120-c6f8564d922f19469d04456a.webp",
+        "date": "2024-10-04",
+        "alt": "초도 산행 대표 사진",
+        "photoId": "island-update-c6f8564d922f19469d04456a"
+      },
+      "reviewedPhotoIds": [
+        "island-update-c6f8564d922f19469d04456a",
+        "island-update-dc5a8445cddc33cbe87436f9"
+      ],
+      "basis": "uploaded-photo-review",
+      "sources": []
+    },
+    "i-49": {
+      "name": "개도",
+      "summary": "봉화산으로 향하는 그늘진 길과 정상석을 담았습니다.",
+      "photoThemes": [
+        "숲길",
+        "정상"
+      ],
+      "highlights": [],
+      "photoCount": 7,
+      "cover": {
+        "src": "photos/update-islands-20261120-c056effd2b3766823e69efdc.webp",
+        "date": "2024-09-18",
+        "alt": "개도 산행 대표 사진",
+        "photoId": "island-update-c056effd2b3766823e69efdc"
+      },
+      "reviewedPhotoIds": [
+        "island-update-c056effd2b3766823e69efdc",
+        "island-update-6b36226e518438ee7e1d7680"
+      ],
+      "basis": "uploaded-photo-review",
+      "sources": []
+    },
+    "i-50": {
+      "name": "낭도",
+      "summary": "상산을 오르며 나무 사이로 열리는 다도해를 만납니다.",
+      "photoThemes": [
+        "바다",
+        "다도해"
+      ],
+      "highlights": [],
+      "photoCount": 9,
+      "cover": {
+        "src": "photos/update-islands-20261120-7b27213881dcc5d6457c8661.webp",
+        "date": "2024-08-10",
+        "alt": "낭도 산행 대표 사진",
+        "photoId": "island-update-7b27213881dcc5d6457c8661"
+      },
+      "reviewedPhotoIds": [
+        "island-update-6f7de1a92b7a7929dbcd5588",
+        "island-update-7b27213881dcc5d6457c8661"
+      ],
+      "basis": "uploaded-photo-review",
+      "sources": []
+    },
+    "i-51": {
+      "name": "사도",
+      "summary": "섬 이름을 남긴 표지석과 해안 풍경이 여행의 한 장면이 됩니다.",
+      "photoThemes": [
+        "바다",
+        "해안 산책"
+      ],
+      "highlights": [],
+      "photoCount": 20,
+      "cover": {
+        "src": "photos/ramblr-7349853-001.jpg",
+        "date": "2024-08-11",
+        "alt": "사도 산행 대표 사진",
+        "photoId": "ramblr-7349853-1"
+      },
+      "reviewedPhotoIds": [
+        "ramblr-7349853-1",
+        "island-update-395d1c8b8cd70f252a985e8b"
+      ],
+      "basis": "uploaded-photo-review",
+      "sources": []
+    },
+    "i-52": {
+      "name": "백야도",
+      "summary": "백호산에서 내려다보는 섬과 바다의 부드러운 선을 만납니다.",
+      "photoThemes": [
+        "바다",
+        "섬 조망"
+      ],
+      "highlights": [],
+      "photoCount": 24,
+      "cover": {
+        "src": "photos/ramblr-7348246-013.jpg",
+        "date": "2024-08-11",
+        "alt": "백야도 산행 대표 사진",
+        "photoId": "ramblr-7348246-13"
+      },
+      "reviewedPhotoIds": [
+        "ramblr-7348246-1",
+        "ramblr-7348246-13"
+      ],
+      "basis": "uploaded-photo-review",
+      "sources": []
+    },
+    "i-53": {
+      "name": "하화도",
+      "summary": "초록 길과 바다를 배경으로 걷는 꽃섬의 여정을 담았습니다.",
+      "photoThemes": [
+        "바다",
+        "산책"
+      ],
+      "highlights": [],
+      "photoCount": 12,
+      "cover": {
+        "src": "photos/update-islands-20261120-52326e8acf8895d51802bb6c.webp",
+        "date": "2024-09-18",
+        "alt": "하화도 산행 대표 사진",
+        "photoId": "island-update-52326e8acf8895d51802bb6c"
+      },
+      "reviewedPhotoIds": [
+        "island-update-52326e8acf8895d51802bb6c",
+        "island-update-22565854d7a086aa8ff95eb3"
+      ],
+      "basis": "uploaded-photo-review",
+      "sources": []
+    },
+    "i-54": {
+      "name": "안마도",
+      "summary": "배 위에서 만나는 바다와 선착장 표지석이 인증의 기억을 남깁니다.",
+      "photoThemes": [
+        "바다",
+        "표지석"
+      ],
+      "highlights": [],
+      "photoCount": 3,
+      "cover": {
+        "src": "photos/update-islands-20261120-bef6831a56226b9bf78a41da.webp",
+        "date": "2026-05-05",
+        "alt": "안마도 산행 대표 사진",
+        "photoId": "island-update-bef6831a56226b9bf78a41da"
+      },
+      "reviewedPhotoIds": [
+        "island-update-bef6831a56226b9bf78a41da",
+        "island-update-cf8656065f7055eaaf80dfa5"
+      ],
+      "basis": "uploaded-photo-review",
+      "sources": []
+    },
+    "i-55": {
+      "name": "송이도",
+      "summary": "송이도 표지석에서 이어지는 해변 산책이 잔잔한 여유를 전합니다.",
+      "photoThemes": [
+        "바다",
+        "해변"
+      ],
+      "highlights": [],
+      "photoCount": 15,
+      "cover": {
+        "src": "photos/update-islands-20261120-3a06c3c160659e9c2ac5b5ad.webp",
+        "date": "2025-11-15",
+        "alt": "송이도 산행 대표 사진",
+        "photoId": "island-update-3a06c3c160659e9c2ac5b5ad"
+      },
+      "reviewedPhotoIds": [
+        "island-update-9f28a95ed3d569616c96d6c1",
+        "island-update-3a06c3c160659e9c2ac5b5ad"
+      ],
+      "basis": "uploaded-photo-review",
+      "sources": []
+    },
+    "i-56": {
+      "name": "하낙월도",
+      "summary": "표지석 너머 섬을 감싸는 물빛이 고요한 시간을 만듭니다.",
+      "photoThemes": [
+        "바다",
+        "섬 조망"
+      ],
+      "highlights": [],
+      "photoCount": 4,
+      "cover": {
+        "src": "photos/update-islands-20261120-a513ff07f2cc97dc113310db.webp",
+        "date": "2025-11-16",
+        "alt": "하낙월도 산행 대표 사진",
+        "photoId": "island-update-a513ff07f2cc97dc113310db"
+      },
+      "reviewedPhotoIds": [
+        "island-update-93a6780b123642d508ca5995",
+        "island-update-a513ff07f2cc97dc113310db"
+      ],
+      "basis": "uploaded-photo-review",
+      "sources": []
+    },
+    "i-57": {
+      "name": "금당도",
+      "summary": "삼랑산의 바위와 소나무 사이에서 다도해 풍경을 만납니다.",
+      "photoThemes": [
+        "바다",
+        "바위"
+      ],
+      "highlights": [],
+      "photoCount": 14,
+      "cover": {
+        "src": "photos/update-islands-20261120-34f384cd94e70986850fa47b.webp",
+        "date": "2024-08-09",
+        "alt": "금당도 산행 대표 사진",
+        "photoId": "island-update-34f384cd94e70986850fa47b"
+      },
+      "reviewedPhotoIds": [
+        "island-update-93810ca2395d20b461ba4dd4",
+        "island-update-34f384cd94e70986850fa47b"
+      ],
+      "basis": "uploaded-photo-review",
+      "sources": []
+    },
+    "i-58": {
+      "name": "보길도",
+      "summary": "격자봉으로 향하는 숲길과 이정표가 초록 여정을 안내합니다.",
+      "photoThemes": [
+        "숲길",
+        "정상"
+      ],
+      "highlights": [],
+      "photoCount": 9,
+      "cover": {
+        "src": "photos/update-islands-20261120-e46abe041dc0cdbaa83fed82.webp",
+        "date": "2024-10-03",
+        "alt": "보길도 산행 대표 사진",
+        "photoId": "island-update-e46abe041dc0cdbaa83fed82"
+      },
+      "reviewedPhotoIds": [
+        "island-update-aeefc3cb0f6f8b5a0cacad9b",
+        "island-update-e46abe041dc0cdbaa83fed82"
+      ],
+      "basis": "uploaded-photo-review",
+      "sources": []
+    },
+    "i-59": {
+      "name": "신지도",
+      "summary": "맑은 물빛의 뱃길과 상산의 푸른 길을 함께 담았습니다.",
+      "photoThemes": [
+        "바다",
+        "정상"
+      ],
+      "highlights": [],
+      "photoCount": 5,
+      "cover": {
+        "src": "photos/update-islands-20261120-39148a53e2cbc0c8b02b577b.webp",
+        "date": "2024-08-07",
+        "alt": "신지도 산행 대표 사진",
+        "photoId": "island-update-39148a53e2cbc0c8b02b577b"
+      },
+      "reviewedPhotoIds": [
+        "island-update-39148a53e2cbc0c8b02b577b",
+        "island-update-177ad2dddfbf61f5b719843d"
+      ],
+      "basis": "uploaded-photo-review",
+      "sources": []
+    },
+    "i-60": {
+      "name": "생일도",
+      "summary": "바다 위로 번지는 해의 빛과 선착장 풍경이 기억에 남습니다.",
+      "photoThemes": [
+        "바다",
+        "햇빛"
+      ],
+      "highlights": [],
+      "photoCount": 15,
+      "cover": {
+        "src": "photos/update-islands-20261120-f478ed2981d5d7e947b41303.webp",
+        "date": "2024-08-08",
+        "alt": "생일도 산행 대표 사진",
+        "photoId": "island-update-f478ed2981d5d7e947b41303"
+      },
+      "reviewedPhotoIds": [
+        "island-update-f478ed2981d5d7e947b41303",
+        "island-update-a62403d2e47d6c0aa36fb0ef"
+      ],
+      "basis": "uploaded-photo-review",
+      "sources": []
+    },
+    "i-61": {
+      "name": "소안도",
+      "summary": "가학산으로 들어가는 초록 길과 마을의 꽃빛을 담았습니다.",
+      "photoThemes": [
+        "숲길",
+        "섬마을"
+      ],
+      "highlights": [],
+      "photoCount": 8,
+      "cover": {
+        "src": "photos/update-islands-20261120-eabe2409d39628ca6c29cbe8.webp",
+        "date": "2024-10-03",
+        "alt": "소안도 산행 대표 사진",
+        "photoId": "island-update-eabe2409d39628ca6c29cbe8"
+      },
+      "reviewedPhotoIds": [
+        "island-update-6d9760b1fe1ade2b1de93f2d",
+        "island-update-eabe2409d39628ca6c29cbe8"
+      ],
+      "basis": "uploaded-photo-review",
+      "sources": []
+    },
+    "i-62": {
+      "name": "조약도(약산도)",
+      "summary": "상문산 정상석 주위로 펼쳐지는 풀빛과 하늘을 만납니다.",
+      "photoThemes": [
+        "신록",
+        "정상"
+      ],
+      "highlights": [],
+      "photoCount": 4,
+      "cover": {
+        "src": "photos/update-islands-20261120-89eb52917dafbe8ea73d7cd3.webp",
+        "date": "2024-08-07",
+        "alt": "조약도(약산도) 산행 대표 사진",
+        "photoId": "island-update-89eb52917dafbe8ea73d7cd3"
+      },
+      "reviewedPhotoIds": [
+        "island-update-89eb52917dafbe8ea73d7cd3",
+        "island-update-c96772f13d95d17174ae66ef"
+      ],
+      "basis": "uploaded-photo-review",
+      "sources": []
+    },
+    "i-63": {
+      "name": "완도",
+      "summary": "상왕봉 숲길에서 만나는 작은 꽃과 깊은 나무 그늘을 담았습니다.",
+      "photoThemes": [
+        "숲길",
+        "봄꽃"
+      ],
+      "highlights": [],
+      "photoCount": 7,
+      "cover": {
+        "src": "photos/update-islands-20261120-7478b006b6ba4ae3c3813e24.webp",
+        "date": "2021-03-22",
+        "alt": "완도 산행 대표 사진",
+        "photoId": "island-update-7478b006b6ba4ae3c3813e24"
+      },
+      "reviewedPhotoIds": [
+        "island-update-7478b006b6ba4ae3c3813e24",
+        "island-update-34860f7e7d12b89f0c1bc289"
+      ],
+      "basis": "uploaded-photo-review",
+      "sources": []
+    },
+    "i-64": {
+      "name": "청산도",
+      "summary": "여객선을 타고 들어가 만나는 섬의 일상과 바다 풍경입니다.",
+      "photoThemes": [
+        "바다",
+        "뱃길"
+      ],
+      "highlights": [],
+      "photoCount": 15,
+      "cover": {
+        "src": "photos/update-islands-20261120-cca8a38537f05e669d9823a7.webp",
+        "date": "2024-10-02",
+        "alt": "청산도 산행 대표 사진",
+        "photoId": "island-update-cca8a38537f05e669d9823a7"
+      },
+      "reviewedPhotoIds": [
+        "island-update-ca66370cb2408f2219991b32",
+        "island-update-cca8a38537f05e669d9823a7"
+      ],
+      "basis": "uploaded-photo-review",
+      "sources": []
+    },
+    "i-65": {
+      "name": "여서도",
+      "summary": "작은 바위 정상에서 파란 하늘과 섬의 산세를 만납니다.",
+      "photoThemes": [
+        "바다",
+        "정상"
+      ],
+      "highlights": [],
+      "photoCount": 32,
+      "cover": {
+        "src": "photos/update-islands-20261120-0727e0f6c4798ac9b80325e8.webp",
+        "date": "2026-06-29",
+        "alt": "여서도 산행 대표 사진",
+        "photoId": "island-update-0727e0f6c4798ac9b80325e8"
+      },
+      "reviewedPhotoIds": [
+        "ramblr-10745244-1",
+        "island-update-0727e0f6c4798ac9b80325e8"
+      ],
+      "basis": "uploaded-photo-review",
+      "sources": []
+    },
+    "i-66": {
+      "name": "진도",
+      "summary": "바위 정상과 푸른 바다 사이에서 진도의 풍경을 담았습니다.",
+      "photoThemes": [
+        "바다",
+        "바위"
+      ],
+      "highlights": [],
+      "photoCount": 4,
+      "cover": {
+        "src": "photos/update-islands-20261120-41048bc0a2d747095a4159a5.webp",
+        "date": "2023-06-07",
+        "alt": "진도 산행 대표 사진",
+        "photoId": "island-update-41048bc0a2d747095a4159a5"
+      },
+      "reviewedPhotoIds": [
+        "island-update-41048bc0a2d747095a4159a5",
+        "island-update-7b3c442e803a1a2db87d9f3b"
+      ],
+      "basis": "uploaded-photo-review",
+      "sources": []
+    },
+    "i-67": {
+      "name": "상조도",
+      "summary": "도리산 전망대에서 바라보는 바다와 섬의 겹침이 인상적입니다.",
+      "photoThemes": [
+        "바다",
+        "전망대"
+      ],
+      "highlights": [],
+      "photoCount": 4,
+      "cover": {
+        "src": "photos/update-islands-20261120-2672a1c782edc5986cd1d794.webp",
+        "date": "2025-01-26",
+        "alt": "상조도 산행 대표 사진",
+        "photoId": "island-update-2672a1c782edc5986cd1d794"
+      },
+      "reviewedPhotoIds": [
+        "island-update-192ceb33b3ef10f5f69449e2",
+        "island-update-2672a1c782edc5986cd1d794"
+      ],
+      "basis": "uploaded-photo-review",
+      "sources": []
+    },
+    "i-68": {
+      "name": "하조도",
+      "summary": "짙은 숲과 해안의 나무길에서 조용한 섬 산행을 만납니다.",
+      "photoThemes": [
+        "바다",
+        "숲길"
+      ],
+      "highlights": [],
+      "photoCount": 7,
+      "cover": {
+        "src": "photos/update-islands-20261120-1029e8ae925f128ac5d7f1a0.webp",
+        "date": "2025-01-26",
+        "alt": "하조도 산행 대표 사진",
+        "photoId": "island-update-1029e8ae925f128ac5d7f1a0"
+      },
+      "reviewedPhotoIds": [
+        "island-update-1c83ee339f7c79b8ae6c0a52",
+        "island-update-1029e8ae925f128ac5d7f1a0"
+      ],
+      "basis": "uploaded-photo-review",
+      "sources": []
+    },
+    "i-69": {
+      "name": "관매도",
+      "summary": "관매봉과 풀빛 해안에 서서 섬을 감싸는 바다를 느낍니다.",
+      "photoThemes": [
+        "바다",
+        "해안 풍경"
+      ],
+      "highlights": [],
+      "photoCount": 9,
+      "cover": {
+        "src": "photos/update-islands-20261120-4f4f3ae0872af0648a6a61b7.webp",
+        "date": "2025-01-26",
+        "alt": "관매도 산행 대표 사진",
+        "photoId": "island-update-4f4f3ae0872af0648a6a61b7"
+      },
+      "reviewedPhotoIds": [
+        "island-update-4f4f3ae0872af0648a6a61b7",
+        "island-update-efbf5022a6de183a617e66c0"
+      ],
+      "basis": "uploaded-photo-review",
+      "sources": []
+    },
+    "i-70": {
+      "name": "대마도(진도)",
+      "summary": "선착장 옆 표지석에서 진도 대마도 방문의 기억을 남깁니다.",
+      "photoThemes": [
+        "바다",
+        "표지석"
+      ],
+      "highlights": [],
+      "photoCount": 2,
+      "cover": {
+        "src": "photos/update-islands-20261120-d66278ebb7191fc7e8b082ac.webp",
+        "date": "2025-01-26",
+        "alt": "대마도(진도) 산행 대표 사진",
+        "photoId": "island-update-d66278ebb7191fc7e8b082ac"
+      },
+      "reviewedPhotoIds": [
+        "island-update-d66278ebb7191fc7e8b082ac",
+        "island-update-47fc5bb15d9b2094202c9b5a"
+      ],
+      "basis": "uploaded-photo-review",
+      "sources": []
+    },
+    "i-71": {
+      "name": "가덕도",
+      "summary": "연대봉 정상석 너머 탁 트인 하늘과 바다가 펼쳐집니다.",
+      "photoThemes": [
+        "바다",
+        "정상"
+      ],
+      "highlights": [],
+      "photoCount": 11,
+      "cover": {
+        "src": "photos/update-islands-20261120-a31d922e113403095ad1cb53.webp",
+        "date": "2023-09-10",
+        "alt": "가덕도 산행 대표 사진",
+        "photoId": "island-update-a31d922e113403095ad1cb53"
+      },
+      "reviewedPhotoIds": [
+        "island-update-1e48f92582f98344a61d5b45",
+        "island-update-a31d922e113403095ad1cb53"
+      ],
+      "basis": "uploaded-photo-review",
+      "sources": []
+    },
+    "i-72": {
+      "name": "영도",
+      "summary": "봉래산 바위 위에서 도심과 항구가 만나는 풍경을 봅니다.",
+      "photoThemes": [
+        "바다",
+        "항구 조망"
+      ],
+      "highlights": [],
+      "photoCount": 10,
+      "cover": {
+        "src": "photos/update-islands-20261120-d2674c44530c656b2a818ae3.webp",
+        "date": "2023-09-10",
+        "alt": "영도 산행 대표 사진",
+        "photoId": "island-update-d2674c44530c656b2a818ae3"
+      },
+      "reviewedPhotoIds": [
+        "island-update-9d80547296f6f4325d8462c5",
+        "island-update-d2674c44530c656b2a818ae3"
+      ],
+      "basis": "uploaded-photo-review",
+      "sources": []
+    },
+    "i-73": {
+      "name": "울릉도",
+      "summary": "성인봉 정상과 그늘 깊은 숲길이 울릉도 산행의 매력입니다.",
+      "photoThemes": [
+        "바다",
+        "숲길"
+      ],
+      "highlights": [],
+      "photoCount": 20,
+      "cover": {
+        "src": "photos/update-islands-20261120-675291f8582c21d8bc8a165b.webp",
+        "date": "2023-05-08",
+        "alt": "울릉도 산행 대표 사진",
+        "photoId": "island-update-675291f8582c21d8bc8a165b"
+      },
+      "reviewedPhotoIds": [
+        "island-update-b9a520dde0a7855b9a61c364",
+        "island-update-675291f8582c21d8bc8a165b"
+      ],
+      "basis": "uploaded-photo-review",
+      "sources": []
+    },
+    "i-74": {
+      "name": "독도",
+      "summary": "배에서 바라본 바위섬과 바다에 독도 방문의 기억을 담았습니다.",
+      "photoThemes": [
+        "바다",
+        "해상 풍경"
+      ],
+      "highlights": [],
+      "photoCount": 13,
+      "cover": {
+        "src": "photos/update-islands-20261120-6527bbaee5ceedcbfba2ef8a.webp",
+        "date": "2023-05-04",
+        "alt": "독도 산행 대표 사진",
+        "photoId": "island-update-6527bbaee5ceedcbfba2ef8a"
+      },
+      "reviewedPhotoIds": [
+        "island-update-b7796d69f2ed77353173fee2",
+        "island-update-6527bbaee5ceedcbfba2ef8a"
+      ],
+      "basis": "uploaded-photo-review",
+      "sources": []
+    },
+    "i-75": {
+      "name": "산달도",
+      "summary": "섬을 잇는 다리와 산길의 꽃이 다른 시간의 표정을 전합니다.",
+      "photoThemes": [
+        "바다",
+        "다리"
+      ],
+      "highlights": [],
+      "photoCount": 5,
+      "cover": {
+        "src": "photos/update-islands-20261120-e9aab7fe7d83bb6a794db822.webp",
+        "date": "2023-09-10",
+        "alt": "산달도 산행 대표 사진",
+        "photoId": "island-update-e9aab7fe7d83bb6a794db822"
+      },
+      "reviewedPhotoIds": [
+        "island-update-e9aab7fe7d83bb6a794db822",
+        "island-update-b27e52795d9f67f1dfbdc064"
+      ],
+      "basis": "uploaded-photo-review",
+      "sources": []
+    },
+    "i-76": {
+      "name": "거제도",
+      "summary": "가라산으로 향하는 숲길에서 거제의 산 풍경을 만납니다.",
+      "photoThemes": [
+        "숲길",
+        "정상"
+      ],
+      "highlights": [],
+      "photoCount": 7,
+      "cover": {
+        "src": "photos/update-islands-20261120-55548a4d3a9c4b30d757bf99.webp",
+        "date": "2023-12-03",
+        "alt": "거제도 산행 대표 사진",
+        "photoId": "island-update-55548a4d3a9c4b30d757bf99"
+      },
+      "reviewedPhotoIds": [
+        "island-update-bccc537e7ec45cdff3033143",
+        "island-update-55548a4d3a9c4b30d757bf99"
+      ],
+      "basis": "uploaded-photo-review",
+      "sources": []
+    },
+    "i-77": {
+      "name": "가조도",
+      "summary": "옥녀봉 아래로 열리는 섬과 바다의 전망을 담았습니다.",
+      "photoThemes": [
+        "바다",
+        "섬 조망"
+      ],
+      "highlights": [],
+      "photoCount": 5,
+      "cover": {
+        "src": "photos/update-islands-20261120-2999bdd23380b22b171e2005.webp",
+        "date": "2023-09-10",
+        "alt": "가조도 산행 대표 사진",
+        "photoId": "island-update-2999bdd23380b22b171e2005"
+      },
+      "reviewedPhotoIds": [
+        "island-update-705273ee01a50c8e2536b6a7",
+        "island-update-2999bdd23380b22b171e2005"
+      ],
+      "basis": "uploaded-photo-review",
+      "sources": []
+    },
+    "i-78": {
+      "name": "지심도",
+      "summary": "나무 그늘과 아담한 섬마을이 차분한 산책을 이끕니다.",
+      "photoThemes": [
+        "숲길",
+        "섬마을"
+      ],
+      "highlights": [
+        {
+          "season": "봄",
+          "feature": "동백꽃철",
+          "source": "jisim"
+        }
+      ],
+      "photoCount": 18,
+      "cover": {
+        "src": "photos/update-islands-20261120-e61bde3d0d54d477766ea2b0.webp",
+        "date": "2023-12-09",
+        "alt": "지심도 산행 대표 사진",
+        "photoId": "island-update-e61bde3d0d54d477766ea2b0"
+      },
+      "reviewedPhotoIds": [
+        "island-update-e61bde3d0d54d477766ea2b0",
+        "island-update-6f0c7e4579c038276ada74af"
+      ],
+      "basis": "uploaded-photo-review",
+      "sources": []
+    },
+    "i-79": {
+      "name": "외도",
+      "summary": "정원과 바다 풍경이 어우러져 천천히 걸어보고 싶은 섬입니다.",
+      "photoThemes": [
+        "바다",
+        "정원"
+      ],
+      "highlights": [],
+      "photoCount": 16,
+      "cover": {
+        "src": "photos/update-islands-20261120-a18baecf3cc47a7ed316948f.webp",
+        "date": "2023-12-09",
+        "alt": "외도 산행 대표 사진",
+        "photoId": "island-update-a18baecf3cc47a7ed316948f"
+      },
+      "reviewedPhotoIds": [
+        "island-update-a18baecf3cc47a7ed316948f",
+        "island-update-a9634aacb6e001c99e4d002c"
+      ],
+      "basis": "uploaded-photo-review",
+      "sources": []
+    },
+    "i-80": {
+      "name": "남해금산",
+      "summary": "금산의 거대한 바위와 좁은 바위 틈이 특별한 산행을 만듭니다.",
+      "photoThemes": [
+        "바위",
+        "기암"
+      ],
+      "highlights": [],
+      "photoCount": 22,
+      "cover": {
+        "src": "photos/update-islands-20261120-de77c451203c1d599a5614bb.webp",
+        "date": "2023-12-30",
+        "alt": "남해금산 산행 대표 사진",
+        "photoId": "island-update-de77c451203c1d599a5614bb"
+      },
+      "reviewedPhotoIds": [
+        "island-update-777e349039f28c444473438e",
+        "island-update-de77c451203c1d599a5614bb"
+      ],
+      "basis": "uploaded-photo-review",
+      "sources": []
+    },
+    "i-81": {
+      "name": "창선도",
+      "summary": "대방산 정상에서 열린 하늘과 섬의 산세를 만납니다.",
+      "photoThemes": [
+        "바다",
+        "정상"
+      ],
+      "highlights": [],
+      "photoCount": 5,
+      "cover": {
+        "src": "photos/update-islands-20261120-a8dd6f98260b869425e74bcf.webp",
+        "date": "2023-12-30",
+        "alt": "창선도 산행 대표 사진",
+        "photoId": "island-update-a8dd6f98260b869425e74bcf"
+      },
+      "reviewedPhotoIds": [
+        "island-update-a8dd6f98260b869425e74bcf",
+        "island-update-f6ffa55e1c69b8dda39f47a9"
+      ],
+      "basis": "uploaded-photo-review",
+      "sources": []
+    },
+    "i-82": {
+      "name": "신수도",
+      "summary": "선착장과 바위해안에 작은 섬마을의 여유가 담겨 있습니다.",
+      "photoThemes": [
+        "바다",
+        "해안"
+      ],
+      "highlights": [],
+      "photoCount": 6,
+      "cover": {
+        "src": "photos/update-islands-20261120-76d4165d313f6d7f7d3c15f9.webp",
+        "date": "2024-05-05",
+        "alt": "신수도 산행 대표 사진",
+        "photoId": "island-update-76d4165d313f6d7f7d3c15f9"
+      },
+      "reviewedPhotoIds": [
+        "island-update-e00cfb627692dfd6bc215e9e",
+        "island-update-76d4165d313f6d7f7d3c15f9"
+      ],
+      "basis": "uploaded-photo-review",
+      "sources": []
+    },
+    "i-83": {
+      "name": "저도",
+      "summary": "용두산 산길에서 겹겹의 섬과 바다를 바라봅니다.",
+      "photoThemes": [
+        "바다",
+        "섬 조망"
+      ],
+      "highlights": [],
+      "photoCount": 9,
+      "cover": {
+        "src": "photos/update-islands-20261120-a083ee7c5c9580f768632970.webp",
+        "date": "2023-12-03",
+        "alt": "저도 산행 대표 사진",
+        "photoId": "island-update-a083ee7c5c9580f768632970"
+      },
+      "reviewedPhotoIds": [
+        "island-update-48abe04321903110a8d3fdc8",
+        "island-update-a083ee7c5c9580f768632970"
+      ],
+      "basis": "uploaded-photo-review",
+      "sources": []
+    },
+    "i-84": {
+      "name": "미륵도",
+      "summary": "미륵산의 나무 그늘과 정상에서 열린 시야를 함께 담았습니다.",
+      "photoThemes": [
+        "숲길",
+        "정상"
+      ],
+      "highlights": [],
+      "photoCount": 10,
+      "cover": {
+        "src": "photos/update-islands-20261120-b7eaf59a8b8657cc7739ebfc.webp",
+        "date": "2023-12-03",
+        "alt": "미륵도 산행 대표 사진",
+        "photoId": "island-update-b7eaf59a8b8657cc7739ebfc"
+      },
+      "reviewedPhotoIds": [
+        "island-update-b7eaf59a8b8657cc7739ebfc",
+        "island-update-a60062277da4890bb8d5e765"
+      ],
+      "basis": "uploaded-photo-review",
+      "sources": []
+    },
+    "i-85": {
+      "name": "수우도",
+      "summary": "푸른 바다 위로 솟은 바위와 섬 능선이 시원하게 펼쳐집니다.",
+      "photoThemes": [
+        "바다",
+        "해안 바위"
+      ],
+      "highlights": [],
+      "photoCount": 17,
+      "cover": {
+        "src": "photos/update-islands-20261120-9b2030caa6c44001a32c6965.webp",
+        "date": "2024-09-17",
+        "alt": "수우도 산행 대표 사진",
+        "photoId": "island-update-9b2030caa6c44001a32c6965"
+      },
+      "reviewedPhotoIds": [
+        "island-update-7af76e1358712bba064f9994",
+        "island-update-9b2030caa6c44001a32c6965"
+      ],
+      "basis": "uploaded-photo-review",
+      "sources": []
+    },
+    "i-86": {
+      "name": "사량도(상)",
+      "summary": "바위 능선과 긴 계단을 따라 구름 가까운 섬 산행을 만납니다.",
+      "photoThemes": [
+        "암릉",
+        "섬 산행"
+      ],
+      "highlights": [],
+      "photoCount": 16,
+      "cover": {
+        "src": "photos/update-islands-20261120-d03364f645a19acd3a01a907.webp",
+        "date": "2023-06-11",
+        "alt": "사량도(상) 산행 대표 사진",
+        "photoId": "island-update-d03364f645a19acd3a01a907"
+      },
+      "reviewedPhotoIds": [
+        "island-update-d03364f645a19acd3a01a907",
+        "island-update-d3f47f654cc0637edb27ed0e"
+      ],
+      "basis": "uploaded-photo-review",
+      "sources": []
+    },
+    "i-87": {
+      "name": "사량도(하)",
+      "summary": "칠현봉 바위 정상 너머 여러 섬이 이어지는 풍경을 봅니다.",
+      "photoThemes": [
+        "바다",
+        "암릉"
+      ],
+      "highlights": [],
+      "photoCount": 4,
+      "cover": {
+        "src": "photos/update-islands-20261120-711c99873a59b86b80c66a6b.webp",
+        "date": "2023-06-10",
+        "alt": "사량도(하) 산행 대표 사진",
+        "photoId": "island-update-711c99873a59b86b80c66a6b"
+      },
+      "reviewedPhotoIds": [
+        "island-update-4b96073f9ce191f75244c426",
+        "island-update-711c99873a59b86b80c66a6b"
+      ],
+      "basis": "uploaded-photo-review",
+      "sources": []
+    },
+    "i-88": {
+      "name": "연대도",
+      "summary": "연대봉 산행과 달빛 어린 해안이 섬 여행의 여운을 더합니다.",
+      "photoThemes": [
+        "바다",
+        "달빛"
+      ],
+      "highlights": [],
+      "photoCount": 21,
+      "cover": {
+        "src": "photos/update-islands-20261120-c18664ea3210d3f70e735d50.webp",
+        "date": "2024-03-16",
+        "alt": "연대도 산행 대표 사진",
+        "photoId": "island-update-c18664ea3210d3f70e735d50"
+      },
+      "reviewedPhotoIds": [
+        "island-update-c18664ea3210d3f70e735d50",
+        "island-update-09edbbfa1cdc9bcdbf4a880e"
+      ],
+      "basis": "uploaded-photo-review",
+      "sources": []
+    },
+    "i-89": {
+      "name": "두미도",
+      "summary": "천황봉에서 바다와 숲으로 덮인 섬의 선을 만납니다.",
+      "photoThemes": [
+        "바다",
+        "정상"
+      ],
+      "highlights": [],
+      "photoCount": 16,
+      "cover": {
+        "src": "photos/update-islands-20261120-8d0b4542654eae20aed3097b.webp",
+        "date": "2024-06-07",
+        "alt": "두미도 산행 대표 사진",
+        "photoId": "island-update-8d0b4542654eae20aed3097b"
+      },
+      "reviewedPhotoIds": [
+        "island-update-6134082150b053f41dfc520d",
+        "island-update-8d0b4542654eae20aed3097b"
+      ],
+      "basis": "uploaded-photo-review",
+      "sources": []
+    },
+    "i-90": {
+      "name": "욕지도",
+      "summary": "천왕봉 산길에서 내려다보는 항구와 푸른 물빛이 인상적입니다.",
+      "photoThemes": [
+        "바다",
+        "항구 조망"
+      ],
+      "highlights": [],
+      "photoCount": 27,
+      "cover": {
+        "src": "photos/update-islands-20261120-1ec8fd64ddf847ad8411a40e.webp",
+        "date": "2024-05-06",
+        "alt": "욕지도 산행 대표 사진",
+        "photoId": "island-update-1ec8fd64ddf847ad8411a40e"
+      },
+      "reviewedPhotoIds": [
+        "island-update-a795a5c36a9236b1154773a5",
+        "island-update-1ec8fd64ddf847ad8411a40e"
+      ],
+      "basis": "uploaded-photo-review",
+      "sources": []
+    },
+    "i-91": {
+      "name": "연화도",
+      "summary": "바닷가 절집과 섬 산책길에서 차분히 쉬어가는 시간을 담았습니다.",
+      "photoThemes": [
+        "바다",
+        "산사"
+      ],
+      "highlights": [],
+      "photoCount": 19,
+      "cover": {
+        "src": "photos/update-islands-20261120-43a1740fbb48a7e972d682ba.webp",
+        "date": "2024-06-06",
+        "alt": "연화도 산행 대표 사진",
+        "photoId": "island-update-43a1740fbb48a7e972d682ba"
+      },
+      "reviewedPhotoIds": [
+        "island-update-43a1740fbb48a7e972d682ba",
+        "island-update-1af36e28297a88103e5de299"
+      ],
+      "basis": "uploaded-photo-review",
+      "sources": []
+    },
+    "i-92": {
+      "name": "한산도",
+      "summary": "산길과 산책길에서 한산도의 숲과 역사를 함께 만납니다.",
+      "photoThemes": [
+        "숲길",
+        "역사"
+      ],
+      "highlights": [],
+      "photoCount": 15,
+      "cover": {
+        "src": "photos/update-islands-20261120-d73cc72ca1417dc8c7ca3f08.webp",
+        "date": "2024-03-03",
+        "alt": "한산도 산행 대표 사진",
+        "photoId": "island-update-d73cc72ca1417dc8c7ca3f08"
+      },
+      "reviewedPhotoIds": [
+        "island-update-0465e93412b67548e0b1fb85",
+        "island-update-d73cc72ca1417dc8c7ca3f08"
+      ],
+      "basis": "uploaded-photo-review",
+      "sources": []
+    },
+    "i-93": {
+      "name": "소매물도",
+      "summary": "바위 능선 너머 등대섬이 나타나는 해안 풍경을 담았습니다.",
+      "photoThemes": [
+        "바다",
+        "등대섬"
+      ],
+      "highlights": [],
+      "photoCount": 14,
+      "cover": {
+        "src": "photos/update-islands-20261120-40b31c5c230986d01e08ae98.webp",
+        "date": "2024-03-02",
+        "alt": "소매물도 산행 대표 사진",
+        "photoId": "island-update-40b31c5c230986d01e08ae98"
+      },
+      "reviewedPhotoIds": [
+        "island-update-193ef7affc7af1b3921adee2",
+        "island-update-40b31c5c230986d01e08ae98"
+      ],
+      "basis": "uploaded-photo-review",
+      "sources": []
+    },
+    "i-94": {
+      "name": "매물도",
+      "summary": "장군봉 정상에서 뱃길로 이어지는 섬 여행의 순간을 만납니다.",
+      "photoThemes": [
+        "바다",
+        "정상"
+      ],
+      "highlights": [],
+      "photoCount": 11,
+      "cover": {
+        "src": "photos/update-islands-20261120-18b070792c6e6c8dbb6c7060.webp",
+        "date": "2024-03-02",
+        "alt": "매물도 산행 대표 사진",
+        "photoId": "island-update-18b070792c6e6c8dbb6c7060"
+      },
+      "reviewedPhotoIds": [
+        "island-update-18b070792c6e6c8dbb6c7060",
+        "island-update-dc9fe25cb75f0180de0fdbce"
+      ],
+      "basis": "uploaded-photo-review",
+      "sources": []
+    },
+    "i-95": {
+      "name": "장사도",
+      "summary": "정원 계단과 섬의 초록 풍경이 산책의 즐거움을 더합니다.",
+      "photoThemes": [
+        "바다",
+        "정원"
+      ],
+      "highlights": [
+        {
+          "season": "봄",
+          "feature": "동백꽃철",
+          "source": "jangsa"
+        }
+      ],
+      "photoCount": 19,
+      "cover": {
+        "src": "photos/update-islands-20261120-e4c79e44dd1bed128239fbbe.webp",
+        "date": "2023-12-10",
+        "alt": "장사도 산행 대표 사진",
+        "photoId": "island-update-e4c79e44dd1bed128239fbbe"
+      },
+      "reviewedPhotoIds": [
+        "island-update-e4c79e44dd1bed128239fbbe",
+        "island-update-affd670033157b2ede4adc3d"
+      ],
+      "basis": "uploaded-photo-review",
+      "sources": []
+    },
+    "i-96": {
+      "name": "비진도",
+      "summary": "바위 능선과 숲길의 꽃빛이 비진도 산행의 기억을 채웁니다.",
+      "photoThemes": [
+        "바다",
+        "숲길"
+      ],
+      "highlights": [
+        {
+          "season": "봄",
+          "feature": "동백꽃철",
+          "source": "bijin"
+        }
+      ],
+      "photoCount": 19,
+      "cover": {
+        "src": "photos/update-islands-20261120-267b8b32a194e6f57bccbc90.webp",
+        "date": "2024-03-17",
+        "alt": "비진도 산행 대표 사진",
+        "photoId": "island-update-267b8b32a194e6f57bccbc90"
+      },
+      "reviewedPhotoIds": [
+        "island-update-267b8b32a194e6f57bccbc90",
+        "island-update-9b9ed70228edd5cf13fb8eff"
+      ],
+      "basis": "uploaded-photo-review",
+      "sources": []
+    },
+    "i-97": {
+      "name": "용초도",
+      "summary": "배 안의 휴식과 해 질 무렵 바다가 작은 섬 여행의 여운을 남깁니다.",
+      "photoThemes": [
+        "바다",
+        "노을"
+      ],
+      "highlights": [],
+      "photoCount": 11,
+      "cover": {
+        "src": "photos/update-islands-20261120-8ef606100eaf9c0fdb3abb88.webp",
+        "date": "2024-03-03",
+        "alt": "용초도 산행 대표 사진",
+        "photoId": "island-update-8ef606100eaf9c0fdb3abb88"
+      },
+      "reviewedPhotoIds": [
+        "island-update-8ef606100eaf9c0fdb3abb88",
+        "island-update-f5fab3fadb40fbe38251ef8e"
+      ],
+      "basis": "uploaded-photo-review",
+      "sources": []
+    },
+    "i-98": {
+      "name": "마라도",
+      "summary": "돌길을 걸어 최남단비를 만나는 탁 트인 섬 산책입니다.",
+      "photoThemes": [
+        "바다",
+        "돌길"
+      ],
+      "highlights": [],
+      "photoCount": 15,
+      "cover": {
+        "src": "photos/update-islands-20261120-50a283b1380c68f5f5c15dbe.webp",
+        "date": "2023-06-04",
+        "alt": "마라도 산행 대표 사진",
+        "photoId": "island-update-50a283b1380c68f5f5c15dbe"
+      },
+      "reviewedPhotoIds": [
+        "island-update-50a283b1380c68f5f5c15dbe",
+        "island-update-27a26fd72559080a42e9dcb5"
+      ],
+      "basis": "uploaded-photo-review",
+      "sources": []
+    },
+    "i-99": {
+      "name": "우도",
+      "summary": "하얀 등대와 푸른 바다가 어우러진 우도의 풍경을 담았습니다.",
+      "photoThemes": [
+        "바다",
+        "등대"
+      ],
+      "highlights": [],
+      "photoCount": 12,
+      "cover": {
+        "src": "photos/update-islands-20261120-68cc2743ef570618f803fd9c.webp",
+        "date": "2023-06-02",
+        "alt": "우도 산행 대표 사진",
+        "photoId": "island-update-68cc2743ef570618f803fd9c"
+      },
+      "reviewedPhotoIds": [
+        "island-update-68cc2743ef570618f803fd9c",
+        "island-update-981755716ea952af35354f1e"
+      ],
+      "basis": "uploaded-photo-review",
+      "sources": []
+    },
+    "i-100": {
+      "name": "추자도",
+      "summary": "항구에서 돈대산으로 이어지는 여정에 푸른 바다가 함께합니다.",
+      "photoThemes": [
+        "바다",
+        "뱃길"
+      ],
+      "highlights": [],
+      "photoCount": 23,
+      "cover": {
+        "src": "photos/update-islands-20261120-f98c5f1169ccd63b75bceed3.webp",
+        "date": "2025-01-25",
+        "alt": "추자도 산행 대표 사진",
+        "photoId": "island-update-f98c5f1169ccd63b75bceed3"
+      },
+      "reviewedPhotoIds": [
+        "island-update-f98c5f1169ccd63b75bceed3",
+        "island-update-cba9eb97b4e1086f9a7834c3"
+      ],
+      "basis": "uploaded-photo-review",
+      "sources": []
+    }
+  }
+}

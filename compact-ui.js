@@ -41,12 +41,13 @@
   const related=node.matches('.ux-context-links>a,.quick-nav>a,.record-return-links>.btn'),galleryChoice=node.matches('.actions>.btn,.go-home-bottom>.btn');
   const closeReturn=node.matches('.jk-bottom-close>button,.jk-gps-large-footer>.jk-gps-large-close,.lightbox .lb-back');
   const photoClose=node.matches('#lb-close,#close-lightbox,.jk-protected-viewer>button,.lightbox .close');
-  const growth=topMenu?1.69:subMenu?1.95:album?1.43:photoClose?1.3:closeReturn?1.2:related||galleryChoice?1.1:1;
+  const detailAction=node.matches('dialog#details #close,#detail.detail #close,dialog#details .ux-actions>a.ux-edit-btn,#detail.detail .ux-actions>a.ux-edit-btn,dialog#details a.jk-gallery-action,#detail.detail a.jk-gallery-action');
+  const growth=detailAction?1.3:topMenu?1.69:subMenu?1.95:album?1.43:photoClose?1.3:closeReturn?1.2:related||galleryChoice?1.1:1;
   for(const side of ['Top','Right','Bottom','Left'])node.style.setProperty('padding-'+side.toLowerCase(),(px(c['padding'+side])*.8*growth).toFixed(2)+'px','important');
   node.style.setProperty('min-height',(Math.max(24,min*.8)*growth).toFixed(2)+'px','important');
   node.style.setProperty('font-size',Math.max(11,font*.9).toFixed(2)+'px','important');
   if(line)node.style.setProperty('line-height',Math.max(14,line*.9).toFixed(2)+'px','important');
-  if(c.height!=='auto'&&node.matches('.leaflet-control a,button#close,button.close'))node.style.setProperty('height',Math.max(24,px(c.height)*.8)+'px','important');
+  if(c.height!=='auto'&&node.matches('.leaflet-control a,button#close,button.close'))node.style.setProperty('height',(Math.max(24,px(c.height)*.8)*(detailAction?1.3:1))+'px','important');
   if(photoClose&&node.matches('#lb-close')){node.style.setProperty('width',(px(c.width)*1.3).toFixed(2)+'px','important');node.style.setProperty('height',(px(c.height)*1.3).toFixed(2)+'px','important');}
   else if(photoClose&&node.matches('button.close'))node.style.setProperty('height',(Math.max(24,px(c.height)*.8)*1.3).toFixed(2)+'px','important');
   done.add(node);
@@ -84,7 +85,8 @@
    const recordList=location.pathname.endsWith('/records-to-complete.html')&&node.closest('.table-wrap table');
    const closeReturn=node.closest('.jk-bottom-close>button,.jk-bottom-close>a,.jk-gps-large-footer>.jk-gps-large-close,.lightbox .lb-back');
    const photoClose=node.closest('#lb-close,#close-lightbox,.jk-protected-viewer>button,.lightbox .close');
-   const ratio=baseRatio*(tenPercent?1.1:1)*(recordList?1.2:1)*(closeReturn?1.2:1)*(photoClose?1.3:1);
+   const detailAction=node.closest('dialog#details #close,#detail.detail #close,dialog#details .ux-actions>a.ux-edit-btn,#detail.detail .ux-actions>a.ux-edit-btn,dialog#details a.jk-gallery-action,#detail.detail a.jk-gallery-action');
+   const ratio=(detailAction?baseRatio*1.3:baseRatio)*(tenPercent?1.1:1)*(recordList?1.2:1)*(closeReturn?1.2:1)*(photoClose?1.3:1);
    const applied={'font-size':(size*ratio).toFixed(3)+'px','line-height':line?(line*ratio).toFixed(3)+'px':node.style.getPropertyValue('line-height')};
    node.style.setProperty('font-size',applied['font-size'],'important');
    if(line)node.style.setProperty('line-height',applied['line-height'],'important');
