@@ -39,7 +39,7 @@ main{padding:38px 0 80px}.stats{display:grid;grid-template-columns:repeat(3,minm
 <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"WebPage","@id":"https://keunjkim.github.io/100-Mountains-Isliands/islands.html#webpage","url":"https://keunjkim.github.io/100-Mountains-Isliands/islands.html","name":"BAC 섬&산100 · 100개 섬의 인증과 산행 기록 | JK 의 산하정복","description":"블랙야크 BAC 섬앤산100의 섬별 인증일과 날짜별 산행 기록. 섬 이름·인증지·지역, 실제 이동 지도와 산행 사진을 모았습니다.","inLanguage":"ko-KR","isPartOf":{"@id":"https://keunjkim.github.io/#website"}},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"JK 의 산하정복 대표 홈","item":"https://keunjkim.github.io/"},{"@type":"ListItem","position":2,"name":"산행 홈","item":"https://keunjkim.github.io/100-Mountains-Isliands/"},{"@type":"ListItem","position":3,"name":"BAC 섬&산100 · 100개 섬의 인증과 산행 기록","item":"https://keunjkim.github.io/100-Mountains-Isliands/islands.html"}]}]}</script>
 <meta name="author" content="김종근 (종근 · JK · KJK)">
 <link rel="stylesheet" href="https://keunjkim.github.io/100-Mountains-Isliands/site-profile.css?v=20261114-admin-session1">
-<script defer src="https://keunjkim.github.io/100-Mountains-Isliands/site-profile.js?v=20261115-gallery2"></script>
+<script defer src="https://keunjkim.github.io/100-Mountains-Isliands/site-profile.js?v=20261120-lists1"></script>
 <style id="jk-search-topic-style">html body .seo-topics{display:flex;flex-wrap:wrap;align-items:center;gap:6px;padding-top:12px;padding-bottom:12px}html body .seo-topics a{display:inline-flex;align-items:center;padding:4px 9px;border:1px solid #c8b28e;border-radius:18px;background:#fff9ec;color:#624625!important;font-size:11px;line-height:1.5;text-decoration:none;white-space:nowrap}html body .seo-topics a:hover{background:#e9efdf;color:#29462a!important}html body .seo-topics a:focus-visible{outline:3px solid #88602d;outline-offset:2px}</style>
 </head><body>
 <div id="ux-navigation"><nav aria-label="통합 홈페이지 이동 메뉴"><div class="ux-bar"><a class="ux-brand" href="./">BAC 100대명산 과 <b>섬&amp;산100</b><span class="jk-brand-tag">(JK 의 산하정복)</span></a><div class="ux-menu"><a href="https://keunjkim.github.io/">대표 홈</a><a href="./">산행 홈</a><details class="ux-group"><summary>BAC 100대명산 <span class="ux-chevron">⌄</span></summary><div class="ux-drop"><a href="mountains.html">BAC 100대명산 목록</a><a href="mountains-map.html">BAC 100대명산 지도</a><a href="gallery.html">명산 사진 갤러리</a></div></details><details class="ux-group"><summary>BAC 섬&산100 <span class="ux-chevron">⌄</span></summary><div class="ux-drop"><a href="islands.html" aria-current="page">BAC 섬&산100 목록</a><a href="islands-map.html">BAC 섬&산100 지도</a><a href="gallery.html">섬 사진 갤러리</a></div></details><a href="yeongnam-alps.html">영남알프스</a><a href="gallery.html">사진 갤러리</a><details class="ux-group"><summary>산행 기록 <span class="ux-chevron">⌄</span></summary><div class="ux-drop"><a href="blog.html">산행 블로그</a><a href="other-hikes.html">명산외산행</a></div></details></div></div><div class="ux-breadcrumb" aria-label="현재 위치"><a href="https://keunjkim.github.io/">대표 홈</a> <span aria-hidden="true">›</span> <a href="./">산행 홈</a> <span aria-hidden="true">›</span> <strong aria-current="page">BAC 섬&산100 목록</strong></div></nav></div>
@@ -49,7 +49,7 @@ main{padding:38px 0 80px}.stats{display:grid;grid-template-columns:repeat(3,minm
 <p class="hint" id="count">전체 100개 기록</p><div id="island-cards" class="ux-island-grid" aria-live="polite"></div>
 <div id="empty" class="empty" style="display:none">조건에 맞는 섬 기록이 없습니다.</div>
 <p class="ux-card-hint">각 섬 카드를 누르면 BAC 인증일·인증지 높이·산행 정보가 나타납니다. 관리자는 코스, 거리, 시간, 정상 고도 등을 추가·수정할 수 있습니다.</p>
-<div id="detail" class="detail"><button class="close" id="close">닫기 ×</button><h2 id="detail-title"></h2><dl id="detail-list"></dl></div>
+<dialog id="detail" class="detail" aria-label="섬 산행 상세"><button class="close" id="close">닫기 ×</button><h2 id="detail-title"></h2><dl id="detail-list"></dl></dialog>
 <div class="bottom"><a class="back" href="./">← 메인 홈페이지</a><a class="back" href="mountains.html">BAC 100대명산 기록 보기 →</a></div>
 <p class="hint" style="margin-top:28px">인증지 높이: BAC 공식 자료 및 진도군 관광 안내 기준. 표지석·해안 등 실제 해발을 확인하지 못한 인증지는 ‘높이 확인 중’으로 표시합니다. <a href="https://bac.blackyak.com/BAC/ChallengeProgram/158" target="_blank" rel="noopener noreferrer">높이 참고 자료 ↗</a><br>자료 출처: 사용자가 제공한 「100섬_BAC_여행 산행기록표.xlsx」 · 방문일은 원본 엑셀에 입력된 값을 사용했습니다. 사진과 블로그 링크는 추후 추가합니다.</p></main><section class="wrap seo-topics" aria-label="산행 검색 주제"><a href="mountains.html">#블랙야크</a><a href="mountains.html">#블랙야크알파인클럽</a><a href="mountains.html">#BAC100</a><a href="mountains.html">#100대명산</a><a href="islands.html">#섬앤산100</a><a href="islands.html">#섬산행</a><a href="yeongnam-alps.html">#영남알프스9봉</a><a href="overseas-trekking.html">#해외트래킹</a><a href="overseas-trekking.html">#트레킹</a><a href="mountains-map.html">#산행코스</a><a href="mountains-map.html">#GPX산행지도</a><a href="blog.html">#산행기록</a><a href="gallery.html">#등산사진</a><a href="index.html">#김종근</a><a href="index.html">#JK의산하정복</a><a href="mountains.html">#블랙야크100대명산</a><a href="mountains.html">#블랙야크명산100</a><a href="islands.html">#블랙야크섬&amp;산100</a></section>
 <footer class="foot">© 2026 BAC 100대명산 과 섬&amp;산100 · 개인 산행 아카이브</footer>
@@ -72,7 +72,7 @@ function draw(){
   const card=label('button','', 'ux-island-card');card.type='button';card.dataset.no=x.no;card.setAttribute('aria-label',x.island+' 상세 산행 기록 보기');
   card.append(label('span',String(x.no).padStart(3,'0'),'ux-id'),label('strong',x.island),label('small',x.region+' · '+islandElevation(x)+' · '+x.peak));
   const tags=label('div','','ux-marks');tags.append(label('span','BAC 인증일 '+x.visit.replaceAll('-','.')),label('span',x.bac,'ux-certified'));
-  card.append(tags);cards.append(card);
+  card.append(tags);const extra=[x.distance?'거리 '+x.distance+'km':'',x.duration?'소요 '+x.duration:''].filter(Boolean);if(extra.length)card.append(label('p',extra.join(' · '),'jk-list-extra'));if(x.route)card.append(label('p',x.route,'jk-list-extra'));cards.append(card);
  }
  $('empty').style.display=found.length?'none':'block';$('count').textContent='검색 결과 '+found.length+'개 / 전체 '+records.length+'개';
 }
@@ -80,14 +80,14 @@ function addInfo(dl,key,val){if(val===null||val===undefined||val==='')return;con
 function openIsland(x){
  $('detail-title').textContent=x.island+' · 산행 상세';const dl=$('detail-list');dl.replaceChildren();
  [['번호',x.no],['지역',x.region],['BAC 인증지',x.peak],['인증지 높이',islandElevation(x)],['BAC 인증일',x.visit],['방문 상태',x.status],['BAC 인증',x.bac],['기존 산행 코스',x.route],['기존 거리',x.distance?x.distance+'km':''],['기존 소요시간',x.duration],['기존 메모',x.memo]].forEach(([k,v])=>addInfo(dl,k,v));
- $('detail').style.display='block';if(window.HikeRecords)window.HikeRecords.show('islands',x,$('detail'));
+ if(!$('detail').open)$('detail').showModal();if(window.HikeRecords)window.HikeRecords.show('islands',x,$('detail'));
  if(window.IslandGps)window.IslandGps.show(x,$('detail'));
- $('detail').scrollIntoView({behavior:'smooth',block:'start'});
+ 
 }
 cards.addEventListener('click',e=>{const button=e.target.closest('button[data-no]');if(!button)return;const x=records.find(r=>r.no===Number(button.dataset.no));if(x)openIsland(x)});
-$('close').addEventListener('click',()=>{$('detail').style.display='none'});
+$('close').addEventListener('click',()=>{$('detail').close()});
 ['search','region','sort'].forEach(id=>$(id).addEventListener(id==='search'?'input':'change',draw));
 draw();const selectedIsland=records.find(r=>r.no===Number(new URLSearchParams(location.search).get('island')));if(selectedIsland)window.addEventListener('load',()=>openIsland(selectedIsland),{once:true});
 </script><script src="island-gps.js?v=20261111-all334"></script>
-<script src="site-nav.js?v=20261114-bottom-close1"></script>
+<script src="site-nav.js?v=20261120-position1"></script>
 <script src="ramblr-media.js?v=20261112"></script><script defer src="tranggle-records.js?v=20261114-gps7"></script></body></html>

@@ -52,6 +52,7 @@
  }
  function scaleTypography(){
   const measurements=[];
+  const listPage=['mountains.html','islands.html','yeongnam-alps.html','other-hikes.html','overseas-trekking.html','records-to-complete.html'].includes(location.pathname.split('/').pop());
   for(const node of document.querySelectorAll('body *:not(script):not(style):not(noscript)')){
    // Inline children also need their parent's line-box metrics reduced.
    if(node.matches('img,svg,canvas,iframe,br,hr,source,video,audio,path,polyline,polygon,circle,rect'))continue;
@@ -62,7 +63,8 @@
   // Measure the entire text tree before changing parents, so nested text scales once.
   for(const [node,size,line]of measurements){
    const original={};for(const prop of ['font-size','line-height'])original[prop]=[node.style.getPropertyValue(prop),node.style.getPropertyPriority(prop)];
-   const applied={'font-size':(size*.7).toFixed(3)+'px','line-height':line?(line*.7).toFixed(3)+'px':node.style.getPropertyValue('line-height')};
+   const ratio=listPage&&node.closest('#cards>.card,#island-cards>.ux-island-card,#alps-records>.record,#list>.card,#overseas-list>.trek-card,.filters button,.toolbar .btn,.ux-context-links a')?.closest('main,.ux-context-links')?.nodeType? .91:.7;
+   const applied={'font-size':(size*ratio).toFixed(3)+'px','line-height':line?(line*ratio).toFixed(3)+'px':node.style.getPropertyValue('line-height')};
    node.style.setProperty('font-size',applied['font-size'],'important');
    if(line)node.style.setProperty('line-height',applied['line-height'],'important');
    fontStates.set(node,{original,applied});

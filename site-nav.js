@@ -116,7 +116,7 @@ navigation.append(section);
   document.addEventListener('click',event=>{const card=event.target.closest('#cards>.card,#island-cards>.ux-island-card');if(card)opener=card;});
   const footer=document.createElement('div');footer.className='jk-bottom-close';
   const button=document.createElement('button');button.type='button';button.textContent='닫기 · 목록으로';button.setAttribute('aria-label','산행 상세 닫고 목록으로 돌아가기');
-  button.addEventListener('click',()=>{close.click();if(opener?.isConnected){opener.focus({preventScroll:true});opener.scrollIntoView({block:'nearest'});}});
+  button.addEventListener('click',()=>{close.click();if(opener?.isConnected){opener.focus({preventScroll:true});}});
   footer.append(button);panel.append(footer);
   new MutationObserver(()=>{if(panel.lastElementChild!==footer)panel.append(footer);}).observe(panel,{childList:true});
  }

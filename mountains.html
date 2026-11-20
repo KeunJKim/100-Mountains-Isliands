@@ -95,7 +95,7 @@ dialog.hwangmaesan-detail{max-width:980px;width:calc(100% - 16px);padding:clamp(
 <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"WebPage","@id":"https://keunjkim.github.io/100-Mountains-Isliands/mountains.html#webpage","url":"https://keunjkim.github.io/100-Mountains-Isliands/mountains.html","name":"BAC 100대명산 · 100개 명산의 날짜별 기록 | JK 의 산하정복","description":"블랙야크 BAC 100대명산 100곳의 인증일과 날짜별 산행 기록. 김종근(JK)의 실제 산행 코스, GPX 경로와 정상 사진을 확인하세요.","inLanguage":"ko-KR","isPartOf":{"@id":"https://keunjkim.github.io/#website"}},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"JK 의 산하정복 대표 홈","item":"https://keunjkim.github.io/"},{"@type":"ListItem","position":2,"name":"산행 홈","item":"https://keunjkim.github.io/100-Mountains-Isliands/"},{"@type":"ListItem","position":3,"name":"BAC 100대명산 · 100개 명산의 날짜별 기록","item":"https://keunjkim.github.io/100-Mountains-Isliands/mountains.html"}]}]}</script>
 <meta name="author" content="김종근 (종근 · JK · KJK)">
 <link rel="stylesheet" href="https://keunjkim.github.io/100-Mountains-Isliands/site-profile.css?v=20261114-admin-session1">
-<script defer src="https://keunjkim.github.io/100-Mountains-Isliands/site-profile.js?v=20261115-gallery2"></script>
+<script defer src="https://keunjkim.github.io/100-Mountains-Isliands/site-profile.js?v=20261120-lists1"></script>
 
 <script>
 /* 날짜별 원본 기록과 게시된 산행기를 연결합니다. */
@@ -340,7 +340,7 @@ function render(){
    small.append(asEl('span','인증완료','pill good'));
    small.append(asEl('span','산행 '+m.visits.length+'회','pill'));
    small.append(asEl('span','BAC 인증완료','pill'));
-   card.append(small);card.addEventListener('click',()=>showDetails(m));cards.append(card);
+   card.append(small);const latest=(m.visits||[]).map(v=>v.date).filter(Boolean).sort().at(-1);if(latest)card.append(asEl('p','최근 산행 '+showDate(latest),'jk-list-extra'));card.addEventListener('click',()=>showDetails(m));cards.append(card);
  });
  count.textContent='검색 결과 '+result.length+'개 산';
  empty.hidden=result.length!==0;
@@ -353,6 +353,6 @@ const selectedParams=new URLSearchParams(location.search);const selectedNo=Numbe
 if(selectedMountain){showDetails(selectedMountain);const recordId=selectedParams.get('record');if(/^\d+$/.test(recordId||''))requestAnimationFrame(()=>{const link=[...visitsEl.querySelectorAll('a[href]')].find(a=>a.href.endsWith('/'+recordId));link?.closest('.visit')?.scrollIntoView({block:'start'});});}
 })();
 </script>
-<script src="site-nav.js?v=20261114-bottom-close1"></script>
+<script src="site-nav.js?v=20261120-position1"></script>
 <script src="ramblr-media.js?v=20261112"></script><script src="local-photo-links.js?v=20261112"></script><script defer src="samsung-health-records.js?v=20261114-health1"></script></body>
 </html>
