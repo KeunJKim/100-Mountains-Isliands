@@ -30,8 +30,9 @@
   if(node.querySelector('img')&&!node.matches('.jk-home-card-stage .card'))return;
   if(node.matches('.jk-hiking-home .hero-copy .buttons .button')){for(const [key,value]of Object.entries({'font-size':'10px','line-height':'12px','padding':'1px 0','min-height':'28px'}))node.style.setProperty(key,value,'important');done.add(node);return;}
   const font=px(c.fontSize),line=px(c.lineHeight),min=px(c.minHeight);
-  for(const side of ['Top','Right','Bottom','Left'])node.style.setProperty('padding-'+side.toLowerCase(),(px(c['padding'+side])*.8).toFixed(2)+'px','important');
-  node.style.setProperty('min-height',Math.max(24,min*.8).toFixed(2)+'px','important');
+  const menu=node.matches('.jk-compact-menu>a,.jk-compact-menu>details>summary,.jk-nav-drop>a,.jk-all-panel a');
+  for(const side of ['Top','Right','Bottom','Left'])node.style.setProperty('padding-'+side.toLowerCase(),(px(c['padding'+side])*(menu?1.04:.8)).toFixed(2)+'px','important');
+  node.style.setProperty('min-height',(Math.max(24,min*.8)*(menu?1.3:1)).toFixed(2)+'px','important');
   node.style.setProperty('font-size',Math.max(11,font*.9).toFixed(2)+'px','important');
   if(line)node.style.setProperty('line-height',Math.max(14,line*.9).toFixed(2)+'px','important');
   if(c.height!=='auto'&&node.matches('.leaflet-control a,button#close,button.close'))node.style.setProperty('height',Math.max(24,px(c.height)*.8)+'px','important');
@@ -63,7 +64,8 @@
   // Measure the entire text tree before changing parents, so nested text scales once.
   for(const [node,size,line]of measurements){
    const original={};for(const prop of ['font-size','line-height'])original[prop]=[node.style.getPropertyValue(prop),node.style.getPropertyPriority(prop)];
-   const ratio=listPage&&node.closest('#cards>.card,#island-cards>.ux-island-card,#alps-records>.record,#list>.card,#overseas-list>.trek-card,.filters button,.toolbar .btn,.ux-context-links a')?.closest('main,.ux-context-links')?.nodeType? .91:.7;
+   const enlargedMenu=node.closest('.jk-compact-menu>a,.jk-compact-menu>details>summary,.jk-nav-drop>a,.jk-all-panel a,.entries .entry');
+   const ratio=node.closest('.jk-season-tools,.jk-season-note')?1:enlargedMenu||(listPage&&node.closest('#cards>.card,#island-cards>.ux-island-card,#alps-records>.record,#list>.card,#overseas-list>.trek-card,.filters button,.toolbar .btn,.ux-context-links a')?.closest('main,.ux-context-links')?.nodeType)? .91:.7;
    const applied={'font-size':(size*ratio).toFixed(3)+'px','line-height':line?(line*ratio).toFixed(3)+'px':node.style.getPropertyValue('line-height')};
    node.style.setProperty('font-size',applied['font-size'],'important');
    if(line)node.style.setProperty('line-height',applied['line-height'],'important');

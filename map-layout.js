@@ -7,7 +7,7 @@
  const style=document.createElement('style');style.id='jk-map-layout-style';
  style.textContent=`
  html body.jk-map-compact .wrap{width:calc(100% - 24px)!important;max-width:none!important}
- html body.jk-map-compact .layout{display:grid!important;grid-template-columns:clamp(175px,17.5vw,238px) minmax(0,1fr)!important;align-items:stretch!important}
+ html body.jk-map-compact .layout{display:grid!important;grid-template-columns:clamp(227.5px,22.75vw,309.4px) minmax(0,1fr)!important;align-items:stretch!important}
  html body.jk-map-compact .layout>.panel{display:flex!important;flex-direction:column!important;min-width:0!important;min-height:0!important;border-radius:10px!important}
  html body.jk-map-compact .panelhead{display:flex!important;align-items:center!important;gap:6px!important;min-width:0!important;flex:0 0 auto!important}
  html body.jk-map-compact .panelhead>strong{flex:none!important}
@@ -56,7 +56,7 @@
   for(const p of document.querySelectorAll('.panelhead p'))p.title=p.textContent;
   each('.filters',{padding:'4px 6px',gap:'4px',margin:'0'});
   each('.filters input,.filters select',{padding:'3px 6px',height:'26px','min-height':'0'});
-  each('.entry',{height:'auto','min-height':'0',padding:'4px 8px',gap:'7px'});
+  each('.entry',{height:'auto','min-height':'0',padding:'5.2px 10.4px',gap:'9.1px'});
   each('.map-row-meta',{margin:'2px 0 0'});
   each('.bac-map-link',{padding:'4px 8px',margin:'0',gap:'6px',height:'auto','min-height':'0','flex-shrink':'0'});
   each('.map-location-warning',{padding:'3px 8px',margin:'0','flex-shrink':'0'});

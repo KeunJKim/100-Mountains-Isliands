@@ -29,7 +29,7 @@
  .jk-protected-viewer .jk-photo-credit{position:absolute;right:12px;bottom:10px;padding:3px 6px;background:#0008;color:white;font:12px/1.4 sans-serif;pointer-events:none}
  .jk-protected-viewer button{align-self:flex-end}
  .lb-image-stage::after,.jk-protected-viewer .jk-photo-credit{right:var(--jk-photo-right,8px);bottom:var(--jk-photo-bottom,8px)}
- @media(min-width:1000px) and (max-width:1599px){html body.jk-map-compact .jk-header-grid .jk-compact-menu{grid-column:1/-1!important;grid-row:3!important;justify-content:flex-start!important}}
+ @media(min-width:1000px) and (max-width:1599px){html body .jk-header-grid .jk-compact-menu{grid-column:1/-1!important;grid-row:3!important;justify-content:flex-start!important}}
  @media(max-width:760px){html body.jk-readable-lists :is(#cards,#island-cards,#alps-records,#list.grid,#overseas-list){grid-template-columns:repeat(2,minmax(0,1fr))!important;gap:9px!important}}
  @media(max-width:480px){html body.jk-readable-lists :is(#cards,#island-cards,#alps-records,#list.grid,#overseas-list){grid-template-columns:1fr!important}}
  `;document.head.append(style);
@@ -88,4 +88,5 @@
   const enrich=()=>{for(const card of document.querySelectorAll('#alps-records>.record,#list>.card')){if(card.querySelector('.jk-list-extra'))continue;const link=[...card.querySelectorAll('a[href]')].find(a=>byFile.has(new URL(a.href).pathname.split('/').pop())),r=link&&byFile.get(new URL(link.href).pathname.split('/').pop());if(!r)continue;const parts=[Number.isFinite(r.distanceKm)?'거리 '+r.distanceKm+'km':'',r.duration?'소요 '+r.duration:''].filter(Boolean);if(parts.length){const p=document.createElement('p');p.className='jk-list-extra';p.textContent=parts.join(' · ');card.append(p);}}};
   new MutationObserver(()=>{if(pending)return;pending=true;requestAnimationFrame(()=>{pending=false;enrich();});}).observe(document.querySelector('#alps-records,#list'),{childList:true,subtree:true});enrich();
  }).catch(e=>console.warn('목록 보충 정보 연결 실패',e));
+ const seasons=document.createElement('script');seasons.src='https://keunjkim.github.io/100-Mountains-Isliands/seasonal-lists.js?v=20261120-season1';document.head.append(seasons);
 })();
