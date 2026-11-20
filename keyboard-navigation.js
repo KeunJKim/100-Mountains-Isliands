@@ -87,13 +87,13 @@
  },true);
  // 앨범·필터 선택으로 목록이 다시 그려져도 키보드 초점을 잃지 않습니다.
  document.addEventListener('click',event=>{
-  const node=event.target.closest?.(control);if(event.detail!==0||node!==document.activeElement||nativeContext(node))return;
+  const node=event.target.closest?.(control);if(node!==document.activeElement||nativeContext(node))return;
   const g=group(node);if(!g||!g.items.includes(node))return;
-  const index=g.items.indexOf(node),label=node.textContent.trim(),id=node.id,scrollTop=g.root.scrollTop;
+  const index=g.items.indexOf(node),label=node.textContent.trim(),id=node.id,scrollTop=g.root.scrollTop,keyboard=event.detail===0;
   requestAnimationFrame(()=>{
    if(node.isConnected||!g.root.isConnected||document.activeElement!==document.body)return;
    const items=controls(g.root),replacement=(id&&items.find(n=>n.id===id))||items.find(n=>n.textContent.trim()===label)||items[Math.min(index,items.length-1)];
-   if(replacement){focus(replacement,false);g.root.scrollTop=scrollTop;}
+   if(replacement){if(keyboard)focus(replacement,false);else replacement.focus({preventScroll:true});g.root.scrollTop=scrollTop;}
   });
  },true);
  document.addEventListener('pointerdown',()=>{if(marked)marked.classList.remove('jk-arrow-focus');marked=null;},true);
