@@ -77,7 +77,7 @@
   const source=card.cloneNode(true);source.querySelectorAll('.jk-season-tags').forEach(n=>n.remove());const content=source.textContent||'';
   if(memo.get(card)?.content===content)return memo.get(card);
   const title=table?source.children[2]?.textContent:source.querySelector('.map-row-name,h2,h3,strong')?.textContent||content;
-  const dates=[...content.matchAll(/\b(20\d{2})[-.](\d{2})[-.](\d{2})\b/g)];
+  const dates=[...content.matchAll(/(?<!\d)(20\d{2})[-.](\d{2})[-.](\d{2})(?!\d)/g)];
   const seasons=[...new Set(dates.filter(m=>+m[2]>=1&&+m[2]<=12&&+m[3]>=1&&+m[3]<=31).map(m=>{const month=+m[2];return month>=3&&month<=5?'봄':month>=6&&month<=8?'여름':month>=9&&month<=11?'가을':'겨울';}))];
   const tags=[{text:seasons.length?'방문 '+seasons.join('·'):'방문 계절 미등록',kind:'visit'}];
   const matched=highlights.filter(([re])=>re.test(title));
