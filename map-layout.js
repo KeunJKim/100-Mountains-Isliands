@@ -65,7 +65,7 @@
   each('.mapinfo .actions',{margin:'3px 0 0',gap:'4px'});
   each('.mapinfo .action',{padding:'3px 8px','min-height':'22px',height:'auto'});
   each('.bottom,.jk-bottom-close',{margin:'0',padding:'0','min-height':'0',height:'auto'});
-  each('.jk-bottom-close a,.jk-bottom-close button',{padding:'3px 8px','min-height':'20px',height:'auto'});
+  each('.jk-bottom-close a,.jk-bottom-close button',{padding:'3.6px 9.6px','min-height':'24px',height:'auto'});
   each('.seo-topics',{width:contentWidth,margin:'2px auto',padding:'0',gap:'3px','min-height':'0',height:'auto'});
   each('.seo-topics a',{padding:'1px 4px',margin:'0','min-height':'0',height:'auto'});
   each('footer',{padding:'3px 12px',margin:'0','min-height':'0',height:'auto'});

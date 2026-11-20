@@ -16,6 +16,8 @@
  html body .side .alb-btn{gap:13.2px;min-width:0;box-sizing:border-box}
  html body .side .alb-name{min-width:0;white-space:normal!important;overflow:visible!important;text-overflow:clip!important}
  html body .side .alb-title{white-space:normal!important;overflow-wrap:anywhere}
+ html body .lightbox:has(#lb-close){padding-top:86.4px!important}
+ html body .lightbox .lb-back{right:96.4px!important}
  html body .jk-home-card-stage>.grid{grid-template-columns:repeat(6,minmax(0,1fr))!important;gap:7px!important}
  html body .jk-home-card-stage .card{min-width:0!important;overflow-wrap:anywhere}
  html body .jk-home-card-stage .card .number{font-size:16px!important;line-height:1.1!important}
@@ -37,12 +39,16 @@
   const font=px(c.fontSize),line=px(c.lineHeight),min=px(c.minHeight);
   const topMenu=node.matches('.jk-compact-menu>a,.jk-compact-menu>details>summary'),subMenu=node.matches('.jk-nav-drop>a,.jk-all-panel a'),album=node.matches('.side .alb-btn');
   const related=node.matches('.ux-context-links>a,.quick-nav>a,.record-return-links>.btn'),galleryChoice=node.matches('.actions>.btn,.go-home-bottom>.btn');
-  const growth=topMenu?1.69:subMenu?1.95:album?1.43:related||galleryChoice?1.1:1;
+  const closeReturn=node.matches('.jk-bottom-close>button,.jk-gps-large-footer>.jk-gps-large-close,.lightbox .lb-back');
+  const photoClose=node.matches('#lb-close,#close-lightbox,.jk-protected-viewer>button,.lightbox .close');
+  const growth=topMenu?1.69:subMenu?1.95:album?1.43:photoClose?1.3:closeReturn?1.2:related||galleryChoice?1.1:1;
   for(const side of ['Top','Right','Bottom','Left'])node.style.setProperty('padding-'+side.toLowerCase(),(px(c['padding'+side])*.8*growth).toFixed(2)+'px','important');
   node.style.setProperty('min-height',(Math.max(24,min*.8)*growth).toFixed(2)+'px','important');
   node.style.setProperty('font-size',Math.max(11,font*.9).toFixed(2)+'px','important');
   if(line)node.style.setProperty('line-height',Math.max(14,line*.9).toFixed(2)+'px','important');
   if(c.height!=='auto'&&node.matches('.leaflet-control a,button#close,button.close'))node.style.setProperty('height',Math.max(24,px(c.height)*.8)+'px','important');
+  if(photoClose&&node.matches('#lb-close')){node.style.setProperty('width',(px(c.width)*1.3).toFixed(2)+'px','important');node.style.setProperty('height',(px(c.height)*1.3).toFixed(2)+'px','important');}
+  else if(photoClose&&node.matches('button.close'))node.style.setProperty('height',(Math.max(24,px(c.height)*.8)*1.3).toFixed(2)+'px','important');
   done.add(node);
  }
 
@@ -76,7 +82,9 @@
    const baseRatio=node.closest('.jk-season-tools,.jk-season-note')?1:node.closest('.jk-all-panel strong')?1.05:subMenu?1.365:topMenu?1.183:gallerySidebar||enlargedList||(listPage&&node.closest('#cards>.card,#island-cards>.ux-island-card,#alps-records>.record,#list>.card,#overseas-list>.trek-card,.filters button,.toolbar .btn,.ux-context-links a')?.closest('main,.ux-context-links')?.nodeType)? .91:.7;
    const tenPercent=gallerySidebar||node.closest('.ux-context-links>a,.quick-nav>a,.record-return-links>.btn,.actions>.btn,.go-home-bottom>.btn');
    const recordList=location.pathname.endsWith('/records-to-complete.html')&&node.closest('.table-wrap table');
-   const ratio=baseRatio*(tenPercent?1.1:1)*(recordList?1.2:1);
+   const closeReturn=node.closest('.jk-bottom-close>button,.jk-bottom-close>a,.jk-gps-large-footer>.jk-gps-large-close,.lightbox .lb-back');
+   const photoClose=node.closest('#lb-close,#close-lightbox,.jk-protected-viewer>button,.lightbox .close');
+   const ratio=baseRatio*(tenPercent?1.1:1)*(recordList?1.2:1)*(closeReturn?1.2:1)*(photoClose?1.3:1);
    const applied={'font-size':(size*ratio).toFixed(3)+'px','line-height':line?(line*ratio).toFixed(3)+'px':node.style.getPropertyValue('line-height')};
    node.style.setProperty('font-size',applied['font-size'],'important');
    if(line)node.style.setProperty('line-height',applied['line-height'],'important');
