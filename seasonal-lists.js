@@ -10,7 +10,7 @@
   'islands-map.html':['#entries',':scope>.entry','island'],
   'yeongnam-alps-map.html':['#entries',':scope>.entry','mountain'],
   'yeongnam-alps.html':['#alps-records',':scope>.record','mountain'],
-  'other-hikes.html':['#list',':scope>.card','mountain'],
+  'other-hikes.html':['#list',':scope>.other-record-item,:scope>.card','mountain'],
   'overseas-trekking.html':['#overseas-list',':scope>.trek-card','overseas'],
   'blog.html':['#cards',':scope>.card','story'],
   'records-to-complete.html':['#record-rows',':scope>tr','record']
@@ -90,7 +90,7 @@
   if(tags.length===1)tags.push({text:config[2]==='island'?'섬·바다 풍경':config[2]==='overseas'?'해외 여정':config[2]==='story'?'산행 이야기':config[2]==='record'?'자료 보충':'산행 기록',kind:'category'});
   old?.remove();const box=make('span',null,'jk-season-tags');
   for(const tag of tags){const chip=make('span',tag.text,'jk-season-tag');chip.dataset.kind=tag.kind;if(tag.url)chip.title='볼거리 참고: '+tag.url;box.append(chip);}
-  const destination=table?card.children[2]:card.querySelector('.map-row-copy')||(map?card.querySelector(':scope>span'):null)||card;destination?.append(box);
+  const destination=table?card.children[2]:card.querySelector('.map-row-copy')||(map?card.querySelector(':scope>span'):null)||card.querySelector(':scope>.card')||card;destination?.append(box);
   // Read stable text again because the destination may be nested inside the card.
   const info={content,title,seasons,highlights:matched.map(x=>x[1]),text:[title,...tags.map(t=>t.text),content].join(' ').toLocaleLowerCase('ko')};memo.set(card,info);return info;
  }
