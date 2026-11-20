@@ -1,0 +1,3068 @@
+{
+  "version": 1,
+  "sources": {
+    "yeongchwi": {
+      "title": "여수시 영취산 진달래",
+      "url": "https://www.yeosu.go.kr/tour/travel/10tour/yeongchwisan"
+    },
+    "illim": {
+      "title": "보성군 일림산 철쭉",
+      "url": "https://tour.boseong.go.kr/tour/theme/mountaintour/limountain"
+    },
+    "mindung": {
+      "title": "정선군 민둥산 억새",
+      "url": "https://www.jeongseon.go.kr/tour/jeongseontour/travelstory/mindungsan"
+    }
+  },
+  "items": {
+    "gpx:gpx-20261107-11338135.html": {
+      "key": "gpx:gpx-20261107-11338135.html",
+      "name": "부산 장산 너덜지대",
+      "date": "2026-11-07",
+      "kind": "GPS",
+      "summary": "도시 가까운 산길에서 바위와 숲이 이어지는 산행을 담았습니다.",
+      "photoThemes": [
+        "바위",
+        "숲길"
+      ],
+      "highlights": [],
+      "cover": null,
+      "photoCount": 0,
+      "placeKey": "장산너덜지대",
+      "url": "gpx-20261107-11338135.html",
+      "elevation": 401,
+      "distanceKm": 1.43,
+      "duration": "2시간 39분 50초",
+      "visitDays": 1
+    },
+    "gpx:gpx-20261101-11309354.html": {
+      "key": "gpx:gpx-20261101-11309354.html",
+      "name": "양평 용문사",
+      "date": "2026-11-01",
+      "kind": "GPS",
+      "summary": "산사로 향하는 길의 풍경과 그날의 걸음을 함께 돌아봅니다.",
+      "photoThemes": [
+        "산사",
+        "숲길"
+      ],
+      "highlights": [],
+      "cover": null,
+      "photoCount": 0,
+      "placeKey": "양평용문사",
+      "url": "gpx-20261101-11309354.html",
+      "elevation": 325,
+      "distanceKm": 2.96,
+      "duration": "1시간 34분 27초",
+      "visitDays": 1
+    },
+    "gpx:gpx-20261030-11297793.html": {
+      "key": "gpx:gpx-20261030-11297793.html",
+      "name": "운문사",
+      "date": "2026-10-30",
+      "kind": "GPS",
+      "summary": "산사로 향하는 길의 풍경과 그날의 걸음을 함께 돌아봅니다.",
+      "photoThemes": [
+        "산사",
+        "숲길"
+      ],
+      "highlights": [],
+      "cover": {
+        "src": "photos/ramblr-11297793-001.jpg",
+        "alt": "운문사 대표 사진",
+        "photoId": "ramblr-11297793-1",
+        "date": "2026-10-30"
+      },
+      "photoCount": 1,
+      "placeKey": "운문사",
+      "url": "gpx-20261030-11297793.html",
+      "elevation": 519,
+      "distanceKm": 2.9,
+      "duration": "2시간 21분 52초",
+      "visitDays": 1
+    },
+    "gpx:gpx-20260928-11130394.html": {
+      "key": "gpx:gpx-20260928-11130394.html",
+      "name": "대왕암 산책",
+      "date": "2026-09-28",
+      "kind": "GPS",
+      "summary": "바다 곁 산책길을 걸으며 해안 풍경과 걸음의 기록을 함께 남겼습니다.",
+      "photoThemes": [
+        "바다",
+        "해안 산책"
+      ],
+      "highlights": [],
+      "cover": null,
+      "photoCount": 0,
+      "placeKey": "대왕암산책",
+      "url": "gpx-20260928-11130394.html",
+      "elevation": 69,
+      "distanceKm": 9.63,
+      "duration": "2시간 28분 8초",
+      "visitDays": 2
+    },
+    "gpx:gpx-20260823-10956445.html": {
+      "key": "gpx:gpx-20260823-10956445.html",
+      "name": "노고단",
+      "date": "2026-08-23",
+      "kind": "GPS",
+      "summary": "노고단에서 남긴 이동 경로와 거리·시간을 함께 확인합니다.",
+      "photoThemes": [
+        "GPS 산행"
+      ],
+      "highlights": [],
+      "cover": {
+        "src": "photos/ramblr-10956445-001.jpg",
+        "alt": "노고단 대표 사진",
+        "photoId": "ramblr-10956445-1",
+        "date": "2026-08-23"
+      },
+      "photoCount": 10,
+      "placeKey": "노고단",
+      "url": "gpx-20260823-10956445.html",
+      "elevation": 1529,
+      "distanceKm": 8.33,
+      "duration": "3시간 51분 47초",
+      "visitDays": 1
+    },
+    "gpx:gpx-20260810-10905735.html": {
+      "key": "gpx:gpx-20260810-10905735.html",
+      "name": "개심사",
+      "date": "2026-08-10",
+      "kind": "GPS",
+      "summary": "산사로 향하는 길의 풍경과 그날의 걸음을 함께 돌아봅니다.",
+      "photoThemes": [
+        "산사",
+        "숲길"
+      ],
+      "highlights": [],
+      "cover": null,
+      "photoCount": 0,
+      "placeKey": "개심사",
+      "url": "gpx-20260810-10905735.html",
+      "elevation": 411,
+      "distanceKm": 2.12,
+      "duration": "0시간 33분 59초",
+      "visitDays": 1
+    },
+    "gpx:gpx-20260607-10647378.html": {
+      "key": "gpx:gpx-20260607-10647378.html",
+      "name": "통도사 19암자",
+      "date": "2026-06-07",
+      "kind": "GPS",
+      "summary": "산사로 향하는 길의 풍경과 그날의 걸음을 함께 돌아봅니다.",
+      "photoThemes": [
+        "산사",
+        "숲길"
+      ],
+      "highlights": [],
+      "cover": {
+        "src": "photos/ramblr-10647378-001.jpg",
+        "alt": "통도사 19암자 대표 사진",
+        "photoId": "ramblr-10647378-1",
+        "date": "2026-06-07"
+      },
+      "photoCount": 42,
+      "placeKey": "통도사19암자",
+      "url": "gpx-20260607-10647378.html",
+      "elevation": 729,
+      "distanceKm": 24.08,
+      "duration": "11시간 26분 14초",
+      "visitDays": 1
+    },
+    "gpx:gpx-20260525-10575902.html": {
+      "key": "gpx:gpx-20260525-10575902.html",
+      "name": "거창 감악산",
+      "date": "2026-05-25",
+      "kind": "GPS",
+      "summary": "거창 감악산에서 남긴 이동 경로와 거리·시간을 함께 확인합니다.",
+      "photoThemes": [
+        "GPS 산행"
+      ],
+      "highlights": [],
+      "cover": {
+        "src": "photos/update-20261120-3a5565c286cc3bb7679859a3.webp",
+        "alt": "거창 감악산 대표 사진",
+        "photoId": "update-3a5565c286cc3bb7679859a3",
+        "date": "2026-05-25"
+      },
+      "photoCount": 13,
+      "placeKey": "거창감악산",
+      "url": "gpx-20260525-10575902.html",
+      "elevation": 946,
+      "distanceKm": 5.13,
+      "duration": "1시간 38분 23초",
+      "visitDays": 1
+    },
+    "gpx:gpx-20260525-10575359.html": {
+      "key": "gpx:gpx-20260525-10575359.html",
+      "name": "거창 감악산",
+      "date": "2026-05-25",
+      "kind": "GPS",
+      "summary": "거창 감악산에서 남긴 이동 경로와 거리·시간을 함께 확인합니다.",
+      "photoThemes": [
+        "GPS 산행"
+      ],
+      "highlights": [],
+      "cover": {
+        "src": "photos/update-20261120-3a5565c286cc3bb7679859a3.webp",
+        "alt": "거창 감악산 대표 사진",
+        "photoId": "update-3a5565c286cc3bb7679859a3",
+        "date": "2026-05-25"
+      },
+      "photoCount": 13,
+      "placeKey": "거창감악산",
+      "url": "gpx-20260525-10575359.html",
+      "elevation": 982,
+      "distanceKm": 0.81,
+      "duration": "0시간 19분 4초",
+      "visitDays": 1
+    },
+    "gpx:gpx-20260517-10528553.html": {
+      "key": "gpx:gpx-20260517-10528553.html",
+      "name": "금강산 신선대",
+      "date": "2026-05-17",
+      "kind": "GPS",
+      "summary": "탁 트인 바위 전망에서 겹겹의 산줄기를 바라봅니다.",
+      "photoThemes": [
+        "바위",
+        "능선"
+      ],
+      "highlights": [],
+      "cover": null,
+      "photoCount": 0,
+      "placeKey": "금강산신선대",
+      "url": "gpx-20260517-10528553.html",
+      "elevation": 677,
+      "distanceKm": 5.82,
+      "duration": "3시간 6분 23초",
+      "visitDays": 2
+    },
+    "gpx:gpx-20260516-10527459.html": {
+      "key": "gpx:gpx-20260516-10527459.html",
+      "name": "금강산 신선대",
+      "date": "2026-05-16",
+      "kind": "GPS",
+      "summary": "탁 트인 바위 전망에서 겹겹의 산줄기를 바라봅니다.",
+      "photoThemes": [
+        "바위",
+        "능선"
+      ],
+      "highlights": [],
+      "cover": {
+        "src": "photos/update-20261120-9748ec11985161951e75db44.webp",
+        "alt": "금강산 신선대 대표 사진",
+        "photoId": "update-9748ec11985161951e75db44",
+        "date": "2026-05-16"
+      },
+      "photoCount": 23,
+      "placeKey": "금강산신선대",
+      "url": "gpx-20260516-10527459.html",
+      "elevation": 676,
+      "distanceKm": 5.69,
+      "duration": "4시간 10분 14초",
+      "visitDays": 2
+    },
+    "gpx:gpx-20260504-10464203.html": {
+      "key": "gpx:gpx-20260504-10464203.html",
+      "name": "장자도 장군봉",
+      "date": "2026-05-04",
+      "kind": "GPS",
+      "summary": "바다를 곁에 둔 섬 여행의 풍경과 방문 기록을 모았습니다.",
+      "photoThemes": [
+        "바다",
+        "섬 여행"
+      ],
+      "highlights": [],
+      "cover": null,
+      "photoCount": 0,
+      "placeKey": "장자도장군봉",
+      "url": "gpx-20260504-10464203.html",
+      "elevation": 168,
+      "distanceKm": 2.23,
+      "duration": "0시간 56분 28초",
+      "visitDays": 1
+    },
+    "gpx:gpx-20260429-10435887.html": {
+      "key": "gpx:gpx-20260429-10435887.html",
+      "name": "영덕 상대산 관어대",
+      "date": "2026-04-29",
+      "kind": "GPS",
+      "summary": "영덕 상대산 관어대에서 남긴 이동 경로와 거리·시간을 함께 확인합니다.",
+      "photoThemes": [
+        "GPS 산행"
+      ],
+      "highlights": [],
+      "cover": null,
+      "photoCount": 0,
+      "placeKey": "영덕상대산관어대",
+      "url": "gpx-20260429-10435887.html",
+      "elevation": 213,
+      "distanceKm": 2.06,
+      "duration": "0시간 51분 23초",
+      "visitDays": 1
+    },
+    "gpx:gpx-20260426-10420651.html": {
+      "key": "gpx:gpx-20260426-10420651.html",
+      "name": "배내봉",
+      "date": "2026-04-26",
+      "kind": "GPS",
+      "summary": "배내봉에서 남긴 이동 경로와 거리·시간을 함께 확인합니다.",
+      "photoThemes": [
+        "GPS 산행"
+      ],
+      "highlights": [],
+      "cover": null,
+      "photoCount": 0,
+      "placeKey": "배내봉",
+      "url": "gpx-20260426-10420651.html",
+      "elevation": 995,
+      "distanceKm": 4.5,
+      "duration": "2시간 27분 7초",
+      "visitDays": 1
+    },
+    "gpx:gpx-20260329-10291379.html": {
+      "key": "gpx:gpx-20260329-10291379.html",
+      "name": "여수 영취산",
+      "date": "2026-03-29",
+      "kind": "GPS",
+      "summary": "봄 진달래로 알려진 여수 영취산의 산행 기록을 만나보세요.",
+      "photoThemes": [
+        "진달래",
+        "능선"
+      ],
+      "highlights": [
+        {
+          "season": "봄",
+          "feature": "진달래철",
+          "source": "yeongchwi"
+        }
+      ],
+      "cover": {
+        "src": "photos/update-20261120-50e90b7c3aa7fb84c5519a70.webp",
+        "alt": "여수 영취산 대표 사진",
+        "photoId": "update-50e90b7c3aa7fb84c5519a70",
+        "date": "2026-03-29"
+      },
+      "photoCount": 28,
+      "placeKey": "여수영취산",
+      "url": "gpx-20260329-10291379.html",
+      "elevation": 537,
+      "distanceKm": 12.07,
+      "duration": "8시간 11분 40초",
+      "visitDays": 1
+    },
+    "gpx:gpx-20260322-10611881.html": {
+      "key": "gpx:gpx-20260322-10611881.html",
+      "name": "염포산",
+      "date": "2026-03-22",
+      "kind": "GPS",
+      "summary": "나무 그늘과 초록 산길에서 쉬어가는 산행의 여유를 담았습니다.",
+      "photoThemes": [
+        "숲길",
+        "신록"
+      ],
+      "highlights": [],
+      "cover": null,
+      "photoCount": 0,
+      "placeKey": "염포산",
+      "url": "gpx-20260322-10611881.html",
+      "elevation": 81,
+      "distanceKm": 0,
+      "duration": "0시간 0분",
+      "visitDays": 6
+    },
+    "gpx:gpx-20260322-10256640.html": {
+      "key": "gpx:gpx-20260322-10256640.html",
+      "name": "염포산",
+      "date": "2026-03-22",
+      "kind": "GPS",
+      "summary": "나무 그늘과 초록 산길에서 쉬어가는 산행의 여유를 담았습니다.",
+      "photoThemes": [
+        "숲길",
+        "신록"
+      ],
+      "highlights": [],
+      "cover": {
+        "src": "photos/ramblr-10256640-001.jpg",
+        "alt": "염포산 대표 사진",
+        "photoId": "ramblr-10256640-1",
+        "date": "2026-03-22"
+      },
+      "photoCount": 9,
+      "placeKey": "염포산",
+      "url": "gpx-20260322-10256640.html",
+      "elevation": 235,
+      "distanceKm": 11.46,
+      "duration": "4시간 39분 32초",
+      "visitDays": 6
+    },
+    "gpx:gpx-20260321-10252668.html": {
+      "key": "gpx:gpx-20260321-10252668.html",
+      "name": "염포산",
+      "date": "2026-03-21",
+      "kind": "GPS",
+      "summary": "나무 그늘과 초록 산길에서 쉬어가는 산행의 여유를 담았습니다.",
+      "photoThemes": [
+        "숲길",
+        "신록"
+      ],
+      "highlights": [],
+      "cover": null,
+      "photoCount": 0,
+      "placeKey": "염포산",
+      "url": "gpx-20260321-10252668.html",
+      "elevation": 232,
+      "distanceKm": 11.51,
+      "duration": "3시간 43분 26초",
+      "visitDays": 6
+    },
+    "gpx:gpx-20260222-10131126.html": {
+      "key": "gpx:gpx-20260222-10131126.html",
+      "name": "용궐산",
+      "date": "2026-02-22",
+      "kind": "GPS",
+      "summary": "바위와 강변 풍경이 함께 담긴 산행의 순간을 만나보세요.",
+      "photoThemes": [
+        "바위",
+        "강변"
+      ],
+      "highlights": [],
+      "cover": {
+        "src": "photos/update-20261120-50ec2e46c353eb6056e30705.webp",
+        "alt": "용궐산 대표 사진",
+        "photoId": "update-50ec2e46c353eb6056e30705",
+        "date": "2026-02-22"
+      },
+      "photoCount": 24,
+      "placeKey": "용궐산",
+      "url": "gpx-20260222-10131126.html",
+      "elevation": 674,
+      "distanceKm": 5.97,
+      "duration": "4시간 13분 6초",
+      "visitDays": 1
+    },
+    "gpx:gpx-20260218-10155157.html": {
+      "key": "gpx:gpx-20260218-10155157.html",
+      "name": "황령산",
+      "date": "2026-02-18",
+      "kind": "GPS",
+      "summary": "황령산에서 남긴 이동 경로와 거리·시간을 함께 확인합니다.",
+      "photoThemes": [
+        "GPS 산행"
+      ],
+      "highlights": [],
+      "cover": null,
+      "photoCount": 0,
+      "placeKey": "황령산",
+      "url": "gpx-20260218-10155157.html",
+      "elevation": 454,
+      "distanceKm": 1.93,
+      "duration": "0시간 33분 44초",
+      "visitDays": 1
+    },
+    "gpx:gpx-20260218-10103040.html": {
+      "key": "gpx:gpx-20260218-10103040.html",
+      "name": "부산 장산",
+      "date": "2026-02-18",
+      "kind": "GPS",
+      "summary": "도시 가까운 산길에서 바위와 숲이 이어지는 산행을 담았습니다.",
+      "photoThemes": [
+        "바위",
+        "숲길"
+      ],
+      "highlights": [],
+      "cover": {
+        "src": "photos/update-20261120-f06715181d44fe96e3e6af17.webp",
+        "alt": "부산 장산 대표 사진",
+        "photoId": "update-f06715181d44fe96e3e6af17",
+        "date": "2026-02-18"
+      },
+      "photoCount": 25,
+      "placeKey": "장산",
+      "url": "gpx-20260218-10103040.html",
+      "elevation": 499,
+      "distanceKm": 7.84,
+      "duration": "2시간 50분 35초",
+      "visitDays": 1
+    },
+    "gpx:gpx-20260211-10064774.html": {
+      "key": "gpx:gpx-20260211-10064774.html",
+      "name": "염포산",
+      "date": "2026-02-11",
+      "kind": "GPS",
+      "summary": "나무 그늘과 초록 산길에서 쉬어가는 산행의 여유를 담았습니다.",
+      "photoThemes": [
+        "숲길",
+        "신록"
+      ],
+      "highlights": [],
+      "cover": null,
+      "photoCount": 0,
+      "placeKey": "염포산",
+      "url": "gpx-20260211-10064774.html",
+      "elevation": 229,
+      "distanceKm": 10.45,
+      "duration": "2시간 37분 34초",
+      "visitDays": 6
+    },
+    "gpx:gpx-20251102-9563697.html": {
+      "key": "gpx:gpx-20251102-9563697.html",
+      "name": "해파랑6길",
+      "date": "2025-11-02",
+      "kind": "GPS",
+      "summary": "해안에서 만나는 풍경과 날짜별 걸음의 기록을 함께 살펴봅니다.",
+      "photoThemes": [
+        "바다",
+        "해안 산책"
+      ],
+      "highlights": [],
+      "cover": null,
+      "photoCount": 0,
+      "placeKey": "해파랑6길",
+      "url": "gpx-20251102-9563697.html",
+      "elevation": 166,
+      "distanceKm": 24.03,
+      "duration": "7시간 36분 27초",
+      "visitDays": 1
+    },
+    "gpx:gpx-20250809-9027063.html": {
+      "key": "gpx:gpx-20250809-9027063.html",
+      "name": "장자도",
+      "date": "2025-08-09",
+      "kind": "GPS",
+      "summary": "바다를 곁에 둔 섬 여행의 풍경과 방문 기록을 모았습니다.",
+      "photoThemes": [
+        "바다",
+        "섬 여행"
+      ],
+      "highlights": [],
+      "cover": {
+        "src": "photos/update-islands-20261120-d9bb6fde5b9457de9eb3d7c6.webp",
+        "alt": "장자도 대표 사진",
+        "photoId": "island-update-d9bb6fde5b9457de9eb3d7c6",
+        "date": "2025-08-09"
+      },
+      "photoCount": 4,
+      "placeKey": "장자도",
+      "url": "gpx-20250809-9027063.html",
+      "elevation": 167,
+      "distanceKm": 1.07,
+      "duration": "49분 23초",
+      "visitDays": 3
+    },
+    "gpx:gpx-20250720-8935820.html": {
+      "key": "gpx:gpx-20250720-8935820.html",
+      "name": "백두대간 수목원",
+      "date": "2025-07-20",
+      "kind": "GPS",
+      "summary": "나무와 꽃을 찾아 걸었던 날의 사진과 이동 기록을 담았습니다.",
+      "photoThemes": [
+        "숲",
+        "정원"
+      ],
+      "highlights": [],
+      "cover": {
+        "src": "photos/update-20261120-c5f89161e56f9c05ce7281b2.webp",
+        "alt": "백두대간 수목원 대표 사진",
+        "photoId": "update-c5f89161e56f9c05ce7281b2",
+        "date": "2025-07-20"
+      },
+      "photoCount": 32,
+      "placeKey": "백두대간수목원",
+      "url": "gpx-20250720-8935820.html",
+      "elevation": 623,
+      "distanceKm": 10.87,
+      "duration": "6시간 46분 17초",
+      "visitDays": 1
+    },
+    "gpx:gpx-20250506-8566215.html": {
+      "key": "gpx:gpx-20250506-8566215.html",
+      "name": "초암산",
+      "date": "2025-05-06",
+      "kind": "GPS",
+      "summary": "분홍빛 꽃과 능선이 어우러진 사진에서 봄 산행의 기억을 만납니다.",
+      "photoThemes": [
+        "봄꽃",
+        "능선"
+      ],
+      "highlights": [],
+      "cover": {
+        "src": "photos/update-20261120-7e96a86fce2ef1a7c42ad99f.webp",
+        "alt": "초암산 대표 사진",
+        "photoId": "update-7e96a86fce2ef1a7c42ad99f",
+        "date": "2025-05-06"
+      },
+      "photoCount": 24,
+      "placeKey": "초암산",
+      "url": "gpx-20250506-8566215.html",
+      "elevation": 632,
+      "distanceKm": 9.13,
+      "duration": "7시간 11분 28초",
+      "visitDays": 1
+    },
+    "gpx:gpx-20250504-8546897.html": {
+      "key": "gpx:gpx-20250504-8546897.html",
+      "name": "일림산",
+      "date": "2025-05-04",
+      "kind": "GPS",
+      "summary": "철쭉으로 물드는 남도의 산자락과 산행 기록을 함께 만나보세요.",
+      "photoThemes": [
+        "철쭉",
+        "능선"
+      ],
+      "highlights": [
+        {
+          "season": "봄",
+          "feature": "철쭉철",
+          "source": "illim"
+        }
+      ],
+      "cover": {
+        "src": "photos/update-20261120-e8854372012dd4935f3e8832.webp",
+        "alt": "일림산 대표 사진",
+        "photoId": "update-e8854372012dd4935f3e8832",
+        "date": "2025-05-04"
+      },
+      "photoCount": 30,
+      "placeKey": "일림산",
+      "url": "gpx-20250504-8546897.html",
+      "elevation": 693,
+      "distanceKm": 8.5,
+      "duration": "4시간 51분 25초",
+      "visitDays": 1
+    },
+    "gpx:gpx-20250419-8446982.html": {
+      "key": "gpx:gpx-20250419-8446982.html",
+      "name": "태화강",
+      "date": "2025-04-19",
+      "kind": "GPS",
+      "summary": "태화강에서 남긴 이동 경로와 거리·시간을 함께 확인합니다.",
+      "photoThemes": [
+        "GPS 산행"
+      ],
+      "highlights": [],
+      "cover": null,
+      "photoCount": 0,
+      "placeKey": "태화강",
+      "url": "gpx-20250419-8446982.html",
+      "elevation": 63,
+      "distanceKm": 12.12,
+      "duration": "4시간 44분 14초",
+      "visitDays": 1
+    },
+    "gpx:gpx-20250413-8415535.html": {
+      "key": "gpx:gpx-20250413-8415535.html",
+      "name": "주작산",
+      "date": "2025-04-13",
+      "kind": "GPS",
+      "summary": "분홍빛 꽃과 능선이 어우러진 사진에서 봄 산행의 기억을 만납니다.",
+      "photoThemes": [
+        "봄꽃",
+        "능선"
+      ],
+      "highlights": [],
+      "cover": {
+        "src": "photos/update-20261120-aa5988639244cc1190c5b38e.webp",
+        "alt": "주작산 대표 사진",
+        "photoId": "update-aa5988639244cc1190c5b38e",
+        "date": "2025-04-13"
+      },
+      "photoCount": 20,
+      "placeKey": "주작산",
+      "url": "gpx-20250413-8415535.html",
+      "elevation": 448,
+      "distanceKm": 5.51,
+      "duration": "5시간 58분 33초",
+      "visitDays": 1
+    },
+    "gpx:gpx-20250406-8371248.html": {
+      "key": "gpx:gpx-20250406-8371248.html",
+      "name": "천주산",
+      "date": "2025-04-06",
+      "kind": "GPS",
+      "summary": "천주산에서 남긴 이동 경로와 거리·시간을 함께 확인합니다.",
+      "photoThemes": [
+        "GPS 산행"
+      ],
+      "highlights": [],
+      "cover": {
+        "src": "photos/update-20261120-a23e34aba605b5983a363154.webp",
+        "alt": "천주산 대표 사진",
+        "photoId": "update-a23e34aba605b5983a363154",
+        "date": "2025-04-06"
+      },
+      "photoCount": 6,
+      "placeKey": "천주산",
+      "url": "gpx-20250406-8371248.html",
+      "elevation": 664,
+      "distanceKm": 6.1,
+      "duration": "2시간 37분 13초",
+      "visitDays": 1
+    },
+    "gpx:gpx-20241225-7934487.html": {
+      "key": "gpx:gpx-20241225-7934487.html",
+      "name": "사리암",
+      "date": "2024-12-25",
+      "kind": "GPS",
+      "summary": "산사로 향하는 길의 풍경과 그날의 걸음을 함께 돌아봅니다.",
+      "photoThemes": [
+        "산사",
+        "숲길"
+      ],
+      "highlights": [],
+      "cover": null,
+      "photoCount": 0,
+      "placeKey": "사리암",
+      "url": "gpx-20241225-7934487.html",
+      "elevation": 524,
+      "distanceKm": 3.08,
+      "duration": "1시간 36분 23초",
+      "visitDays": 1
+    },
+    "gpx:gpx-20241207-7876707.html": {
+      "key": "gpx:gpx-20241207-7876707.html",
+      "name": "토함산",
+      "date": "2024-12-07",
+      "kind": "GPS",
+      "summary": "정상석과 숲길이 이어지는 산행의 한 장면을 담았습니다.",
+      "photoThemes": [
+        "정상",
+        "숲길"
+      ],
+      "highlights": [],
+      "cover": {
+        "src": "photos/update-20261120-ab1c8ca7c1749fe7aa1ac2b7.webp",
+        "alt": "토함산 대표 사진",
+        "photoId": "update-ab1c8ca7c1749fe7aa1ac2b7",
+        "date": "2024-12-07"
+      },
+      "photoCount": 12,
+      "placeKey": "토함산",
+      "url": "gpx-20241207-7876707.html",
+      "elevation": 771,
+      "distanceKm": 7.4,
+      "duration": "3시간 7분 55초",
+      "visitDays": 2
+    },
+    "gpx:gpx-20241201-7855677.html": {
+      "key": "gpx:gpx-20241201-7855677.html",
+      "name": "염포산",
+      "date": "2024-12-01",
+      "kind": "GPS",
+      "summary": "나무 그늘과 초록 산길에서 쉬어가는 산행의 여유를 담았습니다.",
+      "photoThemes": [
+        "숲길",
+        "신록"
+      ],
+      "highlights": [],
+      "cover": null,
+      "photoCount": 0,
+      "placeKey": "염포산",
+      "url": "gpx-20241201-7855677.html",
+      "elevation": 230,
+      "distanceKm": 4.83,
+      "duration": "1시간 41분 23초",
+      "visitDays": 6
+    },
+    "gpx:gpx-20241109-7762724.html": {
+      "key": "gpx:gpx-20241109-7762724.html",
+      "name": "얼음골 용아능선A.B코스",
+      "date": "2024-11-09",
+      "kind": "GPS",
+      "summary": "얼음골 용아능선A.B코스에서 남긴 이동 경로와 거리·시간을 함께 확인합니다.",
+      "photoThemes": [
+        "GPS 산행"
+      ],
+      "highlights": [],
+      "cover": null,
+      "photoCount": 0,
+      "placeKey": "얼음골용아능선AB코스",
+      "url": "gpx-20241109-7762724.html",
+      "elevation": 1079,
+      "distanceKm": 6.21,
+      "duration": "6시간 48분 55초",
+      "visitDays": 1
+    },
+    "gpx:gpx-20241102-7727962.html": {
+      "key": "gpx:gpx-20241102-7727962.html",
+      "name": "간월재",
+      "date": "2024-11-02",
+      "kind": "GPS",
+      "summary": "산 사이로 열린 고개에서 영남알프스의 풍경을 만납니다.",
+      "photoThemes": [
+        "능선",
+        "억새"
+      ],
+      "highlights": [],
+      "cover": null,
+      "photoCount": 0,
+      "placeKey": "간월재",
+      "url": "gpx-20241102-7727962.html",
+      "elevation": 933,
+      "distanceKm": 10.9,
+      "duration": "3시간 46분 47초",
+      "visitDays": 1
+    },
+    "gpx:gpx-20241012-7625810.html": {
+      "key": "gpx:gpx-20241012-7625810.html",
+      "name": "대왕암 산책",
+      "date": "2024-10-12",
+      "kind": "GPS",
+      "summary": "바다 곁 산책길을 걸으며 해안 풍경과 걸음의 기록을 함께 남겼습니다.",
+      "photoThemes": [
+        "바다",
+        "해안 산책"
+      ],
+      "highlights": [],
+      "cover": null,
+      "photoCount": 0,
+      "placeKey": "대왕암산책",
+      "url": "gpx-20241012-7625810.html",
+      "elevation": 76,
+      "distanceKm": 1.11,
+      "duration": "0시간 14분 26초",
+      "visitDays": 2
+    },
+    "gpx:gpx-20241009-7605085.html": {
+      "key": "gpx:gpx-20241009-7605085.html",
+      "name": "염포산",
+      "date": "2024-10-09",
+      "kind": "GPS",
+      "summary": "나무 그늘과 초록 산길에서 쉬어가는 산행의 여유를 담았습니다.",
+      "photoThemes": [
+        "숲길",
+        "신록"
+      ],
+      "highlights": [],
+      "cover": null,
+      "photoCount": 0,
+      "placeKey": "염포산",
+      "url": "gpx-20241009-7605085.html",
+      "elevation": 230,
+      "distanceKm": 11.04,
+      "duration": "3시간 1분 17초",
+      "visitDays": 6
+    },
+    "gpx:gpx-20240809-7341548.html": {
+      "key": "gpx:gpx-20240809-7341548.html",
+      "name": "걷기 - 08/09/2024",
+      "date": "2024-08-09",
+      "kind": "GPS",
+      "summary": "걷기 - 08/09/2024에서 남긴 이동 경로와 거리·시간을 함께 확인합니다.",
+      "photoThemes": [
+        "GPS 산행"
+      ],
+      "highlights": [],
+      "cover": null,
+      "photoCount": 0,
+      "placeKey": "걷기-08/09/2024",
+      "url": "gpx-20240809-7341548.html",
+      "elevation": 146,
+      "distanceKm": 2.27,
+      "duration": "0시간 59분 39초",
+      "visitDays": 1
+    },
+    "gpx:gpx-20240707-7230918.html": {
+      "key": "gpx:gpx-20240707-7230918.html",
+      "name": "정동 부채길",
+      "date": "2024-07-07",
+      "kind": "GPS",
+      "summary": "해안에서 만나는 풍경과 날짜별 걸음의 기록을 함께 살펴봅니다.",
+      "photoThemes": [
+        "바다",
+        "해안 산책"
+      ],
+      "highlights": [],
+      "cover": null,
+      "photoCount": 0,
+      "placeKey": "정동부채길",
+      "url": "gpx-20240707-7230918.html",
+      "elevation": 49,
+      "distanceKm": 7.28,
+      "duration": "3시간 15분",
+      "visitDays": 1
+    },
+    "gpx:gpx-20240623-7182096.html": {
+      "key": "gpx:gpx-20240623-7182096.html",
+      "name": "염포산 대왕암",
+      "date": "2024-06-23",
+      "kind": "GPS",
+      "summary": "나무 그늘과 초록 산길에서 쉬어가는 산행의 여유를 담았습니다.",
+      "photoThemes": [
+        "숲길",
+        "신록"
+      ],
+      "highlights": [],
+      "cover": null,
+      "photoCount": 0,
+      "placeKey": "염포산대왕암",
+      "url": "gpx-20240623-7182096.html",
+      "elevation": 237,
+      "distanceKm": 21.08,
+      "duration": "7시간 12분 8초",
+      "visitDays": 1
+    },
+    "gpx:gpx-20240529-7055412.html": {
+      "key": "gpx:gpx-20240529-7055412.html",
+      "name": "일상",
+      "date": "2024-05-29",
+      "kind": "GPS",
+      "summary": "일상에서 남긴 이동 경로와 거리·시간을 함께 확인합니다.",
+      "photoThemes": [
+        "GPS 산행"
+      ],
+      "highlights": [],
+      "cover": null,
+      "photoCount": 0,
+      "placeKey": "일상",
+      "url": "gpx-20240529-7055412.html",
+      "elevation": 160,
+      "distanceKm": 10.6,
+      "duration": "11시간 52분 42초",
+      "visitDays": 2
+    },
+    "gpx:gpx-20240528-7230932.html": {
+      "key": "gpx:gpx-20240528-7230932.html",
+      "name": "일상",
+      "date": "2024-05-28",
+      "kind": "GPS",
+      "summary": "일상에서 남긴 이동 경로와 거리·시간을 함께 확인합니다.",
+      "photoThemes": [
+        "GPS 산행"
+      ],
+      "highlights": [],
+      "cover": null,
+      "photoCount": 0,
+      "placeKey": "일상",
+      "url": "gpx-20240528-7230932.html",
+      "elevation": 189,
+      "distanceKm": 12.72,
+      "duration": "1일 0시간 5분",
+      "visitDays": 2
+    },
+    "gpx:gpx-20240526-7038865.html": {
+      "key": "gpx:gpx-20240526-7038865.html",
+      "name": "울진 망양정",
+      "date": "2024-05-26",
+      "kind": "GPS",
+      "summary": "해안에서 만나는 풍경과 날짜별 걸음의 기록을 함께 살펴봅니다.",
+      "photoThemes": [
+        "바다",
+        "해안 산책"
+      ],
+      "highlights": [],
+      "cover": null,
+      "photoCount": 0,
+      "placeKey": "울진망양정",
+      "url": "gpx-20240526-7038865.html",
+      "elevation": 71,
+      "distanceKm": 3.24,
+      "duration": "0시간 54분 19초",
+      "visitDays": 1
+    },
+    "gpx:gpx-20240501-6907846.html": {
+      "key": "gpx:gpx-20240501-6907846.html",
+      "name": "미숭산",
+      "date": "2024-05-01",
+      "kind": "GPS",
+      "summary": "미숭산에서 남긴 이동 경로와 거리·시간을 함께 확인합니다.",
+      "photoThemes": [
+        "GPS 산행"
+      ],
+      "highlights": [],
+      "cover": {
+        "src": "photos/update-20261120-ace905a30f427a38bac55fc0.webp",
+        "alt": "미숭산 대표 사진",
+        "photoId": "update-ace905a30f427a38bac55fc0",
+        "date": "2024-05-01"
+      },
+      "photoCount": 14,
+      "placeKey": "미숭산",
+      "url": "gpx-20240501-6907846.html",
+      "elevation": 790,
+      "distanceKm": 10.27,
+      "duration": "5시간 31분 21초",
+      "visitDays": 1
+    },
+    "gpx:gpx-20240406-6771170.html": {
+      "key": "gpx:gpx-20240406-6771170.html",
+      "name": "안민고개",
+      "date": "2024-04-06",
+      "kind": "GPS",
+      "summary": "안민고개에서 남긴 이동 경로와 거리·시간을 함께 확인합니다.",
+      "photoThemes": [
+        "GPS 산행"
+      ],
+      "highlights": [],
+      "cover": null,
+      "photoCount": 0,
+      "placeKey": "안민고개",
+      "url": "gpx-20240406-6771170.html",
+      "elevation": 326,
+      "distanceKm": 8.97,
+      "duration": "1시간 21분 50초",
+      "visitDays": 1
+    },
+    "gpx:gpx-20240406-6767444.html": {
+      "key": "gpx:gpx-20240406-6767444.html",
+      "name": "장복산",
+      "date": "2024-04-06",
+      "kind": "GPS",
+      "summary": "분홍빛 꽃과 능선이 어우러진 사진에서 봄 산행의 기억을 만납니다.",
+      "photoThemes": [
+        "봄꽃",
+        "능선"
+      ],
+      "highlights": [],
+      "cover": {
+        "src": "photos/update-20261120-376c90eecf5a8f850fab0435.webp",
+        "alt": "장복산 대표 사진",
+        "photoId": "update-376c90eecf5a8f850fab0435",
+        "date": "2024-04-06"
+      },
+      "photoCount": 16,
+      "placeKey": "장복산",
+      "url": "gpx-20240406-6767444.html",
+      "elevation": 617,
+      "distanceKm": 5.62,
+      "duration": "4시간 19분 29초",
+      "visitDays": 1
+    },
+    "gpx:gpx-20240316-6683443.html": {
+      "key": "gpx:gpx-20240316-6683443.html",
+      "name": "등산/하이킹 - 03/16/2024",
+      "date": "2024-03-16",
+      "kind": "GPS",
+      "summary": "등산/하이킹 - 03/16/2024에서 남긴 이동 경로와 거리·시간을 함께 확인합니다.",
+      "photoThemes": [
+        "GPS 산행"
+      ],
+      "highlights": [],
+      "cover": null,
+      "photoCount": 0,
+      "placeKey": "등산/하이킹-03/16/2024",
+      "url": "gpx-20240316-6683443.html",
+      "elevation": 138,
+      "distanceKm": 0.95,
+      "duration": "1시간 13분 41초",
+      "visitDays": 1
+    },
+    "gpx:gpx-20240212-6561723.html": {
+      "key": "gpx:gpx-20240212-6561723.html",
+      "name": "발왕산",
+      "date": "2024-02-12",
+      "kind": "GPS",
+      "summary": "눈 덮인 산길과 초록 나무길이 서로 다른 계절의 산행을 전합니다.",
+      "photoThemes": [
+        "눈",
+        "숲길"
+      ],
+      "highlights": [],
+      "cover": {
+        "src": "photos/update-20261120-4c32f060568cb0f4ed2190bf.webp",
+        "alt": "발왕산 대표 사진",
+        "photoId": "update-4c32f060568cb0f4ed2190bf",
+        "date": "2024-02-12"
+      },
+      "photoCount": 25,
+      "placeKey": "발왕산",
+      "url": "gpx-20240212-6561723.html",
+      "elevation": 1486,
+      "distanceKm": 11.71,
+      "duration": "5시간 28분 54초",
+      "visitDays": 2
+    },
+    "gpx:gpx-20240211-6558048.html": {
+      "key": "gpx:gpx-20240211-6558048.html",
+      "name": "선자령",
+      "date": "2024-02-11",
+      "kind": "GPS",
+      "summary": "하얀 눈과 숲, 열린 하늘이 담긴 겨울 산행의 풍경을 만나보세요.",
+      "photoThemes": [
+        "눈",
+        "설경"
+      ],
+      "highlights": [],
+      "cover": {
+        "src": "photos/update-20261120-5bb10786a9f58d93547df635.webp",
+        "alt": "선자령 대표 사진",
+        "photoId": "update-5bb10786a9f58d93547df635",
+        "date": "2024-02-11"
+      },
+      "photoCount": 21,
+      "placeKey": "선자령",
+      "url": "gpx-20240211-6558048.html",
+      "elevation": 1186,
+      "distanceKm": 12.06,
+      "duration": "4시간 53분 12초",
+      "visitDays": 1
+    },
+    "gpx:gpx-20231225-6411096.html": {
+      "key": "gpx:gpx-20231225-6411096.html",
+      "name": "염포산.대왕암공원",
+      "date": "2023-12-25",
+      "kind": "GPS",
+      "summary": "나무 그늘과 초록 산길에서 쉬어가는 산행의 여유를 담았습니다.",
+      "photoThemes": [
+        "숲길",
+        "신록"
+      ],
+      "highlights": [],
+      "cover": null,
+      "photoCount": 0,
+      "placeKey": "염포산대왕암공원",
+      "url": "gpx-20231225-6411096.html",
+      "elevation": 234,
+      "distanceKm": 28.51,
+      "duration": "9시간 24분 7초",
+      "visitDays": 1
+    },
+    "gpx:gpx-20231224-6407287.html": {
+      "key": "gpx:gpx-20231224-6407287.html",
+      "name": "대왕암공원",
+      "date": "2023-12-24",
+      "kind": "GPS",
+      "summary": "바다 곁 산책길을 걸으며 해안 풍경과 걸음의 기록을 함께 남겼습니다.",
+      "photoThemes": [
+        "바다",
+        "해안 산책"
+      ],
+      "highlights": [],
+      "cover": null,
+      "photoCount": 0,
+      "placeKey": "대왕암공원",
+      "url": "gpx-20231224-6407287.html",
+      "elevation": 73,
+      "distanceKm": 13.28,
+      "duration": "3시간 11분 8초",
+      "visitDays": 4
+    },
+    "gpx:gpx-20231217-6388369.html": {
+      "key": "gpx:gpx-20231217-6388369.html",
+      "name": "대왕암공원",
+      "date": "2023-12-17",
+      "kind": "GPS",
+      "summary": "바다 곁 산책길을 걸으며 해안 풍경과 걸음의 기록을 함께 남겼습니다.",
+      "photoThemes": [
+        "바다",
+        "해안 산책"
+      ],
+      "highlights": [],
+      "cover": null,
+      "photoCount": 0,
+      "placeKey": "대왕암공원",
+      "url": "gpx-20231217-6388369.html",
+      "elevation": 168,
+      "distanceKm": 16.31,
+      "duration": "3시간 16분 53초",
+      "visitDays": 4
+    },
+    "gpx:gpx-20231210-6369913.html": {
+      "key": "gpx:gpx-20231210-6369913.html",
+      "name": "거제해금강 우제봉",
+      "date": "2023-12-10",
+      "kind": "GPS",
+      "summary": "해안에서 만나는 풍경과 날짜별 걸음의 기록을 함께 살펴봅니다.",
+      "photoThemes": [
+        "바다",
+        "해안 산책"
+      ],
+      "highlights": [],
+      "cover": null,
+      "photoCount": 0,
+      "placeKey": "거제해금강우제봉",
+      "url": "gpx-20231210-6369913.html",
+      "elevation": 126,
+      "distanceKm": 2.09,
+      "duration": "0시간 42분 52초",
+      "visitDays": 1
+    },
+    "gpx:gpx-20231028-6210016.html": {
+      "key": "gpx:gpx-20231028-6210016.html",
+      "name": "희양산",
+      "date": "2023-10-28",
+      "kind": "GPS",
+      "summary": "가을빛 숲과 바위산의 풍경을 담은 산행 기록입니다.",
+      "photoThemes": [
+        "단풍",
+        "숲길"
+      ],
+      "highlights": [],
+      "cover": {
+        "src": "photos/update-20261120-0a94f1f67e6d023c76849a7a.webp",
+        "alt": "희양산 대표 사진",
+        "photoId": "update-0a94f1f67e6d023c76849a7a",
+        "date": "2023-10-28"
+      },
+      "photoCount": 18,
+      "placeKey": "희양산",
+      "url": "gpx-20231028-6210016.html",
+      "elevation": 1028,
+      "distanceKm": 6.02,
+      "duration": "4시간 32분 23초",
+      "visitDays": 1
+    },
+    "gpx:gpx-20231004-6094364.html": {
+      "key": "gpx:gpx-20231004-6094364.html",
+      "name": "장자도 대장봉",
+      "date": "2023-10-04",
+      "kind": "GPS",
+      "summary": "바다를 곁에 둔 섬 여행의 풍경과 방문 기록을 모았습니다.",
+      "photoThemes": [
+        "바다",
+        "섬 여행"
+      ],
+      "highlights": [],
+      "cover": null,
+      "photoCount": 0,
+      "placeKey": "장자도대장봉",
+      "url": "gpx-20231004-6094364.html",
+      "elevation": 166,
+      "distanceKm": 3.11,
+      "duration": "1시간 13분 36초",
+      "visitDays": 1
+    },
+    "gpx:gpx-20230826-5927025.html": {
+      "key": "gpx:gpx-20230826-5927025.html",
+      "name": "변산마실길2길",
+      "date": "2023-08-26",
+      "kind": "GPS",
+      "summary": "변산마실길2길에서 남긴 이동 경로와 거리·시간을 함께 확인합니다.",
+      "photoThemes": [
+        "GPS 산행"
+      ],
+      "highlights": [],
+      "cover": null,
+      "photoCount": 0,
+      "placeKey": "변산마실길2길",
+      "url": "gpx-20230826-5927025.html",
+      "elevation": 65,
+      "distanceKm": 5.42,
+      "duration": "1시간 56분 21초",
+      "visitDays": 1
+    },
+    "gpx:gpx-20230820-5912768.html": {
+      "key": "gpx:gpx-20230820-5912768.html",
+      "name": "대왕암공원",
+      "date": "2023-08-20",
+      "kind": "GPS",
+      "summary": "바다 곁 산책길을 걸으며 해안 풍경과 걸음의 기록을 함께 남겼습니다.",
+      "photoThemes": [
+        "바다",
+        "해안 산책"
+      ],
+      "highlights": [],
+      "cover": null,
+      "photoCount": 0,
+      "placeKey": "대왕암공원",
+      "url": "gpx-20230820-5912768.html",
+      "elevation": 96,
+      "distanceKm": 10.19,
+      "duration": "2시간 34분 36초",
+      "visitDays": 4
+    },
+    "gpx:gpx-20230813-5904312.html": {
+      "key": "gpx:gpx-20230813-5904312.html",
+      "name": "민둥산",
+      "date": "2023-08-13",
+      "kind": "GPS",
+      "summary": "넓은 능선을 따라 걸으며 억새 명산의 다른 계절도 살펴봅니다.",
+      "photoThemes": [
+        "억새",
+        "능선"
+      ],
+      "highlights": [
+        {
+          "season": "가을",
+          "feature": "억새철",
+          "source": "mindung"
+        }
+      ],
+      "cover": {
+        "src": "photos/update-20261120-5e15c7875830e627f7e0edd5.webp",
+        "alt": "민둥산 대표 사진",
+        "photoId": "update-5e15c7875830e627f7e0edd5",
+        "date": "2023-08-13"
+      },
+      "photoCount": 11,
+      "placeKey": "민둥산",
+      "url": "gpx-20230813-5904312.html",
+      "elevation": 1153,
+      "distanceKm": 2,
+      "duration": "1시간 35분 18초",
+      "visitDays": 1
+    },
+    "gpx:gpx-20230813-5882260.html": {
+      "key": "gpx:gpx-20230813-5882260.html",
+      "name": "계족산",
+      "date": "2023-08-13",
+      "kind": "GPS",
+      "summary": "나무 그늘과 초록 산길에서 쉬어가는 산행의 여유를 담았습니다.",
+      "photoThemes": [
+        "숲길",
+        "신록"
+      ],
+      "highlights": [],
+      "cover": {
+        "src": "photos/update-20261120-0355e4eedb0756d14b412383.webp",
+        "alt": "계족산 대표 사진",
+        "photoId": "update-0355e4eedb0756d14b412383",
+        "date": "2023-08-13"
+      },
+      "photoCount": 4,
+      "placeKey": "계족산",
+      "url": "gpx-20230813-5882260.html",
+      "elevation": 924,
+      "distanceKm": 6.74,
+      "duration": "4시간 22분 14초",
+      "visitDays": 1
+    },
+    "gpx:gpx-20230813-5879977.html": {
+      "key": "gpx:gpx-20230813-5879977.html",
+      "name": "희방사",
+      "date": "2023-08-13",
+      "kind": "GPS",
+      "summary": "산사로 향하는 길의 풍경과 그날의 걸음을 함께 돌아봅니다.",
+      "photoThemes": [
+        "산사",
+        "숲길"
+      ],
+      "highlights": [],
+      "cover": null,
+      "photoCount": 0,
+      "placeKey": "희방사",
+      "url": "gpx-20230813-5879977.html",
+      "elevation": 807,
+      "distanceKm": 1.29,
+      "duration": "0시간 29분 17초",
+      "visitDays": 1
+    },
+    "gpx:gpx-20230807-5863766.html": {
+      "key": "gpx:gpx-20230807-5863766.html",
+      "name": "고성통일전망대",
+      "date": "2023-08-07",
+      "kind": "GPS",
+      "summary": "고성통일전망대에서 남긴 이동 경로와 거리·시간을 함께 확인합니다.",
+      "photoThemes": [
+        "GPS 산행"
+      ],
+      "highlights": [],
+      "cover": null,
+      "photoCount": 0,
+      "placeKey": "고성통일전망대",
+      "url": "gpx-20230807-5863766.html",
+      "elevation": 120,
+      "distanceKm": 1.57,
+      "duration": "0시간 58분 54초",
+      "visitDays": 1
+    },
+    "gpx:gpx-20230806-5861246.html": {
+      "key": "gpx:gpx-20230806-5861246.html",
+      "name": "사명산",
+      "date": "2023-08-06",
+      "kind": "GPS",
+      "summary": "사명산에서 남긴 이동 경로와 거리·시간을 함께 확인합니다.",
+      "photoThemes": [
+        "GPS 산행"
+      ],
+      "highlights": [],
+      "cover": {
+        "src": "photos/update-20261120-add1e9f35a9e2ba1014f1f9c.webp",
+        "alt": "사명산 대표 사진",
+        "photoId": "update-add1e9f35a9e2ba1014f1f9c",
+        "date": "2023-08-06"
+      },
+      "photoCount": 3,
+      "placeKey": "사명산",
+      "url": "gpx-20230806-5861246.html",
+      "elevation": 1223,
+      "distanceKm": 5.43,
+      "duration": "3시간 26분 54초",
+      "visitDays": 1
+    },
+    "gpx:gpx-20230806-5859239.html": {
+      "key": "gpx:gpx-20230806-5859239.html",
+      "name": "금학산",
+      "date": "2023-08-06",
+      "kind": "GPS",
+      "summary": "금학산에서 남긴 이동 경로와 거리·시간을 함께 확인합니다.",
+      "photoThemes": [
+        "GPS 산행"
+      ],
+      "highlights": [],
+      "cover": {
+        "src": "photos/update-20261120-2b01d49a9c182b6559b2a910.webp",
+        "alt": "금학산 대표 사진",
+        "photoId": "update-2b01d49a9c182b6559b2a910",
+        "date": "2023-08-06"
+      },
+      "photoCount": 8,
+      "placeKey": "금학산",
+      "url": "gpx-20230806-5859239.html",
+      "elevation": 969,
+      "distanceKm": 5.74,
+      "duration": "4시간 8분 55초",
+      "visitDays": 1
+    },
+    "gpx:gpx-20230806-5857978.html": {
+      "key": "gpx:gpx-20230806-5857978.html",
+      "name": "고석정",
+      "date": "2023-08-06",
+      "kind": "GPS",
+      "summary": "고석정에서 남긴 이동 경로와 거리·시간을 함께 확인합니다.",
+      "photoThemes": [
+        "GPS 산행"
+      ],
+      "highlights": [],
+      "cover": null,
+      "photoCount": 0,
+      "placeKey": "고석정",
+      "url": "gpx-20230806-5857978.html",
+      "elevation": 792,
+      "distanceKm": 230.7,
+      "duration": "0시간 38분 49초",
+      "visitDays": 1
+    },
+    "gpx:gpx-20230805-5854147.html": {
+      "key": "gpx:gpx-20230805-5854147.html",
+      "name": "청태산",
+      "date": "2023-08-05",
+      "kind": "GPS",
+      "summary": "나무 그늘과 초록 산길에서 쉬어가는 산행의 여유를 담았습니다.",
+      "photoThemes": [
+        "숲길",
+        "신록"
+      ],
+      "highlights": [],
+      "cover": {
+        "src": "photos/update-20261120-ba8189ba0c2936b9680b5db8.webp",
+        "alt": "청태산 대표 사진",
+        "photoId": "update-ba8189ba0c2936b9680b5db8",
+        "date": "2023-08-05"
+      },
+      "photoCount": 2,
+      "placeKey": "청태산",
+      "url": "gpx-20230805-5854147.html",
+      "elevation": 1220,
+      "distanceKm": 4.81,
+      "duration": "2시간 36분 43초",
+      "visitDays": 1
+    },
+    "gpx:gpx-20230730-5833377.html": {
+      "key": "gpx:gpx-20230730-5833377.html",
+      "name": "밀양. 백운산",
+      "date": "2023-07-30",
+      "kind": "GPS",
+      "summary": "바위와 숲이 어우러진 산세를 직접 남긴 사진으로 살펴봅니다.",
+      "photoThemes": [
+        "바위",
+        "능선"
+      ],
+      "highlights": [],
+      "cover": {
+        "src": "photos/update-20261120-a54139b741e36e4c5ff68980.webp",
+        "alt": "밀양. 백운산 대표 사진",
+        "photoId": "update-a54139b741e36e4c5ff68980",
+        "date": "2023-07-30"
+      },
+      "photoCount": 14,
+      "placeKey": "밀양백운산",
+      "url": "gpx-20230730-5833377.html",
+      "elevation": 919,
+      "distanceKm": 6.33,
+      "duration": "4시간 18분 22초",
+      "visitDays": 1
+    },
+    "gpx:gpx-20230716-5789559.html": {
+      "key": "gpx:gpx-20230716-5789559.html",
+      "name": "울기 공원",
+      "date": "2023-07-16",
+      "kind": "GPS",
+      "summary": "바다 곁 산책길을 걸으며 해안 풍경과 걸음의 기록을 함께 남겼습니다.",
+      "photoThemes": [
+        "바다",
+        "해안 산책"
+      ],
+      "highlights": [],
+      "cover": null,
+      "photoCount": 0,
+      "placeKey": "울기공원",
+      "url": "gpx-20230716-5789559.html",
+      "elevation": 80,
+      "distanceKm": 3.07,
+      "duration": "1시간 32분 8초",
+      "visitDays": 1
+    },
+    "gpx:gpx-20230706-5756632.html": {
+      "key": "gpx:gpx-20230706-5756632.html",
+      "name": "일산해수욕장",
+      "date": "2023-07-06",
+      "kind": "GPS",
+      "summary": "해안에서 만나는 풍경과 날짜별 걸음의 기록을 함께 살펴봅니다.",
+      "photoThemes": [
+        "바다",
+        "해안 산책"
+      ],
+      "highlights": [],
+      "cover": null,
+      "photoCount": 0,
+      "placeKey": "일산해수욕장",
+      "url": "gpx-20230706-5756632.html",
+      "elevation": 134,
+      "distanceKm": 12.57,
+      "duration": "5시간 32분 38초",
+      "visitDays": 1
+    },
+    "gpx:gpx-20230625-5716298.html": {
+      "key": "gpx:gpx-20230625-5716298.html",
+      "name": "대왕암공원",
+      "date": "2023-06-25",
+      "kind": "GPS",
+      "summary": "바다 곁 산책길을 걸으며 해안 풍경과 걸음의 기록을 함께 남겼습니다.",
+      "photoThemes": [
+        "바다",
+        "해안 산책"
+      ],
+      "highlights": [],
+      "cover": null,
+      "photoCount": 0,
+      "placeKey": "대왕암공원",
+      "url": "gpx-20230625-5716298.html",
+      "elevation": 182,
+      "distanceKm": 13.72,
+      "duration": "3시간 41분 8초",
+      "visitDays": 4
+    },
+    "gpx:gpx-20230607-5633628.html": {
+      "key": "gpx:gpx-20230607-5633628.html",
+      "name": "동석산",
+      "date": "2023-06-07",
+      "kind": "GPS",
+      "summary": "바위와 숲이 어우러진 산세를 직접 남긴 사진으로 살펴봅니다.",
+      "photoThemes": [
+        "바위",
+        "능선"
+      ],
+      "highlights": [],
+      "cover": {
+        "src": "photos/update-20261120-fee0f286419993d07376421c.webp",
+        "alt": "동석산 대표 사진",
+        "photoId": "update-fee0f286419993d07376421c",
+        "date": "2023-06-07"
+      },
+      "photoCount": 9,
+      "placeKey": "동석산",
+      "url": "gpx-20230607-5633628.html",
+      "elevation": 241,
+      "distanceKm": 2.9,
+      "duration": "2시간 47분 12초",
+      "visitDays": 1
+    },
+    "gpx:gpx-20230604-5615440.html": {
+      "key": "gpx:gpx-20230604-5615440.html",
+      "name": "용머리",
+      "date": "2023-06-04",
+      "kind": "GPS",
+      "summary": "해안에서 만나는 풍경과 날짜별 걸음의 기록을 함께 살펴봅니다.",
+      "photoThemes": [
+        "바다",
+        "해안 산책"
+      ],
+      "highlights": [],
+      "cover": null,
+      "photoCount": 0,
+      "placeKey": "용머리",
+      "url": "gpx-20230604-5615440.html",
+      "elevation": 51,
+      "distanceKm": 0.93,
+      "duration": "0시간 26분 16초",
+      "visitDays": 1
+    },
+    "gpx:gpx-20230514-5515204.html": {
+      "key": "gpx:gpx-20230514-5515204.html",
+      "name": "발왕산",
+      "date": "2023-05-14",
+      "kind": "GPS",
+      "summary": "눈 덮인 산길과 초록 나무길이 서로 다른 계절의 산행을 전합니다.",
+      "photoThemes": [
+        "눈",
+        "숲길"
+      ],
+      "highlights": [],
+      "cover": {
+        "src": "photos/update-20261120-896e288ccf69af12a79008b5.webp",
+        "alt": "발왕산 대표 사진",
+        "photoId": "update-896e288ccf69af12a79008b5",
+        "date": "2023-05-14"
+      },
+      "photoCount": 29,
+      "placeKey": "발왕산",
+      "url": "gpx-20230514-5515204.html",
+      "elevation": 1497,
+      "distanceKm": 11.46,
+      "duration": "4시간 39분 36초",
+      "visitDays": 2
+    },
+    "gpx:gpx-20230508-5487436.html": {
+      "key": "gpx:gpx-20230508-5487436.html",
+      "name": "깃대봉",
+      "date": "2023-05-08",
+      "kind": "GPS",
+      "summary": "깃대봉에서 남긴 이동 경로와 거리·시간을 함께 확인합니다.",
+      "photoThemes": [
+        "GPS 산행"
+      ],
+      "highlights": [],
+      "cover": null,
+      "photoCount": 0,
+      "placeKey": "깃대봉",
+      "url": "gpx-20230508-5487436.html",
+      "elevation": 631,
+      "distanceKm": 4.31,
+      "duration": "4시간 17분 6초",
+      "visitDays": 1
+    },
+    "gpx:gpx-20230504-5473982.html": {
+      "key": "gpx:gpx-20230504-5473982.html",
+      "name": "봉래폭포",
+      "date": "2023-05-04",
+      "kind": "GPS",
+      "summary": "봉래폭포에서 남긴 이동 경로와 거리·시간을 함께 확인합니다.",
+      "photoThemes": [
+        "GPS 산행"
+      ],
+      "highlights": [],
+      "cover": null,
+      "photoCount": 0,
+      "placeKey": "봉래폭포",
+      "url": "gpx-20230504-5473982.html",
+      "elevation": 371,
+      "distanceKm": 1.96,
+      "duration": "1시간 9분 26초",
+      "visitDays": 1
+    },
+    "gpx:gpx-20230423-5754137.html": {
+      "key": "gpx:gpx-20230423-5754137.html",
+      "name": "포항 바닷길",
+      "date": "2023-04-23",
+      "kind": "GPS",
+      "summary": "해안에서 만나는 풍경과 날짜별 걸음의 기록을 함께 살펴봅니다.",
+      "photoThemes": [
+        "바다",
+        "해안 산책"
+      ],
+      "highlights": [],
+      "cover": null,
+      "photoCount": 0,
+      "placeKey": "포항바닷길",
+      "url": "gpx-20230423-5754137.html",
+      "elevation": 50,
+      "distanceKm": 2.62,
+      "duration": "1시간 19분 53초",
+      "visitDays": 1
+    },
+    "gpx:gpx-20230401-5315254.html": {
+      "key": "gpx:gpx-20230401-5315254.html",
+      "name": "염포산",
+      "date": "2023-04-01",
+      "kind": "GPS",
+      "summary": "나무 그늘과 초록 산길에서 쉬어가는 산행의 여유를 담았습니다.",
+      "photoThemes": [
+        "숲길",
+        "신록"
+      ],
+      "highlights": [],
+      "cover": null,
+      "photoCount": 0,
+      "placeKey": "염포산",
+      "url": "gpx-20230401-5315254.html",
+      "elevation": 235,
+      "distanceKm": 10.12,
+      "duration": "2시간 0분 38초",
+      "visitDays": 6
+    },
+    "gpx:gpx-20230319-5262979.html": {
+      "key": "gpx:gpx-20230319-5262979.html",
+      "name": "염포산외 동구.북구주전",
+      "date": "2023-03-19",
+      "kind": "GPS",
+      "summary": "나무 그늘과 초록 산길에서 쉬어가는 산행의 여유를 담았습니다.",
+      "photoThemes": [
+        "숲길",
+        "신록"
+      ],
+      "highlights": [],
+      "cover": null,
+      "photoCount": 0,
+      "placeKey": "염포산외동구북구주전",
+      "url": "gpx-20230319-5262979.html",
+      "elevation": 339,
+      "distanceKm": 24.83,
+      "duration": "8시간 53분 11초",
+      "visitDays": 1
+    },
+    "gpx:gpx-20230226-5166596.html": {
+      "key": "gpx:gpx-20230226-5166596.html",
+      "name": "염포산.동축산",
+      "date": "2023-02-26",
+      "kind": "GPS",
+      "summary": "나무 그늘과 초록 산길에서 쉬어가는 산행의 여유를 담았습니다.",
+      "photoThemes": [
+        "숲길",
+        "신록"
+      ],
+      "highlights": [],
+      "cover": null,
+      "photoCount": 0,
+      "placeKey": "염포산동축산",
+      "url": "gpx-20230226-5166596.html",
+      "elevation": 331,
+      "distanceKm": 15.33,
+      "duration": "4시간 46분 17초",
+      "visitDays": 1
+    },
+    "gpx:gpx-20230218-5138124.html": {
+      "key": "gpx:gpx-20230218-5138124.html",
+      "name": "제비봉",
+      "date": "2023-02-18",
+      "kind": "GPS",
+      "summary": "바위와 숲이 어우러진 산세를 직접 남긴 사진으로 살펴봅니다.",
+      "photoThemes": [
+        "바위",
+        "능선"
+      ],
+      "highlights": [],
+      "cover": {
+        "src": "photos/update-20261120-7769f3ef643764f2fa1854ee.webp",
+        "alt": "제비봉 대표 사진",
+        "photoId": "update-7769f3ef643764f2fa1854ee",
+        "date": "2023-02-18"
+      },
+      "photoCount": 17,
+      "placeKey": "제비봉",
+      "url": "gpx-20230218-5138124.html",
+      "elevation": 749,
+      "distanceKm": 5.31,
+      "duration": "5시간 5분 57초",
+      "visitDays": 1
+    },
+    "gpx:gpx-20221010-4685432.html": {
+      "key": "gpx:gpx-20221010-4685432.html",
+      "name": "등산/하이킹 - 10/10/2022",
+      "date": "2022-10-10",
+      "kind": "GPS",
+      "summary": "등산/하이킹 - 10/10/2022에서 남긴 이동 경로와 거리·시간을 함께 확인합니다.",
+      "photoThemes": [
+        "GPS 산행"
+      ],
+      "highlights": [],
+      "cover": null,
+      "photoCount": 0,
+      "placeKey": "등산/하이킹-10/10/2022",
+      "url": "gpx-20221010-4685432.html",
+      "elevation": 1099,
+      "distanceKm": 16.85,
+      "duration": "5시간 49분 20초",
+      "visitDays": 1
+    },
+    "gpx:gpx-20220918-4580563.html": {
+      "key": "gpx:gpx-20220918-4580563.html",
+      "name": "경포대",
+      "date": "2022-09-18",
+      "kind": "GPS",
+      "summary": "해안에서 만나는 풍경과 날짜별 걸음의 기록을 함께 살펴봅니다.",
+      "photoThemes": [
+        "바다",
+        "해안 산책"
+      ],
+      "highlights": [],
+      "cover": null,
+      "photoCount": 0,
+      "placeKey": "경포대",
+      "url": "gpx-20220918-4580563.html",
+      "elevation": 35,
+      "distanceKm": 2.96,
+      "duration": "1시간 9분 26초",
+      "visitDays": 1
+    },
+    "gpx:gpx-20220912-4558458.html": {
+      "key": "gpx:gpx-20220912-4558458.html",
+      "name": "불갑사",
+      "date": "2022-09-12",
+      "kind": "GPS",
+      "summary": "산사로 향하는 길의 풍경과 그날의 걸음을 함께 돌아봅니다.",
+      "photoThemes": [
+        "산사",
+        "숲길"
+      ],
+      "highlights": [],
+      "cover": null,
+      "photoCount": 0,
+      "placeKey": "불갑사",
+      "url": "gpx-20220912-4558458.html",
+      "elevation": 111,
+      "distanceKm": 2.62,
+      "duration": "1시간 23분 13초",
+      "visitDays": 1
+    },
+    "gpx:gpx-20220102-3690911.html": {
+      "key": "gpx:gpx-20220102-3690911.html",
+      "name": "등산/하이킹 - 01/02/2022",
+      "date": "2022-01-02",
+      "kind": "GPS",
+      "summary": "등산/하이킹 - 01/02/2022에서 남긴 이동 경로와 거리·시간을 함께 확인합니다.",
+      "photoThemes": [
+        "GPS 산행"
+      ],
+      "highlights": [],
+      "cover": null,
+      "photoCount": 0,
+      "placeKey": "등산/하이킹-01/02/2022",
+      "url": "gpx-20220102-3690911.html",
+      "elevation": 1069,
+      "distanceKm": 6.88,
+      "duration": "3시간 55분 56초",
+      "visitDays": 1
+    },
+    "gpx:gpx-20211211-3644946.html": {
+      "key": "gpx:gpx-20211211-3644946.html",
+      "name": "등산/하이킹 - 12/11/2021",
+      "date": "2021-12-11",
+      "kind": "GPS",
+      "summary": "등산/하이킹 - 12/11/2021에서 남긴 이동 경로와 거리·시간을 함께 확인합니다.",
+      "photoThemes": [
+        "GPS 산행"
+      ],
+      "highlights": [],
+      "cover": null,
+      "photoCount": 0,
+      "placeKey": "등산/하이킹-12/11/2021",
+      "url": "gpx-20211211-3644946.html",
+      "elevation": 1013,
+      "distanceKm": 7.24,
+      "duration": "3시간 35분 33초",
+      "visitDays": 1
+    },
+    "gpx:gpx-20211106-3549061.html": {
+      "key": "gpx:gpx-20211106-3549061.html",
+      "name": "백양사",
+      "date": "2021-11-06",
+      "kind": "GPS",
+      "summary": "산사로 향하는 길의 풍경과 그날의 걸음을 함께 돌아봅니다.",
+      "photoThemes": [
+        "산사",
+        "숲길"
+      ],
+      "highlights": [],
+      "cover": null,
+      "photoCount": 0,
+      "placeKey": "백양사",
+      "url": "gpx-20211106-3549061.html",
+      "elevation": 771,
+      "distanceKm": 11.09,
+      "duration": "7시간 37분 3초",
+      "visitDays": 1
+    },
+    "gpx:gpx-20210802-3235900.html": {
+      "key": "gpx:gpx-20210802-3235900.html",
+      "name": "걷기 - 08/02/2021",
+      "date": "2021-08-02",
+      "kind": "GPS",
+      "summary": "걷기 - 08/02/2021에서 남긴 이동 경로와 거리·시간을 함께 확인합니다.",
+      "photoThemes": [
+        "GPS 산행"
+      ],
+      "highlights": [],
+      "cover": null,
+      "photoCount": 0,
+      "placeKey": "걷기-08/02/2021",
+      "url": "gpx-20210802-3235900.html",
+      "elevation": 260,
+      "distanceKm": 16.41,
+      "duration": "12시간 1분 42초",
+      "visitDays": 1
+    },
+    "gpx:gpx-20210726-3219362.html": {
+      "key": "gpx:gpx-20210726-3219362.html",
+      "name": "걷기 - 07/26/2021",
+      "date": "2021-07-26",
+      "kind": "GPS",
+      "summary": "걷기 - 07/26/2021에서 남긴 이동 경로와 거리·시간을 함께 확인합니다.",
+      "photoThemes": [
+        "GPS 산행"
+      ],
+      "highlights": [],
+      "cover": null,
+      "photoCount": 0,
+      "placeKey": "걷기-07/26/2021",
+      "url": "gpx-20210726-3219362.html",
+      "elevation": 201,
+      "distanceKm": 33.38,
+      "duration": "14시간 18분 14초",
+      "visitDays": 1
+    },
+    "gpx:gpx-20210725-3216800.html": {
+      "key": "gpx:gpx-20210725-3216800.html",
+      "name": "걷기 - 07/25/2021",
+      "date": "2021-07-25",
+      "kind": "GPS",
+      "summary": "걷기 - 07/25/2021에서 남긴 이동 경로와 거리·시간을 함께 확인합니다.",
+      "photoThemes": [
+        "GPS 산행"
+      ],
+      "highlights": [],
+      "cover": null,
+      "photoCount": 0,
+      "placeKey": "걷기-07/25/2021",
+      "url": "gpx-20210725-3216800.html",
+      "elevation": 264,
+      "distanceKm": 21.08,
+      "duration": "12시간 56분 44초",
+      "visitDays": 1
+    },
+    "gpx:gpx-20210724-3212507.html": {
+      "key": "gpx:gpx-20210724-3212507.html",
+      "name": "걷기 - 07/24/2021",
+      "date": "2021-07-24",
+      "kind": "GPS",
+      "summary": "걷기 - 07/24/2021에서 남긴 이동 경로와 거리·시간을 함께 확인합니다.",
+      "photoThemes": [
+        "GPS 산행"
+      ],
+      "highlights": [],
+      "cover": null,
+      "photoCount": 0,
+      "placeKey": "걷기-07/24/2021",
+      "url": "gpx-20210724-3212507.html",
+      "elevation": 964,
+      "distanceKm": 43.36,
+      "duration": "9시간 19분 22초",
+      "visitDays": 1
+    },
+    "gpx:gpx-20210723-3208878.html": {
+      "key": "gpx:gpx-20210723-3208878.html",
+      "name": "걷기 - 07/23/2021",
+      "date": "2021-07-23",
+      "kind": "GPS",
+      "summary": "걷기 - 07/23/2021에서 남긴 이동 경로와 거리·시간을 함께 확인합니다.",
+      "photoThemes": [
+        "GPS 산행"
+      ],
+      "highlights": [],
+      "cover": null,
+      "photoCount": 0,
+      "placeKey": "걷기-07/23/2021",
+      "url": "gpx-20210723-3208878.html",
+      "elevation": 174,
+      "distanceKm": 13.88,
+      "duration": "12시간 4분 23초",
+      "visitDays": 1
+    },
+    "gpx:gpx-20210722-3207339.html": {
+      "key": "gpx:gpx-20210722-3207339.html",
+      "name": "걷기 - 07/22/2021",
+      "date": "2021-07-22",
+      "kind": "GPS",
+      "summary": "걷기 - 07/22/2021에서 남긴 이동 경로와 거리·시간을 함께 확인합니다.",
+      "photoThemes": [
+        "GPS 산행"
+      ],
+      "highlights": [],
+      "cover": null,
+      "photoCount": 0,
+      "placeKey": "걷기-07/22/2021",
+      "url": "gpx-20210722-3207339.html",
+      "elevation": 430,
+      "distanceKm": 13.4,
+      "duration": "23시간 16분 40초",
+      "visitDays": 1
+    },
+    "gpx:gpx-20210721-3205172.html": {
+      "key": "gpx:gpx-20210721-3205172.html",
+      "name": "걷기",
+      "date": "2021-07-21",
+      "kind": "GPS",
+      "summary": "걷기에서 남긴 이동 경로와 거리·시간을 함께 확인합니다.",
+      "photoThemes": [
+        "GPS 산행"
+      ],
+      "highlights": [],
+      "cover": null,
+      "photoCount": 0,
+      "placeKey": "걷기",
+      "url": "gpx-20210721-3205172.html",
+      "elevation": 227,
+      "distanceKm": 11.7,
+      "duration": "23시간 56분 13초",
+      "visitDays": 1
+    },
+    "gpx:gpx-20210720-3202523.html": {
+      "key": "gpx:gpx-20210720-3202523.html",
+      "name": "걷기 - 07/20/2021",
+      "date": "2021-07-20",
+      "kind": "GPS",
+      "summary": "걷기 - 07/20/2021에서 남긴 이동 경로와 거리·시간을 함께 확인합니다.",
+      "photoThemes": [
+        "GPS 산행"
+      ],
+      "highlights": [],
+      "cover": null,
+      "photoCount": 0,
+      "placeKey": "걷기-07/20/2021",
+      "url": "gpx-20210720-3202523.html",
+      "elevation": 277,
+      "distanceKm": 15.24,
+      "duration": "14시간 54분 45초",
+      "visitDays": 1
+    },
+    "gpx:gpx-20210719-3199768.html": {
+      "key": "gpx:gpx-20210719-3199768.html",
+      "name": "걷기 - 07/19/2021",
+      "date": "2021-07-19",
+      "kind": "GPS",
+      "summary": "걷기 - 07/19/2021에서 남긴 이동 경로와 거리·시간을 함께 확인합니다.",
+      "photoThemes": [
+        "GPS 산행"
+      ],
+      "highlights": [],
+      "cover": null,
+      "photoCount": 0,
+      "placeKey": "걷기-07/19/2021",
+      "url": "gpx-20210719-3199768.html",
+      "elevation": 428,
+      "distanceKm": 12.37,
+      "duration": "11시간 4분 29초",
+      "visitDays": 1
+    },
+    "gpx:gpx-20210718-3197575.html": {
+      "key": "gpx:gpx-20210718-3197575.html",
+      "name": "걷기 - 07/18/2021",
+      "date": "2021-07-18",
+      "kind": "GPS",
+      "summary": "걷기 - 07/18/2021에서 남긴 이동 경로와 거리·시간을 함께 확인합니다.",
+      "photoThemes": [
+        "GPS 산행"
+      ],
+      "highlights": [],
+      "cover": null,
+      "photoCount": 0,
+      "placeKey": "걷기-07/18/2021",
+      "url": "gpx-20210718-3197575.html",
+      "elevation": 238,
+      "distanceKm": 14.57,
+      "duration": "11시간 53분 12초",
+      "visitDays": 1
+    },
+    "gpx:gpx-20210716-3194311.html": {
+      "key": "gpx:gpx-20210716-3194311.html",
+      "name": "걷기 - 07/16/2021",
+      "date": "2021-07-16",
+      "kind": "GPS",
+      "summary": "걷기 - 07/16/2021에서 남긴 이동 경로와 거리·시간을 함께 확인합니다.",
+      "photoThemes": [
+        "GPS 산행"
+      ],
+      "highlights": [],
+      "cover": {
+        "src": "photos/ramblr-3194311-001.jpg",
+        "alt": "걷기 - 07/16/2021 대표 사진",
+        "photoId": "ramblr-3194311-1",
+        "date": "2021-07-16"
+      },
+      "photoCount": 1,
+      "placeKey": "걷기-07/16/2021",
+      "url": "gpx-20210716-3194311.html",
+      "elevation": 334,
+      "distanceKm": 14.38,
+      "duration": "1일 8시간 17분",
+      "visitDays": 1
+    },
+    "photo:photo-o-local-osaekryeong-20211002": {
+      "key": "photo:photo-o-local-osaekryeong-20211002",
+      "name": "백두대간오색령",
+      "date": "2021-10-02",
+      "kind": "사진",
+      "summary": "백두대간오색령에서 직접 남긴 사진과 방문의 기억을 모았습니다.",
+      "photoThemes": [
+        "방문 사진"
+      ],
+      "highlights": [],
+      "cover": {
+        "src": "photos/local-0dad054dad475362dc5d.jpg",
+        "alt": "백두대간오색령 대표 사진",
+        "photoId": "local-0dad054dad475362dc5d",
+        "date": "2021-10-02"
+      },
+      "photoCount": 11,
+      "placeKey": "백두대간오색령",
+      "url": "gallery.html?group=other&album=o-local-osaekryeong",
+      "elevation": null,
+      "visitDays": 1
+    },
+    "photo:photo-o-local-cheongoksan-20210620": {
+      "key": "photo:photo-o-local-cheongoksan-20210620",
+      "name": "청옥산",
+      "date": "2021-06-20",
+      "kind": "사진",
+      "summary": "청옥산에서 직접 남긴 사진과 방문의 기억을 모았습니다.",
+      "photoThemes": [
+        "방문 사진"
+      ],
+      "highlights": [],
+      "cover": {
+        "src": "photos/local-457e5dd858736fd46543.jpg",
+        "alt": "청옥산 대표 사진",
+        "photoId": "local-457e5dd858736fd46543",
+        "date": "2021-06-20"
+      },
+      "photoCount": 13,
+      "placeKey": "청옥산",
+      "url": "gallery.html?group=other&album=o-local-cheongoksan",
+      "elevation": null,
+      "visitDays": 1
+    },
+    "photo:photo-o-photo-9c5ea3d46e69-20220220": {
+      "key": "photo:photo-o-photo-9c5ea3d46e69-20220220",
+      "name": "종남산",
+      "date": "2022-02-20",
+      "kind": "사진",
+      "summary": "정상에서 펼쳐지는 도시와 산줄기의 전망을 사진으로 남겼습니다.",
+      "photoThemes": [
+        "정상",
+        "도시 조망"
+      ],
+      "highlights": [],
+      "cover": {
+        "src": "photos/update-20261120-bb1612ddec5ec4bc7e6a464a.webp",
+        "alt": "종남산 대표 사진",
+        "photoId": "update-bb1612ddec5ec4bc7e6a464a",
+        "date": "2022-02-20"
+      },
+      "photoCount": 7,
+      "placeKey": "종남산",
+      "url": "gallery.html?group=other&album=o-photo-9c5ea3d46e69",
+      "elevation": null,
+      "visitDays": 1
+    },
+    "photo:photo-o-photo-ff3c2249aec4-20220228": {
+      "key": "photo:photo-o-photo-ff3c2249aec4-20220228",
+      "name": "채석강",
+      "date": "2022-02-28",
+      "kind": "사진",
+      "summary": "바위해안과 물가 풍경을 따라 바다 여행의 기억을 담았습니다.",
+      "photoThemes": [
+        "바다",
+        "해안 바위"
+      ],
+      "highlights": [],
+      "cover": {
+        "src": "photos/update-20261120-e8a31ecee75bda433112bf20.webp",
+        "alt": "채석강 대표 사진",
+        "photoId": "update-e8a31ecee75bda433112bf20",
+        "date": "2022-02-28"
+      },
+      "photoCount": 11,
+      "placeKey": "채석강",
+      "url": "gallery.html?group=other&album=o-photo-ff3c2249aec4",
+      "elevation": null,
+      "visitDays": 2
+    },
+    "photo:photo-o-photo-ff3c2249aec4-20220301": {
+      "key": "photo:photo-o-photo-ff3c2249aec4-20220301",
+      "name": "채석강",
+      "date": "2022-03-01",
+      "kind": "사진",
+      "summary": "바위해안과 물가 풍경을 따라 바다 여행의 기억을 담았습니다.",
+      "photoThemes": [
+        "바다",
+        "해안 바위"
+      ],
+      "highlights": [],
+      "cover": {
+        "src": "photos/update-20261120-b76f5d4b42f73a66829e85aa.webp",
+        "alt": "채석강 대표 사진",
+        "photoId": "update-b76f5d4b42f73a66829e85aa",
+        "date": "2022-03-01"
+      },
+      "photoCount": 5,
+      "placeKey": "채석강",
+      "url": "gallery.html?group=other&album=o-photo-ff3c2249aec4",
+      "elevation": null,
+      "visitDays": 2
+    },
+    "photo:photo-o-photo-045a964e697c-20220319": {
+      "key": "photo:photo-o-photo-045a964e697c-20220319",
+      "name": "만항재",
+      "date": "2022-03-19",
+      "kind": "사진",
+      "summary": "하얀 눈과 숲, 열린 하늘이 담긴 겨울 산행의 풍경을 만나보세요.",
+      "photoThemes": [
+        "눈",
+        "설경"
+      ],
+      "highlights": [],
+      "cover": {
+        "src": "photos/update-20261120-a4daac57cf6ba622e3cd1d93.webp",
+        "alt": "만항재 대표 사진",
+        "photoId": "update-a4daac57cf6ba622e3cd1d93",
+        "date": "2022-03-19"
+      },
+      "photoCount": 11,
+      "placeKey": "만항재",
+      "url": "gallery.html?group=other&album=o-photo-045a964e697c",
+      "elevation": null,
+      "visitDays": 1
+    },
+    "photo:photo-o-5138124-20230218": {
+      "key": "photo:photo-o-5138124-20230218",
+      "name": "제비봉",
+      "date": "2023-02-18",
+      "kind": "사진",
+      "summary": "바위와 숲이 어우러진 산세를 직접 남긴 사진으로 살펴봅니다.",
+      "photoThemes": [
+        "바위",
+        "능선"
+      ],
+      "highlights": [],
+      "cover": {
+        "src": "photos/update-20261120-7769f3ef643764f2fa1854ee.webp",
+        "alt": "제비봉 대표 사진",
+        "photoId": "update-7769f3ef643764f2fa1854ee",
+        "date": "2023-02-18"
+      },
+      "photoCount": 17,
+      "placeKey": "제비봉",
+      "url": "gallery.html?group=other&album=o-5138124",
+      "elevation": null,
+      "visitDays": 1
+    },
+    "photo:photo-o-photo-d2c82e691e20-20230326": {
+      "key": "photo:photo-o-photo-d2c82e691e20-20230326",
+      "name": "응봉산(서울 성동구)",
+      "date": "2023-03-26",
+      "kind": "사진",
+      "summary": "물가의 봄꽃과 정자의 풍경이 일상 가까운 산책을 전합니다.",
+      "photoThemes": [
+        "봄꽃",
+        "산책"
+      ],
+      "highlights": [],
+      "cover": {
+        "src": "photos/update-20261120-0048477d27ae40ca9d82c0c8.webp",
+        "alt": "응봉산(서울 성동구) 대표 사진",
+        "photoId": "update-0048477d27ae40ca9d82c0c8",
+        "date": "2023-03-26"
+      },
+      "photoCount": 5,
+      "placeKey": "응봉산(서울성동구)",
+      "url": "gallery.html?group=other&album=o-photo-d2c82e691e20",
+      "elevation": null,
+      "visitDays": 2
+    },
+    "photo:photo-o-5515204-20230514": {
+      "key": "photo:photo-o-5515204-20230514",
+      "name": "발왕산",
+      "date": "2023-05-14",
+      "kind": "사진",
+      "summary": "눈 덮인 산길과 초록 나무길이 서로 다른 계절의 산행을 전합니다.",
+      "photoThemes": [
+        "눈",
+        "숲길"
+      ],
+      "highlights": [],
+      "cover": {
+        "src": "photos/update-20261120-896e288ccf69af12a79008b5.webp",
+        "alt": "발왕산 대표 사진",
+        "photoId": "update-896e288ccf69af12a79008b5",
+        "date": "2023-05-14"
+      },
+      "photoCount": 29,
+      "placeKey": "발왕산",
+      "url": "gallery.html?group=other&album=o-5515204",
+      "elevation": null,
+      "visitDays": 2
+    },
+    "photo:photo-o-5633628-20230607": {
+      "key": "photo:photo-o-5633628-20230607",
+      "name": "동석산",
+      "date": "2023-06-07",
+      "kind": "사진",
+      "summary": "바위와 숲이 어우러진 산세를 직접 남긴 사진으로 살펴봅니다.",
+      "photoThemes": [
+        "바위",
+        "능선"
+      ],
+      "highlights": [],
+      "cover": {
+        "src": "photos/update-20261120-fee0f286419993d07376421c.webp",
+        "alt": "동석산 대표 사진",
+        "photoId": "update-fee0f286419993d07376421c",
+        "date": "2023-06-07"
+      },
+      "photoCount": 9,
+      "placeKey": "동석산",
+      "url": "gallery.html?group=other&album=o-5633628",
+      "elevation": null,
+      "visitDays": 1
+    },
+    "photo:photo-o-5833377-20230730": {
+      "key": "photo:photo-o-5833377-20230730",
+      "name": "백운산(밀양)",
+      "date": "2023-07-30",
+      "kind": "사진",
+      "summary": "바위와 숲이 어우러진 산세를 직접 남긴 사진으로 살펴봅니다.",
+      "photoThemes": [
+        "바위",
+        "능선"
+      ],
+      "highlights": [],
+      "cover": {
+        "src": "photos/update-20261120-a54139b741e36e4c5ff68980.webp",
+        "alt": "백운산(밀양) 대표 사진",
+        "photoId": "update-a54139b741e36e4c5ff68980",
+        "date": "2023-07-30"
+      },
+      "photoCount": 14,
+      "placeKey": "밀양백운산",
+      "url": "gallery.html?group=other&album=o-5833377",
+      "elevation": null,
+      "visitDays": 1
+    },
+    "photo:photo-o-5859239-20230806": {
+      "key": "photo:photo-o-5859239-20230806",
+      "name": "금학산",
+      "date": "2023-08-06",
+      "kind": "사진",
+      "summary": "금학산에서 직접 남긴 사진과 방문의 기억을 모았습니다.",
+      "photoThemes": [
+        "방문 사진"
+      ],
+      "highlights": [],
+      "cover": {
+        "src": "photos/update-20261120-2b01d49a9c182b6559b2a910.webp",
+        "alt": "금학산 대표 사진",
+        "photoId": "update-2b01d49a9c182b6559b2a910",
+        "date": "2023-08-06"
+      },
+      "photoCount": 8,
+      "placeKey": "금학산",
+      "url": "gallery.html?group=other&album=o-5859239",
+      "elevation": null,
+      "visitDays": 1
+    },
+    "photo:photo-o-5861246-20230806": {
+      "key": "photo:photo-o-5861246-20230806",
+      "name": "사명산",
+      "date": "2023-08-06",
+      "kind": "사진",
+      "summary": "사명산에서 직접 남긴 사진과 방문의 기억을 모았습니다.",
+      "photoThemes": [
+        "방문 사진"
+      ],
+      "highlights": [],
+      "cover": {
+        "src": "photos/update-20261120-add1e9f35a9e2ba1014f1f9c.webp",
+        "alt": "사명산 대표 사진",
+        "photoId": "update-add1e9f35a9e2ba1014f1f9c",
+        "date": "2023-08-06"
+      },
+      "photoCount": 3,
+      "placeKey": "사명산",
+      "url": "gallery.html?group=other&album=o-5861246",
+      "elevation": null,
+      "visitDays": 1
+    },
+    "photo:photo-o-photo-d87d58a902a4-20230807": {
+      "key": "photo:photo-o-photo-d87d58a902a4-20230807",
+      "name": "응봉(2023.08.07)",
+      "date": "2023-08-07",
+      "kind": "사진",
+      "summary": "응봉(2023.08.07)에서 직접 남긴 사진과 방문의 기억을 모았습니다.",
+      "photoThemes": [
+        "방문 사진"
+      ],
+      "highlights": [],
+      "cover": {
+        "src": "photos/update-20261120-dba25b0f7f1d61976d2cc15d.webp",
+        "alt": "응봉(2023.08.07) 대표 사진",
+        "photoId": "update-dba25b0f7f1d61976d2cc15d",
+        "date": "2023-08-07"
+      },
+      "photoCount": 11,
+      "placeKey": "응봉(20230807)",
+      "url": "gallery.html?group=other&album=o-photo-d87d58a902a4",
+      "elevation": null,
+      "visitDays": 1
+    },
+    "photo:photo-o-5882260-20230813": {
+      "key": "photo:photo-o-5882260-20230813",
+      "name": "계족산",
+      "date": "2023-08-13",
+      "kind": "사진",
+      "summary": "나무 그늘과 초록 산길에서 쉬어가는 산행의 여유를 담았습니다.",
+      "photoThemes": [
+        "숲길",
+        "신록"
+      ],
+      "highlights": [],
+      "cover": {
+        "src": "photos/update-20261120-0355e4eedb0756d14b412383.webp",
+        "alt": "계족산 대표 사진",
+        "photoId": "update-0355e4eedb0756d14b412383",
+        "date": "2023-08-13"
+      },
+      "photoCount": 4,
+      "placeKey": "계족산",
+      "url": "gallery.html?group=other&album=o-5882260",
+      "elevation": null,
+      "visitDays": 1
+    },
+    "photo:photo-o-5904312-20230813": {
+      "key": "photo:photo-o-5904312-20230813",
+      "name": "민둥산",
+      "date": "2023-08-13",
+      "kind": "사진",
+      "summary": "넓은 능선을 따라 걸으며 억새 명산의 다른 계절도 살펴봅니다.",
+      "photoThemes": [
+        "억새",
+        "능선"
+      ],
+      "highlights": [
+        {
+          "season": "가을",
+          "feature": "억새철",
+          "source": "mindung"
+        }
+      ],
+      "cover": {
+        "src": "photos/update-20261120-5e15c7875830e627f7e0edd5.webp",
+        "alt": "민둥산 대표 사진",
+        "photoId": "update-5e15c7875830e627f7e0edd5",
+        "date": "2023-08-13"
+      },
+      "photoCount": 11,
+      "placeKey": "민둥산",
+      "url": "gallery.html?group=other&album=o-5904312",
+      "elevation": null,
+      "visitDays": 1
+    },
+    "photo:photo-o-photo-3e2f3e10e2c4-20230815": {
+      "key": "photo:photo-o-photo-3e2f3e10e2c4-20230815",
+      "name": "쉰움산",
+      "date": "2023-08-15",
+      "kind": "사진",
+      "summary": "바위와 숲이 어우러진 산세를 직접 남긴 사진으로 살펴봅니다.",
+      "photoThemes": [
+        "바위",
+        "능선"
+      ],
+      "highlights": [],
+      "cover": {
+        "src": "photos/update-20261120-6ad8cfd5e679583674f97ef1.webp",
+        "alt": "쉰움산 대표 사진",
+        "photoId": "update-6ad8cfd5e679583674f97ef1",
+        "date": "2023-08-15"
+      },
+      "photoCount": 13,
+      "placeKey": "쉰움산",
+      "url": "gallery.html?group=other&album=o-photo-3e2f3e10e2c4",
+      "elevation": null,
+      "visitDays": 1
+    },
+    "photo:photo-o-6210016-20231028": {
+      "key": "photo:photo-o-6210016-20231028",
+      "name": "희양산",
+      "date": "2023-10-28",
+      "kind": "사진",
+      "summary": "가을빛 숲과 바위산의 풍경을 담은 산행 기록입니다.",
+      "photoThemes": [
+        "단풍",
+        "숲길"
+      ],
+      "highlights": [],
+      "cover": {
+        "src": "photos/update-20261120-0a94f1f67e6d023c76849a7a.webp",
+        "alt": "희양산 대표 사진",
+        "photoId": "update-0a94f1f67e6d023c76849a7a",
+        "date": "2023-10-28"
+      },
+      "photoCount": 18,
+      "placeKey": "희양산",
+      "url": "gallery.html?group=other&album=o-6210016",
+      "elevation": null,
+      "visitDays": 1
+    },
+    "photo:photo-o-photo-9e053c46dde9-20231119": {
+      "key": "photo:photo-o-photo-9e053c46dde9-20231119",
+      "name": "토함산",
+      "date": "2023-11-19",
+      "kind": "사진",
+      "summary": "정상석과 숲길이 이어지는 산행의 한 장면을 담았습니다.",
+      "photoThemes": [
+        "정상",
+        "숲길"
+      ],
+      "highlights": [],
+      "cover": {
+        "src": "photos/update-20261120-ae16ea272eb02a7637765d57.webp",
+        "alt": "토함산 대표 사진",
+        "photoId": "update-ae16ea272eb02a7637765d57",
+        "date": "2023-11-19"
+      },
+      "photoCount": 12,
+      "placeKey": "토함산",
+      "url": "gallery.html?group=other&album=o-photo-9e053c46dde9",
+      "elevation": null,
+      "visitDays": 2
+    },
+    "photo:photo-o-6558048-20240211": {
+      "key": "photo:photo-o-6558048-20240211",
+      "name": "선자령",
+      "date": "2024-02-11",
+      "kind": "사진",
+      "summary": "하얀 눈과 숲, 열린 하늘이 담긴 겨울 산행의 풍경을 만나보세요.",
+      "photoThemes": [
+        "눈",
+        "설경"
+      ],
+      "highlights": [],
+      "cover": {
+        "src": "photos/update-20261120-5bb10786a9f58d93547df635.webp",
+        "alt": "선자령 대표 사진",
+        "photoId": "update-5bb10786a9f58d93547df635",
+        "date": "2024-02-11"
+      },
+      "photoCount": 21,
+      "placeKey": "선자령",
+      "url": "gallery.html?group=other&album=o-6558048",
+      "elevation": null,
+      "visitDays": 1
+    },
+    "photo:photo-o-5515204-20240212": {
+      "key": "photo:photo-o-5515204-20240212",
+      "name": "발왕산",
+      "date": "2024-02-12",
+      "kind": "사진",
+      "summary": "눈 덮인 산길과 초록 나무길이 서로 다른 계절의 산행을 전합니다.",
+      "photoThemes": [
+        "눈",
+        "숲길"
+      ],
+      "highlights": [],
+      "cover": {
+        "src": "photos/update-20261120-4c32f060568cb0f4ed2190bf.webp",
+        "alt": "발왕산 대표 사진",
+        "photoId": "update-4c32f060568cb0f4ed2190bf",
+        "date": "2024-02-12"
+      },
+      "photoCount": 25,
+      "placeKey": "발왕산",
+      "url": "gallery.html?group=other&album=o-5515204",
+      "elevation": null,
+      "visitDays": 2
+    },
+    "photo:photo-o-6767444-20240406": {
+      "key": "photo:photo-o-6767444-20240406",
+      "name": "장복산",
+      "date": "2024-04-06",
+      "kind": "사진",
+      "summary": "분홍빛 꽃과 능선이 어우러진 사진에서 봄 산행의 기억을 만납니다.",
+      "photoThemes": [
+        "봄꽃",
+        "능선"
+      ],
+      "highlights": [],
+      "cover": {
+        "src": "photos/update-20261120-376c90eecf5a8f850fab0435.webp",
+        "alt": "장복산 대표 사진",
+        "photoId": "update-376c90eecf5a8f850fab0435",
+        "date": "2024-04-06"
+      },
+      "photoCount": 16,
+      "placeKey": "장복산",
+      "url": "gallery.html?group=other&album=o-6767444",
+      "elevation": null,
+      "visitDays": 1
+    },
+    "photo:photo-o-6907846-20240501": {
+      "key": "photo:photo-o-6907846-20240501",
+      "name": "미숭산",
+      "date": "2024-05-01",
+      "kind": "사진",
+      "summary": "미숭산에서 직접 남긴 사진과 방문의 기억을 모았습니다.",
+      "photoThemes": [
+        "방문 사진"
+      ],
+      "highlights": [],
+      "cover": {
+        "src": "photos/update-20261120-ace905a30f427a38bac55fc0.webp",
+        "alt": "미숭산 대표 사진",
+        "photoId": "update-ace905a30f427a38bac55fc0",
+        "date": "2024-05-01"
+      },
+      "photoCount": 14,
+      "placeKey": "미숭산",
+      "url": "gallery.html?group=other&album=o-6907846",
+      "elevation": null,
+      "visitDays": 1
+    },
+    "photo:photo-o-photo-9e053c46dde9-20241207": {
+      "key": "photo:photo-o-photo-9e053c46dde9-20241207",
+      "name": "토함산",
+      "date": "2024-12-07",
+      "kind": "사진",
+      "summary": "정상석과 숲길이 이어지는 산행의 한 장면을 담았습니다.",
+      "photoThemes": [
+        "정상",
+        "숲길"
+      ],
+      "highlights": [],
+      "cover": {
+        "src": "photos/update-20261120-ab1c8ca7c1749fe7aa1ac2b7.webp",
+        "alt": "토함산 대표 사진",
+        "photoId": "update-ab1c8ca7c1749fe7aa1ac2b7",
+        "date": "2024-12-07"
+      },
+      "photoCount": 12,
+      "placeKey": "토함산",
+      "url": "gallery.html?group=other&album=o-photo-9e053c46dde9",
+      "elevation": null,
+      "visitDays": 2
+    },
+    "photo:photo-o-8371248-20250406": {
+      "key": "photo:photo-o-8371248-20250406",
+      "name": "천주산",
+      "date": "2025-04-06",
+      "kind": "사진",
+      "summary": "천주산에서 직접 남긴 사진과 방문의 기억을 모았습니다.",
+      "photoThemes": [
+        "방문 사진"
+      ],
+      "highlights": [],
+      "cover": {
+        "src": "photos/update-20261120-a23e34aba605b5983a363154.webp",
+        "alt": "천주산 대표 사진",
+        "photoId": "update-a23e34aba605b5983a363154",
+        "date": "2025-04-06"
+      },
+      "photoCount": 6,
+      "placeKey": "천주산",
+      "url": "gallery.html?group=other&album=o-8371248",
+      "elevation": null,
+      "visitDays": 1
+    },
+    "photo:photo-o-8415535-20250413": {
+      "key": "photo:photo-o-8415535-20250413",
+      "name": "주작산",
+      "date": "2025-04-13",
+      "kind": "사진",
+      "summary": "분홍빛 꽃과 능선이 어우러진 사진에서 봄 산행의 기억을 만납니다.",
+      "photoThemes": [
+        "봄꽃",
+        "능선"
+      ],
+      "highlights": [],
+      "cover": {
+        "src": "photos/update-20261120-aa5988639244cc1190c5b38e.webp",
+        "alt": "주작산 대표 사진",
+        "photoId": "update-aa5988639244cc1190c5b38e",
+        "date": "2025-04-13"
+      },
+      "photoCount": 20,
+      "placeKey": "주작산",
+      "url": "gallery.html?group=other&album=o-8415535",
+      "elevation": null,
+      "visitDays": 1
+    },
+    "photo:photo-o-8546897-20250504": {
+      "key": "photo:photo-o-8546897-20250504",
+      "name": "일림산",
+      "date": "2025-05-04",
+      "kind": "사진",
+      "summary": "철쭉으로 물드는 남도의 산자락과 산행 기록을 함께 만나보세요.",
+      "photoThemes": [
+        "철쭉",
+        "능선"
+      ],
+      "highlights": [
+        {
+          "season": "봄",
+          "feature": "철쭉철",
+          "source": "illim"
+        }
+      ],
+      "cover": {
+        "src": "photos/update-20261120-e8854372012dd4935f3e8832.webp",
+        "alt": "일림산 대표 사진",
+        "photoId": "update-e8854372012dd4935f3e8832",
+        "date": "2025-05-04"
+      },
+      "photoCount": 30,
+      "placeKey": "일림산",
+      "url": "gallery.html?group=other&album=o-8546897",
+      "elevation": null,
+      "visitDays": 1
+    },
+    "photo:photo-o-8566215-20250506": {
+      "key": "photo:photo-o-8566215-20250506",
+      "name": "초암산",
+      "date": "2025-05-06",
+      "kind": "사진",
+      "summary": "분홍빛 꽃과 능선이 어우러진 사진에서 봄 산행의 기억을 만납니다.",
+      "photoThemes": [
+        "봄꽃",
+        "능선"
+      ],
+      "highlights": [],
+      "cover": {
+        "src": "photos/update-20261120-7e96a86fce2ef1a7c42ad99f.webp",
+        "alt": "초암산 대표 사진",
+        "photoId": "update-7e96a86fce2ef1a7c42ad99f",
+        "date": "2025-05-06"
+      },
+      "photoCount": 24,
+      "placeKey": "초암산",
+      "url": "gallery.html?group=other&album=o-8566215",
+      "elevation": null,
+      "visitDays": 1
+    },
+    "photo:photo-o-8935820-20250720": {
+      "key": "photo:photo-o-8935820-20250720",
+      "name": "백두대간 수목원",
+      "date": "2025-07-20",
+      "kind": "사진",
+      "summary": "나무와 꽃을 찾아 걸었던 날의 사진과 이동 기록을 담았습니다.",
+      "photoThemes": [
+        "숲",
+        "정원"
+      ],
+      "highlights": [],
+      "cover": {
+        "src": "photos/update-20261120-c5f89161e56f9c05ce7281b2.webp",
+        "alt": "백두대간 수목원 대표 사진",
+        "photoId": "update-c5f89161e56f9c05ce7281b2",
+        "date": "2025-07-20"
+      },
+      "photoCount": 32,
+      "placeKey": "백두대간수목원",
+      "url": "gallery.html?group=other&album=o-8935820",
+      "elevation": null,
+      "visitDays": 1
+    },
+    "photo:photo-o-photo-d2c82e691e20-20230327": {
+      "key": "photo:photo-o-photo-d2c82e691e20-20230327",
+      "name": "응봉산(서울 성동구)",
+      "date": "2023-03-27",
+      "kind": "사진",
+      "summary": "물가의 봄꽃과 정자의 풍경이 일상 가까운 산책을 전합니다.",
+      "photoThemes": [
+        "봄꽃",
+        "산책"
+      ],
+      "highlights": [],
+      "cover": {
+        "src": "photos/update-20261120-2157a1b1638d621f926490f8.webp",
+        "alt": "응봉산(서울 성동구) 대표 사진",
+        "photoId": "update-2157a1b1638d621f926490f8",
+        "date": "2023-03-27"
+      },
+      "photoCount": 9,
+      "placeKey": "응봉산(서울성동구)",
+      "url": "gallery.html?group=other&album=o-photo-d2c82e691e20",
+      "elevation": null,
+      "visitDays": 2
+    },
+    "photo:photo-o-5854147-20230805": {
+      "key": "photo:photo-o-5854147-20230805",
+      "name": "청태산",
+      "date": "2023-08-05",
+      "kind": "사진",
+      "summary": "나무 그늘과 초록 산길에서 쉬어가는 산행의 여유를 담았습니다.",
+      "photoThemes": [
+        "숲길",
+        "신록"
+      ],
+      "highlights": [],
+      "cover": {
+        "src": "photos/update-20261120-ba8189ba0c2936b9680b5db8.webp",
+        "alt": "청태산 대표 사진",
+        "photoId": "update-ba8189ba0c2936b9680b5db8",
+        "date": "2023-08-05"
+      },
+      "photoCount": 2,
+      "placeKey": "청태산",
+      "url": "gallery.html?group=other&album=o-5854147",
+      "elevation": null,
+      "visitDays": 1
+    },
+    "photo:photo-o-10103040-20260218": {
+      "key": "photo:photo-o-10103040-20260218",
+      "name": "장산",
+      "date": "2026-02-18",
+      "kind": "사진",
+      "summary": "도시 가까운 산길에서 바위와 숲이 이어지는 산행을 담았습니다.",
+      "photoThemes": [
+        "바위",
+        "숲길"
+      ],
+      "highlights": [],
+      "cover": {
+        "src": "photos/update-20261120-f06715181d44fe96e3e6af17.webp",
+        "alt": "장산 대표 사진",
+        "photoId": "update-f06715181d44fe96e3e6af17",
+        "date": "2026-02-18"
+      },
+      "photoCount": 25,
+      "placeKey": "장산",
+      "url": "gallery.html?group=other&album=o-10103040",
+      "elevation": null,
+      "visitDays": 1
+    },
+    "photo:photo-o-10131126-20260222": {
+      "key": "photo:photo-o-10131126-20260222",
+      "name": "용궐산",
+      "date": "2026-02-22",
+      "kind": "사진",
+      "summary": "바위와 강변 풍경이 함께 담긴 산행의 순간을 만나보세요.",
+      "photoThemes": [
+        "바위",
+        "강변"
+      ],
+      "highlights": [],
+      "cover": {
+        "src": "photos/update-20261120-50ec2e46c353eb6056e30705.webp",
+        "alt": "용궐산 대표 사진",
+        "photoId": "update-50ec2e46c353eb6056e30705",
+        "date": "2026-02-22"
+      },
+      "photoCount": 24,
+      "placeKey": "용궐산",
+      "url": "gallery.html?group=other&album=o-10131126",
+      "elevation": null,
+      "visitDays": 1
+    },
+    "photo:photo-o-10291379-20260329": {
+      "key": "photo:photo-o-10291379-20260329",
+      "name": "여수 영취산",
+      "date": "2026-03-29",
+      "kind": "사진",
+      "summary": "봄 진달래로 알려진 여수 영취산의 산행 기록을 만나보세요.",
+      "photoThemes": [
+        "진달래",
+        "능선"
+      ],
+      "highlights": [
+        {
+          "season": "봄",
+          "feature": "진달래철",
+          "source": "yeongchwi"
+        }
+      ],
+      "cover": {
+        "src": "photos/update-20261120-50e90b7c3aa7fb84c5519a70.webp",
+        "alt": "여수 영취산 대표 사진",
+        "photoId": "update-50e90b7c3aa7fb84c5519a70",
+        "date": "2026-03-29"
+      },
+      "photoCount": 20,
+      "placeKey": "여수영취산",
+      "url": "gallery.html?group=other&album=o-10291379",
+      "elevation": null,
+      "visitDays": 1
+    },
+    "photo:photo-o-10527459-20260516": {
+      "key": "photo:photo-o-10527459-20260516",
+      "name": "금강산 신선대",
+      "date": "2026-05-16",
+      "kind": "사진",
+      "summary": "탁 트인 바위 전망에서 겹겹의 산줄기를 바라봅니다.",
+      "photoThemes": [
+        "바위",
+        "능선"
+      ],
+      "highlights": [],
+      "cover": {
+        "src": "photos/update-20261120-9748ec11985161951e75db44.webp",
+        "alt": "금강산 신선대 대표 사진",
+        "photoId": "update-9748ec11985161951e75db44",
+        "date": "2026-05-16"
+      },
+      "photoCount": 23,
+      "placeKey": "금강산신선대",
+      "url": "gallery.html?group=other&album=o-10527459",
+      "elevation": null,
+      "visitDays": 2
+    },
+    "photo:photo-o-10575902-20260525": {
+      "key": "photo:photo-o-10575902-20260525",
+      "name": "거창 감악산",
+      "date": "2026-05-25",
+      "kind": "사진",
+      "summary": "거창 감악산에서 직접 남긴 사진과 방문의 기억을 모았습니다.",
+      "photoThemes": [
+        "방문 사진"
+      ],
+      "highlights": [],
+      "cover": {
+        "src": "photos/update-20261120-3a5565c286cc3bb7679859a3.webp",
+        "alt": "거창 감악산 대표 사진",
+        "photoId": "update-3a5565c286cc3bb7679859a3",
+        "date": "2026-05-25"
+      },
+      "photoCount": 13,
+      "placeKey": "거창감악산",
+      "url": "gallery.html?group=other&album=o-10575902",
+      "elevation": null,
+      "visitDays": 1
+    },
+    "photo:photo-o-island-photo-e096119e1445-20230603": {
+      "key": "photo:photo-o-island-photo-e096119e1445-20230603",
+      "name": "차귀도",
+      "date": "2023-06-03",
+      "kind": "사진",
+      "summary": "바다를 곁에 둔 섬 여행의 풍경과 방문 기록을 모았습니다.",
+      "photoThemes": [
+        "바다",
+        "섬 여행"
+      ],
+      "highlights": [],
+      "cover": {
+        "src": "photos/update-islands-20261120-3e4eb223a29d966632079baf.webp",
+        "alt": "차귀도 대표 사진",
+        "photoId": "island-update-3e4eb223a29d966632079baf",
+        "date": "2023-06-03"
+      },
+      "photoCount": 15,
+      "placeKey": "차귀도",
+      "url": "gallery.html?group=other&album=o-island-photo-e096119e1445",
+      "elevation": null,
+      "visitDays": 1
+    },
+    "photo:photo-o-9027063-20231004": {
+      "key": "photo:photo-o-9027063-20231004",
+      "name": "장자도",
+      "date": "2023-10-04",
+      "kind": "사진",
+      "summary": "바다를 곁에 둔 섬 여행의 풍경과 방문 기록을 모았습니다.",
+      "photoThemes": [
+        "바다",
+        "섬 여행"
+      ],
+      "highlights": [],
+      "cover": {
+        "src": "photos/update-islands-20261120-6f8c04a262c3cfc366ba8330.webp",
+        "alt": "장자도 대표 사진",
+        "photoId": "island-update-6f8c04a262c3cfc366ba8330",
+        "date": "2023-10-04"
+      },
+      "photoCount": 8,
+      "placeKey": "장자도",
+      "url": "gallery.html?group=other&album=o-9027063",
+      "elevation": null,
+      "visitDays": 3
+    },
+    "photo:photo-o-island-photo-8ffa4db4d123-20240919": {
+      "key": "photo:photo-o-island-photo-8ffa4db4d123-20240919",
+      "name": "병풍도",
+      "date": "2024-09-19",
+      "kind": "사진",
+      "summary": "바다를 곁에 둔 섬 여행의 풍경과 방문 기록을 모았습니다.",
+      "photoThemes": [
+        "바다",
+        "섬 여행"
+      ],
+      "highlights": [],
+      "cover": {
+        "src": "photos/update-islands-20261120-6fa529e091cb46fb252c4ec7.webp",
+        "alt": "병풍도 대표 사진",
+        "photoId": "island-update-6fa529e091cb46fb252c4ec7",
+        "date": "2024-09-19"
+      },
+      "photoCount": 17,
+      "placeKey": "병풍도",
+      "url": "gallery.html?group=other&album=o-island-photo-8ffa4db4d123",
+      "elevation": null,
+      "visitDays": 1
+    },
+    "photo:photo-o-9027063-20250808": {
+      "key": "photo:photo-o-9027063-20250808",
+      "name": "장자도",
+      "date": "2025-08-08",
+      "kind": "사진",
+      "summary": "바다를 곁에 둔 섬 여행의 풍경과 방문 기록을 모았습니다.",
+      "photoThemes": [
+        "바다",
+        "섬 여행"
+      ],
+      "highlights": [],
+      "cover": {
+        "src": "photos/update-islands-20261120-aebd97d93350eb0cd93b2a82.webp",
+        "alt": "장자도 대표 사진",
+        "photoId": "island-update-aebd97d93350eb0cd93b2a82",
+        "date": "2025-08-08"
+      },
+      "photoCount": 3,
+      "placeKey": "장자도",
+      "url": "gallery.html?group=other&album=o-9027063",
+      "elevation": null,
+      "visitDays": 3
+    },
+    "photo:photo-o-9027063-20250809": {
+      "key": "photo:photo-o-9027063-20250809",
+      "name": "장자도",
+      "date": "2025-08-09",
+      "kind": "사진",
+      "summary": "바다를 곁에 둔 섬 여행의 풍경과 방문 기록을 모았습니다.",
+      "photoThemes": [
+        "바다",
+        "섬 여행"
+      ],
+      "highlights": [],
+      "cover": {
+        "src": "photos/update-islands-20261120-d9bb6fde5b9457de9eb3d7c6.webp",
+        "alt": "장자도 대표 사진",
+        "photoId": "island-update-d9bb6fde5b9457de9eb3d7c6",
+        "date": "2025-08-09"
+      },
+      "photoCount": 4,
+      "placeKey": "장자도",
+      "url": "gallery.html?group=other&album=o-9027063",
+      "elevation": null,
+      "visitDays": 3
+    },
+    "blog:mwg6ereu-gm25om": {
+      "key": "blog:mwg6ereu-gm25om",
+      "name": "중국 화산",
+      "date": "",
+      "kind": "글",
+      "summary": "화산을 걷다",
+      "photoThemes": [
+        "방문 사진"
+      ],
+      "highlights": [],
+      "cover": null,
+      "photoCount": 0,
+      "placeKey": "중국화산",
+      "url": "blog.html#post-mwg6ereu-gm25om",
+      "elevation": null,
+      "visitDays": 0
+    },
+    "blog:mwae3709-e8d2c8": {
+      "key": "blog:mwae3709-e8d2c8",
+      "name": "문복산",
+      "date": "2026-11-01",
+      "kind": "글",
+      "summary": "문복산에 오를다",
+      "photoThemes": [
+        "방문 사진"
+      ],
+      "highlights": [],
+      "cover": null,
+      "photoCount": 0,
+      "placeKey": "문복산",
+      "url": "blog.html#post-mwae3709-e8d2c8",
+      "elevation": null,
+      "visitDays": 1
+    }
+  }
+}

@@ -81,7 +81,7 @@
    const original={};for(const prop of ['font-size','line-height'])original[prop]=[node.style.getPropertyValue(prop),node.style.getPropertyPriority(prop)];
    const topMenu=node.closest('.jk-compact-menu>a,.jk-compact-menu>details>summary'),subMenu=node.closest('.jk-nav-drop>a,.jk-all-panel a'),gallerySidebar=location.pathname.endsWith('/gallery.html')&&node.closest('.side');
    const enlargedList=node.closest('.entries .entry');
-   const baseRatio=node.closest('.jk-season-tools,.jk-season-note')?1:node.closest('.jk-all-panel strong')?1.05:subMenu?1.365:topMenu?1.183:gallerySidebar||enlargedList||(listPage&&node.closest('#cards>.card,#island-cards>.ux-island-card,#alps-records>.record,#list>.card,#overseas-list>.trek-card,.filters button,.toolbar .btn,.ux-context-links a')?.closest('main,.ux-context-links')?.nodeType)? .91:.7;
+   const baseRatio=node.closest('.jk-season-tools,.jk-season-note')?1:node.closest('.jk-all-panel strong')?1.05:subMenu?1.365:topMenu?1.183:gallerySidebar||enlargedList||(listPage&&node.closest('#cards>.card,#island-cards>.ux-island-card,#alps-records>.record,#list>.card,#list>.other-record-item,#overseas-list>.trek-card,.filters button,.toolbar .btn,.ux-context-links a')?.closest('main,.ux-context-links')?.nodeType)? .91:.7;
    const tenPercent=gallerySidebar||node.closest('.ux-context-links>a,.quick-nav>a,.record-return-links>.btn,.actions>.btn,.go-home-bottom>.btn');
    const recordList=location.pathname.endsWith('/records-to-complete.html')&&node.closest('.table-wrap table');
    const closeReturn=node.closest('.jk-bottom-close>button,.jk-bottom-close>a,.jk-gps-large-footer>.jk-gps-large-close,.lightbox .lb-back');
