@@ -83,7 +83,7 @@ document.addEventListener('click',e=>{if(!menu.contains(e.target))close();});doc
 (()=>{const s=document.createElement("script");s.src="https://keunjkim.github.io/100-Mountains-Isliands/gps-map-actions.js?v=20261115-color2";document.head.append(s);})();
 
 /* 모든 화면의 표시·버튼 크기 통일 */
-(()=>{const s=document.createElement("script");s.src="https://keunjkim.github.io/100-Mountains-Isliands/compact-ui.js?v=20261120-detailgrid1";document.head.append(s);})();
+(()=>{const s=document.createElement("script");s.src="https://keunjkim.github.io/100-Mountains-Isliands/compact-ui.js?v=20261120-mapcourse1";document.head.append(s);})();
 
 /* 선택한 산행에서 해당 사진 앨범으로 연결 */
 (()=>{const s=document.createElement("script");s.src="https://keunjkim.github.io/100-Mountains-Isliands/gallery-context.js?v=20261120-islands1";document.head.append(s);})();
@@ -95,7 +95,10 @@ document.addEventListener('click',e=>{if(!menu.contains(e.target))close();});doc
 (()=>{const s=document.createElement('script');s.src='https://keunjkim.github.io/100-Mountains-Isliands/keyboard-navigation.js?v=20261120-keys2';document.head.append(s);})();
 
 /* 산·섬의 대표 사진과 간략 소개 */
-(()=>{const s=document.createElement('script');s.src='https://keunjkim.github.io/100-Mountains-Isliands/destination-cards.js?v=20261120-guide1';document.head.append(s);})();
+(()=>{const s=document.createElement('script');s.src='https://keunjkim.github.io/100-Mountains-Isliands/destination-cards.js?v=20261120-mapcourse1';document.head.append(s);})();
 
 /* 모든 산행 상세 정보의 3열 배열 */
 (()=>{const s=document.createElement('script');s.src='https://keunjkim.github.io/100-Mountains-Isliands/record-summary-layout.js?v=20261120-detailgrid1';document.head.append(s);})();
+
+/* 지도 코스 연결·영남알프스 상세 닫기 */
+(()=>{const s=document.createElement('script');s.src='https://keunjkim.github.io/100-Mountains-Isliands/map-record-controls.js?v=20261120-mapcourse1';document.head.append(s);})();

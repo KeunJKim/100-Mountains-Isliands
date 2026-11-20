@@ -89,9 +89,11 @@
    const detailAction=node.closest('dialog#details #close,#detail.detail #close,dialog#details .ux-actions>a.ux-edit-btn,#detail.detail .ux-actions>a.ux-edit-btn,dialog#details a.jk-gallery-action,#detail.detail a.jk-gallery-action');
    const ratio=(detailAction?baseRatio*1.3:baseRatio)*(tenPercent?1.1:1)*(recordList?1.2:1)*(closeReturn?1.2:1)*(photoClose?1.3:1);
    // Detailed records need a readable baseline independent of the compact navigation scale.
-   const detailText=node.closest('dialog#details,#detail.detail,#map-hike-editor,.jk-summary-section')&&!node.closest('.leaflet-container,.hike-map,.tranggle-gps-map,svg');
+   const detailText=node.closest('dialog#details,#detail.detail,#map-hike-editor,.jk-summary-section,.jk-record-top-close')&&!node.closest('.leaflet-container,.hike-map,.tranggle-gps-map,svg');
    const detailSize=node.matches('#dialogTitle,#detail-title,h1,h2')?20:node.matches('h3')?17:node.matches('h4')?15:node.matches('small,.ux-help')?13:14;
-   const textSize=detailText?detailSize:size*ratio,textLine=detailText?detailSize*1.6:line*ratio;
+   const mapReading=node.closest('body.jk-map-compact .panelhead,body.jk-map-compact .mapinfo,body.jk-map-compact .bac-map-link,body.jk-map-compact .map-location-warning,body.jk-map-compact .jk-map-bottom-row .jk-bottom-close');
+   const mapSize=node.matches('h2,#selected')?18:node.matches('.panelhead strong')?15:node.closest('.map-location-warning')?12:node.closest('.bac-map-link,.panelhead p')?13:14;
+   const textSize=detailText?detailSize:mapReading?mapSize:size*ratio,textLine=detailText?detailSize*1.6:mapReading?mapSize*1.5:line*ratio;
    const applied={'font-size':textSize.toFixed(3)+'px','line-height':textLine?textLine.toFixed(3)+'px':node.style.getPropertyValue('line-height')};
    node.style.setProperty('font-size',applied['font-size'],'important');
    if(line||detailText)node.style.setProperty('line-height',applied['line-height'],'important');

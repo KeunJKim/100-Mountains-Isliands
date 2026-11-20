@@ -37,6 +37,7 @@
   if(!guides)return;
   for(const card of root.querySelectorAll(map?':scope>.entry':mountain?':scope>.card':':scope>.ux-island-card')){
    const id=guideId(card),g=guides.items[id];if(!g)continue;card.dataset.guideId=id;count(card,id);
+   if(map&&page!=='yeongnam-alps-map.html'){card.querySelector('.jk-guide-body')?.remove();continue;}
    if(card.querySelector('.jk-guide-body'))continue;
    const body=make('span',null,'jk-guide-body');body.append(make('span',g.summary,'jk-guide-intro'));
    if(!map){if(g.cover){const img=make('img',null,'jk-guide-cover jk-photo-protected');img.src=new URL(g.cover.src,base).href;img.alt=g.cover.alt;img.title=g.name+' · '+(g.cover.date||'촬영일 미등록');img.loading='lazy';img.decoding='async';img.width=76;img.height=64;img.draggable=false;img.addEventListener('error',()=>img.replaceWith(make('span','사진 준비 중','jk-guide-missing')),{once:true});body.append(img);}else body.append(make('span','사진 준비 중','jk-guide-missing'));}
