@@ -89,4 +89,4 @@ document.addEventListener('click',e=>{if(!menu.contains(e.target))close();});doc
 (()=>{const s=document.createElement("script");s.src="https://keunjkim.github.io/100-Mountains-Isliands/gallery-context.js?v=20261115-place2";document.head.append(s);})();
 
 /* 목록 정리·위치 유지·사진 저장 억제 */
-(()=>{const s=document.createElement("script");s.src="https://keunjkim.github.io/100-Mountains-Isliands/list-refinements.js?v=20261120-lists1";document.head.append(s);})();
+(()=>{const s=document.createElement("script");s.src="https://keunjkim.github.io/100-Mountains-Isliands/list-refinements.js?v=20261120-lists2";document.head.append(s);})();
