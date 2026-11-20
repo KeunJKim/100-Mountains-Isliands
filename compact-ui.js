@@ -11,6 +11,11 @@
  html body.jk-hiking-home .hero-copy .buttons{display:grid!important;grid-template-columns:repeat(6,minmax(0,1fr))!important;gap:3px!important;margin-top:7px!important}
  html body.jk-representative-home .hero-copy .buttons{display:flex!important;flex-wrap:wrap!important;gap:5px!important;margin-top:7px!important}
  html body .hero-copy .buttons .button{white-space:normal!important;min-width:0!important;line-height:1.35!important}
+ html body .jk-compact-menu .jk-nav-drop{min-width:min(264px,calc(100vw - 24px))!important;max-width:calc(100vw - 24px)!important;padding:18px!important;gap:6px!important;max-height:70dvh;overflow:auto}
+ html body .jk-compact-menu .jk-all-panel{gap:16px!important;padding:22px!important}
+ html body .side .alb-btn{gap:12px;min-width:0;box-sizing:border-box}
+ html body .side .alb-name{min-width:0;white-space:normal!important;overflow:visible!important;text-overflow:clip!important}
+ html body .side .alb-title{white-space:normal!important;overflow-wrap:anywhere}
  html body .jk-home-card-stage>.grid{grid-template-columns:repeat(6,minmax(0,1fr))!important;gap:7px!important}
  html body .jk-home-card-stage .card{min-width:0!important;overflow-wrap:anywhere}
  html body .jk-home-card-stage .card .number{font-size:16px!important;line-height:1.1!important}
@@ -30,9 +35,10 @@
   if(node.querySelector('img')&&!node.matches('.jk-home-card-stage .card'))return;
   if(node.matches('.jk-hiking-home .hero-copy .buttons .button')){for(const [key,value]of Object.entries({'font-size':'10px','line-height':'12px','padding':'1px 0','min-height':'28px'}))node.style.setProperty(key,value,'important');done.add(node);return;}
   const font=px(c.fontSize),line=px(c.lineHeight),min=px(c.minHeight);
-  const menu=node.matches('.jk-compact-menu>a,.jk-compact-menu>details>summary,.jk-nav-drop>a,.jk-all-panel a');
-  for(const side of ['Top','Right','Bottom','Left'])node.style.setProperty('padding-'+side.toLowerCase(),(px(c['padding'+side])*(menu?1.04:.8)).toFixed(2)+'px','important');
-  node.style.setProperty('min-height',(Math.max(24,min*.8)*(menu?1.3:1)).toFixed(2)+'px','important');
+  const topMenu=node.matches('.jk-compact-menu>a,.jk-compact-menu>details>summary'),subMenu=node.matches('.jk-nav-drop>a,.jk-all-panel a'),album=node.matches('.side .alb-btn');
+  const growth=topMenu?1.69:subMenu?1.95:album?1.3:1;
+  for(const side of ['Top','Right','Bottom','Left'])node.style.setProperty('padding-'+side.toLowerCase(),(px(c['padding'+side])*.8*growth).toFixed(2)+'px','important');
+  node.style.setProperty('min-height',(Math.max(24,min*.8)*growth).toFixed(2)+'px','important');
   node.style.setProperty('font-size',Math.max(11,font*.9).toFixed(2)+'px','important');
   if(line)node.style.setProperty('line-height',Math.max(14,line*.9).toFixed(2)+'px','important');
   if(c.height!=='auto'&&node.matches('.leaflet-control a,button#close,button.close'))node.style.setProperty('height',Math.max(24,px(c.height)*.8)+'px','important');
@@ -64,8 +70,9 @@
   // Measure the entire text tree before changing parents, so nested text scales once.
   for(const [node,size,line]of measurements){
    const original={};for(const prop of ['font-size','line-height'])original[prop]=[node.style.getPropertyValue(prop),node.style.getPropertyPriority(prop)];
-   const enlargedMenu=node.closest('.jk-compact-menu>a,.jk-compact-menu>details>summary,.jk-nav-drop>a,.jk-all-panel a,.entries .entry');
-   const ratio=node.closest('.jk-season-tools,.jk-season-note')?1:enlargedMenu||(listPage&&node.closest('#cards>.card,#island-cards>.ux-island-card,#alps-records>.record,#list>.card,#overseas-list>.trek-card,.filters button,.toolbar .btn,.ux-context-links a')?.closest('main,.ux-context-links')?.nodeType)? .91:.7;
+   const topMenu=node.closest('.jk-compact-menu>a,.jk-compact-menu>details>summary'),subMenu=node.closest('.jk-nav-drop>a,.jk-all-panel a'),gallerySidebar=location.pathname.endsWith('/gallery.html')&&node.closest('.side');
+   const enlargedList=node.closest('.entries .entry');
+   const ratio=node.closest('.jk-season-tools,.jk-season-note')?1:node.closest('.jk-all-panel strong')?1.05:subMenu?1.365:topMenu?1.183:gallerySidebar||enlargedList||(listPage&&node.closest('#cards>.card,#island-cards>.ux-island-card,#alps-records>.record,#list>.card,#overseas-list>.trek-card,.filters button,.toolbar .btn,.ux-context-links a')?.closest('main,.ux-context-links')?.nodeType)? .91:.7;
    const applied={'font-size':(size*ratio).toFixed(3)+'px','line-height':line?(line*ratio).toFixed(3)+'px':node.style.getPropertyValue('line-height')};
    node.style.setProperty('font-size',applied['font-size'],'important');
    if(line)node.style.setProperty('line-height',applied['line-height'],'important');
@@ -144,6 +151,12 @@
   document.querySelectorAll(controls).forEach(compact);
   scaleTypography();
   compactLayout();
+  // Keep enlarged flyouts inside the viewport when their parent wraps to a new row.
+  for(const drop of document.querySelectorAll('.jk-nav-group[open]>.jk-nav-drop,.jk-all-menu[open]>.jk-all-panel')){
+   drop.style.setProperty('translate','0px 0px');const r=drop.getBoundingClientRect();
+   const shift=Math.max(12-r.left,Math.min(0,innerWidth-12-r.right));
+   drop.style.setProperty('translate',shift.toFixed(2)+'px 0px');
+  }
  }
  let queued=false;const schedule=()=>{if(queued)return;queued=true;requestAnimationFrame(()=>{queued=false;scan();});};
  new MutationObserver(schedule).observe(document.body,{childList:true,subtree:true});
