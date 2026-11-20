@@ -7,11 +7,18 @@
   'overseas-trekking.html':'#overseas-list>.trek-card'
  },selector=selectors[page];if(!selector)return;
  const style=document.createElement('style');style.textContent=`
- html body .jk-list-course-row{display:flex!important;align-items:center;flex-wrap:wrap;gap:6px 8px;min-width:0;width:100%;box-sizing:border-box;margin:8px 0 0!important;text-align:left}
+ html body .jk-list-course-row{display:flex!important;align-items:center;flex-wrap:wrap;gap:5px 7px;min-width:0;width:100%;box-sizing:border-box;margin:6px 0 0!important;text-align:left}
  html body .jk-list-course-row .jk-season-tags{display:contents!important;margin:0!important}
- html body .jk-list-course-action{display:inline-flex!important;align-items:center;justify-content:center;flex:0 0 auto;box-sizing:border-box;min-height:34px;padding:5px 11px;border:1px solid #8c784d;border-radius:8px;background:#f4e8cc;color:#254b39;font-size:15px!important;line-height:1.5!important;font-weight:700;white-space:nowrap;text-decoration:none;cursor:pointer}
+ html body .jk-list-course-action{display:inline-flex!important;align-items:center;justify-content:center;flex:0 0 auto;box-sizing:border-box;min-height:28px;padding:4px 9px;border:1px solid #8c784d;border-radius:8px;background:#f4e8cc;color:#254b39;font-size:12px!important;line-height:1.5!important;font-weight:700;white-space:nowrap;text-decoration:none;cursor:pointer}
  html body .jk-list-course-action[aria-disabled=true]{color:#746d60;background:#eee9df;border-color:#c5bdac;cursor:default;font-weight:400}
  html body .jk-list-course-action:focus-visible{outline:3px solid #88602d;outline-offset:3px}
+ html body #alps-records .jk-alps-heading{display:flex;align-items:baseline;flex-wrap:wrap;gap:3px 8px;margin:0 0 6px;min-width:0}
+ html body #alps-records .jk-alps-heading h3{display:inline;margin:0!important;flex:0 1 auto;line-height:1.45!important}
+ html body #alps-records .jk-alps-heading :is(small,p){display:inline;margin:0!important;line-height:1.5!important}
+ html body #alps-records .jk-list-extra{margin:5px 0!important;line-height:1.5!important}
+ html body #overseas-list .jk-overseas-heading{display:flex;align-items:baseline;flex-wrap:wrap;gap:3px 8px;margin:0 0 5px;min-width:0}
+ html body #overseas-list .jk-overseas-heading :is(h2,small){display:inline;margin:0!important;line-height:1.5!important}
+ html body .jk-alps-photo-action{font-size:14px!important;line-height:21px!important;padding:7px 12px!important;min-height:36px!important}
  `;document.head.append(style);
  function destination(card){
   let url;
@@ -22,6 +29,8 @@
   u.searchParams.set('section','course');if(page==='yeongnam-alps.html')u.searchParams.set('returnTo','alps');return u.pathname.split('/').pop()+u.search+u.hash;
  }
  function scan(){for(const card of document.querySelectorAll(selector)){
+  if(page==='yeongnam-alps.html'&&!card.querySelector(':scope>.jk-alps-heading')){const title=card.querySelector(':scope>h3'),date=card.querySelector(':scope>small'),region=card.querySelector(':scope>p');if(title&&date){const heading=document.createElement('span');heading.className='jk-alps-heading';card.prepend(heading);heading.append(title,date);if(region&&!region.classList.contains('jk-list-extra'))heading.append(region);}}
+  if(page==='overseas-trekking.html'){const copy=card.querySelector('.trek-copy');if(copy&&!copy.querySelector('.jk-overseas-heading')){const title=copy.querySelector(':scope>h2'),meta=copy.querySelector(':scope>small');if(title&&meta){const heading=document.createElement('span');heading.className='jk-overseas-heading';copy.prepend(heading);heading.append(title,meta);}}}
   let row=card.querySelector(':scope>.jk-list-course-row');if(!row){row=document.createElement('span');row.className='jk-list-course-row';card.append(row);}
   let action=row.querySelector('.jk-list-course-action');if(!action){action=document.createElement('span');action.className='jk-list-course-action';action.setAttribute('role','link');action.tabIndex=0;row.prepend(action);}
   const href=destination(card),text=href?'산행 실제코스 →':'산행 실제코스 · 미등록';

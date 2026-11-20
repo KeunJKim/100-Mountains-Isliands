@@ -32,7 +32,7 @@
  const done=new WeakSet(),texts=new WeakSet();
  const px=s=>Number.parseFloat(s)||0;
  function compact(node){
-  if(done.has(node)||node.matches('.jk-profile-trigger')||!node.getClientRects().length)return;
+  if(done.has(node)||node.matches('.jk-profile-trigger,.jk-alps-photo-action')||!node.getClientRects().length)return;
   const c=getComputedStyle(node);if(c.display==='none')return;
   // Photograph thumbnails retain their image size; only their separate action buttons shrink.
   if(node.querySelector('img')&&!node.matches('.jk-home-card-stage .card'))return;
@@ -94,7 +94,8 @@
    const mapReading=node.closest('body.jk-map-compact .panelhead,body.jk-map-compact .mapinfo,body.jk-map-compact .bac-map-link,body.jk-map-compact .map-location-warning,body.jk-map-compact .jk-map-bottom-row .jk-bottom-close');
    const mapSize=node.matches('h2,#selected')?18:node.matches('.panelhead strong')?15:node.closest('.map-location-warning')?12:node.closest('.bac-map-link,.panelhead p')?13:14;
    const listCourse=node.matches('.jk-list-course-action');
-   const textSize=listCourse?15:detailText?detailSize:mapReading?mapSize:size*ratio,textLine=listCourse?22.5:detailText?detailSize*1.6:mapReading?mapSize*1.5:line*ratio;
+   const alpsPhoto=node.matches('.jk-alps-photo-action');
+   const textSize=listCourse?12:alpsPhoto?14:detailText?detailSize:mapReading?mapSize:size*ratio,textLine=listCourse?18:alpsPhoto?21:detailText?detailSize*1.6:mapReading?mapSize*1.5:line*ratio;
    const applied={'font-size':textSize.toFixed(3)+'px','line-height':textLine?textLine.toFixed(3)+'px':node.style.getPropertyValue('line-height')};
    node.style.setProperty('font-size',applied['font-size'],'important');
    if(line||detailText)node.style.setProperty('line-height',applied['line-height'],'important');
