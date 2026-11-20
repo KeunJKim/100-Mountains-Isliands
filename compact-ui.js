@@ -93,7 +93,8 @@
    const detailSize=node.matches('#dialogTitle,#detail-title,h1,h2')?20:node.matches('h3')?17:node.matches('h4')?15:node.matches('small,.ux-help')?13:14;
    const mapReading=node.closest('body.jk-map-compact .panelhead,body.jk-map-compact .mapinfo,body.jk-map-compact .bac-map-link,body.jk-map-compact .map-location-warning,body.jk-map-compact .jk-map-bottom-row .jk-bottom-close');
    const mapSize=node.matches('h2,#selected')?18:node.matches('.panelhead strong')?15:node.closest('.map-location-warning')?12:node.closest('.bac-map-link,.panelhead p')?13:14;
-   const textSize=detailText?detailSize:mapReading?mapSize:size*ratio,textLine=detailText?detailSize*1.6:mapReading?mapSize*1.5:line*ratio;
+   const listCourse=node.matches('.jk-list-course-action');
+   const textSize=listCourse?15:detailText?detailSize:mapReading?mapSize:size*ratio,textLine=listCourse?22.5:detailText?detailSize*1.6:mapReading?mapSize*1.5:line*ratio;
    const applied={'font-size':textSize.toFixed(3)+'px','line-height':textLine?textLine.toFixed(3)+'px':node.style.getPropertyValue('line-height')};
    node.style.setProperty('font-size',applied['font-size'],'important');
    if(line||detailText)node.style.setProperty('line-height',applied['line-height'],'important');
