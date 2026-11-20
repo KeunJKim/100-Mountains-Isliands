@@ -1224,13 +1224,24 @@
     },
     "m-51": {
       "name": "삼악산",
-      "summary": "의암호와 산세가 어우러지는 춘천의 풍경을 만나는 산입니다.",
-      "photoThemes": [],
+      "summary": "호수와 산을 잇는 케이블카와 전망길에서 춘천의 풍경을 만납니다.",
+      "photoThemes": [
+        "케이블카",
+        "전망길",
+        "호수 조망"
+      ],
       "highlights": [],
-      "photoCount": 0,
-      "cover": null,
-      "reviewedPhotoIds": [],
-      "basis": "official-tourism",
+      "photoCount": 4,
+      "cover": {
+        "src": "photos/supplement-20261120-f6f01488b6af125171148f52.webp",
+        "date": "2023-03-04",
+        "alt": "삼악산 산행 대표 사진",
+        "photoId": "supplement-f6f01488b6af125171148f52"
+      },
+      "reviewedPhotoIds": [
+        "supplement-f6f01488b6af125171148f52"
+      ],
+      "basis": "uploaded-photo-review",
       "sources": [
         "samak"
       ]
@@ -1866,8 +1877,12 @@
     },
     "m-79": {
       "name": "천관산",
-      "summary": "기암 능선과 가을 억새가 어우러지는 장흥의 산입니다.",
-      "photoThemes": [],
+      "summary": "기암 능선과 정상석, 산사와 봄꽃이 어우러진 천관산의 모습을 담았습니다.",
+      "photoThemes": [
+        "기암 능선",
+        "정상석",
+        "봄꽃"
+      ],
       "highlights": [
         {
           "season": "가을",
@@ -1875,10 +1890,17 @@
           "source": "silver"
         }
       ],
-      "photoCount": 0,
-      "cover": null,
-      "reviewedPhotoIds": [],
-      "basis": "official-tourism",
+      "photoCount": 8,
+      "cover": {
+        "src": "photos/supplement-20261120-b822bb29e86dd26d774e5181.webp",
+        "date": "2021-04-11",
+        "alt": "천관산 산행 대표 사진",
+        "photoId": "supplement-b822bb29e86dd26d774e5181"
+      },
+      "reviewedPhotoIds": [
+        "supplement-b822bb29e86dd26d774e5181"
+      ],
+      "basis": "uploaded-photo-review",
       "sources": [
         "silver"
       ]
@@ -2321,7 +2343,7 @@
           "source": "hwangmae"
         }
       ],
-      "photoCount": 49,
+      "photoCount": 59,
       "cover": {
         "src": "photos/update-20261120-bae7a4f74ca25506ef674ce9.webp",
         "date": "2025-05-11",

@@ -30,5 +30,5 @@
   const facts=[Number.isFinite(g.distanceKm)?'거리 '+g.distanceKm+'km':'',g.duration?'소요 '+g.duration:'',g.photoCount?'사진 '+g.photoCount+'장':''].filter(Boolean);if(facts.length)a.append(make('small',facts.join(' · '),'jk-other-facts'));if(tags)a.append(tags);
  }}
  let queued=false;const schedule=()=>{if(queued)return;queued=true;requestAnimationFrame(()=>{queued=false;apply();});};new MutationObserver(schedule).observe(list,{subtree:true,childList:true});
- fetch(new URL('other-list-guides.json?v=20261120-other1',base)).then(r=>{if(!r.ok)throw Error('명산외 소개 연결 실패');return r.json();}).then(g=>{data=g;window.JKDestinationGuides=g;apply();window.dispatchEvent(new CustomEvent('jk-destination-guides-ready',{detail:g}));}).catch(e=>console.warn(e.message));
+ fetch(new URL('other-list-guides.json?v=20261120-supplement1',base)).then(r=>{if(!r.ok)throw Error('명산외 소개 연결 실패');return r.json();}).then(g=>{data=g;window.JKDestinationGuides=g;apply();window.dispatchEvent(new CustomEvent('jk-destination-guides-ready',{detail:g}));}).catch(e=>console.warn(e.message));
 })();

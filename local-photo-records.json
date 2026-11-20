@@ -3096,13 +3096,15 @@
     "date": "2023-03-26",
     "category": "other",
     "mountainNo": null,
-    "count": 5,
+    "count": 7,
     "photos": [
       "update-0048477d27ae40ca9d82c0c8",
       "update-76a48d37c9bf109e0d13efa8",
       "update-d4cfd1562b765ca7bb00893d",
       "update-22fa1471bba4a24a23449d24",
-      "update-cd3876b69a130a6e34ee9367"
+      "update-cd3876b69a130a6e34ee9367",
+      "supplement-099bc2d1574034d7454291df",
+      "supplement-d8c2b548d9c928fdb4ab107b"
     ],
     "url": "gallery.html?group=other&album=o-photo-d2c82e691e20",
     "hasGps": false
@@ -5469,7 +5471,7 @@
     "date": "2023-03-27",
     "category": "other",
     "mountainNo": null,
-    "count": 9,
+    "count": 11,
     "photos": [
       "update-2157a1b1638d621f926490f8",
       "update-6060714503c1700fb205d479",
@@ -5479,7 +5481,9 @@
       "update-376332044f1e32eb31bf1514",
       "update-30c3849e17e84dcf9ff32a27",
       "update-49ab4bd2a0f7e307773a8ee7",
-      "update-d58c5333f9f0ad73b598659c"
+      "update-d58c5333f9f0ad73b598659c",
+      "supplement-b02c6ae97c552c2d2f6d6f50",
+      "supplement-5537858bfb18bfb71e1d2dae"
     ],
     "url": "gallery.html?group=other&album=o-photo-d2c82e691e20",
     "hasGps": false
@@ -9012,6 +9016,70 @@
       "island-update-02abc4b24e214134ffd87574"
     ],
     "url": "gallery.html?group=island&album=i-41",
+    "hasGps": false
+  },
+  {
+    "id": "photo-m-79-20210411",
+    "albumId": "m-79",
+    "place": "천관산",
+    "originalPlace": "천관산",
+    "date": "2021-04-11",
+    "category": "mountain",
+    "mountainNo": 79,
+    "count": 8,
+    "photos": [
+      "supplement-b822bb29e86dd26d774e5181",
+      "supplement-e88b2c2274c8e1868a671f70",
+      "supplement-08354a02dc76eee865c41a8e",
+      "supplement-f5541af00f11560941e35531",
+      "supplement-2bda170c9911c3d616563821",
+      "supplement-40527a28527b65d412e92a02",
+      "supplement-94846824fb09cede39297b31",
+      "supplement-81f3d29e6294c8abf4c82ec1"
+    ],
+    "url": "gallery.html?group=mountain&album=m-79",
+    "hasGps": false
+  },
+  {
+    "id": "photo-m-51-20230304",
+    "albumId": "m-51",
+    "place": "삼악산",
+    "originalPlace": "삼악산",
+    "date": "2023-03-04",
+    "category": "mountain",
+    "mountainNo": 51,
+    "count": 4,
+    "photos": [
+      "supplement-7a24e9d8f657098445eedbe8",
+      "supplement-f6f01488b6af125171148f52",
+      "supplement-b5baf09b36e63b48a54438b8",
+      "supplement-1519e8f6124ece3194179afe"
+    ],
+    "url": "gallery.html?group=mountain&album=m-51",
+    "hasGps": false
+  },
+  {
+    "id": "photo-m-98-20230429",
+    "albumId": "m-98",
+    "place": "황매산(산청)",
+    "originalPlace": "황매산(산청)",
+    "date": "2023-04-29",
+    "category": "mountain",
+    "mountainNo": 98,
+    "count": 10,
+    "photos": [
+      "supplement-4d2d4655ec4882b9da95e81a",
+      "supplement-595bbf37b98b225940e3d4fa",
+      "supplement-fb3be725e9204ea051eda68b",
+      "supplement-ff4fd28e70aa7aff562ef97f",
+      "supplement-3cea5ede0be24d19a304161e",
+      "supplement-96d918fc1b05dca1f0707edf",
+      "supplement-370cf1ca3a30b661d7728274",
+      "supplement-ef7d7c1444f5a8911dde6028",
+      "supplement-d61167bce8f0b5b46e3a84cb",
+      "supplement-62165365571c90bcde190875"
+    ],
+    "url": "gallery.html?group=mountain&album=m-98",
     "hasGps": false
   }
 ]
