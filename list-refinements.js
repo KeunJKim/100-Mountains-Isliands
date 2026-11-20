@@ -28,6 +28,8 @@
  .jk-protected-viewer img{width:100%;height:100%;object-fit:contain;min-height:0}
  .jk-protected-viewer .jk-photo-credit{position:absolute;right:12px;bottom:10px;padding:3px 6px;background:#0008;color:white;font:12px/1.4 sans-serif;pointer-events:none}
  .jk-protected-viewer button{align-self:flex-end}
+ .lb-image-stage::after,.jk-protected-viewer .jk-photo-credit{right:var(--jk-photo-right,8px);bottom:var(--jk-photo-bottom,8px)}
+ @media(min-width:1000px) and (max-width:1599px){html body.jk-map-compact .jk-header-grid .jk-compact-menu{grid-column:1/-1!important;grid-row:3!important;justify-content:flex-start!important}}
  @media(max-width:760px){html body.jk-readable-lists :is(#cards,#island-cards,#alps-records,#list.grid,#overseas-list){grid-template-columns:repeat(2,minmax(0,1fr))!important;gap:9px!important}}
  @media(max-width:480px){html body.jk-readable-lists :is(#cards,#island-cards,#alps-records,#list.grid,#overseas-list){grid-template-columns:1fr!important}}
  `;document.head.append(style);
@@ -69,12 +71,15 @@
   event.preventDefault();event.stopImmediatePropagation();const dialog=document.createElement('dialog');dialog.className='jk-protected-viewer';dialog.setAttribute('aria-label','산행 사진 전체 보기');const close=document.createElement('button');close.textContent='사진 닫기 ×';close.type='button';const stage=document.createElement('div');stage.className='jk-photo-stage';const img=document.createElement('img');img.src=url.href;img.alt=link.querySelector('img').alt;img.className='jk-photo-protected';img.draggable=false;const credit=document.createElement('span');credit.className='jk-photo-credit';credit.textContent='© 김종근 · JK 의 산하정복';stage.append(img,credit);dialog.append(close,stage);document.body.append(dialog);close.onclick=()=>dialog.close();dialog.addEventListener('close',()=>{dialog.remove();link.focus({preventScroll:true});},{once:true});dialog.showModal();
  },true);
  let queued=false;
+ function positionCredits(){for(const stage of document.querySelectorAll('.lb-image-stage,.jk-protected-viewer .jk-photo-stage')){const img=stage.querySelector('img');if(!img?.naturalWidth||!stage.clientWidth||!stage.clientHeight)continue;const fit=Math.min(stage.clientWidth/img.naturalWidth,stage.clientHeight/img.naturalHeight);stage.style.setProperty('--jk-photo-right',Math.max(4,(stage.clientWidth-img.naturalWidth*fit)/2+8)+'px');stage.style.setProperty('--jk-photo-bottom',Math.max(4,(stage.clientHeight-img.naturalHeight*fit)/2+8)+'px');}}
+ document.addEventListener('load',event=>{if(event.target instanceof HTMLImageElement)positionCredits();},true);window.addEventListener('resize',positionCredits);const imageStage=document.querySelector('.lb-image-stage');if(imageStage)new ResizeObserver(positionCredits).observe(imageStage);
  function scan(){
   const walker=document.createTreeWalker(document.body,NodeFilter.SHOW_TEXT);let text;
   while((text=walker.nextNode()))if(text.nodeValue.includes('바닷길')&&!text.parentElement?.closest('script,style,textarea,input,option,[contenteditable]'))text.nodeValue=text.nodeValue.replaceAll('바닷길','바다길');
   for(const node of document.querySelectorAll('[aria-label],[alt],[title]'))for(const attr of ['aria-label','alt','title']){const value=node.getAttribute(attr);if(value?.includes('바닷길'))node.setAttribute(attr,value.replaceAll('바닷길','바다길'));}
   if(document.title.includes('바닷길'))document.title=document.title.replaceAll('바닷길','바다길');
   for(const img of document.querySelectorAll('main img,#lb-image,.jk-source-grid img,.local-photo-grid img,.hero img')){if(img.closest('.jk-profile-avatar,.leaflet-container'))continue;img.classList.add('jk-photo-protected');img.draggable=false;}
+  positionCredits();
  }
  new MutationObserver(()=>{if(queued)return;queued=true;requestAnimationFrame(()=>{queued=false;scan();});}).observe(document.body,{subtree:true,childList:true});scan();
  // Supplement record cards only with already saved GPS distance/time metadata.
