@@ -32,6 +32,7 @@
  const done=new WeakSet(),texts=new WeakSet();
  const px=s=>Number.parseFloat(s)||0;
  function compact(node){
+  if(node.closest('.jk-owner-dialog')){node.style.setProperty('min-height','40px','important');node.style.setProperty('padding','8px 12px','important');return;}
   if(node.matches('.jk-alps-source-action')){for(const [key,value]of Object.entries({'font-size':'12px','line-height':'18px',padding:'4px 9px','min-height':'28px',height:'auto',margin:'0'}))node.style.setProperty(key,value,'important');return;}
   if(done.has(node)||node.matches('.jk-profile-trigger,.jk-alps-photo-action')||!node.getClientRects().length)return;
   const c=getComputedStyle(node);if(c.display==='none')return;
@@ -96,14 +97,16 @@
    const mapSize=node.matches('h2,#selected')?18:node.matches('.panelhead strong')?15:node.closest('.map-location-warning')?12:node.closest('.bac-map-link,.panelhead p')?13:14;
    const listCourse=node.matches('.jk-list-course-action,.jk-alps-source-action');
    const alpsPhoto=node.matches('.jk-alps-photo-action');
-   const textSize=listCourse?12:alpsPhoto?14:detailText?detailSize:mapReading?mapSize:size*ratio,textLine=listCourse?18:alpsPhoto?21:detailText?detailSize*1.6:mapReading?mapSize*1.5:line*ratio;
+   const ownerSize=node.closest('.jk-owner-dialog')?(node.matches('h2')?20:node.matches('legend')?16:node.matches('input')?15:14):0;
+   const requestedLabelSize=ownerSize||(node.matches('.jk-site-name')?16:node.matches('.jk-site-page')?13:node.matches('.jk-site-description,.jk-site-signature,.jk-site-divider,.stats .stat>span')?12:0);
+   const textSize=requestedLabelSize|| (listCourse?12:alpsPhoto?14:detailText?detailSize:mapReading?mapSize:size*ratio),textLine=requestedLabelSize?requestedLabelSize*1.5:listCourse?18:alpsPhoto?21:detailText?detailSize*1.6:mapReading?mapSize*1.5:line*ratio;
    const applied={'font-size':textSize.toFixed(3)+'px','line-height':textLine?textLine.toFixed(3)+'px':node.style.getPropertyValue('line-height')};
    node.style.setProperty('font-size',applied['font-size'],'important');
    if(line||detailText)node.style.setProperty('line-height',applied['line-height'],'important');
    fontStates.set(node,{original,applied});
   }
   for(const node of document.querySelectorAll(controls+',h1,h2,h3,h4,p')){
-   if(spacingDone.has(node)||!node.getClientRects().length)continue;
+   if(node.closest('.jk-owner-dialog')||spacingDone.has(node)||!node.getClientRects().length)continue;
    const c=getComputedStyle(node);
    if(node.matches(controls)&&!node.querySelector('img')){
     const pads=['top','right','bottom','left'].map(side=>[side,px(c.getPropertyValue('padding-'+side))]);
@@ -126,6 +129,7 @@
  function compactLayout(){
   const measurements=[];
   for(const node of document.querySelectorAll(layouts)){
+   if(node.closest('.jk-owner-dialog'))continue;
    if(layoutDone.has(node)||!node.getClientRects().length||node.closest('.leaflet-container,.jk-gps-large-dialog,.lightbox'))continue;
    const c=getComputedStyle(node),values={};
    // Auto margins center the page; shrink only the vertical whitespace around it.
