@@ -1,0 +1,21 @@
+{
+  "checkedAt": "2026-11-20",
+  "note": "영남알프스 표시용 정상 고도. GPS 최고 고도와 BAC 원본 인증 자료는 변경하지 않습니다.",
+  "sources": {
+    "ulsan": {"title": "울산관광 영남알프스 소개", "url": "https://www.ulsan.go.kr/tour/korean/contents.do?mId=001002003001000000"},
+    "extra": {"title": "능동산·배내봉 소개 자료", "url": "https://www.kosinmed.or.kr/uploaded/board/news/_682a6a80874d47a8d35f597e88a0d58e1.pdf"}
+  },
+  "summits": [
+    {"name":"가지산","elevationM":1241,"source":"ulsan"},
+    {"name":"운문산","elevationM":1188,"source":"ulsan"},
+    {"name":"천황산","elevationM":1189,"source":"ulsan"},
+    {"name":"재약산","elevationM":1108,"source":"ulsan"},
+    {"name":"간월산","elevationM":1069,"source":"ulsan"},
+    {"name":"신불산","elevationM":1159,"source":"ulsan"},
+    {"name":"영축산","elevationM":1081,"source":"ulsan"},
+    {"name":"고헌산","elevationM":1034,"source":"ulsan"},
+    {"name":"문복산","elevationM":1015,"source":"ulsan"},
+    {"name":"능동산","elevationM":983,"source":"extra"},
+    {"name":"배내봉","elevationM":966,"source":"extra"}
+  ]
+}
