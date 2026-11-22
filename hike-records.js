@@ -201,6 +201,6 @@ function show(kind,rec,parent){
  if(head)head.insertAdjacentElement('afterend',box);else parent.append(box);
  ready.then(()=>{if(box.isConnected){renderSummary(box,kind,rec);applyVisibility(parent,kind,rec);}});
 }
-const successStyle=el('style');successStyle.textContent='.ux-record-panel .ux-status.ux-save-success{color:#194728!important;background:#e7f2df!important;border:1px solid #61904d;border-radius:8px;padding:10px 12px;font-weight:700;line-height:1.6;white-space:normal;overflow-wrap:anywhere}';document.head.append(successStyle);
+const successStyle=el('style');successStyle.textContent='.ux-record-panel .ux-status.ux-save-success{color:#064fbc!important;background:#eaf2ff!important;border:1px solid #4878bd;border-radius:8px;padding:10px 12px;font-weight:700;line-height:1.6;white-space:normal;overflow-wrap:anywhere}';document.head.append(successStyle);
 window.HikeRecords={show};
 })();
