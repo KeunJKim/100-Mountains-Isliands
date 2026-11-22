@@ -1,20 +1,28 @@
-/* 공통 상세 산행 정보: 한 줄에 3항목, 좁은 화면에서는 2열·1열. */
+/* 공통 상세 산행 정보: 기본 정보 2행·3열, 코스는 다음 행 전체 폭. */
 (() => {
  'use strict';if(document.getElementById('jk-record-summary-style'))return;
  const style=document.createElement('style');style.id='jk-record-summary-style';style.textContent=`
  html body .ux-record-panel dl.ux-info.jk-detail-info-grid,html body dl.jk-detail-info-grid{display:grid!important;grid-template-columns:repeat(3,minmax(0,1fr))!important;gap:8px!important;margin:12px 0!important;padding:0!important}
- html body dl.jk-detail-info-grid>.jk-detail-info-cell{display:grid!important;grid-template-columns:94px minmax(0,1fr)!important;align-content:start;align-items:baseline;gap:4px 8px!important;min-width:0;min-height:0!important;height:auto!important;padding:9px 10px!important;border:1px solid #dfd2be;border-radius:6px;background:#fbf7ee}
+ html body dl.jk-detail-info-grid>.jk-detail-info-cell{display:grid!important;grid-template-columns:max-content minmax(0,1fr)!important;align-content:start;align-items:baseline;gap:4px 12px!important;min-width:0;min-height:0!important;height:auto!important;padding:9px 10px!important;border:1px solid #dfd2be;border-radius:6px;background:#fbf7ee}
+ html body dl.jk-detail-info-grid>.jk-detail-info-cell[data-summary-field="course"]{grid-column:1/-1!important}
+ html body .hike-stats>div,html body #stats>div{display:flex!important;align-items:baseline;justify-content:space-between;gap:6px 12px!important;min-width:0}
+ html body .hike-stats>div>:is(span,strong),html body #stats>div>:is(span,strong){display:inline!important;margin:0!important;white-space:nowrap}
  html body dl.jk-detail-info-grid>.jk-detail-info-cell>dt,html body dl.jk-detail-info-grid>.jk-detail-info-cell>dd{min-width:0;max-width:100%;height:auto!important;margin:0!important;white-space:pre-wrap!important;overflow-wrap:anywhere;line-height:1.6!important}
  html body dl.jk-detail-info-grid>.jk-detail-info-cell>dt{color:#746b5d!important;font-weight:400}
  html body dl.jk-detail-info-grid>.jk-detail-info-cell>dd{color:#403a32!important}
  html body .jk-summary-section{margin-top:12px!important;margin-bottom:12px!important;padding:12px!important;min-width:0;border:1px solid #dfd2be;border-radius:10px;background:#fffdf8;color:#30432e}
  html body .jk-summary-section>h3{margin:0 0 8px!important}
- @media(max-width:900px){html body .ux-record-panel dl.ux-info.jk-detail-info-grid,html body dl.jk-detail-info-grid{grid-template-columns:repeat(2,minmax(0,1fr))!important}}
+ @media(min-width:901px){html body dl.jk-detail-info-grid>.jk-detail-info-cell[data-summary-slot]{grid-column:var(--summary-column)!important;grid-row:var(--summary-row)!important}html body dl.jk-detail-info-grid>.jk-detail-info-cell[data-summary-field="course"]{grid-row:3!important}}
+ @media(max-width:900px){html body .ux-record-panel dl.ux-info.jk-detail-info-grid,html body dl.jk-detail-info-grid{grid-template-columns:repeat(2,minmax(0,1fr))!important}html body .hike-stats>div,html body #stats>div{flex-wrap:wrap}html body .hike-stats>div>:is(span,strong),html body #stats>div>:is(span,strong){white-space:normal}}
  @media(max-width:580px){html body .ux-record-panel dl.ux-info.jk-detail-info-grid,html body dl.jk-detail-info-grid{grid-template-columns:minmax(0,1fr)!important}}
  `;document.head.append(style);
  function pairGrid(dl){
   if(dl.classList.contains('jk-detail-info-grid'))return;
   for(const node of [...dl.children]){if(node.tagName!=='DT')continue;const value=node.nextElementSibling;if(value?.tagName!=='DD')continue;const cell=document.createElement('div');cell.className='jk-detail-info-cell';node.before(cell);cell.append(node,value);}
+  const order=['산행일','정상 고도','산행거리','산행시간','들머리','주차·교통','산행 코스'];
+  const key=label=>label==='최고 GPS 고도'?'정상 고도':label.replace(/\s*\(앱\)$/,'');
+  const cells=[...dl.children];cells.sort((a,b)=>{const ai=order.indexOf(key(a.querySelector('dt')?.textContent||'')),bi=order.indexOf(key(b.querySelector('dt')?.textContent||''));return(ai<0?99:ai)-(bi<0?99:bi);});
+  let extra=0;for(const cell of cells){const i=order.indexOf(key(cell.querySelector('dt')?.textContent||''));if(i===6)cell.dataset.summaryField='course';else{const slot=i>=0?i:9+extra++;cell.dataset.summarySlot=String(slot);cell.style.setProperty('--summary-column',String(slot%3+1));cell.style.setProperty('--summary-row',String(Math.floor(slot/3)+1));}dl.append(cell);}
   dl.classList.add('jk-detail-info-grid');
  }
  function gpxSummary(){
