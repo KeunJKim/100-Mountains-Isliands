@@ -64,7 +64,8 @@
  for(const s of ['전체 계절','봄','여름','가을','겨울','날짜 미등록']){const o=make('option',s);o.value=s==='전체 계절'?'':s;select.append(o);}label.append(select);
  const searchLabel=make('label','특징'),search=make('input');search.type='search';search.placeholder='예: 철쭉, 진달래, 단풍, 눈, 억새, 바다';search.setAttribute('aria-label','계절·특징 검색');searchLabel.append(search);
  const status=make('output');status.setAttribute('aria-live','polite');tools.append(label,searchLabel,status);
- const note=make('p','방문 계절은 기록 날짜 기준입니다. 볼거리 계절은 별도 안내이며, 개화·적설·행사 일정은 매년 달라집니다.','jk-season-note');
+ const destinationPage=['mountains.html','islands.html','mountains-map.html','islands-map.html','yeongnam-alps-map.html'].includes(page);
+ const note=make('p',destinationPage?'추천 계절은 개인 방문일과 무관합니다. 장소별 관광 안내를 우선하고, 개별 자료가 없는 곳은 봄·가을 걷기를 추천합니다. 개화·적설·운항·통제는 방문 전 확인하세요.':'방문 계절은 기록 날짜 기준입니다. 볼거리 계절은 별도 안내이며, 개화·적설·행사 일정은 매년 달라집니다.','jk-season-note');
  const map=root.id==='entries',table=root.tagName==='TBODY';
  const anchor=map?root.closest('.panel').querySelector('.filters'):table?root.closest('.table-wrap'):root;
  if(map)anchor.after(tools,note);else anchor.before(tools,note);
@@ -80,7 +81,9 @@
   const dates=[...content.matchAll(/(?<!\d)(20\d{2})[-.](\d{2})[-.](\d{2})(?!\d)/g)];
   let seasons=[...new Set(dates.filter(m=>+m[2]>=1&&+m[2]<=12&&+m[3]>=1&&+m[3]<=31).map(m=>{const month=+m[2];return month>=3&&month<=5?'봄':month>=6&&month<=8?'여름':month>=9&&month<=11?'가을':'겨울';}))];
   if(card.dataset.visitSeasons)seasons=card.dataset.visitSeasons.split('·').filter(Boolean);
-  const tags=[{text:seasons.length?'방문 '+seasons.join('·'):'방문 계절 미등록',kind:'visit'}];
+  const recommendation=destinationPage?guide?.recommendedVisit:null;
+  if(recommendation)seasons=recommendation.seasons;
+  const tags=[recommendation?{text:'추천 '+seasons.join('·'),kind:'recommendation',url:window.JKDestinationGuides.sources[recommendation.sourceKeys[0]]?.url,reason:recommendation.basis+' · '+recommendation.reason}:{text:seasons.length?'방문 '+seasons.join('·'):'방문 계절 미등록',kind:'visit'}];
   const matched=guide?.highlights.length?guide.highlights.map(h=>[null,h.season,h.feature,window.JKDestinationGuides.sources[h.source]?.url]):highlights.filter(([re])=>re.test(title));
   if(guide?.photoThemes.length)tags.push({text:'풍경 · '+guide.photoThemes.join('·'),kind:'category'});
   for(const [,season,feature,url]of matched)tags.push({text:(season?season+' · ':'')+feature,kind:'highlight',url});
@@ -91,10 +94,10 @@
   }
   if(tags.length===1)tags.push({text:config[2]==='island'?'섬·바다 풍경':config[2]==='overseas'?'해외 여정':config[2]==='story'?'산행 이야기':config[2]==='record'?'자료 보충':'산행 기록',kind:'category'});
   old?.remove();const box=make('span',null,'jk-season-tags');
-  for(const tag of tags){const chip=make('span',tag.text,'jk-season-tag');chip.dataset.kind=tag.kind;if(tag.url)chip.title='볼거리 참고: '+tag.url;box.append(chip);}
+  for(const tag of tags){const chip=make('span',tag.text,'jk-season-tag');chip.dataset.kind=tag.kind;if(tag.url)chip.title=(tag.reason||'볼거리 참고')+' · '+tag.url;box.append(chip);}
   const destination=table?card.children[2]:card.querySelector('.map-row-copy')||(map?card.querySelector(':scope>span'):null)||card.querySelector(':scope>.card')||card;destination?.append(box);
   // Read stable text again because the destination may be nested inside the card.
-  const info={content,title,seasons,guide,highlights:matched.map(x=>x[1]),text:[title,guide?.summary||'',...tags.map(t=>t.text),content].join(' ').toLocaleLowerCase('ko')};memo.set(card,info);return info;
+  const info={content,title,seasons,guide,highlights:recommendation?[]:matched.map(x=>x[1]),text:[title,guide?.summary||'',...tags.map(t=>t.text),content].join(' ').toLocaleLowerCase('ko')};memo.set(card,info);return info;
  }
  let queued=false;
  function apply(){

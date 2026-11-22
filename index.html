@@ -39,7 +39,7 @@
 .search-wrap.open{display:flex}.search-card{width:min(510px,100%);padding:24px;border-radius:16px;background:white;box-shadow:0 20px 60px #06162560}
 .search-card h2{margin:0 0 13px}.search-card form{display:flex;gap:8px}.search-card input{flex:1;min-width:0;padding:12px;border:1px solid #a7bbcb;border-radius:8px;font-size:16px}
 .search-card button{border:0;border-radius:8px;background:#123d69;color:white;padding:10px 16px;cursor:pointer}.search-card .close{float:right;background:#e9eff3;color:#1e3f5b}
-.sr-only{position:absolute!important;width:1px!important;height:1px!important;padding:0!important;margin:-1px!important;overflow:hidden!important;clip:rect(0,0,0,0)!important;white-space:nowrap!important;border:0!important}
+.search-results{display:grid;gap:4px;max-height:42vh;overflow:auto;margin-top:12px}.search-results a{display:flex;justify-content:space-between;gap:12px;padding:10px;border:1px solid #c7d5df;border-radius:7px}.search-results a:focus,.search-results a:hover{background:#edf5fa;outline:2px solid #4a809f}.search-results small{color:#657783;flex:none}.mobile-links button{border:1px solid #8ec7e7;border-radius:10px;background:#082d58;color:white;padding:12px;font-size:14px}.sr-only{position:absolute!important;width:1px!important;height:1px!important;padding:0!important;margin:-1px!important;overflow:hidden!important;clip:rect(0,0,0,0)!important;white-space:nowrap!important;border:0!important}
 @media(max-width:700px){.page{width:100%;max-width:none;margin:0}.mobile-links{display:grid}.extra{padding:16px}.stage{overflow:hidden}.stage .hotspot{display:none}}
 </style>
 </head>
@@ -47,7 +47,7 @@
 <main class="page">
   <h1 class="sr-only">산길 바다길 — BAC 인증 기반 100산·100섬 여정</h1>
   <section class="stage" aria-label="산길 바다길 홈페이지 첫 화면">
-    <img src="home-visual-lowered-tiles.png" alt="산과 바다가 펼쳐진 산길 바다길 홈페이지. BAC 100대명산 및 100섬 여행기, 산행 여행 정보, 사진 갤러리, 여행 이야기" fetchpriority="high">
+    <img src="home-visual-clean-tiles.png" alt="산과 바다가 펼쳐진 산길 바다길 홈페이지. BAC 100대명산 및 100섬 여행기, 산행 여행 정보, 사진 갤러리, 여행 이야기" fetchpriority="high">
     <a class="hotspot nav-home" href="./" aria-label="홈"></a>
     <a class="hotspot nav-mountains" href="mountains.html" aria-label="100산 산행기"></a>
     <a class="hotspot nav-islands" href="islands.html" aria-label="100섬 여행기"></a>
@@ -55,7 +55,7 @@
     <a class="hotspot nav-gallery" href="gallery.html" aria-label="사진 갤러리"></a>
     <a class="hotspot nav-stories" href="blog.html" aria-label="여행 이야기"></a>
     <a class="hotspot nav-about" href="#additional-links" aria-label="소개"></a>
-    <button class="hotspot nav-search" id="open-search" aria-label="사이트 메뉴 검색"></button>
+    <button class="hotspot nav-search" id="open-search" aria-label="산·섬·산행 기록 검색" aria-controls="search-panel" aria-expanded="false"></button>
     <a class="hotspot tile-mountains" href="mountains.html" aria-label="100산 산행기 바로가기"></a>
     <a class="hotspot tile-islands" href="islands.html" aria-label="100섬 여행기 바로가기"></a>
     <a class="hotspot tile-info" href="other-hikes.html" aria-label="산행·여행 정보 바로가기"></a>
@@ -65,7 +65,7 @@
   <nav class="mobile-links" aria-label="휴대전화용 메뉴">
     <a href="./">산길 바다길 홈</a><a href="mountains.html">⛰ 100산 산행기</a><a href="islands.html">🏝 100섬 여행기</a>
     <a href="other-hikes.html">산행·여행 정보</a><a href="gallery.html">사진 갤러리</a><a href="blog.html">여행 이야기</a>
-  </nav>
+  <button id="mobile-search" type="button" aria-controls="search-panel" aria-expanded="false">산·섬·산행 기록 검색</button></nav>
   <section class="extra" id="additional-links" aria-label="추가 산행 기록 연결">
     <p><strong>산길 바다길</strong> — 직접 걸으며 기록한 산과 섬, 그 길의 이야기</p>
     <div class="extra-links">
@@ -77,25 +77,12 @@
   </section>
 </main>
 <div class="search-wrap" id="search-panel" role="dialog" aria-modal="true" aria-label="사이트 메뉴 찾기">
-  <div class="search-card"><button class="close" id="close-search" aria-label="검색 창 닫기">닫기</button><h2>산행 메뉴 찾기</h2>
-    <form id="search-form"><input id="search-input" type="search" placeholder="명산, 섬, 지도, 사진, 블로그 등" aria-label="검색어"><button type="submit">이동</button></form>
-    <p id="search-feedback" role="status">메뉴 이름을 입력하면 해당 페이지로 이동합니다.</p>
+  <div class="search-card"><button class="close" id="close-search" aria-label="검색 창 닫기">닫기</button><h2>산·섬·산행 기록 찾기</h2>
+    <form id="search-form"><input id="search-input" type="search" placeholder="예: 석모도, 가리산, 섬 지도, 2023-10-08" aria-label="검색어"><button type="submit">이동</button></form>
+    <p id="search-feedback" role="status">산·섬 이름, 지역, 날짜 또는 메뉴를 입력하세요.</p><div id="search-results" class="search-results" aria-label="검색 결과"></div>
   </div>
 </div>
-<script>
-(function(){
- const panel=document.getElementById('search-panel'),input=document.getElementById('search-input');
- document.getElementById('open-search').addEventListener('click',()=>{panel.classList.add('open');input.focus()});
- document.getElementById('close-search').addEventListener('click',()=>panel.classList.remove('open'));
- panel.addEventListener('click',e=>{if(e.target===panel)panel.classList.remove('open')});
- document.addEventListener('keydown',e=>{if(e.key==='Escape')panel.classList.remove('open')});
- document.getElementById('search-form').addEventListener('submit',e=>{
-   e.preventDefault();const q=input.value.replace(/\s/g,'').toLowerCase();
-   const pages=[[/섬|바다|island/, 'islands.html'],[/갤러리|사진|photo/, 'gallery.html'],[/블로그|이야기|blog/, 'blog.html'],[/지도|gpx|map/, 'mountains-map.html'],[/영남|알프스/, 'yeongnam-alps.html'],[/해외|트래킹/, 'overseas-trekking.html'],[/여행|정보|기타|명산외/, 'other-hikes.html'],[/산|명산|mountain|bac/, 'mountains.html']];
-   const target=pages.find(([re])=>re.test(q));if(target)location.href=target[1];else document.getElementById('search-feedback').textContent='해당 메뉴를 찾지 못했습니다. 아래 기록 메뉴에서 선택해 주세요.';
- });
-})();
-</script>
+<script defer src="home-search.js?v=20261122"></script>
 <script defer src="list-refinements.js?v=20261120-homefit1"></script>
 </body>
 </html>

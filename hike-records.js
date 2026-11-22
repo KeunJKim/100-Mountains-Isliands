@@ -5,6 +5,7 @@ const OWNER='KeunJKim', REPO='100-Mountains-Isliands', FILE='hike-details.json';
 const API=`https://api.github.com/repos/${OWNER}/${REPO}/contents/${FILE}`;
 const BLANK=()=>({version:1,mountains:{},islands:{}});
 let publicData=BLANK();
+let linkedGpsData={mountains:{},islands:{}};
 let sessionToken=''; // 보안: 페이지 메모리에만 유지, 로컬 저장·쿠키·서버 기록 금지
 const fields=[
  ['hikeDate','산행일','date','선택한 산·섬을 방문한 날'],
@@ -46,7 +47,15 @@ function baseline(kind,rec){
  };
 }
 const keyOf=rec=>String(rec.no); // 다른 분류는 별도 네임스페이스
-function infoOf(kind,rec){const extra=publicData[groupOf(kind)]?.[keyOf(rec)]||{};const values={...baseline(kind,rec),...(hiddenDates(kind,rec).includes(extra.hikeDate)?{}:extra)};if(hiddenDates(kind,rec).includes(values.hikeDate))values.hikeDate='';return values;}
+function gpsDefaults(kind,rec,date){
+ if(!date||hiddenDates(kind,rec).includes(date))return {};
+ for(const [parent,entry]of activePanels){if(!parent.isConnected||entry.kind!==kind||String(entry.rec.no)!==String(rec.no))continue;
+  const visit=[...parent.querySelectorAll('.visit')].find(v=>visitDate(v)===date&&v.jkGpsRecords?.length);const gps=visit?.jkGpsRecords?.[0];if(!gps)continue;
+  const point=gps.routes?.flat()?.[0];
+  return {distanceKm:gps.distanceKm,duration:gps.elapsed||'',route:gps.course&&!/확인 중|미확인|원본 제목/.test(gps.course)?gps.course:'GPS 이동 경로 참조 · 세부 지명 미확인',start:gps.startName||(point?'GPS 출발점 ('+point[0].toFixed(4)+', '+point[1].toFixed(4)+')':'')};
+ }return linkedGpsData[groupOf(kind)]?.[String(rec.no)]?.[date]||{};
+}
+function infoOf(kind,rec,includeGps=true){const extra=publicData[groupOf(kind)]?.[keyOf(rec)]||{};const values={...baseline(kind,rec),...(hiddenDates(kind,rec).includes(extra.hikeDate)?{}:extra)};if(hiddenDates(kind,rec).includes(values.hikeDate))values.hikeDate='';if(includeGps)for(const [key,value]of Object.entries(gpsDefaults(kind,rec,values.hikeDate)))if((values[key]===''||values[key]==null)&&value!==undefined&&value!==null)values[key]=value;return values;}
 async function loadPublic(){
  try{const resp=await fetch(FILE+'?v='+Date.now(),{cache:'no-store'});
   if(!resp.ok)throw Error('산행 기록 파일을 불러올 수 없습니다.');
@@ -54,7 +63,7 @@ async function loadPublic(){
   publicData=doc;
  }catch(e){console.warn('보충 산행 기록 불러오기:',e.message)}
 }
-const ready=loadPublic();
+const ready=Promise.all([loadPublic(),fetch('gps-summary-defaults.json',{cache:'no-cache'}).then(r=>r.ok?r.json():null).then(data=>{if(data?.mountains&&data?.islands)linkedGpsData=data;}).catch(()=>{})]);
 function addRow(list,label,value){
  if(value===null||value===undefined||value==='')return;
  if(typeof value==='string'&&value.trim()==='')return;
@@ -70,6 +79,7 @@ function readable(n,key){if(n===''||n===null||n===undefined)return '';
 }
 function renderSummary(box,kind,rec){
  const values=infoOf(kind,rec),dl=el('dl',null,'ux-info');
+ box.dataset.summaryFingerprint=JSON.stringify(values);
  dl.dataset.summaryKind=kind;
  const rows=[['hikeDate','산행일'],['route','산행 코스'],['distanceKm','산행거리'],['duration','산행시간'],['summitElevationM','정상 고도'],['elevationGainM','누적 상승 고도'],['start','들머리'],['parking','주차·교통'],['difficulty','난이도'],['weather','날씨·계절'],['notes','산행 메모'],['blogUrl','연결한 산행기']];
  if(kind==='islands'){
@@ -84,6 +94,7 @@ function renderSummary(box,kind,rec){
  const photos=el('a','사진 갤러리에서 사진 보기·관리 →','ux-edit-btn');photos.href='gallery.html?album='+encodeURIComponent((kind==='mountains'?'m-':'i-')+rec.no);photos.style.textDecoration='none';
  const actions=el('div',null,'ux-actions');actions.append(b,photos);
  box.replaceChildren(heading,note,dl.childElementCount?dl:el('p','입력된 상세 산행 정보가 없습니다. 정보를 추가해 주세요.','ux-empty'),actions);renderReference(box,values);renderTrash(box,kind,rec);
+ if(Object.keys(gpsDefaults(kind,rec,values.hikeDate)).length)actions.before(el('p','빈 항목은 같은 날짜의 GPS 기록에서 연결합니다. 직접 수정한 값을 우선하며, 산행시간은 GPS 기록 시작·종료 간격입니다.','ux-help'));
 }
 function renderReference(box,values){
  if(!values.supplementExempt&&!values.referenceRoute)return;
@@ -129,7 +140,7 @@ async function saveToGitHub(kind,rec,changes,token,visibility){
 }
 function renderForm(box,kind,rec){
  sessionToken=window.JKOwnerSession?.getToken()||sessionToken;
- const values=infoOf(kind,rec),form=el('form',null,'ux-form');form.autocomplete='off';
+ const values=infoOf(kind,rec),original=infoOf(kind,rec,false),form=el('form',null,'ux-form');form.autocomplete='off';
  form.append(el('h3',`${kind==='mountains'?rec.name:rec.island} — 산행 기록 수정`));
  form.append(el('p','산행 정보를 수정하거나 아래에서 날짜별 기록을 삭제할 수 있습니다. BAC 인증 정보와 사진 원본은 보존됩니다.'));
  const grid=el('div',null,'ux-form-grid');fieldsFor(values).forEach(f=>grid.append(fieldNode(f,values[f[0]])));
@@ -153,6 +164,8 @@ function renderForm(box,kind,rec){
     const n=Number(v);if(!validNumber(n)){status(notice,'숫자 항목은 0 이상, 15000 이하로 입력해 주세요.',true);return}v=n;
    }
    if(type==='url'&&v!==''&&!/^https:\/\/[^\s]+$/i.test(v)){status(notice,'산행기 주소는 https://로 시작해야 합니다.',true);return}
+   // Unchanged GPS defaults remain linked rather than being saved as manual overrides.
+   if((original[field]===''||original[field]==null)&&values[field]!==original[field]&&String(v)===String(values[field]))continue;
    changes[field]=v;
   }
   const entered=String(formdata.get('token')||'').trim();if(entered)sessionToken=entered;
@@ -175,7 +188,7 @@ const css=el('style');css.textContent='.ux-reference-info{margin:12px 0;padding:
 function show(kind,rec,parent){
  if(!rec||!parent)return;
  parent.dataset.galleryAlbum=(kind==='mountains'?'m-':'i-')+rec.no;
- const previous=activePanels.get(parent);previous?.observer.disconnect();const observer=new MutationObserver(()=>applyVisibility(parent,kind,rec));observer.observe(parent,{childList:true,subtree:true});activePanels.set(parent,{kind,rec,observer});
+ const previous=activePanels.get(parent);previous?.observer.disconnect();const observer=new MutationObserver(()=>{applyVisibility(parent,kind,rec);const panel=parent.querySelector('.ux-record-panel');if(panel&&!panel.querySelector('form')&&panel.dataset.summaryFingerprint&&panel.dataset.summaryFingerprint!==JSON.stringify(infoOf(kind,rec)))renderSummary(panel,kind,rec);});observer.observe(parent,{childList:true,subtree:true});activePanels.set(parent,{kind,rec,observer});
  for(const n of parent.querySelectorAll('.ux-record-panel'))n.remove();
  const box=el('section','산행 정보를 불러오는 중입니다.','ux-record-panel');
  box.setAttribute('aria-label','산행 정보 추가와 수정');

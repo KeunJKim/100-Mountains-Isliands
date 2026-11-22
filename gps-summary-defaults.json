@@ -1,0 +1,1780 @@
+{
+  "version": 1,
+  "generated": "2026-11-22",
+  "mountains": {
+    "1": {
+      "2023-02-05": {
+        "distanceKm": 7.52,
+        "duration": "3시간 50분 52초",
+        "route": "GPS 이동 경로 참조 · 세부 지명 미확인",
+        "start": "GPS 출발점 (37.8654, 127.9813)",
+        "source": "https://www.ramblr.com/web/mymap/trip/761717/5090746"
+      }
+    },
+    "2": {
+      "2022-09-19": {
+        "distanceKm": 7.02,
+        "duration": "4시간 41분 18초",
+        "route": "GPS 이동 경로 참조 · 세부 지명 미확인",
+        "start": "GPS 출발점 (37.4666, 128.5383)",
+        "source": "https://www.ramblr.com/web/mymap/trip/761717/4586746"
+      }
+    },
+    "3": {
+      "2021-12-04": {
+        "distanceKm": 14.91,
+        "duration": "6시간 50분 19초",
+        "route": "GPS 이동 경로 참조 · 세부 지명 미확인",
+        "start": "GPS 출발점 (35.7934, 128.0945)",
+        "source": "https://www.ramblr.com/web/mymap/trip/761717/3627188"
+      }
+    },
+    "4": {
+      "2021-12-26": {
+        "distanceKm": 5.28,
+        "duration": "0시간 50분 38초",
+        "route": "GPS 이동 경로 참조 · 세부 지명 미확인",
+        "start": "GPS 출발점 (36.7051, 126.6095)",
+        "source": "https://www.ramblr.com/web/mymap/trip/761717/3677689"
+      }
+    },
+    "5": {
+      "2026-07-12": {
+        "distanceKm": 7.59,
+        "duration": "7시간 19분 14초",
+        "route": "GPS 이동 경로 참조 · 세부 지명 미확인",
+        "start": "GPS 출발점 (35.6083, 129.0187)",
+        "source": "https://www.ramblr.com/web/mymap/trip/761717/10797672"
+      },
+      "2026-05-31": {
+        "distanceKm": 6.94,
+        "duration": "5시간 29분 46초",
+        "route": "GPS 이동 경로 참조 · 세부 지명 미확인",
+        "start": "GPS 출발점 (35.6082, 129.0185)",
+        "source": "https://www.ramblr.com/web/mymap/trip/761717/10606104"
+      },
+      "2026-03-04": {
+        "distanceKm": 10.95,
+        "duration": "6시간 8분 52초",
+        "route": "GPS 이동 경로 참조 · 세부 지명 미확인",
+        "start": "GPS 출발점 (35.6363, 129.0391)",
+        "source": "https://www.ramblr.com/web/mymap/trip/761717/10173042"
+      },
+      "2026-02-25": {
+        "distanceKm": 7.42,
+        "duration": "5시간 52분 29초",
+        "route": "GPS 이동 경로 참조 · 세부 지명 미확인",
+        "start": "GPS 출발점 (35.6079, 129.0182)",
+        "source": "https://www.ramblr.com/web/mymap/trip/761717/10142303"
+      },
+      "2025-07-26": {
+        "distanceKm": 6.35,
+        "duration": "4시간 42분 39초",
+        "route": "GPS 이동 경로 참조 · 세부 지명 미확인",
+        "start": "GPS 출발점 (35.6092, 129.0197)",
+        "source": "https://www.ramblr.com/web/mymap/trip/761717/8959407"
+      },
+      "2025-07-13": {
+        "distanceKm": 6.79,
+        "duration": "6시간 38분 28초",
+        "route": "GPS 이동 경로 참조 · 세부 지명 미확인",
+        "start": "GPS 출발점 (35.6085, 129.0189)",
+        "source": "https://www.ramblr.com/web/mymap/trip/761717/8913268"
+      },
+      "2025-02-02": {
+        "distanceKm": 9.85,
+        "duration": "4시간 4분 28초",
+        "route": "GPS 이동 경로 참조 · 세부 지명 미확인",
+        "start": "GPS 출발점 (35.6363, 129.0409)",
+        "source": "https://www.ramblr.com/web/mymap/trip/761717/8077703"
+      },
+      "2025-01-30": {
+        "distanceKm": 6.55,
+        "duration": "4시간 33분 2초",
+        "route": "GPS 이동 경로 참조 · 세부 지명 미확인",
+        "start": "GPS 출발점 (35.6076, 129.0178)",
+        "source": "https://www.ramblr.com/web/mymap/trip/761717/8065839"
+      },
+      "2024-04-28": {
+        "distanceKm": 14.16,
+        "duration": "8시간 6분 48초",
+        "route": "GPS 이동 경로 참조 · 세부 지명 미확인",
+        "start": "GPS 출발점 (35.5812, 129.0268)",
+        "source": "https://www.ramblr.com/web/mymap/trip/761717/6892027"
+      },
+      "2024-01-21": {
+        "distanceKm": 6.27,
+        "duration": "5시간 41분 12초",
+        "route": "GPS 이동 경로 참조 · 세부 지명 미확인",
+        "start": "GPS 출발점 (35.6083, 129.0186)",
+        "source": "https://www.ramblr.com/web/mymap/trip/761717/6494060"
+      },
+      "2024-01-06": {
+        "distanceKm": 16.84,
+        "duration": "7시간 55분 35초",
+        "route": "GPS 이동 경로 참조 · 세부 지명 미확인",
+        "start": "GPS 출발점 (35.6077, 129.0181)",
+        "source": "https://www.ramblr.com/web/mymap/trip/761717/6445376"
+      },
+      "2023-07-30": {
+        "distanceKm": 1.01,
+        "duration": "1시간 26분 51초",
+        "route": "GPS 이동 경로 참조 · 세부 지명 미확인",
+        "start": "GPS 출발점 (35.6049, 129.0320)",
+        "source": "https://www.ramblr.com/web/mymap/trip/761717/5834144"
+      },
+      "2023-05-21": {
+        "distanceKm": 11.17,
+        "duration": "8시간 11분 14초",
+        "route": "GPS 이동 경로 참조 · 세부 지명 미확인",
+        "start": "GPS 출발점 (35.6362, 129.0398)",
+        "source": "https://www.ramblr.com/web/mymap/trip/761717/5552394"
+      },
+      "2023-01-07": {
+        "distanceKm": 13.56,
+        "duration": "8시간 26분 8초",
+        "route": "GPS 이동 경로 참조 · 세부 지명 미확인",
+        "start": "GPS 출발점 (35.6081, 129.0185)",
+        "source": "https://www.ramblr.com/web/mymap/trip/761717/5002404"
+      },
+      "2022-12-17": {
+        "distanceKm": 6.84,
+        "duration": "5시간 21분 10초",
+        "route": "GPS 이동 경로 참조 · 세부 지명 미확인",
+        "start": "GPS 출발점 (35.6068, 129.0268)",
+        "source": "https://www.ramblr.com/web/mymap/trip/761717/4952169"
+      }
+    },
+    "6": {
+      "2023-05-29": {
+        "distanceKm": 1.19,
+        "duration": "2시간 3분 6초",
+        "route": "GPS 이동 경로 참조 · 세부 지명 미확인",
+        "start": "GPS 출발점 (37.2278, 128.1387)",
+        "source": "https://www.ramblr.com/web/mymap/trip/761717/5584432"
+      }
+    },
+    "7": {
+      "2023-03-26": {
+        "distanceKm": 1.98,
+        "duration": "0시간 34분 25초",
+        "route": "GPS 이동 경로 참조 · 세부 지명 미확인",
+        "start": "GPS 출발점 (37.9390, 126.9453)",
+        "source": "https://www.ramblr.com/web/mymap/trip/761717/5289451"
+      }
+    },
+    "8": {
+      "2022-09-12": {
+        "distanceKm": 10.12,
+        "duration": "7시간 5분 42초",
+        "route": "GPS 이동 경로 참조 · 세부 지명 미확인",
+        "start": "GPS 출발점 (36.3588, 127.2385)",
+        "source": "https://www.ramblr.com/web/mymap/trip/761717/4556735"
+      }
+    },
+    "9": {
+      "2023-08-16": {
+        "distanceKm": 8.56,
+        "duration": "4시간 7분 49초",
+        "route": "GPS 이동 경로 참조 · 세부 지명 미확인",
+        "start": "GPS 출발점 (37.7074, 128.4445)",
+        "source": "https://www.ramblr.com/web/mymap/trip/761717/5895332"
+      },
+      "2021-10-11": {
+        "distanceKm": 8.15,
+        "duration": "4시간 26분 11초",
+        "route": "GPS 이동 경로 참조 · 세부 지명 미확인",
+        "start": "GPS 출발점 (37.7073, 128.4444)",
+        "source": "https://www.ramblr.com/web/mymap/trip/761717/3459286"
+      }
+    },
+    "10": {
+      "2022-11-19": {
+        "distanceKm": 4.09,
+        "duration": "3시간 28분 34초",
+        "route": "GPS 이동 경로 참조 · 세부 지명 미확인",
+        "start": "GPS 출발점 (37.4476, 126.9519)",
+        "source": "https://www.ramblr.com/web/mymap/trip/761717/4859664"
+      }
+    },
+    "11": {
+      "2021-12-25": {
+        "distanceKm": 2.69,
+        "duration": "2시간 19분 42초",
+        "route": "GPS 이동 경로 참조 · 세부 지명 미확인",
+        "start": "GPS 출발점 (36.6794, 127.0338)",
+        "source": "https://www.ramblr.com/web/mymap/trip/761717/3675242"
+      }
+    },
+    "12": {
+      "2022-09-11": {
+        "distanceKm": 4.95,
+        "duration": "4시간 49분 55초",
+        "route": "GPS 이동 경로 참조 · 세부 지명 미확인",
+        "start": "GPS 출발점 (36.4788, 127.8689)",
+        "source": "https://www.ramblr.com/web/mymap/trip/761717/4545113"
+      }
+    },
+    "14": {
+      "2023-02-18": {
+        "distanceKm": 4.89,
+        "duration": "3시간 22분 25초",
+        "route": "GPS 이동 경로 참조 · 세부 지명 미확인",
+        "start": "GPS 출발점 (36.9789, 128.2697)",
+        "source": "https://www.ramblr.com/web/mymap/trip/761717/5135337"
+      }
+    },
+    "15": {
+      "2021-10-17": {
+        "distanceKm": 8.12,
+        "duration": "5시간 35분 26초",
+        "route": "GPS 이동 경로 참조 · 세부 지명 미확인",
+        "start": "GPS 출발점 (36.1093, 128.3082)",
+        "source": "https://www.ramblr.com/web/mymap/trip/761717/3479450"
+      }
+    },
+    "17": {
+      "2026-02-17": {
+        "distanceKm": 8.19,
+        "duration": "4시간 31분 40초",
+        "route": "GPS 이동 경로 참조 · 세부 지명 미확인",
+        "start": "GPS 출발점 (35.7992, 129.2069)",
+        "source": "https://www.ramblr.com/web/mymap/trip/761717/10097363"
+      },
+      "2026-02-16": {
+        "distanceKm": 9.75,
+        "duration": "4시간 27분 39초",
+        "route": "GPS 이동 경로 참조 · 세부 지명 미확인",
+        "start": "GPS 출발점 (35.7895, 129.2437)",
+        "source": "https://www.ramblr.com/web/mymap/trip/761717/10093926"
+      }
+    },
+    "19": {
+      "2021-10-23": {
+        "distanceKm": 16.02,
+        "duration": "8시간 18분 53초",
+        "route": "GPS 이동 경로 참조 · 세부 지명 미확인",
+        "start": "GPS 출발점 (36.2450, 129.3209)",
+        "source": "https://www.ramblr.com/web/mymap/trip/761717/3499039"
+      }
+    },
+    "20": {
+      "2021-11-05": {
+        "distanceKm": 18.21,
+        "duration": "8시간 58분 51초",
+        "route": "GPS 이동 경로 참조 · 세부 지명 미확인",
+        "start": "GPS 출발점 (35.4968, 126.9222)",
+        "source": "https://www.ramblr.com/web/mymap/trip/761717/3545523"
+      }
+    },
+    "21": {
+      "2021-10-10": {
+        "distanceKm": 14.24,
+        "duration": "7시간 39분 4초",
+        "route": "GPS 이동 경로 참조 · 세부 지명 미확인",
+        "start": "GPS 출발점 (37.7659, 128.6116)",
+        "source": "https://www.ramblr.com/web/mymap/trip/761717/3455611"
+      }
+    },
+    "23": {
+      "2023-10-29": {
+        "distanceKm": 7.2,
+        "duration": "5시간 45분 11초",
+        "route": "GPS 이동 경로 참조 · 세부 지명 미확인",
+        "start": "GPS 출발점 (36.1178, 127.3337)",
+        "source": "https://www.ramblr.com/web/mymap/trip/761717/6216855"
+      },
+      "2021-11-07": {
+        "distanceKm": 4.49,
+        "duration": "4시간 34분 53초",
+        "route": "GPS 이동 경로 참조 · 세부 지명 미확인",
+        "start": "GPS 출발점 (36.1179, 127.3345)",
+        "source": "https://www.ramblr.com/web/mymap/trip/761717/3552766"
+      }
+    },
+    "24": {
+      "2022-11-06": {
+        "distanceKm": 27.28,
+        "duration": "5시간 54분 45초",
+        "route": "GPS 이동 경로 참조 · 세부 지명 미확인",
+        "start": "GPS 출발점 (36.6751, 127.9588)",
+        "source": "https://www.ramblr.com/web/mymap/trip/761717/4810150"
+      }
+    },
+    "25": {
+      "2025-03-23": {
+        "distanceKm": 7.6,
+        "duration": "6시간 45분 54초",
+        "route": "GPS 이동 경로 참조 · 세부 지명 미확인",
+        "start": "GPS 출발점 (34.5547, 126.7164)",
+        "source": "https://www.ramblr.com/web/mymap/trip/761717/8299777"
+      }
+    },
+    "26": {
+      "2025-03-09": {
+        "distanceKm": 17.57,
+        "duration": "7시간 38분 20초",
+        "route": "GPS 이동 경로 참조 · 세부 지명 미확인",
+        "start": "GPS 출발점 (35.9015, 127.7754)",
+        "source": "https://www.ramblr.com/web/mymap/trip/761717/8227278"
+      },
+      "2024-01-28": {
+        "distanceKm": 17.96,
+        "duration": "7시간 15분 43초",
+        "route": "GPS 이동 경로 참조 · 세부 지명 미확인",
+        "start": "GPS 출발점 (35.8380, 127.6998)",
+        "source": "https://www.ramblr.com/web/mymap/trip/761717/6516989"
+      },
+      "2021-12-05": {
+        "distanceKm": 10.8,
+        "duration": "4시간 24분 51초",
+        "route": "GPS 이동 경로 참조 · 세부 지명 미확인",
+        "start": "GPS 출발점 (35.8890, 127.7454)",
+        "source": "https://www.ramblr.com/web/mymap/trip/761717/3629911"
+      }
+    },
+    "28": {
+      "2022-12-03": {
+        "distanceKm": 7.04,
+        "duration": "6시간 3분 56초",
+        "route": "GPS 이동 경로 참조 · 세부 지명 미확인",
+        "start": "GPS 출발점 (36.8731, 128.2925)",
+        "source": "https://www.ramblr.com/web/mymap/trip/761717/4914207"
+      }
+    },
+    "29": {
+      "2022-10-16": {
+        "distanceKm": 9.38,
+        "duration": "7시간 39분 8초",
+        "route": "GPS 이동 경로 참조 · 세부 지명 미확인",
+        "start": "GPS 출발점 (37.6878, 127.0404)",
+        "source": "https://www.ramblr.com/web/mymap/trip/761717/4712979"
+      }
+    },
+    "32": {
+      "2023-08-15": {
+        "distanceKm": 123.06,
+        "duration": "8시간 22분 3초",
+        "route": "GPS 이동 경로 참조 · 세부 지명 미확인",
+        "start": "GPS 출발점 (37.4443, 129.0433)",
+        "source": "https://www.ramblr.com/web/mymap/trip/761717/5891886"
+      },
+      "2023-07-01": {
+        "distanceKm": 9.34,
+        "duration": "5시간 51분 17초",
+        "route": "GPS 이동 경로 참조 · 세부 지명 미확인",
+        "start": "GPS 출발점 (37.4633, 129.0218)",
+        "source": "https://www.ramblr.com/web/mymap/trip/761717/5734952"
+      }
+    },
+    "35": {
+      "2023-03-26": {
+        "distanceKm": 5.9,
+        "duration": "3시간 17분 15초",
+        "route": "GPS 이동 경로 참조 · 세부 지명 미확인",
+        "start": "GPS 출발점 (37.6666, 127.2902)",
+        "source": "https://www.ramblr.com/web/mymap/trip/761717/5292705"
+      }
+    },
+    "36": {
+      "2023-05-27": {
+        "distanceKm": 12.15,
+        "duration": "5시간 18분 8초",
+        "route": "GPS 이동 경로 참조 · 세부 지명 미확인",
+        "start": "GPS 출발점 (37.9363, 127.4858)",
+        "source": "https://www.ramblr.com/web/mymap/trip/761717/5578492"
+      }
+    },
+    "38": {
+      "2022-01-15": {
+        "distanceKm": 98.57,
+        "duration": "8시간 20분 26초",
+        "route": "GPS 이동 경로 참조 · 세부 지명 미확인",
+        "start": "GPS 출발점 (35.1454, 126.9878)",
+        "source": "https://www.ramblr.com/web/mymap/trip/761717/3724062"
+      }
+    },
+    "39": {
+      "2021-11-28": {
+        "distanceKm": 8.55,
+        "duration": "3시간 39분 22초",
+        "route": "GPS 이동 경로 참조 · 세부 지명 미확인",
+        "start": "GPS 출발점 (36.0519, 127.8335)",
+        "source": "https://www.ramblr.com/web/mymap/trip/761717/3614437"
+      }
+    },
+    "43": {
+      "2023-05-28": {
+        "distanceKm": 11.06,
+        "duration": "5시간 59분 53초",
+        "route": "GPS 이동 경로 참조 · 세부 지명 미확인",
+        "start": "GPS 출발점 (37.8679, 128.3692)",
+        "source": "https://www.ramblr.com/web/mymap/trip/761717/5581834"
+      }
+    },
+    "44": {
+      "2022-09-17": {
+        "distanceKm": 8.34,
+        "duration": "5시간 49분 57초",
+        "route": "GPS 이동 경로 참조 · 세부 지명 미확인",
+        "start": "GPS 출발점 (37.4212, 128.2867)",
+        "source": "https://www.ramblr.com/web/mymap/trip/761717/4576642"
+      }
+    },
+    "47": {
+      "2023-08-14": {
+        "distanceKm": 5.01,
+        "duration": "3시간 3분 4초",
+        "route": "GPS 이동 경로 참조 · 세부 지명 미확인",
+        "start": "GPS 출발점 (37.2783, 128.5767)",
+        "source": "https://www.ramblr.com/web/mymap/trip/761717/5886116"
+      }
+    },
+    "50": {
+      "2025-04-27": {
+        "distanceKm": 12.82,
+        "duration": "6시간 22분 3초",
+        "route": "GPS 이동 경로 참조 · 세부 지명 미확인",
+        "start": "GPS 출발점 (35.6941, 128.5061)",
+        "source": "https://www.ramblr.com/web/mymap/trip/761717/8510444"
+      }
+    },
+    "51": {
+      "2023-03-04": {
+        "distanceKm": 7.02,
+        "duration": "4시간 8분 9초",
+        "route": "GPS 이동 경로 참조 · 세부 지명 미확인",
+        "start": "GPS 출발점 (37.8254, 127.6632)",
+        "source": "https://www.ramblr.com/web/mymap/trip/761717/5192573"
+      }
+    },
+    "53": {
+      "2026-05-17": {
+        "distanceKm": 8.96,
+        "duration": "5시간 11분 25초",
+        "route": "GPS 이동 경로 참조 · 세부 지명 미확인",
+        "start": "GPS 출발점 (38.1735, 128.4901)",
+        "source": "https://www.ramblr.com/web/mymap/trip/761717/10532282"
+      },
+      "2024-10-20": {
+        "distanceKm": 6.16,
+        "duration": "3시간 4분 7초",
+        "route": "GPS 이동 경로 참조 · 세부 지명 미확인",
+        "start": "GPS 출발점 (38.0877, 128.4193)",
+        "source": "https://www.ramblr.com/web/mymap/trip/761717/7661976"
+      },
+      "2023-08-07": {
+        "distanceKm": 4.94,
+        "duration": "2시간 8분 15초",
+        "route": "GPS 이동 경로 참조 · 세부 지명 미확인",
+        "start": "GPS 출발점 (38.1703, 128.4945)",
+        "source": "https://www.ramblr.com/web/mymap/trip/761717/5904319"
+      },
+      "2023-07-02": {
+        "distanceKm": 13.32,
+        "duration": "9시간 13분 19초",
+        "route": "GPS 이동 경로 참조 · 세부 지명 미확인",
+        "start": "GPS 출발점 (38.0973, 128.4063)",
+        "source": "https://www.ramblr.com/web/mymap/trip/761717/5741004"
+      }
+    },
+    "54": {
+      "2025-06-07": {
+        "distanceKm": 14.57,
+        "duration": "7시간 35분 25초",
+        "route": "GPS 이동 경로 참조 · 세부 지명 미확인",
+        "start": "GPS 출발점 (36.9232, 128.5031)",
+        "source": "https://www.ramblr.com/web/mymap/trip/761717/8744529"
+      },
+      "2024-02-18": {
+        "distanceKm": 18.48,
+        "duration": "8시간 50분 23초",
+        "route": "GPS 이동 경로 참조 · 세부 지명 미확인",
+        "start": "GPS 출발점 (36.9162, 128.4563)",
+        "source": "https://www.ramblr.com/web/mymap/trip/761717/6585911"
+      }
+    },
+    "55": {
+      "2023-03-25": {
+        "distanceKm": 7.52,
+        "duration": "4시간 12분 26초",
+        "route": "GPS 이동 경로 참조 · 세부 지명 미확인",
+        "start": "GPS 출발점 (37.9462, 127.0693)",
+        "source": "https://www.ramblr.com/web/mymap/trip/761717/5285998"
+      }
+    },
+    "56": {
+      "2022-10-30": {
+        "distanceKm": 18.27,
+        "duration": "9시간 24분 32초",
+        "route": "GPS 이동 경로 참조 · 세부 지명 미확인",
+        "start": "GPS 출발점 (36.5331, 127.8235)",
+        "source": "https://www.ramblr.com/web/mymap/trip/761717/4775964"
+      }
+    },
+    "57": {
+      "2022-10-15": {
+        "distanceKm": 4.64,
+        "duration": "3시간 29분 37초",
+        "route": "GPS 이동 경로 참조 · 세부 지명 미확인",
+        "start": "GPS 출발점 (37.6999, 127.0637)",
+        "source": "https://www.ramblr.com/web/mymap/trip/761717/4709461"
+      }
+    },
+    "58": {
+      "2026-10-03": {
+        "distanceKm": 13.98,
+        "duration": "8시간 14분 27초",
+        "route": "GPS 이동 경로 참조 · 세부 지명 미확인",
+        "start": "GPS 출발점 (35.5564, 129.0675)",
+        "source": "https://www.ramblr.com/web/mymap/trip/761717/11154473"
+      },
+      "2026-02-01": {
+        "distanceKm": 7.45,
+        "duration": "5시간 36분 56초",
+        "route": "GPS 이동 경로 참조 · 세부 지명 미확인",
+        "start": "GPS 출발점 (35.5422, 129.0906)",
+        "source": "https://www.ramblr.com/web/mymap/trip/761717/10019107"
+      },
+      "2025-11-23": {
+        "distanceKm": 10.29,
+        "duration": "7시간 9분 16초",
+        "route": "GPS 이동 경로 참조 · 세부 지명 미확인",
+        "start": "GPS 출발점 (35.5562, 129.0690)",
+        "source": "https://www.ramblr.com/web/mymap/trip/761717/9695853"
+      },
+      "2025-01-05": {
+        "distanceKm": 6.76,
+        "duration": "3시간 46분 45초",
+        "route": "GPS 이동 경로 참조 · 세부 지명 미확인",
+        "start": "GPS 출발점 (35.5349, 129.0766)",
+        "source": "https://www.ramblr.com/web/mymap/trip/761717/7977441"
+      },
+      "2024-01-01": {
+        "distanceKm": 18.25,
+        "duration": "10시간 46분 26초",
+        "route": "GPS 이동 경로 참조 · 세부 지명 미확인",
+        "start": "GPS 출발점 (35.5560, 129.0692)",
+        "source": "https://www.ramblr.com/web/mymap/trip/761717/6432253"
+      },
+      "2023-10-21": {
+        "distanceKm": 17.92,
+        "duration": "8시간 28분 27초",
+        "route": "GPS 이동 경로 참조 · 세부 지명 미확인",
+        "start": "GPS 출발점 (35.5566, 129.0666)",
+        "source": "https://www.ramblr.com/web/mymap/trip/761717/6178041"
+      },
+      "2023-01-21": {
+        "distanceKm": 23.6,
+        "duration": "9시간 22분 54초",
+        "route": "GPS 이동 경로 참조 · 세부 지명 미확인",
+        "start": "GPS 출발점 (35.5674, 129.0228)",
+        "source": "https://www.ramblr.com/web/mymap/trip/761717/5042866"
+      },
+      "2022-11-13": {
+        "distanceKm": 9.52,
+        "duration": "5시간 51분 29초",
+        "route": "GPS 이동 경로 참조 · 세부 지명 미확인",
+        "start": "GPS 출발점 (35.5550, 129.0644)",
+        "source": "https://www.ramblr.com/web/mymap/trip/761717/4838929"
+      },
+      "2022-09-25": {
+        "distanceKm": 18.43,
+        "duration": "7시간 51분 12초",
+        "route": "GPS 이동 경로 참조 · 세부 지명 미확인",
+        "start": "GPS 출발점 (35.5565, 129.0686)",
+        "source": "https://www.ramblr.com/web/mymap/trip/761717/4612844"
+      }
+    },
+    "59": {
+      "2023-03-24": {
+        "distanceKm": 6.14,
+        "duration": "3시간 8분 3초",
+        "route": "GPS 이동 경로 참조 · 세부 지명 미확인",
+        "start": "GPS 출발점 (37.8958, 127.4423)",
+        "source": "https://www.ramblr.com/web/mymap/trip/761717/5280516"
+      }
+    },
+    "60": {
+      "2023-08-14": {
+        "distanceKm": 5.6,
+        "duration": "3시간 42분 20초",
+        "route": "GPS 이동 경로 참조 · 세부 지명 미확인",
+        "start": "GPS 출발점 (37.7881, 128.5668)",
+        "source": "https://www.ramblr.com/web/mymap/trip/761717/5887703"
+      },
+      "2021-10-09": {
+        "distanceKm": 11.84,
+        "duration": "5시간 10분 2초",
+        "route": "GPS 이동 경로 참조 · 세부 지명 미확인",
+        "start": "GPS 출발점 (37.7850, 128.5581)",
+        "source": "https://www.ramblr.com/web/mymap/trip/761717/3450013"
+      }
+    },
+    "61": {
+      "2023-03-23": {
+        "distanceKm": 4.5,
+        "duration": "2시간 45분 20초",
+        "route": "GPS 이동 경로 참조 · 세부 지명 미확인",
+        "start": "GPS 출발점 (37.9948, 127.7902)",
+        "source": "https://www.ramblr.com/web/mymap/trip/761717/5276712"
+      }
+    },
+    "62": {
+      "2021-12-26": {
+        "distanceKm": 5.28,
+        "duration": "3시간 42분 32초",
+        "route": "GPS 이동 경로 참조 · 세부 지명 미확인",
+        "start": "GPS 출발점 (36.4564, 126.6723)",
+        "source": "https://www.ramblr.com/web/mymap/trip/761717/3676499"
+      }
+    },
+    "63": {
+      "2023-03-12": {
+        "distanceKm": 9.28,
+        "duration": "6시간 6분 52초",
+        "route": "GPS 이동 경로 참조 · 세부 지명 미확인",
+        "start": "GPS 출발점 (37.5463, 127.5828)",
+        "source": "https://www.ramblr.com/web/mymap/trip/761717/5230962"
+      }
+    },
+    "64": {
+      "2021-12-26": {
+        "distanceKm": 2.44,
+        "duration": "1시간 54분 8초",
+        "route": "GPS 이동 경로 참조 · 세부 지명 미확인",
+        "start": "GPS 출발점 (36.6430, 126.6580)",
+        "source": "https://www.ramblr.com/web/mymap/trip/761717/3677142"
+      }
+    },
+    "65": {
+      "2023-03-23": {
+        "distanceKm": 2.5,
+        "duration": "1시간 49분 42초",
+        "route": "GPS 이동 경로 참조 · 세부 지명 미확인",
+        "start": "GPS 출발점 (38.0390, 127.7400)",
+        "source": "https://www.ramblr.com/web/mymap/trip/761717/5277196"
+      }
+    },
+    "66": {
+      "2023-03-25": {
+        "distanceKm": 4.02,
+        "duration": "2시간 50분 21초",
+        "route": "GPS 이동 경로 참조 · 세부 지명 미확인",
+        "start": "GPS 출발점 (37.8699, 127.3298)",
+        "source": "https://www.ramblr.com/web/mymap/trip/761717/5282490"
+      }
+    },
+    "68": {
+      "2023-02-19": {
+        "distanceKm": 7.28,
+        "duration": "5시간 9분 51초",
+        "route": "GPS 이동 경로 참조 · 세부 지명 미확인",
+        "start": "GPS 출발점 (36.8801, 128.1321)",
+        "source": "https://www.ramblr.com/web/mymap/trip/761717/5140748"
+      }
+    },
+    "70": {
+      "2023-03-11": {
+        "distanceKm": 4.86,
+        "duration": "2시간 42분 54초",
+        "route": "GPS 이동 경로 참조 · 세부 지명 미확인",
+        "start": "GPS 출발점 (37.5917, 127.4912)",
+        "source": "https://www.ramblr.com/web/mymap/trip/761717/5226984"
+      }
+    },
+    "71": {
+      "2023-03-27": {
+        "distanceKm": 4.55,
+        "duration": "3시간 1분 59초",
+        "route": "GPS 이동 경로 참조 · 세부 지명 미확인",
+        "start": "GPS 출발점 (37.5507, 127.0346)",
+        "source": "https://www.ramblr.com/web/mymap/trip/761717/5296867"
+      },
+      "2022-12-04": {
+        "distanceKm": 11.41,
+        "duration": "5시간 21분 45초",
+        "route": "GPS 이동 경로 참조 · 세부 지명 미확인",
+        "start": "GPS 출발점 (37.0810, 129.2792)",
+        "source": "https://www.ramblr.com/web/mymap/trip/761717/4917791"
+      }
+    },
+    "73": {
+      "2024-01-02": {
+        "distanceKm": 18.06,
+        "duration": "7시간 25분 6초",
+        "route": "GPS 이동 경로 참조 · 세부 지명 미확인",
+        "start": "GPS 출발점 (35.5810, 129.0270)",
+        "source": "https://www.ramblr.com/web/mymap/trip/761717/6434425"
+      },
+      "2023-04-16": {
+        "distanceKm": 17.79,
+        "duration": "6시간 53분 8초",
+        "route": "GPS 이동 경로 참조 · 세부 지명 미확인",
+        "start": "GPS 출발점 (35.5811, 129.0270)",
+        "source": "https://www.ramblr.com/web/mymap/trip/761717/5391682"
+      },
+      "2023-01-08": {
+        "distanceKm": 18.4,
+        "duration": "7시간 19분 45초",
+        "route": "GPS 이동 경로 참조 · 세부 지명 미확인",
+        "start": "GPS 출발점 (35.5808, 129.0271)",
+        "source": "https://www.ramblr.com/web/mymap/trip/761717/5006991"
+      }
+    },
+    "75": {
+      "2023-02-11": {
+        "distanceKm": 6.21,
+        "duration": "3시간 55분 17초",
+        "route": "GPS 이동 경로 참조 · 세부 지명 미확인",
+        "start": "GPS 출발점 (36.7519, 128.0318)",
+        "source": "https://www.ramblr.com/web/mymap/trip/761717/5109343"
+      }
+    },
+    "76": {
+      "2025-11-09": {
+        "distanceKm": 13.06,
+        "duration": "5시간 8분 42초",
+        "route": "GPS 이동 경로 참조 · 세부 지명 미확인",
+        "start": "GPS 출발점 (36.3902, 129.1387)",
+        "source": "https://www.ramblr.com/web/mymap/trip/761717/9608669"
+      }
+    },
+    "77": {
+      "2023-02-12": {
+        "distanceKm": 15.02,
+        "duration": "7시간 42분 19초",
+        "route": "GPS 이동 경로 참조 · 세부 지명 미확인",
+        "start": "GPS 출발점 (36.7597, 128.0780)",
+        "source": "https://www.ramblr.com/web/mymap/trip/761717/5117553"
+      }
+    },
+    "82": {
+      "2022-11-19": {
+        "distanceKm": 6.16,
+        "duration": "2시간 46분 5초",
+        "route": "GPS 이동 경로 참조 · 세부 지명 미확인",
+        "start": "GPS 출발점 (37.4460, 127.0566)",
+        "source": "https://www.ramblr.com/web/mymap/trip/761717/4857047"
+      }
+    },
+    "84": {
+      "2022-10-29": {
+        "distanceKm": 6.05,
+        "duration": "4시간 16분 41초",
+        "route": "GPS 이동 경로 참조 · 세부 지명 미확인",
+        "start": "GPS 출발점 (36.6002, 127.9011)",
+        "source": "https://www.ramblr.com/web/mymap/trip/761717/4767062"
+      }
+    },
+    "86": {
+      "2023-03-05": {
+        "distanceKm": 8.28,
+        "duration": "5시간 53분 14초",
+        "route": "GPS 이동 경로 참조 · 세부 지명 미확인",
+        "start": "GPS 출발점 (37.3608, 128.0222)",
+        "source": "https://www.ramblr.com/web/mymap/trip/761717/5198792"
+      }
+    },
+    "87": {
+      "2021-12-25": {
+        "distanceKm": 4.13,
+        "duration": "2시간 0분 24초",
+        "route": "GPS 이동 경로 참조 · 세부 지명 미확인",
+        "start": "GPS 출발점 (36.3994, 126.8915)",
+        "source": "https://www.ramblr.com/web/mymap/trip/761717/3674389"
+      }
+    },
+    "88": {
+      "2022-11-05": {
+        "distanceKm": 8.75,
+        "duration": "4시간 46분 44초",
+        "route": "GPS 이동 경로 참조 · 세부 지명 미확인",
+        "start": "GPS 출발점 (36.7385, 127.9037)",
+        "source": "https://www.ramblr.com/web/mymap/trip/761717/4804443"
+      }
+    },
+    "89": {
+      "2025-12-14": {
+        "distanceKm": 10.07,
+        "duration": "6시간 47분 28초",
+        "route": "GPS 이동 경로 참조 · 세부 지명 미확인",
+        "start": "GPS 출발점 (37.1165, 128.9493)",
+        "source": "https://www.ramblr.com/web/mymap/trip/761717/9793682"
+      },
+      "2024-02-17": {
+        "distanceKm": 8.63,
+        "duration": "4시간 4분 13초",
+        "route": "GPS 이동 경로 참조 · 세부 지명 미확인",
+        "start": "GPS 출발점 (37.1206, 128.9101)",
+        "source": "https://www.ramblr.com/web/mymap/trip/761717/6577512"
+      },
+      "2023-08-08": {
+        "distanceKm": 8.29,
+        "duration": "3시간 57분 46초",
+        "route": "GPS 이동 경로 참조 · 세부 지명 미확인",
+        "start": "GPS 출발점 (37.1205, 128.9085)",
+        "source": "https://www.ramblr.com/web/mymap/trip/761717/5866663"
+      }
+    },
+    "91": {
+      "2025-04-27": {
+        "distanceKm": 4.88,
+        "duration": "2시간 47분 44초",
+        "route": "GPS 이동 경로 참조 · 세부 지명 미확인",
+        "start": "GPS 출발점 (35.9702, 128.7261)",
+        "source": "https://www.ramblr.com/web/mymap/trip/761717/8513770"
+      },
+      "2021-09-25": {
+        "distanceKm": 0,
+        "duration": "0시간 0분 0초",
+        "route": "GPS 이동 경로 참조 · 세부 지명 미확인",
+        "start": "GPS 출발점 (35.9906, 128.6950)",
+        "source": "https://www.ramblr.com/web/mymap/trip/761717/3390767"
+      }
+    },
+    "92": {
+      "2023-03-11": {
+        "distanceKm": 4.35,
+        "duration": "3시간 53분 34초",
+        "route": "GPS 이동 경로 참조 · 세부 지명 미확인",
+        "start": "GPS 출발점 (37.7018, 127.6949)",
+        "source": "https://www.ramblr.com/web/mymap/trip/761717/5224272"
+      }
+    },
+    "94": {
+      "2023-06-06": {
+        "distanceKm": 13.17,
+        "duration": "11시간 23분 37초",
+        "route": "GPS 이동 경로 참조 · 세부 지명 미확인",
+        "start": "GPS 출발점 (33.3483, 126.4967)",
+        "source": "https://www.ramblr.com/web/mymap/trip/761717/5629396"
+      },
+      "2023-06-05": {
+        "distanceKm": 21.94,
+        "duration": "9시간 37분 21초",
+        "route": "GPS 이동 경로 참조 · 세부 지명 미확인",
+        "start": "GPS 출발점 (33.3841, 126.6173)",
+        "source": "https://www.ramblr.com/web/mymap/trip/761717/5621819"
+      }
+    },
+    "95": {
+      "2023-08-08": {
+        "distanceKm": 3.08,
+        "duration": "2시간 12분 14초",
+        "route": "GPS 이동 경로 참조 · 세부 지명 미확인",
+        "start": "GPS 출발점 (37.1545, 128.9146)",
+        "source": "https://www.ramblr.com/web/mymap/trip/761717/5867021"
+      }
+    },
+    "96": {
+      "2023-03-23": {
+        "distanceKm": 0.89,
+        "duration": "0시간 41분 15초",
+        "route": "GPS 이동 경로 참조 · 세부 지명 미확인",
+        "start": "GPS 출발점 (37.9893, 127.5002)",
+        "source": "https://www.ramblr.com/web/mymap/trip/761717/5277701"
+      }
+    },
+    "97": {
+      "2025-04-20": {
+        "distanceKm": 7.25,
+        "duration": "7시간 54분 13초",
+        "route": "GPS 이동 경로 참조 · 세부 지명 미확인",
+        "start": "GPS 출발점 (35.5431, 128.5207)",
+        "source": "https://www.ramblr.com/web/mymap/trip/761717/8454847"
+      },
+      "2021-09-16": {
+        "distanceKm": 7.71,
+        "duration": "5시간 42분 57초",
+        "route": "GPS 이동 경로 참조 · 세부 지명 미확인",
+        "start": "GPS 출발점 (35.5414, 128.5136)",
+        "source": "https://www.ramblr.com/web/mymap/trip/761717/3359379"
+      }
+    },
+    "98": {
+      "2025-05-11": {
+        "distanceKm": 2.06,
+        "duration": "1시간 15분 32초",
+        "route": "GPS 이동 경로 참조 · 세부 지명 미확인",
+        "start": "GPS 출발점 (35.4815, 127.9748)",
+        "source": "https://www.ramblr.com/web/mymap/trip/761717/8591809"
+      },
+      "2023-04-29": {
+        "distanceKm": 6.96,
+        "duration": "5시간 15분 31초",
+        "route": "GPS 이동 경로 참조 · 세부 지명 미확인",
+        "start": "GPS 출발점 (35.4815, 127.9827)",
+        "source": "https://www.ramblr.com/web/mymap/trip/761717/5446866"
+      }
+    },
+    "100": {
+      "2021-11-28": {
+        "distanceKm": 0,
+        "duration": "0시간 0분 0초",
+        "route": "GPS 이동 경로 참조 · 세부 지명 미확인",
+        "start": "GPS 출발점 (36.1234, 127.9898)",
+        "source": "https://www.ramblr.com/web/mymap/trip/761717/3612450"
+      }
+    }
+  },
+  "islands": {
+    "1": {
+      "2023-10-08": {
+        "distanceKm": 3.12,
+        "duration": "1시간 27분 34초",
+        "route": "GPS 이동 경로 참조 · 세부 지명 미확인",
+        "start": "GPS 출발점 (37.7842, 126.2891)",
+        "source": "https://www.ramblr.com/web/mymap/trip/761717/6114898"
+      }
+    },
+    "2": {
+      "2023-10-08": {
+        "distanceKm": 3.11,
+        "duration": "1시간 54분 54초",
+        "route": "GPS 이동 경로 참조 · 세부 지명 미확인",
+        "start": "GPS 출발점 (37.6734, 126.3685)",
+        "source": "https://www.ramblr.com/web/mymap/trip/761717/6117094"
+      }
+    },
+    "3": {
+      "2026-08-13": {
+        "distanceKm": 8.07,
+        "duration": "4시간 56분 58초",
+        "route": "GPS 이동 경로 참조 · 세부 지명 미확인",
+        "start": "GPS 출발점 (37.8285, 124.6956)",
+        "source": "https://www.ramblr.com/web/mymap/trip/761717/10915180"
+      }
+    },
+    "4": {
+      "2026-08-04": {
+        "distanceKm": 4.06,
+        "duration": "2시간 32분 31초",
+        "route": "GPS 이동 경로 참조 · 세부 지명 미확인",
+        "start": "GPS 출발점 (37.1887, 125.9776)",
+        "source": "https://www.ramblr.com/web/mymap/trip/761717/10881568"
+      },
+      "2026-08-03": {
+        "distanceKm": 6.84,
+        "duration": "3시간 28분 51초",
+        "route": "GPS 이동 경로 참조 · 세부 지명 미확인",
+        "start": "GPS 출발점 (37.1915, 125.9830)",
+        "source": "https://www.ramblr.com/web/mymap/trip/761717/10879765"
+      }
+    },
+    "5": {
+      "2025-12-29": {
+        "distanceKm": 3.38,
+        "duration": "1시간 54분 28초",
+        "route": "GPS 이동 경로 참조 · 세부 지명 미확인",
+        "start": "GPS 출발점 (37.1715, 126.1060)",
+        "source": "https://www.ramblr.com/web/mymap/trip/761717/9861864"
+      }
+    },
+    "6": {
+      "2026-08-04": {
+        "distanceKm": 7.09,
+        "duration": "4시간 39분 48초",
+        "route": "GPS 이동 경로 참조 · 세부 지명 미확인",
+        "start": "GPS 출발점 (37.0851, 125.9587)",
+        "source": "https://www.ramblr.com/web/mymap/trip/761717/10883086"
+      }
+    },
+    "7": {
+      "2025-12-28": {
+        "distanceKm": 3.28,
+        "duration": "1시간 57분 25초",
+        "route": "GPS 이동 경로 참조 · 세부 지명 미확인",
+        "start": "GPS 출발점 (37.2227, 126.1187)",
+        "source": "https://www.ramblr.com/web/mymap/trip/761717/9855499"
+      }
+    },
+    "9": {
+      "2023-10-09": {
+        "distanceKm": 2.63,
+        "duration": "1시간 4분 35초",
+        "route": "GPS 이동 경로 참조 · 세부 지명 미확인",
+        "start": "GPS 출발점 (37.5249, 126.4328)",
+        "source": "https://www.ramblr.com/web/mymap/trip/761717/6121254"
+      }
+    },
+    "10": {
+      "2023-10-09": {
+        "distanceKm": 0,
+        "duration": "0시간 0분 0초",
+        "route": "GPS 이동 경로 참조 · 세부 지명 미확인",
+        "start": "GPS 출발점 (37.5327, 126.3583)",
+        "source": "https://www.ramblr.com/web/mymap/trip/761717/6120407"
+      }
+    },
+    "11": {
+      "2026-05-03": {
+        "distanceKm": 9.27,
+        "duration": "4시간 5분 38초",
+        "route": "GPS 이동 경로 참조 · 세부 지명 미확인",
+        "start": "GPS 출발점 (37.6548, 125.7113)",
+        "source": "https://www.ramblr.com/web/mymap/trip/761717/10459154"
+      }
+    },
+    "12": {
+      "2023-10-10": {
+        "distanceKm": 1.63,
+        "duration": "0시간 47분 32초",
+        "route": "GPS 이동 경로 참조 · 세부 지명 미확인",
+        "start": "GPS 출발점 (37.2715, 126.4616)",
+        "source": "https://www.ramblr.com/web/mymap/trip/761717/6127350"
+      }
+    },
+    "13": {
+      "2025-08-17": {
+        "distanceKm": 9.46,
+        "duration": "4시간 27분 32초",
+        "route": "GPS 이동 경로 참조 · 세부 지명 미확인",
+        "start": "GPS 출발점 (37.1705, 126.2912)",
+        "source": "https://www.ramblr.com/web/mymap/trip/761717/10155152"
+      }
+    },
+    "14": {
+      "2025-08-15": {
+        "distanceKm": 7.05,
+        "duration": "3시간 28분 31초",
+        "route": "GPS 이동 경로 참조 · 세부 지명 미확인",
+        "start": "GPS 출발점 (37.1785, 126.2480)",
+        "source": "https://www.ramblr.com/web/mymap/trip/761717/9055369"
+      }
+    },
+    "15": {
+      "2025-08-16": {
+        "distanceKm": 6.43,
+        "duration": "3시간 18분 2초",
+        "route": "GPS 이동 경로 참조 · 세부 지명 미확인",
+        "start": "GPS 출발점 (37.2448, 126.3185)",
+        "source": "https://www.ramblr.com/web/mymap/trip/761717/9061240"
+      }
+    },
+    "16": {
+      "2023-10-09": {
+        "distanceKm": 3.57,
+        "duration": "1시간 34분 51초",
+        "route": "GPS 이동 경로 참조 · 세부 지명 미확인",
+        "start": "GPS 출발점 (37.3857, 126.4139)",
+        "source": "https://www.ramblr.com/web/mymap/trip/761717/6123051"
+      }
+    },
+    "17": {
+      "2023-10-10": {
+        "distanceKm": 2.28,
+        "duration": "1시간 35분 54초",
+        "route": "GPS 이동 경로 참조 · 세부 지명 미확인",
+        "start": "GPS 출발점 (37.1772, 126.6220)",
+        "source": "https://www.ramblr.com/web/mymap/trip/761717/6127841"
+      }
+    },
+    "18": {
+      "2025-08-14": {
+        "distanceKm": 0.86,
+        "duration": "0시간 36분 38초",
+        "route": "GPS 이동 경로 참조 · 세부 지명 미확인",
+        "start": "GPS 출발점 (37.0470, 126.4273)",
+        "source": "https://www.ramblr.com/web/mymap/trip/761717/9050216"
+      }
+    },
+    "19": {
+      "2023-10-01": {
+        "distanceKm": 4.27,
+        "duration": "1시간 31분 24초",
+        "route": "GPS 이동 경로 참조 · 세부 지명 미확인",
+        "start": "GPS 출발점 (36.3901, 126.3714)",
+        "source": "https://www.ramblr.com/web/mymap/trip/761717/6089335"
+      }
+    },
+    "20": {
+      "2023-10-01": {
+        "distanceKm": 14.59,
+        "duration": "5시간 22분 52초",
+        "route": "GPS 이동 경로 참조 · 세부 지명 미확인",
+        "start": "GPS 출발점 (36.3507, 126.3612)",
+        "source": "https://www.ramblr.com/web/mymap/trip/761717/6073315"
+      }
+    },
+    "21": {
+      "2023-10-03": {
+        "distanceKm": 8.59,
+        "duration": "4시간 49분 0초",
+        "route": "GPS 이동 경로 참조 · 세부 지명 미확인",
+        "start": "GPS 출발점 (36.2265, 126.0798)",
+        "source": "https://www.ramblr.com/web/mymap/trip/761717/6089316"
+      }
+    },
+    "22": {
+      "2023-09-30": {
+        "distanceKm": 2.76,
+        "duration": "1시간 1분 35초",
+        "route": "GPS 이동 경로 참조 · 세부 지명 미확인",
+        "start": "GPS 출발점 (36.3696, 126.3991)",
+        "source": "https://www.ramblr.com/web/mymap/trip/761717/6069356"
+      }
+    },
+    "23": {
+      "2024-10-05": {
+        "distanceKm": 4.05,
+        "duration": "1시간 51분 13초",
+        "route": "GPS 이동 경로 참조 · 세부 지명 미확인",
+        "start": "GPS 출발점 (34.2902, 127.3603)",
+        "source": "https://www.ramblr.com/web/mymap/trip/761717/7579428"
+      },
+      "2023-10-02": {
+        "distanceKm": 9.02,
+        "duration": "4시간 6분 42초",
+        "route": "GPS 이동 경로 참조 · 세부 지명 미확인",
+        "start": "GPS 출발점 (36.5203, 126.4375)",
+        "source": "https://www.ramblr.com/web/mymap/trip/761717/6081069"
+      }
+    },
+    "24": {
+      "2025-08-09": {
+        "distanceKm": 3.06,
+        "duration": "1시간 33분 51초",
+        "route": "GPS 이동 경로 참조 · 세부 지명 미확인",
+        "start": "GPS 출발점 (35.8183, 126.3739)",
+        "source": "https://www.ramblr.com/web/mymap/trip/761717/9028324"
+      }
+    },
+    "25": {
+      "2025-08-09": {
+        "distanceKm": 3.75,
+        "duration": "2시간 26분 53초",
+        "route": "GPS 이동 경로 참조 · 세부 지명 미확인",
+        "start": "GPS 출발점 (35.8484, 126.3771)",
+        "source": "https://www.ramblr.com/web/mymap/trip/761717/9029770"
+      }
+    },
+    "26": {
+      "2026-05-04": {
+        "distanceKm": 3.05,
+        "duration": "2시간 24분 39초",
+        "route": "GPS 이동 경로 참조 · 세부 지명 미확인",
+        "start": "GPS 출발점 (35.8253, 126.4127)",
+        "source": "https://www.ramblr.com/web/mymap/trip/761717/10463502"
+      },
+      "2023-10-04": {
+        "distanceKm": 1.29,
+        "duration": "1시간 43분 23초",
+        "route": "GPS 이동 경로 참조 · 세부 지명 미확인",
+        "start": "GPS 출발점 (35.8105, 126.4076)",
+        "source": "https://www.ramblr.com/web/mymap/trip/761717/6093999"
+      }
+    },
+    "27": {
+      "2023-10-04": {
+        "distanceKm": 3.68,
+        "duration": "1시간 51분 12초",
+        "route": "GPS 이동 경로 참조 · 세부 지명 미확인",
+        "start": "GPS 출발점 (35.8186, 126.4778)",
+        "source": "https://www.ramblr.com/web/mymap/trip/761717/6093596"
+      }
+    },
+    "28": {
+      "2026-05-24": {
+        "distanceKm": 9.02,
+        "duration": "5시간 16분 16초",
+        "route": "GPS 이동 경로 참조 · 세부 지명 미확인",
+        "start": "GPS 출발점 (36.1183, 125.9822)",
+        "source": "https://www.ramblr.com/web/mymap/trip/761717/10570901"
+      }
+    },
+    "29": {
+      "2025-08-05": {
+        "distanceKm": 6.2,
+        "duration": "3시간 22분 9초",
+        "route": "GPS 이동 경로 참조 · 세부 지명 미확인",
+        "start": "GPS 출발점 (35.6179, 126.3015)",
+        "source": "https://www.ramblr.com/web/mymap/trip/761717/9001213"
+      }
+    },
+    "30": {
+      "2025-04-12": {
+        "distanceKm": 4.1,
+        "duration": "1시간 56분 37초",
+        "route": "GPS 이동 경로 참조 · 세부 지명 미확인",
+        "start": "GPS 출발점 (34.5289, 126.7723)",
+        "source": "https://www.ramblr.com/web/mymap/trip/761717/8411276"
+      },
+      "2024-08-07": {
+        "distanceKm": 1.1,
+        "duration": "0시간 32분 21초",
+        "route": "GPS 이동 경로 참조 · 세부 지명 미확인",
+        "start": "GPS 출발점 (34.5349, 126.7896)",
+        "source": "https://www.ramblr.com/web/mymap/trip/761717/7335247"
+      }
+    },
+    "31": {
+      "2024-08-08": {
+        "distanceKm": 5.44,
+        "duration": "2시간 58분 10초",
+        "route": "GPS 이동 경로 참조 · 세부 지명 미확인",
+        "start": "GPS 출발점 (34.4645, 127.1604)",
+        "source": "https://www.ramblr.com/web/mymap/trip/761717/7338975"
+      }
+    },
+    "32": {
+      "2024-08-09": {
+        "distanceKm": 3.19,
+        "duration": "1시간 41분 34초",
+        "route": "GPS 이동 경로 참조 · 세부 지명 미확인",
+        "start": "GPS 출발점 (34.4597, 127.0932)",
+        "source": "https://www.ramblr.com/web/mymap/trip/761717/7340703"
+      }
+    },
+    "33": {
+      "2024-08-10": {
+        "distanceKm": 1.62,
+        "duration": "1시간 13분 50초",
+        "route": "GPS 이동 경로 참조 · 세부 지명 미확인",
+        "start": "GPS 출발점 (34.4638, 127.4488)",
+        "source": "https://www.ramblr.com/web/mymap/trip/761717/7343643"
+      }
+    },
+    "34": {
+      "2024-08-10": {
+        "distanceKm": 4.51,
+        "duration": "2시간 6분 16초",
+        "route": "GPS 이동 경로 참조 · 세부 지명 미확인",
+        "start": "GPS 출발점 (34.4513, 127.5038)",
+        "source": "https://www.ramblr.com/web/mymap/trip/761717/7344437"
+      }
+    },
+    "35": {
+      "2025-05-05": {
+        "distanceKm": 6.47,
+        "duration": "6시간 18분 39초",
+        "route": "GPS 이동 경로 참조 · 세부 지명 미확인",
+        "start": "GPS 출발점 (34.6037, 125.8256)",
+        "source": "https://www.ramblr.com/web/mymap/trip/761717/8559206"
+      }
+    },
+    "36": {
+      "2025-05-04": {
+        "distanceKm": 2.18,
+        "duration": "3시간 9분 35초",
+        "route": "GPS 이동 경로 참조 · 세부 지명 미확인",
+        "start": "GPS 출발점 (34.7521, 125.9048)",
+        "source": "https://www.ramblr.com/web/mymap/trip/761717/8553230"
+      }
+    },
+    "37": {
+      "2025-01-27": {
+        "distanceKm": 2.68,
+        "duration": "1시간 12분 17초",
+        "route": "GPS 이동 경로 참조 · 세부 지명 미확인",
+        "start": "GPS 출발점 (34.8393, 126.0825)",
+        "source": "https://www.ramblr.com/web/mymap/trip/761717/8057132"
+      }
+    },
+    "38": {
+      "2024-09-19": {
+        "distanceKm": 2.05,
+        "duration": "1시간 24분 36초",
+        "route": "GPS 이동 경로 참조 · 세부 지명 미확인",
+        "start": "GPS 출발점 (35.0699, 126.0818)",
+        "source": "https://www.ramblr.com/web/mymap/trip/761717/7502320"
+      }
+    },
+    "39": {
+      "2025-01-27": {
+        "distanceKm": 2.1,
+        "duration": "1시간 53분 13초",
+        "route": "GPS 이동 경로 참조 · 세부 지명 미확인",
+        "start": "GPS 출발점 (34.8805, 126.0602)",
+        "source": "https://www.ramblr.com/web/mymap/trip/761717/8057825"
+      }
+    },
+    "40": {
+      "2026-09-22": {
+        "distanceKm": 14.9,
+        "duration": "4시간 53분 13초",
+        "route": "GPS 이동 경로 참조 · 세부 지명 미확인",
+        "start": "GPS 출발점 (34.0753, 125.1094)",
+        "source": "https://www.ramblr.com/web/mymap/trip/761717/11099642"
+      }
+    },
+    "41": {
+      "2026-09-23": {
+        "distanceKm": 1.04,
+        "duration": "2시간 13분 12초",
+        "route": "GPS 이동 경로 참조 · 세부 지명 미확인",
+        "start": "GPS 출발점 (34.2088, 125.4709)",
+        "source": "https://www.ramblr.com/web/mymap/trip/761717/11101512"
+      }
+    },
+    "42": {
+      "2025-08-07": {
+        "distanceKm": 5.72,
+        "duration": "2시간 26분 47초",
+        "route": "GPS 이동 경로 참조 · 세부 지명 미확인",
+        "start": "GPS 출발점 (34.6842, 125.4429)",
+        "source": "https://www.ramblr.com/web/mymap/trip/761717/9012963"
+      }
+    },
+    "43": {
+      "2025-08-06": {
+        "distanceKm": 4.05,
+        "duration": "3시간 4분 11초",
+        "route": "GPS 이동 경로 참조 · 세부 지명 미확인",
+        "start": "GPS 출발점 (34.6850, 125.1925)",
+        "source": "https://www.ramblr.com/web/mymap/trip/761717/9005998"
+      }
+    },
+    "44": {
+      "2024-06-09": {
+        "distanceKm": 7.14,
+        "duration": "4시간 3분 5초",
+        "route": "GPS 이동 경로 참조 · 세부 지명 미확인",
+        "start": "GPS 출발점 (34.5504, 127.7528)",
+        "source": "https://www.ramblr.com/web/mymap/trip/761717/7109715"
+      }
+    },
+    "45": {
+      "2024-06-08": {
+        "distanceKm": 7.5,
+        "duration": "3시간 2분 0초",
+        "route": "GPS 이동 경로 참조 · 세부 지명 미확인",
+        "start": "GPS 출발점 (34.5990, 127.7809)",
+        "source": "https://www.ramblr.com/web/mymap/trip/761717/7103942"
+      }
+    },
+    "46": {
+      "2024-10-01": {
+        "distanceKm": 5.33,
+        "duration": "2시간 7분 36초",
+        "route": "GPS 이동 경로 참조 · 세부 지명 미확인",
+        "start": "GPS 출발점 (34.0277, 127.3090)",
+        "source": "https://www.ramblr.com/web/mymap/trip/761717/7557748"
+      }
+    },
+    "48": {
+      "2024-10-04": {
+        "distanceKm": 8.08,
+        "duration": "4시간 44분 11초",
+        "route": "GPS 이동 경로 참조 · 세부 지명 미확인",
+        "start": "GPS 출발점 (34.2415, 127.2446)",
+        "source": "https://www.ramblr.com/web/mymap/trip/761717/7575273"
+      },
+      "2024-03-03": {
+        "distanceKm": 3.33,
+        "duration": "2시간 27분 5초",
+        "route": "GPS 이동 경로 참조 · 세부 지명 미확인",
+        "start": "GPS 출발점 (34.7451, 128.4819)",
+        "source": "https://www.ramblr.com/web/mymap/trip/761717/6628631"
+      }
+    },
+    "49": {
+      "2024-09-18": {
+        "distanceKm": 9.07,
+        "duration": "4시간 11분 25초",
+        "route": "GPS 이동 경로 참조 · 세부 지명 미확인",
+        "start": "GPS 출발점 (34.5823, 127.6671)",
+        "source": "https://www.ramblr.com/web/mymap/trip/761717/7497586"
+      }
+    },
+    "50": {
+      "2024-08-10": {
+        "distanceKm": 6.62,
+        "duration": "3시간 10분 3초",
+        "route": "GPS 이동 경로 참조 · 세부 지명 미확인",
+        "start": "GPS 출발점 (34.6061, 127.5389)",
+        "source": "https://www.ramblr.com/web/mymap/trip/761717/7346080"
+      }
+    },
+    "51": {
+      "2024-08-11": {
+        "distanceKm": 8.02,
+        "duration": "2시간 23분 44초",
+        "route": "GPS 이동 경로 참조 · 세부 지명 미확인",
+        "start": "GPS 출발점 (34.5906, 127.5560)",
+        "source": "https://www.ramblr.com/web/mymap/trip/761717/7349853"
+      },
+      "2023-12-10": {
+        "distanceKm": 33.54,
+        "duration": "1시간 53분 59초",
+        "route": "GPS 이동 경로 참조 · 세부 지명 미확인",
+        "start": "GPS 출발점 (34.7170, 128.5573)",
+        "source": "https://www.ramblr.com/web/mymap/trip/761717/6368222"
+      }
+    },
+    "52": {
+      "2024-08-11": {
+        "distanceKm": 2.44,
+        "duration": "1시간 53분 52초",
+        "route": "GPS 이동 경로 참조 · 세부 지명 미확인",
+        "start": "GPS 출발점 (34.6210, 127.6370)",
+        "source": "https://www.ramblr.com/web/mymap/trip/761717/7348246"
+      }
+    },
+    "53": {
+      "2024-09-18": {
+        "distanceKm": 3.61,
+        "duration": "3시간 39분 24초",
+        "route": "GPS 이동 경로 참조 · 세부 지명 미확인",
+        "start": "GPS 출발점 (34.5938, 127.6185)",
+        "source": "https://www.ramblr.com/web/mymap/trip/761717/7499391"
+      }
+    },
+    "55": {
+      "2025-11-15": {
+        "distanceKm": 7.11,
+        "duration": "2시간 41분 35초",
+        "route": "GPS 이동 경로 참조 · 세부 지명 미확인",
+        "start": "GPS 출발점 (35.2739, 126.1508)",
+        "source": "https://www.ramblr.com/web/mymap/trip/761717/9642215"
+      }
+    },
+    "56": {
+      "2025-11-16": {
+        "distanceKm": 5.48,
+        "duration": "3시간 22분 51초",
+        "route": "GPS 이동 경로 참조 · 세부 지명 미확인",
+        "start": "GPS 출발점 (35.1923, 126.1305)",
+        "source": "https://www.ramblr.com/web/mymap/trip/761717/9651951"
+      }
+    },
+    "57": {
+      "2024-08-09": {
+        "distanceKm": 2.59,
+        "duration": "1시간 35분 3초",
+        "route": "GPS 이동 경로 참조 · 세부 지명 미확인",
+        "start": "GPS 출발점 (34.4496, 127.0423)",
+        "source": "https://www.ramblr.com/web/mymap/trip/761717/7341304"
+      }
+    },
+    "58": {
+      "2024-10-03": {
+        "distanceKm": 6.13,
+        "duration": "2시간 51분 1초",
+        "route": "GPS 이동 경로 참조 · 세부 지명 미확인",
+        "start": "GPS 출발점 (34.1404, 126.5623)",
+        "source": "https://www.ramblr.com/web/mymap/trip/761717/7569951"
+      }
+    },
+    "59": {
+      "2024-08-07": {
+        "distanceKm": 1.61,
+        "duration": "1시간 5분 20초",
+        "route": "GPS 이동 경로 참조 · 세부 지명 미확인",
+        "start": "GPS 출발점 (34.3287, 126.7931)",
+        "source": "https://www.ramblr.com/web/mymap/trip/761717/7335569"
+      }
+    },
+    "60": {
+      "2024-08-08": {
+        "distanceKm": 1.49,
+        "duration": "1시간 11분 27초",
+        "route": "GPS 이동 경로 참조 · 세부 지명 미확인",
+        "start": "GPS 출발점 (34.3213, 126.9818)",
+        "source": "https://www.ramblr.com/web/mymap/trip/761717/7337749"
+      }
+    },
+    "61": {
+      "2024-10-03": {
+        "distanceKm": 3.21,
+        "duration": "2시간 5분 18초",
+        "route": "GPS 이동 경로 참조 · 세부 지명 미확인",
+        "start": "GPS 출발점 (34.1559, 126.6653)",
+        "source": "https://www.ramblr.com/web/mymap/trip/761717/7567394"
+      }
+    },
+    "62": {
+      "2024-08-07": {
+        "distanceKm": 2.12,
+        "duration": "0시간 56분 57초",
+        "route": "GPS 이동 경로 참조 · 세부 지명 미확인",
+        "start": "GPS 출발점 (34.3701, 126.9133)",
+        "source": "https://www.ramblr.com/web/mymap/trip/761717/7335813"
+      }
+    },
+    "64": {
+      "2024-10-02": {
+        "distanceKm": 5.89,
+        "duration": "2시간 50분 41초",
+        "route": "GPS 이동 경로 참조 · 세부 지명 미확인",
+        "start": "GPS 출발점 (34.1772, 126.9056)",
+        "source": "https://www.ramblr.com/web/mymap/trip/761717/7564444"
+      }
+    },
+    "65": {
+      "2026-06-29": {
+        "distanceKm": 5.46,
+        "duration": "3시간 17분 6초",
+        "route": "GPS 이동 경로 참조 · 세부 지명 미확인",
+        "start": "GPS 출발점 (33.9857, 126.9220)",
+        "source": "https://www.ramblr.com/web/mymap/trip/761717/10745244"
+      }
+    },
+    "66": {
+      "2024-03-17": {
+        "distanceKm": 9.85,
+        "duration": "4시간 40분 32초",
+        "route": "GPS 이동 경로 참조 · 세부 지명 미확인",
+        "start": "GPS 출발점 (34.7167, 128.4587)",
+        "source": "https://www.ramblr.com/web/mymap/trip/761717/6686480"
+      },
+      "2023-06-07": {
+        "distanceKm": 0.38,
+        "duration": "0시간 20분 50초",
+        "route": "GPS 이동 경로 참조 · 세부 지명 미확인",
+        "start": "GPS 출발점 (34.4746, 126.3227)",
+        "source": "https://www.ramblr.com/web/mymap/trip/761717/5633925"
+      }
+    },
+    "68": {
+      "2025-01-26": {
+        "distanceKm": 2.85,
+        "duration": "1시간 20분 49초",
+        "route": "GPS 이동 경로 참조 · 세부 지명 미확인",
+        "start": "GPS 출발점 (34.2930, 126.0516)",
+        "source": "https://www.ramblr.com/web/mymap/trip/761717/8050803"
+      }
+    },
+    "69": {
+      "2025-01-26": {
+        "distanceKm": 2.46,
+        "duration": "1시간 47분 46초",
+        "route": "GPS 이동 경로 참조 · 세부 지명 미확인",
+        "start": "GPS 출발점 (34.2392, 126.0456)",
+        "source": "https://www.ramblr.com/web/mymap/trip/761717/8052039"
+      }
+    },
+    "71": {
+      "2023-09-10": {
+        "distanceKm": 3.47,
+        "duration": "1시간 55분 42초",
+        "route": "GPS 이동 경로 참조 · 세부 지명 미확인",
+        "start": "GPS 출발점 (35.0216, 128.8231)",
+        "source": "https://www.ramblr.com/web/mymap/trip/761717/5989979"
+      }
+    },
+    "72": {
+      "2023-09-10": {
+        "distanceKm": 2.34,
+        "duration": "1시간 13분 9초",
+        "route": "GPS 이동 경로 참조 · 세부 지명 미확인",
+        "start": "GPS 출발점 (35.0828, 129.0492)",
+        "source": "https://www.ramblr.com/web/mymap/trip/761717/5988639"
+      }
+    },
+    "73": {
+      "2023-05-03": {
+        "distanceKm": 8.52,
+        "duration": "4시간 28분 42초",
+        "route": "GPS 이동 경로 참조 · 세부 지명 미확인",
+        "start": "GPS 출발점 (37.4864, 130.8927)",
+        "source": "https://www.ramblr.com/web/mymap/trip/761717/5469034"
+      }
+    },
+    "75": {
+      "2023-09-10": {
+        "distanceKm": 2.48,
+        "duration": "1시간 10분 51초",
+        "route": "GPS 이동 경로 참조 · 세부 지명 미확인",
+        "start": "GPS 출발점 (34.8161, 128.5322)",
+        "source": "https://www.ramblr.com/web/mymap/trip/761717/5992802"
+      }
+    },
+    "76": {
+      "2023-12-03": {
+        "distanceKm": 39.6,
+        "duration": "2시간 0분 2초",
+        "route": "GPS 이동 경로 참조 · 세부 지명 미확인",
+        "start": "GPS 출발점 (34.7584, 128.6143)",
+        "source": "https://www.ramblr.com/web/mymap/trip/761717/6346904"
+      }
+    },
+    "77": {
+      "2023-09-10": {
+        "distanceKm": 2.29,
+        "duration": "1시간 30분 26초",
+        "route": "GPS 이동 경로 참조 · 세부 지명 미확인",
+        "start": "GPS 출발점 (34.9588, 128.5227)",
+        "source": "https://www.ramblr.com/web/mymap/trip/761717/5991673"
+      }
+    },
+    "78": {
+      "2023-12-09": {
+        "distanceKm": 4.2,
+        "duration": "1시간 31분 22초",
+        "route": "GPS 이동 경로 참조 · 세부 지명 미확인",
+        "start": "GPS 출발점 (34.8176, 128.7485)",
+        "source": "https://www.ramblr.com/web/mymap/trip/761717/6362274"
+      }
+    },
+    "79": {
+      "2023-12-09": {
+        "distanceKm": 2.24,
+        "duration": "1시간 39분 5초",
+        "route": "GPS 이동 경로 참조 · 세부 지명 미확인",
+        "start": "GPS 출발점 (34.7700, 128.7104)",
+        "source": "https://www.ramblr.com/web/mymap/trip/761717/6364595"
+      }
+    },
+    "80": {
+      "2023-12-30": {
+        "distanceKm": 3.89,
+        "duration": "2시간 32분 38초",
+        "route": "GPS 이동 경로 참조 · 세부 지명 미확인",
+        "start": "GPS 출발점 (34.7546, 127.9902)",
+        "source": "https://www.ramblr.com/web/mymap/trip/761717/6422998"
+      }
+    },
+    "81": {
+      "2023-12-30": {
+        "distanceKm": 1.33,
+        "duration": "1시간 4분 10초",
+        "route": "GPS 이동 경로 참조 · 세부 지명 미확인",
+        "start": "GPS 출발점 (34.8522, 127.9817)",
+        "source": "https://www.ramblr.com/web/mymap/trip/761717/6421857"
+      }
+    },
+    "82": {
+      "2024-05-05": {
+        "distanceKm": 4.87,
+        "duration": "1시간 27분 23초",
+        "route": "GPS 이동 경로 참조 · 세부 지명 미확인",
+        "start": "GPS 출발점 (34.9034, 128.0742)",
+        "source": "https://www.ramblr.com/web/mymap/trip/761717/6930181"
+      }
+    },
+    "83": {
+      "2023-12-03": {
+        "distanceKm": 2.89,
+        "duration": "1시간 27분 2초",
+        "route": "GPS 이동 경로 참조 · 세부 지명 미확인",
+        "start": "GPS 출발점 (35.0653, 128.5586)",
+        "source": "https://www.ramblr.com/web/mymap/trip/761717/6344012"
+      }
+    },
+    "84": {
+      "2023-12-03": {
+        "distanceKm": 2.31,
+        "duration": "1시간 45분 13초",
+        "route": "GPS 이동 경로 참조 · 세부 지명 미확인",
+        "start": "GPS 출발점 (34.8034, 128.4211)",
+        "source": "https://www.ramblr.com/web/mymap/trip/761717/6344952"
+      }
+    },
+    "85": {
+      "2024-09-17": {
+        "distanceKm": 3.95,
+        "duration": "6시간 41분 15초",
+        "route": "GPS 이동 경로 참조 · 세부 지명 미확인",
+        "start": "GPS 출발점 (34.8308, 128.1370)",
+        "source": "https://www.ramblr.com/web/mymap/trip/761717/7494542"
+      },
+      "2024-09-16": {
+        "distanceKm": 6.1,
+        "duration": "3시간 57분 52초",
+        "route": "GPS 이동 경로 참조 · 세부 지명 미확인",
+        "start": "GPS 출발점 (34.8337, 128.1378)",
+        "source": "https://www.ramblr.com/web/mymap/trip/761717/7492172"
+      }
+    },
+    "86": {
+      "2023-06-11": {
+        "distanceKm": 6.57,
+        "duration": "5시간 18분 38초",
+        "route": "GPS 이동 경로 참조 · 세부 지명 미확인",
+        "start": "GPS 출발점 (34.8428, 128.1695)",
+        "source": "https://www.ramblr.com/web/mymap/trip/761717/5650065"
+      }
+    },
+    "87": {
+      "2023-06-10": {
+        "distanceKm": 33.05,
+        "duration": "3시간 58분 42초",
+        "route": "GPS 이동 경로 참조 · 세부 지명 미확인",
+        "start": "GPS 출발점 (34.8360, 128.2150)",
+        "source": "https://www.ramblr.com/web/mymap/trip/761717/5648226"
+      }
+    },
+    "88": {
+      "2024-03-16": {
+        "distanceKm": 7.86,
+        "duration": "5시간 2분 42초",
+        "route": "GPS 이동 경로 참조 · 세부 지명 미확인",
+        "start": "GPS 출발점 (34.7365, 128.3945)",
+        "source": "https://www.ramblr.com/web/mymap/trip/761717/6680918"
+      }
+    },
+    "89": {
+      "2024-06-07": {
+        "distanceKm": 9.87,
+        "duration": "5시간 38분 51초",
+        "route": "GPS 이동 경로 참조 · 세부 지명 미확인",
+        "start": "GPS 출발점 (34.7089, 128.1834)",
+        "source": "https://www.ramblr.com/web/mymap/trip/761717/7099840"
+      }
+    },
+    "90": {
+      "2024-05-06": {
+        "distanceKm": 10.52,
+        "duration": "5시간 52분 59초",
+        "route": "GPS 이동 경로 참조 · 세부 지명 미확인",
+        "start": "GPS 출발점 (34.6322, 128.2655)",
+        "source": "https://www.ramblr.com/web/mymap/trip/761717/6934659"
+      }
+    },
+    "91": {
+      "2024-06-06": {
+        "distanceKm": 8.44,
+        "duration": "4시간 41분 40초",
+        "route": "GPS 이동 경로 참조 · 세부 지명 미확인",
+        "start": "GPS 출발점 (34.6496, 128.3516)",
+        "source": "https://www.ramblr.com/web/mymap/trip/761717/7094093"
+      }
+    },
+    "92": {
+      "2024-03-03": {
+        "distanceKm": 5.13,
+        "duration": "2시간 12분 45초",
+        "route": "GPS 이동 경로 참조 · 세부 지명 미확인",
+        "start": "GPS 출발점 (34.7670, 128.5065)",
+        "source": "https://www.ramblr.com/web/mymap/trip/761717/6631457"
+      }
+    },
+    "93": {
+      "2024-03-02": {
+        "distanceKm": 3.58,
+        "duration": "1시간 49분 56초",
+        "route": "GPS 이동 경로 참조 · 세부 지명 미확인",
+        "start": "GPS 출발점 (34.6291, 128.5481)",
+        "source": "https://www.ramblr.com/web/mymap/trip/761717/6624732"
+      }
+    },
+    "94": {
+      "2024-03-02": {
+        "distanceKm": 4.83,
+        "duration": "1시간 47분 35초",
+        "route": "GPS 이동 경로 참조 · 세부 지명 미확인",
+        "start": "GPS 출발점 (34.6474, 128.5752)",
+        "source": "https://www.ramblr.com/web/mymap/trip/761717/6623581"
+      }
+    },
+    "98": {
+      "2023-06-04": {
+        "distanceKm": 4.54,
+        "duration": "0시간 59분 3초",
+        "route": "GPS 이동 경로 참조 · 세부 지명 미확인",
+        "start": "GPS 출발점 (33.1139, 126.2683)",
+        "source": "https://www.ramblr.com/web/mymap/trip/761717/5613202"
+      }
+    },
+    "100": {
+      "2025-01-25": {
+        "distanceKm": 9.78,
+        "duration": "6시간 16분 48초",
+        "route": "GPS 이동 경로 참조 · 세부 지명 미확인",
+        "start": "GPS 출발점 (33.9482, 126.3280)",
+        "source": "https://www.ramblr.com/web/mymap/trip/761717/8047803"
+      }
+    }
+  }
+}

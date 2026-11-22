@@ -47,9 +47,10 @@
  function detail(id){
   const g=guides?.items[id];if(!g)return;const panel=document.querySelector(mountain?'#details':'#detail');if(!panel)return;
   panel.querySelector('.jk-guide-detail')?.remove();const section=make('section',null,'jk-guide-detail');section.setAttribute('aria-label',g.name+' 소개와 볼거리');section.append(make('p',g.summary));
+  if(g.recommendedVisit){const r=g.recommendedVisit;section.append(make('p','방문하기 좋은 계절 · '+r.seasons.join('·')+' — '+r.reason));section.append(make('small',r.basis));}
   if(g.highlights.length)section.append(make('p','추천 볼거리 · '+g.highlights.map(h=>[h.season,h.feature].filter(Boolean).join(' ')).join(' / ')));
   if(g.photoThemes.length)section.append(make('p','사진 속 풍경 · '+g.photoThemes.join('·')));
-  const keys=[...new Set([...g.sources,...g.highlights.map(h=>h.source).filter(Boolean)])];
+  const keys=[...new Set([...g.sources,...g.highlights.map(h=>h.source).filter(Boolean),...(g.recommendedVisit?.sourceKeys||[])])];
   for(const key of keys){const source=guides.sources[key];if(!source)continue;const a=make('a',source.title+' ↗');a.href=source.url;a.target='_blank';a.rel='noopener noreferrer';section.append(a);}
   if(g.highlights.length)section.append(make('small','개화·적설과 행사 일정은 해마다 달라집니다.'));
   const anchor=panel.querySelector(mountain?'#dialogSubtitle':'#detail-title');anchor?.after(section);
