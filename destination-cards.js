@@ -22,7 +22,8 @@
  html body .jk-guide-detail small{display:block;color:#75664f;line-height:1.5}
  `;document.head.append(style);
  const make=(tag,text,cls)=>{const n=document.createElement(tag);if(text)n.textContent=text;if(cls)n.className=cls;return n;};
- let guides=null,extras=null;
+ let guides=null,extras=null,activeDetailId='';
+ function introduction(id){const group=id.startsWith('m-')?'mountains':'islands',value=extras?.[group]?.[id.slice(2)]?.introduction;return typeof value==='string'?value:guides?.items[id]?.summary||'';}
  const root=document.querySelector(map?'#entries':mountain?'#cards':'#island-cards');if(!root)return;
  const mapData=map?JSON.parse(document.getElementById('data').textContent):[];
  const records=mountain?JSON.parse(document.getElementById('mountain-data').textContent):island?(()=>{const s=[...document.querySelectorAll('script:not([src])')].find(s=>s.textContent.includes('const records='));return JSON.parse(s.textContent.match(/const records=(\[[\s\S]*?\]);/)[1]);})():[];
@@ -38,15 +39,15 @@
   for(const card of root.querySelectorAll(map?':scope>.entry':mountain?':scope>.card':':scope>.ux-island-card')){
    const id=guideId(card),g=guides.items[id];if(!g)continue;card.dataset.guideId=id;count(card,id);
    if(map){card.querySelector('.jk-guide-body')?.remove();continue;}
-   if(card.querySelector('.jk-guide-body'))continue;
-   const body=make('span',null,'jk-guide-body');body.append(make('span',g.summary,'jk-guide-intro'));
+   const existing=card.querySelector('.jk-guide-body');if(existing){const intro=existing.querySelector('.jk-guide-intro');if(intro&&intro.textContent!==introduction(id))intro.textContent=introduction(id);continue;}
+   const body=make('span',null,'jk-guide-body');body.append(make('span',introduction(id),'jk-guide-intro'));
    if(!map){if(g.cover){const img=make('img',null,'jk-guide-cover jk-photo-protected');img.src=new URL(g.cover.src,base).href;img.alt=g.cover.alt;img.title=g.name+' · '+(g.cover.date||'촬영일 미등록');img.loading='lazy';img.decoding='async';img.width=76;img.height=64;img.draggable=false;img.addEventListener('error',()=>img.replaceWith(make('span','사진 준비 중','jk-guide-missing')),{once:true});body.append(img);}else body.append(make('span','사진 준비 중','jk-guide-missing'));}
    const destination=map?(card.querySelector('.map-row-copy')||card.querySelector(':scope>span')):card;destination.append(body);
   }
  }
  function detail(id){
   const g=guides?.items[id];if(!g)return;const panel=document.querySelector(mountain?'#details':'#detail');if(!panel)return;
-  panel.querySelector('.jk-guide-detail')?.remove();const section=make('section',null,'jk-guide-detail');section.setAttribute('aria-label',g.name+' 소개와 볼거리');section.append(make('p',g.summary));
+  activeDetailId=id;panel.querySelector('.jk-guide-detail')?.remove();const section=make('section',null,'jk-guide-detail');section.setAttribute('aria-label',g.name+' 소개와 볼거리');const summary=introduction(id);if(summary)section.append(make('p',summary));
   if(g.recommendedVisit){const r=g.recommendedVisit;section.append(make('p','방문하기 좋은 계절 · '+r.seasons.join('·')+' — '+r.reason));section.append(make('small',r.basis));}
   if(g.highlights.length)section.append(make('p','추천 볼거리 · '+g.highlights.map(h=>[h.season,h.feature].filter(Boolean).join(' ')).join(' / ')));
   if(g.photoThemes.length)section.append(make('p','사진 속 풍경 · '+g.photoThemes.join('·')));
@@ -61,5 +62,6 @@
   root.addEventListener('click',e=>{const card=e.target.closest('.entry');if(!card||!link)return;const d=mapData[Number(card.dataset.index)];if(!d)return;const url=page==='yeongnam-alps-map.html'?d.recordUrl:(page==='islands-map.html'?'islands.html?island=':'mountains.html?mountain=')+encodeURIComponent(d.no);if(url){link.href=url;link.textContent=d.name+' 산행 기록 보기 →';}});
  }else root.addEventListener('click',e=>{const card=e.target.closest(mountain?'.card':'.ux-island-card');if(card)detail((mountain?'m-':'i-')+card.dataset.no);});
  let queued=false;const schedule=()=>{if(queued)return;queued=true;requestAnimationFrame(()=>{queued=false;enrich();});};new MutationObserver(schedule).observe(root,{childList:true,subtree:true});
+ window.addEventListener('jk-hike-details-updated',e=>{extras=e.detail;enrich();if(activeDetailId)detail(activeDetailId);});
  Promise.all([fetch(new URL('destination-guides.json?v=20261120-supplement1',base)).then(r=>{if(!r.ok)throw Error('소개 자료 연결 실패');return r.json();}),fetch(new URL('hike-details.json',base),{cache:'no-cache'}).then(r=>r.ok?r.json():null).catch(()=>null)]).then(([g,x])=>{guides=g;window.JKDestinationGuides=g;extras=x;enrich();const p=new URLSearchParams(location.search),id=mountain?'m-'+p.get('mountain'):island?'i-'+p.get('island'):'';if(guides.items[id])detail(id);window.dispatchEvent(new CustomEvent('jk-destination-guides-ready',{detail:g}));}).catch(e=>console.warn(e.message));
 })();

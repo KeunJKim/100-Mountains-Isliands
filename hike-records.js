@@ -6,8 +6,10 @@ const API=`https://api.github.com/repos/${OWNER}/${REPO}/contents/${FILE}`;
 const BLANK=()=>({version:1,mountains:{},islands:{}});
 let publicData=BLANK();
 let linkedGpsData={mountains:{},islands:{}};
+let introductionGuides={items:{}};
 let sessionToken=''; // 보안: 페이지 메모리에만 유지, 로컬 저장·쿠키·서버 기록 금지
 const fields=[
+ ['introduction','장소 소개 (목록·상세 화면 공통)','textarea','예: 낙엽 깔린 산길과 능선에서 가을 풍경을 만납니다.'],
  ['hikeDate','산행일','date','선택한 산·섬을 방문한 날'],
  ['route','산행 코스','text','예: 주차장 → 능선 → 정상 → 원점회귀'],
  ['distanceKm','산행거리 (km)','number','예: 8.7'],
@@ -55,7 +57,7 @@ function gpsDefaults(kind,rec,date){
   return {distanceKm:gps.distanceKm,duration:gps.elapsed||'',route:gps.course&&!/확인 중|미확인|원본 제목/.test(gps.course)?gps.course:'GPS 이동 경로 참조 · 세부 지명 미확인',start:gps.startName||(point?'GPS 출발점 ('+point[0].toFixed(4)+', '+point[1].toFixed(4)+')':'')};
  }return linkedGpsData[groupOf(kind)]?.[String(rec.no)]?.[date]||{};
 }
-function infoOf(kind,rec,includeGps=true){const extra=publicData[groupOf(kind)]?.[keyOf(rec)]||{};const values={...baseline(kind,rec),...(hiddenDates(kind,rec).includes(extra.hikeDate)?{}:extra)};if(hiddenDates(kind,rec).includes(values.hikeDate))values.hikeDate='';if(includeGps)for(const [key,value]of Object.entries(gpsDefaults(kind,rec,values.hikeDate)))if((values[key]===''||values[key]==null)&&value!==undefined&&value!==null)values[key]=value;return values;}
+function infoOf(kind,rec,includeGps=true){const extra=publicData[groupOf(kind)]?.[keyOf(rec)]||{};const values={...baseline(kind,rec),...(hiddenDates(kind,rec).includes(extra.hikeDate)?{}:extra)};const guideId=(kind==='mountains'?'m-':'i-')+rec.no;values.introduction=typeof extra.introduction==='string'?extra.introduction:(window.JKDestinationGuides||introductionGuides).items?.[guideId]?.summary||'';if(hiddenDates(kind,rec).includes(values.hikeDate))values.hikeDate='';if(includeGps)for(const [key,value]of Object.entries(gpsDefaults(kind,rec,values.hikeDate)))if((values[key]===''||values[key]==null)&&value!==undefined&&value!==null)values[key]=value;return values;}
 async function loadPublic(){
  try{const resp=await fetch(FILE+'?v='+Date.now(),{cache:'no-store'});
   if(!resp.ok)throw Error('산행 기록 파일을 불러올 수 없습니다.');
@@ -63,7 +65,7 @@ async function loadPublic(){
   publicData=doc;
  }catch(e){console.warn('보충 산행 기록 불러오기:',e.message)}
 }
-const ready=Promise.all([loadPublic(),fetch('gps-summary-defaults.json',{cache:'no-cache'}).then(r=>r.ok?r.json():null).then(data=>{if(data?.mountains&&data?.islands)linkedGpsData=data;}).catch(()=>{})]);
+const ready=Promise.all([loadPublic(),fetch('gps-summary-defaults.json',{cache:'no-cache'}).then(r=>r.ok?r.json():null).then(data=>{if(data?.mountains&&data?.islands)linkedGpsData=data;}).catch(()=>{}),fetch('destination-guides.json',{cache:'no-cache'}).then(r=>r.ok?r.json():null).then(data=>{if(data?.items)introductionGuides=data;}).catch(()=>{})]);
 function addRow(list,label,value){
  if(value===null||value===undefined||value==='')return;
  if(typeof value==='string'&&value.trim()==='')return;
@@ -136,7 +138,7 @@ async function saveToGitHub(kind,rec,changes,token,visibility){
  if(get.ok)body.sha=raw.sha;
  const put=await fetch(API,{method:'PUT',headers:{...headers,'Content-Type':'application/json'},body:JSON.stringify(body)});
  const answer=await put.json().catch(()=>({}));if(!put.ok)throw Error(apiError(put,answer));
- publicData=content;refreshVisibility();
+ publicData=content;refreshVisibility();window.dispatchEvent(new CustomEvent('jk-hike-details-updated',{detail:content}));
 }
 function renderForm(box,kind,rec){
  sessionToken=window.JKOwnerSession?.getToken()||sessionToken;
@@ -159,7 +161,10 @@ function renderForm(box,kind,rec){
  form.addEventListener('submit',async e=>{
   e.preventDefault();if(save.disabled)return;
   const formdata=new FormData(form),changes={};
+  const introductionChanged=String(formdata.get('introduction')||'').trim()!==String(values.introduction||'');
   for(const [field,,type] of fieldsFor(values)){let v=String(formdata.get(field)||'').trim();
+   if(field==='introduction'&&v===String(values.introduction||''))continue;
+   if(introductionChanged&&field!=='introduction'&&v===String(values[field]??''))continue;
    if(type==='number'&&v!==''){
     const n=Number(v);if(!validNumber(n)){status(notice,'숫자 항목은 0 이상, 15000 이하로 입력해 주세요.',true);return}v=n;
    }
