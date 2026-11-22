@@ -74,9 +74,9 @@ function renderSummary(box,kind,rec){
  const rows=[['hikeDate','산행일'],['route','산행 코스'],['distanceKm','산행거리'],['duration','산행시간'],['summitElevationM','정상 고도'],['elevationGainM','누적 상승 고도'],['start','들머리'],['parking','주차·교통'],['difficulty','난이도'],['weather','날씨·계절'],['notes','산행 메모'],['blogUrl','연결한 산행기']];
  if(kind==='islands'){
   const certification=rec.peak||'미등록',height=Number.isFinite(rec.certElevationM)?rec.certElevationM+' m':'높이 확인 중';
-  const islandRows=[['산행일',values.hikeDate],['인증지',certification],['인증지 높이',height],['인증지',certification],['산행시간',values.duration],['들머리',values.start],['산행 코스',values.route]];
+  const islandRows=[['산행일',values.hikeDate],['인증지',certification],['인증지 높이',height],['산행거리',readable(values.distanceKm,'distanceKm')],['산행시간',values.duration],['들머리',values.start],['산행 코스',values.route]];
   islandRows.forEach(([label,value],i)=>{addRow(dl,label,value===null||value===undefined||String(value).trim()===''?'미등록':value);dl.lastElementChild.previousElementSibling.dataset.summaryPosition=String(i);});
-  rows.filter(([k])=>!['hikeDate','duration','start','route'].includes(k)).forEach(([k,n])=>addRow(dl,n,readable(values[k],k)));
+  rows.filter(([k])=>!['hikeDate','distanceKm','duration','start','route'].includes(k)).forEach(([k,n])=>addRow(dl,n,readable(values[k],k)));
  }else rows.forEach(([k,n])=>addRow(dl,n,readable(values[k],k)));
  const heading=el('h3','나의 상세 산행 정보');
  const note=el('p','기존 BAC 인증일과 인증지 정보는 그대로 보존합니다. 아래 정보에서 추가·수정하거나 날짜별 산행 기록을 삭제·복원할 수 있습니다.');
