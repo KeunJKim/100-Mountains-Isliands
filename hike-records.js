@@ -118,7 +118,9 @@ function fieldNode(field,value){
  input.value=value===null||value===undefined?'':String(value);
  container.append(input);return container;
 }
-function status(box,msg,error=false){box.textContent=msg;box.style.color=error?'#ffc7c7':'#ffe0a4'}
+function status(box,msg,error=false){box.classList.remove('ux-save-success');box.textContent=msg;box.style.color=error?'#ffc7c7':'#ffe0a4'}
+const savedMessage='GitHub에 저장되었습니다. GitHub Pages에 배포되면 모든 방문자에게 표시됩니다.';
+function savedNotice(){const notice=el('p',savedMessage,'ux-status ux-save-success');notice.setAttribute('role','status');return notice;}
 function apiError(response,obj){return `GitHub 요청 실패 (${response.status}): ${obj?.message||'계정·권한·연결을 확인하세요.'}`}
 function b64ToText(b64){const bytes=Uint8Array.from(atob(b64.replace(/\s/g,'')),c=>c.charCodeAt(0));return new TextDecoder().decode(bytes)}
 function textToB64(txt){const u=new TextEncoder().encode(txt);let binary='';for(let i=0;i<u.length;i+=32768)binary+=String.fromCharCode(...u.subarray(i,i+32768));return btoa(binary)}
@@ -151,8 +153,10 @@ function renderForm(box,kind,rec){
  label.append(tokenInput);grid.append(label);
  form.append(grid,el('p','관리자 메뉴에서 연결한 토큰은 현재 탭에서 작업 종료까지 사용합니다. 다른 사람에게 공유하지 마세요. 사진은 ‘사진 갤러리’에서 따로 관리합니다.','ux-help'));
  const actions=el('div',null,'ux-actions'),save=el('button','GitHub에 저장','ux-save-btn'),cancel=el('button','취소','ux-cancel-btn');
- save.type='submit';cancel.type='button';cancel.onclick=()=>renderSummary(box,kind,rec);actions.append(save,cancel);
+ let hasSaved=false;
+ save.type='submit';cancel.type='button';cancel.onclick=()=>{renderSummary(box,kind,rec);if(hasSaved)box.append(savedNotice());};actions.append(save,cancel);
  const notice=el('div','','ux-status');notice.setAttribute('role','status');form.append(actions,notice);
+ form.addEventListener('input',e=>{if(e.target!==tokenInput&&notice.classList.contains('ux-save-success')){notice.classList.remove('ux-save-success');notice.textContent='변경한 내용은 GitHub에 다시 저장해 주세요.';}});
  const removal=el('section',null,'ux-delete-tools'),removeTitle=el('h4','날짜별 산행 기록 삭제'),removeLabel=el('label','삭제할 산행 기록'),choice=el('select');choice.setAttribute('aria-label','삭제할 산행 기록');
  const dates=[...new Set([...(rec.visits||[]).map(v=>v.date),rec.visit,values.hikeDate,...[...box.parentElement.querySelectorAll('.visit')].map(visitDate)].filter(date=>/^\d{4}-\d{2}-\d{2}$/.test(date||'')))].filter(date=>!hiddenDates(kind,rec).includes(date)).sort().reverse();
  for(const date of dates){const option=el('option',date+' 산행');option.value=date;choice.append(option);}choice.value=dates.includes(values.hikeDate)?values.hikeDate:dates[0]||'';removeLabel.append(choice);
@@ -176,8 +180,10 @@ function renderForm(box,kind,rec){
   const entered=String(formdata.get('token')||'').trim();if(entered)sessionToken=entered;
   if(!sessionToken){status(notice,'GitHub 저장용 토큰을 입력해야 합니다. 토큰 없이 공개 사이트에 저장할 수 없습니다.',true);return}
   save.disabled=true;status(notice,'GitHub에 산행 정보를 저장하는 중입니다.');
-  try{await saveToGitHub(kind,rec,changes,sessionToken);renderSummary(box,kind,rec);
-   const ok=el('p','GitHub에 저장되었습니다. GitHub Pages에 배포되면 모든 방문자에게 표시됩니다.','ux-status ux-save-success');ok.setAttribute('role','status');box.append(ok);
+  try{await saveToGitHub(kind,rec,changes,sessionToken);
+   hasSaved=true;tokenInput.value='';Object.assign(values,infoOf(kind,rec));Object.assign(original,infoOf(kind,rec,false));
+   notice.classList.add('ux-save-success');notice.style.removeProperty('color');notice.textContent=savedMessage;
+   save.disabled=false;cancel.textContent='상세 정보 보기';notice.scrollIntoView({block:'nearest',behavior:'smooth'});
   }catch(error){status(notice,`저장하지 못했습니다: ${error.message}`,true);save.disabled=false}
  });
  box.replaceChildren(form);
