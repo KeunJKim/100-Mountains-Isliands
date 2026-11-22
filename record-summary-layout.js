@@ -8,6 +8,9 @@
  html body .hike-stats>div,html body #stats>div{display:flex!important;align-items:baseline;justify-content:space-between;gap:6px 12px!important;min-width:0}
  html body .hike-stats>div,html body #stats>div{box-shadow:inset 0 0 0 1px #d6c5a9!important}
  html body .hike-stats>div>:is(span,strong),html body #stats>div>:is(span,strong){display:inline!important;margin:0!important;white-space:nowrap}
+ html body .tranggle-reference dl{grid-template-columns:repeat(auto-fit,minmax(min(100%,300px),1fr))!important}
+ html body .tranggle-reference dl>div{display:flex!important;align-items:baseline;justify-content:space-between;flex-wrap:nowrap!important;gap:8px!important;min-width:0}
+ html body .tranggle-reference dl>div>:is(dt,dd){display:inline!important;flex:0 0 auto;margin:0!important;white-space:nowrap!important;line-height:1.6!important}
  html body dl.jk-detail-info-grid>.jk-detail-info-cell>dt,html body dl.jk-detail-info-grid>.jk-detail-info-cell>dd{min-width:0;max-width:100%;height:auto!important;margin:0!important;white-space:pre-wrap!important;overflow-wrap:anywhere;line-height:1.6!important}
  html body dl.jk-detail-info-grid>.jk-detail-info-cell>dt{color:#746b5d!important;font-weight:400}
  html body dl.jk-detail-info-grid>.jk-detail-info-cell>dd{color:#403a32!important}

@@ -98,7 +98,7 @@ document.addEventListener('click',e=>{if(!menu.contains(e.target))close();});doc
 (()=>{const s=document.createElement('script');s.src='https://keunjkim.github.io/100-Mountains-Isliands/destination-cards.js?v=20261120-mapintro2';document.head.append(s);})();
 
 /* 모든 산행 상세 정보의 3열 배열 */
-(()=>{const s=document.createElement('script');s.src='https://keunjkim.github.io/100-Mountains-Isliands/record-summary-layout.js?v=20261120-detailgrid1';document.head.append(s);})();
+(()=>{const s=document.createElement('script');s.src='https://keunjkim.github.io/100-Mountains-Isliands/record-summary-layout.js?v=20261122-stats-inline';document.head.append(s);})();
 
 /* 지도 코스 연결·영남알프스 상세 닫기 */
 (()=>{const s=document.createElement('script');s.src='https://keunjkim.github.io/100-Mountains-Isliands/map-record-controls.js?v=20261120-mapcourse1';document.head.append(s);})();
