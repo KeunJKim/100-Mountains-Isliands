@@ -28,8 +28,9 @@
  .jk-protected-viewer img{width:100%;height:100%;object-fit:contain;min-height:0}
  .jk-protected-viewer .jk-photo-credit{position:absolute;right:12px;bottom:10px;padding:3px 6px;background:#0008;color:white;font:12px/1.4 sans-serif;pointer-events:none}
  .jk-protected-viewer button{align-self:flex-end}
- .jk-protected-viewer .jk-photo-nav{display:flex;align-items:center;justify-content:space-between;gap:8px;flex:0 0 auto;min-width:0}
- .jk-protected-viewer .jk-photo-nav button{flex:0 0 auto;align-self:center;padding:8px 12px;border:1px solid #ae9770;border-radius:8px;background:#f4e8cd;color:#29462a;cursor:pointer}
+ .jk-protected-viewer .jk-photo-nav{display:flex;align-items:center;justify-content:center;gap:8px;flex:0 0 auto;min-width:0}
+ .jk-protected-viewer .jk-photo-nav button{position:absolute;top:50%;transform:translateY(-50%);z-index:4;flex:0 0 auto;align-self:center;padding:8px 12px;border:1px solid #ae9770;border-radius:8px;background:#f4e8cd;color:#29462a;cursor:pointer}
+ .jk-protected-viewer .jk-photo-nav button:first-child{left:12px}.jk-protected-viewer .jk-photo-nav button:last-child{right:12px}
  .jk-protected-viewer .jk-photo-caption{flex:1;min-width:0;text-align:center;color:#403a32;overflow-wrap:anywhere}
  .lb-image-stage::after,.jk-protected-viewer .jk-photo-credit{right:var(--jk-photo-right,8px);bottom:var(--jk-photo-bottom,8px)}
  @media(min-width:1000px) and (max-width:1599px){html body .jk-header-grid .jk-compact-menu{grid-column:1/-1!important;grid-row:3!important;justify-content:flex-start!important}}
@@ -76,7 +77,7 @@
   const group=link.closest('.local-photo-panel,.jk-source-panel,#article-photos,.tranggle-reference,.shealth-reference')||link.closest('.local-photo-grid,.jk-source-grid');
   const items=[...group.querySelectorAll('a[href]')].filter(a=>a.querySelector('img')&&/\.(?:jpe?g|png|webp)(?:$|\?)/i.test(a.href));
   let index=items.indexOf(link);if(index<0)return;
-  const dialog=document.createElement('dialog');dialog.className='jk-protected-viewer';dialog.setAttribute('aria-label','산행 사진 전체 보기');const close=document.createElement('button');close.textContent='사진 닫기 ×';close.type='button';
+  const dialog=document.createElement('dialog');dialog.className='jk-protected-viewer';dialog.setAttribute('aria-label','산행 사진 전체 보기');const close=document.createElement('button');close.textContent='사진 닫기 ×';close.type='button';close.className='jk-record-photo-close';
   const nav=document.createElement('div');nav.className='jk-photo-nav';const previous=document.createElement('button'),next=document.createElement('button'),caption=document.createElement('span');previous.type=next.type='button';previous.textContent='← 이전';next.textContent='다음 →';previous.setAttribute('aria-label','이전 사진');next.setAttribute('aria-label','다음 사진');caption.className='jk-photo-caption';caption.setAttribute('aria-live','polite');nav.append(previous,caption,next);
   const stage=document.createElement('div');stage.className='jk-photo-stage';const img=document.createElement('img');img.className='jk-photo-protected';img.draggable=false;const credit=document.createElement('span');credit.className='jk-photo-credit';credit.textContent='© 김종근 · JK 의 산하정복';stage.append(img,credit);dialog.append(close,nav,stage);document.body.append(dialog);
   function show(){const current=items[index],title=current.querySelector('img').alt||current.textContent.trim()||'산행 사진';img.src=current.href;img.alt=title;caption.textContent=(index+1)+' / '+items.length+' · '+title;previous.disabled=next.disabled=items.length<2;}
