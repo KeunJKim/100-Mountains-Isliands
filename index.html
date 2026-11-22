@@ -31,7 +31,8 @@
 .mobile-links{display:none;padding:16px;background:#082d58;gap:9px;grid-template-columns:repeat(2,minmax(0,1fr))}
 .mobile-links a{display:flex;align-items:center;justify-content:center;text-align:center;border:1px solid #8ec7e7;border-radius:10px;color:white;padding:12px 7px;font-size:14px;font-weight:700}
 .mobile-links a:first-child{grid-column:span 2;color:#c7fb98}
-.extra{padding:20px 26px 26px;background:#fff;color:#183e5b;font-size:14px}
+.extra{padding:6px 26px 26px;background:#fff;color:#183e5b;font-size:14px}
+@media(min-width:701px){.extra{position:relative;margin-top:-6px;background:linear-gradient(to bottom,transparent,#fff 14px)}}
 .extra p{margin:0 0 10px}.extra-links{display:flex;gap:9px;flex-wrap:wrap}
 .extra-links a{border:1px solid #b2c9d8;padding:7px 12px;border-radius:9px}
 .extra-links a:hover{background:#e8f4fc}
@@ -47,7 +48,7 @@
 <main class="page">
   <h1 class="sr-only">산길 바다길 — BAC 인증 기반 100산·100섬 여정</h1>
   <section class="stage" aria-label="산길 바다길 홈페이지 첫 화면">
-    <img src="home-visual-clean-tiles.png" alt="산과 바다가 펼쳐진 산길 바다길 홈페이지. BAC 100대명산 및 100섬 여행기, 산행 여행 정보, 사진 갤러리, 여행 이야기" fetchpriority="high">
+    <img src="home-visual-lower-trail.png" alt="산과 바다가 펼쳐진 산길 바다길 홈페이지. BAC 100대명산 및 100섬 여행기, 산행 여행 정보, 사진 갤러리, 여행 이야기" fetchpriority="high">
     <a class="hotspot nav-home" href="./" aria-label="홈"></a>
     <a class="hotspot nav-mountains" href="mountains.html" aria-label="100산 산행기"></a>
     <a class="hotspot nav-islands" href="islands.html" aria-label="100섬 여행기"></a>
