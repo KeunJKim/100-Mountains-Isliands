@@ -22,8 +22,9 @@
   for(const node of [...dl.children]){if(node.tagName!=='DT')continue;const value=node.nextElementSibling;if(value?.tagName!=='DD')continue;const cell=document.createElement('div');cell.className='jk-detail-info-cell';node.before(cell);cell.append(node,value);}
   const order=['산행일','정상 고도','산행거리','산행시간','들머리','주차·교통','산행 코스'];
   const key=label=>label==='최고 GPS 고도'?'정상 고도':label.replace(/\s*\(앱\)$/,'');
-  const cells=[...dl.children];cells.sort((a,b)=>{const ai=order.indexOf(key(a.querySelector('dt')?.textContent||'')),bi=order.indexOf(key(b.querySelector('dt')?.textContent||''));return(ai<0?99:ai)-(bi<0?99:bi);});
-  let extra=0;for(const cell of cells){const i=order.indexOf(key(cell.querySelector('dt')?.textContent||''));if(i===6)cell.dataset.summaryField='course';else{const slot=i>=0?i:9+extra++;cell.dataset.summarySlot=String(slot);cell.style.setProperty('--summary-column',String(slot%3+1));cell.style.setProperty('--summary-row',String(Math.floor(slot/3)+1));}dl.append(cell);}
+  const position=cell=>{const dt=cell.querySelector('dt');return dl.dataset.summaryKind==='islands'?(dt?.dataset.summaryPosition===undefined?-1:Number(dt.dataset.summaryPosition)):order.indexOf(key(dt?.textContent||''));};
+  const cells=[...dl.children];cells.sort((a,b)=>{const ai=position(a),bi=position(b);return(ai<0?99:ai)-(bi<0?99:bi);});
+  let extra=0;for(const cell of cells){const i=position(cell);if(i===6)cell.dataset.summaryField='course';else{const slot=i>=0?i:9+extra++;cell.dataset.summarySlot=String(slot);cell.style.setProperty('--summary-column',String(slot%3+1));cell.style.setProperty('--summary-row',String(Math.floor(slot/3)+1));}dl.append(cell);}
   dl.classList.add('jk-detail-info-grid');
  }
  function gpxSummary(){
