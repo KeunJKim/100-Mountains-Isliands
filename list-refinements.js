@@ -28,6 +28,9 @@
  .jk-protected-viewer img{width:100%;height:100%;object-fit:contain;min-height:0}
  .jk-protected-viewer .jk-photo-credit{position:absolute;right:12px;bottom:10px;padding:3px 6px;background:#0008;color:white;font:12px/1.4 sans-serif;pointer-events:none}
  .jk-protected-viewer button{align-self:flex-end}
+ .jk-protected-viewer .jk-photo-nav{display:flex;align-items:center;justify-content:space-between;gap:8px;flex:0 0 auto;min-width:0}
+ .jk-protected-viewer .jk-photo-nav button{flex:0 0 auto;align-self:center;padding:8px 12px;border:1px solid #ae9770;border-radius:8px;background:#f4e8cd;color:#29462a;cursor:pointer}
+ .jk-protected-viewer .jk-photo-caption{flex:1;min-width:0;text-align:center;color:#403a32;overflow-wrap:anywhere}
  .lb-image-stage::after,.jk-protected-viewer .jk-photo-credit{right:var(--jk-photo-right,8px);bottom:var(--jk-photo-bottom,8px)}
  @media(min-width:1000px) and (max-width:1599px){html body .jk-header-grid .jk-compact-menu{grid-column:1/-1!important;grid-row:3!important;justify-content:flex-start!important}}
  @media(max-width:760px){html body.jk-readable-lists :is(#cards,#island-cards,#alps-records,#list.grid,#overseas-list){grid-template-columns:repeat(2,minmax(0,1fr))!important;gap:9px!important}}
@@ -61,14 +64,26 @@
   const list=document.getElementById('album-list'),top=list.scrollTop,x=scrollX,y=scrollY;
   requestAnimationFrame(()=>{list.scrollTop=top;window.scrollTo({left:x,top:y,behavior:'instant'});});
  },true);
- const photoSelector='.photo-card,.jk-source-grid,.local-photo-grid,#article-photos,.jk-protected-viewer,.lb-image-stage';
+ const photoSelector='.photo-card,.jk-source-grid,.local-photo-grid,#article-photos,.tranggle-reference,.shealth-reference,.jk-protected-viewer,.lb-image-stage';
  const isPhoto=target=>target instanceof Element&&(target.matches('img.jk-photo-protected')||!!target.closest(photoSelector));
  for(const type of ['contextmenu','dragstart','copy','cut'])document.addEventListener(type,event=>{if(isPhoto(event.target))event.preventDefault();},true);
  document.addEventListener('keydown',event=>{if((event.ctrlKey||event.metaKey)&&event.key.toLowerCase()==='s'&&document.querySelector('#lightbox.open,.jk-protected-viewer[open]'))event.preventDefault();},true);
  document.addEventListener('click',event=>{
-  const link=event.target.closest('a[href]');if(!link?.querySelector('img')||!link.closest('.jk-source-grid,.local-photo-grid,#article-photos'))return;
+  const link=event.target.closest('a[href]');if(!link?.querySelector('img')||!link.closest('.jk-source-grid,.local-photo-grid,#article-photos,.tranggle-reference,.shealth-reference'))return;
   const url=new URL(link.href,location.href);if(!/\.(?:jpe?g|png|webp)(?:$|\?)/i.test(url.href))return;
-  event.preventDefault();event.stopImmediatePropagation();const dialog=document.createElement('dialog');dialog.className='jk-protected-viewer';dialog.setAttribute('aria-label','산행 사진 전체 보기');const close=document.createElement('button');close.textContent='사진 닫기 ×';close.type='button';const stage=document.createElement('div');stage.className='jk-photo-stage';const img=document.createElement('img');img.src=url.href;img.alt=link.querySelector('img').alt;img.className='jk-photo-protected';img.draggable=false;const credit=document.createElement('span');credit.className='jk-photo-credit';credit.textContent='© 김종근 · JK 의 산하정복';stage.append(img,credit);dialog.append(close,stage);document.body.append(dialog);close.onclick=()=>dialog.close();dialog.addEventListener('close',()=>{dialog.remove();link.focus({preventScroll:true});},{once:true});dialog.showModal();
+  event.preventDefault();event.stopImmediatePropagation();
+  // Keep the first thumbnails and the collapsed "remaining photos" in one record-scoped sequence.
+  const group=link.closest('.local-photo-panel,.jk-source-panel,#article-photos,.tranggle-reference,.shealth-reference')||link.closest('.local-photo-grid,.jk-source-grid');
+  const items=[...group.querySelectorAll('a[href]')].filter(a=>a.querySelector('img')&&/\.(?:jpe?g|png|webp)(?:$|\?)/i.test(a.href));
+  let index=items.indexOf(link);if(index<0)return;
+  const dialog=document.createElement('dialog');dialog.className='jk-protected-viewer';dialog.setAttribute('aria-label','산행 사진 전체 보기');const close=document.createElement('button');close.textContent='사진 닫기 ×';close.type='button';
+  const nav=document.createElement('div');nav.className='jk-photo-nav';const previous=document.createElement('button'),next=document.createElement('button'),caption=document.createElement('span');previous.type=next.type='button';previous.textContent='← 이전';next.textContent='다음 →';previous.setAttribute('aria-label','이전 사진');next.setAttribute('aria-label','다음 사진');caption.className='jk-photo-caption';caption.setAttribute('aria-live','polite');nav.append(previous,caption,next);
+  const stage=document.createElement('div');stage.className='jk-photo-stage';const img=document.createElement('img');img.className='jk-photo-protected';img.draggable=false;const credit=document.createElement('span');credit.className='jk-photo-credit';credit.textContent='© 김종근 · JK 의 산하정복';stage.append(img,credit);dialog.append(close,nav,stage);document.body.append(dialog);
+  function show(){const current=items[index],title=current.querySelector('img').alt||current.textContent.trim()||'산행 사진';img.src=current.href;img.alt=title;caption.textContent=(index+1)+' / '+items.length+' · '+title;previous.disabled=next.disabled=items.length<2;}
+  function move(step){index=(index+step+items.length)%items.length;show();}
+  previous.onclick=()=>move(-1);next.onclick=()=>move(1);close.onclick=()=>dialog.close();
+  dialog.addEventListener('keydown',e=>{if(e.altKey||e.ctrlKey||e.metaKey||e.isComposing)return;if(e.key==='ArrowLeft'||e.key==='ArrowRight'){e.preventDefault();e.stopPropagation();move(e.key==='ArrowLeft'?-1:1);}else if(e.key==='Escape'){e.preventDefault();e.stopPropagation();dialog.close();}});
+  dialog.addEventListener('close',()=>{dialog.remove();if(link.isConnected)link.focus({preventScroll:true});},{once:true});show();dialog.showModal();
  },true);
  let queued=false;
  function positionCredits(){for(const stage of document.querySelectorAll('.lb-image-stage,.jk-protected-viewer .jk-photo-stage')){const img=stage.querySelector('img');if(!img?.naturalWidth||!stage.clientWidth||!stage.clientHeight)continue;const fit=Math.min(stage.clientWidth/img.naturalWidth,stage.clientHeight/img.naturalHeight);stage.style.setProperty('--jk-photo-right',Math.max(4,(stage.clientWidth-img.naturalWidth*fit)/2+8)+'px');stage.style.setProperty('--jk-photo-bottom',Math.max(4,(stage.clientHeight-img.naturalHeight*fit)/2+8)+'px');}}
