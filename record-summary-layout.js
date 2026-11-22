@@ -6,6 +6,7 @@
  html body dl.jk-detail-info-grid>.jk-detail-info-cell{display:grid!important;grid-template-columns:max-content minmax(0,1fr)!important;align-content:start;align-items:baseline;gap:4px 12px!important;min-width:0;min-height:0!important;height:auto!important;padding:9px 10px!important;border:1px solid #dfd2be;border-radius:6px;background:#fbf7ee}
  html body dl.jk-detail-info-grid>.jk-detail-info-cell[data-summary-field="course"]{grid-column:1/-1!important}
  html body .hike-stats>div,html body #stats>div{display:flex!important;align-items:baseline;justify-content:space-between;gap:6px 12px!important;min-width:0}
+ html body .hike-stats>div,html body #stats>div{box-shadow:inset 0 0 0 1px #d6c5a9!important}
  html body .hike-stats>div>:is(span,strong),html body #stats>div>:is(span,strong){display:inline!important;margin:0!important;white-space:nowrap}
  html body dl.jk-detail-info-grid>.jk-detail-info-cell>dt,html body dl.jk-detail-info-grid>.jk-detail-info-cell>dd{min-width:0;max-width:100%;height:auto!important;margin:0!important;white-space:pre-wrap!important;overflow-wrap:anywhere;line-height:1.6!important}
  html body dl.jk-detail-info-grid>.jk-detail-info-cell>dt{color:#746b5d!important;font-weight:400}
