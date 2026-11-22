@@ -177,7 +177,7 @@ function renderForm(box,kind,rec){
   if(!sessionToken){status(notice,'GitHub 저장용 토큰을 입력해야 합니다. 토큰 없이 공개 사이트에 저장할 수 없습니다.',true);return}
   save.disabled=true;status(notice,'GitHub에 산행 정보를 저장하는 중입니다.');
   try{await saveToGitHub(kind,rec,changes,sessionToken);renderSummary(box,kind,rec);
-   const ok=el('p','저장되었습니다. GitHub Pages에 배포되면 모든 방문자에게 표시됩니다.','ux-status');box.append(ok);
+   const ok=el('p','GitHub에 저장되었습니다. GitHub Pages에 배포되면 모든 방문자에게 표시됩니다.','ux-status ux-save-success');ok.setAttribute('role','status');box.append(ok);
   }catch(error){status(notice,`저장하지 못했습니다: ${error.message}`,true);save.disabled=false}
  });
  box.replaceChildren(form);
@@ -201,5 +201,6 @@ function show(kind,rec,parent){
  if(head)head.insertAdjacentElement('afterend',box);else parent.append(box);
  ready.then(()=>{if(box.isConnected){renderSummary(box,kind,rec);applyVisibility(parent,kind,rec);}});
 }
+const successStyle=el('style');successStyle.textContent='.ux-record-panel .ux-status.ux-save-success{color:#194728!important;background:#e7f2df!important;border:1px solid #61904d;border-radius:8px;padding:10px 12px;font-weight:700;line-height:1.6;white-space:normal;overflow-wrap:anywhere}';document.head.append(successStyle);
 window.HikeRecords={show};
 })();
