@@ -45,6 +45,21 @@
       "referenceRouteSource": "https://www.foresttrip.go.kr/pot/cc/hm/selectHndfmsmtnMngmeDtl.do?fmmntArcd=08&fmmntSeq=71971&nowPage=1&preSrchArea=08&preSrchWrd=&srchArea=08&srchWrd=",
       "referenceRouteSourceLabel": "숲나들e 두륜산 추천코스"
     },
+    "46": {
+      "hikeDate": "2022-03-12",
+      "route": "백운사 주차장 - 상백운암 - 만경대 - 백운산 정상 - 원점복귀",
+      "distanceKm": 2.3,
+      "duration": "편도 1시간 30분",
+      "summitElevationM": 1228,
+      "elevationGainM": "",
+      "start": "",
+      "parking": "",
+      "difficulty": "",
+      "weather": "",
+      "notes": "",
+      "blogUrl": "",
+      "updatedAt": "2026-11-22T03:33:04.855Z"
+    },
     "58": {
       "blogUrl": "https://keunjkim.github.io/100-Mountains-Isliands/blog.html#post-shinbul-20261003",
       "updatedAt": "2026-11-13T04:01:24Z"
