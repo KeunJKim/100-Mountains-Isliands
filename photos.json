@@ -429,7 +429,8 @@
       "capturedAtLocal": "2023-02-05T10:41:41",
       "folderDate": "2023-02-05",
       "width": 1200,
-      "height": 1600
+      "height": 1600,
+      "desc": "눈 덮인 가리산 바위 능선에서 남긴 기념사진"
     },
     {
       "id": "102f96ee-6342-4d95-afec-cea603dcdfe2",
@@ -450,7 +451,8 @@
       "capturedAtLocal": "2023-02-05T10:48:35",
       "folderDate": "2023-02-05",
       "width": 1200,
-      "height": 1600
+      "height": 1600,
+      "desc": "가리산 눈길의 안내판 앞에서"
     },
     {
       "id": "a615a8d3-042a-4b57-9c97-9160a694ff70",
@@ -471,7 +473,8 @@
       "capturedAtLocal": "2021-02-27T09:48:39",
       "folderDate": "2021-02-27",
       "width": 1600,
-      "height": 1600
+      "height": 1600,
+      "desc": "눈 쌓인 가지산 숲길"
     },
     {
       "id": "3a96a4e6-2ca3-4d5a-981a-8c8214965342",
@@ -492,7 +495,8 @@
       "capturedAtLocal": "2021-02-27T10:07:06",
       "folderDate": "2021-02-27",
       "width": 1600,
-      "height": 1569
+      "height": 1569,
+      "desc": "눈길의 돌계단을 오르는 모습"
     },
     {
       "id": "5429943d-11cc-4296-a343-ab99e2afc9a3",
@@ -513,7 +517,8 @@
       "capturedAtLocal": "2021-02-27T10:22:52",
       "folderDate": "2021-02-27",
       "width": 1200,
-      "height": 1600
+      "height": 1600,
+      "desc": "가지산 눈꽃 산행 기념사진"
     },
     {
       "id": "71530713-06b6-45ec-acbf-c002ca815be8",
@@ -534,7 +539,8 @@
       "capturedAtLocal": "2021-02-27T10:28:23",
       "folderDate": "2021-02-27",
       "width": 1234,
-      "height": 1600
+      "height": 1600,
+      "desc": "가지산 정상석 앞 기념사진"
     },
     {
       "id": "53cc4f52-e010-4a00-902f-5388d5b1ea94",
@@ -555,7 +561,8 @@
       "capturedAtLocal": "2021-02-27T11:00:11",
       "folderDate": "2021-02-27",
       "width": 1308,
-      "height": 1600
+      "height": 1600,
+      "desc": "눈꽃이 핀 가지산 능선"
     },
     {
       "id": "6933e4d3-297b-42fd-910e-3b12f1fa2068",
@@ -576,7 +583,8 @@
       "capturedAtLocal": "2021-02-27T11:01:02",
       "folderDate": "2021-02-27",
       "width": 1329,
-      "height": 1600
+      "height": 1600,
+      "desc": "가지산 설경 속 산행 기념사진"
     },
     {
       "id": "278456cc-9e93-4bd7-a572-44f9c21c8e3e",
@@ -652,7 +660,8 @@
       "sourceTripId": "7349853",
       "sourceUrl": "https://file.ramblr.com/photo/1024x768/20240818/66c1511cc54c4.jpg",
       "sourcePage": "https://www.ramblr.com/web/mymap/trip/761717/7349853",
-      "createdAt": "2026-11-12T04:18:07.560Z"
+      "createdAt": "2026-11-12T04:18:07.560Z",
+      "desc": "바다로 이어지는 사도 선착장"
     },
     {
       "id": "ramblr-7349853-2",
@@ -782,7 +791,8 @@
       "sourceTripId": "7348246",
       "sourceUrl": "https://file.ramblr.com/photo/1024x768/20240818/66c15051ab480.jpg",
       "sourcePage": "https://www.ramblr.com/web/mymap/trip/761717/7348246",
-      "createdAt": "2026-11-12T04:18:07.562Z"
+      "createdAt": "2026-11-12T04:18:07.562Z",
+      "desc": "백야도 산행 안내 지도"
     },
     {
       "id": "ramblr-7348246-3",
@@ -925,7 +935,8 @@
       "sourceTripId": "7348246",
       "sourceUrl": "https://file.ramblr.com/photo/1024x768/20240818/66c14f7195277.jpg",
       "sourcePage": "https://www.ramblr.com/web/mymap/trip/761717/7348246",
-      "createdAt": "2026-11-12T04:18:07.562Z"
+      "createdAt": "2026-11-12T04:18:07.562Z",
+      "desc": "백야도에서 바라본 섬과 바다"
     },
     {
       "id": "ramblr-7348246-14",
@@ -991,7 +1002,8 @@
       "sourceUrl": "https://file.ramblr.com/photo/1024x768/20230122/63cd066e1c3b5.jpg",
       "sourcePage": "https://www.ramblr.com/web/mymap/trip/761717/5042866",
       "createdAt": "2026-11-12T04:18:07.562Z",
-      "category": "alps"
+      "category": "alps",
+      "desc": "영축산 정상석"
     },
     {
       "id": "ramblr-5042866-2",
@@ -1102,7 +1114,8 @@
       "sourceTripId": "4545113",
       "sourceUrl": "https://file.ramblr.com/photo/1024x768/20220911/631d62485e161.jpg",
       "sourcePage": "https://www.ramblr.com/web/mymap/trip/761717/4545113",
-      "createdAt": "2026-11-12T04:18:07.562Z"
+      "createdAt": "2026-11-12T04:18:07.562Z",
+      "desc": "구병산 정상석"
     },
     {
       "id": "ramblr-3194311-1",
@@ -1507,7 +1520,8 @@
       "sourceTripId": "11101512",
       "sourceUrl": "https://file.ramblr.com/photo/1024x768/20260923/0cdcaf881a3b4.jpg",
       "sourcePage": "https://www.ramblr.com/web/mymap/trip/761717/11101512",
-      "createdAt": "2026-11-12T04:18:07.562Z"
+      "createdAt": "2026-11-12T04:18:07.562Z",
+      "desc": "만재도 마을 안내판"
     },
     {
       "id": "ramblr-11099642-1",
@@ -1806,7 +1820,8 @@
       "sourceTripId": "10915180",
       "sourceUrl": "https://file.ramblr.com/photo/1024x768/20260813/47a5c31630b74.jpg",
       "sourcePage": "https://www.ramblr.com/web/mymap/trip/761717/10915180",
-      "createdAt": "2026-11-12T04:18:07.562Z"
+      "createdAt": "2026-11-12T04:18:07.562Z",
+      "desc": "대청도 산행길의 이정표"
     },
     {
       "id": "ramblr-10915180-2",
@@ -2001,7 +2016,8 @@
       "sourceTripId": "10915180",
       "sourceUrl": "https://file.ramblr.com/photo/1024x768/20260813/a2d6c53050424.jpg",
       "sourcePage": "https://www.ramblr.com/web/mymap/trip/761717/10915180",
-      "createdAt": "2026-11-12T04:18:07.562Z"
+      "createdAt": "2026-11-12T04:18:07.562Z",
+      "desc": "대청도 숲길의 이정표"
     },
     {
       "id": "ramblr-10915180-17",
@@ -2222,7 +2238,8 @@
       "sourceTripId": "10883086",
       "sourceUrl": "https://file.ramblr.com/photo/1024x768/20260804/31e5253026384.jpg",
       "sourcePage": "https://www.ramblr.com/web/mymap/trip/761717/10883086",
-      "createdAt": "2026-11-12T04:18:07.562Z"
+      "createdAt": "2026-11-12T04:18:07.562Z",
+      "desc": "백야도 숲길의 이정표와 우체통"
     },
     {
       "id": "ramblr-10883086-3",
@@ -2235,7 +2252,8 @@
       "sourceTripId": "10883086",
       "sourceUrl": "https://file.ramblr.com/photo/1024x768/20260804/7a71162b69564.jpg",
       "sourcePage": "https://www.ramblr.com/web/mymap/trip/761717/10883086",
-      "createdAt": "2026-11-12T04:18:07.562Z"
+      "createdAt": "2026-11-12T04:18:07.562Z",
+      "desc": "백야도 산행길 방향 안내"
     },
     {
       "id": "ramblr-10883086-4",
@@ -2509,7 +2527,8 @@
       "sourceUrl": "https://file.ramblr.com/photo/1024x768/20260712/d5bfc08bebee4.jpg",
       "sourcePage": "https://www.ramblr.com/web/mymap/trip/761717/10797672",
       "createdAt": "2026-11-12T04:18:07.562Z",
-      "category": "alps"
+      "category": "alps",
+      "desc": "가지산 숲길 입구의 산불조심 안내"
     },
     {
       "id": "ramblr-10797672-2",
@@ -2523,7 +2542,8 @@
       "sourceUrl": "https://file.ramblr.com/photo/1024x768/20260712/e5e607c0c9934.jpg",
       "sourcePage": "https://www.ramblr.com/web/mymap/trip/761717/10797672",
       "createdAt": "2026-11-12T04:18:07.562Z",
-      "category": "alps"
+      "category": "alps",
+      "desc": "가지산 방향을 가리키는 이정표"
     },
     {
       "id": "ramblr-10797672-3",
@@ -2537,7 +2557,8 @@
       "sourceUrl": "https://file.ramblr.com/photo/1024x768/20260712/1743c9589eae4.jpg",
       "sourcePage": "https://www.ramblr.com/web/mymap/trip/761717/10797672",
       "createdAt": "2026-11-12T04:18:07.562Z",
-      "category": "alps"
+      "category": "alps",
+      "desc": "쌀바위·석남사 갈림길 이정표"
     },
     {
       "id": "ramblr-10797672-4",
@@ -2551,7 +2572,8 @@
       "sourceUrl": "https://file.ramblr.com/photo/1024x768/20260712/e5bab9fa7f9e4.jpg",
       "sourcePage": "https://www.ramblr.com/web/mymap/trip/761717/10797672",
       "createdAt": "2026-11-12T04:18:07.562Z",
-      "category": "alps"
+      "category": "alps",
+      "desc": "숲길 갈림길의 산행 이정표"
     },
     {
       "id": "ramblr-10797672-5",
@@ -2565,7 +2587,8 @@
       "sourceUrl": "https://file.ramblr.com/photo/1024x768/20260712/b2f7089a08aa4.jpg",
       "sourcePage": "https://www.ramblr.com/web/mymap/trip/761717/10797672",
       "createdAt": "2026-11-12T04:18:07.562Z",
-      "category": "alps"
+      "category": "alps",
+      "desc": "가지산 능선에서 바라본 산줄기"
     },
     {
       "id": "ramblr-10797672-6",
@@ -2579,7 +2602,8 @@
       "sourceUrl": "https://file.ramblr.com/photo/1024x768/20260712/bc5ca8981f5c4.jpg",
       "sourcePage": "https://www.ramblr.com/web/mymap/trip/761717/10797672",
       "createdAt": "2026-11-12T04:18:07.562Z",
-      "category": "alps"
+      "category": "alps",
+      "desc": "등산로 분기점의 방향 안내"
     },
     {
       "id": "ramblr-10797672-7",
@@ -2593,7 +2617,8 @@
       "sourceUrl": "https://file.ramblr.com/photo/1024x768/20260712/2141d12c2c834.jpg",
       "sourcePage": "https://www.ramblr.com/web/mymap/trip/761717/10797672",
       "createdAt": "2026-11-12T04:18:07.562Z",
-      "category": "alps"
+      "category": "alps",
+      "desc": "돌이 깔린 숲속 등산로"
     },
     {
       "id": "ramblr-10797672-8",
@@ -2607,7 +2632,8 @@
       "sourceUrl": "https://file.ramblr.com/photo/1024x768/20260712/d846f8ff32b14.jpg",
       "sourcePage": "https://www.ramblr.com/web/mymap/trip/761717/10797672",
       "createdAt": "2026-11-12T04:18:07.562Z",
-      "category": "alps"
+      "category": "alps",
+      "desc": "바위 능선 너머로 펼쳐진 산줄기"
     },
     {
       "id": "ramblr-10797672-9",
@@ -2621,7 +2647,8 @@
       "sourceUrl": "https://file.ramblr.com/photo/1024x768/20260712/3bf3f1545f254.jpg",
       "sourcePage": "https://www.ramblr.com/web/mymap/trip/761717/10797672",
       "createdAt": "2026-11-12T04:18:07.562Z",
-      "category": "alps"
+      "category": "alps",
+      "desc": "푸른 숲과 산 능선 조망"
     },
     {
       "id": "ramblr-10797672-10",
@@ -2635,7 +2662,8 @@
       "sourceUrl": "https://file.ramblr.com/photo/1024x768/20260712/f8e5f0f3a2f24.jpg",
       "sourcePage": "https://www.ramblr.com/web/mymap/trip/761717/10797672",
       "createdAt": "2026-11-12T04:18:07.562Z",
-      "category": "alps"
+      "category": "alps",
+      "desc": "가지산 탐방 안내판"
     },
     {
       "id": "ramblr-10797672-11",
@@ -2649,7 +2677,8 @@
       "sourceUrl": "https://file.ramblr.com/photo/1024x768/20260712/0f785c5a44344.jpg",
       "sourcePage": "https://www.ramblr.com/web/mymap/trip/761717/10797672",
       "createdAt": "2026-11-12T04:18:07.562Z",
-      "category": "alps"
+      "category": "alps",
+      "desc": "숲 그늘 아래 이어진 돌길"
     },
     {
       "id": "ramblr-10797672-12",
@@ -2663,7 +2692,8 @@
       "sourceUrl": "https://file.ramblr.com/photo/1024x768/20260712/8be4dfc388394.jpg",
       "sourcePage": "https://www.ramblr.com/web/mymap/trip/761717/10797672",
       "createdAt": "2026-11-12T04:18:07.562Z",
-      "category": "alps"
+      "category": "alps",
+      "desc": "숲길가에 핀 보라색 야생화"
     },
     {
       "id": "ramblr-10797672-13",
@@ -2677,7 +2707,8 @@
       "sourceUrl": "https://file.ramblr.com/photo/1024x768/20260712/4c4b235a77904.jpg",
       "sourcePage": "https://www.ramblr.com/web/mymap/trip/761717/10797672",
       "createdAt": "2026-11-12T04:18:07.562Z",
-      "category": "alps"
+      "category": "alps",
+      "desc": "가지산 정상 방향 이정표"
     },
     {
       "id": "ramblr-10797672-14",
@@ -2691,7 +2722,8 @@
       "sourceUrl": "https://file.ramblr.com/photo/1024x768/20260712/761cbddd7ea14.jpg",
       "sourcePage": "https://www.ramblr.com/web/mymap/trip/761717/10797672",
       "createdAt": "2026-11-12T04:18:07.562Z",
-      "category": "alps"
+      "category": "alps",
+      "desc": "능선에서 내려다본 산자락"
     },
     {
       "id": "ramblr-10797672-15",
@@ -2705,7 +2737,8 @@
       "sourceUrl": "https://file.ramblr.com/photo/1024x768/20260712/ed374f37f8c04.jpg",
       "sourcePage": "https://www.ramblr.com/web/mymap/trip/761717/10797672",
       "createdAt": "2026-11-12T04:18:07.562Z",
-      "category": "alps"
+      "category": "alps",
+      "desc": "숲길 분기점의 이정표"
     },
     {
       "id": "ramblr-10797672-16",
@@ -2719,7 +2752,8 @@
       "sourceUrl": "https://file.ramblr.com/photo/1024x768/20260712/f4949d6253174.jpg",
       "sourcePage": "https://www.ramblr.com/web/mymap/trip/761717/10797672",
       "createdAt": "2026-11-12T04:18:07.562Z",
-      "category": "alps"
+      "category": "alps",
+      "desc": "겹겹이 이어진 산 능선 조망"
     },
     {
       "id": "ramblr-10797672-17",
@@ -2733,7 +2767,8 @@
       "sourceUrl": "https://file.ramblr.com/photo/1024x768/20260712/c138e08b8c754.jpg",
       "sourcePage": "https://www.ramblr.com/web/mymap/trip/761717/10797672",
       "createdAt": "2026-11-12T04:18:07.562Z",
-      "category": "alps"
+      "category": "alps",
+      "desc": "가지산 중봉 정상 표지석"
     },
     {
       "id": "ramblr-10797672-18",
@@ -2747,7 +2782,8 @@
       "sourceUrl": "https://file.ramblr.com/photo/1024x768/20260712/edd5c38637314.jpg",
       "sourcePage": "https://www.ramblr.com/web/mymap/trip/761717/10797672",
       "createdAt": "2026-11-12T04:18:07.562Z",
-      "category": "alps"
+      "category": "alps",
+      "desc": "신록으로 덮인 산 능선"
     },
     {
       "id": "ramblr-10797672-19",
@@ -2761,7 +2797,8 @@
       "sourceUrl": "https://file.ramblr.com/photo/1024x768/20260712/be11524de4974.jpg",
       "sourcePage": "https://www.ramblr.com/web/mymap/trip/761717/10797672",
       "createdAt": "2026-11-12T04:18:07.562Z",
-      "category": "alps"
+      "category": "alps",
+      "desc": "가지산·석남고개 방향 이정표"
     },
     {
       "id": "ramblr-10797672-20",
@@ -2775,7 +2812,8 @@
       "sourceUrl": "https://file.ramblr.com/photo/1024x768/20260712/8362aeab72ee4.jpg",
       "sourcePage": "https://www.ramblr.com/web/mymap/trip/761717/10797672",
       "createdAt": "2026-11-12T04:18:07.562Z",
-      "category": "alps"
+      "category": "alps",
+      "desc": "가지산 등산 안내목"
     },
     {
       "id": "ramblr-10797672-21",
@@ -2789,7 +2827,8 @@
       "sourceUrl": "https://file.ramblr.com/photo/1024x768/20260712/34d8200fb4124.jpg",
       "sourcePage": "https://www.ramblr.com/web/mymap/trip/761717/10797672",
       "createdAt": "2026-11-12T04:18:07.562Z",
-      "category": "alps"
+      "category": "alps",
+      "desc": "푸른 숲으로 덮인 봉우리 조망"
     },
     {
       "id": "ramblr-10797672-22",
@@ -2803,7 +2842,8 @@
       "sourceUrl": "https://file.ramblr.com/photo/1024x768/20260712/3a647c809e9c4.jpg",
       "sourcePage": "https://www.ramblr.com/web/mymap/trip/761717/10797672",
       "createdAt": "2026-11-12T04:18:07.562Z",
-      "category": "alps"
+      "category": "alps",
+      "desc": "바위 능선 위에 쌓은 돌탑"
     },
     {
       "id": "ramblr-10797672-23",
@@ -2817,7 +2857,8 @@
       "sourceUrl": "https://file.ramblr.com/photo/1024x768/20260712/2bc56f69c35e4.jpg",
       "sourcePage": "https://www.ramblr.com/web/mymap/trip/761717/10797672",
       "createdAt": "2026-11-12T04:18:07.562Z",
-      "category": "alps"
+      "category": "alps",
+      "desc": "암봉 위의 돌탑"
     },
     {
       "id": "ramblr-10797672-24",
@@ -2831,7 +2872,8 @@
       "sourceUrl": "https://file.ramblr.com/photo/1024x768/20260712/71f3b879db824.jpg",
       "sourcePage": "https://www.ramblr.com/web/mymap/trip/761717/10797672",
       "createdAt": "2026-11-12T04:18:07.562Z",
-      "category": "alps"
+      "category": "alps",
+      "desc": "산자락으로 이어진 돌계단"
     },
     {
       "id": "ramblr-10797672-25",
@@ -2845,7 +2887,8 @@
       "sourceUrl": "https://file.ramblr.com/photo/1024x768/20260712/51e1c781d9bb4.jpg",
       "sourcePage": "https://www.ramblr.com/web/mymap/trip/761717/10797672",
       "createdAt": "2026-11-12T04:18:07.562Z",
-      "category": "alps"
+      "category": "alps",
+      "desc": "산행 출발지 주변 도로"
     },
     {
       "id": "ramblr-10797672-26",
@@ -2859,7 +2902,8 @@
       "sourceUrl": "https://file.ramblr.com/photo/1024x768/20260712/5279c72ae2854.jpg",
       "sourcePage": "https://www.ramblr.com/web/mymap/trip/761717/10797672",
       "createdAt": "2026-11-12T04:18:07.562Z",
-      "category": "alps"
+      "category": "alps",
+      "desc": "숲으로 이어지는 산길 입구 도로"
     },
     {
       "id": "ramblr-10745244-1",
@@ -3067,7 +3111,8 @@
       "sourceTripId": "10647378",
       "sourceUrl": "https://file.ramblr.com/photo/1024x768/20260607/1e61f6266e094.jpg",
       "sourcePage": "https://www.ramblr.com/web/mymap/trip/761717/10647378",
-      "createdAt": "2026-11-12T04:18:07.563Z"
+      "createdAt": "2026-11-12T04:18:07.563Z",
+      "desc": "통도사 암자로 이어지는 돌계단"
     },
     {
       "id": "ramblr-10647378-5",
@@ -3080,7 +3125,8 @@
       "sourceTripId": "10647378",
       "sourceUrl": "https://file.ramblr.com/photo/1024x768/20260607/f482c4c51e444.jpg",
       "sourcePage": "https://www.ramblr.com/web/mymap/trip/761717/10647378",
-      "createdAt": "2026-11-12T04:18:07.563Z"
+      "createdAt": "2026-11-12T04:18:07.563Z",
+      "desc": "통도사 암자 탐방길 이정표"
     },
     {
       "id": "ramblr-10647378-6",
@@ -3687,7 +3733,8 @@
       "sourceUrl": "https://file.ramblr.com/photo/1024x768/20260401/a500e457b32d4.jpg",
       "sourcePage": "https://www.ramblr.com/web/mymap/trip/761717/10302971",
       "createdAt": "2026-11-12T04:18:07.563Z",
-      "category": "alps"
+      "category": "alps",
+      "desc": "석골사 입구"
     },
     {
       "id": "ramblr-10302971-2",
@@ -3701,7 +3748,8 @@
       "sourceUrl": "https://file.ramblr.com/photo/1024x768/20260401/4d491333cbe04.jpg",
       "sourcePage": "https://www.ramblr.com/web/mymap/trip/761717/10302971",
       "createdAt": "2026-11-12T04:18:07.563Z",
-      "category": "alps"
+      "category": "alps",
+      "desc": "운문산 등산로 이정표"
     },
     {
       "id": "ramblr-10302971-3",
@@ -3715,7 +3763,8 @@
       "sourceUrl": "https://file.ramblr.com/photo/1024x768/20260401/3447e48d31ad4.jpg",
       "sourcePage": "https://www.ramblr.com/web/mymap/trip/761717/10302971",
       "createdAt": "2026-11-12T04:18:07.563Z",
-      "category": "alps"
+      "category": "alps",
+      "desc": "운문산 등산로 이용 안내판"
     },
     {
       "id": "ramblr-10302971-4",
@@ -3729,7 +3778,8 @@
       "sourceUrl": "https://file.ramblr.com/photo/1024x768/20260401/b3b35c7121be4.jpg",
       "sourcePage": "https://www.ramblr.com/web/mymap/trip/761717/10302971",
       "createdAt": "2026-11-12T04:18:07.563Z",
-      "category": "alps"
+      "category": "alps",
+      "desc": "산중 갈림길의 방향 이정표"
     },
     {
       "id": "ramblr-10302971-5",
@@ -3743,7 +3793,8 @@
       "sourceUrl": "https://file.ramblr.com/photo/1024x768/20260401/f74a80baa2524.jpg",
       "sourcePage": "https://www.ramblr.com/web/mymap/trip/761717/10302971",
       "createdAt": "2026-11-12T04:18:07.563Z",
-      "category": "alps"
+      "category": "alps",
+      "desc": "등산로 방향을 안내하는 이정표"
     },
     {
       "id": "ramblr-10302971-6",
@@ -3757,7 +3808,8 @@
       "sourceUrl": "https://file.ramblr.com/photo/1024x768/20260401/22f2ebdc3d8b4.jpg",
       "sourcePage": "https://www.ramblr.com/web/mymap/trip/761717/10302971",
       "createdAt": "2026-11-12T04:18:07.563Z",
-      "category": "alps"
+      "category": "alps",
+      "desc": "산행 갈림길 안내"
     },
     {
       "id": "ramblr-10302971-7",
@@ -3771,7 +3823,8 @@
       "sourceUrl": "https://file.ramblr.com/photo/1024x768/20260401/c574ff5d74534.jpg",
       "sourcePage": "https://www.ramblr.com/web/mymap/trip/761717/10302971",
       "createdAt": "2026-11-12T04:18:07.563Z",
-      "category": "alps"
+      "category": "alps",
+      "desc": "숲길 분기점의 이정표"
     },
     {
       "id": "ramblr-10302971-8",
@@ -3785,7 +3838,8 @@
       "sourceUrl": "https://file.ramblr.com/photo/1024x768/20260401/c88716681cba4.jpg",
       "sourcePage": "https://www.ramblr.com/web/mymap/trip/761717/10302971",
       "createdAt": "2026-11-12T04:18:07.563Z",
-      "category": "alps"
+      "category": "alps",
+      "desc": "흙과 돌이 섞인 등산로"
     },
     {
       "id": "ramblr-10302971-9",
@@ -3799,7 +3853,8 @@
       "sourceUrl": "https://file.ramblr.com/photo/1024x768/20260401/9cb5d62077894.jpg",
       "sourcePage": "https://www.ramblr.com/web/mymap/trip/761717/10302971",
       "createdAt": "2026-11-12T04:18:07.563Z",
-      "category": "alps"
+      "category": "alps",
+      "desc": "숲속 갈림길의 이정표"
     },
     {
       "id": "ramblr-10302971-10",
@@ -3813,7 +3868,8 @@
       "sourceUrl": "https://file.ramblr.com/photo/1024x768/20260401/4be17484520c4.jpg",
       "sourcePage": "https://www.ramblr.com/web/mymap/trip/761717/10302971",
       "createdAt": "2026-11-12T04:18:07.563Z",
-      "category": "alps"
+      "category": "alps",
+      "desc": "운문산 정상석"
     },
     {
       "id": "ramblr-10291379-1",
@@ -4008,7 +4064,8 @@
       "sourceTripId": "10256640",
       "sourceUrl": "https://file.ramblr.com/photo/1024x768/20260322/5675d92eb7564.jpg",
       "sourcePage": "https://www.ramblr.com/web/mymap/trip/761717/10256640",
-      "createdAt": "2026-11-12T04:18:07.563Z"
+      "createdAt": "2026-11-12T04:18:07.563Z",
+      "desc": "염포산 남목 방향 이정표"
     },
     {
       "id": "ramblr-10256640-8",
@@ -4174,7 +4231,8 @@
       "capturedAtLocal": "2021-03-07T08:26:55",
       "folderDate": "2021-03-07",
       "width": 1200,
-      "height": 1600
+      "height": 1600,
+      "desc": "운문산 일대 등산 안내지도"
     },
     {
       "id": "local-f9237d2575ab60e4e864",
@@ -4194,7 +4252,8 @@
       "capturedAtLocal": "2021-03-07T08:33:45",
       "folderDate": "2021-03-07",
       "width": 1200,
-      "height": 1600
+      "height": 1600,
+      "desc": "산중의 석불과 돌단"
     },
     {
       "id": "local-aabd4066c3dfb5fd629c",
@@ -4214,7 +4273,8 @@
       "capturedAtLocal": "2021-03-07T08:56:30",
       "folderDate": "2021-03-07",
       "width": 1200,
-      "height": 1600
+      "height": 1600,
+      "desc": "바위 옆으로 이어지는 등산로"
     },
     {
       "id": "local-8825e7f616b9076d78d2",
@@ -4234,7 +4294,8 @@
       "capturedAtLocal": "2021-03-07T08:57:52",
       "folderDate": "2021-03-07",
       "width": 1200,
-      "height": 1600
+      "height": 1600,
+      "desc": "가파른 바위 구간을 오르는 모습"
     },
     {
       "id": "local-479d686c740b5fb16113",
@@ -4254,7 +4315,8 @@
       "capturedAtLocal": "2021-03-07T10:34:13",
       "folderDate": "2021-03-07",
       "width": 1200,
-      "height": 1600
+      "height": 1600,
+      "desc": "나뭇가지에 피어난 상고대"
     },
     {
       "id": "local-5b28126c118c6ab234ac",
@@ -4274,7 +4336,8 @@
       "capturedAtLocal": "2021-03-07T10:48:27",
       "folderDate": "2021-03-07",
       "width": 1200,
-      "height": 1600
+      "height": 1600,
+      "desc": "눈꽃 숲에서 남긴 산행 기념사진"
     },
     {
       "id": "local-d4255614bcb3874cb5bf",
@@ -4294,7 +4357,8 @@
       "capturedAtLocal": "2021-03-07T11:19:34",
       "folderDate": "2021-03-07",
       "width": 1200,
-      "height": 1600
+      "height": 1600,
+      "desc": "나뭇가지마다 내려앉은 눈꽃"
     },
     {
       "id": "local-8799f8065b90801fc8a6",
@@ -4314,7 +4378,8 @@
       "capturedAtLocal": "2021-03-07T11:36:23",
       "folderDate": "2021-03-07",
       "width": 1600,
-      "height": 1600
+      "height": 1600,
+      "desc": "운문산 정상석 앞 기념사진"
     },
     {
       "id": "local-16dd218d92b6b177ed89",
@@ -4334,7 +4399,8 @@
       "capturedAtLocal": "2021-03-07T11:41:31",
       "folderDate": "2021-03-07",
       "width": 1200,
-      "height": 1600
+      "height": 1600,
+      "desc": "바위 사이로 이어지는 오르막길"
     },
     {
       "id": "local-9d82df9ccb8f87991d1f",
@@ -4354,7 +4420,8 @@
       "capturedAtLocal": "2021-03-07T12:23:27",
       "folderDate": "2021-03-07",
       "width": 1200,
-      "height": 1600
+      "height": 1600,
+      "desc": "함화산 정상 표지석"
     },
     {
       "id": "local-7a2420b72162f13e62d6",
@@ -4374,7 +4441,8 @@
       "capturedAtLocal": "2021-03-07T12:28:13",
       "folderDate": "2021-03-07",
       "width": 1200,
-      "height": 1600
+      "height": 1600,
+      "desc": "함화산 정상의 눈꽃 풍경"
     },
     {
       "id": "local-5d00a014956e9135a976",
@@ -4394,7 +4462,8 @@
       "capturedAtLocal": "2021-03-07T13:02:32",
       "folderDate": "2021-03-07",
       "width": 1200,
-      "height": 1600
+      "height": 1600,
+      "desc": "함화산 정상 기념사진"
     },
     {
       "id": "local-2e1e690fed1afa298d12",
@@ -4414,7 +4483,8 @@
       "capturedAtLocal": "2021-03-07T14:44:24",
       "folderDate": "2021-03-07",
       "width": 1200,
-      "height": 1600
+      "height": 1600,
+      "desc": "범봉 정상 표지석 앞 기념사진"
     },
     {
       "id": "local-1a8009d7197b87f4bb73",
@@ -4434,7 +4504,8 @@
       "capturedAtLocal": "2021-03-07T14:58:44",
       "folderDate": "2021-03-07",
       "width": 1200,
-      "height": 1600
+      "height": 1600,
+      "desc": "삼지봉 정상 표지석 앞 기념사진"
     },
     {
       "id": "local-925b56991fec631e4fe6",
@@ -4454,7 +4525,8 @@
       "capturedAtLocal": "2021-03-07T15:25:56",
       "folderDate": "2021-03-07",
       "width": 1200,
-      "height": 1600
+      "height": 1600,
+      "desc": "바위 사이의 가파른 계단 등산로"
     },
     {
       "id": "local-7f64d22f7c2a356d2f2d",
@@ -4474,7 +4546,8 @@
       "capturedAtLocal": "2021-03-07T15:56:09",
       "folderDate": "2021-03-07",
       "width": 1200,
-      "height": 1600
+      "height": 1600,
+      "desc": "억산 정상석과 바위 절벽"
     },
     {
       "id": "local-1169f5e52a19caf9350d",
@@ -4494,7 +4567,8 @@
       "capturedAtLocal": "2021-03-07T08:29:34",
       "folderDate": "2021-03-07",
       "width": 1303,
-      "height": 1600
+      "height": 1600,
+      "desc": "바위 계곡과 맑은 계류"
     },
     {
       "id": "local-4ce9033c27824791dab7",
@@ -4514,7 +4588,8 @@
       "capturedAtLocal": "2021-04-03T12:16:48",
       "folderDate": "2021-04-03",
       "width": 1200,
-      "height": 1600
+      "height": 1600,
+      "desc": "천성산 바위 정상에서 남긴 기념사진"
     },
     {
       "id": "local-5b66c38426e66b2b20cc",
@@ -5114,7 +5189,8 @@
       "capturedAtLocal": "2021-04-11T08:54:41",
       "folderDate": "2021-04-10",
       "width": 1359,
-      "height": 1600
+      "height": 1600,
+      "desc": "월출산 바위 봉우리에서 남긴 기념사진"
     },
     {
       "id": "local-6565f00a005f1f61610c",
@@ -5534,7 +5610,8 @@
       "capturedAtLocal": "2021-04-25T08:35:56",
       "folderDate": "2021-04-25",
       "width": 1251,
-      "height": 1600
+      "height": 1600,
+      "desc": "비슬산 산행길 갈림길 이정표"
     },
     {
       "id": "local-21359d9b292146434935",
@@ -5774,7 +5851,8 @@
       "capturedAtLocal": "2021-05-23T13:20:53",
       "folderDate": "2021-05-23",
       "width": 1200,
-      "height": 1600
+      "height": 1600,
+      "desc": "상운산 정상 표지석 앞에서"
     },
     {
       "id": "local-a4042d1cdff0640d8299",
@@ -5794,7 +5872,8 @@
       "capturedAtLocal": "2021-05-23T13:39:24",
       "folderDate": "2021-05-23",
       "width": 1200,
-      "height": 1600
+      "height": 1600,
+      "desc": "신록이 우거진 가지산 숲길"
     },
     {
       "id": "local-6ae29adf6eababd269f7",
@@ -5814,7 +5893,8 @@
       "capturedAtLocal": "2021-05-23T13:57:04",
       "folderDate": "2021-05-23",
       "width": 1600,
-      "height": 1200
+      "height": 1200,
+      "desc": "쌀바위 표지석 앞 기념사진"
     },
     {
       "id": "local-854e3320cf8f690e321f",
@@ -5834,7 +5914,8 @@
       "capturedAtLocal": "2021-05-23T14:00:11",
       "folderDate": "2021-05-23",
       "width": 1200,
-      "height": 1600
+      "height": 1600,
+      "desc": "쌀바위에서 함께 남긴 기념사진"
     },
     {
       "id": "local-42a9ddbf405a198ee038",
@@ -5854,7 +5935,8 @@
       "capturedAtLocal": "2021-05-23T14:54:29",
       "folderDate": "2021-05-23",
       "width": 1600,
-      "height": 1200
+      "height": 1200,
+      "desc": "능선 조망과 분홍빛 꽃"
     },
     {
       "id": "local-0ba7cc1962f889c07ea2",
@@ -5874,7 +5956,8 @@
       "capturedAtLocal": "2021-05-23T15:12:19",
       "folderDate": "2021-05-23",
       "width": 1600,
-      "height": 1200
+      "height": 1200,
+      "desc": "가지산 정상석 앞 기념사진"
     },
     {
       "id": "local-0ce0509a841e828d596b",
@@ -5894,7 +5977,8 @@
       "capturedAtLocal": "2021-05-23T15:16:57",
       "folderDate": "2021-05-23",
       "width": 1600,
-      "height": 1200
+      "height": 1200,
+      "desc": "봄꽃이 핀 능선에서 남긴 기념사진"
     },
     {
       "id": "local-7375a8e558dfb7110e4d",
@@ -5914,7 +5998,8 @@
       "capturedAtLocal": "2021-05-23T15:23:48",
       "folderDate": "2021-05-23",
       "width": 1200,
-      "height": 1600
+      "height": 1600,
+      "desc": "분홍빛 꽃나무 사이의 산행 기념사진"
     },
     {
       "id": "local-2ebf4e89d51e8778f5d9",
@@ -5934,7 +6019,8 @@
       "capturedAtLocal": "2021-05-23T17:03:58",
       "folderDate": "2021-05-23",
       "width": 1200,
-      "height": 1600
+      "height": 1600,
+      "desc": "신록 사이로 이어지는 넓은 숲길"
     },
     {
       "id": "local-907b51decc1cc6d5ac7c",
@@ -6194,7 +6280,8 @@
       "capturedAtLocal": "2021-06-05T09:37:30",
       "folderDate": "2021-06-05",
       "width": 1213,
-      "height": 1600
+      "height": 1600,
+      "desc": "금정산 바위 능선 산행"
     },
     {
       "id": "local-9c3541e6ec46fbc87d8c",
@@ -6534,7 +6621,8 @@
       "capturedAtLocal": "2021-06-27T11:37:12",
       "folderDate": "2021-06-27",
       "width": 1200,
-      "height": 1600
+      "height": 1600,
+      "desc": "고인산 산행 중 만난 돌탑"
     },
     {
       "id": "local-d2644a7c86864e9f085b",
@@ -6974,7 +7062,8 @@
       "capturedAtLocal": "2021-09-04T11:27:01",
       "folderDate": "2021-09-04",
       "width": 1600,
-      "height": 1351
+      "height": 1351,
+      "desc": "영축산 능선 이정표 앞에서"
     },
     {
       "id": "local-771fb367e42adbeadc4b",
@@ -7254,7 +7343,8 @@
       "capturedAtLocal": "2021-09-25T10:13:34",
       "folderDate": "2021-09-25",
       "width": 1600,
-      "height": 1200
+      "height": 1200,
+      "desc": "팔공산 전망 데크의 산행 기념사진"
     },
     {
       "id": "local-52a8016b7fd5eb5c1bf7",
@@ -7674,7 +7764,8 @@
       "capturedAtLocal": "2021-10-09T10:58:18",
       "folderDate": "2021-10-09",
       "width": 1600,
-      "height": 1359
+      "height": 1359,
+      "desc": "오대산 가을 단풍길"
     },
     {
       "id": "local-ab3cf554aa7c6ade3db5",
@@ -7894,7 +7985,8 @@
       "capturedAtLocal": "2021-10-10T08:35:52",
       "folderDate": "2021-10-10",
       "width": 1228,
-      "height": 1600
+      "height": 1600,
+      "desc": "노인봉 산행길에서 만난 붉은 단풍"
     },
     {
       "id": "local-75237a180ebff471b2c5",
@@ -8294,7 +8386,8 @@
       "capturedAtLocal": "2021-10-17T12:39:21",
       "folderDate": "2021-10-17",
       "width": 1200,
-      "height": 1600
+      "height": 1600,
+      "desc": "금오산 전망대와 구름다리"
     },
     {
       "id": "local-ffacbcb5929307633cbe",
@@ -8574,7 +8667,8 @@
       "capturedAtLocal": "2021-10-23T15:40:02",
       "folderDate": "2021-10-23",
       "width": 1600,
-      "height": 1320
+      "height": 1320,
+      "desc": "내연산 계곡의 푸른 물과 절벽"
     },
     {
       "id": "local-3d95207f788e2214c5a7",
@@ -8754,7 +8848,8 @@
       "capturedAtLocal": "2021-11-05T11:39:35",
       "folderDate": "2021-11-05",
       "width": 1200,
-      "height": 1600
+      "height": 1600,
+      "desc": "내장산 노란 단풍 아래에서"
     },
     {
       "id": "local-a71379877a6c4ec05c40",
@@ -9314,7 +9409,8 @@
       "capturedAtLocal": "2021-11-06T12:26:31",
       "folderDate": "2021-11-06",
       "width": 1600,
-      "height": 1300
+      "height": 1300,
+      "desc": "백암산 사자봉 정상석 앞에서"
     },
     {
       "id": "local-83c16dfe426ce3903b34",
@@ -9794,7 +9890,8 @@
       "capturedAtLocal": "2021-11-28T13:55:50",
       "folderDate": "2021-11-28",
       "width": 1200,
-      "height": 1600
+      "height": 1600,
+      "desc": "민주지산 눈길 산행"
     },
     {
       "id": "local-19eb569af60e09382b9e",
@@ -9994,7 +10091,8 @@
       "capturedAtLocal": "2021-11-28T09:45:27",
       "folderDate": "2021-11-28",
       "width": 1600,
-      "height": 1200
+      "height": 1200,
+      "desc": "황악산 천왕봉 표지판 앞에서"
     },
     {
       "id": "local-03eaa6f57ee40a9c83f9",
@@ -10214,7 +10312,8 @@
       "capturedAtLocal": "2021-12-04T12:31:15",
       "folderDate": "2021-12-04",
       "width": 1200,
-      "height": 1600
+      "height": 1600,
+      "desc": "가야산 숲길의 철제 계단"
     },
     {
       "id": "local-9f7d4d8a2b8ae026b4cd",
@@ -10894,7 +10993,8 @@
       "capturedAtLocal": "2021-12-25T12:59:22",
       "folderDate": "2021-12-25",
       "width": 1200,
-      "height": 1600
+      "height": 1600,
+      "desc": "광덕산 눈 덮인 숲길"
     },
     {
       "id": "local-bec43406dbedf97262f4",
@@ -11034,7 +11134,8 @@
       "capturedAtLocal": "2021-12-25T11:52:32",
       "folderDate": "2021-12-25",
       "width": 1200,
-      "height": 1600
+      "height": 1600,
+      "desc": "칠갑산 산행길의 이정표"
     },
     {
       "id": "local-6dbe41784e746d6c5840",
@@ -11134,7 +11235,8 @@
       "capturedAtLocal": "2021-12-26T16:49:42",
       "folderDate": "2021-12-26",
       "width": 1200,
-      "height": 1600
+      "height": 1600,
+      "desc": "가야산 눈 쌓인 정상에서"
     },
     {
       "id": "local-3fa30af4c75e7dee9722",
@@ -11214,7 +11316,8 @@
       "capturedAtLocal": "2021-12-26T11:49:06",
       "folderDate": "2021-12-26",
       "width": 1251,
-      "height": 1600
+      "height": 1600,
+      "desc": "우거진 숲속의 눈길 산행"
     },
     {
       "id": "local-dfe33399de95463833f4",
@@ -11354,7 +11457,8 @@
       "capturedAtLocal": "2021-12-26T14:29:11",
       "folderDate": "2021-12-27",
       "width": 1356,
-      "height": 1600
+      "height": 1600,
+      "desc": "용봉산 눈 덮인 바위 정상에서"
     },
     {
       "id": "local-3818c938bc4b90420254",
@@ -11548,7 +11652,8 @@
       "src": "photos/tranggle-gajisan-20220505-summary.jpg",
       "path": "photos/tranggle-gajisan-20220505-summary.jpg",
       "source": "Tranggle 공유 이미지",
-      "createdAt": "2026-11-13T05:00:00Z"
+      "createdAt": "2026-11-13T05:00:00Z",
+      "desc": "가지산 산행의 트랭글 경로 기록"
     },
     {
       "id": "tranggle-dongaksan-20220529-summary",
@@ -11560,7 +11665,8 @@
       "src": "photos/tranggle-dongaksan-20220529-summary.jpg",
       "path": "photos/tranggle-dongaksan-20220529-summary.jpg",
       "source": "트랭글 공유 JPG",
-      "createdAt": "2026-11-13T10:29:22.628Z"
+      "createdAt": "2026-11-13T10:29:22.628Z",
+      "desc": "동악산 산행의 트랭글 경로 기록"
     },
     {
       "id": "samsung-health-wolchulsan-20210410",
@@ -11839,7 +11945,8 @@
       "width": 1080,
       "height": 1440,
       "builtIn": false,
-      "createdAt": "2026-11-20T00:00:00.000Z"
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "desc": "덕룡산 바위 능선의 표지석 앞에서"
     },
     {
       "id": "update-d49ffc942d60c9bad0e23de6",
@@ -12169,7 +12276,8 @@
       "width": 1440,
       "height": 1080,
       "builtIn": false,
-      "createdAt": "2026-11-20T00:00:00.000Z"
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "desc": "두륜산 전망 데크와 바위 봉우리"
     },
     {
       "id": "update-037a8dbb26c2bb8880083e5f",
@@ -12257,7 +12365,8 @@
       "width": 1280,
       "height": 960,
       "builtIn": false,
-      "createdAt": "2026-11-20T00:00:00.000Z"
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "desc": "무등산 장불재 표지석 앞에서"
     },
     {
       "id": "update-1bd81e371767d44c3b8c4157",
@@ -12807,7 +12916,8 @@
       "width": 1280,
       "height": 960,
       "builtIn": false,
-      "createdAt": "2026-11-20T00:00:00.000Z"
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "desc": "조계산 산행 중 만난 사찰 대웅전"
     },
     {
       "id": "update-35bf2dbf3ede45d697a76cb9",
@@ -13137,7 +13247,8 @@
       "width": 960,
       "height": 1280,
       "builtIn": false,
-      "createdAt": "2026-11-20T00:00:00.000Z"
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "desc": "신불산 정상석 앞에서"
     },
     {
       "id": "update-af4b2064082f15ce9171e133",
@@ -13687,7 +13798,8 @@
       "width": 1227,
       "height": 1440,
       "builtIn": false,
-      "createdAt": "2026-11-20T00:00:00.000Z"
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "desc": "가지산 정상석 앞 기념사진"
     },
     {
       "id": "update-fd3236fc19870fe9de4de75f",
@@ -13709,7 +13821,8 @@
       "width": 1233,
       "height": 1600,
       "builtIn": false,
-      "createdAt": "2026-11-20T00:00:00.000Z"
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "desc": "바위 봉우리에서 남긴 산행 기념사진"
     },
     {
       "id": "update-846dd5823803d1dfa410e7c8",
@@ -13731,7 +13844,8 @@
       "width": 792,
       "height": 1024,
       "builtIn": false,
-      "createdAt": "2026-11-20T00:00:00.000Z"
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "desc": "마른 풀과 바위가 이어진 능선길"
     },
     {
       "id": "update-227b9d2980c4243ef32bbb8d",
@@ -13753,7 +13867,8 @@
       "width": 1052,
       "height": 1280,
       "builtIn": false,
-      "createdAt": "2026-11-20T00:00:00.000Z"
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "desc": "능선 갈림길 이정표 앞 기념사진"
     },
     {
       "id": "update-dfbde0d127f27285240b12f4",
@@ -13775,7 +13890,8 @@
       "width": 1237,
       "height": 1600,
       "builtIn": false,
-      "createdAt": "2026-11-20T00:00:00.000Z"
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "desc": "가지산 정상 기념사진"
     },
     {
       "id": "update-50333e3d0d4b41f00822205e",
@@ -13797,7 +13913,8 @@
       "width": 1279,
       "height": 1600,
       "builtIn": false,
-      "createdAt": "2026-11-20T00:00:00.000Z"
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "desc": "가지산 정상석 앞 기념사진"
     },
     {
       "id": "update-d7f9c26e494575e10867a007",
@@ -13819,7 +13936,8 @@
       "width": 1165,
       "height": 1440,
       "builtIn": false,
-      "createdAt": "2026-11-20T00:00:00.000Z"
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "desc": "푸른 하늘 아래 바위 능선 기념사진"
     },
     {
       "id": "update-f0bfbcb8107a08bf856bfd50",
@@ -13841,7 +13959,8 @@
       "width": 768,
       "height": 1024,
       "builtIn": false,
-      "createdAt": "2026-11-20T00:00:00.000Z"
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "desc": "운문산 등산로 이정표 앞 기념사진"
     },
     {
       "id": "update-c2442d21a7d7dd2d5c6691a1",
@@ -13863,7 +13982,8 @@
       "width": 807,
       "height": 1024,
       "builtIn": false,
-      "createdAt": "2026-11-20T00:00:00.000Z"
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "desc": "운문산 정상 표지석 앞 기념사진"
     },
     {
       "id": "update-d005e1a52fceeaaa2a9b3168",
@@ -13885,7 +14005,8 @@
       "width": 1280,
       "height": 960,
       "builtIn": false,
-      "createdAt": "2026-11-20T00:00:00.000Z"
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "desc": "운문산 정상석 앞 기념사진"
     },
     {
       "id": "update-d34a5c130f3c4292c2478348",
@@ -13907,7 +14028,8 @@
       "width": 803,
       "height": 1024,
       "builtIn": false,
-      "createdAt": "2026-11-20T00:00:00.000Z"
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "desc": "운문산 정상 기념사진"
     },
     {
       "id": "update-bb1612ddec5ec4bc7e6a464a",
@@ -14061,7 +14183,8 @@
       "width": 1600,
       "height": 1360,
       "builtIn": false,
-      "createdAt": "2026-11-20T00:00:00.000Z"
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "desc": "불갑산 연실봉 정상석 앞에서"
     },
     {
       "id": "update-a744a3103b45e7c8cee57f3b",
@@ -14259,7 +14382,8 @@
       "width": 1051,
       "height": 1440,
       "builtIn": false,
-      "createdAt": "2026-11-20T00:00:00.000Z"
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "desc": "축령산 산행길의 전망 쉼터"
     },
     {
       "id": "update-16260e161fcbd3bc5afbcb9a",
@@ -14325,7 +14449,8 @@
       "width": 1131,
       "height": 1440,
       "builtIn": false,
-      "createdAt": "2026-11-20T00:00:00.000Z"
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "desc": "방장산 봉수대 표지석"
     },
     {
       "id": "update-e0cfae3b435eff6f2913cab9",
@@ -14523,7 +14648,8 @@
       "width": 1024,
       "height": 768,
       "builtIn": false,
-      "createdAt": "2026-11-20T00:00:00.000Z"
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "desc": "선운산 수리봉 정상석 앞에서"
     },
     {
       "id": "update-d673aff9b9b9daa065675227",
@@ -15293,7 +15419,8 @@
       "width": 844,
       "height": 1024,
       "builtIn": false,
-      "createdAt": "2026-11-20T00:00:00.000Z"
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "desc": "변산의 곧게 뻗은 숲길"
     },
     {
       "id": "update-67cef6eedf07792095fa98be",
@@ -15491,7 +15618,8 @@
       "width": 1249,
       "height": 1600,
       "builtIn": false,
-      "createdAt": "2026-11-20T00:00:00.000Z"
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "desc": "청량산 산행 중 만난 탑"
     },
     {
       "id": "update-40d137ea3e3327d822a7ba11",
@@ -15689,7 +15817,8 @@
       "width": 960,
       "height": 1280,
       "builtIn": false,
-      "createdAt": "2026-11-20T00:00:00.000Z"
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "desc": "백운산의 흙길과 돌계단"
     },
     {
       "id": "update-b8b2ee7c93fb9485df9223fc",
@@ -15975,7 +16104,8 @@
       "width": 768,
       "height": 1024,
       "builtIn": false,
-      "createdAt": "2026-11-20T00:00:00.000Z"
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "desc": "백운산 정상·억불봉 갈림길 이정표"
     },
     {
       "id": "update-939146ad61a7d0798d8b08d0",
@@ -16129,7 +16259,8 @@
       "width": 1200,
       "height": 1600,
       "builtIn": false,
-      "createdAt": "2026-11-20T00:00:00.000Z"
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "desc": "팔영산 안개 낀 바위 봉우리에서"
     },
     {
       "id": "update-8ad693650c81da43b6031a0a",
@@ -17251,7 +17382,8 @@
       "width": 1600,
       "height": 1200,
       "builtIn": false,
-      "createdAt": "2026-11-20T00:00:00.000Z"
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "desc": "함백산 눈꽃과 상고대"
     },
     {
       "id": "update-ec5efe4f765e5d8c0ad0354f",
@@ -17405,7 +17537,8 @@
       "width": 600,
       "height": 800,
       "builtIn": false,
-      "createdAt": "2026-11-20T00:00:00.000Z"
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "desc": "두타산 얇은 눈이 덮인 숲길"
     },
     {
       "id": "update-d54e047c4828afcb177701d7",
@@ -17735,7 +17868,8 @@
       "width": 768,
       "height": 1024,
       "builtIn": false,
-      "createdAt": "2026-11-20T00:00:00.000Z"
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "desc": "덕항산 갈림길 이정표"
     },
     {
       "id": "update-2ba669c74fabcc6f83f1766f",
@@ -17889,7 +18023,8 @@
       "width": 600,
       "height": 800,
       "builtIn": false,
-      "createdAt": "2026-11-20T00:00:00.000Z"
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "desc": "백운산 산행길 이정표"
     },
     {
       "id": "update-02dd9afea6da25a7b37d813d",
@@ -18087,7 +18222,8 @@
       "width": 1440,
       "height": 1364,
       "builtIn": false,
-      "createdAt": "2026-11-20T00:00:00.000Z"
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "desc": "태화산 산행 중 만난 해 질 녘 풍경"
     },
     {
       "id": "update-f145a850856527b92ae64852",
@@ -18131,7 +18267,8 @@
       "width": 600,
       "height": 800,
       "builtIn": false,
-      "createdAt": "2026-11-20T00:00:00.000Z"
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "desc": "소백산 숲길의 안내 이정표"
     },
     {
       "id": "update-cf3429d867cf11654b46dcc3",
@@ -18373,7 +18510,8 @@
       "width": 1600,
       "height": 1200,
       "builtIn": false,
-      "createdAt": "2026-11-20T00:00:00.000Z"
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "desc": "마이산 두 봉우리를 배경으로"
     },
     {
       "id": "update-c2bc9b67f194b974884d8a26",
@@ -18615,7 +18753,8 @@
       "width": 585,
       "height": 800,
       "builtIn": false,
-      "createdAt": "2026-11-20T00:00:00.000Z"
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "desc": "장안산 산행길의 이정표"
     },
     {
       "id": "update-3f5a0c802a6bb63c938ea1c5",
@@ -18813,7 +18952,8 @@
       "width": 600,
       "height": 800,
       "builtIn": false,
-      "createdAt": "2026-11-20T00:00:00.000Z"
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "desc": "구봉산 표지석과 안내판"
     },
     {
       "id": "update-f33c6b5cb7f79a08830ccd08",
@@ -19165,7 +19305,8 @@
       "width": 1200,
       "height": 1600,
       "builtIn": false,
-      "createdAt": "2026-11-20T00:00:00.000Z"
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "desc": "가지산 능선에서 남긴 산행 기념사진"
     },
     {
       "id": "update-33d0e83c0829065858047bd5",
@@ -19187,7 +19328,8 @@
       "width": 1440,
       "height": 1080,
       "builtIn": false,
-      "createdAt": "2026-11-20T00:00:00.000Z"
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "desc": "가지산 정상 부근 바위 능선"
     },
     {
       "id": "update-57e42b076385a3e16783f18e",
@@ -19231,7 +19373,8 @@
       "width": 1293,
       "height": 1600,
       "builtIn": false,
-      "createdAt": "2026-11-20T00:00:00.000Z"
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "desc": "가지산 정상석 앞 기념사진"
     },
     {
       "id": "update-00fd4891c69c8dad81049199",
@@ -19253,7 +19396,8 @@
       "width": 776,
       "height": 1024,
       "builtIn": false,
-      "createdAt": "2026-11-20T00:00:00.000Z"
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "desc": "분홍빛 꽃이 핀 가지산 숲길"
     },
     {
       "id": "update-bb9ea3a05feace39e6455c59",
@@ -19275,7 +19419,8 @@
       "width": 768,
       "height": 1024,
       "builtIn": false,
-      "createdAt": "2026-11-20T00:00:00.000Z"
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "desc": "거대한 바위 봉우리 아래 기념사진"
     },
     {
       "id": "update-1417d42ebbefb06902f10fae",
@@ -19297,7 +19442,8 @@
       "width": 830,
       "height": 1024,
       "builtIn": false,
-      "createdAt": "2026-11-20T00:00:00.000Z"
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "desc": "푸른 숲 사이로 이어지는 등산로"
     },
     {
       "id": "update-bf3e99d06e55761abff0ce43",
@@ -19319,7 +19465,8 @@
       "width": 808,
       "height": 1024,
       "builtIn": false,
-      "createdAt": "2026-11-20T00:00:00.000Z"
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "desc": "쌀바위 표지석 앞 기념사진"
     },
     {
       "id": "update-97a1c16a6e8475f186e7bcc7",
@@ -19495,7 +19642,8 @@
       "width": 1024,
       "height": 890,
       "builtIn": false,
-      "createdAt": "2026-11-20T00:00:00.000Z"
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "desc": "바래봉 분홍빛 꽃밭에서"
     },
     {
       "id": "update-a3258840390c5af952630590",
@@ -19935,7 +20083,8 @@
       "width": 992,
       "height": 1280,
       "builtIn": false,
-      "createdAt": "2026-11-20T00:00:00.000Z"
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "desc": "마니산 풀밭 너머 해 질 녘 하늘"
     },
     {
       "id": "update-227473b845fe472719c45329",
@@ -20177,7 +20326,8 @@
       "width": 1126,
       "height": 1280,
       "builtIn": false,
-      "createdAt": "2026-11-20T00:00:00.000Z"
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "desc": "북한산 바위 전망에서"
     },
     {
       "id": "update-7061187b31dea9ab4ea5c8e7",
@@ -20331,7 +20481,8 @@
       "width": 1440,
       "height": 1080,
       "builtIn": false,
-      "createdAt": "2026-11-20T00:00:00.000Z"
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "desc": "모악산 산행 중 식사 시간"
     },
     {
       "id": "update-eaf894f2b6771f508fb339cc",
@@ -20463,7 +20614,8 @@
       "width": 1600,
       "height": 1200,
       "builtIn": false,
-      "createdAt": "2026-11-20T00:00:00.000Z"
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "desc": "반야봉 전망 공간에서 남긴 기념사진"
     },
     {
       "id": "update-edbcc4e62ae2f7fee1be57f6",
@@ -20661,7 +20813,8 @@
       "width": 1200,
       "height": 1600,
       "builtIn": false,
-      "createdAt": "2026-11-20T00:00:00.000Z"
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "desc": "황석산 바위 봉우리로 오르는 계단"
     },
     {
       "id": "update-87457f517d69e2c8965da107",
@@ -20793,7 +20946,8 @@
       "width": 960,
       "height": 1280,
       "builtIn": false,
-      "createdAt": "2026-11-20T00:00:00.000Z"
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "desc": "황석산 산행 안내판"
     },
     {
       "id": "update-03aa93d277345dc7e8030d6c",
@@ -20859,7 +21013,8 @@
       "width": 1304,
       "height": 1600,
       "builtIn": false,
-      "createdAt": "2026-11-20T00:00:00.000Z"
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "desc": "지리산 천왕봉 정상석 앞에서"
     },
     {
       "id": "update-254778e04d89ecbfae37885d",
@@ -21123,7 +21278,8 @@
       "width": 911,
       "height": 1280,
       "builtIn": false,
-      "createdAt": "2026-11-20T00:00:00.000Z"
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "desc": "천태산 바위 비탈 산행"
     },
     {
       "id": "update-759f102e276af09fbec885b0",
@@ -21387,7 +21543,8 @@
       "width": 1164,
       "height": 1600,
       "builtIn": false,
-      "createdAt": "2026-11-20T00:00:00.000Z"
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "desc": "운장산 바위 봉우리에서"
     },
     {
       "id": "update-e370ee4a56947e38975d02c2",
@@ -21915,7 +22072,8 @@
       "width": 874,
       "height": 1024,
       "builtIn": false,
-      "createdAt": "2026-11-20T00:00:00.000Z"
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "desc": "계룡산 산행길의 일주문"
     },
     {
       "id": "update-23c1bcf1a62a6f61f613d37c",
@@ -22223,7 +22381,8 @@
       "width": 960,
       "height": 1280,
       "builtIn": false,
-      "createdAt": "2026-11-20T00:00:00.000Z"
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "desc": "백덕산 정상석 앞에서"
     },
     {
       "id": "update-1b8c37d18365f095f3c52c91",
@@ -22421,7 +22580,8 @@
       "width": 768,
       "height": 1024,
       "builtIn": false,
-      "createdAt": "2026-11-20T00:00:00.000Z"
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "desc": "가리왕산 꽃 핀 풀밭 산행"
     },
     {
       "id": "update-e6637430ce52c96c5e760288",
@@ -23147,7 +23307,8 @@
       "width": 1080,
       "height": 1440,
       "builtIn": false,
-      "createdAt": "2026-11-20T00:00:00.000Z"
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "desc": "수락산 바위 전망에서"
     },
     {
       "id": "update-6fa6473666b49522d3923721",
@@ -23433,7 +23594,8 @@
       "width": 768,
       "height": 1024,
       "builtIn": false,
-      "createdAt": "2026-11-20T00:00:00.000Z"
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "desc": "도봉산 단풍길의 나무 계단"
     },
     {
       "id": "update-026c91c0b4a52fc5384521f6",
@@ -23631,7 +23793,8 @@
       "width": 1280,
       "height": 960,
       "builtIn": false,
-      "createdAt": "2026-11-20T00:00:00.000Z"
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "desc": "청화산 정상석 앞에서"
     },
     {
       "id": "update-2b412e2eb0239f48d1f2f124",
@@ -23939,7 +24102,8 @@
       "width": 768,
       "height": 1024,
       "builtIn": false,
-      "createdAt": "2026-11-20T00:00:00.000Z"
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "desc": "속리산 가을 단풍 아래 쉼터"
     },
     {
       "id": "update-808aef22867a971520450d87",
@@ -24269,7 +24433,8 @@
       "width": 641,
       "height": 800,
       "builtIn": false,
-      "createdAt": "2026-11-20T00:00:00.000Z"
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "desc": "칠보산 산행길의 붉은 단풍"
     },
     {
       "id": "update-cd8122344cf2378efd7a1d4e",
@@ -24357,7 +24522,8 @@
       "width": 768,
       "height": 1024,
       "builtIn": false,
-      "createdAt": "2026-11-20T00:00:00.000Z"
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "desc": "대야산 큰 바위 사이의 산행길"
     },
     {
       "id": "update-bb71ba9ba45707fa7db81f8e",
@@ -24995,7 +25161,8 @@
       "width": 960,
       "height": 1280,
       "builtIn": false,
-      "createdAt": "2026-11-20T00:00:00.000Z"
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "desc": "관악산 정상석 앞에서"
     },
     {
       "id": "update-ec3a2afadd4e11046d1291d5",
@@ -25149,7 +25316,8 @@
       "width": 1080,
       "height": 1280,
       "builtIn": false,
-      "createdAt": "2026-11-20T00:00:00.000Z"
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "desc": "청계산 정상석 앞 기념사진"
     },
     {
       "id": "update-e00e3a88fbc481214ad8e8d0",
@@ -25237,7 +25405,8 @@
       "width": 935,
       "height": 1280,
       "builtIn": false,
-      "createdAt": "2026-11-20T00:00:00.000Z"
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "desc": "도락산의 커다란 바위와 소나무"
     },
     {
       "id": "update-eaeea18831ab2155fddc51ef",
@@ -25523,7 +25692,8 @@
       "width": 1063,
       "height": 1280,
       "builtIn": false,
-      "createdAt": "2026-11-20T00:00:00.000Z"
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "desc": "응봉산 정상석 앞에서"
     },
     {
       "id": "update-3291dd6f74685bb8ffa63e9e",
@@ -25677,7 +25847,8 @@
       "width": 768,
       "height": 1024,
       "builtIn": false,
-      "createdAt": "2026-11-20T00:00:00.000Z"
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "desc": "눈 내린 산길의 갈림길 이정표"
     },
     {
       "id": "update-da46777e7a547839822df61b",
@@ -25699,7 +25870,8 @@
       "width": 1280,
       "height": 960,
       "builtIn": false,
-      "createdAt": "2026-11-20T00:00:00.000Z"
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "desc": "가지산 중봉 정상 표지석 앞 기념사진"
     },
     {
       "id": "update-1a212fae6bf4cda9dae7adeb",
@@ -25721,7 +25893,8 @@
       "width": 768,
       "height": 1024,
       "builtIn": false,
-      "createdAt": "2026-11-20T00:00:00.000Z"
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "desc": "석남터널 방향을 안내하는 이정표"
     },
     {
       "id": "update-27cf558b7865bed009cb44b5",
@@ -25743,7 +25916,8 @@
       "width": 1080,
       "height": 1440,
       "builtIn": false,
-      "createdAt": "2026-11-20T00:00:00.000Z"
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "desc": "가지산 정상석 앞 겨울 산행 기념사진"
     },
     {
       "id": "update-51e75d0b56d5eb7daa7bc638",
@@ -25765,7 +25939,8 @@
       "width": 1090,
       "height": 1440,
       "builtIn": false,
-      "createdAt": "2026-11-20T00:00:00.000Z"
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "desc": "가지산 중봉 정상 기념사진"
     },
     {
       "id": "update-3a6d40052b49e86c47a96cb5",
@@ -25787,7 +25962,8 @@
       "width": 984,
       "height": 1280,
       "builtIn": false,
-      "createdAt": "2026-11-20T00:00:00.000Z"
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "desc": "눈과 바위가 이어진 가지산 능선길"
     },
     {
       "id": "update-074ced631e43016cfe043a2b",
@@ -25809,7 +25985,8 @@
       "width": 768,
       "height": 1024,
       "builtIn": false,
-      "createdAt": "2026-11-20T00:00:00.000Z"
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "desc": "얇게 눈이 덮인 숲길"
     },
     {
       "id": "update-5a4dcd3b5ff39f766a12409c",
@@ -25831,7 +26008,8 @@
       "width": 960,
       "height": 1280,
       "builtIn": false,
-      "createdAt": "2026-11-20T00:00:00.000Z"
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "desc": "상고대가 보이는 겨울 산 능선"
     },
     {
       "id": "update-954daed622d4ce680eb1c2ae",
@@ -25853,7 +26031,8 @@
       "width": 1164,
       "height": 1440,
       "builtIn": false,
-      "createdAt": "2026-11-20T00:00:00.000Z"
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "desc": "바위 능선에서 바라본 겨울 산줄기"
     },
     {
       "id": "update-0493ef8da8e8898b23ea0cec",
@@ -25875,7 +26054,8 @@
       "width": 768,
       "height": 1024,
       "builtIn": false,
-      "createdAt": "2026-11-20T00:00:00.000Z"
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "desc": "눈 쌓인 계단을 내려가는 모습"
     },
     {
       "id": "update-7c6a2b9985680e9db9b7900e",
@@ -25897,7 +26077,8 @@
       "width": 711,
       "height": 1024,
       "builtIn": false,
-      "createdAt": "2026-11-20T00:00:00.000Z"
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "desc": "눈 덮인 겨울 숲길"
     },
     {
       "id": "update-7d8f0cb24f89fe0e1405c120",
@@ -25919,7 +26100,8 @@
       "width": 789,
       "height": 1024,
       "builtIn": false,
-      "createdAt": "2026-11-20T00:00:00.000Z"
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "desc": "겨울 숲길을 걷는 모습"
     },
     {
       "id": "update-3a8705b8c0bb17ebd04972ad",
@@ -26139,7 +26321,8 @@
       "width": 960,
       "height": 1280,
       "builtIn": false,
-      "createdAt": "2026-11-20T00:00:00.000Z"
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "desc": "가지산의 눈 덮인 능선길"
     },
     {
       "id": "update-f0d80ae4ab7062cbd01a0033",
@@ -26161,7 +26344,8 @@
       "width": 1280,
       "height": 960,
       "builtIn": false,
-      "createdAt": "2026-11-20T00:00:00.000Z"
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "desc": "나뭇가지에 하얗게 핀 눈꽃"
     },
     {
       "id": "update-4c602194b0b07d659700b80e",
@@ -26183,7 +26367,8 @@
       "width": 1280,
       "height": 960,
       "builtIn": false,
-      "createdAt": "2026-11-20T00:00:00.000Z"
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "desc": "눈과 억새가 이어진 능선에서 기념사진"
     },
     {
       "id": "update-049a767eeee56d2d076b5f02",
@@ -26205,7 +26390,8 @@
       "width": 1080,
       "height": 1440,
       "builtIn": false,
-      "createdAt": "2026-11-20T00:00:00.000Z"
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "desc": "운문산 정상석 앞 기념사진"
     },
     {
       "id": "update-77df129818917c2b6ecb1fc6",
@@ -26227,7 +26413,8 @@
       "width": 960,
       "height": 1280,
       "builtIn": false,
-      "createdAt": "2026-11-20T00:00:00.000Z"
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "desc": "운문산 정상 부근 암릉"
     },
     {
       "id": "update-e94a3e92c87c4aa4457fc420",
@@ -26425,7 +26612,8 @@
       "width": 768,
       "height": 1024,
       "builtIn": false,
-      "createdAt": "2026-11-20T00:00:00.000Z"
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "desc": "조령산 눈 쌓인 숲길 산행"
     },
     {
       "id": "update-26a0f5b8051c324c90537867",
@@ -26469,7 +26657,8 @@
       "width": 800,
       "height": 600,
       "builtIn": false,
-      "createdAt": "2026-11-20T00:00:00.000Z"
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "desc": "주왕산 절벽 아래 폭포"
     },
     {
       "id": "update-1d6da14c09c95a88a7d04f9b",
@@ -26557,7 +26746,8 @@
       "width": 1080,
       "height": 1440,
       "builtIn": false,
-      "createdAt": "2026-11-20T00:00:00.000Z"
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "desc": "금수산 바위와 소나무를 배경으로"
     },
     {
       "id": "update-bb9252f5a617829caca1f5a6",
@@ -26843,7 +27033,8 @@
       "width": 1280,
       "height": 960,
       "builtIn": false,
-      "createdAt": "2026-11-20T00:00:00.000Z"
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "desc": "월악산 눈길의 철제 계단"
     },
     {
       "id": "update-95e859896b88a6693659daf4",
@@ -26975,7 +27166,8 @@
       "width": 960,
       "height": 1280,
       "builtIn": false,
-      "createdAt": "2026-11-20T00:00:00.000Z"
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "desc": "치악산 능선에서 남긴 기념사진"
     },
     {
       "id": "update-92304bebaad2ca8c21d656c1",
@@ -27019,7 +27211,8 @@
       "width": 1057,
       "height": 1440,
       "builtIn": false,
-      "createdAt": "2026-11-20T00:00:00.000Z"
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "desc": "유명산 정상석 앞에서"
     },
     {
       "id": "update-f7f6caf42c14b36fde1c9b56",
@@ -27063,7 +27256,8 @@
       "width": 1048,
       "height": 1440,
       "builtIn": false,
-      "createdAt": "2026-11-20T00:00:00.000Z"
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "desc": "팔봉산 바위 능선에서"
     },
     {
       "id": "update-112aa9be440f95abd882c33c",
@@ -27239,7 +27433,8 @@
       "width": 768,
       "height": 1024,
       "builtIn": false,
-      "createdAt": "2026-11-20T00:00:00.000Z"
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "desc": "용문산 산행 중 만난 연등길"
     },
     {
       "id": "update-517cbc59f474bf04e927b7ce",
@@ -27261,7 +27456,8 @@
       "width": 768,
       "height": 1024,
       "builtIn": false,
-      "createdAt": "2026-11-20T00:00:00.000Z"
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "desc": "오봉산 바위 능선 산행"
     },
     {
       "id": "update-2e5b1904bfe5b0b601e48a85",
@@ -27525,7 +27721,8 @@
       "width": 960,
       "height": 1280,
       "builtIn": false,
-      "createdAt": "2026-11-20T00:00:00.000Z"
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "desc": "용화산 바위 전망에서 바라본 산줄기"
     },
     {
       "id": "update-3b51dc41ceff5e51588204a5",
@@ -27613,7 +27810,8 @@
       "width": 1080,
       "height": 1440,
       "builtIn": false,
-      "createdAt": "2026-11-20T00:00:00.000Z"
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "desc": "화악산 너른 바위 전망에서"
     },
     {
       "id": "update-64b997adeb5c3921b53bd629",
@@ -27899,7 +28097,8 @@
       "width": 1080,
       "height": 1440,
       "builtIn": false,
-      "createdAt": "2026-11-20T00:00:00.000Z"
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "desc": "재약산 바위 봉우리에서"
     },
     {
       "id": "update-5a22fb2c012265661b6a65e5",
@@ -28251,7 +28450,8 @@
       "width": 1280,
       "height": 960,
       "builtIn": false,
-      "createdAt": "2026-11-20T00:00:00.000Z"
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "desc": "노란 꽃밭에서 남긴 기념사진"
     },
     {
       "id": "update-fbba70eba470662aa357afff",
@@ -28273,7 +28473,8 @@
       "width": 1080,
       "height": 1440,
       "builtIn": false,
-      "createdAt": "2026-11-20T00:00:00.000Z"
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "desc": "상운산 정상에서 함께 남긴 기념사진"
     },
     {
       "id": "update-8f821fc4e67ff49e33f48db0",
@@ -28295,7 +28496,8 @@
       "width": 1024,
       "height": 768,
       "builtIn": false,
-      "createdAt": "2026-11-20T00:00:00.000Z"
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "desc": "숲 위로 솟은 암봉 아래 기념사진"
     },
     {
       "id": "update-f501ca9f5adacdecfce097dd",
@@ -28317,7 +28519,8 @@
       "width": 960,
       "height": 1280,
       "builtIn": false,
-      "createdAt": "2026-11-20T00:00:00.000Z"
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "desc": "거대한 바위 봉우리 아래 기념사진"
     },
     {
       "id": "update-9639a83d0630e3b725712e2a",
@@ -28339,7 +28542,8 @@
       "width": 768,
       "height": 1024,
       "builtIn": false,
-      "createdAt": "2026-11-20T00:00:00.000Z"
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "desc": "꽃나무가 이어진 등산 계단길"
     },
     {
       "id": "update-19961aa80117643572babc67",
@@ -28449,7 +28653,8 @@
       "width": 960,
       "height": 960,
       "builtIn": false,
-      "createdAt": "2026-11-20T00:00:00.000Z"
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "desc": "방태산 비 오는 날의 정상 기념사진"
     },
     {
       "id": "update-e677c797604ad9b0daa5f94c",
@@ -28493,7 +28698,8 @@
       "width": 768,
       "height": 1024,
       "builtIn": false,
-      "createdAt": "2026-11-20T00:00:00.000Z"
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "desc": "명지산 꽃 핀 산행길에서"
     },
     {
       "id": "update-f8d3d8198a679fb441882c68",
@@ -28669,7 +28875,8 @@
       "width": 960,
       "height": 1280,
       "builtIn": false,
-      "createdAt": "2026-11-20T00:00:00.000Z"
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "desc": "한라산 영실의 나무 데크길"
     },
     {
       "id": "update-fe368121715cfc8fae04dd39",
@@ -29681,7 +29888,8 @@
       "width": 1280,
       "height": 960,
       "builtIn": false,
-      "createdAt": "2026-11-20T00:00:00.000Z"
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "desc": "두타산 산행 안내판 앞에서"
     },
     {
       "id": "update-6c9cf61ef7116d072daf91c1",
@@ -29769,7 +29977,8 @@
       "width": 1280,
       "height": 960,
       "builtIn": false,
-      "createdAt": "2026-11-20T00:00:00.000Z"
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "desc": "가지산 능선과 깊은 산골짜기 조망"
     },
     {
       "id": "update-cff4808b4bf87ea247375db9",
@@ -29791,7 +30000,8 @@
       "width": 960,
       "height": 1280,
       "builtIn": false,
-      "createdAt": "2026-11-20T00:00:00.000Z"
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "desc": "가지산 입석대 바위 풍경"
     },
     {
       "id": "update-6644cbe8339aac029e6644c0",
@@ -30099,7 +30309,8 @@
       "width": 960,
       "height": 1280,
       "builtIn": false,
-      "createdAt": "2026-11-20T00:00:00.000Z"
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "desc": "설악산 토왕성폭포로 향하는 다리"
     },
     {
       "id": "update-f8840540f75b986ba2a17b20",
@@ -30143,7 +30354,8 @@
       "width": 768,
       "height": 1024,
       "builtIn": false,
-      "createdAt": "2026-11-20T00:00:00.000Z"
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "desc": "설악산 탐방로의 갈림길 안내"
     },
     {
       "id": "update-bfbd3253258fd7b492ccfb4a",
@@ -30847,7 +31059,8 @@
       "width": 768,
       "height": 1024,
       "builtIn": false,
-      "createdAt": "2026-11-20T00:00:00.000Z"
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "desc": "계족산 숲길 이정표"
     },
     {
       "id": "update-5e15c7875830e627f7e0edd5",
@@ -31397,7 +31610,8 @@
       "width": 1080,
       "height": 1440,
       "builtIn": false,
-      "createdAt": "2026-11-20T00:00:00.000Z"
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "desc": "계방산 정상석 앞에서"
     },
     {
       "id": "update-132fa3f3e3fda4cd4bd5e7a9",
@@ -31925,7 +32139,8 @@
       "width": 768,
       "height": 1024,
       "builtIn": false,
-      "createdAt": "2026-11-20T00:00:00.000Z"
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "desc": "대둔산 바위 사이의 철제 다리"
     },
     {
       "id": "update-900c1a342d42ac24a27deda6",
@@ -32233,7 +32448,8 @@
       "width": 768,
       "height": 1024,
       "builtIn": false,
-      "createdAt": "2026-11-20T00:00:00.000Z"
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "desc": "대둔산 산행길의 방향 안내"
     },
     {
       "id": "update-a04fcedab4ba828e0c3141b9",
@@ -33201,7 +33417,8 @@
       "width": 768,
       "height": 1024,
       "builtIn": false,
-      "createdAt": "2026-11-20T00:00:00.000Z"
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "desc": "운문산 눈꽃 숲길 기념사진"
     },
     {
       "id": "update-642ae2fbb4460806cdb73430",
@@ -33223,7 +33440,8 @@
       "width": 804,
       "height": 1024,
       "builtIn": false,
-      "createdAt": "2026-11-20T00:00:00.000Z"
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "desc": "온통 하얗게 눈이 덮인 숲길"
     },
     {
       "id": "update-3b7e48657a5277f9305f6a6f",
@@ -33245,7 +33463,8 @@
       "width": 796,
       "height": 1024,
       "builtIn": false,
-      "createdAt": "2026-11-20T00:00:00.000Z"
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "desc": "운문산 설경 속 기념사진"
     },
     {
       "id": "update-2f6c6a7b50c261b6d9d1a40a",
@@ -33267,7 +33486,8 @@
       "width": 1024,
       "height": 851,
       "builtIn": false,
-      "createdAt": "2026-11-20T00:00:00.000Z"
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "desc": "눈꽃 핀 가지 사이의 기념사진"
     },
     {
       "id": "update-37ab5e274d4396ff7fe6ca53",
@@ -33289,7 +33509,8 @@
       "width": 1200,
       "height": 1600,
       "builtIn": false,
-      "createdAt": "2026-11-20T00:00:00.000Z"
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "desc": "운문산 정상석 앞 겨울 산행 기념사진"
     },
     {
       "id": "update-e7fa00c8fdb0de6fdfd59f91",
@@ -33311,7 +33532,8 @@
       "width": 960,
       "height": 1280,
       "builtIn": false,
-      "createdAt": "2026-11-20T00:00:00.000Z"
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "desc": "눈꽃 사이로 이어진 좁은 등산로"
     },
     {
       "id": "update-44b1410170c5fd4e9619e58f",
@@ -33333,7 +33555,8 @@
       "width": 862,
       "height": 1024,
       "builtIn": false,
-      "createdAt": "2026-11-20T00:00:00.000Z"
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "desc": "눈 쌓인 바위 틈에서 기념사진"
     },
     {
       "id": "update-e593f213a78722766f12a37a",
@@ -33355,7 +33578,8 @@
       "width": 600,
       "height": 800,
       "builtIn": false,
-      "createdAt": "2026-11-20T00:00:00.000Z"
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "desc": "눈 덮인 나무 아래 숲길"
     },
     {
       "id": "update-298ca1cdba0d652f4cdbb358",
@@ -33377,7 +33601,8 @@
       "width": 768,
       "height": 1024,
       "builtIn": false,
-      "createdAt": "2026-11-20T00:00:00.000Z"
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "desc": "눈꽃으로 둘러싸인 운문산 등산로"
     },
     {
       "id": "update-e816ca6d7c528bd0958d8368",
@@ -33399,7 +33624,8 @@
       "width": 1200,
       "height": 1600,
       "builtIn": false,
-      "createdAt": "2026-11-20T00:00:00.000Z"
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "desc": "눈 덮인 바위 능선에서 기념사진"
     },
     {
       "id": "update-d26fb407799081ec8be72cf5",
@@ -33421,7 +33647,8 @@
       "width": 1221,
       "height": 1600,
       "builtIn": false,
-      "createdAt": "2026-11-20T00:00:00.000Z"
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "desc": "가지산 중봉 표지석 앞 설경 기념사진"
     },
     {
       "id": "update-3c497eaa2253d4e644534b2a",
@@ -33443,7 +33670,8 @@
       "width": 960,
       "height": 1280,
       "builtIn": false,
-      "createdAt": "2026-11-20T00:00:00.000Z"
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "desc": "눈이 쌓인 등산 계단"
     },
     {
       "id": "update-4aaa9e8cd1d5a69fdb36d276",
@@ -33465,7 +33693,8 @@
       "width": 768,
       "height": 1024,
       "builtIn": false,
-      "createdAt": "2026-11-20T00:00:00.000Z"
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "desc": "눈꽃 숲 사이의 계단을 오르는 모습"
     },
     {
       "id": "update-5f9cbaa65652217926fa98ec",
@@ -33487,7 +33716,8 @@
       "width": 768,
       "height": 1024,
       "builtIn": false,
-      "createdAt": "2026-11-20T00:00:00.000Z"
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "desc": "눈에 덮인 등산로 이정표"
     },
     {
       "id": "update-1f673481d7e2eb1da5695010",
@@ -33509,7 +33739,8 @@
       "width": 1200,
       "height": 1600,
       "builtIn": false,
-      "createdAt": "2026-11-20T00:00:00.000Z"
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "desc": "나뭇가지 눈꽃 사이로 이어진 산길"
     },
     {
       "id": "update-b9be13293ca07e373e2da889",
@@ -33531,7 +33762,8 @@
       "width": 1200,
       "height": 1600,
       "builtIn": false,
-      "createdAt": "2026-11-20T00:00:00.000Z"
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "desc": "설경 속 산행 갈림길 안내판"
     },
     {
       "id": "update-c38d02e1a8cf40c99f523f5a",
@@ -33553,7 +33785,8 @@
       "width": 1600,
       "height": 1200,
       "builtIn": false,
-      "createdAt": "2026-11-20T00:00:00.000Z"
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "desc": "눈 내린 가지산 정상 부근 풍경"
     },
     {
       "id": "update-4b69f5e0c9998b2f557c5778",
@@ -33575,7 +33808,8 @@
       "width": 1200,
       "height": 1600,
       "builtIn": false,
-      "createdAt": "2026-11-20T00:00:00.000Z"
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "desc": "눈 덮인 정상 부근에서 기념사진"
     },
     {
       "id": "update-fa456120653398047802f017",
@@ -33597,7 +33831,8 @@
       "width": 1080,
       "height": 1440,
       "builtIn": false,
-      "createdAt": "2026-11-20T00:00:00.000Z"
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "desc": "눈꽃 숲길 산행 기념사진"
     },
     {
       "id": "update-a6579b0ecdbfed6ee27b116b",
@@ -33619,7 +33854,8 @@
       "width": 1200,
       "height": 1600,
       "builtIn": false,
-      "createdAt": "2026-11-20T00:00:00.000Z"
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "desc": "상고대 사이에서 남긴 기념사진"
     },
     {
       "id": "update-119d7a5e963e5ed0d627125b",
@@ -33641,7 +33877,8 @@
       "width": 960,
       "height": 1280,
       "builtIn": false,
-      "createdAt": "2026-11-20T00:00:00.000Z"
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "desc": "새하얀 눈꽃 사이의 등산로"
     },
     {
       "id": "update-f1de1131c84c53d8f292637b",
@@ -33663,7 +33900,8 @@
       "width": 1200,
       "height": 1600,
       "builtIn": false,
-      "createdAt": "2026-11-20T00:00:00.000Z"
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "desc": "눈 덮인 나무 아래 산행 기념사진"
     },
     {
       "id": "update-8f9c5965d53c50af6112aa6f",
@@ -33685,7 +33923,8 @@
       "width": 1600,
       "height": 1200,
       "builtIn": false,
-      "createdAt": "2026-11-20T00:00:00.000Z"
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "desc": "눈꽃 가득한 능선길에서 기념사진"
     },
     {
       "id": "update-48c7e4b721bc3d8729ecf5b3",
@@ -33707,7 +33946,8 @@
       "width": 1220,
       "height": 1600,
       "builtIn": false,
-      "createdAt": "2026-11-20T00:00:00.000Z"
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "desc": "가지산 정상석 앞 설경 기념사진"
     },
     {
       "id": "update-330db9687acb54399344b499",
@@ -33729,7 +33969,8 @@
       "width": 1080,
       "height": 1440,
       "builtIn": false,
-      "createdAt": "2026-11-20T00:00:00.000Z"
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "desc": "눈으로 뒤덮인 숲길과 난간"
     },
     {
       "id": "update-971a93acb19927d5bc34104f",
@@ -33751,7 +33992,8 @@
       "width": 1080,
       "height": 1440,
       "builtIn": false,
-      "createdAt": "2026-11-20T00:00:00.000Z"
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "desc": "눈 쌓인 바위 사이에서 기념사진"
     },
     {
       "id": "update-9bdfc3dc9c8b4a9707c50256",
@@ -33795,7 +34037,8 @@
       "width": 1180,
       "height": 1600,
       "builtIn": false,
-      "createdAt": "2026-11-20T00:00:00.000Z"
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "desc": "덕유산 눈 덮인 쉼터에서"
     },
     {
       "id": "update-e5e9035fcbdf736b0a6ef678",
@@ -33993,7 +34236,8 @@
       "width": 1200,
       "height": 1600,
       "builtIn": false,
-      "createdAt": "2026-11-20T00:00:00.000Z"
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "desc": "덕유산 눈 덮인 이정표와 안내판"
     },
     {
       "id": "update-87a0e370d2e9fbdc2bf5bcbd",
@@ -34213,7 +34457,8 @@
       "width": 1200,
       "height": 1600,
       "builtIn": false,
-      "createdAt": "2026-11-20T00:00:00.000Z"
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "desc": "선자령 눈길의 이정표"
     },
     {
       "id": "update-1155f625f97ed6831b6ec9fe",
@@ -34851,7 +35096,8 @@
       "width": 768,
       "height": 1024,
       "builtIn": false,
-      "createdAt": "2026-11-20T00:00:00.000Z"
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "desc": "팔왕산 숲길의 안내 이정표"
     },
     {
       "id": "update-1f0d70cfc0a7a6498e6de3bf",
@@ -35313,7 +35559,8 @@
       "width": 935,
       "height": 1280,
       "builtIn": false,
-      "createdAt": "2026-11-20T00:00:00.000Z"
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "desc": "태백산 눈 덮인 나무숲에서"
     },
     {
       "id": "update-36cdeeab8c1a744b6e17b615",
@@ -36853,7 +37100,8 @@
       "width": 781,
       "height": 1024,
       "builtIn": false,
-      "createdAt": "2026-11-20T00:00:00.000Z"
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "desc": "능동산·가지산 방향 이정표"
     },
     {
       "id": "update-2e8b2ca53f1c33ce6e1f6b4d",
@@ -38921,7 +39169,8 @@
       "width": 768,
       "height": 1024,
       "builtIn": false,
-      "createdAt": "2026-11-20T00:00:00.000Z"
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "desc": "영축산 산행길 안내 표지판"
     },
     {
       "id": "update-94674f829dad17ee9a71f363",
@@ -38943,7 +39192,8 @@
       "width": 720,
       "height": 1280,
       "builtIn": false,
-      "createdAt": "2026-11-20T00:00:00.000Z"
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "desc": "겨울 등산로 입구 안내판"
     },
     {
       "id": "update-901104f3ea9923731fe4dd61",
@@ -38965,7 +39215,8 @@
       "width": 1080,
       "height": 1440,
       "builtIn": false,
-      "createdAt": "2026-11-20T00:00:00.000Z"
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "desc": "눈 덮인 바위 능선에서 기념사진"
     },
     {
       "id": "update-9b953a0647e606294d695add",
@@ -38987,7 +39238,8 @@
       "width": 901,
       "height": 1600,
       "builtIn": false,
-      "createdAt": "2026-11-20T00:00:00.000Z"
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "desc": "눈 쌓인 산길을 오르는 모습"
     },
     {
       "id": "update-bd765cfe89ae741569be4b05",
@@ -39009,7 +39261,8 @@
       "width": 1080,
       "height": 1440,
       "builtIn": false,
-      "createdAt": "2026-11-20T00:00:00.000Z"
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "desc": "파란 하늘 아래 겨울 능선길"
     },
     {
       "id": "update-6e733147be3bacc150568365",
@@ -39031,7 +39284,8 @@
       "width": 901,
       "height": 1600,
       "builtIn": false,
-      "createdAt": "2026-11-20T00:00:00.000Z"
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "desc": "눈 덮인 암릉에서 남긴 산행 기념사진"
     },
     {
       "id": "update-1bc1f70418d15ca108cbe077",
@@ -39053,7 +39307,8 @@
       "width": 1170,
       "height": 1600,
       "builtIn": false,
-      "createdAt": "2026-11-20T00:00:00.000Z"
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "desc": "겨울 바위 능선 기념사진"
     },
     {
       "id": "update-96d6a067da1968779f4ddc38",
@@ -39075,7 +39330,8 @@
       "width": 1080,
       "height": 1440,
       "builtIn": false,
-      "createdAt": "2026-11-20T00:00:00.000Z"
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "desc": "푸른 하늘과 눈꽃 핀 나뭇가지"
     },
     {
       "id": "update-65488bc8e9e6ac6887ac9a7e",
@@ -39097,7 +39353,8 @@
       "width": 960,
       "height": 1280,
       "builtIn": false,
-      "createdAt": "2026-11-20T00:00:00.000Z"
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "desc": "눈과 마른 풀이 어우러진 능선"
     },
     {
       "id": "update-9b1da8836ec0819b35104c92",
@@ -39119,7 +39376,8 @@
       "width": 742,
       "height": 1280,
       "builtIn": false,
-      "createdAt": "2026-11-20T00:00:00.000Z"
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "desc": "가지산 산행길 갈림길 이정표"
     },
     {
       "id": "update-8dade939ec9870abff5ba388",
@@ -39141,7 +39399,8 @@
       "width": 1200,
       "height": 1600,
       "builtIn": false,
-      "createdAt": "2026-11-20T00:00:00.000Z"
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "desc": "설경 속 능선 기념사진"
     },
     {
       "id": "update-e981064b59975bb1ed13f41c",
@@ -39163,7 +39422,8 @@
       "width": 1200,
       "height": 1600,
       "builtIn": false,
-      "createdAt": "2026-11-20T00:00:00.000Z"
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "desc": "눈 내린 능선의 갈림길 이정표"
     },
     {
       "id": "update-f77a102c8a4b4c80c9b75ee7",
@@ -39185,7 +39445,8 @@
       "width": 768,
       "height": 1024,
       "builtIn": false,
-      "createdAt": "2026-11-20T00:00:00.000Z"
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "desc": "눈꽃으로 덮인 산비탈 등산로"
     },
     {
       "id": "update-d9f89fabba2a683a4ad9fcd3",
@@ -39207,7 +39468,8 @@
       "width": 901,
       "height": 1600,
       "builtIn": false,
-      "createdAt": "2026-11-20T00:00:00.000Z"
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "desc": "눈 덮인 암릉에서 기념사진"
     },
     {
       "id": "update-088093145bedea0d2f7bd404",
@@ -39229,7 +39491,8 @@
       "width": 1600,
       "height": 901,
       "builtIn": false,
-      "createdAt": "2026-11-20T00:00:00.000Z"
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "desc": "겨울 가지산 정상 부근의 산행 풍경"
     },
     {
       "id": "update-d07c2ff9f7f7464f13a5f055",
@@ -39251,7 +39514,8 @@
       "width": 960,
       "height": 1280,
       "builtIn": false,
-      "createdAt": "2026-11-20T00:00:00.000Z"
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "desc": "눈꽃 핀 나무 사이의 산행 기념사진"
     },
     {
       "id": "update-836808e0634b86713dafb82b",
@@ -39273,7 +39537,8 @@
       "width": 1600,
       "height": 1200,
       "builtIn": false,
-      "createdAt": "2026-11-20T00:00:00.000Z"
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "desc": "눈 덮인 바위 쉼터 부근 풍경"
     },
     {
       "id": "update-0effb4f0d1bb67ba6280faa1",
@@ -39295,7 +39560,8 @@
       "width": 1174,
       "height": 1600,
       "builtIn": false,
-      "createdAt": "2026-11-20T00:00:00.000Z"
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "desc": "겨울 능선 위 등산객의 실루엣"
     },
     {
       "id": "update-8fc81672d4b575efbd8a0ca7",
@@ -39317,7 +39583,8 @@
       "width": 600,
       "height": 800,
       "builtIn": false,
-      "createdAt": "2026-11-20T00:00:00.000Z"
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "desc": "눈꽃 숲 사이로 걷는 등산객"
     },
     {
       "id": "update-00653a44d5525eb047e3f213",
@@ -39339,7 +39606,8 @@
       "width": 1280,
       "height": 960,
       "builtIn": false,
-      "createdAt": "2026-11-20T00:00:00.000Z"
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "desc": "눈 덮인 바위와 쉼터 벤치"
     },
     {
       "id": "update-a9bea4476349453760fb0df5",
@@ -39361,7 +39629,8 @@
       "width": 1080,
       "height": 1440,
       "builtIn": false,
-      "createdAt": "2026-11-20T00:00:00.000Z"
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "desc": "쌀바위 표지석 앞 겨울 산행 기념사진"
     },
     {
       "id": "update-70a17a167dbfddad5628f7b0",
@@ -39383,7 +39652,8 @@
       "width": 960,
       "height": 1280,
       "builtIn": false,
-      "createdAt": "2026-11-20T00:00:00.000Z"
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "desc": "쌀바위 표지석과 설경 기념사진"
     },
     {
       "id": "update-bf7611215af7ff5c83e993c8",
@@ -39405,7 +39675,8 @@
       "width": 977,
       "height": 1280,
       "builtIn": false,
-      "createdAt": "2026-11-20T00:00:00.000Z"
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "desc": "눈꽃 핀 능선길에서 기념사진"
     },
     {
       "id": "update-aeb7188e3255b414f0867799",
@@ -39427,7 +39698,8 @@
       "width": 1280,
       "height": 960,
       "builtIn": false,
-      "createdAt": "2026-11-20T00:00:00.000Z"
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "desc": "하얀 눈꽃 능선에서 산행 기념사진"
     },
     {
       "id": "update-4a0ea2c1574e44fb39b88395",
@@ -41759,7 +42031,8 @@
       "width": 960,
       "height": 1280,
       "builtIn": false,
-      "createdAt": "2026-11-20T00:00:00.000Z"
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "desc": "분홍빛 꽃 사이에서 남긴 봄 산행 기념사진"
     },
     {
       "id": "update-c26f3f920af464dd87c1c33d",
@@ -42155,7 +42428,8 @@
       "width": 768,
       "height": 1024,
       "builtIn": false,
-      "createdAt": "2026-11-20T00:00:00.000Z"
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "desc": "비슬산 꽃 핀 산행길 이정표"
     },
     {
       "id": "update-e7aca5c2ba25a6bcd60c13e3",
@@ -42287,7 +42561,8 @@
       "width": 1306,
       "height": 1600,
       "builtIn": false,
-      "createdAt": "2026-11-20T00:00:00.000Z"
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "desc": "비슬산 산행길 안내 지도"
     },
     {
       "id": "update-fd2e97fb02328ceeef5900fb",
@@ -42463,7 +42738,8 @@
       "width": 834,
       "height": 1024,
       "builtIn": false,
-      "createdAt": "2026-11-20T00:00:00.000Z"
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "desc": "비슬산 산행 안내판 앞에서"
     },
     {
       "id": "update-e21d50de2cc28ae3a3c84652",
@@ -42573,7 +42849,8 @@
       "width": 907,
       "height": 1440,
       "builtIn": false,
-      "createdAt": "2026-11-20T00:00:00.000Z"
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "desc": "봄꽃 핀 운문산 등산로에서 기념사진"
     },
     {
       "id": "update-304891526f7ebb0e11fd8907",
@@ -42595,7 +42872,8 @@
       "width": 768,
       "height": 1024,
       "builtIn": false,
-      "createdAt": "2026-11-20T00:00:00.000Z"
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "desc": "비슬산 봄 산행길의 이정표"
     },
     {
       "id": "update-ea6c4cb95c021c956986c41b",
@@ -42617,7 +42895,8 @@
       "width": 960,
       "height": 1280,
       "builtIn": false,
-      "createdAt": "2026-11-20T00:00:00.000Z"
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "desc": "운문산 정상 부근에서 기념사진"
     },
     {
       "id": "update-6c5e95fea94611bcbbad861b",
@@ -42639,7 +42918,8 @@
       "width": 1078,
       "height": 1440,
       "builtIn": false,
-      "createdAt": "2026-11-20T00:00:00.000Z"
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "desc": "분홍빛 봄꽃과 산 아래 운해"
     },
     {
       "id": "update-0699d4914497e62d74d9a687",
@@ -42661,7 +42941,8 @@
       "width": 1080,
       "height": 1440,
       "builtIn": false,
-      "createdAt": "2026-11-20T00:00:00.000Z"
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "desc": "봄꽃 능선에서 남긴 산행 기념사진"
     },
     {
       "id": "update-cfc77fcd695883a22ef0861a",
@@ -42683,7 +42964,8 @@
       "width": 1024,
       "height": 768,
       "builtIn": false,
-      "createdAt": "2026-11-20T00:00:00.000Z"
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "desc": "운문산 정상 표지석 앞 기념사진"
     },
     {
       "id": "update-54da79e96af531ac2932c769",
@@ -42705,7 +42987,8 @@
       "width": 623,
       "height": 800,
       "builtIn": false,
-      "createdAt": "2026-11-20T00:00:00.000Z"
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "desc": "낮게 드리운 나뭇가지 아래 숲길"
     },
     {
       "id": "update-6d5d5f5d76ed07aab6f22997",
@@ -42727,7 +43010,8 @@
       "width": 768,
       "height": 1024,
       "builtIn": false,
-      "createdAt": "2026-11-20T00:00:00.000Z"
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "desc": "운문산·가지산 탐방 안내 지도"
     },
     {
       "id": "update-1007865661baafb19782ba4e",
@@ -42749,7 +43033,8 @@
       "width": 600,
       "height": 800,
       "builtIn": false,
-      "createdAt": "2026-11-20T00:00:00.000Z"
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "desc": "운문산·운문사 방향 이정표"
     },
     {
       "id": "update-2e547ebdbdf1eee904c940b0",
@@ -42771,7 +43056,8 @@
       "width": 768,
       "height": 1024,
       "builtIn": false,
-      "createdAt": "2026-11-20T00:00:00.000Z"
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "desc": "신록 속 산행 갈림길 이정표"
     },
     {
       "id": "update-7844d02ec7716cacbf6a6b78",
@@ -43585,7 +43871,8 @@
       "width": 600,
       "height": 800,
       "builtIn": false,
-      "createdAt": "2026-11-20T00:00:00.000Z"
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "desc": "일림산 숲길의 이정표"
     },
     {
       "id": "update-529f052aed445769438f3668",
@@ -43783,7 +44070,8 @@
       "width": 960,
       "height": 1280,
       "builtIn": false,
-      "createdAt": "2026-11-20T00:00:00.000Z"
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "desc": "초암산 산행길의 화장실 안내"
     },
     {
       "id": "update-061e5a2cfae6ea38bfab5cd1",
@@ -44157,7 +44445,8 @@
       "width": 1280,
       "height": 954,
       "builtIn": false,
-      "createdAt": "2026-11-20T00:00:00.000Z"
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "desc": "초암산 유래 안내판"
     },
     {
       "id": "update-c01fd61ac54bff7c70ea851f",
@@ -44509,7 +44798,8 @@
       "width": 1280,
       "height": 960,
       "builtIn": false,
-      "createdAt": "2026-11-20T00:00:00.000Z"
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "desc": "황매산 분홍빛 꽃밭과 능선"
     },
     {
       "id": "update-c6b7d3d437f13148f5e6200d",
@@ -44641,7 +44931,8 @@
       "width": 768,
       "height": 1024,
       "builtIn": false,
-      "createdAt": "2026-11-20T00:00:00.000Z"
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "desc": "영축산 숲길의 갈림길 안내"
     },
     {
       "id": "update-8ebbf7e511bf37e1ba8b8c91",
@@ -44685,7 +44976,8 @@
       "width": 768,
       "height": 1024,
       "builtIn": false,
-      "createdAt": "2026-11-20T00:00:00.000Z"
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "desc": "영축산 산행길 방향 안내"
     },
     {
       "id": "update-54efdc4ed9352d1c4b568760",
@@ -45543,7 +45835,8 @@
       "width": 1200,
       "height": 1600,
       "builtIn": false,
-      "createdAt": "2026-11-20T00:00:00.000Z"
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "desc": "가지산 태극기 옆 산행 기념사진"
     },
     {
       "id": "update-2902d2fba15f901134a062e6",
@@ -45565,7 +45858,8 @@
       "width": 960,
       "height": 1280,
       "builtIn": false,
-      "createdAt": "2026-11-20T00:00:00.000Z"
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "desc": "산행길에서 만난 개"
     },
     {
       "id": "update-488a48e83057314c16ff05ef",
@@ -45587,7 +45881,8 @@
       "width": 768,
       "height": 1024,
       "builtIn": false,
-      "createdAt": "2026-11-20T00:00:00.000Z"
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "desc": "푸른 숲으로 덮인 가지산 정상 부근"
     },
     {
       "id": "update-3dfa0e5bb84eff31bc6714b4",
@@ -45609,7 +45904,8 @@
       "width": 800,
       "height": 600,
       "builtIn": false,
-      "createdAt": "2026-11-20T00:00:00.000Z"
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "desc": "바위 곁에서 잠시 쉬는 산행 모습"
     },
     {
       "id": "update-bb1627567d5afaf47aaebc29",
@@ -45631,7 +45927,8 @@
       "width": 1440,
       "height": 1080,
       "builtIn": false,
-      "createdAt": "2026-11-20T00:00:00.000Z"
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "desc": "바위 능선에서 바라본 산줄기"
     },
     {
       "id": "update-483b07ab7c5425386f35235a",
@@ -45653,7 +45950,8 @@
       "width": 1200,
       "height": 1600,
       "builtIn": false,
-      "createdAt": "2026-11-20T00:00:00.000Z"
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "desc": "운문산·백운산·아랫재 방향 이정표"
     },
     {
       "id": "update-ca312a84831d0cfe35719019",
@@ -45675,7 +45973,8 @@
       "width": 1080,
       "height": 1440,
       "builtIn": false,
-      "createdAt": "2026-11-20T00:00:00.000Z"
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "desc": "산 능선의 방향 안내판"
     },
     {
       "id": "update-80c2fcde743dfecab0b0ce54",
@@ -45697,7 +45996,8 @@
       "width": 1200,
       "height": 1600,
       "builtIn": false,
-      "createdAt": "2026-11-20T00:00:00.000Z"
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "desc": "가지산 암봉 위 산행 기념사진"
     },
     {
       "id": "update-48e5dc3219bfd269efc25a6d",
@@ -45719,7 +46019,8 @@
       "width": 1440,
       "height": 1080,
       "builtIn": false,
-      "createdAt": "2026-11-20T00:00:00.000Z"
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "desc": "가지 사이에 핀 주황빛 꽃"
     },
     {
       "id": "update-b551dd614e4e0fc0a6d6d5c9",
@@ -45741,7 +46042,8 @@
       "width": 1200,
       "height": 1600,
       "builtIn": false,
-      "createdAt": "2026-11-20T00:00:00.000Z"
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "desc": "고개 숙여 핀 분홍색 야생화"
     },
     {
       "id": "update-da788bab69b5ff086fe1004e",
@@ -45763,7 +46065,8 @@
       "width": 768,
       "height": 1024,
       "builtIn": false,
-      "createdAt": "2026-11-20T00:00:00.000Z"
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "desc": "능동산·가지산 숲길 이정표"
     },
     {
       "id": "update-62b1a2a53d879ff67731558e",
@@ -45785,7 +46088,8 @@
       "width": 768,
       "height": 1024,
       "builtIn": false,
-      "createdAt": "2026-11-20T00:00:00.000Z"
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "desc": "나뭇가지 사이로 바라본 바위 봉우리"
     },
     {
       "id": "update-d70b839777697e7b20a50f97",
@@ -45807,7 +46111,8 @@
       "width": 768,
       "height": 1024,
       "builtIn": false,
-      "createdAt": "2026-11-20T00:00:00.000Z"
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "desc": "가지산 산행 안내판과 이정표"
     },
     {
       "id": "update-389e645bb1a99b5e94f083c8",
@@ -45829,7 +46134,8 @@
       "width": 768,
       "height": 1024,
       "builtIn": false,
-      "createdAt": "2026-11-20T00:00:00.000Z"
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "desc": "가지산 정상 방향 이정표"
     },
     {
       "id": "update-9ce479931db852fa438fd7f6",
@@ -45851,7 +46157,8 @@
       "width": 768,
       "height": 1024,
       "builtIn": false,
-      "createdAt": "2026-11-20T00:00:00.000Z"
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "desc": "바위 능선을 오르는 등산객"
     },
     {
       "id": "update-97c1306583986f5ed0161b8d",
@@ -45873,7 +46180,8 @@
       "width": 960,
       "height": 1280,
       "builtIn": false,
-      "createdAt": "2026-11-20T00:00:00.000Z"
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "desc": "푸른 하늘 아래 이어진 암릉"
     },
     {
       "id": "update-96169badf1c5470eb6e1c854",
@@ -45895,7 +46203,8 @@
       "width": 1200,
       "height": 1600,
       "builtIn": false,
-      "createdAt": "2026-11-20T00:00:00.000Z"
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "desc": "가지산 능선에서 바라본 산줄기"
     },
     {
       "id": "update-ff43128574d0ddb5e72a4613",
@@ -45917,7 +46226,8 @@
       "width": 1440,
       "height": 1080,
       "builtIn": false,
-      "createdAt": "2026-11-20T00:00:00.000Z"
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "desc": "가지산 정상석 앞 기념사진"
     },
     {
       "id": "update-624ed213eb051e9b398af6f4",
@@ -45939,7 +46249,8 @@
       "width": 1200,
       "height": 1600,
       "builtIn": false,
-      "createdAt": "2026-11-20T00:00:00.000Z"
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "desc": "가지산 태극기 옆 기념사진"
     },
     {
       "id": "update-ac57e9132c9edf771531d372",
@@ -46665,7 +46976,8 @@
       "width": 960,
       "height": 1280,
       "builtIn": false,
-      "createdAt": "2026-11-20T00:00:00.000Z"
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "desc": "푸른 산 능선 아래 마을 풍경"
     },
     {
       "id": "update-f13acb0a66366babe543e528",
@@ -46687,7 +46999,8 @@
       "width": 960,
       "height": 1280,
       "builtIn": false,
-      "createdAt": "2026-11-20T00:00:00.000Z"
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "desc": "바위 능선 위에서 남긴 기념사진"
     },
     {
       "id": "update-487d76a53bee79f61ff87e90",
@@ -46709,7 +47022,8 @@
       "width": 1600,
       "height": 1200,
       "builtIn": false,
-      "createdAt": "2026-11-20T00:00:00.000Z"
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "desc": "가지산 정상 기념사진"
     },
     {
       "id": "update-0c277d25dc2a8d486832f763",
@@ -46731,7 +47045,8 @@
       "width": 1080,
       "height": 1440,
       "builtIn": false,
-      "createdAt": "2026-11-20T00:00:00.000Z"
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "desc": "가지산 정상석 앞 기념사진"
     },
     {
       "id": "update-c732aa9da4e20523d3022e41",
@@ -46753,7 +47068,8 @@
       "width": 1200,
       "height": 1600,
       "builtIn": false,
-      "createdAt": "2026-11-20T00:00:00.000Z"
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "desc": "푸른 하늘을 향해 핀 분홍색 꽃"
     },
     {
       "id": "update-2cb79081374eea4b3eb29de3",
@@ -46775,7 +47091,8 @@
       "width": 1200,
       "height": 1600,
       "builtIn": false,
-      "createdAt": "2026-11-20T00:00:00.000Z"
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "desc": "고개 숙인 분홍빛 야생화"
     },
     {
       "id": "update-1dd5a9ba8e24cd9d00736e9f",
@@ -46797,7 +47114,8 @@
       "width": 1280,
       "height": 960,
       "builtIn": false,
-      "createdAt": "2026-11-20T00:00:00.000Z"
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "desc": "바위 능선에서 바라본 깊은 산골짜기"
     },
     {
       "id": "update-42e81984c8eeea17e309b614",
@@ -46863,7 +47181,8 @@
       "width": 600,
       "height": 800,
       "builtIn": false,
-      "createdAt": "2026-11-20T00:00:00.000Z"
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "desc": "주왕산 가을 숲속의 폭포"
     },
     {
       "id": "update-a1cc1e4ae570492476fb711a",
@@ -48293,7 +48612,8 @@
       "width": 721,
       "height": 1280,
       "builtIn": false,
-      "createdAt": "2026-11-20T00:00:00.000Z"
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "desc": "고헌산 산행길의 안내판"
     },
     {
       "id": "update-c024d3ca302bdb5f904cadcf",
@@ -48491,7 +48811,8 @@
       "width": 577,
       "height": 1024,
       "builtIn": false,
-      "createdAt": "2026-11-20T00:00:00.000Z"
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "desc": "고헌산 숲길 이정표"
     },
     {
       "id": "update-b6dcbf60bbdd61675e2f9950",
@@ -49239,7 +49560,8 @@
       "width": 768,
       "height": 1024,
       "builtIn": false,
-      "createdAt": "2026-11-20T00:00:00.000Z"
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "desc": "신불산 탐방로 안내 지도"
     },
     {
       "id": "update-7b697314d73aee2abe886873",
@@ -49393,7 +49715,8 @@
       "width": 768,
       "height": 1024,
       "builtIn": false,
-      "createdAt": "2026-11-20T00:00:00.000Z"
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "desc": "천황산 진달래 군락지 안내판"
     },
     {
       "id": "update-f05cbf6f900f4bad4ed908e3",
@@ -49811,7 +50134,8 @@
       "width": 960,
       "height": 1280,
       "builtIn": false,
-      "createdAt": "2026-11-20T00:00:00.000Z"
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "desc": "고원봉 숲길의 안내판"
     },
     {
       "id": "update-84eb25edf608ee37c308503e",
@@ -50273,7 +50597,8 @@
       "width": 1080,
       "height": 1440,
       "builtIn": false,
-      "createdAt": "2026-11-20T00:00:00.000Z"
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "desc": "가지산 정상석 앞 겨울 산행 기념사진"
     },
     {
       "id": "update-2b3359b8264305a11d861287",
@@ -50295,7 +50620,8 @@
       "width": 1267,
       "height": 1440,
       "builtIn": false,
-      "createdAt": "2026-11-20T00:00:00.000Z"
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "desc": "상고대 사이로 남긴 산행 기념사진"
     },
     {
       "id": "update-ddc2e6da269af4b6b4f396e8",
@@ -50317,7 +50643,8 @@
       "width": 833,
       "height": 1024,
       "builtIn": false,
-      "createdAt": "2026-11-20T00:00:00.000Z"
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "desc": "눈꽃 핀 바위 능선 기념사진"
     },
     {
       "id": "update-0da11388e6c5ea7853a93612",
@@ -50339,7 +50666,8 @@
       "width": 1187,
       "height": 1600,
       "builtIn": false,
-      "createdAt": "2026-11-20T00:00:00.000Z"
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "desc": "눈 덮인 운문산 능선에서 기념사진"
     },
     {
       "id": "update-005011cd3e3f43ea7b937945",
@@ -50361,7 +50689,8 @@
       "width": 1206,
       "height": 1440,
       "builtIn": false,
-      "createdAt": "2026-11-20T00:00:00.000Z"
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "desc": "눈이 쌓인 좁은 암릉길"
     },
     {
       "id": "update-5b44ca946b8606e094d98846",
@@ -50383,7 +50712,8 @@
       "width": 1600,
       "height": 1267,
       "builtIn": false,
-      "createdAt": "2026-11-20T00:00:00.000Z"
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "desc": "눈 덮인 능선에서 남긴 기념사진"
     },
     {
       "id": "update-d5b17cd821dc677e39534a6c",
@@ -50405,7 +50735,8 @@
       "width": 1440,
       "height": 1201,
       "builtIn": false,
-      "createdAt": "2026-11-20T00:00:00.000Z"
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "desc": "설경 속에서 잠시 쉬며 기념사진"
     },
     {
       "id": "update-07cd367171a65ce5b8394767",
@@ -50427,7 +50758,8 @@
       "width": 1280,
       "height": 960,
       "builtIn": false,
-      "createdAt": "2026-11-20T00:00:00.000Z"
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "desc": "운문산 정상 표지석 앞 기념사진"
     },
     {
       "id": "update-72765ffbaaa3594cc88a9d5d",
@@ -50449,7 +50781,8 @@
       "width": 798,
       "height": 1024,
       "builtIn": false,
-      "createdAt": "2026-11-20T00:00:00.000Z"
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "desc": "운문산 정상 기념사진"
     },
     {
       "id": "update-11f5f5262e34b5d820301183",
@@ -50471,7 +50804,8 @@
       "width": 1170,
       "height": 1280,
       "builtIn": false,
-      "createdAt": "2026-11-20T00:00:00.000Z"
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "desc": "눈 덮인 바위 봉우리 위 산행 기념사진"
     },
     {
       "id": "update-19ff719d6c3241395a2a626e",
@@ -50493,7 +50827,8 @@
       "width": 1200,
       "height": 1600,
       "builtIn": false,
-      "createdAt": "2026-11-20T00:00:00.000Z"
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "desc": "겨울 산줄기를 배경으로 기념사진"
     },
     {
       "id": "update-dc2856c4a9f45520638420fa",
@@ -50515,7 +50850,8 @@
       "width": 1119,
       "height": 1280,
       "builtIn": false,
-      "createdAt": "2026-11-20T00:00:00.000Z"
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "desc": "눈 쌓인 바위 능선에서 기념사진"
     },
     {
       "id": "update-45cae47d4e0a5cf369bec2c1",
@@ -52693,7 +53029,8 @@
       "width": 960,
       "height": 1280,
       "builtIn": false,
-      "createdAt": "2026-11-20T00:00:00.000Z"
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "desc": "용문산 안개 속 갈림길 이정표"
     },
     {
       "id": "update-f8dbcc7b6d9be2a4ea237651",
@@ -53067,7 +53404,8 @@
       "width": 981,
       "height": 1280,
       "builtIn": false,
-      "createdAt": "2026-11-20T00:00:00.000Z"
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "desc": "연인산 낙엽 사이에 핀 보라색 꽃"
     },
     {
       "id": "update-a2504dca286268f202f7da91",
@@ -53265,7 +53603,8 @@
       "width": 1428,
       "height": 1600,
       "builtIn": false,
-      "createdAt": "2026-11-20T00:00:00.000Z"
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "desc": "소요산 공주봉 정상석 앞에서"
     },
     {
       "id": "update-b635f5e0543eb3681128d640",
@@ -53419,7 +53758,8 @@
       "width": 579,
       "height": 800,
       "builtIn": false,
-      "createdAt": "2026-11-20T00:00:00.000Z"
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "desc": "운악산 커다란 바위 옆 산행길"
     },
     {
       "id": "update-3f1de06cc64f13129cf38d81",
@@ -53705,7 +54045,8 @@
       "width": 1042,
       "height": 1440,
       "builtIn": false,
-      "createdAt": "2026-11-20T00:00:00.000Z"
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "desc": "감악산 붉은 출렁다리를 배경으로"
     },
     {
       "id": "update-ffbc764c6b2dc4aca4241a79",
@@ -54189,7 +54530,8 @@
       "width": 1440,
       "height": 1080,
       "builtIn": false,
-      "createdAt": "2026-11-20T00:00:00.000Z"
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "desc": "천마산 태극기 옆 바위 전망에서"
     },
     {
       "id": "update-39e6820d776b092e455d1512",
@@ -55135,7 +55477,8 @@
       "width": 960,
       "height": 1280,
       "builtIn": false,
-      "createdAt": "2026-11-20T00:00:00.000Z"
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "desc": "암봉 위에서 남긴 산행 기념사진"
     },
     {
       "id": "update-86eb55ff25adda6c1ef8b71e",
@@ -55157,7 +55500,8 @@
       "width": 838,
       "height": 1024,
       "builtIn": false,
-      "createdAt": "2026-11-20T00:00:00.000Z"
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "desc": "쌀바위 표지석 앞 기념사진"
     },
     {
       "id": "update-033f4c8d43fd1232b6ec1bc5",
@@ -55179,7 +55523,8 @@
       "width": 960,
       "height": 1280,
       "builtIn": false,
-      "createdAt": "2026-11-20T00:00:00.000Z"
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "desc": "상운산 정상 표지석 앞에서"
     },
     {
       "id": "update-f5d24002463f4af28f0c3fcd",
@@ -55201,7 +55546,8 @@
       "width": 960,
       "height": 1280,
       "builtIn": false,
-      "createdAt": "2026-11-20T00:00:00.000Z"
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "desc": "숲으로 둘러싸인 바위에서 기념사진"
     },
     {
       "id": "update-e216e6d0eb94958d5e4cc0b3",
@@ -55223,7 +55569,8 @@
       "width": 1024,
       "height": 768,
       "builtIn": false,
-      "createdAt": "2026-11-20T00:00:00.000Z"
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "desc": "신록 사이에서 남긴 산행 기념사진"
     },
     {
       "id": "update-1cafa5179e69ce7df19387cf",
@@ -55245,7 +55592,8 @@
       "width": 960,
       "height": 1280,
       "builtIn": false,
-      "createdAt": "2026-11-20T00:00:00.000Z"
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "desc": "분홍빛 봄꽃과 산 능선 조망"
     },
     {
       "id": "update-593ba0a9ab6e99ca7d58a231",
@@ -55267,7 +55615,8 @@
       "width": 1280,
       "height": 1068,
       "builtIn": false,
-      "createdAt": "2026-11-20T00:00:00.000Z"
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "desc": "능선의 분홍빛 꽃을 가까이 보는 모습"
     },
     {
       "id": "update-2bce419744847ed63b101835",
@@ -55289,7 +55638,8 @@
       "width": 1024,
       "height": 805,
       "builtIn": false,
-      "createdAt": "2026-11-20T00:00:00.000Z"
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "desc": "봄꽃이 가득한 숲에서 기념사진"
     },
     {
       "id": "update-ba0021d48622367c86e686db",
@@ -55311,7 +55661,8 @@
       "width": 1600,
       "height": 1268,
       "builtIn": false,
-      "createdAt": "2026-11-20T00:00:00.000Z"
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "desc": "가지산 정상석 앞 기념사진"
     },
     {
       "id": "update-fbf7d7f4b8d2052f95e682fb",
@@ -55333,7 +55684,8 @@
       "width": 819,
       "height": 1024,
       "builtIn": false,
-      "createdAt": "2026-11-20T00:00:00.000Z"
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "desc": "분홍빛 꽃나무 속 산행 기념사진"
     },
     {
       "id": "update-2d7f082d7cd79c8ccf38f7fa",
@@ -55399,7 +55751,8 @@
       "width": 600,
       "height": 800,
       "builtIn": false,
-      "createdAt": "2026-11-20T00:00:00.000Z"
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "desc": "노란 꽃이 가득한 산자락"
     },
     {
       "id": "update-310ff344238b9507f958948d",
@@ -55619,7 +55972,8 @@
       "width": 656,
       "height": 800,
       "builtIn": false,
-      "createdAt": "2026-11-20T00:00:00.000Z"
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "desc": "감악산 초록 숲길 산행"
     },
     {
       "id": "update-b549dfd0469e5b8311b66977",
@@ -56477,7 +56831,8 @@
       "width": 1143,
       "height": 1440,
       "builtIn": false,
-      "createdAt": "2026-11-20T00:00:00.000Z"
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "desc": "가지산 입석대의 기암"
     },
     {
       "id": "update-cf8af6a4c665b76ee74f13f3",
@@ -56521,7 +56876,8 @@
       "width": 889,
       "height": 1280,
       "builtIn": false,
-      "createdAt": "2026-11-20T00:00:00.000Z"
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "desc": "가지산 입석대 바위 앞 기념사진"
     },
     {
       "id": "update-7433b499af95882d45860532",
@@ -56543,7 +56899,8 @@
       "width": 1600,
       "height": 1511,
       "builtIn": false,
-      "createdAt": "2026-11-20T00:00:00.000Z"
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "desc": "하늘로 솟은 입석대 바위"
     },
     {
       "id": "update-125597e1fc7eabfb6ca4867e",
@@ -56565,7 +56922,8 @@
       "width": 986,
       "height": 1280,
       "builtIn": false,
-      "createdAt": "2026-11-20T00:00:00.000Z"
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "desc": "입석대 아래 바위 등산로"
     },
     {
       "id": "update-0bfa0bc6f49d738be754c972",
@@ -58435,7 +58793,8 @@
       "width": 768,
       "height": 1024,
       "builtIn": false,
-      "createdAt": "2026-11-20T00:00:00.000Z"
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "desc": "장산 정상 방향 이정표"
     },
     {
       "id": "update-b1f38914306ad64f4923aefc",
@@ -58457,7 +58816,8 @@
       "width": 768,
       "height": 1024,
       "builtIn": false,
-      "createdAt": "2026-11-20T00:00:00.000Z"
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "desc": "장산 산행길 안내 표지판"
     },
     {
       "id": "update-0b1d2f3f8fbc5f5b0919aa39",
@@ -59051,7 +59411,8 @@
       "width": 960,
       "height": 1280,
       "builtIn": false,
-      "createdAt": "2026-11-20T00:00:00.000Z"
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "desc": "용궐산 탐방로 안내 지도"
     },
     {
       "id": "update-b876d29b86ea8983f95da222",
@@ -59183,7 +59544,8 @@
       "width": 960,
       "height": 1280,
       "builtIn": false,
-      "createdAt": "2026-11-20T00:00:00.000Z"
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "desc": "용궐산 하늘길 안내판"
     },
     {
       "id": "update-7d0a77d2982c04c602b68f5f",
@@ -59469,7 +59831,8 @@
       "width": 1440,
       "height": 1080,
       "builtIn": false,
-      "createdAt": "2026-11-20T00:00:00.000Z"
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "desc": "가지산 중봉 정상 표지석 앞 기념사진"
     },
     {
       "id": "update-befa6c170da315f29440d00c",
@@ -59491,7 +59854,8 @@
       "width": 901,
       "height": 1600,
       "builtIn": false,
-      "createdAt": "2026-11-20T00:00:00.000Z"
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "desc": "눈 덮인 능선길 기념사진"
     },
     {
       "id": "update-717d040e59e1e4fb07d8c457",
@@ -59513,7 +59877,8 @@
       "width": 768,
       "height": 1024,
       "builtIn": false,
-      "createdAt": "2026-11-20T00:00:00.000Z"
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "desc": "눈 쌓인 돌길에서 남긴 기념사진"
     },
     {
       "id": "update-44c55f8c5260287dca111209",
@@ -59535,7 +59900,8 @@
       "width": 811,
       "height": 1440,
       "builtIn": false,
-      "createdAt": "2026-11-20T00:00:00.000Z"
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "desc": "나무 사이로 이어지는 겨울 숲길"
     },
     {
       "id": "update-6b7cdc7be5a4b5f31eb343d1",
@@ -59557,7 +59923,8 @@
       "width": 1024,
       "height": 577,
       "builtIn": false,
-      "createdAt": "2026-11-20T00:00:00.000Z"
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "desc": "눈꽃 핀 나무와 산행 기념사진"
     },
     {
       "id": "update-ff4cac7f1297d1330b36d545",
@@ -59579,7 +59946,8 @@
       "width": 768,
       "height": 1024,
       "builtIn": false,
-      "createdAt": "2026-11-20T00:00:00.000Z"
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "desc": "눈꽃과 푸른 하늘을 배경으로 기념사진"
     },
     {
       "id": "update-84aaff69f9cd3ab13ad27026",
@@ -59601,7 +59969,8 @@
       "width": 960,
       "height": 1280,
       "builtIn": false,
-      "createdAt": "2026-11-20T00:00:00.000Z"
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "desc": "상고대가 핀 바위 능선에서 기념사진"
     },
     {
       "id": "update-2c359e4070a45ea8606c8389",
@@ -59623,7 +59992,8 @@
       "width": 1200,
       "height": 1600,
       "builtIn": false,
-      "createdAt": "2026-11-20T00:00:00.000Z"
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "desc": "가지산 정상석 앞 겨울 산행 기념사진"
     },
     {
       "id": "update-5f7a874a51f6377b0cf090b3",
@@ -59645,7 +60015,8 @@
       "width": 960,
       "height": 1280,
       "builtIn": false,
-      "createdAt": "2026-11-20T00:00:00.000Z"
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "desc": "눈꽃 가득한 산비탈 등산로"
     },
     {
       "id": "update-c05cef8c266ec5b112cc7ac1",
@@ -59667,7 +60038,8 @@
       "width": 721,
       "height": 1280,
       "builtIn": false,
-      "createdAt": "2026-11-20T00:00:00.000Z"
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "desc": "눈이 쌓인 오르막 숲길"
     },
     {
       "id": "update-c2e24a037c4082b81dbec875",
@@ -59689,7 +60061,8 @@
       "width": 960,
       "height": 1280,
       "builtIn": false,
-      "createdAt": "2026-11-20T00:00:00.000Z"
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "desc": "가지산 방향을 안내하는 겨울 이정표"
     },
     {
       "id": "update-17b76eb1dcb6e1daa85db6a9",
@@ -59711,7 +60084,8 @@
       "width": 901,
       "height": 1600,
       "builtIn": false,
-      "createdAt": "2026-11-20T00:00:00.000Z"
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "desc": "가지산 중봉 표지석 앞 기념사진"
     },
     {
       "id": "update-653cad3369130a2a4af10954",
@@ -59733,7 +60107,8 @@
       "width": 960,
       "height": 1280,
       "builtIn": false,
-      "createdAt": "2026-11-20T00:00:00.000Z"
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "desc": "눈 덮인 숲길 산행 기념사진"
     },
     {
       "id": "update-8bd61eadbdc91efbdf1c7570",
@@ -60019,7 +60394,8 @@
       "width": 768,
       "height": 1024,
       "builtIn": false,
-      "createdAt": "2026-11-20T00:00:00.000Z"
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "desc": "가지산·석남사·운문산 방향 이정표"
     },
     {
       "id": "update-662011916e13641cd776f022",
@@ -60041,7 +60417,8 @@
       "width": 721,
       "height": 1280,
       "builtIn": false,
-      "createdAt": "2026-11-20T00:00:00.000Z"
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "desc": "바위 봉우리 위 산행 기념사진"
     },
     {
       "id": "update-6515047c3f192ad4440e17b4",
@@ -60063,7 +60440,8 @@
       "width": 901,
       "height": 1600,
       "builtIn": false,
-      "createdAt": "2026-11-20T00:00:00.000Z"
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "desc": "눈꽃으로 둘러싸인 산길에서 기념사진"
     },
     {
       "id": "update-2f56c6fea2c236b92952cf45",
@@ -60085,7 +60463,8 @@
       "width": 960,
       "height": 1280,
       "builtIn": false,
-      "createdAt": "2026-11-20T00:00:00.000Z"
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "desc": "쌀바위 표지석 앞 겨울 산행 기념사진"
     },
     {
       "id": "update-d0950711c4ec5f77f7b8e951",
@@ -60107,7 +60486,8 @@
       "width": 901,
       "height": 1600,
       "builtIn": false,
-      "createdAt": "2026-11-20T00:00:00.000Z"
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "desc": "온통 하얀 눈꽃 숲에서 기념사진"
     },
     {
       "id": "update-9c60c119f76297034d89b9a1",
@@ -60129,7 +60509,8 @@
       "width": 1600,
       "height": 901,
       "builtIn": false,
-      "createdAt": "2026-11-20T00:00:00.000Z"
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "desc": "가지산 정상석 앞 기념사진"
     },
     {
       "id": "update-133113ef943141cc3479a21a",
@@ -60151,7 +60532,8 @@
       "width": 901,
       "height": 1600,
       "builtIn": false,
-      "createdAt": "2026-11-20T00:00:00.000Z"
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "desc": "눈 덮인 바위 정상에서 기념사진"
     },
     {
       "id": "update-4d54fa557b5c564455074565",
@@ -60173,7 +60555,8 @@
       "width": 901,
       "height": 1600,
       "builtIn": false,
-      "createdAt": "2026-11-20T00:00:00.000Z"
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "desc": "눈꽃 사이에서 남긴 기념사진"
     },
     {
       "id": "update-b655b1f8c9336eaef291db54",
@@ -60195,7 +60578,8 @@
       "width": 1440,
       "height": 811,
       "builtIn": false,
-      "createdAt": "2026-11-20T00:00:00.000Z"
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "desc": "설경 속 산행 기념사진"
     },
     {
       "id": "update-6d29812b3e971c2829b32dc7",
@@ -60217,7 +60601,8 @@
       "width": 1440,
       "height": 811,
       "builtIn": false,
-      "createdAt": "2026-11-20T00:00:00.000Z"
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "desc": "산중 쉼터에 모인 산행 리본"
     },
     {
       "id": "update-0be773403e63cf33a3312bef",
@@ -60239,7 +60624,8 @@
       "width": 1280,
       "height": 721,
       "builtIn": false,
-      "createdAt": "2026-11-20T00:00:00.000Z"
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "desc": "상고대로 뒤덮인 겨울 산 능선"
     },
     {
       "id": "update-0905878bb9d75f38296017bf",
@@ -60261,7 +60647,8 @@
       "width": 901,
       "height": 1600,
       "builtIn": false,
-      "createdAt": "2026-11-20T00:00:00.000Z"
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "desc": "눈 쌓인 오르막길을 오르는 모습"
     },
     {
       "id": "update-732d5180682ad5c63118b05f",
@@ -60283,7 +60670,8 @@
       "width": 721,
       "height": 1280,
       "builtIn": false,
-      "createdAt": "2026-11-20T00:00:00.000Z"
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "desc": "눈이 쌓인 넓은 등산로"
     },
     {
       "id": "update-8f32d4e98d67ec9f5d7d29e2",
@@ -60305,7 +60693,8 @@
       "width": 600,
       "height": 800,
       "builtIn": false,
-      "createdAt": "2026-11-20T00:00:00.000Z"
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "desc": "숲길 갈림길의 방향 이정표"
     },
     {
       "id": "update-1ed40a07b506d262bc69ee23",
@@ -60327,7 +60716,8 @@
       "width": 960,
       "height": 1280,
       "builtIn": false,
-      "createdAt": "2026-11-20T00:00:00.000Z"
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "desc": "깊게 눈이 쌓인 산길"
     },
     {
       "id": "update-82d24c28f6ff710344fa1a59",
@@ -60349,7 +60739,8 @@
       "width": 1280,
       "height": 721,
       "builtIn": false,
-      "createdAt": "2026-11-20T00:00:00.000Z"
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "desc": "눈 내린 능선과 산행 기념사진"
     },
     {
       "id": "update-432c03babe86a5d4ce7a72e2",
@@ -60371,7 +60762,8 @@
       "width": 768,
       "height": 1024,
       "builtIn": false,
-      "createdAt": "2026-11-20T00:00:00.000Z"
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "desc": "겨울 산행 방향 안내판"
     },
     {
       "id": "update-2d1be425f9351428980d07c9",
@@ -60393,7 +60785,8 @@
       "width": 1440,
       "height": 811,
       "builtIn": false,
-      "createdAt": "2026-11-20T00:00:00.000Z"
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "desc": "눈 덮인 암봉과 쉼터 풍경"
     },
     {
       "id": "update-4756a06dd948147a98079f7b",
@@ -60415,7 +60808,8 @@
       "width": 960,
       "height": 1280,
       "builtIn": false,
-      "createdAt": "2026-11-20T00:00:00.000Z"
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "desc": "눈꽃 핀 등산로의 갈림길 이정표"
     },
     {
       "id": "update-1201ccd6a09fd9089fe93529",
@@ -60437,7 +60831,8 @@
       "width": 811,
       "height": 1440,
       "builtIn": false,
-      "createdAt": "2026-11-20T00:00:00.000Z"
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "desc": "쌀바위 표지석 앞 기념사진"
     },
     {
       "id": "update-878c28f08c5bc95d3572ea89",
@@ -60899,7 +61294,8 @@
       "width": 1440,
       "height": 811,
       "builtIn": false,
-      "createdAt": "2026-11-20T00:00:00.000Z"
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "desc": "등산로 입구의 노란 건물"
     },
     {
       "id": "update-c01f5f4af2b4197e87e1253d",
@@ -60921,7 +61317,8 @@
       "width": 768,
       "height": 1024,
       "builtIn": false,
-      "createdAt": "2026-11-20T00:00:00.000Z"
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "desc": "운문산 산행길 갈림길 안내"
     },
     {
       "id": "update-b528b00004ded8e4b6d50b81",
@@ -60943,7 +61340,8 @@
       "width": 721,
       "height": 1280,
       "builtIn": false,
-      "createdAt": "2026-11-20T00:00:00.000Z"
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "desc": "운문산·석골사 방향 이정표"
     },
     {
       "id": "update-88ac458069dfd003436d15bf",
@@ -60965,7 +61363,8 @@
       "width": 900,
       "height": 1600,
       "builtIn": false,
-      "createdAt": "2026-11-20T00:00:00.000Z"
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "desc": "운문산 정상석 앞 기념사진"
     },
     {
       "id": "update-53bb53b7760de2d0af537404",
@@ -60987,7 +61386,8 @@
       "width": 811,
       "height": 1440,
       "builtIn": false,
-      "createdAt": "2026-11-20T00:00:00.000Z"
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "desc": "운문산 정상 기념사진"
     },
     {
       "id": "update-db9be15d5d27049f2cda6d78",
@@ -61009,7 +61409,8 @@
       "width": 811,
       "height": 1440,
       "builtIn": false,
-      "createdAt": "2026-11-20T00:00:00.000Z"
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "desc": "운문산 산행길 이정표"
     },
     {
       "id": "update-fcbe2401f4b89eb6854e415c",
@@ -61031,7 +61432,8 @@
       "width": 721,
       "height": 1280,
       "builtIn": false,
-      "createdAt": "2026-11-20T00:00:00.000Z"
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "desc": "바위를 타고 흐르는 계곡 폭포"
     },
     {
       "id": "update-d3daa9471e9c73d4e75caef6",
@@ -61053,7 +61455,8 @@
       "width": 721,
       "height": 1280,
       "builtIn": false,
-      "createdAt": "2026-11-20T00:00:00.000Z"
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "desc": "계곡 폭포 앞 산행 기념사진"
     },
     {
       "id": "update-5f968712989118f43c268a93",
@@ -61075,7 +61478,8 @@
       "width": 721,
       "height": 1280,
       "builtIn": false,
-      "createdAt": "2026-11-20T00:00:00.000Z"
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "desc": "큰 암벽 아래 흐르는 폭포"
     },
     {
       "id": "update-8347c58385241a4573584353",
@@ -61097,7 +61501,8 @@
       "width": 577,
       "height": 1024,
       "builtIn": false,
-      "createdAt": "2026-11-20T00:00:00.000Z"
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "desc": "산길 입구의 방향 안내판"
     },
     {
       "id": "update-b43dfae5dae945292e28e1ac",
@@ -61119,7 +61524,8 @@
       "width": 1440,
       "height": 845,
       "builtIn": false,
-      "createdAt": "2026-11-20T00:00:00.000Z"
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "desc": "운문산 등산로 이용 안내 지도"
     },
     {
       "id": "update-6df75e4763ea47f86a0b1a38",
@@ -61141,7 +61547,8 @@
       "width": 576,
       "height": 1024,
       "builtIn": false,
-      "createdAt": "2026-11-20T00:00:00.000Z"
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "desc": "숲길 입구에서 남긴 산행 기념사진"
     },
     {
       "id": "update-2c591c27f431a9853e0a574a",
@@ -61163,7 +61570,8 @@
       "width": 721,
       "height": 1280,
       "builtIn": false,
-      "createdAt": "2026-11-20T00:00:00.000Z"
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "desc": "운문산 등산로 갈림길 이정표"
     },
     {
       "id": "update-3ecc2de959fe093928e77161",
@@ -61185,7 +61593,8 @@
       "width": 1024,
       "height": 576,
       "builtIn": false,
-      "createdAt": "2026-11-20T00:00:00.000Z"
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "desc": "운문산으로 이어지는 숲길 안내"
     },
     {
       "id": "update-9523d67144f76e2545b60bd2",
@@ -61207,7 +61616,8 @@
       "width": 576,
       "height": 1024,
       "builtIn": false,
-      "createdAt": "2026-11-20T00:00:00.000Z"
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "desc": "숲속 등산로 분기점 이정표"
     },
     {
       "id": "update-0c02649553b22a030e41410f",
@@ -61229,7 +61639,8 @@
       "width": 683,
       "height": 1280,
       "builtIn": false,
-      "createdAt": "2026-11-20T00:00:00.000Z"
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "desc": "상운암 방향을 안내하는 표지판"
     },
     {
       "id": "update-097133e6baa6da5fc908b7ba",
@@ -61251,7 +61662,8 @@
       "width": 577,
       "height": 1024,
       "builtIn": false,
-      "createdAt": "2026-11-20T00:00:00.000Z"
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "desc": "숲길 방향 이정표"
     },
     {
       "id": "update-b45e3e6c72c536eaf62c40ed",
@@ -61273,7 +61685,8 @@
       "width": 1440,
       "height": 811,
       "builtIn": false,
-      "createdAt": "2026-11-20T00:00:00.000Z"
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "desc": "고헌산 산행 안내 지도"
     },
     {
       "id": "update-2600e8ee51e0d28510e0ab76",
@@ -61339,7 +61752,8 @@
       "width": 811,
       "height": 1440,
       "builtIn": false,
-      "createdAt": "2026-11-20T00:00:00.000Z"
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "desc": "고헌산 능선의 이정표"
     },
     {
       "id": "update-d14cd29c88eed08ffb575936",
@@ -62681,7 +63095,8 @@
       "width": 1600,
       "height": 1061,
       "builtIn": false,
-      "createdAt": "2026-11-20T00:00:00.000Z"
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "desc": "감암산 무지개터농길 안내 지도"
     },
     {
       "id": "update-ee9f95f76f99297e3319c3bb",
@@ -62769,7 +63184,8 @@
       "width": 1280,
       "height": 721,
       "builtIn": false,
-      "createdAt": "2026-11-20T00:00:00.000Z"
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "desc": "가지산 방향 이정표"
     },
     {
       "id": "update-2facf06d00f92d8034207e03",
@@ -62791,7 +63207,8 @@
       "width": 1280,
       "height": 721,
       "builtIn": false,
-      "createdAt": "2026-11-20T00:00:00.000Z"
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "desc": "운문산·가지산 탐방로 안내 지도"
     },
     {
       "id": "update-26237f072cc1214604d54e3d",
@@ -62813,7 +63230,8 @@
       "width": 721,
       "height": 1280,
       "builtIn": false,
-      "createdAt": "2026-11-20T00:00:00.000Z"
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "desc": "숲길 갈림길의 방향 안내"
     },
     {
       "id": "update-19faba4d72c6673ed0ba2964",
@@ -62835,7 +63253,8 @@
       "width": 900,
       "height": 1600,
       "builtIn": false,
-      "createdAt": "2026-11-20T00:00:00.000Z"
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "desc": "가지산 정상석 앞 기념사진"
     },
     {
       "id": "update-ab28efdfd2edd65ccbdc156a",
@@ -62857,7 +63276,8 @@
       "width": 577,
       "height": 1024,
       "builtIn": false,
-      "createdAt": "2026-11-20T00:00:00.000Z"
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "desc": "가지산 정상으로 이어지는 암릉"
     },
     {
       "id": "update-29b0956dc01a8c03d0681f1b",
@@ -62879,7 +63299,8 @@
       "width": 901,
       "height": 1600,
       "builtIn": false,
-      "createdAt": "2026-11-20T00:00:00.000Z"
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "desc": "태극기가 있는 바위 능선에서 기념사진"
     },
     {
       "id": "update-2e251d20681cda0a73443855",
@@ -62901,7 +63322,8 @@
       "width": 721,
       "height": 1280,
       "builtIn": false,
-      "createdAt": "2026-11-20T00:00:00.000Z"
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "desc": "산중 갈림길의 방향 이정표"
     },
     {
       "id": "update-4e422a52f14b6f19ef0b9676",
@@ -62923,7 +63345,8 @@
       "width": 577,
       "height": 1024,
       "builtIn": false,
-      "createdAt": "2026-11-20T00:00:00.000Z"
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "desc": "돌길 옆 등산로 이정표"
     },
     {
       "id": "update-68b41f83a7faf226c8f4caf2",
@@ -62945,7 +63368,8 @@
       "width": 1280,
       "height": 721,
       "builtIn": false,
-      "createdAt": "2026-11-20T00:00:00.000Z"
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "desc": "가지산 숲길의 안내판과 이정표"
     },
     {
       "id": "update-a761cfdcea72adeb3c061d2b",
@@ -62967,7 +63391,8 @@
       "width": 721,
       "height": 1280,
       "builtIn": false,
-      "createdAt": "2026-11-20T00:00:00.000Z"
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "desc": "숲 그늘 아래 이어지는 나무 계단"
     },
     {
       "id": "update-ed0bbd08800cbac168809840",
@@ -62989,7 +63414,8 @@
       "width": 721,
       "height": 1280,
       "builtIn": false,
-      "createdAt": "2026-11-20T00:00:00.000Z"
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "desc": "가지산 정상 방향 이정표"
     },
     {
       "id": "update-8acba536e287b93ed5ce78c2",
@@ -63011,7 +63437,8 @@
       "width": 721,
       "height": 1280,
       "builtIn": false,
-      "createdAt": "2026-11-20T00:00:00.000Z"
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "desc": "가지산 돌계단과 갈림길 안내"
     },
     {
       "id": "update-d9e80026f9095013caa0809d",
@@ -63033,7 +63460,8 @@
       "width": 810,
       "height": 1440,
       "builtIn": false,
-      "createdAt": "2026-11-20T00:00:00.000Z"
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "desc": "가지산 중봉 표지석 앞 기념사진"
     },
     {
       "id": "update-84bf6e8a221175d5057cedc6",
@@ -63055,7 +63483,8 @@
       "width": 721,
       "height": 1280,
       "builtIn": false,
-      "createdAt": "2026-11-20T00:00:00.000Z"
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "desc": "바위 능선에서 바라본 산줄기"
     },
     {
       "id": "update-bd66403cb9f5115b4a98e7d9",
@@ -63187,7 +63616,8 @@
       "width": 811,
       "height": 1440,
       "builtIn": false,
-      "createdAt": "2026-11-20T00:00:00.000Z"
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "desc": "영축산 산행길 이정표"
     },
     {
       "id": "update-aa400253abae824bb6cc8567",
@@ -63209,7 +63639,8 @@
       "width": 577,
       "height": 1024,
       "builtIn": false,
-      "createdAt": "2026-11-20T00:00:00.000Z"
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "desc": "영축산 숲길의 방향 안내"
     },
     {
       "id": "update-2539c4e566eb49edd8a08643",
@@ -64243,7 +64674,8 @@
       "width": 600,
       "height": 800,
       "builtIn": false,
-      "createdAt": "2026-11-20T00:00:00.000Z"
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "desc": "완도 산행길에서 만난 연보라색 꽃"
     },
     {
       "id": "island-update-8c31cf84e2becd0c7c3465cc",
@@ -64705,7 +65137,8 @@
       "width": 1280,
       "height": 960,
       "builtIn": false,
-      "createdAt": "2026-11-20T00:00:00.000Z"
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "desc": "배 위에서 바라본 독도와 갈매기"
     },
     {
       "id": "island-update-df75866d9da4cb13bcba6517",
@@ -64859,7 +65292,8 @@
       "width": 600,
       "height": 800,
       "builtIn": false,
-      "createdAt": "2026-11-20T00:00:00.000Z"
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "desc": "울릉도 숲길의 이정표 앞에서"
     },
     {
       "id": "island-update-84910fa57b57d6de08d668ee",
@@ -64947,7 +65381,8 @@
       "width": 960,
       "height": 1280,
       "builtIn": false,
-      "createdAt": "2026-11-20T00:00:00.000Z"
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "desc": "우도 하얀 등대 앞에서"
     },
     {
       "id": "island-update-d3e20038e1ab2eae4d58b744",
@@ -65541,7 +65976,8 @@
       "width": 837,
       "height": 1024,
       "builtIn": false,
-      "createdAt": "2026-11-20T00:00:00.000Z"
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "desc": "마라도 해안 산책로와 바다"
     },
     {
       "id": "island-update-2e307066bd013bc948f53d9b",
@@ -65871,7 +66307,8 @@
       "width": 768,
       "height": 1024,
       "builtIn": false,
-      "createdAt": "2026-11-20T00:00:00.000Z"
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "desc": "진도 산행 표지석 앞에서"
     },
     {
       "id": "island-update-b07ecf65a2e5023b74176907",
@@ -65981,7 +66418,8 @@
       "width": 1280,
       "height": 960,
       "builtIn": false,
-      "createdAt": "2026-11-20T00:00:00.000Z"
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "desc": "사량도 안개 속 바위 능선과 다리"
     },
     {
       "id": "island-update-711c99873a59b86b80c66a6b",
@@ -66003,7 +66441,8 @@
       "width": 823,
       "height": 1024,
       "builtIn": false,
-      "createdAt": "2026-11-20T00:00:00.000Z"
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "desc": "사량도 산행길에서 내려다본 해안"
     },
     {
       "id": "island-update-5ad395cf6db3156f97edc010",
@@ -66465,7 +66904,8 @@
       "width": 800,
       "height": 629,
       "builtIn": false,
-      "createdAt": "2026-11-20T00:00:00.000Z"
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "desc": "가덕도 표지석 앞 기념사진"
     },
     {
       "id": "island-update-705273ee01a50c8e2536b6a7",
@@ -66531,7 +66971,8 @@
       "width": 600,
       "height": 800,
       "builtIn": false,
-      "createdAt": "2026-11-20T00:00:00.000Z"
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "desc": "가조도 산행길 안내 표지판"
     },
     {
       "id": "island-update-e9aab7fe7d83bb6a794db822",
@@ -66553,7 +66994,8 @@
       "width": 1600,
       "height": 1200,
       "builtIn": false,
-      "createdAt": "2026-11-20T00:00:00.000Z"
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "desc": "산달도 바다 위 다리의 야경"
     },
     {
       "id": "island-update-9d80547296f6f4325d8462c5",
@@ -66685,7 +67127,8 @@
       "width": 980,
       "height": 1280,
       "builtIn": false,
-      "createdAt": "2026-11-20T00:00:00.000Z"
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "desc": "원산도 노을 아래 기념사진"
     },
     {
       "id": "island-update-67560d5ba637cac58cbe4577",
@@ -66707,7 +67150,8 @@
       "width": 1079,
       "height": 1152,
       "builtIn": false,
-      "createdAt": "2026-11-20T00:00:00.000Z"
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "desc": "고대도 안내판 앞에서"
     },
     {
       "id": "island-update-067d0fe411823cead8c39fba",
@@ -66949,7 +67393,8 @@
       "width": 1080,
       "height": 1440,
       "builtIn": false,
-      "createdAt": "2026-11-20T00:00:00.000Z"
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "desc": "삽시도 해변의 물빛과 모래사장"
     },
     {
       "id": "island-update-6724ae27e912d7068bb4666a",
@@ -67081,7 +67526,8 @@
       "width": 768,
       "height": 1024,
       "builtIn": false,
-      "createdAt": "2026-11-20T00:00:00.000Z"
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "desc": "죽도 해안의 조형물 앞에서"
     },
     {
       "id": "island-update-4a0191056b5a43efae3bcdd7",
@@ -67345,7 +67791,8 @@
       "width": 600,
       "height": 800,
       "builtIn": false,
-      "createdAt": "2026-11-20T00:00:00.000Z"
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "desc": "외연도 숲길 이정표 앞에서"
     },
     {
       "id": "island-update-972c65f1f1257f7768a91cef",
@@ -67719,7 +68166,8 @@
       "width": 800,
       "height": 600,
       "builtIn": false,
-      "createdAt": "2026-11-20T00:00:00.000Z"
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "desc": "선유도 산행길에서 내려다본 바다"
     },
     {
       "id": "island-update-d7072f33b9c10321b8cb3cf5",
@@ -67939,7 +68387,8 @@
       "width": 658,
       "height": 800,
       "builtIn": false,
-      "createdAt": "2026-11-20T00:00:00.000Z"
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "desc": "신시도 바위 능선에서 바라본 바다"
     },
     {
       "id": "island-update-4ce5d9f77c7fe2d1893ac1a7",
@@ -68269,7 +68718,8 @@
       "width": 800,
       "height": 600,
       "builtIn": false,
-      "createdAt": "2026-11-20T00:00:00.000Z"
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "desc": "석모도 바위 전망대에서"
     },
     {
       "id": "island-update-eed4f8940a4385739c7817d0",
@@ -68335,7 +68785,8 @@
       "width": 1133,
       "height": 1280,
       "builtIn": false,
-      "createdAt": "2026-11-20T00:00:00.000Z"
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "desc": "무의도 바다와 물 위의 작은 배들"
     },
     {
       "id": "island-update-35c9574d382de891225421df",
@@ -68489,7 +68940,8 @@
       "width": 1266,
       "height": 1600,
       "builtIn": false,
-      "createdAt": "2026-11-20T00:00:00.000Z"
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "desc": "장봉도 흐린 하늘 아래 해안 풍경"
     },
     {
       "id": "island-update-0d72aa44822b33deca8632b2",
@@ -68643,7 +69095,8 @@
       "width": 768,
       "height": 1024,
       "builtIn": false,
-      "createdAt": "2026-11-20T00:00:00.000Z"
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "desc": "영흥도 국사봉 정상석 앞에서"
     },
     {
       "id": "island-update-f289bf7453203493100e4eab",
@@ -68665,7 +69118,8 @@
       "width": 1003,
       "height": 1280,
       "builtIn": false,
-      "createdAt": "2026-11-20T00:00:00.000Z"
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "desc": "제부도 붉은 등대 앞에서"
     },
     {
       "id": "island-update-d0608e491d14f7c80ac170de",
@@ -69039,7 +69493,8 @@
       "width": 723,
       "height": 1024,
       "builtIn": false,
-      "createdAt": "2026-11-20T00:00:00.000Z"
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "desc": "미륵도 산행길의 방향 안내판"
     },
     {
       "id": "island-update-840428402623a3dda9bbe351",
@@ -69149,7 +69604,8 @@
       "width": 800,
       "height": 600,
       "builtIn": false,
-      "createdAt": "2026-11-20T00:00:00.000Z"
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "desc": "외도 보타니아 입구에서"
     },
     {
       "id": "island-update-8aaa81d1fe9c3df191326629",
@@ -69479,7 +69935,8 @@
       "width": 600,
       "height": 800,
       "builtIn": false,
-      "createdAt": "2026-11-20T00:00:00.000Z"
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "desc": "지심도 마을길 안내판"
     },
     {
       "id": "island-update-9d8b7dd12fd7f16f49f1a1cd",
@@ -69699,7 +70156,8 @@
       "width": 600,
       "height": 800,
       "builtIn": false,
-      "createdAt": "2026-11-20T00:00:00.000Z"
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "desc": "장사도 탐방 안내판 앞에서"
     },
     {
       "id": "island-update-d40ee693a686818b0e89407d",
@@ -70271,7 +70729,8 @@
       "width": 600,
       "height": 800,
       "builtIn": false,
-      "createdAt": "2026-11-20T00:00:00.000Z"
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "desc": "남해금산 바위 사이의 통로"
     },
     {
       "id": "island-update-a8dd6f98260b869425e74bcf",
@@ -70293,7 +70752,8 @@
       "width": 768,
       "height": 1024,
       "builtIn": false,
-      "createdAt": "2026-11-20T00:00:00.000Z"
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "desc": "창선도 정상 표지석 앞에서"
     },
     {
       "id": "island-update-ddaf47f2d7dcde7361f11d43",
@@ -70381,7 +70841,8 @@
       "width": 884,
       "height": 1152,
       "builtIn": false,
-      "createdAt": "2026-11-20T00:00:00.000Z"
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "desc": "매물도로 향하는 배 위에서"
     },
     {
       "id": "island-update-101ac6a26642828c77119144",
@@ -70755,7 +71216,8 @@
       "width": 960,
       "height": 720,
       "builtIn": false,
-      "createdAt": "2026-11-20T00:00:00.000Z"
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "desc": "소매물도 바위 능선과 등대 풍경"
     },
     {
       "id": "island-update-59d6291bb4c65524c0584142",
@@ -70865,7 +71327,8 @@
       "width": 1080,
       "height": 1440,
       "builtIn": false,
-      "createdAt": "2026-11-20T00:00:00.000Z"
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "desc": "용초도로 향하는 배 안에서"
     },
     {
       "id": "island-update-eaca3a8be78e91bc431433a2",
@@ -71173,7 +71636,8 @@
       "width": 845,
       "height": 1152,
       "builtIn": false,
-      "createdAt": "2026-11-20T00:00:00.000Z"
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "desc": "연대도 탐방 안내 지도"
     },
     {
       "id": "island-update-3e856fc49adaedc7487b7b9a",
@@ -71261,7 +71725,8 @@
       "width": 960,
       "height": 1280,
       "builtIn": false,
-      "createdAt": "2026-11-20T00:00:00.000Z"
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "desc": "연대도 바다를 배경으로 한 이정표"
     },
     {
       "id": "island-update-b629c8f39f93dd5b17317334",
@@ -71547,7 +72012,8 @@
       "width": 1024,
       "height": 768,
       "builtIn": false,
-      "createdAt": "2026-11-20T00:00:00.000Z"
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "desc": "비진도로 향하는 여객선에서"
     },
     {
       "id": "island-update-d59ac002596dd4f2b9785256",
@@ -71811,7 +72277,8 @@
       "width": 1600,
       "height": 1237,
       "builtIn": false,
-      "createdAt": "2026-11-20T00:00:00.000Z"
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "desc": "신수도 바다 위의 작은 섬"
     },
     {
       "id": "island-update-a795a5c36a9236b1154773a5",
@@ -71855,7 +72322,8 @@
       "width": 720,
       "height": 960,
       "builtIn": false,
-      "createdAt": "2026-11-20T00:00:00.000Z"
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "desc": "욕지도 안개 속 이정표"
     },
     {
       "id": "island-update-d562427eaa792d746e376913",
@@ -72119,7 +72587,8 @@
       "width": 800,
       "height": 600,
       "builtIn": false,
-      "createdAt": "2026-11-20T00:00:00.000Z"
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "desc": "욕지도 소나무 아래 바다 전망"
     },
     {
       "id": "island-update-40ec8e75d79aa93152c98b85",
@@ -72339,7 +72808,8 @@
       "width": 960,
       "height": 1280,
       "builtIn": false,
-      "createdAt": "2026-11-20T00:00:00.000Z"
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "desc": "연화도 선착장으로 이어지는 길"
     },
     {
       "id": "island-update-deac815844292a5b5b734b5b",
@@ -72889,7 +73359,8 @@
       "width": 720,
       "height": 960,
       "builtIn": false,
-      "createdAt": "2026-11-20T00:00:00.000Z"
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "desc": "두미도 바위 정상에서"
     },
     {
       "id": "island-update-50f002239a29a6026b59c65f",
@@ -72933,7 +73404,8 @@
       "width": 1280,
       "height": 960,
       "builtIn": false,
-      "createdAt": "2026-11-20T00:00:00.000Z"
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "desc": "돌산도 비 오는 날의 바위 산행"
     },
     {
       "id": "island-update-42f653a7ab7f3383a2e09846",
@@ -73219,7 +73691,8 @@
       "width": 960,
       "height": 1280,
       "builtIn": false,
-      "createdAt": "2026-11-20T00:00:00.000Z"
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "desc": "가우도 나무 다리를 건너며"
     },
     {
       "id": "island-update-d98fadae10bcaf2392db01cc",
@@ -73241,7 +73714,8 @@
       "width": 1024,
       "height": 768,
       "builtIn": false,
-      "createdAt": "2026-11-20T00:00:00.000Z"
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "desc": "금오도 바위 전망에서 바라본 해안"
     },
     {
       "id": "island-update-01e69f67d5988d399b90afa0",
@@ -73351,7 +73825,8 @@
       "width": 1357,
       "height": 1600,
       "builtIn": false,
-      "createdAt": "2026-11-20T00:00:00.000Z"
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "desc": "신지도 바다를 지나는 배"
     },
     {
       "id": "island-update-36a98f828567c239814a66cf",
@@ -73417,7 +73892,8 @@
       "width": 598,
       "height": 800,
       "builtIn": false,
-      "createdAt": "2026-11-20T00:00:00.000Z"
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "desc": "조약도 망봉 표지석 앞에서"
     },
     {
       "id": "island-update-845e0fa1baba8c2f5c268f6f",
@@ -73439,7 +73915,8 @@
       "width": 720,
       "height": 960,
       "builtIn": false,
-      "createdAt": "2026-11-20T00:00:00.000Z"
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "desc": "거금도 적대봉 정상석 앞에서"
     },
     {
       "id": "island-update-fa1fd593340a8e6eb893be8e",
@@ -73571,7 +74048,8 @@
       "width": 1080,
       "height": 1440,
       "builtIn": false,
-      "createdAt": "2026-11-20T00:00:00.000Z"
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "desc": "생일도 해안 데크에서 바라본 일몰"
     },
     {
       "id": "island-update-9135fbf0f692846b112ef250",
@@ -74033,7 +74511,8 @@
       "width": 800,
       "height": 600,
       "builtIn": false,
-      "createdAt": "2026-11-20T00:00:00.000Z"
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "desc": "금당도 정상 표지석 앞에서"
     },
     {
       "id": "island-update-73229627042ec4fa520b8feb",
@@ -74099,7 +74578,8 @@
       "width": 1280,
       "height": 984,
       "builtIn": false,
-      "createdAt": "2026-11-20T00:00:00.000Z"
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "desc": "연홍도 선착장의 작은 배"
     },
     {
       "id": "island-update-17c84efade336e25231ae3ec",
@@ -74451,7 +74931,8 @@
       "width": 720,
       "height": 960,
       "builtIn": false,
-      "createdAt": "2026-11-20T00:00:00.000Z"
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "desc": "애도 꽃밭 사이에서 남긴 기념사진"
     },
     {
       "id": "island-update-35ddb2b6cfba2b2ce9875ad6",
@@ -75001,7 +75482,8 @@
       "width": 540,
       "height": 720,
       "builtIn": false,
-      "createdAt": "2026-11-20T00:00:00.000Z"
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "desc": "영도 숲길의 방향 안내"
     },
     {
       "id": "island-update-d2674c44530c656b2a818ae3",
@@ -75023,7 +75505,8 @@
       "width": 540,
       "height": 720,
       "builtIn": false,
-      "createdAt": "2026-11-20T00:00:00.000Z"
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "desc": "땅끝 산행길의 이정표"
     },
     {
       "id": "island-update-a4539c6ca227bde0e460fbe2",
@@ -75529,7 +76012,8 @@
       "width": 622,
       "height": 720,
       "builtIn": false,
-      "createdAt": "2026-11-20T00:00:00.000Z"
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "desc": "교동도 화개산 정상 표지석"
     },
     {
       "id": "island-update-434f635d96addf2ac81d09e7",
@@ -75727,7 +76211,8 @@
       "width": 563,
       "height": 720,
       "builtIn": false,
-      "createdAt": "2026-11-20T00:00:00.000Z"
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "desc": "시도 숲속 정자에서"
     },
     {
       "id": "island-update-387016360d31e9a560c714c2",
@@ -75991,7 +76476,8 @@
       "width": 540,
       "height": 720,
       "builtIn": false,
-      "createdAt": "2026-11-20T00:00:00.000Z"
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "desc": "영흥도 산행길 이정표"
     },
     {
       "id": "island-update-318ee585e198f44b27580b91",
@@ -76057,7 +76543,8 @@
       "width": 600,
       "height": 800,
       "builtIn": false,
-      "createdAt": "2026-11-20T00:00:00.000Z"
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "desc": "거제도 산행길 갈림길 이정표"
     },
     {
       "id": "island-update-340fe263c5f185490a51a8c2",
@@ -76255,7 +76742,8 @@
       "width": 540,
       "height": 720,
       "builtIn": false,
-      "createdAt": "2026-11-20T00:00:00.000Z"
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "desc": "저도 숲길의 안내 이정표"
     },
     {
       "id": "island-update-2c96db90c4a74516d35d7402",
@@ -76739,7 +77227,8 @@
       "width": 600,
       "height": 800,
       "builtIn": false,
-      "createdAt": "2026-11-20T00:00:00.000Z"
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "desc": "남해금산 돌계단과 탐방로 이정표"
     },
     {
       "id": "island-update-5e586388436aa7063f5d5662",
@@ -76761,7 +77250,8 @@
       "width": 540,
       "height": 720,
       "builtIn": false,
-      "createdAt": "2026-11-20T00:00:00.000Z"
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "desc": "남해금산 숲길 안내 표지판"
     },
     {
       "id": "island-update-2de3faeac8f966bd017d958b",
@@ -76937,7 +77427,8 @@
       "width": 631,
       "height": 800,
       "builtIn": false,
-      "createdAt": "2026-11-20T00:00:00.000Z"
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "desc": "한산도 숲길의 탐방 안내 지도"
     },
     {
       "id": "island-update-7d14fb71bf526353bbaee973",
@@ -77399,7 +77890,8 @@
       "width": 610,
       "height": 800,
       "builtIn": false,
-      "createdAt": "2026-11-20T00:00:00.000Z"
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "desc": "욕지도 숲길의 이정표"
     },
     {
       "id": "island-update-770b8413252db135b358dfa0",
@@ -78191,7 +78683,8 @@
       "width": 540,
       "height": 720,
       "builtIn": false,
-      "createdAt": "2026-11-20T00:00:00.000Z"
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "desc": "낭도 큰 나무 아래 산행 풍경"
     },
     {
       "id": "island-update-e9d525caebb217540ba07528",
@@ -78279,7 +78772,8 @@
       "width": 800,
       "height": 600,
       "builtIn": false,
-      "createdAt": "2026-11-20T00:00:00.000Z"
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "desc": "애도 숲속 쉼터에서 함께 남긴 기념사진"
     },
     {
       "id": "island-update-831ec856d64c28490fc50653",
@@ -78543,7 +79037,8 @@
       "width": 720,
       "height": 960,
       "builtIn": false,
-      "createdAt": "2026-11-20T00:00:00.000Z"
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "desc": "외나로도 산행길 이정표"
     },
     {
       "id": "island-update-6c705b08509b7e582df2913f",
@@ -79313,7 +79808,8 @@
       "width": 1024,
       "height": 768,
       "builtIn": false,
-      "createdAt": "2026-11-20T00:00:00.000Z"
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "desc": "수우도 바위 절벽과 푸른 바다"
     },
     {
       "id": "island-update-b41ab53f3db32fe21daf2443",
@@ -79489,7 +79985,8 @@
       "width": 540,
       "height": 720,
       "builtIn": false,
-      "createdAt": "2026-11-20T00:00:00.000Z"
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "desc": "개도 탐방로 안내판 앞에서"
     },
     {
       "id": "island-update-26a935446e744f0d5ad4683d",
@@ -79643,7 +80140,8 @@
       "width": 960,
       "height": 1280,
       "builtIn": false,
-      "createdAt": "2026-11-20T00:00:00.000Z"
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "desc": "하화도 바다를 배경으로"
     },
     {
       "id": "island-update-3f16ec8ef8d8b01c76398c7f",
@@ -80303,7 +80801,8 @@
       "width": 960,
       "height": 720,
       "builtIn": false,
-      "createdAt": "2026-11-20T00:00:00.000Z"
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "desc": "임자도 여객선 선착장"
     },
     {
       "id": "island-update-f32e384779384d7c62bb3ae4",
@@ -80435,7 +80934,8 @@
       "width": 600,
       "height": 800,
       "builtIn": false,
-      "createdAt": "2026-11-20T00:00:00.000Z"
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "desc": "거문도 마을길 이정표"
     },
     {
       "id": "island-update-0763017c3689970eae12294c",
@@ -80875,7 +81375,8 @@
       "width": 960,
       "height": 1280,
       "builtIn": false,
-      "createdAt": "2026-11-20T00:00:00.000Z"
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "desc": "청산도 선착장과 노을빛 하늘"
     },
     {
       "id": "island-update-6831ad5471f1ecf96d4a21b9",
@@ -81139,7 +81640,8 @@
       "width": 540,
       "height": 720,
       "builtIn": false,
-      "createdAt": "2026-11-20T00:00:00.000Z"
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "desc": "보길도 숲길 이정표"
     },
     {
       "id": "island-update-26f55105f52642447c9b3e1f",
@@ -81337,7 +81839,8 @@
       "width": 540,
       "height": 720,
       "builtIn": false,
-      "createdAt": "2026-11-20T00:00:00.000Z"
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "desc": "소안도 산행길 이정표"
     },
     {
       "id": "island-update-5ffa04ebdfeb46726c9e35ad",
@@ -81425,7 +81928,8 @@
       "width": 768,
       "height": 1024,
       "builtIn": false,
-      "createdAt": "2026-11-20T00:00:00.000Z"
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "desc": "초도 마을 건물 앞에서"
     },
     {
       "id": "island-update-589142058d712792d6da9f06",
@@ -81755,7 +82259,8 @@
       "width": 549,
       "height": 720,
       "builtIn": false,
-      "createdAt": "2026-11-20T00:00:00.000Z"
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "desc": "손죽도 마을의 큰 나무와 쉼터"
     },
     {
       "id": "island-update-2b85effb5f3a2465e433724c",
@@ -82085,7 +82590,8 @@
       "width": 960,
       "height": 1280,
       "builtIn": false,
-      "createdAt": "2026-11-20T00:00:00.000Z"
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "desc": "추자도 선착장에서"
     },
     {
       "id": "island-update-c240aa2256569547845454a7",
@@ -82591,7 +83097,8 @@
       "width": 584,
       "height": 800,
       "builtIn": false,
-      "createdAt": "2026-11-20T00:00:00.000Z"
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "desc": "관매도 표지석 앞에서"
     },
     {
       "id": "island-update-90e37edb0dc74be4881980ed",
@@ -82789,7 +83296,8 @@
       "width": 720,
       "height": 960,
       "builtIn": false,
-      "createdAt": "2026-11-20T00:00:00.000Z"
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "desc": "진도 대마도 선착장 표지석 앞에서"
     },
     {
       "id": "island-update-47fc5bb15d9b2094202c9b5a",
@@ -82877,7 +83385,8 @@
       "width": 960,
       "height": 1280,
       "builtIn": false,
-      "createdAt": "2026-11-20T00:00:00.000Z"
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "desc": "상조도 바다 전망 데크에서"
     },
     {
       "id": "island-update-4f83dd761d81569219084132",
@@ -82943,7 +83452,8 @@
       "width": 600,
       "height": 800,
       "builtIn": false,
-      "createdAt": "2026-11-20T00:00:00.000Z"
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "desc": "하조도 산행길 이정표"
     },
     {
       "id": "island-update-174b8fc6a8cf70d12cb5dc93",
@@ -82987,7 +83497,8 @@
       "width": 960,
       "height": 720,
       "builtIn": false,
-      "createdAt": "2026-11-20T00:00:00.000Z"
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "desc": "하조도 전망대에서 내려다본 다도해"
     },
     {
       "id": "island-update-1e260f0fc712ccc3b74fdc50",
@@ -83163,7 +83674,8 @@
       "width": 1600,
       "height": 1200,
       "builtIn": false,
-      "createdAt": "2026-11-20T00:00:00.000Z"
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "desc": "암태도 초록빛 들판과 바다"
     },
     {
       "id": "island-update-ab1526f9b7f2c59a8ca2504a",
@@ -83251,7 +83763,8 @@
       "width": 576,
       "height": 960,
       "builtIn": false,
-      "createdAt": "2026-11-20T00:00:00.000Z"
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "desc": "자은도 마을길 풍경"
     },
     {
       "id": "island-update-fc5f49a7a31dbf4f78813d20",
@@ -84021,7 +84534,8 @@
       "width": 800,
       "height": 600,
       "builtIn": false,
-      "createdAt": "2026-11-20T00:00:00.000Z"
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "desc": "비금도 산 능선과 다도해 전망"
     },
     {
       "id": "island-update-f9f0c877ae25ddaef104672c",
@@ -84461,7 +84975,8 @@
       "width": 960,
       "height": 1280,
       "builtIn": false,
-      "createdAt": "2026-11-20T00:00:00.000Z"
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "desc": "우이도 모래 언덕과 바다"
     },
     {
       "id": "island-update-2f623d477b7f1e279bfa7f6a",
@@ -84747,7 +85262,8 @@
       "width": 1210,
       "height": 1600,
       "builtIn": false,
-      "createdAt": "2026-11-20T00:00:00.000Z"
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "desc": "위도로 향하는 배 위에서"
     },
     {
       "id": "island-update-dc4d2f6a65c708dd0a8e08f0",
@@ -85077,7 +85593,8 @@
       "width": 720,
       "height": 960,
       "builtIn": false,
-      "createdAt": "2026-11-20T00:00:00.000Z"
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "desc": "홍도 탐방로 입구와 나무 계단"
     },
     {
       "id": "island-update-009029e4dde5ab0c4dee5782",
@@ -85451,7 +85968,8 @@
       "width": 960,
       "height": 1280,
       "builtIn": false,
-      "createdAt": "2026-11-20T00:00:00.000Z"
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "desc": "흑산도 선착장의 배와 바다"
     },
     {
       "id": "island-update-6a571daba5308c4361712845",
@@ -85803,7 +86321,8 @@
       "width": 864,
       "height": 1152,
       "builtIn": false,
-      "createdAt": "2026-11-20T00:00:00.000Z"
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "desc": "관사도 여객선에서 남긴 기념사진"
     },
     {
       "id": "island-update-68feacdbfdc90a25e71ae949",
@@ -86023,7 +86542,8 @@
       "width": 1024,
       "height": 768,
       "builtIn": false,
-      "createdAt": "2026-11-20T00:00:00.000Z"
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "desc": "방축도 종합 안내 지도"
     },
     {
       "id": "island-update-5983b27657f1655ca62dbbe0",
@@ -86309,7 +86829,8 @@
       "width": 960,
       "height": 1280,
       "builtIn": false,
-      "createdAt": "2026-11-20T00:00:00.000Z"
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "desc": "난지도 대난지도·소난지도 안내 쉼터"
     },
     {
       "id": "island-update-fc872d2ab4599f17be6bfc72",
@@ -86441,7 +86962,8 @@
       "width": 1152,
       "height": 1152,
       "builtIn": false,
-      "createdAt": "2026-11-20T00:00:00.000Z"
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "desc": "난지도 관광 안내 지도"
     },
     {
       "id": "island-update-154479940aaf09aab42cf151",
@@ -86947,7 +87469,8 @@
       "width": 600,
       "height": 800,
       "builtIn": false,
-      "createdAt": "2026-11-20T00:00:00.000Z"
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "desc": "대이작도 숲길 이정표"
     },
     {
       "id": "island-update-4b629d52c948a1be9c654d50",
@@ -87453,7 +87976,8 @@
       "width": 960,
       "height": 1280,
       "builtIn": false,
-      "createdAt": "2026-11-20T00:00:00.000Z"
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "desc": "자월도 해안 전망대와 조형물"
     },
     {
       "id": "island-update-10247383da89c416664e436d",
@@ -87629,7 +88153,8 @@
       "width": 1200,
       "height": 1600,
       "builtIn": false,
-      "createdAt": "2026-11-20T00:00:00.000Z"
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "desc": "승봉도 배 위에서 바라본 바다"
     },
     {
       "id": "island-update-f8a9d91d572f8d0124ec80a6",
@@ -88179,7 +88704,8 @@
       "width": 720,
       "height": 960,
       "builtIn": false,
-      "createdAt": "2026-11-20T00:00:00.000Z"
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "desc": "송이도 잔잔한 바다와 해변"
     },
     {
       "id": "island-update-f075236eff095400103db1b5",
@@ -88267,7 +88793,8 @@
       "width": 600,
       "height": 800,
       "builtIn": false,
-      "createdAt": "2026-11-20T00:00:00.000Z"
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "desc": "송이도 해안 산책길 이정표"
     },
     {
       "id": "island-update-c503fb4f5c8344aa27712a16",
@@ -88399,7 +88926,8 @@
       "width": 1024,
       "height": 768,
       "builtIn": false,
-      "createdAt": "2026-11-20T00:00:00.000Z"
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "desc": "하낙월도 해변을 내려다보며"
     },
     {
       "id": "island-update-cf8aa0ca9c4b7ea53a63c5ce",
@@ -88421,7 +88949,8 @@
       "width": 901,
       "height": 1600,
       "builtIn": false,
-      "createdAt": "2026-11-20T00:00:00.000Z"
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "desc": "덕적도 배 위에서 바라본 아침 하늘"
     },
     {
       "id": "island-update-3e438944db01b8853c5a96c6",
@@ -88839,7 +89368,8 @@
       "width": 1440,
       "height": 886,
       "builtIn": false,
-      "createdAt": "2026-11-20T00:00:00.000Z"
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "desc": "덕적면 섬 관광 안내 지도"
     },
     {
       "id": "island-update-5743cbf7c0e5f25c4334d4c1",
@@ -88993,7 +89523,8 @@
       "width": 600,
       "height": 800,
       "builtIn": false,
-      "createdAt": "2026-11-20T00:00:00.000Z"
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "desc": "문갑도 숲길 이정표와 우체통"
     },
     {
       "id": "island-update-1db83a2281eb8eb7a60798d7",
@@ -89147,7 +89678,8 @@
       "width": 791,
       "height": 1440,
       "builtIn": false,
-      "createdAt": "2026-11-20T00:00:00.000Z"
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "desc": "연평도로 향하는 여객선에 오르며"
     },
     {
       "id": "island-update-b674898733eb889b3c1d0d26",
@@ -89477,7 +90009,8 @@
       "width": 1440,
       "height": 811,
       "builtIn": false,
-      "createdAt": "2026-11-20T00:00:00.000Z"
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "desc": "안마도 배 위에서 바라본 물결"
     },
     {
       "id": "island-update-407fc553c106091c820b03b8",
@@ -89565,7 +90098,8 @@
       "width": 577,
       "height": 1024,
       "builtIn": false,
-      "createdAt": "2026-11-20T00:00:00.000Z"
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "desc": "어청도 탐방 안내 지도"
     },
     {
       "id": "island-update-a4f60cf87dbe69afb5c3987e",
@@ -89961,7 +90495,8 @@
       "width": 720,
       "height": 1280,
       "builtIn": false,
-      "createdAt": "2026-11-20T00:00:00.000Z"
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "desc": "여서도 산행길 이정표 앞에서"
     },
     {
       "id": "island-update-757658d05092973193911b91",
@@ -90335,7 +90870,8 @@
       "width": 1600,
       "height": 901,
       "builtIn": false,
-      "createdAt": "2026-11-20T00:00:00.000Z"
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "desc": "굴업도 바다의 일몰 풍경"
     },
     {
       "id": "island-update-6b3b3b629229a6df4f44397b",
@@ -90775,7 +91311,8 @@
       "width": 1024,
       "height": 577,
       "builtIn": false,
-      "createdAt": "2026-11-20T00:00:00.000Z"
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "desc": "백아도 마을의 붉은 길"
     },
     {
       "id": "island-update-0b6090d3b08b1a804c6d3c35",
@@ -91105,7 +91642,8 @@
       "width": 960,
       "height": 540,
       "builtIn": false,
-      "createdAt": "2026-11-20T00:00:00.000Z"
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "desc": "백령도 해변 산책"
     },
     {
       "id": "island-update-07e818a2f22e52fa234a1b81",
@@ -91193,7 +91731,8 @@
       "width": 577,
       "height": 1024,
       "builtIn": false,
-      "createdAt": "2026-11-20T00:00:00.000Z"
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "desc": "대청도 숲길의 방향 안내"
     },
     {
       "id": "island-update-454f1344233f4871156cd3a4",
@@ -91721,7 +92260,8 @@
       "width": 450,
       "height": 800,
       "builtIn": false,
-      "createdAt": "2026-11-20T00:00:00.000Z"
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "desc": "대청도 산행길 이정표"
     },
     {
       "id": "island-update-f7730f8216f419eae2ccbc44",
@@ -91897,7 +92437,8 @@
       "width": 960,
       "height": 540,
       "builtIn": false,
-      "createdAt": "2026-11-20T00:00:00.000Z"
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "desc": "가거도 기념 표지석 앞에서"
     },
     {
       "id": "island-update-60bc67a573da0e04cb54ec7f",
@@ -93217,7 +93758,8 @@
       "width": 1280,
       "height": 1161,
       "builtIn": false,
-      "createdAt": "2026-11-20T00:00:00.000Z"
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "desc": "천관산 정상석 앞에서"
     },
     {
       "id": "supplement-e88b2c2274c8e1868a671f70",
@@ -93393,7 +93935,8 @@
       "width": 1150,
       "height": 1600,
       "builtIn": false,
-      "createdAt": "2026-11-20T00:00:00.000Z"
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "desc": "삼악산 유리 난간의 전망 데크에서"
     },
     {
       "id": "supplement-81f3d29e6294c8abf4c82ec1",
