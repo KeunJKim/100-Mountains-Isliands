@@ -66,7 +66,7 @@ function islandElevation(x){return Number.isFinite(x.certElevationM)?x.certEleva
 function draw(){
  const q=$('search').value.trim().toLocaleLowerCase('ko');const region=$('region').value;
  const order=$('sort').value;
- const found=records.filter(x=>(!region||x.region===region)&&(!q||[x.island,x.peak,x.region].join(' ').toLocaleLowerCase('ko').includes(q)));
+ const found=records.filter(x=>(!region||x.region===region)&&(!q||(window.JKDestinationSearch?window.JKDestinationSearch.matches(x,q,'island'):[x.island,x.peak,x.region].join(' ').toLocaleLowerCase('ko').includes(q))));
  found.sort((a,b)=>order==='recent'?b.visit.localeCompare(a.visit):order==='old'?a.visit.localeCompare(b.visit):order==='name'?a.island.localeCompare(b.island,'ko'):a.no-b.no);
  cards.replaceChildren();
  for(const x of found){

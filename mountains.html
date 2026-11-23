@@ -328,7 +328,7 @@ function showDetails(m) {
 }
 function render(){
  const q=search.value.trim().toLocaleLowerCase('ko');
- let result=mountains.filter(m=>(!q||(m.name+' '+m.region).toLocaleLowerCase('ko').includes(q))&&(!region.value||m.region===region.value));
+ let result=mountains.filter(m=>(!q||(window.JKDestinationSearch?window.JKDestinationSearch.matches(m,q,'mountain'):(m.name+' '+m.region).toLocaleLowerCase('ko').includes(q)))&&(!region.value||m.region===region.value));
  const mode=sort.value;
  result.sort((a,b)=>mode==='name'?a.name.localeCompare(b.name,'ko'):mode==='recent'?(b.visits[0]?.date||'').localeCompare(a.visits[0]?.date||''):mode==='visits'?(b.visits.length-a.visits.length||a.no-b.no):a.no-b.no);
  cards.replaceChildren();

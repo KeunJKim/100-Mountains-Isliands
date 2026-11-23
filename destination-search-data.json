@@ -1,0 +1,424 @@
+{
+  "version": 1,
+  "checked": "2026-11-24",
+  "note": "계절 볼거리·행사명 검색 자료입니다. 올해 행사 개최 여부·일정·개화 상태를 보장하지 않습니다.",
+  "sources": {
+    "alps": {
+      "title": "울산관광 · 영남알프스 억새 군락과 사자평",
+      "url": "https://www.ulsan.go.kr/tour/korean/contents.do?mId=001002003001000000"
+    },
+    "odyssey": {
+      "title": "울주군청 웹진 · 간월재와 울주오디세이",
+      "url": "https://ulju.wzp.kr/202509/2"
+    },
+    "hwangmae": {
+      "title": "국가보훈부 · 황매산 철쭉과 철쭉제",
+      "url": "https://mpva.go.kr/scnc/contents.do?key=805"
+    },
+    "biseul": {
+      "title": "한국관광공사 · 비슬산 참꽃문화제",
+      "url": "https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=188397"
+    },
+    "goryeo": {
+      "title": "강화군 · 고려산 진달래꽃",
+      "url": "https://www.ganghwa.go.kr/tour/travel/trspt/azalea.jsp"
+    },
+    "barae": {
+      "title": "한국관광공사 · 지리산 운봉 바래봉 철쭉제",
+      "url": "https://korean.visitkorea.or.kr/detail/ms_detail.do?cotid=d3622fa3-2a0b-4977-80cd-078b47ecec5a"
+    },
+    "sobaek": {
+      "title": "단양군 · 소백산철쭉제",
+      "url": "https://danyang.go.kr/sobaeksan/654"
+    },
+    "spider": {
+      "title": "한국관광공사 · 불갑사·선운사 꽃무릇 명소",
+      "url": "https://korean.visitkorea.or.kr/detail/rem_detail.do?cotid=be101250-1d6f-469c-aef1-44baef13e197"
+    },
+    "hambaek": {
+      "title": "한국관광공사 · 함백산 설경·야생화",
+      "url": "https://english.visitkorea.or.kr/svc/contents/contentsView.do?menuSn=&vcontsId=83479"
+    },
+    "taebaek": {
+      "title": "한국관광공사 · 태백산 사계절과 주목 설경",
+      "url": "https://korean.visitkorea.or.kr/detail/ms_detail.do?cotid=9649e5aa-f500-41bc-816c-aa2e25d647dc"
+    },
+    "ssuk": {
+      "title": "고흥군 · 쑥섬 수국정원·동백정원",
+      "url": "https://tour.goheung.go.kr/front/M0000078/region/view.do?tourId=TO000032"
+    },
+    "hydrangea": {
+      "title": "전라남도 · 쑥섬 등 민간정원 수국 축제",
+      "url": "https://www.jeonnam.go.kr/M7116/boardView.do?menuId=jeonnam0202000000&seq=1959067"
+    },
+    "hwangmaeReeds": {
+      "title": "합천군 · 황매산 억새축제",
+      "url": "https://www.hc.go.kr/09418/09428/09429.web"
+    }
+  },
+  "places": [
+    {
+      "names": [
+        "재약산"
+      ],
+      "keywords": [
+        "억새",
+        "억새밭",
+        "억새군락지",
+        "사자평"
+      ],
+      "highlights": [
+        {
+          "season": "가을",
+          "feature": "억새 군락·고원 풍경",
+          "source": "alps"
+        }
+      ]
+    },
+    {
+      "names": [
+        "천황산"
+      ],
+      "keywords": [
+        "억새",
+        "억새밭",
+        "억새군락지",
+        "사자평"
+      ],
+      "highlights": [
+        {
+          "season": "가을",
+          "feature": "억새 군락·고원 풍경",
+          "source": "alps"
+        }
+      ]
+    },
+    {
+      "names": [
+        "간월산"
+      ],
+      "keywords": [
+        "억새",
+        "억새밭",
+        "억새군락지"
+      ],
+      "highlights": [
+        {
+          "season": "가을",
+          "feature": "억새 군락·고원 풍경",
+          "source": "alps"
+        }
+      ]
+    },
+    {
+      "names": [
+        "간월재"
+      ],
+      "keywords": [
+        "억새",
+        "억새밭",
+        "억새군락지"
+      ],
+      "highlights": [
+        {
+          "season": "가을",
+          "feature": "억새 군락·고원 풍경",
+          "source": "alps"
+        }
+      ]
+    },
+    {
+      "names": [
+        "신불산"
+      ],
+      "keywords": [
+        "억새",
+        "억새밭",
+        "억새군락지"
+      ],
+      "highlights": [
+        {
+          "season": "가을",
+          "feature": "억새 군락·고원 풍경",
+          "source": "alps"
+        }
+      ]
+    },
+    {
+      "names": [
+        "영축산"
+      ],
+      "keywords": [
+        "억새",
+        "억새밭",
+        "억새군락지"
+      ],
+      "highlights": [
+        {
+          "season": "가을",
+          "feature": "억새 군락·고원 풍경",
+          "source": "alps"
+        }
+      ]
+    },
+    {
+      "names": [
+        "고헌산"
+      ],
+      "keywords": [
+        "억새",
+        "억새밭",
+        "억새군락지"
+      ],
+      "highlights": [
+        {
+          "season": "가을",
+          "feature": "억새 군락·고원 풍경",
+          "source": "alps"
+        }
+      ]
+    },
+    {
+      "names": [
+        "간월산",
+        "간월재",
+        "신불산"
+      ],
+      "keywords": [
+        "울주오디세이",
+        "울주 오디세이",
+        "산중음악회",
+        "산상음악회"
+      ],
+      "highlights": [
+        {
+          "season": "가을",
+          "feature": "울주오디세이 · 간월재 산상음악회",
+          "source": "odyssey"
+        }
+      ]
+    },
+    {
+      "names": [
+        "황매산"
+      ],
+      "keywords": [
+        "철쭉축제",
+        "황매산철쭉제",
+        "철쭉제"
+      ],
+      "highlights": [
+        {
+          "season": "봄",
+          "feature": "황매산 철쭉제·철쭉 군락",
+          "source": "hwangmae"
+        }
+      ]
+    },
+    {
+      "names": [
+        "황매산"
+      ],
+      "keywords": [
+        "억새축제",
+        "황매산억새축제"
+      ],
+      "highlights": [
+        {
+          "season": "가을",
+          "feature": "황매산 억새축제 · 합천",
+          "source": "hwangmaeReeds"
+        }
+      ]
+    },
+    {
+      "names": [
+        "비슬산"
+      ],
+      "keywords": [
+        "진달래",
+        "참꽃",
+        "참꽃문화제",
+        "비슬산참꽃문화제",
+        "참꽃축제",
+        "비슬산참꽃축제",
+        "진달래축제"
+      ],
+      "highlights": [
+        {
+          "season": "봄",
+          "feature": "비슬산 참꽃문화제·진달래 군락",
+          "source": "biseul"
+        }
+      ]
+    },
+    {
+      "names": [
+        "고려산"
+      ],
+      "keywords": [
+        "진달래",
+        "진달래꽃구경"
+      ],
+      "highlights": [
+        {
+          "season": "봄",
+          "feature": "고려산 진달래꽃 구경",
+          "source": "goryeo"
+        }
+      ]
+    },
+    {
+      "names": [
+        "바래봉"
+      ],
+      "keywords": [
+        "철쭉축제",
+        "바래봉철쭉제",
+        "운봉철쭉제",
+        "철쭉제"
+      ],
+      "highlights": [
+        {
+          "season": "봄",
+          "feature": "바래봉 철쭉제·철쭉 군락",
+          "source": "barae"
+        }
+      ]
+    },
+    {
+      "names": [
+        "소백산"
+      ],
+      "keywords": [
+        "철쭉축제",
+        "소백산철쭉제",
+        "철쭉제"
+      ],
+      "highlights": [
+        {
+          "season": "봄",
+          "feature": "소백산 철쭉제·철쭉 군락",
+          "source": "sobaek"
+        }
+      ]
+    },
+    {
+      "names": [
+        "선운산"
+      ],
+      "keywords": [
+        "꽃무릇",
+        "선운사"
+      ],
+      "highlights": [
+        {
+          "season": "가을",
+          "feature": "선운사 꽃무릇 군락",
+          "source": "spider"
+        }
+      ]
+    },
+    {
+      "names": [
+        "불갑산"
+      ],
+      "keywords": [
+        "꽃무릇",
+        "불갑사",
+        "불갑산상사화축제",
+        "상사화축제"
+      ],
+      "highlights": [
+        {
+          "season": "가을",
+          "feature": "불갑산 상사화축제·꽃무릇",
+          "source": "spider"
+        }
+      ]
+    },
+    {
+      "names": [
+        "함백산"
+      ],
+      "keywords": [
+        "설경",
+        "눈꽃",
+        "야생화"
+      ],
+      "highlights": [
+        {
+          "season": "겨울",
+          "feature": "함백산 설경",
+          "source": "hambaek"
+        },
+        {
+          "season": "",
+          "feature": "함백산 야생화",
+          "source": "hambaek"
+        }
+      ]
+    },
+    {
+      "names": [
+        "태백산"
+      ],
+      "keywords": [
+        "주목",
+        "눈꽃",
+        "설경",
+        "진달래",
+        "산철쭉",
+        "계곡",
+        "단풍"
+      ],
+      "highlights": [
+        {
+          "season": "겨울",
+          "feature": "주목 군락 설경",
+          "source": "taebaek"
+        },
+        {
+          "season": "봄",
+          "feature": "산철쭉·진달래",
+          "source": "taebaek"
+        },
+        {
+          "season": "여름",
+          "feature": "숲·계곡",
+          "source": "taebaek"
+        },
+        {
+          "season": "가을",
+          "feature": "단풍",
+          "source": "taebaek"
+        }
+      ]
+    },
+    {
+      "names": [
+        "애도",
+        "쑥섬"
+      ],
+      "keywords": [
+        "수국",
+        "수국정원",
+        "수국축제",
+        "동백",
+        "꽃정원"
+      ],
+      "highlights": [
+        {
+          "season": "",
+          "feature": "수국정원·동백정원",
+          "source": "ssuk"
+        },
+        {
+          "season": "여름",
+          "feature": "쑥섬 수국 축제·정원",
+          "source": "hydrangea"
+        }
+      ]
+    }
+  ]
+}

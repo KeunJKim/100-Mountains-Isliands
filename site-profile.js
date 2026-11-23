@@ -83,13 +83,13 @@ document.addEventListener('click',e=>{if(!menu.contains(e.target))close();});doc
 (()=>{const s=document.createElement("script");s.src="https://keunjkim.github.io/100-Mountains-Isliands/gps-map-actions.js?v=20261115-color2";document.head.append(s);})();
 
 /* 모든 화면의 표시·버튼 크기 통일 */
-(()=>{const s=document.createElement("script");s.src="https://keunjkim.github.io/100-Mountains-Isliands/compact-ui.js?v=20261124-gallery-readable";document.head.append(s);})();
+(()=>{const s=document.createElement("script");s.src="https://keunjkim.github.io/100-Mountains-Isliands/compact-ui.js?v=20261124-feature-search";document.head.append(s);})();
 
 /* 선택한 산행에서 해당 사진 앨범으로 연결 */
 (()=>{const s=document.createElement("script");s.src="https://keunjkim.github.io/100-Mountains-Isliands/gallery-context.js?v=20261120-islands1";document.head.append(s);})();
 
 /* 목록 정리·위치 유지·사진 저장 억제 */
-(()=>{const s=document.createElement("script");s.src="https://keunjkim.github.io/100-Mountains-Isliands/list-refinements.js?v=20261124-photo-credit";document.head.append(s);})();
+(()=>{const s=document.createElement("script");s.src="https://keunjkim.github.io/100-Mountains-Isliands/list-refinements.js?v=20261124-feature-search";document.head.append(s);})();
 
 /* 공통 메뉴와 목록의 방향키 이동 */
 (()=>{const s=document.createElement('script');s.src='https://keunjkim.github.io/100-Mountains-Isliands/keyboard-navigation.js?v=20261120-keys2';document.head.append(s);})();

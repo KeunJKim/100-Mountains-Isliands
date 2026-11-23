@@ -62,10 +62,13 @@
  const tools=make('section',null,'jk-season-tools');tools.setAttribute('aria-label','계절과 특징으로 목록 찾기');
  const label=make('label','계절'),select=make('select');label.className='jk-season-select-label';select.setAttribute('aria-label','방문 계절 또는 볼거리 계절');
  for(const s of ['전체 계절','봄','여름','가을','겨울','날짜 미등록']){const o=make('option',s);o.value=s==='전체 계절'?'':s;select.append(o);}label.append(select);
- const searchLabel=make('label','특징'),search=make('input');search.type='search';search.placeholder='예: 철쭉, 진달래, 단풍, 눈, 억새, 바다';search.setAttribute('aria-label','계절·특징 검색');searchLabel.append(search);
- const status=make('output');status.setAttribute('aria-live','polite');tools.append(label,searchLabel,status);
+ const primarySearch=document.querySelector('#search,#alps-search,#record-search');
+ const searchLabel=make('label','특징'),search=primarySearch||make('input');
+ if(primarySearch){search.placeholder='이름·지역·날짜·특징 검색 (예: 철쭉, 억새, 동백)';search.setAttribute('aria-label','이름·지역·날짜·특징 검색');}
+ else{search.type='search';search.placeholder='예: 철쭉, 진달래, 단풍, 눈, 억새, 바다';search.setAttribute('aria-label','계절·특징 검색');searchLabel.append(search);}
+ const status=make('output');status.setAttribute('aria-live','polite');tools.append(label,...(primarySearch?[]:[searchLabel]),status);
  const destinationPage=['mountains.html','islands.html','mountains-map.html','islands-map.html','yeongnam-alps-map.html'].includes(page);
- const note=make('p',destinationPage?'추천 계절은 개인 방문일과 무관합니다. 장소별 관광 안내를 우선하고, 개별 자료가 없는 곳은 봄·가을 걷기를 추천합니다. 개화·적설·운항·통제는 방문 전 확인하세요.':'방문 계절은 기록 날짜 기준입니다. 볼거리 계절은 별도 안내이며, 개화·적설·행사 일정은 매년 달라집니다.','jk-season-note');
+ const note=make('p',(primarySearch?'위 검색창에서 이름과 특징을 함께 찾고 지역·계절로 좁힐 수 있습니다. ':'')+(destinationPage?'추천 계절은 개인 방문일과 무관합니다. 장소별 관광 안내를 우선하고, 개별 자료가 없는 곳은 봄·가을 걷기를 추천합니다. 개화·적설·행사 일정·운항·통제는 방문 전 확인하세요.':'방문 계절은 기록 날짜 기준입니다. 볼거리 계절은 별도 안내이며, 개화·적설·행사 일정은 매년 달라집니다.'),'jk-season-note');
  const map=root.id==='entries',table=root.tagName==='TBODY';
  const anchor=map?root.closest('.panel').querySelector('.filters'):table?root.closest('.table-wrap'):root;
  if(map)anchor.after(tools,note);else anchor.before(tools,note);
@@ -82,9 +85,10 @@
   let seasons=[...new Set(dates.filter(m=>+m[2]>=1&&+m[2]<=12&&+m[3]>=1&&+m[3]<=31).map(m=>{const month=+m[2];return month>=3&&month<=5?'봄':month>=6&&month<=8?'여름':month>=9&&month<=11?'가을':'겨울';}))];
   if(card.dataset.visitSeasons)seasons=card.dataset.visitSeasons.split('·').filter(Boolean);
   const recommendation=destinationPage?guide?.recommendedVisit:null;
-  if(recommendation)seasons=recommendation.seasons;
+  const searchInfo=window.JKDestinationSearch?.info({name:title,albumId:card.dataset.guideId},config[2]);
+  if(recommendation)seasons=[...new Set([...recommendation.seasons,...(searchInfo?.seasons||[])])];
   const tags=[recommendation?{text:'추천 '+seasons.join('·'),kind:'recommendation',url:window.JKDestinationGuides.sources[recommendation.sourceKeys[0]]?.url,reason:recommendation.basis+' · '+recommendation.reason}:{text:seasons.length?'방문 '+seasons.join('·'):'방문 계절 미등록',kind:'visit'}];
-  const matched=guide?.highlights.length?guide.highlights.map(h=>[null,h.season,h.feature,window.JKDestinationGuides.sources[h.source]?.url]):highlights.filter(([re])=>re.test(title));
+  const matched=searchInfo?.highlights.length?searchInfo.highlights.map(h=>[null,h.season,h.feature,h.url]):guide?.highlights.length?guide.highlights.map(h=>[null,h.season,h.feature,window.JKDestinationGuides.sources[h.source]?.url]):highlights.filter(([re])=>re.test(title));
   if(guide?.photoThemes.length)tags.push({text:'풍경 · '+guide.photoThemes.join('·'),kind:'category'});
   for(const [,season,feature,url]of matched)tags.push({text:(season?season+' · ':'')+feature,kind:'highlight',url});
   if(config[2]==='island')for(const [re,feature]of [[/대마도/,'선착장 표지석'],[/안마도/,'선착장 표지석'],[/상조도/,'도리산 전망대'],[/백령도/,'최북단 백령도비'],[/독도/,'해상 인증 기록']])if(re.test(title))tags.push({text:'인증지 · '+feature,kind:'record'});
@@ -97,12 +101,13 @@
   for(const tag of tags){const chip=make('span',tag.text,'jk-season-tag');chip.dataset.kind=tag.kind;if(tag.url)chip.title=(tag.reason||'볼거리 참고')+' · '+tag.url;box.append(chip);}
   const destination=table?card.children[2]:card.querySelector('.map-row-copy')||(map?card.querySelector(':scope>span'):null)||card.querySelector(':scope>.card')||card;destination?.append(box);
   // Read stable text again because the destination may be nested inside the card.
-  const info={content,title,seasons,guide,highlights:recommendation?[]:matched.map(x=>x[1]),text:[title,guide?.summary||'',...tags.map(t=>t.text),content].join(' ').toLocaleLowerCase('ko')};memo.set(card,info);return info;
+  const info={content,title,seasons,guide,highlights:matched.map(x=>x[1]).filter(Boolean),text:[title,guide?.summary||'',searchInfo?.text||'',...tags.map(t=>t.text),content].join(' ').toLocaleLowerCase('ko')};memo.set(card,info);return info;
  }
  let queued=false;
  function apply(){
   const cards=[...root.querySelectorAll(config[1])];let available=0,visible=0;const q=search.value.trim().toLocaleLowerCase('ko');
-  for(const card of cards){const info=describe(card),season=select.value;const yes=(!q||q.split(/\s+/).every(word=>info.text.includes(word)))&&(!season||(season==='날짜 미등록'?!info.seasons.length:[...info.seasons,...info.highlights].includes(season)));
+  const normalize=window.JKDestinationSearch?.normalize||(s=>s.toLocaleLowerCase('ko'));
+  for(const card of cards){const info=describe(card),season=select.value;const yes=(!q||normalize(q).split(/\s+/).every(word=>normalize(info.text).includes(word)))&&(!season||(season==='날짜 미등록'?!info.seasons.length:[...info.seasons,...info.highlights].includes(season)));
    card.classList.toggle('jk-season-filtered',!yes);if(!card.hidden&&card.style.display!=='none'){available++;if(yes)visible++;}
   }
   const text='계절·특징 결과 '+visible+' / '+available+'개';if(status.textContent!==text)status.textContent=text;
@@ -111,5 +116,5 @@
  const schedule=()=>{if(queued)return;queued=true;requestAnimationFrame(()=>{queued=false;apply();});};
  new MutationObserver(schedule).observe(root,{subtree:true,childList:true});
  // Existing name/region/category searches continue to own their own visibility state.
- window.addEventListener('jk-destination-guides-ready',()=>{memo=new WeakMap();schedule();});document.addEventListener('input',schedule);document.addEventListener('change',schedule);document.addEventListener('click',schedule);apply();
+ window.addEventListener('jk-destination-guides-ready',()=>{memo=new WeakMap();schedule();});window.addEventListener('jk-destination-search-ready',()=>{memo=new WeakMap();schedule();});document.addEventListener('input',schedule);document.addEventListener('change',schedule);document.addEventListener('click',schedule);apply();
 })();
