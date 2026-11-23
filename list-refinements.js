@@ -21,7 +21,7 @@
  .jk-home-list-drop a:hover,.jk-home-list-drop a:focus-visible{background:#eee3cc}
  .jk-photo-protected{-webkit-user-drag:none;user-select:none;-webkit-user-select:none;-webkit-touch-callout:none}
  .photo-card .frame,.lb-image-stage,.jk-source-grid a,.local-photo-grid a{position:relative}
- .photo-card .frame::after,.lb-image-stage::after,.jk-source-grid a::after,.local-photo-grid a::after{content:'© 김종근 · JK 의 산하정복';position:absolute;right:8px;bottom:8px;pointer-events:none;padding:2px 5px;border-radius:3px;background:#0007;color:#fff;font:10px/1.4 sans-serif;text-shadow:0 1px 2px #000;z-index:2}
+ .photo-card .frame::after,.lb-image-stage::after,.jk-source-grid a::after,.local-photo-grid a::after{content:'산길 바다길(JK의 산하정복)';position:absolute;right:8px;bottom:8px;pointer-events:none;padding:2px 5px;border-radius:3px;background:#0007;color:#fff;font:10px/1.4 sans-serif;text-shadow:0 1px 2px #000;z-index:2}
  .jk-protected-viewer{width:min(1200px,96vw);height:92dvh;max-width:96vw;max-height:94dvh;padding:12px;border:1px solid #ae9770;border-radius:12px;background:#fffdf7}
  .jk-protected-viewer[open]{display:flex;flex-direction:column;gap:8px}.jk-protected-viewer::backdrop{background:#000b}
  .jk-protected-viewer .jk-photo-stage{position:relative;flex:1;min-height:0;display:flex;align-items:center;justify-content:center;overflow:hidden}
@@ -79,7 +79,7 @@
   let index=items.indexOf(link);if(index<0)return;
   const dialog=document.createElement('dialog');dialog.className='jk-protected-viewer';dialog.setAttribute('aria-label','산행 사진 전체 보기');const close=document.createElement('button');close.textContent='사진 닫기 ×';close.type='button';close.className='jk-record-photo-close';
   const nav=document.createElement('div');nav.className='jk-photo-nav';const previous=document.createElement('button'),next=document.createElement('button'),caption=document.createElement('span');previous.type=next.type='button';previous.textContent='← 이전';next.textContent='다음 →';previous.setAttribute('aria-label','이전 사진');next.setAttribute('aria-label','다음 사진');caption.className='jk-photo-caption';caption.setAttribute('aria-live','polite');nav.append(previous,caption,next);
-  const stage=document.createElement('div');stage.className='jk-photo-stage';const img=document.createElement('img');img.className='jk-photo-protected';img.draggable=false;const credit=document.createElement('span');credit.className='jk-photo-credit';credit.textContent='© 김종근 · JK 의 산하정복';stage.append(img,credit);dialog.append(close,nav,stage);document.body.append(dialog);
+  const stage=document.createElement('div');stage.className='jk-photo-stage';const img=document.createElement('img');img.className='jk-photo-protected';img.draggable=false;const credit=document.createElement('span');credit.className='jk-photo-credit';credit.textContent='산길 바다길(JK의 산하정복)';stage.append(img,credit);dialog.append(close,nav,stage);document.body.append(dialog);
   function show(){const current=items[index],title=current.querySelector('img').alt||current.textContent.trim()||'산행 사진';img.src=current.href;img.alt=title;caption.textContent=(index+1)+' / '+items.length+' · '+title;previous.disabled=next.disabled=items.length<2;}
   function move(step){index=(index+step+items.length)%items.length;show();}
   previous.onclick=()=>move(-1);next.onclick=()=>move(1);close.onclick=()=>dialog.close();
