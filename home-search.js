@@ -10,7 +10,7 @@
   const matches=records.filter(r=>window.JKDestinationSearch?window.JKDestinationSearch.matches(r,input.value):normalize(r.search).includes(q)).sort((a,b)=>Number(normalize(b.name).startsWith(q))-Number(normalize(a.name).startsWith(q)));
   current=[...exact,...matches,...partialMenus].slice(0,40);for(const r of current){const a=document.createElement('a');a.href=r.url;a.textContent=r.name;const small=document.createElement('small');small.textContent=r.type;a.append(small);results.append(a);}feedback.textContent=current.length?'검색 결과 '+current.length+'개 · 항목을 선택하거나 Enter를 누르세요.':loading&&records.length?'검색 결과가 없습니다. 다른 이름이나 메뉴를 입력하세요.':'장소 자료를 불러오는 중입니다. 잠시 후 다시 확인하세요.';
  }
- function open(e){opener=e.currentTarget;panel.classList.add('open');opener.setAttribute('aria-expanded','true');render();input.focus();load();}
+ function open(e){opener=e.currentTarget;input.value='';panel.classList.add('open');opener.setAttribute('aria-expanded','true');render();input.focus();load();}
  function close(){panel.classList.remove('open');opener?.setAttribute('aria-expanded','false');opener?.focus({preventScroll:true});}
  document.querySelectorAll('#open-search,#mobile-search').forEach(b=>b.addEventListener('click',open));document.getElementById('close-search').onclick=close;panel.addEventListener('click',e=>{if(e.target===panel)close();});input.addEventListener('input',render);
  document.getElementById('search-form').addEventListener('submit',async e=>{e.preventDefault();await load();render();if(current.length)location.href=current[0].url;});
