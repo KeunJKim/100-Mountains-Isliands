@@ -5,6 +5,7 @@
  style.textContent=`
  #article-body.jk-hiking-journal{white-space:normal!important;font-size:17px!important;line-height:1.9!important}
  #article-body.jk-hiking-journal p{font-size:17px!important;line-height:1.9!important;margin:0 0 18px!important;white-space:pre-line;overflow-wrap:anywhere}
+ #article-body.jk-hiking-journal p.jk-journal-description{text-indent:1em!important}
  #article-body.jk-hiking-journal h3{font-size:21px!important;line-height:1.5!important;margin:32px 0 14px!important;padding-bottom:8px;border-bottom:1px solid #cdbd9f}
  .jk-journal-figure{margin:20px 0 28px!important}
  .jk-journal-figure button{display:block;width:100%;padding:0!important;background:transparent;border:0;cursor:zoom-in}
@@ -38,7 +39,7 @@
   for(const block of (post.body||'').split(/\n\s*\n/)){
    if(!block.trim())continue;
    if((journal.headings||[]).includes(block.trim())){flush();section=block.trim();const h=document.createElement('h3');h.textContent=section;body.append(h)}
-   else{const p=document.createElement('p');appendText(p,block,journal.linkLabels||{});body.append(p)}
+   else{const p=document.createElement('p'),first=block.trim().split('\n')[0];if(/[.!?。]$/.test(first)&&!/^https:\/\//.test(first)&&!/^[^·\n]{1,24}\s·/.test(first))p.className='jk-journal-description';appendText(p,block,journal.linkLabels||{});body.append(p)}
   }
   flush();for(const src of items)figure(src,(journal.media||[]).find(m=>m.src===src)?.caption,body);
   return true;

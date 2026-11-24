@@ -8,8 +8,10 @@
  const active=()=>inputs().some(n=>n.value.trim())||selects().some(n=>n.value!==''&&n.value!==n.options[0]?.value);
  function reset(){
   if(resetting)return;resetting=true;clearTimeout(timer);
-  for(const n of inputs()){n.autocomplete='off';if(n.value){n.value='';n.dispatchEvent(new Event('input',{bubbles:true}));}}
-  for(const n of selects()){const value=[...n.options].some(o=>o.value==='')?'':n.options[0]?.value;if(value!==undefined&&n.value!==value){n.value=value;n.dispatchEvent(new Event('change',{bubbles:true}));}}
+  // Browsers can restore the form separately from the rendered list. Redraw even
+  // when the field is already empty, so stale results cannot survive a reset.
+  for(const n of inputs()){n.autocomplete='off';n.value='';n.dispatchEvent(new Event('input',{bubbles:true}));}
+  for(const n of selects()){const value=[...n.options].some(o=>o.value==='')?'':n.options[0]?.value;if(value!==undefined){n.value=value;n.dispatchEvent(new Event('change',{bubbles:true}));}}
   resetting=false;lastActivity=Date.now();
  }
  function checkIdle(){
@@ -24,6 +26,7 @@
  for(const type of ['pointerdown','keydown','wheel','touchstart','input','change'])document.addEventListener(type,activity,{passive:true});
  window.addEventListener('focus',checkIdle);document.addEventListener('visibilitychange',()=>{if(!document.hidden)checkIdle();});
  window.addEventListener('pageshow',()=>setTimeout(reset,0));
+ window.addEventListener('pagehide',reset);
  window.JKSearchSession={reset,idleMs};
  requestAnimationFrame(reset);
 })();

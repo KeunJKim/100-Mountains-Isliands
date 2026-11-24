@@ -18,6 +18,13 @@
  }
  function open(e){loading=null;opener=e.currentTarget;input.value='';panel.classList.add('open');opener.setAttribute('aria-expanded','true');render();input.focus();load();}
  function close(){panel.classList.remove('open');opener?.setAttribute('aria-expanded','false');opener?.focus({preventScroll:true});}
+ // The visual home does not load the shared list scripts. Own its complete
+ // search lifecycle, including browsers that restore form fields from history.
+ function resetHomeSearch(){input.value='';current=[];results.replaceChildren();feedback.textContent='산·섬 이름, 지역, 산행 날짜 또는 메뉴를 입력하세요.';panel.classList.remove('open');document.querySelectorAll('#open-search,#mobile-search').forEach(b=>b.setAttribute('aria-expanded','false'));}
+ input.autocomplete='off';document.getElementById('search-form').autocomplete='off';
+ window.addEventListener('pagehide',resetHomeSearch);
+ window.addEventListener('pageshow',resetHomeSearch);
+ resetHomeSearch();
  document.querySelectorAll('#open-search,#mobile-search').forEach(b=>b.addEventListener('click',open));document.getElementById('close-search').onclick=close;panel.addEventListener('click',e=>{if(e.target===panel)close();});input.addEventListener('input',render);
  document.getElementById('search-form').addEventListener('submit',async e=>{e.preventDefault();await load();render();if(current.length)location.href=current[0].url;});
  panel.addEventListener('keydown',e=>{if(e.key==='Escape'){e.preventDefault();close();}else if(e.key==='ArrowDown'||e.key==='ArrowUp'){const links=[...results.querySelectorAll('a')];if(!links.length)return;e.preventDefault();const i=links.indexOf(document.activeElement),next=e.key==='ArrowDown'?Math.min(i+1,links.length-1):Math.max(i-1,0);links[next].focus();}else if(e.key==='Tab'){const nodes=[...panel.querySelectorAll('button,input,a[href]')],first=nodes[0],last=nodes.at(-1);if(e.shiftKey&&document.activeElement===first){e.preventDefault();last.focus();}else if(!e.shiftKey&&document.activeElement===last){e.preventDefault();first.focus();}}});

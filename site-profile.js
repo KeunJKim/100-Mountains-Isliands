@@ -110,4 +110,4 @@ document.addEventListener('click',e=>{if(!menu.contains(e.target))close();});doc
 (()=>{const s=document.createElement('script');s.src='https://keunjkim.github.io/100-Mountains-Isliands/navigation-cleanup.js?v=20261124-record-header';document.head.append(s);})();
 
 /* 새 페이지와 장시간 미사용 시 검색 조건 초기화 */
-(()=>{const s=document.createElement('script');s.src='https://keunjkim.github.io/100-Mountains-Isliands/search-session.js?v=20261124-search-session1';document.head.append(s);})();
+(()=>{const s=document.createElement('script');s.src='https://keunjkim.github.io/100-Mountains-Isliands/search-session.js?v=20261124-refresh-reset2';document.head.append(s);})();
