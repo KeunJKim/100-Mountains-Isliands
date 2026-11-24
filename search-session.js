@@ -1,8 +1,9 @@
 /* 검색 상태는 현재 페이지 작업 중에만 유지합니다. 인증·편집 데이터와 앨범 선택은 보존합니다. */
 (() => {
  'use strict';if(window.JKSearchSession)return;
- const idleMs=5*60*1000,fields='input[type="search"],input[id*="search"],#album-search',filters='#region,.jk-season-tools select';
+ const idleMs=5*60*1000,fields='input[type="search"],input[id*="search"],input[placeholder*="검색"],input[aria-label*="검색"],input[placeholder*="찾기"],#album-search',filters='#region,.jk-season-tools select';
  let lastActivity=Date.now(),timer=null,resetting=false;
+ const registered=new WeakSet();
  const inputs=()=>[...document.querySelectorAll(fields)].filter(n=>!n.matches('[type=password],[type=hidden]'));
  const selects=()=>[...document.querySelectorAll(filters)];
  const active=()=>inputs().some(n=>n.value.trim())||selects().some(n=>n.value!==''&&n.value!==n.options[0]?.value);
@@ -10,8 +11,8 @@
   if(resetting)return;resetting=true;clearTimeout(timer);
   // Browsers can restore the form separately from the rendered list. Redraw even
   // when the field is already empty, so stale results cannot survive a reset.
-  for(const n of inputs()){n.autocomplete='off';n.value='';n.dispatchEvent(new Event('input',{bubbles:true}));}
-  for(const n of selects()){const value=[...n.options].some(o=>o.value==='')?'':n.options[0]?.value;if(value!==undefined){n.value=value;n.dispatchEvent(new Event('change',{bubbles:true}));}}
+  for(const n of inputs()){registered.add(n);n.autocomplete='off';n.value='';n.dispatchEvent(new Event('input',{bubbles:true}));}
+  for(const n of selects()){registered.add(n);const value=[...n.options].some(o=>o.value==='')?'':n.options[0]?.value;if(value!==undefined){n.value=value;n.dispatchEvent(new Event('change',{bubbles:true}));}}
   resetting=false;lastActivity=Date.now();
  }
  function checkIdle(){
@@ -28,5 +29,12 @@
  window.addEventListener('pageshow',()=>setTimeout(reset,0));
  window.addEventListener('pagehide',reset);
  window.JKSearchSession={reset,idleMs};
+ // Some menus create their search controls after the initial page reset.
+ // Initialize each new control once without clearing an ongoing search when
+ // cards, photos or editor content are subsequently redrawn.
+ new MutationObserver(()=>{
+  for(const n of inputs())if(!registered.has(n)){registered.add(n);n.autocomplete='off';n.value='';n.dispatchEvent(new Event('input',{bubbles:true}));}
+  for(const n of selects())if(!registered.has(n)){registered.add(n);const first=[...n.options].some(o=>o.value==='')?'':n.options[0]?.value;if(first!==undefined){n.value=first;n.dispatchEvent(new Event('change',{bubbles:true}));}}
+ }).observe(document.body,{childList:true,subtree:true});
  requestAnimationFrame(reset);
 })();
