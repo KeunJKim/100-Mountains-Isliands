@@ -8,7 +8,15 @@
  #article-body.jk-hiking-journal p{font-size:17px!important;line-height:1.8!important;margin:0 0 16px!important;padding-inline-start:1em!important;text-indent:0!important;white-space:pre-line;overflow-wrap:anywhere}
  #article-body.jk-hiking-journal p:not(.jk-journal-description){line-height:1.7!important}
  #article-body.jk-hiking-journal p.jk-journal-description{text-indent:1em!important}
- #article-body.jk-hiking-journal h3{font-size:21px!important;line-height:1.45!important;margin:28px 0 12px!important;padding-bottom:8px;border-bottom:1px solid #cdbd9f}
+ #article-body.jk-hiking-journal h3{font-size:21px!important;line-height:1.45!important;margin:28px 0 12px!important;padding-top:14px;padding-bottom:0;border-top:1px solid #cdbd9f;border-bottom:0}
+ #article-body.jk-hiking-journal h3::before{content:'◆';display:inline-block;margin-right:8px;color:#426348;font-size:.75em;vertical-align:2px}
+ .jk-journal-overview{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:8px;list-style:none;padding:0;margin:0 0 12px;counter-reset:overview}
+ .jk-journal-overview li{display:flex;align-items:flex-start;gap:8px;min-width:0;padding:11px 12px;border:1px solid #d8c6a6;border-radius:7px;background:#faf6ed;font-size:16px;line-height:1.65;overflow-wrap:anywhere;counter-increment:overview}
+ .jk-journal-overview li::before{content:counter(overview);display:inline-flex;align-items:center;justify-content:center;flex:0 0 23px;height:23px;border:1px solid #abb99a;border-radius:4px;background:#e9efdf;color:#35543a;font-size:13px;font-weight:700}
+ .jk-journal-overview .jk-overview-wide{grid-column:1/-1}
+ .jk-journal-overview-note{display:block;margin:0 0 14px;color:#75664e;font-size:13px;line-height:1.6}
+ @media(max-width:650px){.jk-journal-overview{grid-template-columns:repeat(2,minmax(0,1fr))}}
+ @media(max-width:420px){.jk-journal-overview{grid-template-columns:minmax(0,1fr)}}
  .jk-journal-figure{display:block;width:100%;margin:18px 0 24px!important;break-inside:avoid}
  .jk-journal-figure button{display:block;width:60%;margin-inline:auto!important;padding:0!important;background:transparent!important;border:0;cursor:zoom-in}
  .jk-journal-figure img{display:block;width:auto;max-width:100%;height:auto;max-height:372px;margin-inline:auto;object-fit:contain;border-radius:9px}
@@ -56,10 +64,15 @@
     for(const img of images)img.addEventListener('load',sizeRow,{once:true});sizeRow();
    }
   }
-  let section='';const flush=()=>mediaGroup((journal.media||[]).filter(m=>m.section===section));
+  let section='',overviewDone=false;const flush=()=>mediaGroup((journal.media||[]).filter(m=>m.section===section));
   for(const block of (post.body||'').split(/\n\s*\n/)){
    if(!block.trim())continue;
    if((journal.headings||[]).includes(block.trim())){flush();section=block.trim();const h=document.createElement('h3');h.textContent=section;body.append(h)}
+   else if(/^(?:이날의 )?산행 한눈에$/.test(section)&&!overviewDone){
+    overviewDone=true;const list=document.createElement('ol');list.className='jk-journal-overview';list.setAttribute('aria-label','산행 요약');
+    for(const line of block.trim().split('\n').filter(Boolean))for(const text of (line.startsWith('산행강도')?[line]:line.split(' · '))){const item=document.createElement('li');item.textContent=text.trim();if(text.includes('→'))item.className='jk-overview-wide';list.append(item)}
+    body.append(list);if(block.includes('산행강도')){const note=document.createElement('small');note.className='jk-journal-overview-note';note.textContent='산행강도는 거리·기록시간·지형을 고려한 참고 평가입니다. 체력·노면·날씨에 따라 달라집니다.';body.append(note)}
+   }
    else{const p=document.createElement('p'),first=block.trim().split('\n')[0];if(/[.!?。]$/.test(first)&&!/^https:\/\//.test(first)&&!/^[^·\n]{1,24}\s·/.test(first))p.className='jk-journal-description';appendText(p,block,journal.linkLabels||{});body.append(p)}
   }
   flush();mediaGroup(items.filter(src=>!used.has(src)).map(src=>({src,caption:(journal.media||[]).find(m=>m.src===src)?.caption})));
