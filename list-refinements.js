@@ -105,5 +105,5 @@
   new MutationObserver(()=>{if(pending)return;pending=true;requestAnimationFrame(()=>{pending=false;enrich();});}).observe(document.querySelector('#alps-records,#list'),{childList:true,subtree:true});enrich();
  }).catch(e=>console.warn('목록 보충 정보 연결 실패',e));
  if(!document.querySelector('script[src*="destination-search.js"]')){const search=document.createElement('script');search.src='https://keunjkim.github.io/100-Mountains-Isliands/destination-search.js?v=20261124-features';document.head.append(search);}
- const seasons=document.createElement('script');seasons.src='https://keunjkim.github.io/100-Mountains-Isliands/seasonal-lists.js?v=20261124-features';document.head.append(seasons);
+ const seasons=document.createElement('script');seasons.src='https://keunjkim.github.io/100-Mountains-Isliands/seasonal-lists.js?v=20261124-search-fit2';document.head.append(seasons);
 })();

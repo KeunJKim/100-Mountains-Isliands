@@ -71,8 +71,8 @@
  const note=make('p',(primarySearch?'위 검색창에서 이름과 특징을 함께 찾고 지역·계절로 좁힐 수 있습니다. ':'')+(destinationPage?'추천 계절은 개인 방문일과 무관합니다. 장소별 관광 안내를 우선하고, 개별 자료가 없는 곳은 봄·가을 걷기를 추천합니다. 개화·적설·행사 일정·운항·통제는 방문 전 확인하세요.':'방문 계절은 기록 날짜 기준입니다. 볼거리 계절은 별도 안내이며, 개화·적설·행사 일정은 매년 달라집니다.'),'jk-season-note');
  const map=root.id==='entries',table=root.tagName==='TBODY';
  const anchor=map?root.closest('.panel').querySelector('.filters'):table?root.closest('.table-wrap'):root;
- if(map)anchor.after(tools,note);else anchor.before(tools,note);
- const noResults=make('p','계절·특징 조건에 맞는 항목이 없습니다. 전체 계절로 바꾸거나 검색어를 지워주세요.','jk-season-no-results');noResults.hidden=true;
+ if(!map)anchor.before(tools,note);
+ const noResults=make('p',map?'검색 조건에 맞는 항목이 없습니다. 검색어나 지역을 바꿔주세요.':'계절·특징 조건에 맞는 항목이 없습니다. 전체 계절로 바꾸거나 검색어를 지워주세요.','jk-season-no-results');noResults.hidden=true;
  (table?root.closest('.table-wrap'):root).after(noResults);
  let memo=new WeakMap();
  function describe(card){

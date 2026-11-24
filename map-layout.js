@@ -55,7 +55,7 @@
   each('.panelhead p',{margin:'0'});
   for(const p of document.querySelectorAll('.panelhead p'))p.title=p.textContent;
   each('.filters',{padding:'4px 6px',gap:'4px',margin:'0'});
-  each('.filters input,.filters select',{padding:'3px 6px',height:'26px','min-height':'0'});
+  each('.filters input,.filters select',{padding:'7px 10px',height:'auto','min-height':'43px'});
   each('.entry',{height:'auto','min-height':'0',padding:'5.2px 10.4px',gap:'9.1px'});
   each('.map-row-meta',{margin:'2px 0 0'});
   each('.bac-map-link',{padding:'4px 8px',margin:'0',gap:'6px',height:'auto','min-height':'0','flex-shrink':'0'});
