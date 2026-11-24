@@ -53,8 +53,8 @@ button.button:focus-visible,.row .button:focus-visible{outline:3px solid #ffe0a4
 #article-view .button,#admin-view .button,#list-view .button{font-size:18px!important;line-height:1.5!important;padding:9px 14px!important;min-height:36px!important}
 /* Blog photo viewer: visible paging and a return to the same reading position. */
 #lightbox{z-index:10000;display:grid;place-items:center;padding:56px 16px 76px}
-#lightbox #big-photo{max-width:100%;max-height:calc(100dvh - 148px);object-fit:contain;min-width:0}
-#lightbox #prev,#lightbox #next,#lightbox #return-photo{position:absolute;font-size:20px;line-height:1.4;padding:10px 14px;min-height:40px;white-space:nowrap;color:#fff;background:#19394e;border:1px solid #9bb4c3}
+#lightbox #big-photo{position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);max-width:calc(100% - 32px);max-height:calc(100dvh - 148px);object-fit:contain;min-width:0}
+#lightbox #prev,#lightbox #next,#lightbox #return-photo{position:absolute;z-index:1;font-size:20px;line-height:1.4;padding:10px 14px;min-height:40px;white-space:nowrap;color:#fff;background:#19394e;border:1px solid #9bb4c3}
 #lightbox #prev,#lightbox #next{top:50%;transform:translateY(-50%)}
 #lightbox #prev{left:12px}#lightbox #next{right:12px}
 #lightbox #return-photo{bottom:16px;left:50%;transform:translateX(-50%)}
