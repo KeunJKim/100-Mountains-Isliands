@@ -3,7 +3,7 @@
   "mountains": {
     "1": {
       "hikeDate": "2023-02-05",
-      "route": "제2주차장-가삼고개-정상-무쇠말재-제2주차장",
+      "route": "제2주차장 -> 가삼고개 -> 정상 -> 무쇠말재 -> 제2주차장",
       "distanceKm": 6.8,
       "duration": "3시간30분",
       "summitElevationM": 1051,
@@ -14,7 +14,7 @@
       "weather": "",
       "notes": "",
       "blogUrl": "https://keunjkim.github.io/100-Mountains-Isliands/blog.html#post-mw9z0klx-bbigg9",
-      "updatedAt": "2026-11-24T06:50:15.792Z"
+      "updatedAt": "2026-11-24T06:50:38.753Z"
     },
     "2": {
       "blogUrl": "https://keunjkim.github.io/100-Mountains-Isliands/blog.html#post-gariwangsan-20220919"
