@@ -95,7 +95,7 @@ document.addEventListener('click',e=>{if(!menu.contains(e.target))close();});doc
 (()=>{const s=document.createElement('script');s.src='https://keunjkim.github.io/100-Mountains-Isliands/keyboard-navigation.js?v=20261120-keys2';document.head.append(s);})();
 
 /* 산·섬의 대표 사진과 간략 소개 */
-(()=>{const s=document.createElement('script');s.src='https://keunjkim.github.io/100-Mountains-Isliands/destination-cards.js?v=20261124-summit-covers';document.head.append(s);})();
+(()=>{const s=document.createElement('script');s.src='https://keunjkim.github.io/100-Mountains-Isliands/destination-cards.js?v=20261124-cover-right';document.head.append(s);})();
 
 /* 모든 산행 상세 정보의 3열 배열 */
 (()=>{const s=document.createElement('script');s.src='https://keunjkim.github.io/100-Mountains-Isliands/record-summary-layout.js?v=20261122-stats-inline';document.head.append(s);})();

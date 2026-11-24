@@ -11,6 +11,8 @@
  html body .jk-place-meta{display:inline;flex:0 1 auto;font-size:12px;line-height:1.5;color:#5f4c36;white-space:normal}
  html body :is(#cards,#island-cards) .jk-list-region{display:block;margin:3px 0!important;color:#665740;line-height:1.5;white-space:normal}
  html body .jk-guide-body{display:flex;align-items:center;gap:9px;margin:6px 0 0;min-width:0;text-align:left;white-space:normal}
+ html body :is(#cards,#island-cards) .jk-guide-body{width:100%;box-sizing:border-box}
+ html body :is(#cards,#island-cards) :is(.jk-guide-cover,.jk-guide-missing){margin-left:auto}
  html body .jk-guide-intro{flex:1;min-width:0;margin:0!important;color:#3f5038;font-size:13px;line-height:1.55!important;overflow-wrap:anywhere}
  html body .jk-guide-cover{display:block;flex:0 0 76px;width:76px!important;height:64px!important;max-width:76px!important;object-fit:contain;background:#f5efdf;border:1px solid #dac9ae;border-radius:6px;box-sizing:border-box;user-select:none;-webkit-user-drag:none}
  html body .jk-guide-missing{display:flex;align-items:center;justify-content:center;flex:0 0 76px;width:76px;height:64px;border:1px dashed #c8b898;border-radius:6px;color:#84735a;font-size:11px;line-height:1.4;background:#f5efdf}
