@@ -75,7 +75,7 @@
  function scaleTypography(){
   const measurements=[];
   const searching=[...document.querySelectorAll('input[type="search"],input[id*="search"]')].some(input=>input.value.trim());
-  const listPage=['mountains.html','islands.html','yeongnam-alps.html','other-hikes.html','overseas-trekking.html','records-to-complete.html'].includes(location.pathname.split('/').pop());
+  const listPage=['mountains.html','islands.html','yeongnam-alps.html','other-hikes.html','overseas-trekking.html','records-to-complete.html','blog.html'].includes(location.pathname.split('/').pop());
   for(const node of document.querySelectorAll('body *:not(script):not(style):not(noscript)')){
    // Inline children also need their parent's line-box metrics reduced.
    if(node.matches('img,svg,canvas,iframe,br,hr,source,video,audio,path,polyline,polygon,circle,rect'))continue;
