@@ -47,11 +47,11 @@
    m.panel.style.setProperty('box-sizing','border-box','important');m.panel.style.setProperty('max-width','calc(100vw - 24px)','important');m.panel.style.setProperty('max-height','calc(100dvh - 24px)','important');m.panel.style.setProperty('width',width+'px','important');m.panel.style.setProperty('height',height+'px','important');
    const now=m.panel.getBoundingClientRect(),state=windows.get(m.panel);place(m.panel,state.x+m.rect.left-now.left,state.y+m.rect.top-now.top);state.pin();e.preventDefault();return;
   }
-  const visible=Math.min(160,m.rect.width),dx=m.panelRect.width<=innerWidth-16?Math.max(8-m.panelRect.left,Math.min(innerWidth-8-m.panelRect.right,e.clientX-m.startX)):Math.max(visible-m.rect.right,Math.min(innerWidth-visible-m.rect.left,e.clientX-m.startX)),dy=Math.max(8-m.rect.top,Math.min(innerHeight-Math.min(40,m.rect.height)-m.rect.top,e.clientY-m.startY));
+  const visible=Math.min(160,m.rect.width),dx=m.panelRect.width<=innerWidth-16&&!m.panel.classList.contains('jk-gps-large-dialog')?Math.max(8-m.panelRect.left,Math.min(innerWidth-8-m.panelRect.right,e.clientX-m.startX)):Math.max(visible-m.rect.right,Math.min(innerWidth-visible-m.rect.left,e.clientX-m.startX)),dy=Math.max(8-m.rect.top,Math.min(innerHeight-Math.min(40,m.rect.height)-m.rect.top,e.clientY-m.startY));
   place(m.panel,m.x+dx,m.y+dy);e.preventDefault();
  },{passive:false});
  for(const type of ['pointerup','pointercancel','lostpointercapture'])document.addEventListener(type,finish);
- window.addEventListener('resize',()=>{finish();for(const panel of windows.keys())reset(panel);});
+ let viewportSize=innerWidth+'x'+innerHeight;window.addEventListener('resize',()=>{const next=innerWidth+'x'+innerHeight;if(next===viewportSize)return;viewportSize=next;finish();for(const panel of windows.keys())reset(panel);});
  function controls(panel){
   const state=windows.get(panel),bar=document.createElement('div');bar.className='jk-editor-window-bar';
   const label=document.createElement('span');label.textContent='⠿ 창 이동 · 이 막대를 잡고 끌어주세요';bar.append(label);

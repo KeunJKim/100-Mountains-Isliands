@@ -80,7 +80,7 @@ document.addEventListener('click',e=>{if(!menu.contains(e.target))close();});doc
 (() => {'use strict';const menu=document.querySelector('.jk-compact-menu');if(!menu)return;const entry=document.createElement('a');entry.className='jk-site-admin-entry';entry.textContent='관리자 메뉴';entry.href='?manage=1';entry.setAttribute('aria-label','관리자 메뉴');entry.style.setProperty('display','inline-flex','important');const all=menu.querySelector('.jk-all-menu');if(all)all.before(entry);else menu.append(entry);entry.onclick=e=>{e.preventDefault();window.JKOwnerSession.open();};})();
 
 /* 모든 산행 목록·GPX 산행기의 지도 연결 기능 */
-(()=>{const s=document.createElement("script");s.src="https://keunjkim.github.io/100-Mountains-Isliands/gps-map-actions.js?v=20261115-color2";document.head.append(s);})();
+(()=>{const s=document.createElement("script");s.src="https://keunjkim.github.io/100-Mountains-Isliands/gps-map-actions.js?v=20261124-movable1";document.head.append(s);})();
 
 /* 모든 화면의 표시·버튼 크기 통일 */
 (()=>{const s=document.createElement("script");s.src="https://keunjkim.github.io/100-Mountains-Isliands/compact-ui.js?v=20261124-background-editor2";document.head.append(s);})();
@@ -113,4 +113,4 @@ document.addEventListener('click',e=>{if(!menu.contains(e.target))close();});doc
 (()=>{const s=document.createElement('script');s.src='https://keunjkim.github.io/100-Mountains-Isliands/search-session.js?v=20261124-search-scope5';document.head.append(s);})();
 
 /* 모든 관리자 수정창의 제목줄 위치 이동 */
-(()=>{const s=document.createElement('script');s.src='https://keunjkim.github.io/100-Mountains-Isliands/editor-windows.js?v=20261124-drag3';document.head.append(s);})();
+(()=>{const s=document.createElement('script');s.src='https://keunjkim.github.io/100-Mountains-Isliands/editor-windows.js?v=20261124-drag4';document.head.append(s);})();
