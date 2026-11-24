@@ -9,10 +9,12 @@
  #article-body.jk-hiking-journal p:not(.jk-journal-description){line-height:1.7!important}
  #article-body.jk-hiking-journal p.jk-journal-description{text-indent:1em!important}
  #article-body.jk-hiking-journal h3{font-size:21px!important;line-height:1.45!important;margin:28px 0 12px!important;padding-bottom:8px;border-bottom:1px solid #cdbd9f}
- .jk-journal-figure{margin:18px 0 24px!important}
+ .jk-journal-figure{display:block;width:100%;margin:18px 0 24px!important;break-inside:avoid}
  .jk-journal-figure button{display:block;width:60%;margin-inline:auto!important;padding:0!important;background:transparent;border:0;cursor:zoom-in}
  .jk-journal-figure img{display:block;width:100%;height:auto;max-height:372px;object-fit:contain;border-radius:9px}
- .reader #article-photos>button{width:60%;margin-inline:auto!important}
+ .reader #article-photos{display:flex;flex-direction:column;align-items:stretch;gap:24px}
+ .reader #article-photos>button{display:block;flex:none;width:60%;margin-inline:auto!important}
+ .reader #article-photos>button img{display:block;width:100%;height:auto;object-fit:contain}
  .reader #article-photos img{max-height:318px!important}
  .jk-journal-figure figcaption{font-size:14px!important;line-height:1.5!important;margin-top:7px!important;text-align:center;color:#635c50}
  #article-photos.jk-journal-hero{display:block;margin:18px 0 26px!important}
