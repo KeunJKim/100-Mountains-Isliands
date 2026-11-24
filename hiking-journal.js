@@ -5,6 +5,7 @@
  style.textContent=`
  .reader .body:not(.jk-hiking-journal){line-height:1.8!important}
  html body #article-title{font-size:25.2px!important;line-height:1.45!important;color:#344c40!important;margin:14px 0 12px!important;overflow-wrap:anywhere}
+ html body #article-title::before{content:'★';display:inline-block;margin-right:8px;color:#6b704b;font-size:.85em}
  html body #article-body,html body #article-body :is(p,li){color:#454b44!important}
  html body #article-body h3{color:#344c40!important}
  html body #article-body a{color:#3e645d!important}

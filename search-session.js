@@ -27,7 +27,7 @@
  function activity(){if(resetting)return;lastActivity=Date.now();clearTimeout(timer);if(active())timer=setTimeout(checkIdle,idleMs);}
  // Chrome may restore/autofill values after pageshow and after our first reset.
  // Retry only untouched controls; a fresh query typed by the visitor must survive.
- for(const type of ['input','change'])document.addEventListener(type,e=>{if(e.isTrusted&&e.target.matches?.(fields+','+filters))edited.add(e.target);},true);
+ for(const type of ['input','change'])document.addEventListener(type,e=>{if(e.isTrusted&&document.activeElement===e.target&&e.target.matches?.(fields+','+filters))edited.add(e.target);},true);
  function clearRestored(){
   for(const n of inputs())if(!edited.has(n)&&n.value){n.value='';n.dispatchEvent(new Event('input',{bubbles:true}));}
   for(const n of selects())if(!edited.has(n)&&n.selectedIndex>0){n.selectedIndex=0;n.dispatchEvent(new Event('change',{bubbles:true}));}

@@ -34,7 +34,7 @@
  const controls='button,input[type="button"],input[type="submit"],a.button,a.btn,a.action,a.ux-edit-btn,a.jk-gallery-action,.jk-compact-menu> a,.jk-compact-menu>details>summary,.jk-nav-drop>a,.jk-all-panel a,.jk-management-grid>a,.jk-gps-map-actions>a,.jk-management-choices>a,.jk-home-card-stage .card,a[role="button"],a.jk-token-create,.quick-nav>a,.ux-context-links>a,.toolbar>a,.links>a';
  const done=new WeakSet(),texts=new WeakSet();
  const px=s=>Number.parseFloat(s)||0;
- const blogEditor=node=>location.pathname.endsWith('/blog.html')&&node.closest('#admin-view');
+ const blogEditor=node=>(location.pathname.endsWith('/blog.html')&&node.closest('#admin-view'))||node.closest('body.jk-representative-home .jk-home-background-dialog');
  function compact(node){
   if(blogEditor(node))return;
   if(node.matches('.jk-record-photo-close')){for(const [key,value]of Object.entries({'min-height':'34px',height:'auto',padding:'6px 12px','font-size':'14px','line-height':'21px','border-radius':'7px'}))node.style.setProperty(key,value,'important');return;}
@@ -185,7 +185,7 @@
   for(const menu of document.querySelectorAll('.ux-context-links')){if(!menu.querySelector('a[href*="overseas-trekking.html"]')){const a=document.createElement('a');a.href='https://keunjkim.github.io/100-Mountains-Isliands/overseas-trekking.html';a.textContent='해외트래킹';menu.append(a);}}
 
   document.querySelectorAll('h1,h2,h3,h4,p').forEach(node=>{
-   if(node.id==='article-title')return;
+   if(node.id==='article-title'||blogEditor(node))return;
    if(texts.has(node)||!node.getClientRects().length)return;
    const size=px(getComputedStyle(node).fontSize),cap={H1:30,H2:24,H3:19,H4:17,P:16}[node.tagName];
    if(size>cap)node.style.setProperty('font-size',cap+'px','important');texts.add(node);
