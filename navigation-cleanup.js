@@ -15,6 +15,11 @@
  html body .jk-site-divider{color:#a18c6e;font-size:12px!important}
  html body .stats .stat>span{display:block;white-space:normal!important;font-size:12px!important;line-height:18px!important;margin-top:4px;overflow-wrap:anywhere}
  html body .stats .stat{height:auto!important}
+ html body .jk-header-grid.jk-record-header-stacked .jk-compact-menu{grid-column:1/-1!important;grid-row:3!important;justify-content:flex-start!important}
+ html body .jk-header-grid.jk-record-header-stacked .jk-header-title{grid-column:2!important;grid-row:1!important}
+ html body .jk-header-grid.jk-record-header-stacked .jk-header-breadcrumb{grid-column:2!important;grid-row:2!important}
+ html body .jk-header-grid.jk-record-header-stacked .jk-profile-trigger{grid-column:1!important;grid-row:1/3!important}
+ html body .jk-record-header :is(.jk-site-name,.jk-site-page){white-space:nowrap!important}
  html body dialog.jk-owner-dialog{width:min(850px,calc(100vw - 32px))!important;max-width:calc(100vw - 32px)!important;max-height:90dvh!important;padding:20px!important;overflow:auto;box-sizing:border-box}
  html body .jk-owner-dialog h2{font-size:20px!important;line-height:1.5!important;margin:0 0 12px!important}
  html body .jk-owner-dialog .jk-management-group{margin:12px 0!important;padding:10px 12px 12px!important}
@@ -33,5 +38,6 @@
   if(duplicates.length===links.length){box.remove();continue;}
   for(const a of duplicates){a.hidden=true;a.style.setProperty('display','none','important');}
  }}
+ if(page.startsWith('gpx-')){bar.classList.add('jk-record-header');const fit=()=>bar.classList.toggle('jk-record-header-stacked',bar.getBoundingClientRect().width<1200);new ResizeObserver(fit).observe(bar);fit();}
  let queued=false;new MutationObserver(()=>{if(queued)return;queued=true;requestAnimationFrame(()=>{queued=false;cleanup();});}).observe(document.body,{subtree:true,childList:true});cleanup();
 })();

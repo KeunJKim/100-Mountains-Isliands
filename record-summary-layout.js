@@ -1,6 +1,7 @@
 /* 공통 상세 산행 정보: 기본 정보 2행·3열, 코스는 다음 행 전체 폭. */
 (() => {
  'use strict';if(document.getElementById('jk-record-summary-style'))return;
+ if(document.getElementById('gpx-payload'))document.body.classList.add('jk-record-stats-readable');
  const style=document.createElement('style');style.id='jk-record-summary-style';style.textContent=`
  html body .ux-record-panel dl.ux-info.jk-detail-info-grid,html body dl.jk-detail-info-grid{display:grid!important;grid-template-columns:repeat(3,minmax(0,1fr))!important;gap:8px!important;margin:12px 0!important;padding:0!important}
  html body dl.jk-detail-info-grid>.jk-detail-info-cell{display:grid!important;grid-template-columns:max-content minmax(0,1fr)!important;align-content:start;align-items:baseline;gap:4px 12px!important;min-width:0;min-height:0!important;height:auto!important;padding:9px 10px!important;border:1px solid #dfd2be;border-radius:6px;background:#fbf7ee}
@@ -8,6 +9,9 @@
  html body .hike-stats>div,html body #stats>div{display:flex!important;align-items:baseline;justify-content:space-between;gap:6px 12px!important;min-width:0}
  html body .hike-stats>div,html body #stats>div{box-shadow:inset 0 0 0 1px #d6c5a9!important}
  html body .hike-stats>div>:is(span,strong),html body #stats>div>:is(span,strong){display:inline!important;margin:0!important;white-space:nowrap}
+ html body.jk-record-stats-readable #stats>div{padding:12px 14px!important;min-height:52px!important;height:auto!important;box-sizing:border-box;gap:6px 12px!important}
+ html body.jk-record-stats-readable #stats>div>:is(small,strong){max-width:100%;white-space:normal!important;overflow-wrap:anywhere;min-width:0}
+ html body.jk-record-stats-readable #stats>div>small{color:#6a5844}
  html body .tranggle-reference dl{grid-template-columns:repeat(auto-fit,minmax(min(100%,300px),1fr))!important}
  html body .tranggle-reference dl>div{display:flex!important;align-items:baseline;justify-content:space-between;flex-wrap:nowrap!important;gap:8px!important;min-width:0}
  html body .tranggle-reference dl>div>:is(dt,dd){display:inline!important;flex:0 0 auto;margin:0!important;white-space:nowrap!important;line-height:1.6!important}
