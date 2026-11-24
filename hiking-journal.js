@@ -3,16 +3,18 @@
  'use strict';
  const style=document.createElement('style');
  style.textContent=`
- #article-body.jk-hiking-journal{white-space:normal!important;font-size:17px!important;line-height:1.9!important}
- #article-body.jk-hiking-journal p{font-size:17px!important;line-height:1.9!important;margin:0 0 18px!important;padding-inline-start:1em!important;text-indent:0!important;white-space:pre-line;overflow-wrap:anywhere}
+ .reader .body:not(.jk-hiking-journal){line-height:1.8!important}
+ #article-body.jk-hiking-journal{white-space:normal!important;font-size:17px!important;line-height:1.8!important}
+ #article-body.jk-hiking-journal p{font-size:17px!important;line-height:1.8!important;margin:0 0 16px!important;padding-inline-start:1em!important;text-indent:0!important;white-space:pre-line;overflow-wrap:anywhere}
+ #article-body.jk-hiking-journal p:not(.jk-journal-description){line-height:1.7!important}
  #article-body.jk-hiking-journal p.jk-journal-description{text-indent:1em!important}
- #article-body.jk-hiking-journal h3{font-size:21px!important;line-height:1.5!important;margin:32px 0 14px!important;padding-bottom:8px;border-bottom:1px solid #cdbd9f}
- .jk-journal-figure{margin:20px 0 28px!important}
+ #article-body.jk-hiking-journal h3{font-size:21px!important;line-height:1.45!important;margin:28px 0 12px!important;padding-bottom:8px;border-bottom:1px solid #cdbd9f}
+ .jk-journal-figure{margin:18px 0 24px!important}
  .jk-journal-figure button{display:block;width:60%;margin-inline:auto!important;padding:0!important;background:transparent;border:0;cursor:zoom-in}
  .jk-journal-figure img{display:block;width:100%;height:auto;max-height:372px;object-fit:contain;border-radius:9px}
  .reader #article-photos>button{width:60%;margin-inline:auto!important}
  .reader #article-photos img{max-height:318px!important}
- .jk-journal-figure figcaption{font-size:14px!important;line-height:1.6!important;margin-top:8px!important;text-align:center;color:#635c50}
+ .jk-journal-figure figcaption{font-size:14px!important;line-height:1.5!important;margin-top:7px!important;text-align:center;color:#635c50}
  #article-photos.jk-journal-hero{display:block;margin:18px 0 26px!important}
  #article-body.jk-hiking-journal a{font-size:inherit!important;line-height:inherit!important;text-decoration:underline;text-underline-offset:3px}
  @media(max-width:600px){#article-body.jk-hiking-journal p{font-size:16px!important}.jk-journal-figure{margin:16px 0 22px!important}}
