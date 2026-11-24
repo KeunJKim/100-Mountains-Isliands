@@ -79,6 +79,7 @@
   for(const node of document.querySelectorAll('body *:not(script):not(style):not(noscript)')){
    // Inline children also need their parent's line-box metrics reduced.
    if(node.matches('img,svg,canvas,iframe,br,hr,source,video,audio,path,polyline,polygon,circle,rect'))continue;
+   if(node.closest('.jk-hiking-journal,.jk-journal-hero'))continue;
    const c=getComputedStyle(node),size=px(c.fontSize),line=px(c.lineHeight);
    if(!size)continue;
    measurements.push([node,size,line]);
