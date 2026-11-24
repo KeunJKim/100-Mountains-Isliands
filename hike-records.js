@@ -167,7 +167,7 @@ function gpsCompanionButton(box,kind,rec,form){
   scope.querySelector('.jk-gpx-companion-window')?.remove();
   const panel=el('div',null,'jk-gpx-companion-window');panel.setAttribute('role','dialog');panel.setAttribute('aria-label','GPX 기록 함께 보기');panel.setAttribute('data-jk-editor-window','');
   const header=el('h2','GPX 기록 함께 보기','jk-editor-window-title'),close=el('button','닫기 ×');close.type='button';close.onclick=()=>{panel.remove();button.focus({preventScroll:true});};header.append(close);
-  const frame=el('iframe');frame.title='선택한 산행일의 GPX 이동 경로';frame.src='gpx-companion.html?embedded=1';
+  const frame=el('iframe');frame.title='선택한 산행일의 GPX 이동 경로';frame.src='gpx-companion.html?embedded=1&v=20261124-companion2';
   panel.append(header,frame);scope.append(panel);scope.addEventListener('close',()=>panel.remove(),{once:true});
   const pin=()=>{if(!panel.isConnected){scope.removeEventListener('scroll',pin);return;}panel.style.top=(scope.scrollTop+(innerWidth<600?45:60))+'px';};scope.addEventListener('scroll',pin,{passive:true});pin();
   notice.textContent='작은 GPX 창을 열었습니다. 두 창의 제목줄을 끌어 위치를 조정할 수 있습니다.';
