@@ -8,8 +8,10 @@
  #article-body.jk-hiking-journal p.jk-journal-description{text-indent:1em!important}
  #article-body.jk-hiking-journal h3{font-size:21px!important;line-height:1.5!important;margin:32px 0 14px!important;padding-bottom:8px;border-bottom:1px solid #cdbd9f}
  .jk-journal-figure{margin:20px 0 28px!important}
- .jk-journal-figure button{display:block;width:100%;padding:0!important;background:transparent;border:0;cursor:zoom-in}
- .jk-journal-figure img{display:block;width:100%;height:auto;max-height:620px;object-fit:contain;border-radius:9px}
+ .jk-journal-figure button{display:block;width:60%;margin-inline:auto!important;padding:0!important;background:transparent;border:0;cursor:zoom-in}
+ .jk-journal-figure img{display:block;width:100%;height:auto;max-height:372px;object-fit:contain;border-radius:9px}
+ .reader #article-photos>button{width:60%;margin-inline:auto!important}
+ .reader #article-photos img{max-height:318px!important}
  .jk-journal-figure figcaption{font-size:14px!important;line-height:1.6!important;margin-top:8px!important;text-align:center;color:#635c50}
  #article-photos.jk-journal-hero{display:block;margin:18px 0 26px!important}
  #article-body.jk-hiking-journal a{font-size:inherit!important;line-height:inherit!important;text-decoration:underline;text-underline-offset:3px}
