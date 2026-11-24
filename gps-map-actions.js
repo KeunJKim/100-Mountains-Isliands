@@ -18,7 +18,7 @@
   return null;
  }
  function largeMap(map,opener){
-  const existing=map.closest('.jk-gps-large-dialog');if(existing){existing.focus({preventScroll:true});return;}map.closest('dialog[open]')?.querySelector('.jk-gps-large-dialog')?.dispatchEvent(new Event('jk-gps-close'));
+  const existing=map.closest('.jk-gps-large-dialog');if(existing){existing.focus({preventScroll:true});return;}map.closest('dialog[open],[role=dialog][aria-modal=true]')?.querySelector('.jk-gps-large-dialog')?.dispatchEvent(new Event('jk-gps-close'));
   const records=map.closest('.visit')?.jkGpsRecords||[];let ownRecord;try{ownRecord=JSON.parse(document.getElementById('gpx-payload')?.textContent||'null');}catch{}
   const available=records.length?records:ownRecord?.routes?.length?[ownRecord]:[];
   const editor=map.closest('dialog[open]'),originalStyle=editor?.style.cssText,originalOffset=editor&&window.JKEditorWindows?.getOffset(editor);
