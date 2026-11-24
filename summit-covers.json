@@ -1,0 +1,1687 @@
+{
+  "version": 1,
+  "checked": "2026-11-24",
+  "note": "업로드된 사진에서 확인한 정상석·인증 표지 대표 사진. 기록 날짜와 촬영일이 다를 수 있어 장소 대표 사진으로 표시합니다.",
+  "places": {
+    "m-4": {
+      "photoId": "local-d2325283aeb330214944",
+      "src": "photos/local-d2325283aeb330214944.jpg",
+      "date": "2021-12-26",
+      "alt": "가야산(충남) · 정상·인증 표지 대표 사진"
+    },
+    "m-5": {
+      "photoId": "71530713-06b6-45ec-acbf-c002ca815be8",
+      "src": "photos/mountain-005-71530713-06b.jpg",
+      "date": "2021-02-27",
+      "alt": "가지산 · 정상·인증 표지 대표 사진"
+    },
+    "m-9": {
+      "photoId": "update-c88cba023bfd297683bc33df",
+      "src": "photos/update-20261120-c88cba023bfd297683bc33df.webp",
+      "date": "2023-08-16",
+      "alt": "계방산 · 정상·인증 표지 대표 사진"
+    },
+    "m-10": {
+      "photoId": "update-0034f00703c954af3b777ef1",
+      "src": "photos/update-20261120-0034f00703c954af3b777ef1.webp",
+      "date": "2022-11-19",
+      "alt": "관악산 · 정상·인증 표지 대표 사진"
+    },
+    "m-12": {
+      "photoId": "ramblr-4545113-1",
+      "src": "photos/ramblr-4545113-001.jpg",
+      "date": "2022-09-11",
+      "alt": "구병산(보은) · 정상·인증 표지 대표 사진"
+    },
+    "m-13": {
+      "photoId": "update-4b0b218666f5c8e68823001c",
+      "src": "photos/update-20261120-4b0b218666f5c8e68823001c.webp",
+      "date": "2022-04-10",
+      "alt": "구봉산(진안) · 정상·인증 표지 대표 사진"
+    },
+    "m-16": {
+      "photoId": "local-15c1bbb5e285fa150375",
+      "src": "photos/local-15c1bbb5e285fa150375.jpg",
+      "date": "2021-06-05",
+      "alt": "금정산 · 정상·인증 표지 대표 사진"
+    },
+    "m-25": {
+      "photoId": "update-f37bdaad1cc6fe1cee5d096e",
+      "src": "photos/update-20261120-f37bdaad1cc6fe1cee5d096e.webp",
+      "date": "2022-01-09",
+      "alt": "덕룡산 · 정상·인증 표지 대표 사진"
+    },
+    "m-38": {
+      "photoId": "update-10a9ddd1021e4a94e7254354",
+      "src": "photos/update-20261120-10a9ddd1021e4a94e7254354.webp",
+      "date": "2022-01-15",
+      "alt": "무등산 · 정상·인증 표지 대표 사진"
+    },
+    "m-43": {
+      "photoId": "update-2dc2a0887a82d8312eed1526",
+      "src": "photos/update-20261120-2dc2a0887a82d8312eed1526.webp",
+      "date": "2023-05-28",
+      "alt": "방태산 · 정상·인증 표지 대표 사진"
+    },
+    "m-44": {
+      "photoId": "update-a18dbc966dc63ac2ec411b27",
+      "src": "photos/update-20261120-a18dbc966dc63ac2ec411b27.webp",
+      "date": "2022-09-17",
+      "alt": "백덕산 · 정상·인증 표지 대표 사진"
+    },
+    "m-45": {
+      "photoId": "local-5760bd4a4a31e3dd5edc",
+      "src": "photos/local-5760bd4a4a31e3dd5edc.jpg",
+      "date": "2021-11-06",
+      "alt": "백암산 · 정상·인증 표지 대표 사진"
+    },
+    "m-49": {
+      "photoId": "update-72c007fa38efc2d0d206e88f",
+      "src": "photos/update-20261120-72c007fa38efc2d0d206e88f.webp",
+      "date": "2022-02-27",
+      "alt": "불갑산(영광) · 정상·인증 표지 대표 사진"
+    },
+    "m-52": {
+      "photoId": "update-c84d8564cb5aae12d2647c3d",
+      "src": "photos/update-20261120-c84d8564cb5aae12d2647c3d.webp",
+      "date": "2022-02-28",
+      "alt": "선운산 · 정상·인증 표지 대표 사진"
+    },
+    "m-55": {
+      "photoId": "update-f4bbfc91c0aa1f3ae047efc6",
+      "src": "photos/update-20261120-f4bbfc91c0aa1f3ae047efc6.webp",
+      "date": "2023-03-25",
+      "alt": "소요산 · 정상·인증 표지 대표 사진"
+    },
+    "m-58": {
+      "photoId": "update-18c80ba5236cba02760d7252",
+      "src": "photos/update-20261120-18c80ba5236cba02760d7252.webp",
+      "date": "2022-01-29",
+      "alt": "신불산 정상석"
+    },
+    "m-64": {
+      "photoId": "local-385016bfcdc8e6354321",
+      "src": "photos/local-385016bfcdc8e6354321.jpg",
+      "date": "2021-12-26",
+      "alt": "용봉산(홍성) · 정상·인증 표지 대표 사진"
+    },
+    "m-70": {
+      "photoId": "update-4c8b3308a9de24be27915a44",
+      "src": "photos/update-20261120-4c8b3308a9de24be27915a44.webp",
+      "date": "2023-03-11",
+      "alt": "유명산 · 정상·인증 표지 대표 사진"
+    },
+    "m-71": {
+      "photoId": "update-fbd457055c82d19d865922cb",
+      "src": "photos/update-20261120-fbd457055c82d19d865922cb.webp",
+      "date": "2022-12-04",
+      "alt": "응봉산 · 정상·인증 표지 대표 사진"
+    },
+    "m-78": {
+      "photoId": "update-9c587f2712a342f6124bd5b5",
+      "src": "photos/update-20261120-9c587f2712a342f6124bd5b5.webp",
+      "date": "2022-07-03",
+      "alt": "지리산 천왕봉 · 정상·인증 표지 대표 사진"
+    },
+    "m-79": {
+      "photoId": "supplement-b822bb29e86dd26d774e5181",
+      "src": "photos/supplement-20261120-b822bb29e86dd26d774e5181.webp",
+      "date": "2021-04-11",
+      "alt": "천관산 · 정상·인증 표지 대표 사진"
+    },
+    "m-82": {
+      "photoId": "update-489278632cf09320c7fca718",
+      "src": "photos/update-20261120-489278632cf09320c7fca718.webp",
+      "date": "2022-11-19",
+      "alt": "청계산 · 정상·인증 표지 대표 사진"
+    },
+    "i-1": {
+      "photoId": "island-update-4949005e4f45588aa691820a",
+      "src": "photos/update-islands-20261120-4949005e4f45588aa691820a.webp",
+      "date": "2023-10-08",
+      "alt": "교동도 · 정상·인증 표지 대표 사진"
+    },
+    "i-12": {
+      "photoId": "island-update-783c73ac37ecdc6ff2adc7d1",
+      "src": "photos/update-islands-20261120-783c73ac37ecdc6ff2adc7d1.webp",
+      "date": "2023-10-10",
+      "alt": "영흥도 · 정상·인증 표지 대표 사진"
+    },
+    "i-31": {
+      "photoId": "island-update-845e0fa1baba8c2f5c268f6f",
+      "src": "photos/update-islands-20261120-845e0fa1baba8c2f5c268f6f.webp",
+      "date": "2024-08-08",
+      "alt": "거금도 · 정상·인증 표지 대표 사진"
+    },
+    "i-40": {
+      "photoId": "island-update-f6bc09fde252075b91e9c445",
+      "src": "photos/update-islands-20261120-f6bc09fde252075b91e9c445.webp",
+      "date": "2026-09-22",
+      "alt": "가거도 · 정상·인증 표지 대표 사진"
+    },
+    "i-57": {
+      "photoId": "island-update-34f384cd94e70986850fa47b",
+      "src": "photos/update-islands-20261120-34f384cd94e70986850fa47b.webp",
+      "date": "2024-08-09",
+      "alt": "금당도 · 정상·인증 표지 대표 사진"
+    },
+    "i-62": {
+      "photoId": "island-update-89eb52917dafbe8ea73d7cd3",
+      "src": "photos/update-islands-20261120-89eb52917dafbe8ea73d7cd3.webp",
+      "date": "2024-08-07",
+      "alt": "조약도(약산도) · 정상·인증 표지 대표 사진"
+    },
+    "i-66": {
+      "photoId": "island-update-41048bc0a2d747095a4159a5",
+      "src": "photos/update-islands-20261120-41048bc0a2d747095a4159a5.webp",
+      "date": "2023-06-07",
+      "alt": "진도 · 정상·인증 표지 대표 사진"
+    },
+    "i-69": {
+      "photoId": "island-update-4f4f3ae0872af0648a6a61b7",
+      "src": "photos/update-islands-20261120-4f4f3ae0872af0648a6a61b7.webp",
+      "date": "2025-01-26",
+      "alt": "관매도 · 정상·인증 표지 대표 사진"
+    },
+    "i-70": {
+      "photoId": "island-update-d66278ebb7191fc7e8b082ac",
+      "src": "photos/update-islands-20261120-d66278ebb7191fc7e8b082ac.webp",
+      "date": "2025-01-26",
+      "alt": "대마도(진도) · 정상·인증 표지 대표 사진"
+    },
+    "i-71": {
+      "photoId": "island-update-a31d922e113403095ad1cb53",
+      "src": "photos/update-islands-20261120-a31d922e113403095ad1cb53.webp",
+      "date": "2023-09-10",
+      "alt": "가덕도 · 정상·인증 표지 대표 사진"
+    },
+    "i-81": {
+      "photoId": "island-update-a8dd6f98260b869425e74bcf",
+      "src": "photos/update-islands-20261120-a8dd6f98260b869425e74bcf.webp",
+      "date": "2023-12-30",
+      "alt": "창선도 · 정상·인증 표지 대표 사진"
+    },
+    "i-98": {
+      "photoId": "island-update-50a283b1380c68f5f5c15dbe",
+      "src": "photos/update-islands-20261120-50a283b1380c68f5f5c15dbe.webp",
+      "date": "2023-06-04",
+      "alt": "마라도 · 정상·인증 표지 대표 사진"
+    },
+    "m-1": {
+      "photoId": "local-fb2eef1e565224047285",
+      "src": "photos/local-fb2eef1e565224047285.jpg",
+      "date": "2023-02-05",
+      "alt": "가리산(홍천) · 정상·인증 표지 대표 사진"
+    },
+    "m-2": {
+      "photoId": "update-974d423b77ef6b5ba336f790",
+      "src": "photos/update-20261120-974d423b77ef6b5ba336f790.webp",
+      "date": "2022-09-19",
+      "alt": "가리왕산 · 정상·인증 표지 대표 사진"
+    },
+    "m-3": {
+      "photoId": "local-89801cb576e2391b4290",
+      "src": "photos/local-89801cb576e2391b4290.jpg",
+      "date": "2021-12-04",
+      "alt": "가야산(합천) · 정상·인증 표지 대표 사진"
+    },
+    "m-7": {
+      "photoId": "update-224d3c107791b1ca3c859370",
+      "src": "photos/update-20261120-224d3c107791b1ca3c859370.webp",
+      "date": "2023-03-26",
+      "alt": "감악산(파주) · 정상·인증 표지 대표 사진"
+    },
+    "m-15": {
+      "photoId": "local-53b51a39ac1d9fe066fd",
+      "src": "photos/local-53b51a39ac1d9fe066fd.jpg",
+      "date": "2021-10-17",
+      "alt": "금오산 · 정상·인증 표지 대표 사진"
+    },
+    "m-19": {
+      "photoId": "local-d0a73c37e5983e724bba",
+      "src": "photos/local-d0a73c37e5983e724bba.jpg",
+      "date": "2021-10-23",
+      "alt": "내연산 · 정상·인증 표지 대표 사진"
+    },
+    "m-30": {
+      "photoId": "update-e44c9f5227261a1bcbd45b9c",
+      "src": "photos/update-20261120-e44c9f5227261a1bcbd45b9c.webp",
+      "date": "2022-05-29",
+      "alt": "동악산(곡성) · 정상·인증 표지 대표 사진"
+    },
+    "m-31": {
+      "photoId": "update-7076414efec639e23c7083c3",
+      "src": "photos/update-20261120-7076414efec639e23c7083c3.webp",
+      "date": "2022-01-09",
+      "alt": "두륜산 · 정상·인증 표지 대표 사진"
+    },
+    "m-32": {
+      "photoId": "update-ae32d1daddc90ee02a35aef2",
+      "src": "photos/update-20261120-ae32d1daddc90ee02a35aef2.webp",
+      "date": "2022-04-01",
+      "alt": "두타산 · 정상·인증 표지 대표 사진"
+    },
+    "m-33": {
+      "photoId": "update-fca8d4e71c5f19dfab843f0d",
+      "src": "photos/update-20261120-fca8d4e71c5f19dfab843f0d.webp",
+      "date": "2022-06-04",
+      "alt": "마니산(강화도) · 정상·인증 표지 대표 사진"
+    },
+    "m-35": {
+      "photoId": "update-f346a8798369c69681b9cdf6",
+      "src": "photos/update-20261120-f346a8798369c69681b9cdf6.webp",
+      "date": "2023-03-26",
+      "alt": "천마산 · 정상·인증 표지 대표 사진"
+    },
+    "m-36": {
+      "photoId": "update-19961aa80117643572babc67",
+      "src": "photos/update-20261120-19961aa80117643572babc67.webp",
+      "date": "2023-05-27",
+      "alt": "명지산 · 정상·인증 표지 대표 사진"
+    },
+    "m-37": {
+      "photoId": "update-5d3330bf4187a8765b749651",
+      "src": "photos/update-20261120-5d3330bf4187a8765b749651.webp",
+      "date": "2022-06-18",
+      "alt": "모악산 · 정상·인증 표지 대표 사진"
+    },
+    "m-41": {
+      "photoId": "update-c75ef6b8618177ea576331b8",
+      "src": "photos/update-20261120-c75ef6b8618177ea576331b8.webp",
+      "date": "2022-06-19",
+      "alt": "반야봉(지리산) · 정상·인증 표지 대표 사진"
+    },
+    "m-48": {
+      "photoId": "update-bcea5fec1ba3f87eba80ce77",
+      "src": "photos/update-20261120-bcea5fec1ba3f87eba80ce77.webp",
+      "date": "2022-06-06",
+      "alt": "북한산 · 정상·인증 표지 대표 사진"
+    },
+    "m-47": {
+      "photoId": "update-1d69af0e6ecf3b7d06a72841",
+      "src": "photos/update-20261120-1d69af0e6ecf3b7d06a72841.webp",
+      "date": "2022-04-02",
+      "alt": "백운산(동강) · 정상·인증 표지 대표 사진"
+    },
+    "m-57": {
+      "photoId": "update-93c36913526b310184f32b1c",
+      "src": "photos/update-20261120-93c36913526b310184f32b1c.webp",
+      "date": "2022-10-15",
+      "alt": "수락산 · 정상·인증 표지 대표 사진"
+    },
+    "m-59": {
+      "photoId": "update-54168aed4bc2743f6c587379",
+      "src": "photos/update-20261120-54168aed4bc2743f6c587379.webp",
+      "date": "2023-03-24",
+      "alt": "연인산 · 정상·인증 표지 대표 사진"
+    },
+    "m-61": {
+      "photoId": "update-2e5b1904bfe5b0b601e48a85",
+      "src": "photos/update-20261120-2e5b1904bfe5b0b601e48a85.webp",
+      "date": "2023-03-23",
+      "alt": "오봉산(춘천) · 정상·인증 표지 대표 사진"
+    },
+    "m-65": {
+      "photoId": "update-95e859896b88a6693659daf4",
+      "src": "photos/update-20261120-95e859896b88a6693659daf4.webp",
+      "date": "2023-03-04",
+      "alt": "용화산 · 정상·인증 표지 대표 사진"
+    },
+    "m-67": {
+      "photoId": "update-cb7a225ca2c8cf720df6895a",
+      "src": "photos/update-20261120-cb7a225ca2c8cf720df6895a.webp",
+      "date": "2022-08-28",
+      "alt": "운장산 · 정상·인증 표지 대표 사진"
+    },
+    "m-69": {
+      "photoId": "local-456dea979ee33699a702",
+      "src": "photos/local-456dea979ee33699a702.jpg",
+      "date": "2021-04-10",
+      "alt": "월출산 · 정상·인증 표지 대표 사진"
+    },
+    "m-80": {
+      "photoId": "local-98a7cccc89a722364cad",
+      "src": "photos/local-98a7cccc89a722364cad.jpg",
+      "date": "2021-04-03",
+      "alt": "천성산 · 정상·인증 표지 대표 사진"
+    },
+    "m-81": {
+      "photoId": "update-759f102e276af09fbec885b0",
+      "src": "photos/update-20261120-759f102e276af09fbec885b0.webp",
+      "date": "2022-08-27",
+      "alt": "천태산 · 정상·인증 표지 대표 사진"
+    },
+    "m-84": {
+      "photoId": "update-08f286cd3dc34f489568bc52",
+      "src": "photos/update-20261120-08f286cd3dc34f489568bc52.webp",
+      "date": "2022-10-29",
+      "alt": "청화산 · 정상·인증 표지 대표 사진"
+    },
+    "m-85": {
+      "photoId": "update-27344fb8566e79f354f10e87",
+      "src": "photos/update-20261120-27344fb8566e79f354f10e87.webp",
+      "date": "2022-02-27",
+      "alt": "축령산(장성) · 정상·인증 표지 대표 사진"
+    },
+    "m-86": {
+      "photoId": "update-e888f0a30addde24f420c6ca",
+      "src": "photos/update-20261120-e888f0a30addde24f420c6ca.webp",
+      "date": "2023-03-05",
+      "alt": "치악산 · 정상·인증 표지 대표 사진"
+    },
+    "m-88": {
+      "photoId": "update-c3c2c42f1e6327bf7f500227",
+      "src": "photos/update-20261120-c3c2c42f1e6327bf7f500227.webp",
+      "date": "2022-11-05",
+      "alt": "칠보산 · 정상·인증 표지 대표 사진"
+    },
+    "m-89": {
+      "photoId": "278456cc-9e93-4bd7-a572-44f9c21c8e3e",
+      "src": "photos/mountain-089-278456cc-9e9.jpg",
+      "date": "2022-03-20",
+      "alt": "태백산 · 정상·인증 표지 대표 사진"
+    },
+    "m-90": {
+      "photoId": "update-f145a850856527b92ae64852",
+      "src": "photos/update-20261120-f145a850856527b92ae64852.webp",
+      "date": "2022-04-02",
+      "alt": "태화산 · 정상·인증 표지 대표 사진"
+    },
+    "m-91": {
+      "photoId": "local-f921936a360a2579d2ed",
+      "src": "photos/local-f921936a360a2579d2ed.jpg",
+      "date": "2021-09-25",
+      "alt": "팔공산 · 정상·인증 표지 대표 사진"
+    },
+    "m-93": {
+      "photoId": "update-ae8bf9e3549ac22f474d4fb5",
+      "src": "photos/update-20261120-ae8bf9e3549ac22f474d4fb5.webp",
+      "date": "2022-03-13",
+      "alt": "팔영산 · 정상·인증 표지 대표 사진"
+    },
+    "m-96": {
+      "photoId": "update-64b997adeb5c3921b53bd629",
+      "src": "photos/update-20261120-64b997adeb5c3921b53bd629.webp",
+      "date": "2023-03-23",
+      "alt": "화악산(가평) · 정상·인증 표지 대표 사진"
+    },
+    "m-98": {
+      "photoId": "update-4604ebb700b6645423ff83f1",
+      "src": "photos/update-20261120-4604ebb700b6645423ff83f1.webp",
+      "date": "2026-10-11",
+      "alt": "황매산(산청) · 정상·인증 표지 대표 사진"
+    },
+    "m-99": {
+      "photoId": "update-97ae8b76627dea2267bac03a",
+      "src": "photos/update-20261120-97ae8b76627dea2267bac03a.webp",
+      "date": "2022-07-02",
+      "alt": "황석산(함양) · 정상·인증 표지 대표 사진"
+    },
+    "i-3": {
+      "photoId": "ramblr-10915180-13",
+      "src": "photos/ramblr-10915180-013.jpg",
+      "date": "2026-08-13",
+      "alt": "대청도 · 정상·인증 표지 대표 사진"
+    },
+    "i-7": {
+      "photoId": "island-update-27bc1ec6bebd4744df25dfa7",
+      "src": "photos/update-islands-20261120-27bc1ec6bebd4744df25dfa7.webp",
+      "date": "2025-12-28",
+      "alt": "덕적도 · 정상·인증 표지 대표 사진"
+    },
+    "i-29": {
+      "photoId": "island-update-32240f109066586924961f2c",
+      "src": "photos/update-islands-20261120-32240f109066586924961f2c.webp",
+      "date": "2025-08-05",
+      "alt": "위도 · 정상·인증 표지 대표 사진"
+    },
+    "i-32": {
+      "photoId": "island-update-40b5bfbdacb0be46d4c01205",
+      "src": "photos/update-islands-20261120-40b5bfbdacb0be46d4c01205.webp",
+      "date": "2024-08-09",
+      "alt": "연홍도 · 정상·인증 표지 대표 사진"
+    },
+    "i-34": {
+      "photoId": "island-update-937a7e27b6921f1467fbc0f9",
+      "src": "photos/update-islands-20261120-937a7e27b6921f1467fbc0f9.webp",
+      "date": "2024-08-10",
+      "alt": "외나로도 · 정상·인증 표지 대표 사진"
+    },
+    "i-45": {
+      "photoId": "island-update-42f653a7ab7f3383a2e09846",
+      "src": "photos/update-islands-20261120-42f653a7ab7f3383a2e09846.webp",
+      "date": "2024-06-08",
+      "alt": "돌산도 · 정상·인증 표지 대표 사진"
+    },
+    "i-50": {
+      "photoId": "island-update-2e3004d441fc08f55c7fac86",
+      "src": "photos/update-islands-20261120-2e3004d441fc08f55c7fac86.webp",
+      "date": "2024-08-10",
+      "alt": "낭도 · 정상·인증 표지 대표 사진"
+    },
+    "i-51": {
+      "photoId": "ramblr-7349853-2",
+      "src": "photos/ramblr-7349853-002.jpg",
+      "date": "2024-08-11",
+      "alt": "사도 · 정상·인증 표지 대표 사진"
+    },
+    "i-53": {
+      "photoId": "island-update-e889054afa6f2b3546997108",
+      "src": "photos/update-islands-20261120-e889054afa6f2b3546997108.webp",
+      "date": "2024-09-18",
+      "alt": "하화도 · 정상·인증 표지 대표 사진"
+    },
+    "i-54": {
+      "photoId": "island-update-cf8656065f7055eaaf80dfa5",
+      "src": "photos/update-islands-20261120-cf8656065f7055eaaf80dfa5.webp",
+      "date": "2026-05-05",
+      "alt": "안마도 · 정상·인증 표지 대표 사진"
+    },
+    "i-55": {
+      "photoId": "island-update-9f28a95ed3d569616c96d6c1",
+      "src": "photos/update-islands-20261120-9f28a95ed3d569616c96d6c1.webp",
+      "date": "2025-11-15",
+      "alt": "송이도 · 정상·인증 표지 대표 사진"
+    },
+    "i-56": {
+      "photoId": "island-update-93a6780b123642d508ca5995",
+      "src": "photos/update-islands-20261120-93a6780b123642d508ca5995.webp",
+      "date": "2025-11-16",
+      "alt": "하낙월도 · 정상·인증 표지 대표 사진"
+    },
+    "i-59": {
+      "photoId": "island-update-177ad2dddfbf61f5b719843d",
+      "src": "photos/update-islands-20261120-177ad2dddfbf61f5b719843d.webp",
+      "date": "2024-08-07",
+      "alt": "신지도 · 정상·인증 표지 대표 사진"
+    },
+    "i-60": {
+      "photoId": "island-update-60b7331669d9290d4a489f01",
+      "src": "photos/update-islands-20261120-60b7331669d9290d4a489f01.webp",
+      "date": "2024-08-08",
+      "alt": "생일도 · 정상·인증 표지 대표 사진"
+    },
+    "i-63": {
+      "photoId": "island-update-8c31cf84e2becd0c7c3465cc",
+      "src": "photos/update-islands-20261120-8c31cf84e2becd0c7c3465cc.webp",
+      "date": "2021-03-22",
+      "alt": "완도 · 정상·인증 표지 대표 사진"
+    },
+    "i-64": {
+      "photoId": "island-update-0e4e96a4e5201f6b2c815415",
+      "src": "photos/update-islands-20261120-0e4e96a4e5201f6b2c815415.webp",
+      "date": "2024-10-02",
+      "alt": "청산도 · 정상·인증 표지 대표 사진"
+    },
+    "i-73": {
+      "photoId": "island-update-b9a520dde0a7855b9a61c364",
+      "src": "photos/update-islands-20261120-b9a520dde0a7855b9a61c364.webp",
+      "date": "2023-05-03",
+      "alt": "울릉도 · 정상·인증 표지 대표 사진"
+    },
+    "i-75": {
+      "photoId": "island-update-f317d18e491a9fb956da9f08",
+      "src": "photos/update-islands-20261120-f317d18e491a9fb956da9f08.webp",
+      "date": "2023-09-10",
+      "alt": "산달도 · 정상·인증 표지 대표 사진"
+    },
+    "i-77": {
+      "photoId": "island-update-11f135e14bac6b9c56c3390f",
+      "src": "photos/update-islands-20261120-11f135e14bac6b9c56c3390f.webp",
+      "date": "2023-09-10",
+      "alt": "가조도 · 정상·인증 표지 대표 사진"
+    },
+    "i-84": {
+      "photoId": "island-update-840428402623a3dda9bbe351",
+      "src": "photos/update-islands-20261120-840428402623a3dda9bbe351.webp",
+      "date": "2023-12-03",
+      "alt": "미륵도 · 정상·인증 표지 대표 사진"
+    },
+    "i-88": {
+      "photoId": "island-update-3e856fc49adaedc7487b7b9a",
+      "src": "photos/update-islands-20261120-3e856fc49adaedc7487b7b9a.webp",
+      "date": "2024-03-16",
+      "alt": "연대도 · 정상·인증 표지 대표 사진"
+    },
+    "i-92": {
+      "photoId": "island-update-80115908a4651e6048171f1e",
+      "src": "photos/update-islands-20261120-80115908a4651e6048171f1e.webp",
+      "date": "2024-03-03",
+      "alt": "한산도 · 정상·인증 표지 대표 사진"
+    },
+    "i-97": {
+      "photoId": "island-update-4136019f18224e8b9e6a5da5",
+      "src": "photos/update-islands-20261120-4136019f18224e8b9e6a5da5.webp",
+      "date": "2024-03-03",
+      "alt": "용초도 · 정상·인증 표지 대표 사진"
+    },
+    "m-8": {
+      "photoId": "update-dd6ad18bc76cdd43bdb5f65b",
+      "src": "photos/update-20261120-dd6ad18bc76cdd43bdb5f65b.webp",
+      "date": "2022-09-12",
+      "alt": "계룡산 · 정상·인증 표지 대표 사진"
+    },
+    "m-11": {
+      "photoId": "local-9b1f29e743684ce7c538",
+      "src": "photos/local-9b1f29e743684ce7c538.jpg",
+      "date": "2021-12-25",
+      "alt": "광덕산 · 정상·인증 표지 대표 사진"
+    },
+    "m-14": {
+      "photoId": "update-15f1138b3753a09923e577df",
+      "src": "photos/update-20261120-15f1138b3753a09923e577df.webp",
+      "date": "2023-02-18",
+      "alt": "금수산 · 정상·인증 표지 대표 사진"
+    },
+    "m-18": {
+      "photoId": "update-135e5c3c0105f0db05051eaf",
+      "src": "photos/update-20261120-135e5c3c0105f0db05051eaf.webp",
+      "date": "2022-03-01",
+      "alt": "내변산(변산) · 정상·인증 표지 대표 사진"
+    },
+    "m-23": {
+      "photoId": "update-5bb37120dd2bcdf065e542f1",
+      "src": "photos/update-20261120-5bb37120dd2bcdf065e542f1.webp",
+      "date": "2023-10-29",
+      "alt": "대둔산 · 정상·인증 표지 대표 사진"
+    },
+    "m-26": {
+      "photoId": "update-c5e40c9e1610908fc664380c",
+      "src": "photos/update-20261120-c5e40c9e1610908fc664380c.webp",
+      "date": "2025-03-09",
+      "alt": "덕유산 · 정상·인증 표지 대표 사진"
+    },
+    "m-28": {
+      "photoId": "update-d084eab56e42c971f4e822a4",
+      "src": "photos/update-20261120-d084eab56e42c971f4e822a4.webp",
+      "date": "2022-12-03",
+      "alt": "도락산 · 정상·인증 표지 대표 사진"
+    },
+    "m-40": {
+      "photoId": "update-dd3a7ccfd0ae41abfd2fd6de",
+      "src": "photos/update-20261120-dd3a7ccfd0ae41abfd2fd6de.webp",
+      "date": "2022-05-15",
+      "alt": "바래봉(지리산) · 정상·인증 표지 대표 사진"
+    },
+    "m-53": {
+      "photoId": "update-6dddb9ebeb17217af572229e",
+      "src": "photos/update-20261120-6dddb9ebeb17217af572229e.webp",
+      "date": "2023-07-02",
+      "alt": "설악산 · 정상·인증 표지 대표 사진"
+    },
+    "m-60": {
+      "photoId": "update-a98688254ec46b6683568499",
+      "src": "photos/update-20261120-a98688254ec46b6683568499.webp",
+      "date": "2023-08-14",
+      "alt": "오대산 비로봉 · 정상·인증 표지 대표 사진"
+    },
+    "m-62": {
+      "photoId": "local-3f4092c1929fd934ae49",
+      "src": "photos/local-3f4092c1929fd934ae49.jpg",
+      "date": "2021-12-26",
+      "alt": "오서산(보령) · 정상·인증 표지 대표 사진"
+    },
+    "m-66": {
+      "photoId": "update-a98328fc08d83b80e4afc124",
+      "src": "photos/update-20261120-a98328fc08d83b80e4afc124.webp",
+      "date": "2023-03-25",
+      "alt": "운악산 정상석"
+    },
+    "m-72": {
+      "photoId": "update-5d9af4a879d9bea14f1b39ca",
+      "src": "photos/update-20261120-5d9af4a879d9bea14f1b39ca.webp",
+      "date": "2022-04-09",
+      "alt": "장안산 · 정상·인증 표지 대표 사진"
+    },
+    "m-74": {
+      "photoId": "update-32e3dc1619f687f6eca28578",
+      "src": "photos/update-20261120-32e3dc1619f687f6eca28578.webp",
+      "date": "2022-01-16",
+      "alt": "조계산 · 정상·인증 표지 대표 사진"
+    },
+    "m-75": {
+      "photoId": "update-fd1668f864b07554c53483b4",
+      "src": "photos/update-20261120-fd1668f864b07554c53483b4.webp",
+      "date": "2023-02-11",
+      "alt": "조령산 · 정상·인증 표지 대표 사진"
+    },
+    "m-77": {
+      "photoId": "update-ce196326eac3a7ea8b261e55",
+      "src": "photos/update-20261120-ce196326eac3a7ea8b261e55.webp",
+      "date": "2023-02-12",
+      "alt": "주흘산 · 정상·인증 표지 대표 사진"
+    },
+    "m-87": {
+      "photoId": "local-0473c3d9e6dd229c310b",
+      "src": "photos/local-0473c3d9e6dd229c310b.jpg",
+      "date": "2021-12-25",
+      "alt": "칠갑산 · 정상·인증 표지 대표 사진"
+    },
+    "m-92": {
+      "photoId": "update-ce10b031b87849911c11a654",
+      "src": "photos/update-20261120-ce10b031b87849911c11a654.webp",
+      "date": "2023-03-11",
+      "alt": "팔봉산(홍천) · 정상·인증 표지 대표 사진"
+    },
+    "m-94": {
+      "photoId": "update-7e0b054678d85883ad212b9c",
+      "src": "photos/update-20261120-7e0b054678d85883ad212b9c.webp",
+      "date": "2023-06-06",
+      "alt": "한라산 윗세오름 표지석"
+    },
+    "m-100": {
+      "photoId": "local-9e238f75e625b446a644",
+      "src": "photos/local-9e238f75e625b446a644.jpg",
+      "date": "2021-11-28",
+      "alt": "황악산(김천) · 정상·인증 표지 대표 사진"
+    },
+    "i-5": {
+      "photoId": "island-update-2edbd37d7bb7c1ce98235d19",
+      "src": "photos/update-islands-20261120-2edbd37d7bb7c1ce98235d19.webp",
+      "date": "2025-12-29",
+      "alt": "문갑도 · 정상·인증 표지 대표 사진"
+    },
+    "i-8": {
+      "photoId": "island-update-07e818a2f22e52fa234a1b81",
+      "src": "photos/update-islands-20261120-07e818a2f22e52fa234a1b81.webp",
+      "date": "2026-08-12",
+      "alt": "백령도 · 정상·인증 표지 대표 사진"
+    },
+    "i-16": {
+      "photoId": "island-update-06af52b165265dc9da8f2d2b",
+      "src": "photos/update-islands-20261120-06af52b165265dc9da8f2d2b.webp",
+      "date": "2023-10-09",
+      "alt": "무의도 · 정상·인증 표지 대표 사진"
+    },
+    "i-19": {
+      "photoId": "island-update-875e6ad7b996c141090e8566",
+      "src": "photos/update-islands-20261120-875e6ad7b996c141090e8566.webp",
+      "date": "2023-10-01",
+      "alt": "고대도 · 정상·인증 표지 대표 사진"
+    },
+    "i-21": {
+      "photoId": "island-update-ef4b49647f750056c0ca8d2d",
+      "src": "photos/update-islands-20261120-ef4b49647f750056c0ca8d2d.webp",
+      "date": "2023-10-03",
+      "alt": "외연도 · 정상·인증 표지 대표 사진"
+    },
+    "i-24": {
+      "photoId": "island-update-1b059d428a847ecb24b79b0f",
+      "src": "photos/update-islands-20261120-1b059d428a847ecb24b79b0f.webp",
+      "date": "2025-08-09",
+      "alt": "관리도 · 정상·인증 표지 대표 사진"
+    },
+    "i-26": {
+      "photoId": "island-update-e7643d3a6d863e564bdf00c8",
+      "src": "photos/update-islands-20261120-e7643d3a6d863e564bdf00c8.webp",
+      "date": "2023-10-04",
+      "alt": "선유도 · 정상·인증 표지 대표 사진"
+    },
+    "i-27": {
+      "photoId": "island-update-32cfa4a1caf2a5b8ec4db8cc",
+      "src": "photos/update-islands-20261120-32cfa4a1caf2a5b8ec4db8cc.webp",
+      "date": "2023-10-04",
+      "alt": "신시도 · 정상·인증 표지 대표 사진"
+    },
+    "i-33": {
+      "photoId": "island-update-1e239774cbd1012f59635826",
+      "src": "photos/update-islands-20261120-1e239774cbd1012f59635826.webp",
+      "date": "2024-08-10",
+      "alt": "애도(쑥섬) · 정상·인증 표지 대표 사진"
+    },
+    "i-36": {
+      "photoId": "island-update-956f18e828a5ae57d482aac8",
+      "src": "photos/update-islands-20261120-956f18e828a5ae57d482aac8.webp",
+      "date": "2025-05-04",
+      "alt": "비금도 · 정상·인증 표지 대표 사진"
+    },
+    "i-39": {
+      "photoId": "island-update-bacad6032b911a3b53e72758",
+      "src": "photos/update-islands-20261120-bacad6032b911a3b53e72758.webp",
+      "date": "2025-01-27",
+      "alt": "자은도 · 정상·인증 표지 대표 사진"
+    },
+    "i-43": {
+      "photoId": "island-update-e7a3deeb545ed262f40bcabc",
+      "src": "photos/update-islands-20261120-e7a3deeb545ed262f40bcabc.webp",
+      "date": "2025-08-06",
+      "alt": "홍도 · 정상·인증 표지 대표 사진"
+    },
+    "i-46": {
+      "photoId": "island-update-037f2758e0a669acc96a3dcc",
+      "src": "photos/update-islands-20261120-037f2758e0a669acc96a3dcc.webp",
+      "date": "2024-10-01",
+      "alt": "거문도 · 정상·인증 표지 대표 사진"
+    },
+    "i-47": {
+      "photoId": "island-update-e7d48b0b8f2f167198e61736",
+      "src": "photos/update-islands-20261120-e7d48b0b8f2f167198e61736.webp",
+      "date": "2024-10-05",
+      "alt": "손죽도 · 정상·인증 표지 대표 사진"
+    },
+    "i-48": {
+      "photoId": "island-update-34425415ccb4ff886a53614e",
+      "src": "photos/update-islands-20261120-34425415ccb4ff886a53614e.webp",
+      "date": "2024-10-04",
+      "alt": "초도 · 정상·인증 표지 대표 사진"
+    },
+    "i-49": {
+      "photoId": "island-update-6b36226e518438ee7e1d7680",
+      "src": "photos/update-islands-20261120-6b36226e518438ee7e1d7680.webp",
+      "date": "2024-09-18",
+      "alt": "개도 · 정상·인증 표지 대표 사진"
+    },
+    "i-52": {
+      "photoId": "island-update-431f943619e6b0a7d3d08e43",
+      "src": "photos/update-islands-20261120-431f943619e6b0a7d3d08e43.webp",
+      "date": "2024-08-11",
+      "alt": "백야도 · 정상·인증 표지 대표 사진"
+    },
+    "i-58": {
+      "photoId": "island-update-a70e6a7d851a9dbfd1f613d9",
+      "src": "photos/update-islands-20261120-a70e6a7d851a9dbfd1f613d9.webp",
+      "date": "2024-10-03",
+      "alt": "보길도 · 정상·인증 표지 대표 사진"
+    },
+    "i-61": {
+      "photoId": "island-update-da3ecc67bc8a28c60961c492",
+      "src": "photos/update-islands-20261120-da3ecc67bc8a28c60961c492.webp",
+      "date": "2024-10-03",
+      "alt": "소안도 · 정상·인증 표지 대표 사진"
+    },
+    "i-68": {
+      "photoId": "island-update-acb5345d7bad62acf66b23a2",
+      "src": "photos/update-islands-20261120-acb5345d7bad62acf66b23a2.webp",
+      "date": "2025-01-26",
+      "alt": "하조도 · 정상·인증 표지 대표 사진"
+    },
+    "i-72": {
+      "photoId": "island-update-a4539c6ca227bde0e460fbe2",
+      "src": "photos/update-islands-20261120-a4539c6ca227bde0e460fbe2.webp",
+      "date": "2023-09-10",
+      "alt": "영도 · 정상·인증 표지 대표 사진"
+    },
+    "i-83": {
+      "photoId": "island-update-2622455e071880dd294e71d6",
+      "src": "photos/update-islands-20261120-2622455e071880dd294e71d6.webp",
+      "date": "2023-12-03",
+      "alt": "저도 · 정상·인증 표지 대표 사진"
+    },
+    "i-86": {
+      "photoId": "island-update-3256edf5ec78dc1b0e4a5be6",
+      "src": "photos/update-islands-20261120-3256edf5ec78dc1b0e4a5be6.webp",
+      "date": "2023-06-11",
+      "alt": "사량도(상) · 정상·인증 표지 대표 사진"
+    },
+    "i-89": {
+      "photoId": "island-update-b8de32650073e9ab158b72f2",
+      "src": "photos/update-islands-20261120-b8de32650073e9ab158b72f2.webp",
+      "date": "2024-06-07",
+      "alt": "두미도 · 정상·인증 표지 대표 사진"
+    },
+    "i-90": {
+      "photoId": "island-update-770b8413252db135b358dfa0",
+      "src": "photos/update-islands-20261120-770b8413252db135b358dfa0.webp",
+      "date": "2024-05-06",
+      "alt": "욕지도 · 정상·인증 표지 대표 사진"
+    },
+    "i-93": {
+      "photoId": "island-update-4b55cef92ac321a2aaff4710",
+      "src": "photos/update-islands-20261120-4b55cef92ac321a2aaff4710.webp",
+      "date": "2024-03-02",
+      "alt": "소매물도 · 정상·인증 표지 대표 사진"
+    },
+    "i-94": {
+      "photoId": "island-update-dc9fe25cb75f0180de0fdbce",
+      "src": "photos/update-islands-20261120-dc9fe25cb75f0180de0fdbce.webp",
+      "date": "2024-03-02",
+      "alt": "매물도 · 정상·인증 표지 대표 사진"
+    },
+    "i-96": {
+      "photoId": "island-update-7f71abc334686a72ebf6681f",
+      "src": "photos/update-islands-20261120-7f71abc334686a72ebf6681f.webp",
+      "date": "2024-03-17",
+      "alt": "비진도 · 정상·인증 표지 대표 사진"
+    },
+    "i-99": {
+      "photoId": "island-update-fa24e73c8f67ad2d417b3e3e",
+      "src": "photos/update-islands-20261120-fa24e73c8f67ad2d417b3e3e.webp",
+      "date": "2023-06-02",
+      "alt": "우도 · 정상·인증 표지 대표 사진"
+    },
+    "m-50": {
+      "photoId": "local-f401edd05c4d60de22ad",
+      "src": "photos/local-f401edd05c4d60de22ad.jpg",
+      "date": "2021-04-25",
+      "alt": "비슬산 · 정상·인증 표지 대표 사진"
+    },
+    "m-17": {
+      "photoId": "update-bcc4cf9626fdb1914504c0ac",
+      "src": "photos/update-20261120-bcc4cf9626fdb1914504c0ac.webp",
+      "date": "2026-02-16",
+      "alt": "경주 남산 금오봉 정상석"
+    },
+    "m-76": {
+      "photoId": "local-b55c7d9692c8385c0b3f",
+      "src": "photos/local-b55c7d9692c8385c0b3f.jpg",
+      "date": "2021-07-10",
+      "alt": "주왕산 · 정상·인증 표지 대표 사진"
+    },
+    "m-97": {
+      "photoId": "local-ebfe15e2a35267fb8141",
+      "src": "photos/local-ebfe15e2a35267fb8141.jpg",
+      "date": "2021-09-16",
+      "alt": "화왕산(창녕) · 정상·인증 표지 대표 사진"
+    },
+    "m-21": {
+      "photoId": "local-993d51545166cebb0e77",
+      "src": "photos/local-993d51545166cebb0e77.jpg",
+      "date": "2021-10-10",
+      "alt": "노인봉(오대산) · 정상·인증 표지 대표 사진"
+    },
+    "m-20": {
+      "photoId": "local-a4af5028803554d8152c",
+      "src": "photos/local-a4af5028803554d8152c.jpg",
+      "date": "2021-11-05",
+      "alt": "내장산 · 정상·인증 표지 대표 사진"
+    },
+    "m-39": {
+      "photoId": "local-1feb050c3626c7f0db76",
+      "src": "photos/local-1feb050c3626c7f0db76.jpg",
+      "date": "2021-11-28",
+      "alt": "민주지산 · 정상·인증 표지 대표 사진"
+    },
+    "m-73": {
+      "photoId": "update-f652635711761bacb0fbdc4a",
+      "src": "photos/update-20261120-f652635711761bacb0fbdc4a.webp",
+      "date": "2022-02-03",
+      "alt": "재약산 · 정상·인증 표지 대표 사진"
+    },
+    "m-83": {
+      "photoId": "update-f58590ad06bb897454d6f544",
+      "src": "photos/update-20261120-f58590ad06bb897454d6f544.webp",
+      "date": "2022-03-06",
+      "alt": "청량산 · 정상·인증 표지 대표 사진"
+    },
+    "m-46": {
+      "photoId": "update-2240c944cb9239effa03f8f0",
+      "src": "photos/update-20261120-2240c944cb9239effa03f8f0.webp",
+      "date": "2022-03-12",
+      "alt": "백운산(광양) · 정상·인증 표지 대표 사진"
+    },
+    "m-95": {
+      "photoId": "update-537e06509042103def277293",
+      "src": "photos/update-20261120-537e06509042103def277293.webp",
+      "date": "2023-08-08",
+      "alt": "함백산 · 정상·인증 표지 대표 사진"
+    },
+    "m-54": {
+      "photoId": "update-5374d6d81e9ce91cbf8fb51a",
+      "src": "photos/update-20261120-5374d6d81e9ce91cbf8fb51a.webp",
+      "date": "2022-04-03",
+      "alt": "소백산 · 정상·인증 표지 대표 사진"
+    },
+    "m-34": {
+      "photoId": "update-46898c21e9c05d8fddb1a873",
+      "src": "photos/update-20261120-46898c21e9c05d8fddb1a873.webp",
+      "date": "2022-04-09",
+      "alt": "마이산(진안) · 정상·인증 표지 대표 사진"
+    },
+    "m-6": {
+      "photoId": "update-04bbd0acca870b356e7096a3",
+      "src": "photos/update-20261120-04bbd0acca870b356e7096a3.webp",
+      "date": "2023-05-29",
+      "alt": "감악산(원주) · 정상·인증 표지 대표 사진"
+    },
+    "m-56": {
+      "photoId": "update-0318a58e8911419d22a1847f",
+      "src": "photos/update-20261120-0318a58e8911419d22a1847f.webp",
+      "date": "2022-10-30",
+      "alt": "속리산 문장대 정상석"
+    },
+    "m-68": {
+      "photoId": "update-cb6c50c5470a0fe24618ce05",
+      "src": "photos/update-20261120-cb6c50c5470a0fe24618ce05.webp",
+      "date": "2023-02-19",
+      "alt": "월악산 · 정상·인증 표지 대표 사진"
+    },
+    "m-63": {
+      "photoId": "update-2338ae5d85dd8a441128217c",
+      "src": "photos/update-20261120-2338ae5d85dd8a441128217c.webp",
+      "date": "2023-03-12",
+      "alt": "용문산 · 정상·인증 표지 대표 사진"
+    },
+    "i-100": {
+      "photoId": "island-update-b37f97efaba2bf8abce30378",
+      "src": "photos/update-islands-20261120-b37f97efaba2bf8abce30378.webp",
+      "date": "2025-01-25",
+      "alt": "추자도 · 정상·인증 표지 대표 사진"
+    },
+    "i-30": {
+      "photoId": "island-update-ac8d3ea6e3188ed9fa616a9b",
+      "src": "photos/update-islands-20261120-ac8d3ea6e3188ed9fa616a9b.webp",
+      "date": "2025-04-12",
+      "alt": "가우도 · 정상·인증 표지 대표 사진"
+    },
+    "i-35": {
+      "photoId": "island-update-07db962c95acc49fce29561c",
+      "src": "photos/update-islands-20261120-07db962c95acc49fce29561c.webp",
+      "date": "2025-05-05",
+      "alt": "우이도 · 정상·인증 표지 대표 사진"
+    },
+    "i-42": {
+      "photoId": "island-update-de1fe3c696f6aa344d8ac180",
+      "src": "photos/update-islands-20261120-de1fe3c696f6aa344d8ac180.webp",
+      "date": "2025-08-07",
+      "alt": "흑산도 · 정상·인증 표지 대표 사진"
+    },
+    "i-13": {
+      "photoId": "island-update-e4607b8ccb889ffe88d5467b",
+      "src": "photos/update-islands-20261120-e4607b8ccb889ffe88d5467b.webp",
+      "date": "2025-08-17",
+      "alt": "승봉도 · 정상·인증 표지 대표 사진"
+    },
+    "i-11": {
+      "photoId": "island-update-a115cf95448e0706beb56d44",
+      "src": "photos/update-islands-20261120-a115cf95448e0706beb56d44.webp",
+      "date": "2026-05-03",
+      "alt": "연평도 · 정상·인증 표지 대표 사진"
+    },
+    "i-65": {
+      "photoId": "island-update-ae18691772de897eff4a5ab8",
+      "src": "photos/update-islands-20261120-ae18691772de897eff4a5ab8.webp",
+      "date": "2026-06-29",
+      "alt": "여서도 · 정상·인증 표지 대표 사진"
+    },
+    "i-41": {
+      "photoId": "island-update-e269c17fcf7ba854e123bdcf",
+      "src": "photos/update-islands-20261120-e269c17fcf7ba854e123bdcf.webp",
+      "date": "2026-09-24",
+      "alt": "만재도 · 정상·인증 표지 대표 사진"
+    },
+    "i-80": {
+      "photoId": "island-update-988cd8957fb9800bdc8114ee",
+      "src": "photos/update-islands-20261120-988cd8957fb9800bdc8114ee.webp",
+      "date": "2023-12-30",
+      "alt": "남해금산 · 정상·인증 표지 대표 사진"
+    },
+    "i-6": {
+      "photoId": "island-update-edf5895873164a6857b069f3",
+      "src": "photos/update-islands-20261120-edf5895873164a6857b069f3.webp",
+      "date": "2026-08-04",
+      "alt": "백아도 산행 표지목"
+    }
+  },
+  "named": {
+    "가지산": {
+      "photoId": "71530713-06b6-45ec-acbf-c002ca815be8",
+      "src": "photos/mountain-005-71530713-06b.jpg",
+      "date": "2021-02-27",
+      "alt": "가지산 정상석"
+    },
+    "운문산": {
+      "photoId": "local-8799f8065b90801fc8a6",
+      "src": "photos/local-8799f8065b90801fc8a6.jpg",
+      "date": "2021-03-07",
+      "alt": "운문산 정상석"
+    },
+    "재약산": {
+      "photoId": "update-f652635711761bacb0fbdc4a",
+      "src": "photos/update-20261120-f652635711761bacb0fbdc4a.webp",
+      "date": "2022-02-03",
+      "alt": "재약산 정상석"
+    },
+    "천황산": {
+      "photoId": "update-cb4e5e4ebe4dae2f1db44d23",
+      "src": "photos/update-20261120-cb4e5e4ebe4dae2f1db44d23.webp",
+      "date": "2024-01-02",
+      "alt": "천황산 정상석"
+    },
+    "간월산": {
+      "photoId": "update-eabf988e0220349100d28098",
+      "src": "photos/update-20261120-eabf988e0220349100d28098.webp",
+      "date": "2024-01-01",
+      "alt": "간월산 정상석"
+    },
+    "신불산": {
+      "photoId": "update-18c80ba5236cba02760d7252",
+      "src": "photos/update-20261120-18c80ba5236cba02760d7252.webp",
+      "date": "2022-01-29",
+      "alt": "신불산 정상석"
+    },
+    "영축산": {
+      "photoId": "ramblr-5042866-1",
+      "src": "photos/ramblr-5042866-001.jpg",
+      "date": "2023-01-21",
+      "alt": "영축산 정상석"
+    },
+    "고헌산": {
+      "photoId": "update-8c9e6de8f0978f7ef1a3858e",
+      "src": "photos/update-20261120-8c9e6de8f0978f7ef1a3858e.webp",
+      "date": "2022-01-02",
+      "alt": "고헌산 정상석"
+    },
+    "문복산": {
+      "photoId": "local-9a010b0bd32ceec5e7ac",
+      "src": "photos/local-9a010b0bd32ceec5e7ac.jpg",
+      "date": "2021-05-23",
+      "alt": "문복산 정상석"
+    },
+    "능동산": {
+      "photoId": "local-24dfd32274eb857dc08d",
+      "src": "photos/local-24dfd32274eb857dc08d.jpg",
+      "date": "2021-12-11",
+      "alt": "능동산 정상석"
+    },
+    "배내봉": {
+      "photoId": "local-32d30c6553c669832848",
+      "src": "photos/local-32d30c6553c669832848.jpg",
+      "date": "2021-12-11",
+      "alt": "배내봉 정상석"
+    }
+  },
+  "alps": {
+    "3692198": {
+      "photoId": "update-8c9e6de8f0978f7ef1a3858e",
+      "src": "photos/update-20261120-8c9e6de8f0978f7ef1a3858e.webp",
+      "date": "2022-01-02",
+      "alt": "고헌산 정상석"
+    },
+    "4612844": {
+      "photoId": "update-18c80ba5236cba02760d7252",
+      "src": "photos/update-20261120-18c80ba5236cba02760d7252.webp",
+      "date": "2022-01-29",
+      "alt": "신불산 정상석"
+    },
+    "4838929": {
+      "photoId": "update-18c80ba5236cba02760d7252",
+      "src": "photos/update-20261120-18c80ba5236cba02760d7252.webp",
+      "date": "2022-01-29",
+      "alt": "신불산 정상석"
+    },
+    "4952169": {
+      "photoId": "71530713-06b6-45ec-acbf-c002ca815be8",
+      "src": "photos/mountain-005-71530713-06b.jpg",
+      "date": "2021-02-27",
+      "alt": "가지산 정상석"
+    },
+    "4984640": {
+      "photoId": "local-9a010b0bd32ceec5e7ac",
+      "src": "photos/local-9a010b0bd32ceec5e7ac.jpg",
+      "date": "2021-05-23",
+      "alt": "문복산 정상석"
+    },
+    "4986077": {
+      "photoId": "update-8c9e6de8f0978f7ef1a3858e",
+      "src": "photos/update-20261120-8c9e6de8f0978f7ef1a3858e.webp",
+      "date": "2022-01-02",
+      "alt": "고헌산 정상석"
+    },
+    "5002404": {
+      "photoId": "71530713-06b6-45ec-acbf-c002ca815be8",
+      "src": "photos/mountain-005-71530713-06b.jpg",
+      "date": "2021-02-27",
+      "alt": "가지산 정상석"
+    },
+    "5006991": {
+      "photoId": "update-cb4e5e4ebe4dae2f1db44d23",
+      "src": "photos/update-20261120-cb4e5e4ebe4dae2f1db44d23.webp",
+      "date": "2024-01-02",
+      "alt": "천황산 정상석"
+    },
+    "5042866": {
+      "photoId": "update-eabf988e0220349100d28098",
+      "src": "photos/update-20261120-eabf988e0220349100d28098.webp",
+      "date": "2024-01-01",
+      "alt": "간월산 정상석"
+    },
+    "5391682": {
+      "photoId": "update-cb4e5e4ebe4dae2f1db44d23",
+      "src": "photos/update-20261120-cb4e5e4ebe4dae2f1db44d23.webp",
+      "date": "2024-01-02",
+      "alt": "천황산 정상석"
+    },
+    "5552394": {
+      "photoId": "71530713-06b6-45ec-acbf-c002ca815be8",
+      "src": "photos/mountain-005-71530713-06b.jpg",
+      "date": "2021-02-27",
+      "alt": "가지산 정상석"
+    },
+    "5834144": {
+      "photoId": "71530713-06b6-45ec-acbf-c002ca815be8",
+      "src": "photos/mountain-005-71530713-06b.jpg",
+      "date": "2021-02-27",
+      "alt": "가지산 정상석"
+    },
+    "6178041": {
+      "photoId": "update-eabf988e0220349100d28098",
+      "src": "photos/update-20261120-eabf988e0220349100d28098.webp",
+      "date": "2024-01-01",
+      "alt": "간월산 정상석"
+    },
+    "6432253": {
+      "photoId": "update-eabf988e0220349100d28098",
+      "src": "photos/update-20261120-eabf988e0220349100d28098.webp",
+      "date": "2024-01-01",
+      "alt": "간월산 정상석"
+    },
+    "6434425": {
+      "photoId": "update-cb4e5e4ebe4dae2f1db44d23",
+      "src": "photos/update-20261120-cb4e5e4ebe4dae2f1db44d23.webp",
+      "date": "2024-01-02",
+      "alt": "천황산 정상석"
+    },
+    "6445376": {
+      "photoId": "71530713-06b6-45ec-acbf-c002ca815be8",
+      "src": "photos/mountain-005-71530713-06b.jpg",
+      "date": "2021-02-27",
+      "alt": "가지산 정상석"
+    },
+    "6448383": {
+      "photoId": "update-8c9e6de8f0978f7ef1a3858e",
+      "src": "photos/update-20261120-8c9e6de8f0978f7ef1a3858e.webp",
+      "date": "2022-01-02",
+      "alt": "고헌산 정상석"
+    },
+    "6489671": {
+      "photoId": "local-8799f8065b90801fc8a6",
+      "src": "photos/local-8799f8065b90801fc8a6.jpg",
+      "date": "2021-03-07",
+      "alt": "운문산 정상석"
+    },
+    "6490904": {
+      "photoId": "update-8c9e6de8f0978f7ef1a3858e",
+      "src": "photos/update-20261120-8c9e6de8f0978f7ef1a3858e.webp",
+      "date": "2022-01-02",
+      "alt": "고헌산 정상석"
+    },
+    "6494060": {
+      "photoId": "71530713-06b6-45ec-acbf-c002ca815be8",
+      "src": "photos/mountain-005-71530713-06b.jpg",
+      "date": "2021-02-27",
+      "alt": "가지산 정상석"
+    },
+    "6892027": {
+      "photoId": "71530713-06b6-45ec-acbf-c002ca815be8",
+      "src": "photos/mountain-005-71530713-06b.jpg",
+      "date": "2021-02-27",
+      "alt": "가지산 정상석"
+    },
+    "7965991": {
+      "photoId": "update-eabf988e0220349100d28098",
+      "src": "photos/update-20261120-eabf988e0220349100d28098.webp",
+      "date": "2024-01-01",
+      "alt": "간월산 정상석"
+    },
+    "7977441": {
+      "photoId": "update-18c80ba5236cba02760d7252",
+      "src": "photos/update-20261120-18c80ba5236cba02760d7252.webp",
+      "date": "2022-01-29",
+      "alt": "신불산 정상석"
+    },
+    "8000003": {
+      "photoId": "ramblr-5042866-1",
+      "src": "photos/ramblr-5042866-001.jpg",
+      "date": "2023-01-21",
+      "alt": "영축산 정상석"
+    },
+    "8065839": {
+      "photoId": "71530713-06b6-45ec-acbf-c002ca815be8",
+      "src": "photos/mountain-005-71530713-06b.jpg",
+      "date": "2021-02-27",
+      "alt": "가지산 정상석"
+    },
+    "8077703": {
+      "photoId": "71530713-06b6-45ec-acbf-c002ca815be8",
+      "src": "photos/mountain-005-71530713-06b.jpg",
+      "date": "2021-02-27",
+      "alt": "가지산 정상석"
+    },
+    "8080038": {
+      "photoId": "update-8c9e6de8f0978f7ef1a3858e",
+      "src": "photos/update-20261120-8c9e6de8f0978f7ef1a3858e.webp",
+      "date": "2022-01-02",
+      "alt": "고헌산 정상석"
+    },
+    "8194933": {
+      "photoId": "ramblr-5042866-1",
+      "src": "photos/ramblr-5042866-001.jpg",
+      "date": "2023-01-21",
+      "alt": "영축산 정상석"
+    },
+    "8264678": {
+      "photoId": "update-cb4e5e4ebe4dae2f1db44d23",
+      "src": "photos/update-20261120-cb4e5e4ebe4dae2f1db44d23.webp",
+      "date": "2024-01-02",
+      "alt": "천황산 정상석"
+    },
+    "8540515": {
+      "photoId": "local-8799f8065b90801fc8a6",
+      "src": "photos/local-8799f8065b90801fc8a6.jpg",
+      "date": "2021-03-07",
+      "alt": "운문산 정상석"
+    },
+    "8630117": {
+      "photoId": "ramblr-5042866-1",
+      "src": "photos/ramblr-5042866-001.jpg",
+      "date": "2023-01-21",
+      "alt": "영축산 정상석"
+    },
+    "8913268": {
+      "photoId": "71530713-06b6-45ec-acbf-c002ca815be8",
+      "src": "photos/mountain-005-71530713-06b.jpg",
+      "date": "2021-02-27",
+      "alt": "가지산 정상석"
+    },
+    "8959407": {
+      "photoId": "71530713-06b6-45ec-acbf-c002ca815be8",
+      "src": "photos/mountain-005-71530713-06b.jpg",
+      "date": "2021-02-27",
+      "alt": "가지산 정상석"
+    },
+    "9695853": {
+      "photoId": "update-18c80ba5236cba02760d7252",
+      "src": "photos/update-20261120-18c80ba5236cba02760d7252.webp",
+      "date": "2022-01-29",
+      "alt": "신불산 정상석"
+    },
+    "9959208": {
+      "photoId": "update-8c9e6de8f0978f7ef1a3858e",
+      "src": "photos/update-20261120-8c9e6de8f0978f7ef1a3858e.webp",
+      "date": "2022-01-02",
+      "alt": "고헌산 정상석"
+    },
+    "9987923": {
+      "photoId": "update-eabf988e0220349100d28098",
+      "src": "photos/update-20261120-eabf988e0220349100d28098.webp",
+      "date": "2024-01-01",
+      "alt": "간월산 정상석"
+    },
+    "10019107": {
+      "photoId": "update-18c80ba5236cba02760d7252",
+      "src": "photos/update-20261120-18c80ba5236cba02760d7252.webp",
+      "date": "2022-01-29",
+      "alt": "신불산 정상석"
+    },
+    "10048669": {
+      "photoId": "update-cb4e5e4ebe4dae2f1db44d23",
+      "src": "photos/update-20261120-cb4e5e4ebe4dae2f1db44d23.webp",
+      "date": "2024-01-02",
+      "alt": "천황산 정상석"
+    },
+    "10142303": {
+      "photoId": "71530713-06b6-45ec-acbf-c002ca815be8",
+      "src": "photos/mountain-005-71530713-06b.jpg",
+      "date": "2021-02-27",
+      "alt": "가지산 정상석"
+    },
+    "10159140": {
+      "photoId": "ramblr-5042866-1",
+      "src": "photos/ramblr-5042866-001.jpg",
+      "date": "2023-01-21",
+      "alt": "영축산 정상석"
+    },
+    "10173042": {
+      "photoId": "71530713-06b6-45ec-acbf-c002ca815be8",
+      "src": "photos/mountain-005-71530713-06b.jpg",
+      "date": "2021-02-27",
+      "alt": "가지산 정상석"
+    },
+    "10302971": {
+      "photoId": "local-8799f8065b90801fc8a6",
+      "src": "photos/local-8799f8065b90801fc8a6.jpg",
+      "date": "2021-03-07",
+      "alt": "운문산 정상석"
+    },
+    "10353862": {
+      "photoId": "local-24dfd32274eb857dc08d",
+      "src": "photos/local-24dfd32274eb857dc08d.jpg",
+      "date": "2021-12-11",
+      "alt": "능동산 정상석"
+    },
+    "10423256": {
+      "photoId": "update-8c9e6de8f0978f7ef1a3858e",
+      "src": "photos/update-20261120-8c9e6de8f0978f7ef1a3858e.webp",
+      "date": "2022-01-02",
+      "alt": "고헌산 정상석"
+    },
+    "10606104": {
+      "photoId": "71530713-06b6-45ec-acbf-c002ca815be8",
+      "src": "photos/mountain-005-71530713-06b.jpg",
+      "date": "2021-02-27",
+      "alt": "가지산 정상석"
+    },
+    "10622177": {
+      "photoId": "ramblr-5042866-1",
+      "src": "photos/ramblr-5042866-001.jpg",
+      "date": "2023-01-21",
+      "alt": "영축산 정상석"
+    },
+    "10797672": {
+      "photoId": "71530713-06b6-45ec-acbf-c002ca815be8",
+      "src": "photos/mountain-005-71530713-06b.jpg",
+      "date": "2021-02-27",
+      "alt": "가지산 정상석"
+    },
+    "11112113": {
+      "photoId": "ramblr-5042866-1",
+      "src": "photos/ramblr-5042866-001.jpg",
+      "date": "2023-01-21",
+      "alt": "영축산 정상석"
+    },
+    "11154473": {
+      "photoId": "update-eabf988e0220349100d28098",
+      "src": "photos/update-20261120-eabf988e0220349100d28098.webp",
+      "date": "2024-01-01",
+      "alt": "간월산 정상석"
+    },
+    "photo-o-10353862-20211211": {
+      "photoId": "local-24dfd32274eb857dc08d",
+      "src": "photos/local-24dfd32274eb857dc08d.jpg",
+      "date": "2021-12-11",
+      "alt": "능동산 정상석"
+    },
+    "photo-a-baenaebong-20211211": {
+      "photoId": "local-32d30c6553c669832848",
+      "src": "photos/local-32d30c6553c669832848.jpg",
+      "date": "2021-12-11",
+      "alt": "배내봉 정상석"
+    },
+    "photo-o-11112113-20210904": {
+      "photoId": "ramblr-5042866-1",
+      "src": "photos/ramblr-5042866-001.jpg",
+      "date": "2023-01-21",
+      "alt": "영축산 정상석"
+    },
+    "photo-m-5-20210523": {
+      "photoId": "71530713-06b6-45ec-acbf-c002ca815be8",
+      "src": "photos/mountain-005-71530713-06b.jpg",
+      "date": "2021-02-27",
+      "alt": "가지산 정상석"
+    },
+    "photo-a-munboksan-20210523": {
+      "photoId": "local-9a010b0bd32ceec5e7ac",
+      "src": "photos/local-9a010b0bd32ceec5e7ac.jpg",
+      "date": "2021-05-23",
+      "alt": "문복산 정상석"
+    },
+    "photo-o-10302971-20210307": {
+      "photoId": "local-8799f8065b90801fc8a6",
+      "src": "photos/local-8799f8065b90801fc8a6.jpg",
+      "date": "2021-03-07",
+      "alt": "운문산 정상석"
+    },
+    "photo-m-5-20210227": {
+      "photoId": "71530713-06b6-45ec-acbf-c002ca815be8",
+      "src": "photos/mountain-005-71530713-06b.jpg",
+      "date": "2021-02-27",
+      "alt": "가지산 정상석"
+    },
+    "photo-a-goheonsan-20210227": {
+      "photoId": "update-8c9e6de8f0978f7ef1a3858e",
+      "src": "photos/update-20261120-8c9e6de8f0978f7ef1a3858e.webp",
+      "date": "2022-01-02",
+      "alt": "고헌산 정상석"
+    }
+  },
+  "other": {
+    "gpx:gpx-20260517-10528553.html": {
+      "photoId": "update-2543bb90593f6abdd73d1569",
+      "src": "photos/update-20261120-2543bb90593f6abdd73d1569.webp",
+      "date": "2026-05-16",
+      "alt": "금강산 신선대 정상·인증 표지 대표 사진"
+    },
+    "gpx:gpx-20260516-10527459.html": {
+      "photoId": "update-2543bb90593f6abdd73d1569",
+      "src": "photos/update-20261120-2543bb90593f6abdd73d1569.webp",
+      "date": "2026-05-16",
+      "alt": "금강산 신선대 정상·인증 표지 대표 사진"
+    },
+    "gpx:gpx-20260329-10291379.html": {
+      "photoId": "ramblr-10291379-3",
+      "src": "photos/ramblr-10291379-003.jpg",
+      "date": "2026-03-29",
+      "alt": "여수 영취산 정상·인증 표지 대표 사진"
+    },
+    "gpx:gpx-20260322-10611881.html": {
+      "photoId": "ramblr-10256640-8",
+      "src": "photos/ramblr-10256640-008.jpg",
+      "date": "2026-03-22",
+      "alt": "염포산 정상·인증 표지 대표 사진"
+    },
+    "gpx:gpx-20260322-10256640.html": {
+      "photoId": "ramblr-10256640-8",
+      "src": "photos/ramblr-10256640-008.jpg",
+      "date": "2026-03-22",
+      "alt": "염포산 정상·인증 표지 대표 사진"
+    },
+    "gpx:gpx-20260321-10252668.html": {
+      "photoId": "ramblr-10256640-8",
+      "src": "photos/ramblr-10256640-008.jpg",
+      "date": "2026-03-22",
+      "alt": "염포산 정상·인증 표지 대표 사진"
+    },
+    "gpx:gpx-20260211-10064774.html": {
+      "photoId": "ramblr-10256640-8",
+      "src": "photos/ramblr-10256640-008.jpg",
+      "date": "2026-03-22",
+      "alt": "염포산 정상·인증 표지 대표 사진"
+    },
+    "gpx:gpx-20250506-8566215.html": {
+      "photoId": "update-67ed67ee9fe49e296a086ed1",
+      "src": "photos/update-20261120-67ed67ee9fe49e296a086ed1.webp",
+      "date": "2025-05-06",
+      "alt": "초암산 정상·인증 표지 대표 사진"
+    },
+    "gpx:gpx-20241207-7876707.html": {
+      "photoId": "update-ab1c8ca7c1749fe7aa1ac2b7",
+      "src": "photos/update-20261120-ab1c8ca7c1749fe7aa1ac2b7.webp",
+      "date": "2024-12-07",
+      "alt": "토함산 정상·인증 표지 대표 사진"
+    },
+    "gpx:gpx-20241201-7855677.html": {
+      "photoId": "ramblr-10256640-8",
+      "src": "photos/ramblr-10256640-008.jpg",
+      "date": "2026-03-22",
+      "alt": "염포산 정상·인증 표지 대표 사진"
+    },
+    "gpx:gpx-20241009-7605085.html": {
+      "photoId": "ramblr-10256640-8",
+      "src": "photos/ramblr-10256640-008.jpg",
+      "date": "2026-03-22",
+      "alt": "염포산 정상·인증 표지 대표 사진"
+    },
+    "gpx:gpx-20240406-6767444.html": {
+      "photoId": "update-16d8771a4347905d150e3f44",
+      "src": "photos/update-20261120-16d8771a4347905d150e3f44.webp",
+      "date": "2024-04-06",
+      "alt": "장복산 정상·인증 표지 대표 사진"
+    },
+    "gpx:gpx-20240212-6561723.html": {
+      "photoId": "update-a20718a98247e30d79554f0a",
+      "src": "photos/update-20261120-a20718a98247e30d79554f0a.webp",
+      "date": "2023-05-14",
+      "alt": "발왕산 정상·인증 표지 대표 사진"
+    },
+    "gpx:gpx-20240211-6558048.html": {
+      "photoId": "update-3a2e670ecc1d8a5622f67c1d",
+      "src": "photos/update-20261120-3a2e670ecc1d8a5622f67c1d.webp",
+      "date": "2024-02-11",
+      "alt": "선자령 정상·인증 표지 대표 사진"
+    },
+    "gpx:gpx-20231028-6210016.html": {
+      "photoId": "update-132fa3f3e3fda4cd4bd5e7a9",
+      "src": "photos/update-20261120-132fa3f3e3fda4cd4bd5e7a9.webp",
+      "date": "2023-10-28",
+      "alt": "희양산 정상·인증 표지 대표 사진"
+    },
+    "gpx:gpx-20230813-5904312.html": {
+      "photoId": "update-4d9112a6c06465c02a6b6ccf",
+      "src": "photos/update-20261120-4d9112a6c06465c02a6b6ccf.webp",
+      "date": "2023-08-13",
+      "alt": "민둥산 정상·인증 표지 대표 사진"
+    },
+    "gpx:gpx-20230813-5882260.html": {
+      "photoId": "update-0355e4eedb0756d14b412383",
+      "src": "photos/update-20261120-0355e4eedb0756d14b412383.webp",
+      "date": "2023-08-13",
+      "alt": "계족산 정상·인증 표지 대표 사진"
+    },
+    "gpx:gpx-20230806-5859239.html": {
+      "photoId": "update-a517ab0ddb1b06f11933e1d1",
+      "src": "photos/update-20261120-a517ab0ddb1b06f11933e1d1.webp",
+      "date": "2023-08-06",
+      "alt": "금학산 정상·인증 표지 대표 사진"
+    },
+    "gpx:gpx-20230805-5854147.html": {
+      "photoId": "update-a01ef46efefc35620b31c52f",
+      "src": "photos/update-20261120-a01ef46efefc35620b31c52f.webp",
+      "date": "2023-08-05",
+      "alt": "청태산 정상·인증 표지 대표 사진"
+    },
+    "gpx:gpx-20230607-5633628.html": {
+      "photoId": "update-fee0f286419993d07376421c",
+      "src": "photos/update-20261120-fee0f286419993d07376421c.webp",
+      "date": "2023-06-07",
+      "alt": "동석산 정상·인증 표지 대표 사진"
+    },
+    "gpx:gpx-20230514-5515204.html": {
+      "photoId": "update-a20718a98247e30d79554f0a",
+      "src": "photos/update-20261120-a20718a98247e30d79554f0a.webp",
+      "date": "2023-05-14",
+      "alt": "발왕산 정상·인증 표지 대표 사진"
+    },
+    "gpx:gpx-20230401-5315254.html": {
+      "photoId": "ramblr-10256640-8",
+      "src": "photos/ramblr-10256640-008.jpg",
+      "date": "2026-03-22",
+      "alt": "염포산 정상·인증 표지 대표 사진"
+    },
+    "photo:photo-o-photo-9c5ea3d46e69-20220220": {
+      "photoId": "update-aa2db5f342e4be1bfa8578fb",
+      "src": "photos/update-20261120-aa2db5f342e4be1bfa8578fb.webp",
+      "date": "2022-02-20",
+      "alt": "종남산 정상·인증 표지 대표 사진"
+    },
+    "photo:photo-o-photo-d2c82e691e20-20230326": {
+      "photoId": "update-fbd457055c82d19d865922cb",
+      "src": "photos/update-20261120-fbd457055c82d19d865922cb.webp",
+      "date": "2022-12-04",
+      "alt": "응봉산 정상석 앞에서"
+    },
+    "photo:photo-o-5515204-20230514": {
+      "photoId": "update-a20718a98247e30d79554f0a",
+      "src": "photos/update-20261120-a20718a98247e30d79554f0a.webp",
+      "date": "2023-05-14",
+      "alt": "발왕산 정상·인증 표지 대표 사진"
+    },
+    "photo:photo-o-5633628-20230607": {
+      "photoId": "update-fee0f286419993d07376421c",
+      "src": "photos/update-20261120-fee0f286419993d07376421c.webp",
+      "date": "2023-06-07",
+      "alt": "동석산 정상·인증 표지 대표 사진"
+    },
+    "photo:photo-o-5833377-20230730": {
+      "photoId": "update-9237e44502bd91c3ce79cafd",
+      "src": "photos/update-20261120-9237e44502bd91c3ce79cafd.webp",
+      "date": "2023-07-30",
+      "alt": "백운산(밀양) 정상·인증 표지 대표 사진"
+    },
+    "photo:photo-o-5859239-20230806": {
+      "photoId": "update-a517ab0ddb1b06f11933e1d1",
+      "src": "photos/update-20261120-a517ab0ddb1b06f11933e1d1.webp",
+      "date": "2023-08-06",
+      "alt": "금학산 정상·인증 표지 대표 사진"
+    },
+    "photo:photo-o-5882260-20230813": {
+      "photoId": "update-0355e4eedb0756d14b412383",
+      "src": "photos/update-20261120-0355e4eedb0756d14b412383.webp",
+      "date": "2023-08-13",
+      "alt": "계족산 정상·인증 표지 대표 사진"
+    },
+    "photo:photo-o-5904312-20230813": {
+      "photoId": "update-4d9112a6c06465c02a6b6ccf",
+      "src": "photos/update-20261120-4d9112a6c06465c02a6b6ccf.webp",
+      "date": "2023-08-13",
+      "alt": "민둥산 정상·인증 표지 대표 사진"
+    },
+    "photo:photo-o-6210016-20231028": {
+      "photoId": "update-132fa3f3e3fda4cd4bd5e7a9",
+      "src": "photos/update-20261120-132fa3f3e3fda4cd4bd5e7a9.webp",
+      "date": "2023-10-28",
+      "alt": "희양산 정상·인증 표지 대표 사진"
+    },
+    "photo:photo-o-photo-9e053c46dde9-20231119": {
+      "photoId": "update-ab1c8ca7c1749fe7aa1ac2b7",
+      "src": "photos/update-20261120-ab1c8ca7c1749fe7aa1ac2b7.webp",
+      "date": "2024-12-07",
+      "alt": "토함산 정상·인증 표지 대표 사진"
+    },
+    "photo:photo-o-6558048-20240211": {
+      "photoId": "update-3a2e670ecc1d8a5622f67c1d",
+      "src": "photos/update-20261120-3a2e670ecc1d8a5622f67c1d.webp",
+      "date": "2024-02-11",
+      "alt": "선자령 정상·인증 표지 대표 사진"
+    },
+    "photo:photo-o-5515204-20240212": {
+      "photoId": "update-a20718a98247e30d79554f0a",
+      "src": "photos/update-20261120-a20718a98247e30d79554f0a.webp",
+      "date": "2023-05-14",
+      "alt": "발왕산 정상·인증 표지 대표 사진"
+    },
+    "photo:photo-o-6767444-20240406": {
+      "photoId": "update-16d8771a4347905d150e3f44",
+      "src": "photos/update-20261120-16d8771a4347905d150e3f44.webp",
+      "date": "2024-04-06",
+      "alt": "장복산 정상·인증 표지 대표 사진"
+    },
+    "photo:photo-o-photo-9e053c46dde9-20241207": {
+      "photoId": "update-ab1c8ca7c1749fe7aa1ac2b7",
+      "src": "photos/update-20261120-ab1c8ca7c1749fe7aa1ac2b7.webp",
+      "date": "2024-12-07",
+      "alt": "토함산 정상·인증 표지 대표 사진"
+    },
+    "photo:photo-o-8566215-20250506": {
+      "photoId": "update-67ed67ee9fe49e296a086ed1",
+      "src": "photos/update-20261120-67ed67ee9fe49e296a086ed1.webp",
+      "date": "2025-05-06",
+      "alt": "초암산 정상·인증 표지 대표 사진"
+    },
+    "photo:photo-o-photo-d2c82e691e20-20230327": {
+      "photoId": "update-fbd457055c82d19d865922cb",
+      "src": "photos/update-20261120-fbd457055c82d19d865922cb.webp",
+      "date": "2022-12-04",
+      "alt": "응봉산 정상석 앞에서"
+    },
+    "photo:photo-o-5854147-20230805": {
+      "photoId": "update-a01ef46efefc35620b31c52f",
+      "src": "photos/update-20261120-a01ef46efefc35620b31c52f.webp",
+      "date": "2023-08-05",
+      "alt": "청태산 정상·인증 표지 대표 사진"
+    },
+    "photo:photo-o-10103040-20260218": {
+      "photoId": "update-9fca482a36d97017eafb54eb",
+      "src": "photos/update-20261120-9fca482a36d97017eafb54eb.webp",
+      "date": "2026-02-18",
+      "alt": "장산 정상 방향 이정표"
+    },
+    "photo:photo-o-10291379-20260329": {
+      "photoId": "ramblr-10291379-3",
+      "src": "photos/ramblr-10291379-003.jpg",
+      "date": "2026-03-29",
+      "alt": "여수 영취산 정상·인증 표지 대표 사진"
+    },
+    "photo:photo-o-10527459-20260516": {
+      "photoId": "update-2543bb90593f6abdd73d1569",
+      "src": "photos/update-20261120-2543bb90593f6abdd73d1569.webp",
+      "date": "2026-05-16",
+      "alt": "금강산 신선대 정상·인증 표지 대표 사진"
+    },
+    "blog:mwae3709-e8d2c8": {
+      "photoId": "local-9a010b0bd32ceec5e7ac",
+      "src": "photos/local-9a010b0bd32ceec5e7ac.jpg",
+      "date": "2021-05-23",
+      "alt": "문복산 정상·인증 표지 대표 사진"
+    }
+  }
+}

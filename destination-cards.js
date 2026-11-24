@@ -12,7 +12,7 @@
  html body :is(#cards,#island-cards) .jk-list-region{display:block;margin:3px 0!important;color:#665740;line-height:1.5;white-space:normal}
  html body .jk-guide-body{display:flex;align-items:center;gap:9px;margin:6px 0 0;min-width:0;text-align:left;white-space:normal}
  html body .jk-guide-intro{flex:1;min-width:0;margin:0!important;color:#3f5038;font-size:13px;line-height:1.55!important;overflow-wrap:anywhere}
- html body .jk-guide-cover{display:block;flex:0 0 76px;width:76px!important;height:64px!important;max-width:76px!important;object-fit:cover;border:1px solid #dac9ae;border-radius:6px;box-sizing:border-box;user-select:none;-webkit-user-drag:none}
+ html body .jk-guide-cover{display:block;flex:0 0 76px;width:76px!important;height:64px!important;max-width:76px!important;object-fit:contain;background:#f5efdf;border:1px solid #dac9ae;border-radius:6px;box-sizing:border-box;user-select:none;-webkit-user-drag:none}
  html body .jk-guide-missing{display:flex;align-items:center;justify-content:center;flex:0 0 76px;width:76px;height:64px;border:1px dashed #c8b898;border-radius:6px;color:#84735a;font-size:11px;line-height:1.4;background:#f5efdf}
  html body .entries .jk-guide-body{margin:4px 0 0;gap:0}
  html body .entries .jk-guide-intro{font-size:12px;line-height:1.5!important}
@@ -63,5 +63,5 @@
  }else root.addEventListener('click',e=>{const card=e.target.closest(mountain?'.card':'.ux-island-card');if(card)detail((mountain?'m-':'i-')+card.dataset.no);});
  let queued=false;const schedule=()=>{if(queued)return;queued=true;requestAnimationFrame(()=>{queued=false;enrich();});};new MutationObserver(schedule).observe(root,{childList:true,subtree:true});
  window.addEventListener('jk-hike-details-updated',e=>{extras=e.detail;enrich();if(activeDetailId)detail(activeDetailId);});
- Promise.all([fetch(new URL('destination-guides.json?v=20261120-supplement1',base)).then(r=>{if(!r.ok)throw Error('소개 자료 연결 실패');return r.json();}),fetch(new URL('hike-details.json',base),{cache:'no-cache'}).then(r=>r.ok?r.json():null).catch(()=>null)]).then(([g,x])=>{guides=g;window.JKDestinationGuides=g;extras=x;enrich();const p=new URLSearchParams(location.search),id=mountain?'m-'+p.get('mountain'):island?'i-'+p.get('island'):'';if(guides.items[id])detail(id);window.dispatchEvent(new CustomEvent('jk-destination-guides-ready',{detail:g}));}).catch(e=>console.warn(e.message));
+ Promise.all([fetch(new URL('destination-guides.json?v=20261120-supplement1',base)).then(r=>{if(!r.ok)throw Error('소개 자료 연결 실패');return r.json();}),fetch(new URL('hike-details.json',base),{cache:'no-cache'}).then(r=>r.ok?r.json():null).catch(()=>null),fetch(new URL('summit-covers.json?v=20261124',base)).then(r=>r.ok?r.json():{}).catch(()=>({}))]).then(([g,x,covers])=>{for(const[id,cover]of Object.entries(covers.places||{}))if(g.items[id])g.items[id].cover=cover;guides=g;window.JKDestinationGuides=g;extras=x;enrich();const p=new URLSearchParams(location.search),id=mountain?'m-'+p.get('mountain'):island?'i-'+p.get('island'):'';if(guides.items[id])detail(id);window.dispatchEvent(new CustomEvent('jk-destination-guides-ready',{detail:g}));}).catch(e=>console.warn(e.message));
 })();

@@ -15,7 +15,7 @@
  html body #list .jk-other-no{position:absolute;right:8px;top:9px;font-size:13px;color:#86603b;font-variant-numeric:tabular-nums}
  html body #list .jk-other-body{display:flex;align-items:center;gap:9px;min-width:0;margin:5px 0}
  html body #list .jk-other-intro{flex:1;min-width:0;font-size:13px!important;line-height:1.55!important;color:#3f5038;margin:0!important}
- html body #list img.jk-other-cover{flex:0 0 76px;width:76px!important;height:64px!important;max-width:76px!important;object-fit:cover;border:1px solid #dac9ae;border-radius:6px;box-sizing:border-box;user-select:none;-webkit-user-drag:none}
+ html body #list img.jk-other-cover{flex:0 0 76px;width:76px!important;height:64px!important;max-width:76px!important;object-fit:contain;background:#f5efdf;border:1px solid #dac9ae;border-radius:6px;box-sizing:border-box;user-select:none;-webkit-user-drag:none}
  html body #list .jk-other-missing{display:flex;align-items:center;justify-content:center;flex:0 0 76px;width:76px;height:64px;border:1px dashed #c8b898;border-radius:6px;color:#84735a;font-size:11px;line-height:1.4;background:#f5efdf}
  html body #list .jk-other-facts{margin:2px 0!important;color:#665740;font-size:12px;line-height:1.5}
  html body #list .other-delete{align-self:flex-end;margin:4px 0 0!important}
@@ -30,5 +30,5 @@
   const facts=[Number.isFinite(g.distanceKm)?'거리 '+g.distanceKm+'km':'',g.duration?'소요 '+g.duration:'',g.photoCount?'사진 '+g.photoCount+'장':''].filter(Boolean);if(facts.length)a.append(make('small',facts.join(' · '),'jk-other-facts'));if(tags)a.append(tags);
  }}
  let queued=false;const schedule=()=>{if(queued)return;queued=true;requestAnimationFrame(()=>{queued=false;apply();});};new MutationObserver(schedule).observe(list,{subtree:true,childList:true});
- fetch(new URL('other-list-guides.json?v=20261120-supplement1',base)).then(r=>{if(!r.ok)throw Error('명산외 소개 연결 실패');return r.json();}).then(g=>{data=g;window.JKDestinationGuides=g;apply();window.dispatchEvent(new CustomEvent('jk-destination-guides-ready',{detail:g}));}).catch(e=>console.warn(e.message));
+ Promise.all([fetch(new URL('other-list-guides.json?v=20261120-supplement1',base)).then(r=>{if(!r.ok)throw Error('명산외 소개 연결 실패');return r.json();}),fetch(new URL('summit-covers.json?v=20261124',base)).then(r=>r.ok?r.json():{}).catch(()=>({}))]).then(([g,covers])=>{for(const[key,cover]of Object.entries(covers.other||{}))if(g.items[key])g.items[key].cover=cover;data=g;window.JKDestinationGuides=g;apply();window.dispatchEvent(new CustomEvent('jk-destination-guides-ready',{detail:g}));}).catch(e=>console.warn(e.message));
 })();
