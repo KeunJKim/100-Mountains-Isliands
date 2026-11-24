@@ -113,4 +113,4 @@ document.addEventListener('click',e=>{if(!menu.contains(e.target))close();});doc
 (()=>{const s=document.createElement('script');s.src='https://keunjkim.github.io/100-Mountains-Isliands/search-session.js?v=20261124-search-scope5';document.head.append(s);})();
 
 /* 모든 관리자 수정창의 제목줄 위치 이동 */
-(()=>{const s=document.createElement('script');s.src='https://keunjkim.github.io/100-Mountains-Isliands/editor-windows.js?v=20261124-drag1';document.head.append(s);})();
+(()=>{const s=document.createElement('script');s.src='https://keunjkim.github.io/100-Mountains-Isliands/editor-windows.js?v=20261124-drag2';document.head.append(s);})();
