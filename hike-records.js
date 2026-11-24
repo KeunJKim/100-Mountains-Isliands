@@ -7,6 +7,19 @@ const BLANK=()=>({version:1,mountains:{},islands:{}});
 let publicData=BLANK();
 let linkedGpsData={mountains:{},islands:{}};
 let introductionGuides={items:{}};
+let blogPostsPromise;
+function blogPosts(){return blogPostsPromise||(blogPostsPromise=fetch('blog-posts.json?v='+Date.now(),{cache:'no-store'}).then(r=>{if(!r.ok)throw Error('블로그 조회 실패');return r.json()}).then(p=>Array.isArray(p)?p:[]).catch(()=>{blogPostsPromise=null;return null;}));}
+function blogButton(kind,rec,values){
+ const button=el('a','산행 블로그에서 보기 →','ux-edit-btn ux-blog-link');button.style.textDecoration='none';button.style.setProperty('color','#fff','important');button.setAttribute('aria-disabled','true');button.textContent='산행 블로그 확인 중';
+ blogPosts().then(posts=>{
+  if(!posts){button.textContent='산행 블로그 조회 재시도';button.href='blog.html?filter='+(kind==='mountains'?'mountain':'island');button.removeAttribute('aria-disabled');return;}
+  let linked;try{const url=new URL(values.blogUrl,location.href);if(url.origin===location.origin&&url.pathname.endsWith('/blog.html')&&url.hash.startsWith('#post-'))linked=posts.find(p=>p.id===decodeURIComponent(url.hash.slice(6)));}catch{}
+  const name=String(rec.name||rec.island||'').replace(/\([^)]*\)/g,'').trim(),category=kind==='mountains'?'mountain':'island';
+  const matches=linked?[linked]:posts.filter(p=>p.category===category&&String(p.place||'').split(/[·,，/\s]+/).some(t=>t.replace(/\([^)]*\)/g,'').trim()===name)).sort((a,b)=>(b.hikeDate||'').localeCompare(a.hikeDate||''));
+  if(matches.length){button.href='blog.html#post-'+encodeURIComponent(matches[0].id);button.textContent='산행 블로그에서 보기 →';button.removeAttribute('aria-disabled');}
+  else{button.style.setProperty('color','#625a4c','important');button.style.setProperty('background','#f0e8db','important');button.style.cursor='default';button.textContent='산행 블로그에서 보기 · 작성된 글 없음';button.title='이 장소에 연결된 산행 블로그 글이 아직 없습니다.';}
+ });return button;
+}
 let sessionToken=''; // 보안: 페이지 메모리에만 유지, 로컬 저장·쿠키·서버 기록 금지
 const fields=[
  ['introduction','장소 소개 (목록·상세 화면 공통)','textarea','예: 낙엽 깔린 산길과 능선에서 가을 풍경을 만납니다.'],
@@ -94,7 +107,7 @@ function renderSummary(box,kind,rec){
  const note=el('p','기존 BAC 인증일과 인증지 정보는 그대로 보존합니다. 아래 정보에서 추가·수정하거나 날짜별 산행 기록을 삭제·복원할 수 있습니다.');
  const b=el('button','이 산행 정보 추가·수정·삭제','ux-edit-btn');b.type='button';b.onclick=()=>renderForm(box,kind,rec);
  const photos=el('a','사진 갤러리에서 사진 보기·관리 →','ux-edit-btn');photos.href='gallery.html?album='+encodeURIComponent((kind==='mountains'?'m-':'i-')+rec.no);photos.style.textDecoration='none';
- const actions=el('div',null,'ux-actions');actions.append(b,photos);
+ const actions=el('div',null,'ux-actions');actions.append(b,photos,blogButton(kind,rec,values));
  box.replaceChildren(heading,note,dl.childElementCount?dl:el('p','입력된 상세 산행 정보가 없습니다. 정보를 추가해 주세요.','ux-empty'),actions);renderReference(box,values);renderTrash(box,kind,rec);
  if(Object.keys(gpsDefaults(kind,rec,values.hikeDate)).length)actions.before(el('p','빈 항목은 같은 날짜의 GPS 기록에서 연결합니다. 직접 수정한 값을 우선하며, 산행시간은 GPS 기록 시작·종료 간격입니다.','ux-help'));
 }
