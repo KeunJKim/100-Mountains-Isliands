@@ -156,7 +156,7 @@ async function saveToGitHub(kind,rec,changes,token,visibility){
  publicData=content;refreshVisibility();window.dispatchEvent(new CustomEvent('jk-hike-details-updated',{detail:content}));
 }
 function gpsCompanionButton(box,kind,rec,form){
- const button=el('button','GPX 기록 함께 보기 ↗','ux-edit-btn');button.type='button';
+ const button=el('button','GPX 독립 창 열기 ↗','ux-edit-btn');button.type='button';
  const notice=el('span','','ux-help');notice.setAttribute('role','status');
  button.onclick=()=>{
   const date=form.elements.hikeDate?.value,scope=box.closest('dialog,[role="dialog"],#detail')||box.parentElement;
@@ -164,20 +164,17 @@ function gpsCompanionButton(box,kind,rec,form){
   const gps=visit?.jkGpsRecords?.filter(g=>g.routes?.length)||[];
   const source=linkedGpsData[groupOf(kind)]?.[String(rec.no)]?.[date]?.source;
   if(!gps.length&&!source){notice.textContent='선택한 산행일에 연결된 GPX 기록이 없습니다.';return;}
-  scope.querySelector('.jk-gpx-companion-window')?.remove();
-  const panel=el('div',null,'jk-gpx-companion-window');panel.setAttribute('role','dialog');panel.setAttribute('aria-label','GPX 기록 함께 보기');panel.setAttribute('data-jk-editor-window','');
-  const header=el('h2','GPX 기록 함께 보기','jk-editor-window-title'),close=el('button','닫기 ×');close.type='button';close.onclick=()=>{panel.remove();button.focus({preventScroll:true});};header.append(close);
-  const frame=el('iframe');frame.title='선택한 산행일의 GPX 이동 경로';frame.src='gpx-companion.html?embedded=1&v=20261124-companion2';
-  panel.append(header,frame);scope.append(panel);scope.addEventListener('close',()=>panel.remove(),{once:true});
-  const pin=()=>{if(!panel.isConnected){scope.removeEventListener('scroll',pin);return;}panel.style.top=(scope.scrollTop+(innerWidth<600?45:60))+'px';};scope.addEventListener('scroll',pin,{passive:true});pin();
-  notice.textContent='작은 GPX 창을 열었습니다. 두 창의 제목줄을 끌어 위치를 조정할 수 있습니다.';
-  if(!gps.length){const link=el('a','GPX 원본 기록 열기 ↗');link.href=source;link.target='_blank';link.rel='noopener noreferrer';const help=el('p','이 기록은 원본 사이트에서 확인할 수 있습니다.');help.append(link);frame.remove();panel.append(help);return;}
+  const popup=window.open(gps.length?'gpx-companion.html?v=20261124-independent1':source,'_blank','popup=yes,width=900,height=760,resizable=yes,scrollbars=yes');
+  if(!popup){notice.textContent='브라우저에서 이 사이트의 팝업을 허용한 뒤 다시 눌러 주세요.';return;}
+  notice.textContent='GPX를 독립 창으로 열었습니다. 창 맨 위의 제목줄로 이동하고 가장자리로 크기를 조절하세요.';
+  if(!gps.length)return;
   const payload={title:(rec.name||rec.island)+' · '+date,records:gps.map(g=>({routes:g.routes,distanceKm:g.distanceKm,elapsed:g.elapsed,source:g.source||g.url||'',title:g.title||''}))};
-  const receive=e=>{if(e.source!==frame.contentWindow||e.origin!==location.origin||e.data!=='jk-gpx-ready')return;frame.contentWindow.postMessage({type:'jk-gpx-records',payload},location.origin);window.removeEventListener('message',receive);};
+  const receive=e=>{if(e.source!==popup||e.origin!==location.origin||e.data!=='jk-gpx-ready')return;popup.postMessage({type:'jk-gpx-records',payload},location.origin);window.removeEventListener('message',receive);};
   window.addEventListener('message',receive);setTimeout(()=>window.removeEventListener('message',receive),30000);
  };
  const tools=el('div',null,'ux-actions');tools.append(button,notice);return tools;
 }
+
 function renderForm(box,kind,rec){
  sessionToken=window.JKOwnerSession?.getToken()||sessionToken;
  const values=infoOf(kind,rec),original=infoOf(kind,rec,false),form=el('form',null,'ux-form');form.autocomplete='off';
