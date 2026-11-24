@@ -81,7 +81,7 @@
   for(const node of document.querySelectorAll('body *:not(script):not(style):not(noscript)')){
    // Inline children also need their parent's line-box metrics reduced.
    if(node.matches('img,svg,canvas,iframe,br,hr,source,video,audio,path,polyline,polygon,circle,rect'))continue;
-   if(node.closest('.jk-hiking-journal,.jk-journal-hero')||blogEditor(node))continue;
+   if(node.id==='article-title'||node.closest('.jk-hiking-journal,.jk-journal-hero')||blogEditor(node))continue;
    const c=getComputedStyle(node),size=px(c.fontSize),line=px(c.lineHeight);
    if(!size)continue;
    measurements.push([node,size,line]);
@@ -185,6 +185,7 @@
   for(const menu of document.querySelectorAll('.ux-context-links')){if(!menu.querySelector('a[href*="overseas-trekking.html"]')){const a=document.createElement('a');a.href='https://keunjkim.github.io/100-Mountains-Isliands/overseas-trekking.html';a.textContent='해외트래킹';menu.append(a);}}
 
   document.querySelectorAll('h1,h2,h3,h4,p').forEach(node=>{
+   if(node.id==='article-title')return;
    if(texts.has(node)||!node.getClientRects().length)return;
    const size=px(getComputedStyle(node).fontSize),cap={H1:30,H2:24,H3:19,H4:17,P:16}[node.tagName];
    if(size>cap)node.style.setProperty('font-size',cap+'px','important');texts.add(node);

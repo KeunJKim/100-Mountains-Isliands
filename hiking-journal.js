@@ -4,6 +4,11 @@
  const style=document.createElement('style');
  style.textContent=`
  .reader .body:not(.jk-hiking-journal){line-height:1.8!important}
+ html body #article-title{font-size:25.2px!important;line-height:1.45!important;color:#344c40!important;margin:14px 0 12px!important;overflow-wrap:anywhere}
+ html body #article-body,html body #article-body :is(p,li){color:#454b44!important}
+ html body #article-body h3{color:#344c40!important}
+ html body #article-body a{color:#3e645d!important}
+ html body #article-body figcaption{color:#686e63!important}
  #article-body.jk-hiking-journal{white-space:normal!important;font-size:17px!important;line-height:1.8!important}
  #article-body.jk-hiking-journal p{font-size:17px!important;line-height:1.8!important;margin:0 0 16px!important;padding-inline-start:1em!important;text-indent:0!important;white-space:pre-line;overflow-wrap:anywhere}
  #article-body.jk-hiking-journal p:not(.jk-journal-description){line-height:1.7!important}
