@@ -1,0 +1,7 @@
+<!doctype html><html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex"><title>GPX 기록 함께 보기</title>
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+<style>body{margin:0;padding:20px;background:#fbf8f0;color:#344c40;font:16px/1.7 'Malgun Gothic',sans-serif}h1{font-size:22px;margin:0 0 12px}#map{height:65vh;min-height:300px;border:1px solid #cfbea4;border-radius:10px}#stats{display:flex;gap:12px;flex-wrap:wrap;margin:12px 0}#stats span{padding:8px 12px;border:1px solid #cfbea4;border-radius:8px}button{font:inherit;padding:6px 14px;border:1px solid #a48a61;border-radius:9px;background:#f4e8cd;color:#344c40;cursor:pointer}header{display:flex;gap:15px;align-items:center;justify-content:space-between}p{margin:10px 0}svg{width:100%;height:100%}</style></head><body>
+<header><h1 id="title">GPX 기록 함께 보기</h1><button id="close" type="button">창 닫기 ×</button></header>
+<p id="status" role="status">산행 기록을 불러오는 중입니다.</p><div id="map" aria-label="실제 GPS 이동 경로"></div><div id="stats"></div>
+<p>이 창은 GPS 기록을 확인하는 화면입니다. 산행 정보 수정과 저장은 원래 수정창에서 계속할 수 있습니다.</p>
+<script src="gpx-companion.js?v=20261124-companion1"></script></body></html>

@@ -155,11 +155,35 @@ async function saveToGitHub(kind,rec,changes,token,visibility){
  const answer=await put.json().catch(()=>({}));if(!put.ok)throw Error(apiError(put,answer));
  publicData=content;refreshVisibility();window.dispatchEvent(new CustomEvent('jk-hike-details-updated',{detail:content}));
 }
+function gpsCompanionButton(box,kind,rec,form){
+ const button=el('button','GPX 기록 함께 보기 ↗','ux-edit-btn');button.type='button';
+ const notice=el('span','','ux-help');notice.setAttribute('role','status');
+ button.onclick=()=>{
+  const date=form.elements.hikeDate?.value,scope=box.closest('dialog,[role="dialog"],#detail')||box.parentElement;
+  const visit=[...scope.querySelectorAll('.visit')].find(v=>visitDate(v)===date);
+  const gps=visit?.jkGpsRecords?.filter(g=>g.routes?.length)||[];
+  const source=linkedGpsData[groupOf(kind)]?.[String(rec.no)]?.[date]?.source;
+  if(!gps.length&&!source){notice.textContent='선택한 산행일에 연결된 GPX 기록이 없습니다.';return;}
+  scope.querySelector('.jk-gpx-companion-window')?.remove();
+  const panel=el('div',null,'jk-gpx-companion-window');panel.setAttribute('role','dialog');panel.setAttribute('aria-label','GPX 기록 함께 보기');panel.setAttribute('data-jk-editor-window','');
+  const header=el('h2','GPX 기록 함께 보기','jk-editor-window-title'),close=el('button','닫기 ×');close.type='button';close.onclick=()=>{panel.remove();button.focus({preventScroll:true});};header.append(close);
+  const frame=el('iframe');frame.title='선택한 산행일의 GPX 이동 경로';frame.src='gpx-companion.html?embedded=1';
+  panel.append(header,frame);scope.append(panel);scope.addEventListener('close',()=>panel.remove(),{once:true});
+  const pin=()=>{if(!panel.isConnected){scope.removeEventListener('scroll',pin);return;}panel.style.top=(scope.scrollTop+(innerWidth<600?45:60))+'px';};scope.addEventListener('scroll',pin,{passive:true});pin();
+  notice.textContent='작은 GPX 창을 열었습니다. 두 창의 제목줄을 끌어 위치를 조정할 수 있습니다.';
+  if(!gps.length){const link=el('a','GPX 원본 기록 열기 ↗');link.href=source;link.target='_blank';link.rel='noopener noreferrer';const help=el('p','이 기록은 원본 사이트에서 확인할 수 있습니다.');help.append(link);frame.remove();panel.append(help);return;}
+  const payload={title:(rec.name||rec.island)+' · '+date,records:gps.map(g=>({routes:g.routes,distanceKm:g.distanceKm,elapsed:g.elapsed,source:g.source||g.url||'',title:g.title||''}))};
+  const receive=e=>{if(e.source!==frame.contentWindow||e.origin!==location.origin||e.data!=='jk-gpx-ready')return;frame.contentWindow.postMessage({type:'jk-gpx-records',payload},location.origin);window.removeEventListener('message',receive);};
+  window.addEventListener('message',receive);setTimeout(()=>window.removeEventListener('message',receive),30000);
+ };
+ const tools=el('div',null,'ux-actions');tools.append(button,notice);return tools;
+}
 function renderForm(box,kind,rec){
  sessionToken=window.JKOwnerSession?.getToken()||sessionToken;
  const values=infoOf(kind,rec),original=infoOf(kind,rec,false),form=el('form',null,'ux-form');form.autocomplete='off';
  form.append(el('h3',`${kind==='mountains'?rec.name:rec.island} — 산행 기록 수정`));
  form.append(el('p','산행 정보를 수정하거나 아래에서 날짜별 기록을 삭제할 수 있습니다. BAC 인증 정보와 사진 원본은 보존됩니다.'));
+ form.append(gpsCompanionButton(box,kind,rec,form));
  const grid=el('div',null,'ux-form-grid');fieldsFor(values).forEach(f=>grid.append(fieldNode(f,values[f[0]])));
  const label=el('label','GitHub 개인 액세스 토큰 (관리자 전용)','ux-full');
  const tokenInput=el('input');tokenInput.type='password';tokenInput.name='token';tokenInput.autocomplete='new-password';tokenInput.placeholder=sessionToken?'현재 탭에서 연결된 토큰이 있습니다':'Fine-grained token — Contents 읽기/쓰기 권한';
@@ -167,7 +191,7 @@ function renderForm(box,kind,rec){
  form.append(grid,el('p','관리자 메뉴에서 연결한 토큰은 현재 탭에서 작업 종료까지 사용합니다. 다른 사람에게 공유하지 마세요. 사진은 ‘사진 갤러리’에서 따로 관리합니다.','ux-help'));
  const actions=el('div',null,'ux-actions'),save=el('button','GitHub에 저장','ux-save-btn'),cancel=el('button','취소','ux-cancel-btn');
  let hasSaved=false;
- save.type='submit';cancel.type='button';cancel.onclick=()=>{renderSummary(box,kind,rec);if(hasSaved)box.append(savedNotice());};actions.append(save,cancel);
+ save.type='submit';cancel.type='button';cancel.onclick=()=>{(box.closest('dialog,[role=dialog],#detail')||box.parentElement).querySelector('.jk-gpx-companion-window')?.remove();renderSummary(box,kind,rec);if(hasSaved)box.append(savedNotice());};actions.append(save,cancel);
  const notice=el('div','','ux-status');notice.setAttribute('role','status');form.append(actions,notice);
  form.addEventListener('input',e=>{if(e.target!==tokenInput&&notice.classList.contains('ux-save-success')){notice.classList.remove('ux-save-success');notice.textContent='변경한 내용은 GitHub에 다시 저장해 주세요.';}});
  const removal=el('section',null,'ux-delete-tools'),removeTitle=el('h4','날짜별 산행 기록 삭제'),removeLabel=el('label','삭제할 산행 기록'),choice=el('select');choice.setAttribute('aria-label','삭제할 산행 기록');

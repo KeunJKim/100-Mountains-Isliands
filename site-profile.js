@@ -111,3 +111,6 @@ document.addEventListener('click',e=>{if(!menu.contains(e.target))close();});doc
 
 /* 새 페이지와 장시간 미사용 시 검색 조건 초기화 */
 (()=>{const s=document.createElement('script');s.src='https://keunjkim.github.io/100-Mountains-Isliands/search-session.js?v=20261124-search-scope5';document.head.append(s);})();
+
+/* 모든 관리자 수정창의 제목줄 위치 이동 */
+(()=>{const s=document.createElement('script');s.src='https://keunjkim.github.io/100-Mountains-Isliands/editor-windows.js?v=20261124-drag1';document.head.append(s);})();
