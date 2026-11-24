@@ -34,7 +34,9 @@
  const controls='button,input[type="button"],input[type="submit"],a.button,a.btn,a.action,a.ux-edit-btn,a.jk-gallery-action,.jk-compact-menu> a,.jk-compact-menu>details>summary,.jk-nav-drop>a,.jk-all-panel a,.jk-management-grid>a,.jk-gps-map-actions>a,.jk-management-choices>a,.jk-home-card-stage .card,a[role="button"],a.jk-token-create,.quick-nav>a,.ux-context-links>a,.toolbar>a,.links>a';
  const done=new WeakSet(),texts=new WeakSet();
  const px=s=>Number.parseFloat(s)||0;
+ const blogEditor=node=>location.pathname.endsWith('/blog.html')&&node.closest('#admin-view');
  function compact(node){
+  if(blogEditor(node))return;
   if(node.matches('.jk-record-photo-close')){for(const [key,value]of Object.entries({'min-height':'34px',height:'auto',padding:'6px 12px','font-size':'14px','line-height':'21px','border-radius':'7px'}))node.style.setProperty(key,value,'important');return;}
   if(node.closest('.jk-owner-dialog')){node.style.setProperty('min-height','40px','important');node.style.setProperty('padding','8px 12px','important');return;}
   if(node.matches('.jk-alps-source-action')){for(const [key,value]of Object.entries({'font-size':'12px','line-height':'18px',padding:'4px 9px','min-height':'28px',height:'auto',margin:'0'}))node.style.setProperty(key,value,'important');return;}
@@ -79,7 +81,7 @@
   for(const node of document.querySelectorAll('body *:not(script):not(style):not(noscript)')){
    // Inline children also need their parent's line-box metrics reduced.
    if(node.matches('img,svg,canvas,iframe,br,hr,source,video,audio,path,polyline,polygon,circle,rect'))continue;
-   if(node.closest('.jk-hiking-journal,.jk-journal-hero'))continue;
+   if(node.closest('.jk-hiking-journal,.jk-journal-hero')||blogEditor(node))continue;
    const c=getComputedStyle(node),size=px(c.fontSize),line=px(c.lineHeight);
    if(!size)continue;
    measurements.push([node,size,line]);
@@ -116,7 +118,7 @@
    fontStates.set(node,{original,applied});
   }
   for(const node of document.querySelectorAll(controls+',h1,h2,h3,h4,p')){
-   if(node.closest('.jk-owner-dialog')||node.matches('.jk-record-photo-close')||spacingDone.has(node)||!node.getClientRects().length)continue;
+   if(blogEditor(node)||node.closest('.jk-owner-dialog')||node.matches('.jk-record-photo-close')||spacingDone.has(node)||!node.getClientRects().length)continue;
    const c=getComputedStyle(node);
    if(node.matches(controls)&&!node.querySelector('img')){
     const pads=['top','right','bottom','left'].map(side=>[side,px(c.getPropertyValue('padding-'+side))]);
@@ -139,7 +141,7 @@
  function compactLayout(){
   const measurements=[];
   for(const node of document.querySelectorAll(layouts)){
-   if(node.closest('.jk-owner-dialog')||node.matches('input[type=search],input[id*=search],.filters select,.controls select,.toolbar select,.jk-season-tools select'))continue;
+   if(blogEditor(node)||node.closest('.jk-owner-dialog')||node.matches('input[type=search],input[id*=search],.filters select,.controls select,.toolbar select,.jk-season-tools select'))continue;
    if(layoutDone.has(node)||!node.getClientRects().length||node.closest('.leaflet-container,.jk-gps-large-dialog,.lightbox'))continue;
    const c=getComputedStyle(node),values={};
    // Auto margins center the page; shrink only the vertical whitespace around it.
