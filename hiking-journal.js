@@ -10,17 +10,17 @@
  #article-body.jk-hiking-journal p.jk-journal-description{text-indent:1em!important}
  #article-body.jk-hiking-journal h3{font-size:21px!important;line-height:1.45!important;margin:28px 0 12px!important;padding-bottom:8px;border-bottom:1px solid #cdbd9f}
  .jk-journal-figure{display:block;width:100%;margin:18px 0 24px!important;break-inside:avoid}
- .jk-journal-figure button{display:block;width:60%;margin-inline:auto!important;padding:0!important;background:transparent;border:0;cursor:zoom-in}
- .jk-journal-figure img{display:block;width:100%;height:auto;max-height:372px;object-fit:contain;border-radius:9px}
+ .jk-journal-figure button{display:block;width:60%;margin-inline:auto!important;padding:0!important;background:transparent!important;border:0;cursor:zoom-in}
+ .jk-journal-figure img{display:block;width:auto;max-width:100%;height:auto;max-height:372px;margin-inline:auto;object-fit:contain;border-radius:9px}
  .reader #article-photos{display:flex;flex-direction:column;align-items:stretch;gap:24px}
  .reader #article-photos>button{display:block;flex:none;width:60%;margin-inline:auto!important}
  .reader #article-photos>button img{display:block;width:100%;height:auto;object-fit:contain}
  .reader #article-photos img{max-height:318px!important}
  .jk-journal-figure figcaption{font-size:14px!important;line-height:1.5!important;margin-top:7px!important;text-align:center;color:#635c50}
- .jk-journal-photo-row{display:grid;grid-template-columns:repeat(var(--photo-count),minmax(0,1fr));gap:16px;margin:18px 0 24px}
+ .jk-journal-photo-row{display:grid;grid-template-columns:repeat(var(--photo-count),minmax(0,1fr));gap:14px;width:100%;margin:18px auto 24px;align-items:start}
  .jk-journal-photo-row .jk-journal-figure{min-width:0;margin:0!important}
  .jk-journal-photo-row .jk-journal-figure button{width:100%;background:transparent!important}
- .jk-journal-photo-row .jk-journal-figure img{height:clamp(150px,28vw,340px);max-height:none;object-fit:contain}
+ .jk-journal-photo-row .jk-journal-figure img{width:100%;height:auto;max-height:none;object-fit:contain}
  #article-photos.jk-journal-hero{display:block;margin:18px 0 26px!important}
  #article-body.jk-hiking-journal a{font-size:inherit!important;line-height:inherit!important;text-decoration:underline;text-underline-offset:3px}
  @media(max-width:600px){#article-body.jk-hiking-journal p{font-size:16px!important}.jk-journal-figure{margin:16px 0 22px!important}}
@@ -50,6 +50,11 @@
    let target=body;
    if(available.length>1){target=document.createElement('div');target.className='jk-journal-photo-row';target.style.setProperty('--photo-count',available.length);body.append(target)}
    for(const m of available)figure(m.src,m.caption,target);
+   if(available.length>1){
+    const images=[...target.querySelectorAll('img')];
+    const sizeRow=()=>{if(images.some(img=>!img.naturalWidth||!img.naturalHeight))return;const ratios=images.map(img=>img.naturalWidth/img.naturalHeight);target.style.gridTemplateColumns=ratios.map(r=>`minmax(0,${r}fr)`).join(' ');target.style.maxWidth=(ratios.reduce((a,b)=>a+b,0)*340+(images.length-1)*14)+'px';};
+    for(const img of images)img.addEventListener('load',sizeRow,{once:true});sizeRow();
+   }
   }
   let section='';const flush=()=>mediaGroup((journal.media||[]).filter(m=>m.section===section));
   for(const block of (post.body||'').split(/\n\s*\n/)){
