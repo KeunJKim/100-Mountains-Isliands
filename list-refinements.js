@@ -10,6 +10,7 @@
  html body.jk-readable-lists :is(#cards>.card,#island-cards>.ux-island-card,#alps-records>.record,#list>.card,#overseas-list>.trek-card){min-width:0!important;min-height:0!important;height:auto!important;padding:12px!important;white-space:normal!important;overflow-wrap:anywhere;text-align:left}
  html body.jk-readable-lists :is(.card h2,.card h3,.ux-island-card strong,.record h3){line-height:1.45!important}
  .jk-list-extra{margin:6px 0 0;color:#62523f;line-height:1.5}
+ html body dialog#details:not(.hwangmaesan-detail){width:min(calc(710px + 60mm),calc(100vw - 28px))!important;max-width:calc(100vw - 28px)!important}
  html body #detail.detail[open]{display:block!important;position:fixed;inset:0;width:min(980px,94vw);max-width:94vw;max-height:88dvh;overflow:auto;margin:auto!important;box-sizing:border-box;padding:16px!important;overscroll-behavior:contain}
  #detail::backdrop{background:#0009}
  #album-list,.side,.photo-card,.photo-wrap{overflow-anchor:none}
