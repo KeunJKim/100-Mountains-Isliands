@@ -17,6 +17,10 @@
  .reader #article-photos>button img{display:block;width:100%;height:auto;object-fit:contain}
  .reader #article-photos img{max-height:318px!important}
  .jk-journal-figure figcaption{font-size:14px!important;line-height:1.5!important;margin-top:7px!important;text-align:center;color:#635c50}
+ .jk-journal-photo-row{display:grid;grid-template-columns:repeat(var(--photo-count),minmax(0,1fr));gap:16px;margin:18px 0 24px}
+ .jk-journal-photo-row .jk-journal-figure{min-width:0;margin:0!important}
+ .jk-journal-photo-row .jk-journal-figure button{width:100%;background:transparent!important}
+ .jk-journal-photo-row .jk-journal-figure img{height:clamp(150px,28vw,340px);max-height:none;object-fit:contain}
  #article-photos.jk-journal-hero{display:block;margin:18px 0 26px!important}
  #article-body.jk-hiking-journal a{font-size:inherit!important;line-height:inherit!important;text-decoration:underline;text-underline-offset:3px}
  @media(max-width:600px){#article-body.jk-hiking-journal p{font-size:16px!important}.jk-journal-figure{margin:16px 0 22px!important}}
@@ -41,13 +45,19 @@
    f.className='jk-journal-figure';b.type='button';b.setAttribute('aria-label',(caption||post.title)+' 크게 보기');img.src=src;img.alt=caption||post.title;img.loading='lazy';b.append(img);b.onclick=()=>showLight(items,i);c.textContent=caption||post.title;f.append(b,c);target.append(f);
   }
   figure(items[0],journal.heroCaption,photos);
-  let section='';const flush=()=>{for(const m of journal.media||[])if(m.section===section)figure(m.src,m.caption,body)};
+  function mediaGroup(media){
+   const available=media.filter(m=>items.includes(m.src)&&!used.has(m.src));
+   let target=body;
+   if(available.length>1){target=document.createElement('div');target.className='jk-journal-photo-row';target.style.setProperty('--photo-count',available.length);body.append(target)}
+   for(const m of available)figure(m.src,m.caption,target);
+  }
+  let section='';const flush=()=>mediaGroup((journal.media||[]).filter(m=>m.section===section));
   for(const block of (post.body||'').split(/\n\s*\n/)){
    if(!block.trim())continue;
    if((journal.headings||[]).includes(block.trim())){flush();section=block.trim();const h=document.createElement('h3');h.textContent=section;body.append(h)}
    else{const p=document.createElement('p'),first=block.trim().split('\n')[0];if(/[.!?。]$/.test(first)&&!/^https:\/\//.test(first)&&!/^[^·\n]{1,24}\s·/.test(first))p.className='jk-journal-description';appendText(p,block,journal.linkLabels||{});body.append(p)}
   }
-  flush();for(const src of items)figure(src,(journal.media||[]).find(m=>m.src===src)?.caption,body);
+  flush();mediaGroup(items.filter(src=>!used.has(src)).map(src=>({src,caption:(journal.media||[]).find(m=>m.src===src)?.caption})));
   return true;
  }};
 })();
