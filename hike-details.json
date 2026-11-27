@@ -30,7 +30,17 @@
       "updatedAt": "2026-11-24T08:50:45.814Z"
     },
     "3": {
-      "blogUrl": "https://keunjkim.github.io/100-Mountains-Isliands/blog.html#post-gayasan-hapcheon-20211204"
+      "blogUrl": "https://keunjkim.github.io/100-Mountains-Isliands/blog.html#post-gayasan-hapcheon-20211204",
+      "hikeDate": "2021-12-04",
+      "route": "해인사 성보박물관 주차장 -> 해인사 -> 토신골 -> 상왕봉 -> 가야산 정상 -> 원점복귀",
+      "distanceKm": 13,
+      "summitElevationM": 1430,
+      "elevationGainM": "",
+      "parking": "",
+      "difficulty": "보통",
+      "weather": "",
+      "notes": "",
+      "updatedAt": "2026-11-27T13:18:22.181Z"
     },
     "5": {
       "hikeDate": "2026-07-12",
