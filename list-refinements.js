@@ -52,13 +52,30 @@
  const homeStage=document.querySelector('.stage[aria-label="산길 바다길 홈페이지 첫 화면"]');
  if(homeStage){
   const options=new Map(menus);options.set('blog.html',[['산행·여행 이야기','blog.html'],['새 산행 글 작성','blog.html?compose=1'],['네이버 산행 블로그','https://blog.naver.com/kunjkim']]);options.set('other-hikes.html',[['명산외산행 목록','other-hikes.html'],['영남알프스 목록','yeongnam-alps.html'],['영남알프스 지도','yeongnam-alps-map.html'],['해외트래킹','overseas-trekking.html'],['기록 보충 목록','records-to-complete.html']]);
-  const popup=document.createElement('div');popup.hidden=true;popup.setAttribute('role','dialog');popup.setAttribute('aria-label','관련 하위메뉴');popup.style.cssText='position:fixed;z-index:40;box-sizing:border-box;width:280px;max-width:calc(100vw - 24px);padding:12px;border:1px solid #8eaabd;border-radius:12px;background:#fff;box-shadow:0 8px 24px #06243d55;color:#123d59';document.body.append(popup);let active=null;
-  function close(){popup.hidden=true;if(active)active.setAttribute('aria-expanded','false');}
-  for(const a of document.querySelectorAll('.stage a.hotspot,.mobile-links a')){
-   const items=options.get(new URL(a.href).pathname.split('/').pop());if(!items)continue;a.setAttribute('aria-haspopup','dialog');a.setAttribute('aria-expanded','false');
-   a.addEventListener('click',event=>{event.preventDefault();if(active===a&&!popup.hidden){close();return;}close();active=a;popup.replaceChildren();const title=document.createElement('strong');title.textContent=a.getAttribute('aria-label')||a.textContent;title.style.cssText='display:block;padding:8px 10px;font:700 18px/1.5 sans-serif';popup.append(title);for(const[text,path]of items){const link=document.createElement('a');link.href=path;link.textContent=text;link.style.cssText='display:block;padding:11px 12px;min-height:49px;border-top:1px solid #d9e5ed;font:18px/1.5 sans-serif;color:#123d59;text-decoration:none';popup.append(link);}const dismiss=document.createElement('button');dismiss.textContent='닫기';dismiss.type='button';dismiss.style.cssText='margin:8px 0 0;padding:8px 14px;min-height:40px;font:16px/1.5 sans-serif;border:1px solid #a7bac7;border-radius:6px;background:#edf4f7;color:#123d59';dismiss.onclick=close;popup.append(dismiss);popup.hidden=false;a.setAttribute('aria-expanded','true');const r=a.getBoundingClientRect();popup.style.left=Math.max(12,Math.min(innerWidth-popup.offsetWidth-12,r.left))+'px';popup.style.top=Math.max(12,Math.min(innerHeight-popup.offsetHeight-12,r.bottom+6))+'px';popup.querySelector('a')?.focus({preventScroll:true});});
+  const popup=document.createElement('div');popup.hidden=true;popup.setAttribute('role','dialog');popup.setAttribute('aria-label','관련 하위메뉴');popup.style.cssText='position:fixed;z-index:40;box-sizing:border-box;width:280px;max-width:calc(100vw - 24px);padding:12px;border:1px solid #8eaabd;border-radius:12px;background:#fff;box-shadow:0 8px 24px #06243d55;color:#123d59';document.body.append(popup);
+  let active=null,closeTimer=0,ignoringFocus=false;const triggers=[];
+  const keepOpen=()=>{clearTimeout(closeTimer);closeTimer=0;};
+  function close(){keepOpen();popup.hidden=true;if(active)active.setAttribute('aria-expanded','false');}
+  const leave=()=>{keepOpen();closeTimer=setTimeout(close,180);};
+  function show(a,focusFirst=false){
+   keepOpen();if(active!==a||popup.hidden){if(active)active.setAttribute('aria-expanded','false');active=a;popup.replaceChildren();
+    for(const[text,path]of options.get(new URL(a.href).pathname.split('/').pop())){const link=document.createElement('a');link.href=path;link.textContent=text;link.style.cssText='display:block;padding:11px 12px;min-height:49px;border-top:1px solid #d9e5ed;font:18px/1.5 sans-serif;color:#123d59;text-decoration:none';if(!popup.childElementCount)link.style.borderTop='0';popup.append(link);}
+    popup.hidden=false;a.setAttribute('aria-expanded','true');const r=a.getBoundingClientRect();popup.style.left=Math.max(12,Math.min(innerWidth-popup.offsetWidth-12,r.left))+'px';popup.style.top=Math.max(12,Math.min(innerHeight-popup.offsetHeight-12,r.bottom+6))+'px';
+   }
+   if(focusFirst)popup.querySelector('a')?.focus({preventScroll:true});
   }
-  document.addEventListener('click',event=>{if(!popup.contains(event.target)&&!event.target.closest('.stage a.hotspot,.mobile-links a'))close();});document.addEventListener('keydown',event=>{if(event.key==='Escape'){close();active?.focus({preventScroll:true});}});window.addEventListener('resize',close);
+  for(const a of document.querySelectorAll('.stage a.hotspot,.mobile-links a')){
+   if(!options.has(new URL(a.href).pathname.split('/').pop()))continue;triggers.push(a);a.setAttribute('aria-haspopup','dialog');a.setAttribute('aria-expanded','false');
+   a.addEventListener('pointerenter',e=>{if(e.pointerType!=='touch')show(a);});a.addEventListener('pointerleave',e=>{if(e.pointerType!=='touch')leave();});
+   a.addEventListener('focus',()=>{if(!ignoringFocus)show(a);});
+   a.addEventListener('click',e=>{e.preventDefault();show(a,e.detail===0);});
+   a.addEventListener('keydown',e=>{if(['ArrowDown','Enter',' '].includes(e.key)){e.preventDefault();show(a,true);}});
+  }
+  popup.addEventListener('pointerenter',keepOpen);popup.addEventListener('pointerleave',leave);
+  popup.addEventListener('keydown',e=>{const links=[...popup.querySelectorAll('a')],index=links.indexOf(document.activeElement);let next;if(e.key==='ArrowDown')next=(index+1)%links.length;else if(e.key==='ArrowUp')next=(index-1+links.length)%links.length;else if(e.key==='Home')next=0;else if(e.key==='End')next=links.length-1;else return;e.preventDefault();links[next]?.focus();});
+  document.addEventListener('click',e=>{if(!popup.contains(e.target)&&!triggers.some(a=>a.contains(e.target)))close();});
+  document.addEventListener('focusin',e=>{if(!popup.contains(e.target)&&!triggers.some(a=>a.contains(e.target)))close();});
+  document.addEventListener('keydown',e=>{if(e.key==='Escape'&&!popup.hidden){e.preventDefault();close();ignoringFocus=true;active?.focus({preventScroll:true});ignoringFocus=false;}});window.addEventListener('resize',close);
  }
  // Keep gallery selection and the outer page at the same position after list redraws.
  document.addEventListener('click',event=>{
