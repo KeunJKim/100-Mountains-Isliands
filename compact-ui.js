@@ -11,7 +11,7 @@
  html body.jk-hiking-home .hero-copy .buttons{display:grid!important;grid-template-columns:repeat(6,minmax(0,1fr))!important;gap:3px!important;margin-top:7px!important}
  html body.jk-representative-home .hero-copy .buttons{display:flex!important;flex-wrap:wrap!important;gap:5px!important;margin-top:7px!important}
  html body .hero-copy .buttons .button{white-space:normal!important;min-width:0!important;line-height:1.35!important}
- html body .jk-compact-menu .jk-nav-drop{min-width:min(264px,calc(100vw - 24px))!important;max-width:calc(100vw - 24px)!important;padding:18px!important;gap:6px!important;max-height:70dvh;overflow:auto}
+ html body .jk-compact-menu .jk-nav-drop{width:max-content!important;min-width:min(144px,calc(100vw - 24px))!important;max-width:calc(100vw - 24px)!important;padding:6px!important;gap:2px!important;max-height:70dvh;overflow:auto}
  html body .jk-compact-menu .jk-all-panel{gap:16px!important;padding:22px!important}
  html body .side .alb-btn{gap:13.2px;min-width:0;box-sizing:border-box}
  html body .side .alb-name{min-width:0;white-space:normal!important;overflow:visible!important;text-overflow:clip!important}
@@ -59,6 +59,7 @@
   if(c.height!=='auto'&&node.matches('.leaflet-control a,button#close,button.close'))node.style.setProperty('height',(Math.max(24,px(c.height)*.8)*(detailAction?1.3:1))+'px','important');
   if(photoClose&&node.matches('#lb-close')){node.style.setProperty('width',(px(c.width)*1.3).toFixed(2)+'px','important');node.style.setProperty('height',(px(c.height)*1.3).toFixed(2)+'px','important');}
   else if(photoClose&&node.matches('button.close'))node.style.setProperty('height',(Math.max(24,px(c.height)*.8)*1.3).toFixed(2)+'px','important');
+  if(node.matches('.jk-nav-drop>a')){node.style.setProperty('padding','6px 10px','important');node.style.setProperty('min-height','34px','important');}
   done.add(node);
  }
 
