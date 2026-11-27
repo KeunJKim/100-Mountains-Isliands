@@ -36,11 +36,12 @@
       "distanceKm": 13,
       "summitElevationM": 1430,
       "elevationGainM": "",
-      "parking": "",
+      "parking": "해인사 성보박물관 주차장, 해인사주변주차장, 대중교통 해인사버스 정류장하차",
       "difficulty": "보통",
       "weather": "",
       "notes": "",
-      "updatedAt": "2026-11-27T13:18:22.181Z"
+      "updatedAt": "2026-11-27T13:32:07.273Z",
+      "start": "해인사 성보박물관 주차장"
     },
     "4": {
       "hikeDate": "2021-12-26",
