@@ -23,11 +23,15 @@
 .nav-stories{left:74.2%;top:.5%;width:7.2%;height:8.6%}
 .nav-about{left:82.1%;top:.5%;width:5.4%;height:8.6%}
 .nav-search{left:88.4%;top:.5%;width:9.4%;height:8.6%;cursor:pointer;border:0;background:transparent}
-.tile-mountains{left:26.8347%;top:70.2240%;width:9.0437%;height:15.2833%}
-.tile-islands{left:37.9540%;top:70.2240%;width:9.0437%;height:15.2833%}
-.tile-info{left:49.0734%;top:70.2240%;width:9.0437%;height:15.2833%}
-.tile-gallery{left:60.1927%;top:70.2240%;width:9.0437%;height:15.2833%}
-.tile-stories{left:71.3121%;top:70.2240%;width:9.0437%;height:15.2833%}
+.tile-mountains{left:27.057079%;top:70.619236%;width:8.598962%;height:14.492754%;--tile-clean-x:29.402129%;--tile-image-x:29.502852%}
+.tile-islands{left:38.176427%;top:70.619236%;width:8.598962%;height:14.492754%;--tile-clean-x:41.687142%;--tile-image-x:41.727791%}
+.tile-info{left:49.295775%;top:70.619236%;width:8.598962%;height:14.492754%;--tile-clean-x:53.972154%;--tile-image-x:53.952730%}
+.tile-gallery{left:60.415122%;top:70.619236%;width:8.598962%;height:14.492754%;--tile-clean-x:66.257166%;--tile-image-x:66.177669%}
+.tile-stories{left:71.534470%;top:70.619236%;width:8.598962%;height:14.492754%;--tile-clean-x:78.542179%;--tile-image-x:78.402608%}
+/* Resize only the five picture buttons; reuse the existing clean artwork behind their edges. */
+.stage .hotspot[class*="tile-"]::before{content:"";position:absolute;inset:calc(-6 / 110 * 100%) calc(-6 / 116 * 100%);background-image:url("home-button-backdrop.png");background-size:1053.90625% 622.131148%;background-position:var(--tile-clean-x) 83.202512%;mask-image:linear-gradient(to right,transparent,#000 2px,#000 calc(100% - 2px),transparent),linear-gradient(to bottom,transparent,#000 2px,#000 calc(100% - 2px),transparent);mask-composite:intersect;pointer-events:none}
+.stage .hotspot[class*="tile-"]:is(:hover,:focus-visible) .tile-art{outline:3px solid #56ca68;outline-offset:-3px;box-shadow:0 0 0 4px #ffffff5c}
+.tile-art{display:block;position:absolute;inset:0;border-radius:17%;background-image:url("home-visual-lower-trail.png");background-size:1105.737705% 654.310345%;background-position:var(--tile-image-x) 82.892690%;pointer-events:none}
 .mobile-links{display:none;padding:16px;background:#082d58;gap:9px;grid-template-columns:repeat(2,minmax(0,1fr))}
 .mobile-links a{display:flex;align-items:center;justify-content:center;text-align:center;border:1px solid #8ec7e7;border-radius:10px;color:white;padding:12px 7px;font-size:14px;font-weight:700}
 .mobile-links a:first-child{grid-column:span 2;color:#c7fb98}
@@ -59,11 +63,11 @@
     <a class="hotspot nav-stories" href="blog.html" aria-label="여행 이야기"></a>
     <a class="hotspot nav-about" href="#additional-links" aria-label="소개"></a>
     <button class="hotspot nav-search" id="open-search" aria-label="산·섬·산행 기록 검색" aria-controls="search-panel" aria-expanded="false"></button>
-    <a class="hotspot tile-mountains" href="mountains.html" aria-label="100산 산행기 바로가기"></a>
-    <a class="hotspot tile-islands" href="islands.html" aria-label="100섬 여행기 바로가기"></a>
-    <a class="hotspot tile-info" href="other-hikes.html" aria-label="산행·여행 정보 바로가기"></a>
-    <a class="hotspot tile-gallery" href="gallery.html" aria-label="사진 갤러리 바로가기"></a>
-    <a class="hotspot tile-stories" href="blog.html" aria-label="여행 이야기 바로가기"></a>
+    <a class="hotspot tile-mountains" href="mountains.html" aria-label="100산 산행기 바로가기"><span class="tile-art" aria-hidden="true"></span></a>
+    <a class="hotspot tile-islands" href="islands.html" aria-label="100섬 여행기 바로가기"><span class="tile-art" aria-hidden="true"></span></a>
+    <a class="hotspot tile-info" href="other-hikes.html" aria-label="산행·여행 정보 바로가기"><span class="tile-art" aria-hidden="true"></span></a>
+    <a class="hotspot tile-gallery" href="gallery.html" aria-label="사진 갤러리 바로가기"><span class="tile-art" aria-hidden="true"></span></a>
+    <a class="hotspot tile-stories" href="blog.html" aria-label="여행 이야기 바로가기"><span class="tile-art" aria-hidden="true"></span></a>
   </section>
   <nav class="mobile-links" aria-label="휴대전화용 메뉴">
     <a href="./">산길 바다길 홈</a><a href="mountains.html">⛰ 100산 산행기</a><a href="islands.html">🏝 100섬 여행기</a>
@@ -87,6 +91,6 @@
 </div>
 <script defer src="destination-search.js?v=20261124-updated-content1"></script>
 <script defer src="home-search.js?v=20261124-refresh-reset2"></script>
-<script defer src="list-refinements.js?v=20261127-home-hover1"></script>
+<script defer src="list-refinements.js?v=20261127-home-compact1"></script>
 </body>
 </html>

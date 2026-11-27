@@ -175,6 +175,22 @@ function gpsCompanionButton(box,kind,rec,form){
  const tools=el('div',null,'ux-actions');tools.append(button,notice);return tools;
 }
 
+function openGpsAlongsideEditor(form,box){
+ const parent=box.closest('dialog[open],[role="dialog"][aria-modal="true"]');if(!parent)return;
+ const date=form.elements.hikeDate?.value;let finished=false,timer,observer;
+ const clean=()=>{finished=true;clearTimeout(timer);observer?.disconnect();window.removeEventListener('jk-gps-map-ready',attempt);parent.removeEventListener('close',clean);form.elements.hikeDate?.removeEventListener('change',clean);};
+ const reveal=()=>requestAnimationFrame(()=>{if(!form.isConnected)return;const bar=parent.querySelector(':scope>.jk-editor-window-bar'),gap=(bar?.getBoundingClientRect().height||0)+24;parent.scrollTop=Math.max(0,parent.scrollTop+form.getBoundingClientRect().top-parent.getBoundingClientRect().top-gap);});
+ function attempt(){
+  if(finished)return;if(!form.isConnected||form.elements.hikeDate?.value!==date){clean();return;}
+  const existing=parent.querySelector('.jk-gps-large-dialog');if(existing?.dataset.hikeDate===date){clean();reveal();return;}
+  const visit=[...parent.querySelectorAll('.visit')].find(v=>visitDate(v)===date&&!v.classList.contains('ux-deleted-visit'));
+  const map=visit?.querySelector('.hike-map,.tranggle-gps-map');if(!map||!window.JKGpsMapActions?.open)return;
+  clean();window.JKGpsMapActions.open(map,form.querySelector('button'));reveal();
+ }
+ observer=new MutationObserver(attempt);observer.observe(parent,{childList:true,subtree:true});window.addEventListener('jk-gps-map-ready',attempt);parent.addEventListener('close',clean);form.elements.hikeDate?.addEventListener('change',clean);
+ timer=setTimeout(()=>{if(finished)return;clean();if(!form.isConnected)return;const note=el('p','선택한 산행일에 연결된 GPS 지도를 자동으로 열지 못했습니다. 수정은 계속할 수 있습니다.','ux-help ux-gps-auto-status');note.setAttribute('role','status');form.querySelector('.ux-form-grid')?.before(note);},8000);
+ requestAnimationFrame(attempt);
+}
 function renderForm(box,kind,rec){
  sessionToken=window.JKOwnerSession?.getToken()||sessionToken;
  const values=infoOf(kind,rec),original=infoOf(kind,rec,false),form=el('form',null,'ux-form');form.autocomplete='off';
@@ -220,7 +236,7 @@ function renderForm(box,kind,rec){
    save.disabled=false;cancel.textContent='상세 정보 보기';notice.scrollIntoView({block:'nearest',behavior:'smooth'});
   }catch(error){status(notice,`저장하지 못했습니다: ${error.message}`,true);save.disabled=false}
  });
- box.replaceChildren(form);
+ box.replaceChildren(form);openGpsAlongsideEditor(form,box);
 }
 const activePanels=new Map();
 function visitDate(section){const text=section.querySelector('h3')?.textContent||'';const m=text.match(/^(\d{4})[.-](\d{2})[.-](\d{2})/);return m?m.slice(1).join('-'):'';}
