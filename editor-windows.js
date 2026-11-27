@@ -22,6 +22,19 @@
  .jk-editor-window.jk-editor-resizing iframe{pointer-events:none}
  `;document.head.append(style);
  const interactive='button,a,input,select,textarea,[contenteditable=true]';
+ // A cross-pane release can synthesize a click on the ancestor dialog (its backdrop handler).
+ // Keep drag gestures distinct from explicit clicks; never rebuild or clear the form here.
+ let editGesture=null,dragRelease=null,draggedEditor=null;
+ document.addEventListener('pointerdown',e=>{dragRelease=null;resizeClickUntil=0;const panel=e.target.closest?.('.jk-editor-window');if(!panel){editGesture=null;return;}const r=panel.getBoundingClientRect();editGesture=e.clientX>=r.left&&e.clientX<=r.right&&e.clientY>=r.top&&e.clientY<=r.bottom?{panel,id:e.pointerId,x:e.clientX,y:e.clientY}:null;},true);
+ document.addEventListener('pointerup',e=>{const start=editGesture;editGesture=null;if(!start||start.id!==e.pointerId)return;const end=e.target.closest?.('.jk-editor-window');if(end!==start.panel||Math.hypot(e.clientX-start.x,e.clientY-start.y)>6)dragRelease={x:e.clientX,y:e.clientY,until:Date.now()+700};},true);
+ document.addEventListener('pointercancel',()=>{editGesture=null;},true);
+ document.addEventListener('click',e=>{if(!dragRelease)return;const release=dragRelease;dragRelease=null;if(release.until>=Date.now()&&Math.hypot(e.clientX-release.x,e.clientY-release.y)<=6){e.preventDefault();e.stopImmediatePropagation();resizeClickUntil=0;}},true);
+ document.addEventListener('dragstart',e=>{draggedEditor=e.target.closest?.('form')?.closest('.jk-editor-window')||null;},true);
+ const formDropOnMap=e=>draggedEditor&&e.target.closest?.('.jk-gps-large-dialog,.hike-map,.tranggle-gps-map,.leaflet-container');
+ document.addEventListener('dragover',e=>{if(!formDropOnMap(e))return;e.preventDefault();if(e.dataTransfer)e.dataTransfer.dropEffect='none';},true);
+ document.addEventListener('drop',e=>{if(!formDropOnMap(e))return;e.preventDefault();e.stopImmediatePropagation();draggedEditor=null;},true);
+ document.addEventListener('dragend',()=>{draggedEditor=null;},true);
+
  document.addEventListener('pointerdown',e=>{const panel=e.target.closest?.('.jk-editor-window');if(!panel)return;const r=panel.getBoundingClientRect();if(e.clientX>=r.right-24&&e.clientY>=r.bottom-24&&e.clientX<=r.right&&e.clientY<=r.bottom)resizeClickUntil=Date.now()+60000;},true);
  document.addEventListener('pointerup',()=>{if(resizeClickUntil>Date.now())resizeClickUntil=Date.now()+500;},true);
  document.addEventListener('click',e=>{if(resizeClickUntil>Date.now()){e.preventDefault();e.stopImmediatePropagation();resizeClickUntil=0;}},true);

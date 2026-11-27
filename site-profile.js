@@ -89,7 +89,7 @@ document.addEventListener('click',e=>{if(!menu.contains(e.target))close();});doc
 (()=>{const s=document.createElement("script");s.src="https://keunjkim.github.io/100-Mountains-Isliands/gallery-context.js?v=20261120-islands1";document.head.append(s);})();
 
 /* 목록 정리·위치 유지·사진 저장 억제 */
-(()=>{const s=document.createElement("script");s.src="https://keunjkim.github.io/100-Mountains-Isliands/list-refinements.js?v=20261124-updated-content1";document.head.append(s);})();
+(()=>{const s=document.createElement("script");s.src="https://keunjkim.github.io/100-Mountains-Isliands/list-refinements.js?v=20261127-home-menu1";document.head.append(s);})();
 
 /* 공통 메뉴와 목록의 방향키 이동 */
 (()=>{const s=document.createElement('script');s.src='https://keunjkim.github.io/100-Mountains-Isliands/keyboard-navigation.js?v=20261120-keys2';document.head.append(s);})();
@@ -113,4 +113,4 @@ document.addEventListener('click',e=>{if(!menu.contains(e.target))close();});doc
 (()=>{const s=document.createElement('script');s.src='https://keunjkim.github.io/100-Mountains-Isliands/search-session.js?v=20261124-search-scope5';document.head.append(s);})();
 
 /* 모든 관리자 수정창의 제목줄 위치 이동 */
-(()=>{const s=document.createElement('script');s.src='https://keunjkim.github.io/100-Mountains-Isliands/editor-windows.js?v=20261124-drag5';document.head.append(s);})();
+(()=>{const s=document.createElement('script');s.src='https://keunjkim.github.io/100-Mountains-Isliands/editor-windows.js?v=20261127-drag-retain1';document.head.append(s);})();
