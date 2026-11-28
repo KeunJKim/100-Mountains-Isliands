@@ -20,6 +20,9 @@
  .jk-journal-overview li{display:flex;align-items:flex-start;gap:8px;min-width:0;padding:11px 12px;border:1px solid #d8c6a6;border-radius:7px;background:#faf6ed;font-size:16px;line-height:1.65;overflow-wrap:anywhere;counter-increment:overview}
  .jk-journal-overview li::before{content:counter(overview);display:inline-flex;align-items:center;justify-content:center;flex:0 0 23px;height:23px;border:1px solid #abb99a;border-radius:4px;background:#e9efdf;color:#35543a;font-size:13px;font-weight:700}
  .jk-journal-overview .jk-overview-wide{grid-column:1/-1}
+ .jk-journal-course{margin:0 0 16px;padding:10px 12px;border:1px solid #d8c6a6;border-radius:7px;background:#faf6ed}
+ .jk-journal-course dt{font-weight:bold;margin-bottom:4px}
+ .jk-journal-course dd{margin:0;overflow-wrap:anywhere}
  @media(max-width:650px){.jk-journal-overview{grid-template-columns:repeat(2,minmax(0,1fr))}}
  @media(max-width:420px){.jk-journal-overview{grid-template-columns:minmax(0,1fr)}}
  .jk-journal-figure{display:block;width:100%;margin:18px 0 24px!important;break-inside:avoid}
@@ -40,6 +43,30 @@
  @media(max-width:600px){#article-body.jk-hiking-journal p{font-size:16px!important}.jk-journal-figure{margin:16px 0 22px!important}}
  `;
  document.head.append(style);
+ let detailsRequest;
+ function addRecordedCourse(post,overview){
+  const keys={mountain:'mountains',island:'islands'};
+  const key=keys[post.category];
+  const refs=post.listIds;
+  if(!key||!post.hikeDate||!Array.isArray(refs)||refs.length!==1)return;
+  const id=refs[0].match(post.category==='mountain'?/^m-(\d+)$/:/^i-(\d+)$/)?.[1];
+  if(!id)return;
+  detailsRequest??=fetch('hike-details.json',{cache:'no-cache'}).then(response=>{
+   if(!response.ok)throw Error('Hike details unavailable');
+   return response.json();
+  }).catch(()=>{detailsRequest=null;});
+  detailsRequest.then(details=>{
+   const hike=details?.[key]?.[id];
+   const route=typeof hike?.route==='string'?hike.route.trim():'';
+   if(!overview.isConnected||!route||hike.hikeDate!==post.hikeDate)return;
+   const course=document.createElement('dl'),label=document.createElement('dt'),value=document.createElement('dd');
+   course.className='jk-journal-course';
+   label.textContent='실제 산행 코스';
+   value.textContent=route.replace(/\s*->\s*/g,' → ');
+   course.append(label,value);
+   overview.after(course);
+  });
+ }
  function appendText(node,text,labels){
   const re=/https:\/\/[^\s]+/g;let end=0;
   for(const match of text.matchAll(re)){
@@ -89,7 +116,7 @@
    else if(/^(?:이날의 )?산행 한눈에$/.test(section)&&!overviewDone){
     overviewDone=true;const list=document.createElement('ol');list.className='jk-journal-overview';list.setAttribute('aria-label','산행 요약');
     for(const line of block.trim().split('\n').filter(Boolean))for(const text of (line.startsWith('산행강도')?[line]:line.split(' · '))){const item=document.createElement('li');item.textContent=text.trim();if(text.includes('→'))item.className='jk-overview-wide';list.append(item)}
-    body.append(list);
+    body.append(list);addRecordedCourse(post,list);
    }
    else{const p=document.createElement('p'),first=block.trim().split('\n')[0];if(/[.!?。]$/.test(first)&&!/^https:\/\//.test(first)&&!/^[^·\n]{1,24}\s·/.test(first))p.className='jk-journal-description';appendText(p,block,journal.linkLabels||{});body.append(p)}
   }
