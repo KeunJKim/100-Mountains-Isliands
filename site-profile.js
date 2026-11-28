@@ -22,7 +22,8 @@ save.onclick=async()=>{if(busy||!safeImage(selected))return;let secret=token.val
 (() => {'use strict';
 const key='jk-owner-session-token',base='https://keunjkim.github.io/100-Mountains-Isliands/';
 const el=(tag,text,cls)=>{const n=document.createElement(tag);if(text)n.textContent=text;if(cls)n.className=cls;return n;};
-let secret='',busy=false;try{secret=sessionStorage.getItem(key)||'';localStorage.removeItem('jk-owner-interface');}catch{}
+let secret='',busy=false;
+try{localStorage.removeItem('jk-owner-interface');}catch{}
 function apply(value){document.body.classList.toggle('jk-owner-mode',value);const trigger=document.querySelector('.jk-profile-trigger');if(trigger){trigger.disabled=!value;trigger.title=value?'프로필 사진 교체':'프로필 사진';trigger.setAttribute('aria-label',value?'김종근 JK KJK 프로필 사진 교체':'김종근 JK KJK 프로필 사진');}for(const a of document.querySelectorAll('a.ux-edit-btn[href*="gallery.html"]')){const text=value?'사진 갤러리에서 사진 보기·관리 →':'사진 갤러리에서 사진 보기 →';if(a.textContent!==text)a.textContent=text;}}
 function endSession(){secret='';try{sessionStorage.removeItem(key);localStorage.removeItem('jk-owner-interface');}catch{}apply(false);location.reload();}
 window.JKOwnerSession=Object.freeze({getToken:()=>secret,end:endSession,open:()=>open()});
@@ -55,7 +56,21 @@ dialog.addEventListener('cancel',e=>{if(busy)e.preventDefault();});dialog.addEve
 connect.onclick=async()=>{if(busy)return;let value=input.value.trim();input.value='';if(!value){status.textContent='관리 토큰을 입력해 주세요.';input.focus();return;}busy=true;connect.disabled=input.disabled=close.disabled=true;status.textContent='GitHub 소유자와 저장소 접근 권한을 확인하고 있습니다…';try{const headers={Accept:'application/vnd.github+json',Authorization:'Bearer '+value};const r=await fetch('https://api.github.com/user',{headers,cache:'no-store'});if(!r.ok)throw Error('인증 실패 (HTTP '+r.status+')');const me=await r.json();if(String(me.login).toLowerCase()!=='keunjkim')throw Error('홈페이지 소유자 계정이 아닙니다.');const repo=await fetch('https://api.github.com/repos/KeunJKim/100-Mountains-Isliands',{headers,cache:'no-store'});if(!repo.ok)throw Error('저장소 연결 실패 (HTTP '+repo.status+')');const data=await repo.json();if(data.permissions?.push===false)throw Error('저장소 쓰기 권한이 필요합니다. Contents 읽기/쓰기 권한을 확인하세요.');sessionStorage.setItem(key,value);secret=value;apply(true);showTasks();window.dispatchEvent(new Event('jk-owner-connected'));}catch(e){status.textContent=e.message;}finally{value='';busy=false;connect.disabled=input.disabled=close.disabled=false;}};
 input.addEventListener('keydown',e=>{if(e.key==='Enter'){e.preventDefault();connect.click();}});
 const privateActions=el('div',null,'jk-owner-actions');privateActions.setAttribute('data-nosnippet','');const endButton=el('button','작업 종료');endButton.type='button';endButton.onclick=endSession;privateActions.append(endButton);document.body.append(privateActions);
-const ready=()=>{if(secret)window.dispatchEvent(new Event('jk-owner-connected'));if(new URLSearchParams(location.search).get('manage')==='1')open();};if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',ready,{once:true});else ready();
+const ready=async()=>{
+ let stored='';
+ try{stored=sessionStorage.getItem(key)||'';}catch{}
+ if(stored&&!secret){
+  try{
+   const response=await fetch('https://api.github.com/user',{headers:{Accept:'application/vnd.github+json',Authorization:'Bearer '+stored},cache:'no-store'});
+   if(response.status===401||(response.ok&&String((await response.json()).login).toLowerCase()!=='keunjkim')){
+    if(sessionStorage.getItem(key)===stored)sessionStorage.removeItem(key);
+   }else if(response.ok&&sessionStorage.getItem(key)===stored&&!secret){
+    secret=stored;apply(true);window.dispatchEvent(new Event('jk-owner-connected'));
+   }
+  }catch{/* A temporary network failure leaves the saved session available for a retry. */}
+ }
+ if(new URLSearchParams(location.search).get('manage')==='1')open();
+};if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',ready,{once:true});else ready();
 })();
 
 /* 마우스·키보드·터치에서 함께 사용할 수 있는 공통 메뉴 */
@@ -68,7 +83,8 @@ let crumb=document.querySelector('#ux-navigation .ux-breadcrumb');if(!crumb){cru
 const base='https://keunjkim.github.io/100-Mountains-Isliands/';
 const sections=[['BAC 100대명산',[['명산 목록','mountains.html'],['명산 지도','mountains-map.html'],['명산 사진','gallery.html?group=mountain']]],['BAC 섬&산100',[['섬&산 목록','islands.html'],['섬&산 지도','islands-map.html'],['섬&산 사진','gallery.html?group=island']]],['영남알프스',[['영남알프스 산행','yeongnam-alps.html'],['영남알프스 지도','yeongnam-alps-map.html'],['영남알프스 사진','gallery.html?group=alps']]],['해외트래킹',[['해외트래킹 기록','overseas-trekking.html'],['해외트래킹 글쓰기','blog.html?compose=overseas']]],['사진 갤러리',[['전체 사진','gallery.html'],['명산 사진','gallery.html?group=mountain'],['섬&산 사진','gallery.html?group=island'],['영남알프스 사진','gallery.html?group=alps'],['명산외산행 사진','gallery.html?group=other']]],['산행 기록',[['산행 블로그','blog.html'],['명산외산행','other-hikes.html'],['해외트래킹','overseas-trekking.html'],['기록 보충 목록','records-to-complete.html'],['GPS 산행기 작성','gpx-import.html']]]];
 const el=(tag,text,cls)=>{const n=document.createElement(tag);if(text)n.textContent=text;if(cls)n.className=cls;return n;};
-const link=(label,path)=>{const a=el('a',label);a.href=path.startsWith('https:')?path:base+path;if(new URL(a.href).pathname===location.pathname&&!a.href.includes('?'))a.setAttribute('aria-current','page');return a;};
+const link=(label,path)=>{const a=el('a',label);a.href=path.startsWith('https:')?path:base+path;if(path.includes('?compose=')||path==='gpx-import.html'){a.classList.add('jk-private-nav');a.setAttribute('data-nosnippet','');}if(new URL(a.href).pathname===location.pathname&&!a.href.includes('?'))a.setAttribute('aria-current','page');return a;};
+const ownerStyle=el('style');ownerStyle.textContent='body:not(.jk-owner-mode) :is(.jk-site-admin-entry,.jk-private-nav){display:none!important}';document.head.append(ownerStyle);
 menu.replaceChildren(link('대표 홈','https://keunjkim.github.io/'),link('산행 홈',base));
 for(const [title,items] of sections){const group=el('details',null,'jk-nav-group'),summary=el('summary',title+' ⌄'),drop=el('div',null,'jk-nav-drop');summary.setAttribute('aria-expanded','false');for(const [name,path] of items)drop.append(link(name,path));group.append(summary,drop);menu.append(group);}
 const all=el('details',null,'jk-all-menu'),allSummary=el('summary','☰ 전체 메뉴'),panel=el('div',null,'jk-all-panel');allSummary.setAttribute('aria-expanded','false');const homes=el('section');homes.append(el('strong','홈으로'),link('대표 홈','https://keunjkim.github.io/'),link('산행 홈',base));panel.append(homes);for(const [title,items]of sections){const section=el('section');section.append(el('strong',title));for(const [name,path]of items)section.append(link(name,path));panel.append(section);}all.append(allSummary,panel);menu.append(all);
@@ -79,7 +95,7 @@ for(const g of groups){let timer;const summary=g.querySelector('summary');const 
 document.addEventListener('click',e=>{if(!menu.contains(e.target))close();});document.addEventListener('keydown',e=>{if(e.key==='Escape'){const active=groups.find(g=>g.open);close();if(active)active.querySelector('summary').focus();close();}});
 })();
 /* 모든 페이지에서 동일한 관리자 연결 창 사용 */
-(() => {'use strict';const menu=document.querySelector('.jk-compact-menu');if(!menu)return;const entry=document.createElement('a');entry.className='jk-site-admin-entry';entry.textContent='관리자 메뉴';entry.href='?manage=1';entry.setAttribute('aria-label','관리자 메뉴');entry.style.setProperty('display','inline-flex','important');const all=menu.querySelector('.jk-all-menu');if(all)all.before(entry);else menu.append(entry);entry.onclick=e=>{e.preventDefault();window.JKOwnerSession.open();};})();
+(() => {'use strict';const menu=document.querySelector('.jk-compact-menu');if(!menu)return;const entry=document.createElement('a');entry.className='jk-site-admin-entry';entry.textContent='관리자 메뉴';entry.href='?manage=1';entry.setAttribute('data-nosnippet','');const all=menu.querySelector('.jk-all-menu');if(all)all.before(entry);else menu.append(entry);entry.onclick=e=>{e.preventDefault();if(window.JKOwnerSession.getToken())window.JKOwnerSession.open();};})();
 
 /* 모든 산행 목록·GPX 산행기의 지도 연결 기능 */
 (()=>{const s=document.createElement("script");s.src="https://keunjkim.github.io/100-Mountains-Isliands/gps-map-actions.js?v=20261127-auto-edit1";document.head.append(s);})();

@@ -26,6 +26,21 @@
    const prefix='['+refs.map(r=>String(r.no).padStart(3,'0')).join('·')+']';
    return prefix+' '+String(title||'').replace(/^\s*\[\d{1,3}(?:[·,\s]+\d{1,3})*\]\s*/,'');
   },
+  formatPost(post,refs){
+   if(!refs.length)return post;
+   const description=api.title(post.title,refs).replace(/^\[[^\]]+\]\s*/,'').replace(/^★\s*/,'');
+   const name=post.place==='신불산·간월산'&&refs[0].id==='m-58'?post.place:refs.map(ref=>ref.name).join('·');
+   const title=api.title(name,refs);
+   const body=description&&description!==name&&description!==post.body.split('\n')[0]
+    ?description+'\n\n'+post.body:post.body;
+   return {...post,title,body};
+  },
+  compare(a,b){
+   const [firstA]=api.resolve(a),[firstB]=api.resolve(b);
+   const group=ref=>!ref?2:ref.kind==='mountain'?0:1;
+   return group(firstA)-group(firstB)||(firstA?.no??0)-(firstB?.no??0)||
+    (b.hikeDate||b.createdAt||'').localeCompare(a.hikeDate||a.createdAt||'');
+  },
   links(post,target){
    target.replaceChildren();
    for(const ref of api.resolve(post)){

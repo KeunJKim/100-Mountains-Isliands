@@ -20,7 +20,6 @@
  .jk-journal-overview li{display:flex;align-items:flex-start;gap:8px;min-width:0;padding:11px 12px;border:1px solid #d8c6a6;border-radius:7px;background:#faf6ed;font-size:16px;line-height:1.65;overflow-wrap:anywhere;counter-increment:overview}
  .jk-journal-overview li::before{content:counter(overview);display:inline-flex;align-items:center;justify-content:center;flex:0 0 23px;height:23px;border:1px solid #abb99a;border-radius:4px;background:#e9efdf;color:#35543a;font-size:13px;font-weight:700}
  .jk-journal-overview .jk-overview-wide{grid-column:1/-1}
- .jk-journal-overview-note{display:block;margin:0 0 14px;color:#75664e;font-size:13px;line-height:1.6}
  @media(max-width:650px){.jk-journal-overview{grid-template-columns:repeat(2,minmax(0,1fr))}}
  @media(max-width:420px){.jk-journal-overview{grid-template-columns:minmax(0,1fr)}}
  .jk-journal-figure{display:block;width:100%;margin:18px 0 24px!important;break-inside:avoid}
@@ -36,6 +35,7 @@
  .jk-journal-photo-row .jk-journal-figure button{width:100%;background:transparent!important}
  .jk-journal-photo-row .jk-journal-figure img{width:100%;height:auto;max-height:none;object-fit:contain}
  #article-photos.jk-journal-hero{display:block;margin:18px 0 26px!important}
+ #article-photos.jk-journal-hero:empty{display:none;margin:0!important}
  #article-body.jk-hiking-journal a{font-size:inherit!important;line-height:inherit!important;text-decoration:underline;text-underline-offset:3px}
  @media(max-width:600px){#article-body.jk-hiking-journal p{font-size:16px!important}.jk-journal-figure{margin:16px 0 22px!important}}
  `;
@@ -53,12 +53,20 @@
   if(post.journal?.version!==1)return false;
   body.replaceChildren();photos.replaceChildren();body.classList.add('jk-hiking-journal');photos.classList.add('jk-journal-hero');
   const used=new Set(),items=post.photos||[],journal=post.journal;
+  const media=journal.media||[];
+  const headings=journal.headings||[];
+  const orderedMedia=['',...headings].flatMap(section=>media.filter(m=>m.section===section).map(m=>m.src));
+  const lightItems=[...new Set([
+   ...(media.some(m=>m.src===items[0])?[]:items.slice(0,1)),
+   ...orderedMedia.filter(src=>items.includes(src)),
+   ...items
+  ])];
   function figure(src,caption,target){
-   const i=items.indexOf(src);if(i<0||used.has(src))return;used.add(src);
+   const i=lightItems.indexOf(src);if(i<0||used.has(src))return;used.add(src);
    const f=document.createElement('figure'),b=document.createElement('button'),img=document.createElement('img'),c=document.createElement('figcaption');
-   f.className='jk-journal-figure';b.type='button';b.setAttribute('aria-label',(caption||post.title)+' 크게 보기');img.src=src;img.alt=caption||post.title;img.loading='lazy';b.append(img);b.onclick=()=>showLight(items,i);c.textContent=caption||post.title;f.append(b,c);target.append(f);
+   f.className='jk-journal-figure';b.type='button';b.setAttribute('aria-label',(caption||post.title)+' 크게 보기');img.src=src;img.alt=caption||post.title;img.loading='lazy';b.append(img);b.onclick=()=>showLight(lightItems,i);c.textContent=caption||post.title;f.append(b,c);target.append(f);
   }
-  figure(items[0],journal.heroCaption,photos);
+  if(!journal.media?.some(m=>m.src===items[0]))figure(items[0],journal.heroCaption,photos);
   function mediaGroup(media){
    const available=media.filter(m=>items.includes(m.src)&&!used.has(m.src));
    let target=body;
@@ -73,15 +81,20 @@
   let section='',overviewDone=false;const flush=()=>mediaGroup((journal.media||[]).filter(m=>m.section===section));
   for(const block of (post.body||'').split(/\n\s*\n/)){
    if(!block.trim())continue;
-   if((journal.headings||[]).includes(block.trim())){flush();section=block.trim();const h=document.createElement('h3');h.textContent=section;body.append(h)}
+   if((journal.headings||[]).includes(block.trim())){
+    flush();section=block.trim();
+    if(section==='다음 방문 참고')window.JKBlogRoute?.insert(post,body);
+    const h=document.createElement('h3');h.textContent=section;body.append(h);
+   }
    else if(/^(?:이날의 )?산행 한눈에$/.test(section)&&!overviewDone){
     overviewDone=true;const list=document.createElement('ol');list.className='jk-journal-overview';list.setAttribute('aria-label','산행 요약');
     for(const line of block.trim().split('\n').filter(Boolean))for(const text of (line.startsWith('산행강도')?[line]:line.split(' · '))){const item=document.createElement('li');item.textContent=text.trim();if(text.includes('→'))item.className='jk-overview-wide';list.append(item)}
-    body.append(list);if(block.includes('산행강도')){const note=document.createElement('small');note.className='jk-journal-overview-note';note.textContent='산행강도는 거리·기록시간·지형을 고려한 참고 평가입니다. 체력·노면·날씨에 따라 달라집니다.';body.append(note)}
+    body.append(list);
    }
    else{const p=document.createElement('p'),first=block.trim().split('\n')[0];if(/[.!?。]$/.test(first)&&!/^https:\/\//.test(first)&&!/^[^·\n]{1,24}\s·/.test(first))p.className='jk-journal-description';appendText(p,block,journal.linkLabels||{});body.append(p)}
   }
   flush();mediaGroup(items.filter(src=>!used.has(src)).map(src=>({src,caption:(journal.media||[]).find(m=>m.src===src)?.caption})));
+  window.JKBlogRoute?.insert(post,body);
   return true;
  }};
 })();
