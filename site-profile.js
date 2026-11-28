@@ -57,6 +57,7 @@ connect.onclick=async()=>{if(busy)return;let value=input.value.trim();input.valu
 input.addEventListener('keydown',e=>{if(e.key==='Enter'){e.preventDefault();connect.click();}});
 const privateActions=el('div',null,'jk-owner-actions');privateActions.setAttribute('data-nosnippet','');const endButton=el('button','작업 종료');endButton.type='button';endButton.onclick=endSession;privateActions.append(endButton);document.body.append(privateActions);
 const ready=async()=>{
+ if(new URLSearchParams(location.search).get('manage')==='1')open();
  let stored='';
  try{stored=sessionStorage.getItem(key)||'';}catch{}
  if(stored&&!secret){
@@ -64,12 +65,13 @@ const ready=async()=>{
    const response=await fetch('https://api.github.com/user',{headers:{Accept:'application/vnd.github+json',Authorization:'Bearer '+stored},cache:'no-store'});
    if(response.status===401||(response.ok&&String((await response.json()).login).toLowerCase()!=='keunjkim')){
     if(sessionStorage.getItem(key)===stored)sessionStorage.removeItem(key);
-   }else if(response.ok&&sessionStorage.getItem(key)===stored&&!secret){
-    secret=stored;apply(true);window.dispatchEvent(new Event('jk-owner-connected'));
+   }else if(response.ok&&sessionStorage.getItem(key)===stored&&!secret&&!busy){
+    secret=stored;apply(true);
+    if(dialog.open)showTasks();
+    window.dispatchEvent(new Event('jk-owner-connected'));
    }
   }catch{/* A temporary network failure leaves the saved session available for a retry. */}
  }
- if(new URLSearchParams(location.search).get('manage')==='1')open();
 };if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',ready,{once:true});else ready();
 })();
 
