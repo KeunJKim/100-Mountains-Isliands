@@ -16,12 +16,23 @@
  #article-body.jk-hiking-journal p.jk-journal-description{text-indent:1em!important}
  #article-body.jk-hiking-journal h3{font-size:21px!important;line-height:1.45!important;margin:28px 0 12px!important;padding-top:14px;padding-bottom:0;border-top:1px solid #cdbd9f;border-bottom:0}
  #article-body.jk-hiking-journal h3::before{content:'◆';display:inline-block;margin-right:8px;color:#426348;font-size:.75em;vertical-align:2px}
- .jk-journal-overview{width:100%;margin:0;border:1px solid #d8c6a6;border-collapse:collapse;background:#faf6ed;font-size:16px;line-height:1.6}
+ .jk-journal-overview{width:100%;margin:0;border:1px solid #d8c6a6;border-collapse:collapse;table-layout:fixed;background:#faf6ed;font-size:16px;line-height:1.6}
  .jk-journal-overview tr+tr{border-top:1px solid #d8c6a6}
  .jk-journal-overview :is(th,td){padding:8px 12px;vertical-align:top;text-align:start;overflow-wrap:anywhere}
- .jk-journal-overview th{width:24%;font-weight:600;border-inline-end:1px solid #cdbd9f}
- .jk-journal-overview .jk-overview-number{width:2ch;border-inline-end:1px solid #d8c6a6;white-space:nowrap}
+ .jk-journal-overview col:nth-child(3n+1){width:2.8rem}
+ .jk-journal-overview col:nth-child(3n+2){width:17%}
+ .jk-journal-overview th{font-weight:600;border-inline-end:1px solid #cdbd9f}
+ .jk-journal-overview .jk-overview-number{border-inline-end:1px solid #d8c6a6;white-space:nowrap}
+ .jk-journal-overview td:nth-child(4){border-inline-start:1px solid #d8c6a6}
  .jk-journal-overview-divider{margin:14px 0 12px;border:0;border-top:1px solid #cdbd9f}
+ @media(max-width:650px){
+  .jk-journal-overview,.jk-journal-overview tbody{display:block}
+  .jk-journal-overview colgroup{display:none}
+  .jk-journal-overview tr{display:grid;grid-template-columns:2.5rem minmax(5.75rem,27%) minmax(0,1fr)}
+  .jk-journal-overview :is(th,td){padding:7px 8px}
+  .jk-journal-overview tr>:nth-child(n+4){border-top:1px solid #d8c6a6}
+  .jk-journal-overview td:nth-child(4){border-inline-start:0}
+ }
  .jk-journal-figure{display:block;width:100%;margin:18px 0 24px!important;break-inside:avoid}
  .jk-journal-figure button{display:block;width:60%;margin-inline:auto!important;padding:0!important;background:transparent!important;border:0;cursor:zoom-in}
  .jk-journal-figure img{display:block;width:auto;max-width:100%;height:auto;max-height:372px;margin-inline:auto;object-fit:contain;border-radius:9px}
@@ -42,13 +53,23 @@
  document.head.append(style);
  let detailsRequest;
  function appendOverviewRow(rows,label,value){
-  const row=rows.insertRow(),number=row.insertCell(),heading=document.createElement('th');
+  const short=label!=='실제 산행 코스'&&label.length+value.length<=42;
+  const last=rows.lastElementChild;
+  const pair=short&&last?.classList.contains('jk-overview-pair-open');
+  const row=pair?last:rows.insertRow();
+  const number=row.insertCell(),heading=document.createElement('th');
+  if(pair){
+   row.cells[2].colSpan=1;
+   row.classList.remove('jk-overview-pair-open');
+  }else if(short)row.classList.add('jk-overview-pair-open');
   number.className='jk-overview-number';
-  number.textContent=rows.rows.length+'.';
+  number.textContent=rows.querySelectorAll('.jk-overview-number').length+'.';
   heading.scope='row';
   heading.textContent=label;
   row.append(heading);
-  row.insertCell().textContent=value;
+  const cell=row.insertCell();
+  cell.colSpan=pair?1:4;
+  cell.textContent=value;
  }
  function addRecordedCourse(post,overview){
   const keys={mountain:'mountains',island:'islands'};
@@ -119,6 +140,9 @@
     const table=document.createElement('table'),divider=document.createElement('hr');
     table.className='jk-journal-overview';
     table.setAttribute('aria-label','산행 요약');
+    const columns=document.createElement('colgroup');
+    for(let i=0;i<6;i++)columns.append(document.createElement('col'));
+    table.append(columns);
     const rows=table.createTBody();
     for(const line of block.trim().split('\n').map(text=>text.trim()).filter(Boolean)){
      const separator=line.indexOf(' | ');
