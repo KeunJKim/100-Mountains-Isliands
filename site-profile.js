@@ -81,9 +81,23 @@ const menu=document.querySelector('#ux-navigation .ux-menu')||document.querySele
 const bar=menu.closest('.ux-bar')||brand.closest('header .wrap,header .bar')||menu.parentElement;bar.classList.add('jk-header-grid');brand.classList.add('jk-header-title');menu.classList.add('jk-compact-menu');menu.setAttribute('aria-label','전체 산행 분류 메뉴');
 let crumb=document.querySelector('#ux-navigation .ux-breadcrumb');if(!crumb){crumb=document.createElement('div');crumb.className='jk-header-breadcrumb';crumb.textContent=location.pathname==='/'?'대표 홈 · JK 의 산하정복':'대표 홈 › 산행 기록';}crumb.classList.add('jk-header-breadcrumb');bar.append(crumb);
 const base='https://keunjkim.github.io/100-Mountains-Isliands/';
-const sections=[['BAC 100대명산',[['명산 목록','mountains.html'],['명산 지도','mountains-map.html'],['명산 사진','gallery.html?group=mountain']]],['BAC 섬&산100',[['섬&산 목록','islands.html'],['섬&산 지도','islands-map.html'],['섬&산 사진','gallery.html?group=island']]],['영남알프스',[['영남알프스 산행','yeongnam-alps.html'],['영남알프스 지도','yeongnam-alps-map.html'],['영남알프스 사진','gallery.html?group=alps']]],['해외트래킹',[['해외트래킹 기록','overseas-trekking.html'],['해외트래킹 글쓰기','blog.html?compose=overseas']]],['사진 갤러리',[['전체 사진','gallery.html'],['명산 사진','gallery.html?group=mountain'],['섬&산 사진','gallery.html?group=island'],['영남알프스 사진','gallery.html?group=alps'],['명산외산행 사진','gallery.html?group=other']]],['산행 기록',[['산행 블로그','blog.html'],['명산외산행','other-hikes.html'],['해외트래킹','overseas-trekking.html'],['기록 보충 목록','records-to-complete.html'],['GPS 산행기 작성','gpx-import.html']]]];
+const sections=[['BAC 100대명산',[['명산 목록','mountains.html'],['명산 지도','mountains-map.html'],['명산 사진','gallery.html?group=mountain']]],['BAC 섬&산100',[['섬&산 목록','islands.html'],['섬&산 지도','islands-map.html'],['섬&산 사진','gallery.html?group=island']]],['영남알프스',[['영남알프스 산행','yeongnam-alps.html'],['영남알프스 지도','yeongnam-alps-map.html'],['영남알프스 사진','gallery.html?group=alps']]],['해외트래킹',[['해외트래킹 기록','overseas-trekking.html'],['해외트래킹 글쓰기','blog.html?compose=overseas']]],['사진 갤러리',[['전체 사진','gallery.html'],['명산 사진','gallery.html?group=mountain'],['섬&산 사진','gallery.html?group=island'],['영남알프스 사진','gallery.html?group=alps'],['명산외산행 사진','gallery.html?group=other']]],['산행 기록',[['산행 블로그','blog.html'],['명산외산행','other-hikes.html'],['해외트래킹','overseas-trekking.html'],['기록 보충 목록','records-to-complete.html'],['GPS 산행기 작성','gpx-import.html'],['관리자 메뉴','?manage=1']]]];
 const el=(tag,text,cls)=>{const n=document.createElement(tag);if(text)n.textContent=text;if(cls)n.className=cls;return n;};
-const link=(label,path)=>{const a=el('a',label);a.href=path.startsWith('https:')?path:base+path;if(path.includes('?compose=')||path==='gpx-import.html'){a.classList.add('jk-private-nav');a.setAttribute('data-nosnippet','');}if(new URL(a.href).pathname===location.pathname&&!a.href.includes('?'))a.setAttribute('aria-current','page');return a;};
+const link=(label,path)=>{
+ const a=el('a',label);
+ const admin=path==='?manage=1';
+ a.href=admin||path.startsWith('https:')?path:base+path;
+ if(admin||path.includes('?compose=')||path==='gpx-import.html'){
+  a.classList.add('jk-private-nav');
+  a.setAttribute('data-nosnippet','');
+ }
+ if(admin)a.onclick=e=>{
+  e.preventDefault();
+  if(window.JKOwnerSession?.getToken())window.JKOwnerSession.open();
+ };
+ if(new URL(a.href).pathname===location.pathname&&!a.href.includes('?'))a.setAttribute('aria-current','page');
+ return a;
+};
 const ownerStyle=el('style');ownerStyle.textContent='body:not(.jk-owner-mode) :is(.jk-site-admin-entry,.jk-private-nav){display:none!important}';document.head.append(ownerStyle);
 menu.replaceChildren(link('대표 홈','https://keunjkim.github.io/'),link('산행 홈',base));
 for(const [title,items] of sections){const group=el('details',null,'jk-nav-group'),summary=el('summary',title+' ⌄'),drop=el('div',null,'jk-nav-drop');summary.setAttribute('aria-expanded','false');for(const [name,path] of items)drop.append(link(name,path));group.append(summary,drop);menu.append(group);}
