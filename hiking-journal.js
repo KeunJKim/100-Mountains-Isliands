@@ -19,7 +19,8 @@
  .jk-journal-overview{width:100%;margin:0;border:1px solid #d8c6a6;border-collapse:collapse;background:#faf6ed;font-size:16px;line-height:1.6}
  .jk-journal-overview tr+tr{border-top:1px solid #d8c6a6}
  .jk-journal-overview :is(th,td){padding:8px 12px;vertical-align:top;text-align:start;overflow-wrap:anywhere}
- .jk-journal-overview th{width:3ch;padding-inline-end:0;font-weight:normal;white-space:nowrap}
+ .jk-journal-overview th{width:24%;font-weight:600;border-inline-end:1px solid #cdbd9f}
+ .jk-journal-overview .jk-overview-number{width:2ch;border-inline-end:1px solid #d8c6a6;white-space:nowrap}
  .jk-journal-overview-divider{margin:14px 0 12px;border:0;border-top:1px solid #cdbd9f}
  .jk-journal-figure{display:block;width:100%;margin:18px 0 24px!important;break-inside:avoid}
  .jk-journal-figure button{display:block;width:60%;margin-inline:auto!important;padding:0!important;background:transparent!important;border:0;cursor:zoom-in}
@@ -40,12 +41,14 @@
  `;
  document.head.append(style);
  let detailsRequest;
- function appendOverviewRow(rows,text){
-  const row=rows.insertRow(),number=document.createElement('th');
-  number.scope='row';
+ function appendOverviewRow(rows,label,value){
+  const row=rows.insertRow(),number=row.insertCell(),heading=document.createElement('th');
+  number.className='jk-overview-number';
   number.textContent=rows.rows.length+'.';
-  row.append(number);
-  row.insertCell().textContent=text;
+  heading.scope='row';
+  heading.textContent=label;
+  row.append(heading);
+  row.insertCell().textContent=value;
  }
  function addRecordedCourse(post,overview){
   const keys={mountain:'mountains',island:'islands'};
@@ -62,7 +65,7 @@
    const hike=details?.[key]?.[id];
    const route=typeof hike?.route==='string'?hike.route.trim():'';
    if(!overview.isConnected||!route||hike.hikeDate!==post.hikeDate)return;
-   appendOverviewRow(overview,'실제 산행 코스 · '+route.replace(/\s*->\s*/g,' → '));
+   appendOverviewRow(overview,'실제 산행 코스',route.replace(/\s*->\s*/g,' → '));
   });
  }
  function appendText(node,text,labels){
@@ -117,7 +120,11 @@
     table.className='jk-journal-overview';
     table.setAttribute('aria-label','산행 요약');
     const rows=table.createTBody();
-    for(const line of block.trim().split('\n').map(text=>text.trim()).filter(Boolean))appendOverviewRow(rows,line);
+    for(const line of block.trim().split('\n').map(text=>text.trim()).filter(Boolean)){
+     const separator=line.indexOf(' | ');
+     if(separator<0)appendOverviewRow(rows,'산행 정보',line);
+     else appendOverviewRow(rows,line.slice(0,separator),line.slice(separator+3));
+    }
     divider.className='jk-journal-overview-divider';
     body.append(table,divider);
     addRecordedCourse(post,rows);
