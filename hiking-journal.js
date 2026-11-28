@@ -21,11 +21,12 @@
  .jk-journal-overview :is(th,td){padding:9px 12px;vertical-align:middle;text-align:start;overflow-wrap:anywhere}
  .jk-journal-overview col:nth-child(3n+1){width:2.8rem}
  .jk-journal-overview col:nth-child(3n+2){width:17%}
- .jk-journal-overview th{background:#eef3ec;color:#2d4838;font-weight:700;border-inline-end:1px solid #ccd8cf}
- .jk-journal-overview td{font-variant-numeric:tabular-nums}
- .jk-journal-overview .jk-overview-number{background:#e5eee6;color:#3c5d48;font-size:.86em;font-weight:700;border-inline-end:1px solid #d2ddd3;text-align:center;white-space:nowrap}
+ .jk-journal-overview th{background:#eef3ec!important;color:#2d4838!important;font-weight:700;border-inline-end:1px solid #ccd8cf}
+ .jk-journal-overview td{font-variant-numeric:tabular-nums;border-color:#d8e0d8!important}
+ .jk-journal-overview tr:hover td{background:#fdfefa!important}
+ .jk-journal-overview .jk-overview-number{background:#e5eee6!important;color:#3c5d48;font-size:.86em;font-weight:700;border-inline-end:1px solid #d2ddd3;text-align:center;white-space:nowrap}
  .jk-journal-overview td:nth-child(4){border-inline-start:1px solid #ccd8cf}
- .jk-journal-overview .jk-overview-course td:last-child{background:#f0f5ee;color:#274333;font-weight:600}
+ .jk-journal-overview .jk-overview-course td:last-child{background:#f0f5ee!important;color:#274333;font-weight:600}
  .jk-journal-overview-divider{margin:9px 0 10px;border:0;border-top:1px solid #d3ded3}
  @media(max-width:650px){
   .jk-journal-overview,.jk-journal-overview tbody{display:block}
