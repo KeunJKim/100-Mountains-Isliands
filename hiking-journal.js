@@ -16,21 +16,23 @@
  #article-body.jk-hiking-journal p.jk-journal-description{text-indent:1em!important}
  #article-body.jk-hiking-journal h3{font-size:21px!important;line-height:1.45!important;margin:28px 0 12px!important;padding-top:14px;padding-bottom:0;border-top:1px solid #cdbd9f;border-bottom:0}
  #article-body.jk-hiking-journal h3::before{content:'◆';display:inline-block;margin-right:8px;color:#426348;font-size:.75em;vertical-align:2px}
- .jk-journal-overview{width:100%;margin:0;border:1px solid #d8c6a6;border-collapse:collapse;table-layout:fixed;background:#faf6ed;font-size:16px;line-height:1.6}
- .jk-journal-overview tr+tr{border-top:1px solid #d8c6a6}
- .jk-journal-overview :is(th,td){padding:8px 12px;vertical-align:top;text-align:start;overflow-wrap:anywhere}
+ .jk-journal-overview{width:100%;margin:0;border:1px solid #ccd8cf;border-top:3px solid #557760;border-radius:9px;border-collapse:separate;border-spacing:0;overflow:hidden;table-layout:fixed;background:#fdfefa;color:#263a2e;font-size:16px;line-height:1.5}
+ .jk-journal-overview tr+tr>*{border-top:1px solid #d8e0d8}
+ .jk-journal-overview :is(th,td){padding:9px 12px;vertical-align:middle;text-align:start;overflow-wrap:anywhere}
  .jk-journal-overview col:nth-child(3n+1){width:2.8rem}
  .jk-journal-overview col:nth-child(3n+2){width:17%}
- .jk-journal-overview th{font-weight:600;border-inline-end:1px solid #cdbd9f}
- .jk-journal-overview .jk-overview-number{border-inline-end:1px solid #d8c6a6;white-space:nowrap}
- .jk-journal-overview td:nth-child(4){border-inline-start:1px solid #d8c6a6}
- .jk-journal-overview-divider{margin:14px 0 12px;border:0;border-top:1px solid #cdbd9f}
+ .jk-journal-overview th{background:#eef3ec;color:#2d4838;font-weight:700;border-inline-end:1px solid #ccd8cf}
+ .jk-journal-overview td{font-variant-numeric:tabular-nums}
+ .jk-journal-overview .jk-overview-number{background:#e5eee6;color:#3c5d48;font-size:.86em;font-weight:700;border-inline-end:1px solid #d2ddd3;text-align:center;white-space:nowrap}
+ .jk-journal-overview td:nth-child(4){border-inline-start:1px solid #ccd8cf}
+ .jk-journal-overview .jk-overview-course td:last-child{background:#f0f5ee;color:#274333;font-weight:600}
+ .jk-journal-overview-divider{margin:9px 0 10px;border:0;border-top:1px solid #d3ded3}
  @media(max-width:650px){
   .jk-journal-overview,.jk-journal-overview tbody{display:block}
   .jk-journal-overview colgroup{display:none}
   .jk-journal-overview tr{display:grid;grid-template-columns:2.5rem minmax(5.75rem,27%) minmax(0,1fr)}
   .jk-journal-overview :is(th,td){padding:7px 8px}
-  .jk-journal-overview tr>:nth-child(n+4){border-top:1px solid #d8c6a6}
+  .jk-journal-overview tr>:nth-child(n+4){border-top:1px solid #d8e0d8}
   .jk-journal-overview td:nth-child(4){border-inline-start:0}
  }
  .jk-journal-figure{display:block;width:100%;margin:18px 0 24px!important;break-inside:avoid}
@@ -57,6 +59,7 @@
   const last=rows.lastElementChild;
   const pair=short&&last?.classList.contains('jk-overview-pair-open');
   const row=pair?last:rows.insertRow();
+  if(label==='산행코스')row.classList.add('jk-overview-course');
   const number=row.insertCell(),heading=document.createElement('th');
   if(pair){
    row.cells[2].colSpan=1;
