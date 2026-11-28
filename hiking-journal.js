@@ -53,7 +53,7 @@
  document.head.append(style);
  let detailsRequest;
  function appendOverviewRow(rows,label,value){
-  const short=label!=='실제 산행 코스'&&label.length+value.length<=42;
+  const short=label!=='산행강도'&&label!=='산행코스'&&label.length+value.length<=42;
   const last=rows.lastElementChild;
   const pair=short&&last?.classList.contains('jk-overview-pair-open');
   const row=pair?last:rows.insertRow();
@@ -86,7 +86,7 @@
    const hike=details?.[key]?.[id];
    const route=typeof hike?.route==='string'?hike.route.trim():'';
    if(!overview.isConnected||!route||hike.hikeDate!==post.hikeDate)return;
-   appendOverviewRow(overview,'실제 산행 코스',route.replace(/\s*->\s*/g,' → '));
+   appendOverviewRow(overview,'산행코스',route.replace(/\s*->\s*/g,' → '));
   });
  }
  function appendText(node,text,labels){
